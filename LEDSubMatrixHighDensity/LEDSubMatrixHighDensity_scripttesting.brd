@@ -257,7 +257,7 @@ W = angled&lt;p&gt;
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="default *">
+<designrules name="jlcpcb_4layer_1oz">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -275,22 +275,22 @@ design rules under a new name.</description>
 <param name="layerSetup" value="(1+2*15+16)"/>
 <param name="mtCopper" value="0.035mm 0.0175mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.0175mm 0.035mm"/>
 <param name="mtIsolate" value="0.2mm 1.065mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="6mil"/>
-<param name="mdWirePad" value="6mil"/>
-<param name="mdWireVia" value="6mil"/>
-<param name="mdPadPad" value="6mil"/>
+<param name="mdWireWire" value="5mil"/>
+<param name="mdWirePad" value="0.2mm"/>
+<param name="mdWireVia" value="10mil"/>
+<param name="mdPadPad" value="5mil"/>
 <param name="mdPadVia" value="6mil"/>
 <param name="mdViaVia" value="6mil"/>
-<param name="mdSmdPad" value="6mil"/>
-<param name="mdSmdVia" value="6mil"/>
-<param name="mdSmdSmd" value="6mil"/>
+<param name="mdSmdPad" value="5mil"/>
+<param name="mdSmdVia" value="5mil"/>
+<param name="mdSmdSmd" value="5mil"/>
 <param name="mdViaViaSameLayer" value="6mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
 <param name="mdCopperDimension" value="40mil"/>
 <param name="mdDrill" value="6mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="6mil"/>
-<param name="msDrill" value="0.35mm"/>
+<param name="msWidth" value="3.5mil"/>
+<param name="msDrill" value="0.2mm"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
@@ -306,9 +306,9 @@ design rules under a new name.</description>
 <param name="rlMaxPadInner" value="20mil"/>
 <param name="rlMinPadBottom" value="10mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMinViaOuter" value="0.1mm"/>
 <param name="rlMaxViaOuter" value="20mil"/>
-<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMinViaInner" value="0.05mm"/>
 <param name="rlMaxViaInner" value="20mil"/>
 <param name="rlMinMicroViaOuter" value="4mil"/>
 <param name="rlMaxMicroViaOuter" value="20mil"/>
@@ -2140,32 +2140,72 @@ design rules under a new name.</description>
 <signal name="N$LEDB1_IC1_PIN4">
 <contactref element="LED1" pad="2"/>
 <contactref element="IC1" pad="4"/>
-<wire x1="3.216665625" y1="-2.562" x2="2.916665625" y2="-2.566665625" width="0" layer="19" extent="1-16"/>
+<wire x1="3.216665625" y1="-2.562" x2="3.216665625" y2="-3.43523125" width="0.1" layer="16"/>
+<wire x1="3.216665625" y1="-3.43523125" x2="2.9" y2="-3.751896875" width="0.1" layer="16"/>
+<via x="2.9" y="-3.751896875" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="2.9" y1="-3.751896875" x2="2.9" y2="-2.58333125" width="0.1" layer="1"/>
+<wire x1="2.9" y1="-2.58333125" x2="2.916665625" y2="-2.566665625" width="0.1" layer="1"/>
 </signal>
 <signal name="N$LEDR1_IC1_PIN5">
 <contactref element="LED1" pad="4"/>
 <contactref element="IC1" pad="5"/>
-<wire x1="3.716665625" y1="-2.562" x2="1.316665625" y2="-1.666665625" width="0" layer="19" extent="1-16"/>
+<wire x1="3.716665625" y1="-2.562" x2="3.716665625" y2="-1.016665625" width="0.1" layer="16"/>
+<wire x1="3.716665625" y1="-1.016665625" x2="3.7" y2="-1" width="0.1" layer="16"/>
+<via x="3.7" y="-1" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="3.7" y1="-1" x2="1.4" y2="-1" width="0.1" layer="15"/>
+<via x="1.4" y="-1" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="1.4" y1="-1" x2="1.316665625" y2="-1.083334375" width="0.1" layer="1"/>
+<wire x1="1.316665625" y1="-1.083334375" x2="1.316665625" y2="-1.666665625" width="0.1" layer="1"/>
 </signal>
 <signal name="N$LEDG1_IC1_PIN6">
 <contactref element="LED1" pad="1"/>
 <contactref element="IC1" pad="6"/>
-<wire x1="4.216665625" y1="-2.562" x2="2.916665625" y2="-1.666665625" width="0" layer="19" extent="1-16"/>
+<wire x1="4.216665625" y1="-2.562" x2="4.216665625" y2="-1.404003125" width="0.1" layer="16"/>
+<wire x1="4.216665625" y1="-1.404003125" x2="4.22066875" y2="-1.4" width="0.1" layer="16"/>
+<via x="4.22066875" y="-1.4" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="4.22066875" y1="-1.4" x2="4.054003125" y2="-1.566665625" width="0.1" layer="1"/>
+<wire x1="4.054003125" y1="-1.566665625" x2="3.016665625" y2="-1.566665625" width="0.1" layer="1"/>
+<wire x1="3.016665625" y1="-1.566665625" x2="2.916665625" y2="-1.666665625" width="0.1" layer="1"/>
 </signal>
 <signal name="N$LEDB5_IC1_PIN7">
 <contactref element="LED5" pad="2"/>
 <contactref element="IC1" pad="7"/>
-<wire x1="4.716665625" y1="-2.562" x2="2.916665625" y2="-6.8" width="0" layer="19" extent="1-16"/>
+<via x="4.7" y="-4.66210625" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="4.716665625" y1="-2.562" x2="4.70010625" y2="-2.578559375" width="0.1" layer="16"/>
+<wire x1="4.70010625" y1="-2.578559375" x2="4.70010625" y2="-4.662" width="0.1" layer="16"/>
+<wire x1="4.70010625" y1="-4.662" x2="4.7" y2="-4.66210625" width="0.1" layer="16"/>
+<wire x1="4.7" y1="-4.66210625" x2="4.7" y2="-5.8" width="0.1" layer="15"/>
+<wire x1="4.7" y1="-5.8" x2="3.7" y2="-6.8" width="0.1" layer="15"/>
+<via x="3.7" y="-6.8" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="3.7" y1="-6.8" x2="2.916665625" y2="-6.8" width="0.1" layer="1"/>
 </signal>
 <signal name="N$LEDR5_IC1_PIN8">
 <contactref element="LED5" pad="4"/>
 <contactref element="IC1" pad="8"/>
-<wire x1="5.216665625" y1="-2.562" x2="1.316665625" y2="-5.9" width="0" layer="19" extent="1-16"/>
+<wire x1="5.216665625" y1="-2.562" x2="5.216665625" y2="-3.691546875" width="0.1" layer="16"/>
+<wire x1="5.216665625" y1="-3.691546875" x2="5.20410625" y2="-3.70410625" width="0.1" layer="16"/>
+<via x="5.20410625" y="-3.70410625" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="5.20410625" y1="-3.70410625" x2="4.19589375" y2="-3.70410625" width="0.1" layer="15"/>
+<wire x1="1.4" y1="-5.1" x2="1.3" y2="-5.2" width="0.1" layer="15"/>
+<via x="1.3" y="-5.2" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="1.3" y1="-5.2" x2="1.316665625" y2="-5.216665625" width="0.1" layer="1"/>
+<wire x1="1.316665625" y1="-5.216665625" x2="1.316665625" y2="-5.9" width="0.1" layer="1"/>
+<wire x1="4.19589375" y1="-3.70410625" x2="2.8" y2="-5.1" width="0.1" layer="15"/>
+<wire x1="2.8" y1="-5.1" x2="1.4" y2="-5.1" width="0.1" layer="15"/>
 </signal>
 <signal name="N$LEDG5_IC1_PIN9">
 <contactref element="LED5" pad="1"/>
 <contactref element="IC1" pad="9"/>
-<wire x1="5.716665625" y1="-2.562" x2="2.916665625" y2="-5.9" width="0" layer="19" extent="1-16"/>
+<wire x1="5.716665625" y1="-2.562" x2="5.716665625" y2="-4.083334375" width="0.1" layer="16"/>
+<wire x1="5.716665625" y1="-4.083334375" x2="5.7" y2="-4.1" width="0.1" layer="16"/>
+<via x="5.7" y="-4.1" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="5.74189375" y1="-4.15810625" x2="5.7" y2="-4.1162125" width="0.1" layer="15"/>
+<wire x1="5.7" y1="-4.1" x2="5.7" y2="-4.1162125" width="0.1" layer="15"/>
+<wire x1="5.74189375" y1="-4.15810625" x2="4.24189375" y2="-4.15810625" width="0.1" layer="15"/>
+<wire x1="3.7" y1="-4.7" x2="3.7" y2="-5.9" width="0.1" layer="15"/>
+<via x="3.7" y="-5.9" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="3.7" y1="-5.9" x2="2.916665625" y2="-5.9" width="0.1" layer="1"/>
+<wire x1="4.24189375" y1="-4.15810625" x2="3.7" y2="-4.7" width="0.1" layer="15"/>
 </signal>
 <signal name="N$LEDB2_IC1_PIN10">
 <contactref element="LED2" pad="2"/>
@@ -2380,32 +2420,72 @@ design rules under a new name.</description>
 <signal name="N$LEDB17_IC2_PIN4">
 <contactref element="LED17" pad="2"/>
 <contactref element="IC2" pad="4"/>
-<wire x1="3.216665625" y1="-19.495334375" x2="2.916665625" y2="-19.5" width="0" layer="19" extent="1-16"/>
+<wire x1="3.216665625" y1="-19.495334375" x2="3.216665625" y2="-20.368565625" width="0.1" layer="16"/>
+<wire x1="3.216665625" y1="-20.368565625" x2="2.9" y2="-20.68523125" width="0.1" layer="16"/>
+<via x="2.9" y="-20.68523125" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="2.9" y1="-20.68523125" x2="2.9" y2="-19.516665625" width="0.1" layer="1"/>
+<wire x1="2.9" y1="-19.516665625" x2="2.916665625" y2="-19.5" width="0.1" layer="1"/>
 </signal>
 <signal name="N$LEDR17_IC2_PIN5">
 <contactref element="LED17" pad="4"/>
 <contactref element="IC2" pad="5"/>
-<wire x1="3.716665625" y1="-19.495334375" x2="1.316665625" y2="-18.6" width="0" layer="19" extent="1-16"/>
+<wire x1="3.716665625" y1="-19.495334375" x2="3.716665625" y2="-17.95" width="0.1" layer="16"/>
+<wire x1="3.716665625" y1="-17.95" x2="3.7" y2="-17.933334375" width="0.1" layer="16"/>
+<via x="3.7" y="-17.933334375" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="3.7" y1="-17.933334375" x2="1.4" y2="-17.933334375" width="0.1" layer="15"/>
+<via x="1.4" y="-17.933334375" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="1.4" y1="-17.933334375" x2="1.316665625" y2="-18.01666875" width="0.1" layer="1"/>
+<wire x1="1.316665625" y1="-18.01666875" x2="1.316665625" y2="-18.6" width="0.1" layer="1"/>
 </signal>
 <signal name="N$LEDG17_IC2_PIN6">
 <contactref element="LED17" pad="1"/>
 <contactref element="IC2" pad="6"/>
-<wire x1="4.216665625" y1="-19.495334375" x2="2.916665625" y2="-18.6" width="0" layer="19" extent="1-16"/>
+<wire x1="4.216665625" y1="-19.495334375" x2="4.216665625" y2="-18.3373375" width="0.1" layer="16"/>
+<wire x1="4.216665625" y1="-18.3373375" x2="4.22066875" y2="-18.333334375" width="0.1" layer="16"/>
+<via x="4.22066875" y="-18.333334375" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="4.22066875" y1="-18.333334375" x2="4.054003125" y2="-18.5" width="0.1" layer="1"/>
+<wire x1="4.054003125" y1="-18.5" x2="3.016665625" y2="-18.5" width="0.1" layer="1"/>
+<wire x1="3.016665625" y1="-18.5" x2="2.916665625" y2="-18.6" width="0.1" layer="1"/>
 </signal>
 <signal name="N$LEDB21_IC2_PIN7">
 <contactref element="LED21" pad="2"/>
 <contactref element="IC2" pad="7"/>
-<wire x1="4.716665625" y1="-19.495334375" x2="2.916665625" y2="-23.733334375" width="0" layer="19" extent="1-16"/>
+<via x="4.7" y="-21.595440625" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="4.716665625" y1="-19.495334375" x2="4.70010625" y2="-19.51189375" width="0.1" layer="16"/>
+<wire x1="4.70010625" y1="-19.51189375" x2="4.70010625" y2="-21.595334375" width="0.1" layer="16"/>
+<wire x1="4.70010625" y1="-21.595334375" x2="4.7" y2="-21.595440625" width="0.1" layer="16"/>
+<wire x1="4.7" y1="-21.595440625" x2="4.7" y2="-22.733334375" width="0.1" layer="15"/>
+<wire x1="4.7" y1="-22.733334375" x2="3.7" y2="-23.733334375" width="0.1" layer="15"/>
+<via x="3.7" y="-23.733334375" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="3.7" y1="-23.733334375" x2="2.916665625" y2="-23.733334375" width="0.1" layer="1"/>
 </signal>
 <signal name="N$LEDR21_IC2_PIN8">
 <contactref element="LED21" pad="4"/>
 <contactref element="IC2" pad="8"/>
-<wire x1="5.216665625" y1="-19.495334375" x2="1.316665625" y2="-22.833334375" width="0" layer="19" extent="1-16"/>
+<wire x1="5.216665625" y1="-19.495334375" x2="5.216665625" y2="-20.62488125" width="0.1" layer="16"/>
+<wire x1="5.216665625" y1="-20.62488125" x2="5.20410625" y2="-20.637440625" width="0.1" layer="16"/>
+<via x="5.20410625" y="-20.637440625" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="5.20410625" y1="-20.637440625" x2="4.19589375" y2="-20.637440625" width="0.1" layer="15"/>
+<wire x1="1.4" y1="-22.033334375" x2="1.3" y2="-22.133334375" width="0.1" layer="15"/>
+<via x="1.3" y="-22.133334375" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="1.3" y1="-22.133334375" x2="1.316665625" y2="-22.15" width="0.1" layer="1"/>
+<wire x1="1.316665625" y1="-22.15" x2="1.316665625" y2="-22.833334375" width="0.1" layer="1"/>
+<wire x1="4.19589375" y1="-20.637440625" x2="2.8" y2="-22.033334375" width="0.1" layer="15"/>
+<wire x1="2.8" y1="-22.033334375" x2="1.4" y2="-22.033334375" width="0.1" layer="15"/>
 </signal>
 <signal name="N$LEDG21_IC2_PIN9">
 <contactref element="LED21" pad="1"/>
 <contactref element="IC2" pad="9"/>
-<wire x1="5.716665625" y1="-19.495334375" x2="2.916665625" y2="-22.833334375" width="0" layer="19" extent="1-16"/>
+<wire x1="5.716665625" y1="-19.495334375" x2="5.716665625" y2="-21.01666875" width="0.1" layer="16"/>
+<wire x1="5.716665625" y1="-21.01666875" x2="5.7" y2="-21.033334375" width="0.1" layer="16"/>
+<via x="5.7" y="-21.033334375" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="5.74189375" y1="-21.091440625" x2="5.7" y2="-21.049546875" width="0.1" layer="15"/>
+<wire x1="5.7" y1="-21.033334375" x2="5.7" y2="-21.049546875" width="0.1" layer="15"/>
+<wire x1="5.74189375" y1="-21.091440625" x2="4.24189375" y2="-21.091440625" width="0.1" layer="15"/>
+<wire x1="3.7" y1="-21.633334375" x2="3.7" y2="-22.833334375" width="0.1" layer="15"/>
+<via x="3.7" y="-22.833334375" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="3.7" y1="-22.833334375" x2="2.916665625" y2="-22.833334375" width="0.1" layer="1"/>
+<wire x1="4.24189375" y1="-21.091440625" x2="3.7" y2="-21.633334375" width="0.1" layer="15"/>
 </signal>
 <signal name="N$LEDB18_IC2_PIN10">
 <contactref element="LED18" pad="2"/>
@@ -2425,22 +2505,22 @@ design rules under a new name.</description>
 <signal name="N$LEDB22_IC2_PIN13">
 <contactref element="LED22" pad="2"/>
 <contactref element="IC2" pad="13"/>
-<wire x1="7.716665625" y1="-19.495334375" x2="7.15" y2="-23.733334375" width="0" layer="19" extent="1-16"/>
+<wire x1="7.15" y1="-23.733334375" x2="7.716665625" y2="-19.495334375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR22_IC2_PIN14">
 <contactref element="LED22" pad="4"/>
 <contactref element="IC2" pad="14"/>
-<wire x1="8.216665625" y1="-19.495334375" x2="5.55" y2="-22.833334375" width="0" layer="19" extent="1-16"/>
+<wire x1="5.55" y1="-22.833334375" x2="8.216665625" y2="-19.495334375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG22_IC2_PIN15">
 <contactref element="LED22" pad="1"/>
 <contactref element="IC2" pad="15"/>
-<wire x1="8.716665625" y1="-19.495334375" x2="7.15" y2="-22.833334375" width="0" layer="19" extent="1-16"/>
+<wire x1="7.15" y1="-22.833334375" x2="8.716665625" y2="-19.495334375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB19_IC2_PIN16">
 <contactref element="LED19" pad="2"/>
 <contactref element="IC2" pad="16"/>
-<wire x1="11.383334375" y1="-19.5" x2="9.216665625" y2="-19.495334375" width="0" layer="19" extent="1-16"/>
+<wire x1="9.216665625" y1="-19.495334375" x2="11.383334375" y2="-19.5" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR19_IC2_PIN17">
 <contactref element="LED19" pad="4"/>
@@ -2455,17 +2535,17 @@ design rules under a new name.</description>
 <signal name="N$LEDB25_IC2_PIN53">
 <contactref element="LED25" pad="2"/>
 <contactref element="IC2" pad="53"/>
-<wire x1="3.216665625" y1="-27.071334375" x2="2.916665625" y2="-27.966665625" width="0" layer="19" extent="1-16"/>
+<wire x1="3.216665625" y1="-27.071334375" x2="2.916665625" y2="-27.96666875" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR25_IC2_PIN52">
 <contactref element="LED25" pad="4"/>
 <contactref element="IC2" pad="52"/>
-<wire x1="3.716665625" y1="-27.071334375" x2="1.316665625" y2="-27.066665625" width="0" layer="19" extent="1-16"/>
+<wire x1="3.716665625" y1="-27.071334375" x2="1.316665625" y2="-27.06666875" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG25_IC2_PIN51">
 <contactref element="LED25" pad="1"/>
 <contactref element="IC2" pad="51"/>
-<wire x1="4.216665625" y1="-27.071334375" x2="2.916665625" y2="-27.066665625" width="0" layer="19" extent="1-16"/>
+<wire x1="4.216665625" y1="-27.071334375" x2="2.916665625" y2="-27.06666875" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB29_IC2_PIN50">
 <contactref element="LED29" pad="2"/>
@@ -2485,17 +2565,17 @@ design rules under a new name.</description>
 <signal name="N$LEDB26_IC2_PIN47">
 <contactref element="LED26" pad="2"/>
 <contactref element="IC2" pad="47"/>
-<wire x1="6.216665625" y1="-27.071334375" x2="7.15" y2="-27.966665625" width="0" layer="19" extent="1-16"/>
+<wire x1="6.216665625" y1="-27.071334375" x2="7.15" y2="-27.96666875" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR26_IC2_PIN46">
 <contactref element="LED26" pad="4"/>
 <contactref element="IC2" pad="46"/>
-<wire x1="6.716665625" y1="-27.071334375" x2="5.55" y2="-27.066665625" width="0" layer="19" extent="1-16"/>
+<wire x1="6.716665625" y1="-27.071334375" x2="5.55" y2="-27.06666875" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG26_IC2_PIN45">
 <contactref element="LED26" pad="1"/>
 <contactref element="IC2" pad="45"/>
-<wire x1="7.216665625" y1="-27.071334375" x2="7.15" y2="-27.066665625" width="0" layer="19" extent="1-16"/>
+<wire x1="7.216665625" y1="-27.071334375" x2="7.15" y2="-27.06666875" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB30_IC2_PIN44">
 <contactref element="LED30" pad="2"/>
@@ -2515,17 +2595,17 @@ design rules under a new name.</description>
 <signal name="N$LEDB27_IC2_PIN41">
 <contactref element="LED27" pad="2"/>
 <contactref element="IC2" pad="41"/>
-<wire x1="9.216665625" y1="-27.071334375" x2="11.383334375" y2="-27.966665625" width="0" layer="19" extent="1-16"/>
+<wire x1="9.216665625" y1="-27.071334375" x2="11.383334375" y2="-27.96666875" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR27_IC2_PIN40">
 <contactref element="LED27" pad="4"/>
 <contactref element="IC2" pad="40"/>
-<wire x1="9.716665625" y1="-27.071334375" x2="9.783334375" y2="-27.066665625" width="0" layer="19" extent="1-16"/>
+<wire x1="9.716665625" y1="-27.071334375" x2="9.783334375" y2="-27.06666875" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG27_IC2_PIN39">
 <contactref element="LED27" pad="1"/>
 <contactref element="IC2" pad="39"/>
-<wire x1="10.216665625" y1="-27.071334375" x2="11.383334375" y2="-27.066665625" width="0" layer="19" extent="1-16"/>
+<wire x1="10.216665625" y1="-27.071334375" x2="11.383334375" y2="-27.06666875" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB31_IC2_PIN38">
 <contactref element="LED31" pad="2"/>
@@ -2545,52 +2625,52 @@ design rules under a new name.</description>
 <signal name="N$LEDB28_IC2_PIN35">
 <contactref element="LED28" pad="2"/>
 <contactref element="IC2" pad="35"/>
-<wire x1="15.616665625" y1="-27.966665625" x2="12.216665625" y2="-27.071334375" width="0" layer="19" extent="1-16"/>
+<wire x1="12.216665625" y1="-27.071334375" x2="15.616665625" y2="-27.96666875" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR28_IC2_PIN34">
 <contactref element="LED28" pad="4"/>
 <contactref element="IC2" pad="34"/>
-<wire x1="12.716665625" y1="-27.071334375" x2="14.016665625" y2="-27.066665625" width="0" layer="19" extent="1-16"/>
+<wire x1="12.716665625" y1="-27.071334375" x2="14.016665625" y2="-27.06666875" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG28_IC2_PIN33">
 <contactref element="LED28" pad="1"/>
 <contactref element="IC2" pad="33"/>
-<wire x1="15.616665625" y1="-27.066665625" x2="13.216665625" y2="-27.071334375" width="0" layer="19" extent="1-16"/>
+<wire x1="13.216665625" y1="-27.071334375" x2="15.616665625" y2="-27.06666875" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB32_IC2_PIN32">
 <contactref element="LED32" pad="2"/>
 <contactref element="IC2" pad="32"/>
-<wire x1="13.716665625" y1="-27.071334375" x2="15.616665625" y2="-32.2" width="0" layer="19" extent="1-16"/>
+<wire x1="15.616665625" y1="-32.2" x2="13.716665625" y2="-27.071334375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR32_IC2_PIN31">
 <contactref element="LED32" pad="4"/>
 <contactref element="IC2" pad="31"/>
-<wire x1="14.216665625" y1="-27.071334375" x2="14.016665625" y2="-31.3" width="0" layer="19" extent="1-16"/>
+<wire x1="14.016665625" y1="-31.3" x2="14.216665625" y2="-27.071334375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG32_IC2_PIN30">
 <contactref element="LED32" pad="1"/>
 <contactref element="IC2" pad="30"/>
-<wire x1="14.716665625" y1="-27.071334375" x2="15.616665625" y2="-31.3" width="0" layer="19" extent="1-16"/>
+<wire x1="15.616665625" y1="-31.3" x2="14.716665625" y2="-27.071334375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB23_IC2_PIN19">
 <contactref element="LED23" pad="2"/>
 <contactref element="IC2" pad="19"/>
-<wire x1="10.716665625" y1="-19.495334375" x2="11.383334375" y2="-23.733334375" width="0" layer="19" extent="1-16"/>
+<wire x1="11.383334375" y1="-23.733334375" x2="10.716665625" y2="-19.495334375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR23_IC2_PIN20">
 <contactref element="LED23" pad="4"/>
 <contactref element="IC2" pad="20"/>
-<wire x1="11.216665625" y1="-19.495334375" x2="9.783334375" y2="-22.833334375" width="0" layer="19" extent="1-16"/>
+<wire x1="9.783334375" y1="-22.833334375" x2="11.216665625" y2="-19.495334375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG23_IC2_PIN21">
 <contactref element="LED23" pad="1"/>
 <contactref element="IC2" pad="21"/>
-<wire x1="11.716665625" y1="-19.495334375" x2="11.383334375" y2="-22.833334375" width="0" layer="19" extent="1-16"/>
+<wire x1="11.383334375" y1="-22.833334375" x2="11.716665625" y2="-19.495334375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB20_IC2_PIN22">
 <contactref element="LED20" pad="2"/>
 <contactref element="IC2" pad="22"/>
-<wire x1="15.616665625" y1="-19.5" x2="12.216665625" y2="-19.495334375" width="0" layer="19" extent="1-16"/>
+<wire x1="12.216665625" y1="-19.495334375" x2="15.616665625" y2="-19.5" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR20_IC2_PIN23">
 <contactref element="LED20" pad="4"/>
@@ -2600,7 +2680,7 @@ design rules under a new name.</description>
 <signal name="N$LEDG20_IC2_PIN24">
 <contactref element="LED20" pad="1"/>
 <contactref element="IC2" pad="24"/>
-<wire x1="15.616665625" y1="-18.6" x2="13.216665625" y2="-19.495334375" width="0" layer="19" extent="1-16"/>
+<wire x1="13.216665625" y1="-19.495334375" x2="15.616665625" y2="-18.6" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB24_IC2_PIN25">
 <contactref element="LED24" pad="2"/>
@@ -2610,7 +2690,7 @@ design rules under a new name.</description>
 <signal name="N$LEDR24_IC2_PIN26">
 <contactref element="LED24" pad="4"/>
 <contactref element="IC2" pad="26"/>
-<wire x1="14.216665625" y1="-19.495334375" x2="14.016665625" y2="-22.833334375" width="0" layer="19" extent="1-16"/>
+<wire x1="14.016665625" y1="-22.833334375" x2="14.216665625" y2="-19.495334375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG24_IC2_PIN27">
 <contactref element="LED24" pad="1"/>
@@ -2620,77 +2700,117 @@ design rules under a new name.</description>
 <signal name="N$LEDB33_IC3_PIN4">
 <contactref element="LED33" pad="2"/>
 <contactref element="IC3" pad="4"/>
-<wire x1="3.216665625" y1="-36.428665625" x2="2.916665625" y2="-36.433334375" width="0" layer="19" extent="1-16"/>
+<wire x1="3.216665625" y1="-36.428665625" x2="3.216665625" y2="-37.301896875" width="0.1" layer="16"/>
+<wire x1="3.216665625" y1="-37.301896875" x2="2.9" y2="-37.6185625" width="0.1" layer="16"/>
+<via x="2.9" y="-37.6185625" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="2.9" y1="-37.6185625" x2="2.9" y2="-36.449996875" width="0.1" layer="1"/>
+<wire x1="2.9" y1="-36.449996875" x2="2.916665625" y2="-36.43333125" width="0.1" layer="1"/>
 </signal>
 <signal name="N$LEDR33_IC3_PIN5">
 <contactref element="LED33" pad="4"/>
 <contactref element="IC3" pad="5"/>
-<wire x1="3.716665625" y1="-36.428665625" x2="1.316665625" y2="-35.533334375" width="0" layer="19" extent="1-16"/>
+<wire x1="3.716665625" y1="-36.428665625" x2="3.716665625" y2="-34.88333125" width="0.1" layer="16"/>
+<wire x1="3.716665625" y1="-34.88333125" x2="3.7" y2="-34.866665625" width="0.1" layer="16"/>
+<via x="3.7" y="-34.866665625" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="3.7" y1="-34.866665625" x2="1.4" y2="-34.866665625" width="0.1" layer="15"/>
+<via x="1.4" y="-34.866665625" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="1.4" y1="-34.866665625" x2="1.316665625" y2="-34.95" width="0.1" layer="1"/>
+<wire x1="1.316665625" y1="-34.95" x2="1.316665625" y2="-35.53333125" width="0.1" layer="1"/>
 </signal>
 <signal name="N$LEDG33_IC3_PIN6">
 <contactref element="LED33" pad="1"/>
 <contactref element="IC3" pad="6"/>
-<wire x1="2.916665625" y1="-35.533334375" x2="4.216665625" y2="-36.428665625" width="0" layer="19" extent="1-16"/>
+<wire x1="4.216665625" y1="-36.428665625" x2="4.216665625" y2="-35.27066875" width="0.1" layer="16"/>
+<wire x1="4.216665625" y1="-35.27066875" x2="4.22066875" y2="-35.266665625" width="0.1" layer="16"/>
+<via x="4.22066875" y="-35.266665625" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="4.22066875" y1="-35.266665625" x2="4.054003125" y2="-35.43333125" width="0.1" layer="1"/>
+<wire x1="4.054003125" y1="-35.43333125" x2="3.016665625" y2="-35.43333125" width="0.1" layer="1"/>
+<wire x1="3.016665625" y1="-35.43333125" x2="2.916665625" y2="-35.53333125" width="0.1" layer="1"/>
 </signal>
 <signal name="N$LEDB37_IC3_PIN7">
 <contactref element="LED37" pad="2"/>
 <contactref element="IC3" pad="7"/>
-<wire x1="4.716665625" y1="-36.428665625" x2="2.916665625" y2="-40.666665625" width="0" layer="19" extent="1-16"/>
+<via x="4.7" y="-38.528771875" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="4.716665625" y1="-36.428665625" x2="4.70010625" y2="-36.445225" width="0.1" layer="16"/>
+<wire x1="4.70010625" y1="-36.445225" x2="4.70010625" y2="-38.528665625" width="0.1" layer="16"/>
+<wire x1="4.70010625" y1="-38.528665625" x2="4.7" y2="-38.528771875" width="0.1" layer="16"/>
+<wire x1="4.7" y1="-38.528771875" x2="4.7" y2="-39.666665625" width="0.1" layer="15"/>
+<wire x1="4.7" y1="-39.666665625" x2="3.7" y2="-40.666665625" width="0.1" layer="15"/>
+<via x="3.7" y="-40.666665625" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="3.7" y1="-40.666665625" x2="2.916665625" y2="-40.666665625" width="0.1" layer="1"/>
 </signal>
 <signal name="N$LEDR37_IC3_PIN8">
 <contactref element="LED37" pad="4"/>
 <contactref element="IC3" pad="8"/>
-<wire x1="5.216665625" y1="-36.428665625" x2="1.316665625" y2="-39.766665625" width="0" layer="19" extent="1-16"/>
+<wire x1="5.216665625" y1="-36.428665625" x2="5.216665625" y2="-37.5582125" width="0.1" layer="16"/>
+<wire x1="5.216665625" y1="-37.5582125" x2="5.20410625" y2="-37.570771875" width="0.1" layer="16"/>
+<via x="5.20410625" y="-37.570771875" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="5.20410625" y1="-37.570771875" x2="4.19589375" y2="-37.570771875" width="0.1" layer="15"/>
+<wire x1="1.4" y1="-38.966665625" x2="1.3" y2="-39.066665625" width="0.1" layer="15"/>
+<via x="1.3" y="-39.066665625" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="1.3" y1="-39.066665625" x2="1.316665625" y2="-39.08333125" width="0.1" layer="1"/>
+<wire x1="1.316665625" y1="-39.08333125" x2="1.316665625" y2="-39.766665625" width="0.1" layer="1"/>
+<wire x1="4.19589375" y1="-37.570771875" x2="2.8" y2="-38.966665625" width="0.1" layer="15"/>
+<wire x1="2.8" y1="-38.966665625" x2="1.4" y2="-38.966665625" width="0.1" layer="15"/>
 </signal>
 <signal name="N$LEDG37_IC3_PIN9">
 <contactref element="LED37" pad="1"/>
 <contactref element="IC3" pad="9"/>
-<wire x1="5.716665625" y1="-36.428665625" x2="2.916665625" y2="-39.766665625" width="0" layer="19" extent="1-16"/>
+<wire x1="5.716665625" y1="-36.428665625" x2="5.716665625" y2="-37.95" width="0.1" layer="16"/>
+<wire x1="5.716665625" y1="-37.95" x2="5.7" y2="-37.966665625" width="0.1" layer="16"/>
+<via x="5.7" y="-37.966665625" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="5.74189375" y1="-38.024771875" x2="5.7" y2="-37.982878125" width="0.1" layer="15"/>
+<wire x1="5.7" y1="-37.966665625" x2="5.7" y2="-37.982878125" width="0.1" layer="15"/>
+<wire x1="5.74189375" y1="-38.024771875" x2="4.24189375" y2="-38.024771875" width="0.1" layer="15"/>
+<wire x1="3.7" y1="-38.566665625" x2="3.7" y2="-39.766665625" width="0.1" layer="15"/>
+<via x="3.7" y="-39.766665625" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="3.7" y1="-39.766665625" x2="2.916665625" y2="-39.766665625" width="0.1" layer="1"/>
+<wire x1="4.24189375" y1="-38.024771875" x2="3.7" y2="-38.566665625" width="0.1" layer="15"/>
 </signal>
 <signal name="N$LEDB34_IC3_PIN10">
 <contactref element="LED34" pad="2"/>
 <contactref element="IC3" pad="10"/>
-<wire x1="6.216665625" y1="-36.428665625" x2="7.15" y2="-36.433334375" width="0" layer="19" extent="1-16"/>
+<wire x1="6.216665625" y1="-36.428665625" x2="7.15" y2="-36.43333125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR34_IC3_PIN11">
 <contactref element="LED34" pad="4"/>
 <contactref element="IC3" pad="11"/>
-<wire x1="5.55" y1="-35.533334375" x2="6.716665625" y2="-36.428665625" width="0" layer="19" extent="1-16"/>
+<wire x1="6.716665625" y1="-36.428665625" x2="5.55" y2="-35.53333125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG34_IC3_PIN12">
 <contactref element="LED34" pad="1"/>
 <contactref element="IC3" pad="12"/>
-<wire x1="7.15" y1="-35.533334375" x2="7.216665625" y2="-36.428665625" width="0" layer="19" extent="1-16"/>
+<wire x1="7.216665625" y1="-36.428665625" x2="7.15" y2="-35.53333125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB38_IC3_PIN13">
 <contactref element="LED38" pad="2"/>
 <contactref element="IC3" pad="13"/>
-<wire x1="7.716665625" y1="-36.428665625" x2="7.15" y2="-40.666665625" width="0" layer="19" extent="1-16"/>
+<wire x1="7.15" y1="-40.666665625" x2="7.716665625" y2="-36.428665625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR38_IC3_PIN14">
 <contactref element="LED38" pad="4"/>
 <contactref element="IC3" pad="14"/>
-<wire x1="8.216665625" y1="-36.428665625" x2="5.55" y2="-39.766665625" width="0" layer="19" extent="1-16"/>
+<wire x1="5.55" y1="-39.766665625" x2="8.216665625" y2="-36.428665625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG38_IC3_PIN15">
 <contactref element="LED38" pad="1"/>
 <contactref element="IC3" pad="15"/>
-<wire x1="8.716665625" y1="-36.428665625" x2="7.15" y2="-39.766665625" width="0" layer="19" extent="1-16"/>
+<wire x1="7.15" y1="-39.766665625" x2="8.716665625" y2="-36.428665625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB35_IC3_PIN16">
 <contactref element="LED35" pad="2"/>
 <contactref element="IC3" pad="16"/>
-<wire x1="11.383334375" y1="-36.433334375" x2="9.216665625" y2="-36.428665625" width="0" layer="19" extent="1-16"/>
+<wire x1="9.216665625" y1="-36.428665625" x2="11.383334375" y2="-36.43333125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR35_IC3_PIN17">
 <contactref element="LED35" pad="4"/>
 <contactref element="IC3" pad="17"/>
-<wire x1="9.783334375" y1="-35.533334375" x2="9.716665625" y2="-36.428665625" width="0" layer="19" extent="1-16"/>
+<wire x1="9.716665625" y1="-36.428665625" x2="9.783334375" y2="-35.53333125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG35_IC3_PIN18">
 <contactref element="LED35" pad="1"/>
 <contactref element="IC3" pad="18"/>
-<wire x1="11.383334375" y1="-35.533334375" x2="10.216665625" y2="-36.428665625" width="0" layer="19" extent="1-16"/>
+<wire x1="10.216665625" y1="-36.428665625" x2="11.383334375" y2="-35.53333125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB41_IC3_PIN53">
 <contactref element="LED41" pad="2"/>
@@ -2710,17 +2830,17 @@ design rules under a new name.</description>
 <signal name="N$LEDB45_IC3_PIN50">
 <contactref element="LED45" pad="2"/>
 <contactref element="IC3" pad="50"/>
-<wire x1="4.716665625" y1="-44.004665625" x2="2.916665625" y2="-49.133334375" width="0" layer="19" extent="1-16"/>
+<wire x1="4.716665625" y1="-44.004665625" x2="2.916665625" y2="-49.13333125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR45_IC3_PIN49">
 <contactref element="LED45" pad="4"/>
 <contactref element="IC3" pad="49"/>
-<wire x1="5.216665625" y1="-44.004665625" x2="1.316665625" y2="-48.233334375" width="0" layer="19" extent="1-16"/>
+<wire x1="5.216665625" y1="-44.004665625" x2="1.316665625" y2="-48.23333125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG45_IC3_PIN48">
 <contactref element="LED45" pad="1"/>
 <contactref element="IC3" pad="48"/>
-<wire x1="5.716665625" y1="-44.004665625" x2="2.916665625" y2="-48.233334375" width="0" layer="19" extent="1-16"/>
+<wire x1="5.716665625" y1="-44.004665625" x2="2.916665625" y2="-48.23333125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB42_IC3_PIN47">
 <contactref element="LED42" pad="2"/>
@@ -2740,22 +2860,22 @@ design rules under a new name.</description>
 <signal name="N$LEDB46_IC3_PIN44">
 <contactref element="LED46" pad="2"/>
 <contactref element="IC3" pad="44"/>
-<wire x1="7.716665625" y1="-44.004665625" x2="7.15" y2="-49.133334375" width="0" layer="19" extent="1-16"/>
+<wire x1="7.716665625" y1="-44.004665625" x2="7.15" y2="-49.13333125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR46_IC3_PIN43">
 <contactref element="LED46" pad="4"/>
 <contactref element="IC3" pad="43"/>
-<wire x1="8.216665625" y1="-44.004665625" x2="5.55" y2="-48.233334375" width="0" layer="19" extent="1-16"/>
+<wire x1="8.216665625" y1="-44.004665625" x2="5.55" y2="-48.23333125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG46_IC3_PIN42">
 <contactref element="LED46" pad="1"/>
 <contactref element="IC3" pad="42"/>
-<wire x1="8.716665625" y1="-44.004665625" x2="7.15" y2="-48.233334375" width="0" layer="19" extent="1-16"/>
+<wire x1="8.716665625" y1="-44.004665625" x2="7.15" y2="-48.23333125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB43_IC3_PIN41">
 <contactref element="LED43" pad="2"/>
 <contactref element="IC3" pad="41"/>
-<wire x1="11.383334375" y1="-44.9" x2="9.216665625" y2="-44.004665625" width="0" layer="19" extent="1-16"/>
+<wire x1="9.216665625" y1="-44.004665625" x2="11.383334375" y2="-44.9" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR43_IC3_PIN40">
 <contactref element="LED43" pad="4"/>
@@ -2770,22 +2890,22 @@ design rules under a new name.</description>
 <signal name="N$LEDB47_IC3_PIN38">
 <contactref element="LED47" pad="2"/>
 <contactref element="IC3" pad="38"/>
-<wire x1="10.716665625" y1="-44.004665625" x2="11.383334375" y2="-49.133334375" width="0" layer="19" extent="1-16"/>
+<wire x1="10.716665625" y1="-44.004665625" x2="11.383334375" y2="-49.13333125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR47_IC3_PIN37">
 <contactref element="LED47" pad="4"/>
 <contactref element="IC3" pad="37"/>
-<wire x1="11.216665625" y1="-44.004665625" x2="9.783334375" y2="-48.233334375" width="0" layer="19" extent="1-16"/>
+<wire x1="11.216665625" y1="-44.004665625" x2="9.783334375" y2="-48.23333125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG47_IC3_PIN36">
 <contactref element="LED47" pad="1"/>
 <contactref element="IC3" pad="36"/>
-<wire x1="11.716665625" y1="-44.004665625" x2="11.383334375" y2="-48.233334375" width="0" layer="19" extent="1-16"/>
+<wire x1="11.716665625" y1="-44.004665625" x2="11.383334375" y2="-48.23333125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB44_IC3_PIN35">
 <contactref element="LED44" pad="2"/>
 <contactref element="IC3" pad="35"/>
-<wire x1="15.616665625" y1="-44.9" x2="12.216665625" y2="-44.004665625" width="0" layer="19" extent="1-16"/>
+<wire x1="12.216665625" y1="-44.004665625" x2="15.616665625" y2="-44.9" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR44_IC3_PIN34">
 <contactref element="LED44" pad="4"/>
@@ -2795,52 +2915,52 @@ design rules under a new name.</description>
 <signal name="N$LEDG44_IC3_PIN33">
 <contactref element="LED44" pad="1"/>
 <contactref element="IC3" pad="33"/>
-<wire x1="15.616665625" y1="-44" x2="13.216665625" y2="-44.004665625" width="0" layer="19" extent="1-16"/>
+<wire x1="13.216665625" y1="-44.004665625" x2="15.616665625" y2="-44" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB48_IC3_PIN32">
 <contactref element="LED48" pad="2"/>
 <contactref element="IC3" pad="32"/>
-<wire x1="13.716665625" y1="-44.004665625" x2="15.616665625" y2="-49.133334375" width="0" layer="19" extent="1-16"/>
+<wire x1="15.616665625" y1="-49.13333125" x2="13.716665625" y2="-44.004665625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR48_IC3_PIN31">
 <contactref element="LED48" pad="4"/>
 <contactref element="IC3" pad="31"/>
-<wire x1="14.216665625" y1="-44.004665625" x2="14.016665625" y2="-48.233334375" width="0" layer="19" extent="1-16"/>
+<wire x1="14.016665625" y1="-48.23333125" x2="14.216665625" y2="-44.004665625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG48_IC3_PIN30">
 <contactref element="LED48" pad="1"/>
 <contactref element="IC3" pad="30"/>
-<wire x1="14.716665625" y1="-44.004665625" x2="15.616665625" y2="-48.233334375" width="0" layer="19" extent="1-16"/>
+<wire x1="15.616665625" y1="-48.23333125" x2="14.716665625" y2="-44.004665625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB39_IC3_PIN19">
 <contactref element="LED39" pad="2"/>
 <contactref element="IC3" pad="19"/>
-<wire x1="10.716665625" y1="-36.428665625" x2="11.383334375" y2="-40.666665625" width="0" layer="19" extent="1-16"/>
+<wire x1="11.383334375" y1="-40.666665625" x2="10.716665625" y2="-36.428665625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR39_IC3_PIN20">
 <contactref element="LED39" pad="4"/>
 <contactref element="IC3" pad="20"/>
-<wire x1="11.216665625" y1="-36.428665625" x2="9.783334375" y2="-39.766665625" width="0" layer="19" extent="1-16"/>
+<wire x1="9.783334375" y1="-39.766665625" x2="11.216665625" y2="-36.428665625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG39_IC3_PIN21">
 <contactref element="LED39" pad="1"/>
 <contactref element="IC3" pad="21"/>
-<wire x1="11.716665625" y1="-36.428665625" x2="11.383334375" y2="-39.766665625" width="0" layer="19" extent="1-16"/>
+<wire x1="11.383334375" y1="-39.766665625" x2="11.716665625" y2="-36.428665625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB36_IC3_PIN22">
 <contactref element="LED36" pad="2"/>
 <contactref element="IC3" pad="22"/>
-<wire x1="15.616665625" y1="-36.433334375" x2="12.216665625" y2="-36.428665625" width="0" layer="19" extent="1-16"/>
+<wire x1="12.216665625" y1="-36.428665625" x2="15.616665625" y2="-36.43333125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR36_IC3_PIN23">
 <contactref element="LED36" pad="4"/>
 <contactref element="IC3" pad="23"/>
-<wire x1="14.016665625" y1="-35.533334375" x2="12.716665625" y2="-36.428665625" width="0" layer="19" extent="1-16"/>
+<wire x1="12.716665625" y1="-36.428665625" x2="14.016665625" y2="-35.53333125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG36_IC3_PIN24">
 <contactref element="LED36" pad="1"/>
 <contactref element="IC3" pad="24"/>
-<wire x1="15.616665625" y1="-35.533334375" x2="13.216665625" y2="-36.428665625" width="0" layer="19" extent="1-16"/>
+<wire x1="13.216665625" y1="-36.428665625" x2="15.616665625" y2="-35.53333125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB40_IC3_PIN25">
 <contactref element="LED40" pad="2"/>
@@ -2850,7 +2970,7 @@ design rules under a new name.</description>
 <signal name="N$LEDR40_IC3_PIN26">
 <contactref element="LED40" pad="4"/>
 <contactref element="IC3" pad="26"/>
-<wire x1="14.216665625" y1="-36.428665625" x2="14.016665625" y2="-39.766665625" width="0" layer="19" extent="1-16"/>
+<wire x1="14.016665625" y1="-39.766665625" x2="14.216665625" y2="-36.428665625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG40_IC3_PIN27">
 <contactref element="LED40" pad="1"/>
@@ -2860,32 +2980,72 @@ design rules under a new name.</description>
 <signal name="N$LEDB49_IC4_PIN4">
 <contactref element="LED49" pad="2"/>
 <contactref element="IC4" pad="4"/>
-<wire x1="3.216665625" y1="-53.362" x2="2.916665625" y2="-53.366665625" width="0" layer="19" extent="1-16"/>
+<wire x1="3.216665625" y1="-53.362" x2="3.216665625" y2="-54.23523125" width="0.1" layer="16"/>
+<wire x1="3.216665625" y1="-54.23523125" x2="2.9" y2="-54.551896875" width="0.1" layer="16"/>
+<via x="2.9" y="-54.551896875" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="2.9" y1="-54.551896875" x2="2.9" y2="-53.38333125" width="0.1" layer="1"/>
+<wire x1="2.9" y1="-53.38333125" x2="2.916665625" y2="-53.366665625" width="0.1" layer="1"/>
 </signal>
 <signal name="N$LEDR49_IC4_PIN5">
 <contactref element="LED49" pad="4"/>
 <contactref element="IC4" pad="5"/>
-<wire x1="3.716665625" y1="-53.362" x2="1.316665625" y2="-52.466665625" width="0" layer="19" extent="1-16"/>
+<wire x1="3.716665625" y1="-53.362" x2="3.716665625" y2="-51.816665625" width="0.1" layer="16"/>
+<wire x1="3.716665625" y1="-51.816665625" x2="3.7" y2="-51.8" width="0.1" layer="16"/>
+<via x="3.7" y="-51.8" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="3.7" y1="-51.8" x2="1.4" y2="-51.8" width="0.1" layer="15"/>
+<via x="1.4" y="-51.8" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="1.4" y1="-51.8" x2="1.316665625" y2="-51.883334375" width="0.1" layer="1"/>
+<wire x1="1.316665625" y1="-51.883334375" x2="1.316665625" y2="-52.466665625" width="0.1" layer="1"/>
 </signal>
 <signal name="N$LEDG49_IC4_PIN6">
 <contactref element="LED49" pad="1"/>
 <contactref element="IC4" pad="6"/>
-<wire x1="2.916665625" y1="-52.466665625" x2="4.216665625" y2="-53.362" width="0" layer="19" extent="1-16"/>
+<wire x1="4.216665625" y1="-53.362" x2="4.216665625" y2="-52.204003125" width="0.1" layer="16"/>
+<wire x1="4.216665625" y1="-52.204003125" x2="4.22066875" y2="-52.2" width="0.1" layer="16"/>
+<via x="4.22066875" y="-52.2" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="4.22066875" y1="-52.2" x2="4.054003125" y2="-52.366665625" width="0.1" layer="1"/>
+<wire x1="4.054003125" y1="-52.366665625" x2="3.016665625" y2="-52.366665625" width="0.1" layer="1"/>
+<wire x1="3.016665625" y1="-52.366665625" x2="2.916665625" y2="-52.466665625" width="0.1" layer="1"/>
 </signal>
 <signal name="N$LEDB53_IC4_PIN7">
 <contactref element="LED53" pad="2"/>
 <contactref element="IC4" pad="7"/>
-<wire x1="4.716665625" y1="-53.362" x2="2.916665625" y2="-57.6" width="0" layer="19" extent="1-16"/>
+<via x="4.7" y="-55.46210625" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="4.716665625" y1="-53.362" x2="4.70010625" y2="-53.378559375" width="0.1" layer="16"/>
+<wire x1="4.70010625" y1="-53.378559375" x2="4.70010625" y2="-55.462" width="0.1" layer="16"/>
+<wire x1="4.70010625" y1="-55.462" x2="4.7" y2="-55.46210625" width="0.1" layer="16"/>
+<wire x1="4.7" y1="-55.46210625" x2="4.7" y2="-56.6" width="0.1" layer="15"/>
+<wire x1="4.7" y1="-56.6" x2="3.7" y2="-57.6" width="0.1" layer="15"/>
+<via x="3.7" y="-57.6" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="3.7" y1="-57.6" x2="2.916665625" y2="-57.6" width="0.1" layer="1"/>
 </signal>
 <signal name="N$LEDR53_IC4_PIN8">
 <contactref element="LED53" pad="4"/>
 <contactref element="IC4" pad="8"/>
-<wire x1="5.216665625" y1="-53.362" x2="1.316665625" y2="-56.7" width="0" layer="19" extent="1-16"/>
+<wire x1="5.216665625" y1="-53.362" x2="5.216665625" y2="-54.491546875" width="0.1" layer="16"/>
+<wire x1="5.216665625" y1="-54.491546875" x2="5.20410625" y2="-54.50410625" width="0.1" layer="16"/>
+<via x="5.20410625" y="-54.50410625" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="5.20410625" y1="-54.50410625" x2="4.19589375" y2="-54.50410625" width="0.1" layer="15"/>
+<wire x1="1.4" y1="-55.9" x2="1.3" y2="-56" width="0.1" layer="15"/>
+<via x="1.3" y="-56" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="1.3" y1="-56" x2="1.316665625" y2="-56.016665625" width="0.1" layer="1"/>
+<wire x1="1.316665625" y1="-56.016665625" x2="1.316665625" y2="-56.7" width="0.1" layer="1"/>
+<wire x1="4.19589375" y1="-54.50410625" x2="2.8" y2="-55.9" width="0.1" layer="15"/>
+<wire x1="2.8" y1="-55.9" x2="1.4" y2="-55.9" width="0.1" layer="15"/>
 </signal>
 <signal name="N$LEDG53_IC4_PIN9">
 <contactref element="LED53" pad="1"/>
 <contactref element="IC4" pad="9"/>
-<wire x1="5.716665625" y1="-53.362" x2="2.916665625" y2="-56.7" width="0" layer="19" extent="1-16"/>
+<wire x1="5.716665625" y1="-53.362" x2="5.716665625" y2="-54.883334375" width="0.1" layer="16"/>
+<wire x1="5.716665625" y1="-54.883334375" x2="5.7" y2="-54.9" width="0.1" layer="16"/>
+<via x="5.7" y="-54.9" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="5.74189375" y1="-54.95810625" x2="5.7" y2="-54.9162125" width="0.1" layer="15"/>
+<wire x1="5.7" y1="-54.9" x2="5.7" y2="-54.9162125" width="0.1" layer="15"/>
+<wire x1="5.74189375" y1="-54.95810625" x2="4.24189375" y2="-54.95810625" width="0.1" layer="15"/>
+<wire x1="3.7" y1="-55.5" x2="3.7" y2="-56.7" width="0.1" layer="15"/>
+<via x="3.7" y="-56.7" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="3.7" y1="-56.7" x2="2.916665625" y2="-56.7" width="0.1" layer="1"/>
+<wire x1="4.24189375" y1="-54.95810625" x2="3.7" y2="-55.5" width="0.1" layer="15"/>
 </signal>
 <signal name="N$LEDB50_IC4_PIN10">
 <contactref element="LED50" pad="2"/>
@@ -2895,42 +3055,42 @@ design rules under a new name.</description>
 <signal name="N$LEDR50_IC4_PIN11">
 <contactref element="LED50" pad="4"/>
 <contactref element="IC4" pad="11"/>
-<wire x1="5.55" y1="-52.466665625" x2="6.716665625" y2="-53.362" width="0" layer="19" extent="1-16"/>
+<wire x1="6.716665625" y1="-53.362" x2="5.55" y2="-52.466665625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG50_IC4_PIN12">
 <contactref element="LED50" pad="1"/>
 <contactref element="IC4" pad="12"/>
-<wire x1="7.15" y1="-52.466665625" x2="7.216665625" y2="-53.362" width="0" layer="19" extent="1-16"/>
+<wire x1="7.216665625" y1="-53.362" x2="7.15" y2="-52.466665625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB54_IC4_PIN13">
 <contactref element="LED54" pad="2"/>
 <contactref element="IC4" pad="13"/>
-<wire x1="7.716665625" y1="-53.362" x2="7.15" y2="-57.6" width="0" layer="19" extent="1-16"/>
+<wire x1="7.15" y1="-57.6" x2="7.716665625" y2="-53.362" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR54_IC4_PIN14">
 <contactref element="LED54" pad="4"/>
 <contactref element="IC4" pad="14"/>
-<wire x1="8.216665625" y1="-53.362" x2="5.55" y2="-56.7" width="0" layer="19" extent="1-16"/>
+<wire x1="5.55" y1="-56.7" x2="8.216665625" y2="-53.362" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG54_IC4_PIN15">
 <contactref element="LED54" pad="1"/>
 <contactref element="IC4" pad="15"/>
-<wire x1="8.716665625" y1="-53.362" x2="7.15" y2="-56.7" width="0" layer="19" extent="1-16"/>
+<wire x1="7.15" y1="-56.7" x2="8.716665625" y2="-53.362" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB51_IC4_PIN16">
 <contactref element="LED51" pad="2"/>
 <contactref element="IC4" pad="16"/>
-<wire x1="11.383334375" y1="-53.366665625" x2="9.216665625" y2="-53.362" width="0" layer="19" extent="1-16"/>
+<wire x1="9.216665625" y1="-53.362" x2="11.383334375" y2="-53.366665625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR51_IC4_PIN17">
 <contactref element="LED51" pad="4"/>
 <contactref element="IC4" pad="17"/>
-<wire x1="9.783334375" y1="-52.466665625" x2="9.716665625" y2="-53.362" width="0" layer="19" extent="1-16"/>
+<wire x1="9.716665625" y1="-53.362" x2="9.783334375" y2="-52.466665625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG51_IC4_PIN18">
 <contactref element="LED51" pad="1"/>
 <contactref element="IC4" pad="18"/>
-<wire x1="11.383334375" y1="-52.466665625" x2="10.216665625" y2="-53.362" width="0" layer="19" extent="1-16"/>
+<wire x1="10.216665625" y1="-53.362" x2="11.383334375" y2="-52.466665625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB57_IC4_PIN53">
 <contactref element="LED57" pad="2"/>
@@ -3025,7 +3185,7 @@ design rules under a new name.</description>
 <signal name="N$LEDB60_IC4_PIN35">
 <contactref element="LED60" pad="2"/>
 <contactref element="IC4" pad="35"/>
-<wire x1="15.616665625" y1="-61.833334375" x2="12.216665625" y2="-60.938" width="0" layer="19" extent="1-16"/>
+<wire x1="12.216665625" y1="-60.938" x2="15.616665625" y2="-61.833334375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR60_IC4_PIN34">
 <contactref element="LED60" pad="4"/>
@@ -3035,52 +3195,52 @@ design rules under a new name.</description>
 <signal name="N$LEDG60_IC4_PIN33">
 <contactref element="LED60" pad="1"/>
 <contactref element="IC4" pad="33"/>
-<wire x1="15.616665625" y1="-60.933334375" x2="13.216665625" y2="-60.938" width="0" layer="19" extent="1-16"/>
+<wire x1="13.216665625" y1="-60.938" x2="15.616665625" y2="-60.933334375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB64_IC4_PIN32">
 <contactref element="LED64" pad="2"/>
 <contactref element="IC4" pad="32"/>
-<wire x1="13.716665625" y1="-60.938" x2="15.616665625" y2="-66.066665625" width="0" layer="19" extent="1-16"/>
+<wire x1="15.616665625" y1="-66.066665625" x2="13.716665625" y2="-60.938" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR64_IC4_PIN31">
 <contactref element="LED64" pad="4"/>
 <contactref element="IC4" pad="31"/>
-<wire x1="14.216665625" y1="-60.938" x2="14.016665625" y2="-65.166665625" width="0" layer="19" extent="1-16"/>
+<wire x1="14.016665625" y1="-65.166665625" x2="14.216665625" y2="-60.938" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG64_IC4_PIN30">
 <contactref element="LED64" pad="1"/>
 <contactref element="IC4" pad="30"/>
-<wire x1="14.716665625" y1="-60.938" x2="15.616665625" y2="-65.166665625" width="0" layer="19" extent="1-16"/>
+<wire x1="15.616665625" y1="-65.166665625" x2="14.716665625" y2="-60.938" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB55_IC4_PIN19">
 <contactref element="LED55" pad="2"/>
 <contactref element="IC4" pad="19"/>
-<wire x1="10.716665625" y1="-53.362" x2="11.383334375" y2="-57.6" width="0" layer="19" extent="1-16"/>
+<wire x1="11.383334375" y1="-57.6" x2="10.716665625" y2="-53.362" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR55_IC4_PIN20">
 <contactref element="LED55" pad="4"/>
 <contactref element="IC4" pad="20"/>
-<wire x1="11.216665625" y1="-53.362" x2="9.783334375" y2="-56.7" width="0" layer="19" extent="1-16"/>
+<wire x1="9.783334375" y1="-56.7" x2="11.216665625" y2="-53.362" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG55_IC4_PIN21">
 <contactref element="LED55" pad="1"/>
 <contactref element="IC4" pad="21"/>
-<wire x1="11.716665625" y1="-53.362" x2="11.383334375" y2="-56.7" width="0" layer="19" extent="1-16"/>
+<wire x1="11.383334375" y1="-56.7" x2="11.716665625" y2="-53.362" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB52_IC4_PIN22">
 <contactref element="LED52" pad="2"/>
 <contactref element="IC4" pad="22"/>
-<wire x1="15.616665625" y1="-53.366665625" x2="12.216665625" y2="-53.362" width="0" layer="19" extent="1-16"/>
+<wire x1="12.216665625" y1="-53.362" x2="15.616665625" y2="-53.366665625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR52_IC4_PIN23">
 <contactref element="LED52" pad="4"/>
 <contactref element="IC4" pad="23"/>
-<wire x1="14.016665625" y1="-52.466665625" x2="12.716665625" y2="-53.362" width="0" layer="19" extent="1-16"/>
+<wire x1="12.716665625" y1="-53.362" x2="14.016665625" y2="-52.466665625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG52_IC4_PIN24">
 <contactref element="LED52" pad="1"/>
 <contactref element="IC4" pad="24"/>
-<wire x1="15.616665625" y1="-52.466665625" x2="13.216665625" y2="-53.362" width="0" layer="19" extent="1-16"/>
+<wire x1="13.216665625" y1="-53.362" x2="15.616665625" y2="-52.466665625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB56_IC4_PIN25">
 <contactref element="LED56" pad="2"/>
@@ -3090,7 +3250,7 @@ design rules under a new name.</description>
 <signal name="N$LEDR56_IC4_PIN26">
 <contactref element="LED56" pad="4"/>
 <contactref element="IC4" pad="26"/>
-<wire x1="14.216665625" y1="-53.362" x2="14.016665625" y2="-56.7" width="0" layer="19" extent="1-16"/>
+<wire x1="14.016665625" y1="-56.7" x2="14.216665625" y2="-53.362" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG56_IC4_PIN27">
 <contactref element="LED56" pad="1"/>
@@ -3100,32 +3260,72 @@ design rules under a new name.</description>
 <signal name="N$LEDB65_IC5_PIN4">
 <contactref element="LED65" pad="2"/>
 <contactref element="IC5" pad="4"/>
-<wire x1="3.216665625" y1="-70.295334375" x2="2.916665625" y2="-70.3" width="0" layer="19" extent="1-16"/>
+<wire x1="3.216665625" y1="-70.295334375" x2="3.216665625" y2="-71.168565625" width="0.1" layer="16"/>
+<wire x1="3.216665625" y1="-71.168565625" x2="2.9" y2="-71.48523125" width="0.1" layer="16"/>
+<via x="2.9" y="-71.48523125" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="2.9" y1="-71.48523125" x2="2.9" y2="-70.316665625" width="0.1" layer="1"/>
+<wire x1="2.9" y1="-70.316665625" x2="2.916665625" y2="-70.3" width="0.1" layer="1"/>
 </signal>
 <signal name="N$LEDR65_IC5_PIN5">
 <contactref element="LED65" pad="4"/>
 <contactref element="IC5" pad="5"/>
-<wire x1="3.716665625" y1="-70.295334375" x2="1.316665625" y2="-69.4" width="0" layer="19" extent="1-16"/>
+<wire x1="3.716665625" y1="-70.295334375" x2="3.716665625" y2="-68.75" width="0.1" layer="16"/>
+<wire x1="3.716665625" y1="-68.75" x2="3.7" y2="-68.733334375" width="0.1" layer="16"/>
+<via x="3.7" y="-68.733334375" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="3.7" y1="-68.733334375" x2="1.4" y2="-68.733334375" width="0.1" layer="15"/>
+<via x="1.4" y="-68.733334375" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="1.4" y1="-68.733334375" x2="1.316665625" y2="-68.81666875" width="0.1" layer="1"/>
+<wire x1="1.316665625" y1="-68.81666875" x2="1.316665625" y2="-69.4" width="0.1" layer="1"/>
 </signal>
 <signal name="N$LEDG65_IC5_PIN6">
 <contactref element="LED65" pad="1"/>
 <contactref element="IC5" pad="6"/>
-<wire x1="4.216665625" y1="-70.295334375" x2="2.916665625" y2="-69.4" width="0" layer="19" extent="1-16"/>
+<wire x1="4.216665625" y1="-70.295334375" x2="4.216665625" y2="-69.1373375" width="0.1" layer="16"/>
+<wire x1="4.216665625" y1="-69.1373375" x2="4.22066875" y2="-69.133334375" width="0.1" layer="16"/>
+<via x="4.22066875" y="-69.133334375" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="4.22066875" y1="-69.133334375" x2="4.054003125" y2="-69.3" width="0.1" layer="1"/>
+<wire x1="4.054003125" y1="-69.3" x2="3.016665625" y2="-69.3" width="0.1" layer="1"/>
+<wire x1="3.016665625" y1="-69.3" x2="2.916665625" y2="-69.4" width="0.1" layer="1"/>
 </signal>
 <signal name="N$LEDB69_IC5_PIN7">
 <contactref element="LED69" pad="2"/>
 <contactref element="IC5" pad="7"/>
-<wire x1="4.716665625" y1="-70.295334375" x2="2.916665625" y2="-74.533334375" width="0" layer="19" extent="1-16"/>
+<via x="4.7" y="-72.395440625" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="4.716665625" y1="-70.295334375" x2="4.70010625" y2="-70.31189375" width="0.1" layer="16"/>
+<wire x1="4.70010625" y1="-70.31189375" x2="4.70010625" y2="-72.395334375" width="0.1" layer="16"/>
+<wire x1="4.70010625" y1="-72.395334375" x2="4.7" y2="-72.395440625" width="0.1" layer="16"/>
+<wire x1="4.7" y1="-72.395440625" x2="4.7" y2="-73.533334375" width="0.1" layer="15"/>
+<wire x1="4.7" y1="-73.533334375" x2="3.7" y2="-74.533334375" width="0.1" layer="15"/>
+<via x="3.7" y="-74.533334375" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="3.7" y1="-74.533334375" x2="2.916665625" y2="-74.533334375" width="0.1" layer="1"/>
 </signal>
 <signal name="N$LEDR69_IC5_PIN8">
 <contactref element="LED69" pad="4"/>
 <contactref element="IC5" pad="8"/>
-<wire x1="5.216665625" y1="-70.295334375" x2="1.316665625" y2="-73.633334375" width="0" layer="19" extent="1-16"/>
+<wire x1="5.216665625" y1="-70.295334375" x2="5.216665625" y2="-71.42488125" width="0.1" layer="16"/>
+<wire x1="5.216665625" y1="-71.42488125" x2="5.20410625" y2="-71.437440625" width="0.1" layer="16"/>
+<via x="5.20410625" y="-71.437440625" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="5.20410625" y1="-71.437440625" x2="4.19589375" y2="-71.437440625" width="0.1" layer="15"/>
+<wire x1="1.4" y1="-72.833334375" x2="1.3" y2="-72.933334375" width="0.1" layer="15"/>
+<via x="1.3" y="-72.933334375" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="1.3" y1="-72.933334375" x2="1.316665625" y2="-72.95" width="0.1" layer="1"/>
+<wire x1="1.316665625" y1="-72.95" x2="1.316665625" y2="-73.633334375" width="0.1" layer="1"/>
+<wire x1="4.19589375" y1="-71.437440625" x2="2.8" y2="-72.833334375" width="0.1" layer="15"/>
+<wire x1="2.8" y1="-72.833334375" x2="1.4" y2="-72.833334375" width="0.1" layer="15"/>
 </signal>
 <signal name="N$LEDG69_IC5_PIN9">
 <contactref element="LED69" pad="1"/>
 <contactref element="IC5" pad="9"/>
-<wire x1="5.716665625" y1="-70.295334375" x2="2.916665625" y2="-73.633334375" width="0" layer="19" extent="1-16"/>
+<wire x1="5.716665625" y1="-70.295334375" x2="5.716665625" y2="-71.81666875" width="0.1" layer="16"/>
+<wire x1="5.716665625" y1="-71.81666875" x2="5.7" y2="-71.833334375" width="0.1" layer="16"/>
+<via x="5.7" y="-71.833334375" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="5.74189375" y1="-71.891440625" x2="5.7" y2="-71.849546875" width="0.1" layer="15"/>
+<wire x1="5.7" y1="-71.833334375" x2="5.7" y2="-71.849546875" width="0.1" layer="15"/>
+<wire x1="5.74189375" y1="-71.891440625" x2="4.24189375" y2="-71.891440625" width="0.1" layer="15"/>
+<wire x1="3.7" y1="-72.433334375" x2="3.7" y2="-73.633334375" width="0.1" layer="15"/>
+<via x="3.7" y="-73.633334375" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="3.7" y1="-73.633334375" x2="2.916665625" y2="-73.633334375" width="0.1" layer="1"/>
+<wire x1="4.24189375" y1="-71.891440625" x2="3.7" y2="-72.433334375" width="0.1" layer="15"/>
 </signal>
 <signal name="N$LEDB66_IC5_PIN10">
 <contactref element="LED66" pad="2"/>
@@ -3145,22 +3345,22 @@ design rules under a new name.</description>
 <signal name="N$LEDB70_IC5_PIN13">
 <contactref element="LED70" pad="2"/>
 <contactref element="IC5" pad="13"/>
-<wire x1="7.716665625" y1="-70.295334375" x2="7.15" y2="-74.533334375" width="0" layer="19" extent="1-16"/>
+<wire x1="7.15" y1="-74.533334375" x2="7.716665625" y2="-70.295334375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR70_IC5_PIN14">
 <contactref element="LED70" pad="4"/>
 <contactref element="IC5" pad="14"/>
-<wire x1="8.216665625" y1="-70.295334375" x2="5.55" y2="-73.633334375" width="0" layer="19" extent="1-16"/>
+<wire x1="5.55" y1="-73.633334375" x2="8.216665625" y2="-70.295334375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG70_IC5_PIN15">
 <contactref element="LED70" pad="1"/>
 <contactref element="IC5" pad="15"/>
-<wire x1="8.716665625" y1="-70.295334375" x2="7.15" y2="-73.633334375" width="0" layer="19" extent="1-16"/>
+<wire x1="7.15" y1="-73.633334375" x2="8.716665625" y2="-70.295334375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB67_IC5_PIN16">
 <contactref element="LED67" pad="2"/>
 <contactref element="IC5" pad="16"/>
-<wire x1="11.383334375" y1="-70.3" x2="9.216665625" y2="-70.295334375" width="0" layer="19" extent="1-16"/>
+<wire x1="9.216665625" y1="-70.295334375" x2="11.383334375" y2="-70.3" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR67_IC5_PIN17">
 <contactref element="LED67" pad="4"/>
@@ -3175,17 +3375,17 @@ design rules under a new name.</description>
 <signal name="N$LEDB73_IC5_PIN53">
 <contactref element="LED73" pad="2"/>
 <contactref element="IC5" pad="53"/>
-<wire x1="3.216665625" y1="-77.871334375" x2="2.916665625" y2="-78.766665625" width="0" layer="19" extent="1-16"/>
+<wire x1="3.216665625" y1="-77.871334375" x2="2.916665625" y2="-78.76666875" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR73_IC5_PIN52">
 <contactref element="LED73" pad="4"/>
 <contactref element="IC5" pad="52"/>
-<wire x1="3.716665625" y1="-77.871334375" x2="1.316665625" y2="-77.866665625" width="0" layer="19" extent="1-16"/>
+<wire x1="3.716665625" y1="-77.871334375" x2="1.316665625" y2="-77.86666875" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG73_IC5_PIN51">
 <contactref element="LED73" pad="1"/>
 <contactref element="IC5" pad="51"/>
-<wire x1="4.216665625" y1="-77.871334375" x2="2.916665625" y2="-77.866665625" width="0" layer="19" extent="1-16"/>
+<wire x1="4.216665625" y1="-77.871334375" x2="2.916665625" y2="-77.86666875" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB77_IC5_PIN50">
 <contactref element="LED77" pad="2"/>
@@ -3205,17 +3405,17 @@ design rules under a new name.</description>
 <signal name="N$LEDB74_IC5_PIN47">
 <contactref element="LED74" pad="2"/>
 <contactref element="IC5" pad="47"/>
-<wire x1="6.216665625" y1="-77.871334375" x2="7.15" y2="-78.766665625" width="0" layer="19" extent="1-16"/>
+<wire x1="6.216665625" y1="-77.871334375" x2="7.15" y2="-78.76666875" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR74_IC5_PIN46">
 <contactref element="LED74" pad="4"/>
 <contactref element="IC5" pad="46"/>
-<wire x1="6.716665625" y1="-77.871334375" x2="5.55" y2="-77.866665625" width="0" layer="19" extent="1-16"/>
+<wire x1="6.716665625" y1="-77.871334375" x2="5.55" y2="-77.86666875" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG74_IC5_PIN45">
 <contactref element="LED74" pad="1"/>
 <contactref element="IC5" pad="45"/>
-<wire x1="7.216665625" y1="-77.871334375" x2="7.15" y2="-77.866665625" width="0" layer="19" extent="1-16"/>
+<wire x1="7.216665625" y1="-77.871334375" x2="7.15" y2="-77.86666875" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB78_IC5_PIN44">
 <contactref element="LED78" pad="2"/>
@@ -3235,17 +3435,17 @@ design rules under a new name.</description>
 <signal name="N$LEDB75_IC5_PIN41">
 <contactref element="LED75" pad="2"/>
 <contactref element="IC5" pad="41"/>
-<wire x1="9.216665625" y1="-77.871334375" x2="11.383334375" y2="-78.766665625" width="0" layer="19" extent="1-16"/>
+<wire x1="9.216665625" y1="-77.871334375" x2="11.383334375" y2="-78.76666875" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR75_IC5_PIN40">
 <contactref element="LED75" pad="4"/>
 <contactref element="IC5" pad="40"/>
-<wire x1="9.716665625" y1="-77.871334375" x2="9.783334375" y2="-77.866665625" width="0" layer="19" extent="1-16"/>
+<wire x1="9.716665625" y1="-77.871334375" x2="9.783334375" y2="-77.86666875" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG75_IC5_PIN39">
 <contactref element="LED75" pad="1"/>
 <contactref element="IC5" pad="39"/>
-<wire x1="10.216665625" y1="-77.871334375" x2="11.383334375" y2="-77.866665625" width="0" layer="19" extent="1-16"/>
+<wire x1="10.216665625" y1="-77.871334375" x2="11.383334375" y2="-77.86666875" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB79_IC5_PIN38">
 <contactref element="LED79" pad="2"/>
@@ -3265,52 +3465,52 @@ design rules under a new name.</description>
 <signal name="N$LEDB76_IC5_PIN35">
 <contactref element="LED76" pad="2"/>
 <contactref element="IC5" pad="35"/>
-<wire x1="15.616665625" y1="-78.766665625" x2="12.216665625" y2="-77.871334375" width="0" layer="19" extent="1-16"/>
+<wire x1="12.216665625" y1="-77.871334375" x2="15.616665625" y2="-78.76666875" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR76_IC5_PIN34">
 <contactref element="LED76" pad="4"/>
 <contactref element="IC5" pad="34"/>
-<wire x1="12.716665625" y1="-77.871334375" x2="14.016665625" y2="-77.866665625" width="0" layer="19" extent="1-16"/>
+<wire x1="12.716665625" y1="-77.871334375" x2="14.016665625" y2="-77.86666875" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG76_IC5_PIN33">
 <contactref element="LED76" pad="1"/>
 <contactref element="IC5" pad="33"/>
-<wire x1="15.616665625" y1="-77.866665625" x2="13.216665625" y2="-77.871334375" width="0" layer="19" extent="1-16"/>
+<wire x1="13.216665625" y1="-77.871334375" x2="15.616665625" y2="-77.86666875" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB80_IC5_PIN32">
 <contactref element="LED80" pad="2"/>
 <contactref element="IC5" pad="32"/>
-<wire x1="13.716665625" y1="-77.871334375" x2="15.616665625" y2="-83" width="0" layer="19" extent="1-16"/>
+<wire x1="15.616665625" y1="-83" x2="13.716665625" y2="-77.871334375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR80_IC5_PIN31">
 <contactref element="LED80" pad="4"/>
 <contactref element="IC5" pad="31"/>
-<wire x1="14.216665625" y1="-77.871334375" x2="14.016665625" y2="-82.1" width="0" layer="19" extent="1-16"/>
+<wire x1="14.016665625" y1="-82.1" x2="14.216665625" y2="-77.871334375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG80_IC5_PIN30">
 <contactref element="LED80" pad="1"/>
 <contactref element="IC5" pad="30"/>
-<wire x1="14.716665625" y1="-77.871334375" x2="15.616665625" y2="-82.1" width="0" layer="19" extent="1-16"/>
+<wire x1="15.616665625" y1="-82.1" x2="14.716665625" y2="-77.871334375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB71_IC5_PIN19">
 <contactref element="LED71" pad="2"/>
 <contactref element="IC5" pad="19"/>
-<wire x1="10.716665625" y1="-70.295334375" x2="11.383334375" y2="-74.533334375" width="0" layer="19" extent="1-16"/>
+<wire x1="11.383334375" y1="-74.533334375" x2="10.716665625" y2="-70.295334375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR71_IC5_PIN20">
 <contactref element="LED71" pad="4"/>
 <contactref element="IC5" pad="20"/>
-<wire x1="11.216665625" y1="-70.295334375" x2="9.783334375" y2="-73.633334375" width="0" layer="19" extent="1-16"/>
+<wire x1="9.783334375" y1="-73.633334375" x2="11.216665625" y2="-70.295334375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG71_IC5_PIN21">
 <contactref element="LED71" pad="1"/>
 <contactref element="IC5" pad="21"/>
-<wire x1="11.716665625" y1="-70.295334375" x2="11.383334375" y2="-73.633334375" width="0" layer="19" extent="1-16"/>
+<wire x1="11.383334375" y1="-73.633334375" x2="11.716665625" y2="-70.295334375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB68_IC5_PIN22">
 <contactref element="LED68" pad="2"/>
 <contactref element="IC5" pad="22"/>
-<wire x1="15.616665625" y1="-70.3" x2="12.216665625" y2="-70.295334375" width="0" layer="19" extent="1-16"/>
+<wire x1="12.216665625" y1="-70.295334375" x2="15.616665625" y2="-70.3" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR68_IC5_PIN23">
 <contactref element="LED68" pad="4"/>
@@ -3320,7 +3520,7 @@ design rules under a new name.</description>
 <signal name="N$LEDG68_IC5_PIN24">
 <contactref element="LED68" pad="1"/>
 <contactref element="IC5" pad="24"/>
-<wire x1="15.616665625" y1="-69.4" x2="13.216665625" y2="-70.295334375" width="0" layer="19" extent="1-16"/>
+<wire x1="13.216665625" y1="-70.295334375" x2="15.616665625" y2="-69.4" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB72_IC5_PIN25">
 <contactref element="LED72" pad="2"/>
@@ -3330,7 +3530,7 @@ design rules under a new name.</description>
 <signal name="N$LEDR72_IC5_PIN26">
 <contactref element="LED72" pad="4"/>
 <contactref element="IC5" pad="26"/>
-<wire x1="14.216665625" y1="-70.295334375" x2="14.016665625" y2="-73.633334375" width="0" layer="19" extent="1-16"/>
+<wire x1="14.016665625" y1="-73.633334375" x2="14.216665625" y2="-70.295334375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG72_IC5_PIN27">
 <contactref element="LED72" pad="1"/>
@@ -3340,77 +3540,117 @@ design rules under a new name.</description>
 <signal name="N$LEDB81_IC6_PIN4">
 <contactref element="LED81" pad="2"/>
 <contactref element="IC6" pad="4"/>
-<wire x1="3.216665625" y1="-87.228665625" x2="2.916665625" y2="-87.233334375" width="0" layer="19" extent="1-16"/>
+<wire x1="3.216665625" y1="-87.228665625" x2="3.216665625" y2="-88.101896875" width="0.1" layer="16"/>
+<wire x1="3.216665625" y1="-88.101896875" x2="2.9" y2="-88.4185625" width="0.1" layer="16"/>
+<via x="2.9" y="-88.4185625" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="2.9" y1="-88.4185625" x2="2.9" y2="-87.249996875" width="0.1" layer="1"/>
+<wire x1="2.9" y1="-87.249996875" x2="2.916665625" y2="-87.23333125" width="0.1" layer="1"/>
 </signal>
 <signal name="N$LEDR81_IC6_PIN5">
 <contactref element="LED81" pad="4"/>
 <contactref element="IC6" pad="5"/>
-<wire x1="3.716665625" y1="-87.228665625" x2="1.316665625" y2="-86.333334375" width="0" layer="19" extent="1-16"/>
+<wire x1="3.716665625" y1="-87.228665625" x2="3.716665625" y2="-85.68333125" width="0.1" layer="16"/>
+<wire x1="3.716665625" y1="-85.68333125" x2="3.7" y2="-85.666665625" width="0.1" layer="16"/>
+<via x="3.7" y="-85.666665625" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="3.7" y1="-85.666665625" x2="1.4" y2="-85.666665625" width="0.1" layer="15"/>
+<via x="1.4" y="-85.666665625" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="1.4" y1="-85.666665625" x2="1.316665625" y2="-85.75" width="0.1" layer="1"/>
+<wire x1="1.316665625" y1="-85.75" x2="1.316665625" y2="-86.33333125" width="0.1" layer="1"/>
 </signal>
 <signal name="N$LEDG81_IC6_PIN6">
 <contactref element="LED81" pad="1"/>
 <contactref element="IC6" pad="6"/>
-<wire x1="2.916665625" y1="-86.333334375" x2="4.216665625" y2="-87.228665625" width="0" layer="19" extent="1-16"/>
+<wire x1="4.216665625" y1="-87.228665625" x2="4.216665625" y2="-86.07066875" width="0.1" layer="16"/>
+<wire x1="4.216665625" y1="-86.07066875" x2="4.22066875" y2="-86.066665625" width="0.1" layer="16"/>
+<via x="4.22066875" y="-86.066665625" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="4.22066875" y1="-86.066665625" x2="4.054003125" y2="-86.23333125" width="0.1" layer="1"/>
+<wire x1="4.054003125" y1="-86.23333125" x2="3.016665625" y2="-86.23333125" width="0.1" layer="1"/>
+<wire x1="3.016665625" y1="-86.23333125" x2="2.916665625" y2="-86.33333125" width="0.1" layer="1"/>
 </signal>
 <signal name="N$LEDB85_IC6_PIN7">
 <contactref element="LED85" pad="2"/>
 <contactref element="IC6" pad="7"/>
-<wire x1="4.716665625" y1="-87.228665625" x2="2.916665625" y2="-91.466665625" width="0" layer="19" extent="1-16"/>
+<via x="4.7" y="-89.328771875" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="4.716665625" y1="-87.228665625" x2="4.70010625" y2="-87.245225" width="0.1" layer="16"/>
+<wire x1="4.70010625" y1="-87.245225" x2="4.70010625" y2="-89.328665625" width="0.1" layer="16"/>
+<wire x1="4.70010625" y1="-89.328665625" x2="4.7" y2="-89.328771875" width="0.1" layer="16"/>
+<wire x1="4.7" y1="-89.328771875" x2="4.7" y2="-90.466665625" width="0.1" layer="15"/>
+<wire x1="4.7" y1="-90.466665625" x2="3.7" y2="-91.466665625" width="0.1" layer="15"/>
+<via x="3.7" y="-91.466665625" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="3.7" y1="-91.466665625" x2="2.916665625" y2="-91.466665625" width="0.1" layer="1"/>
 </signal>
 <signal name="N$LEDR85_IC6_PIN8">
 <contactref element="LED85" pad="4"/>
 <contactref element="IC6" pad="8"/>
-<wire x1="5.216665625" y1="-87.228665625" x2="1.316665625" y2="-90.566665625" width="0" layer="19" extent="1-16"/>
+<wire x1="5.216665625" y1="-87.228665625" x2="5.216665625" y2="-88.3582125" width="0.1" layer="16"/>
+<wire x1="5.216665625" y1="-88.3582125" x2="5.20410625" y2="-88.370771875" width="0.1" layer="16"/>
+<via x="5.20410625" y="-88.370771875" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="5.20410625" y1="-88.370771875" x2="4.19589375" y2="-88.370771875" width="0.1" layer="15"/>
+<wire x1="1.4" y1="-89.766665625" x2="1.3" y2="-89.866665625" width="0.1" layer="15"/>
+<via x="1.3" y="-89.866665625" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="1.3" y1="-89.866665625" x2="1.316665625" y2="-89.88333125" width="0.1" layer="1"/>
+<wire x1="1.316665625" y1="-89.88333125" x2="1.316665625" y2="-90.566665625" width="0.1" layer="1"/>
+<wire x1="4.19589375" y1="-88.370771875" x2="2.8" y2="-89.766665625" width="0.1" layer="15"/>
+<wire x1="2.8" y1="-89.766665625" x2="1.4" y2="-89.766665625" width="0.1" layer="15"/>
 </signal>
 <signal name="N$LEDG85_IC6_PIN9">
 <contactref element="LED85" pad="1"/>
 <contactref element="IC6" pad="9"/>
-<wire x1="5.716665625" y1="-87.228665625" x2="2.916665625" y2="-90.566665625" width="0" layer="19" extent="1-16"/>
+<wire x1="5.716665625" y1="-87.228665625" x2="5.716665625" y2="-88.75" width="0.1" layer="16"/>
+<wire x1="5.716665625" y1="-88.75" x2="5.7" y2="-88.766665625" width="0.1" layer="16"/>
+<via x="5.7" y="-88.766665625" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="5.74189375" y1="-88.824771875" x2="5.7" y2="-88.782878125" width="0.1" layer="15"/>
+<wire x1="5.7" y1="-88.766665625" x2="5.7" y2="-88.782878125" width="0.1" layer="15"/>
+<wire x1="5.74189375" y1="-88.824771875" x2="4.24189375" y2="-88.824771875" width="0.1" layer="15"/>
+<wire x1="3.7" y1="-89.366665625" x2="3.7" y2="-90.566665625" width="0.1" layer="15"/>
+<via x="3.7" y="-90.566665625" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="3.7" y1="-90.566665625" x2="2.916665625" y2="-90.566665625" width="0.1" layer="1"/>
+<wire x1="4.24189375" y1="-88.824771875" x2="3.7" y2="-89.366665625" width="0.1" layer="15"/>
 </signal>
 <signal name="N$LEDB82_IC6_PIN10">
 <contactref element="LED82" pad="2"/>
 <contactref element="IC6" pad="10"/>
-<wire x1="6.216665625" y1="-87.228665625" x2="7.15" y2="-87.233334375" width="0" layer="19" extent="1-16"/>
+<wire x1="6.216665625" y1="-87.228665625" x2="7.15" y2="-87.23333125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR82_IC6_PIN11">
 <contactref element="LED82" pad="4"/>
 <contactref element="IC6" pad="11"/>
-<wire x1="5.55" y1="-86.333334375" x2="6.716665625" y2="-87.228665625" width="0" layer="19" extent="1-16"/>
+<wire x1="6.716665625" y1="-87.228665625" x2="5.55" y2="-86.33333125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG82_IC6_PIN12">
 <contactref element="LED82" pad="1"/>
 <contactref element="IC6" pad="12"/>
-<wire x1="7.15" y1="-86.333334375" x2="7.216665625" y2="-87.228665625" width="0" layer="19" extent="1-16"/>
+<wire x1="7.216665625" y1="-87.228665625" x2="7.15" y2="-86.33333125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB86_IC6_PIN13">
 <contactref element="LED86" pad="2"/>
 <contactref element="IC6" pad="13"/>
-<wire x1="7.716665625" y1="-87.228665625" x2="7.15" y2="-91.466665625" width="0" layer="19" extent="1-16"/>
+<wire x1="7.15" y1="-91.466665625" x2="7.716665625" y2="-87.228665625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR86_IC6_PIN14">
 <contactref element="LED86" pad="4"/>
 <contactref element="IC6" pad="14"/>
-<wire x1="8.216665625" y1="-87.228665625" x2="5.55" y2="-90.566665625" width="0" layer="19" extent="1-16"/>
+<wire x1="5.55" y1="-90.566665625" x2="8.216665625" y2="-87.228665625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG86_IC6_PIN15">
 <contactref element="LED86" pad="1"/>
 <contactref element="IC6" pad="15"/>
-<wire x1="8.716665625" y1="-87.228665625" x2="7.15" y2="-90.566665625" width="0" layer="19" extent="1-16"/>
+<wire x1="7.15" y1="-90.566665625" x2="8.716665625" y2="-87.228665625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB83_IC6_PIN16">
 <contactref element="LED83" pad="2"/>
 <contactref element="IC6" pad="16"/>
-<wire x1="11.383334375" y1="-87.233334375" x2="9.216665625" y2="-87.228665625" width="0" layer="19" extent="1-16"/>
+<wire x1="9.216665625" y1="-87.228665625" x2="11.383334375" y2="-87.23333125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR83_IC6_PIN17">
 <contactref element="LED83" pad="4"/>
 <contactref element="IC6" pad="17"/>
-<wire x1="9.783334375" y1="-86.333334375" x2="9.716665625" y2="-87.228665625" width="0" layer="19" extent="1-16"/>
+<wire x1="9.716665625" y1="-87.228665625" x2="9.783334375" y2="-86.33333125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG83_IC6_PIN18">
 <contactref element="LED83" pad="1"/>
 <contactref element="IC6" pad="18"/>
-<wire x1="11.383334375" y1="-86.333334375" x2="10.216665625" y2="-87.228665625" width="0" layer="19" extent="1-16"/>
+<wire x1="10.216665625" y1="-87.228665625" x2="11.383334375" y2="-86.33333125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB89_IC6_PIN53">
 <contactref element="LED89" pad="2"/>
@@ -3430,17 +3670,17 @@ design rules under a new name.</description>
 <signal name="N$LEDB93_IC6_PIN50">
 <contactref element="LED93" pad="2"/>
 <contactref element="IC6" pad="50"/>
-<wire x1="4.716665625" y1="-94.804665625" x2="2.916665625" y2="-99.933334375" width="0" layer="19" extent="1-16"/>
+<wire x1="4.716665625" y1="-94.804665625" x2="2.916665625" y2="-99.93333125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR93_IC6_PIN49">
 <contactref element="LED93" pad="4"/>
 <contactref element="IC6" pad="49"/>
-<wire x1="5.216665625" y1="-94.804665625" x2="1.316665625" y2="-99.033334375" width="0" layer="19" extent="1-16"/>
+<wire x1="5.216665625" y1="-94.804665625" x2="1.316665625" y2="-99.03333125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG93_IC6_PIN48">
 <contactref element="LED93" pad="1"/>
 <contactref element="IC6" pad="48"/>
-<wire x1="5.716665625" y1="-94.804665625" x2="2.916665625" y2="-99.033334375" width="0" layer="19" extent="1-16"/>
+<wire x1="5.716665625" y1="-94.804665625" x2="2.916665625" y2="-99.03333125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB90_IC6_PIN47">
 <contactref element="LED90" pad="2"/>
@@ -3460,22 +3700,22 @@ design rules under a new name.</description>
 <signal name="N$LEDB94_IC6_PIN44">
 <contactref element="LED94" pad="2"/>
 <contactref element="IC6" pad="44"/>
-<wire x1="7.716665625" y1="-94.804665625" x2="7.15" y2="-99.933334375" width="0" layer="19" extent="1-16"/>
+<wire x1="7.716665625" y1="-94.804665625" x2="7.15" y2="-99.93333125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR94_IC6_PIN43">
 <contactref element="LED94" pad="4"/>
 <contactref element="IC6" pad="43"/>
-<wire x1="8.216665625" y1="-94.804665625" x2="5.55" y2="-99.033334375" width="0" layer="19" extent="1-16"/>
+<wire x1="8.216665625" y1="-94.804665625" x2="5.55" y2="-99.03333125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG94_IC6_PIN42">
 <contactref element="LED94" pad="1"/>
 <contactref element="IC6" pad="42"/>
-<wire x1="8.716665625" y1="-94.804665625" x2="7.15" y2="-99.033334375" width="0" layer="19" extent="1-16"/>
+<wire x1="8.716665625" y1="-94.804665625" x2="7.15" y2="-99.03333125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB91_IC6_PIN41">
 <contactref element="LED91" pad="2"/>
 <contactref element="IC6" pad="41"/>
-<wire x1="11.383334375" y1="-95.7" x2="9.216665625" y2="-94.804665625" width="0" layer="19" extent="1-16"/>
+<wire x1="9.216665625" y1="-94.804665625" x2="11.383334375" y2="-95.7" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR91_IC6_PIN40">
 <contactref element="LED91" pad="4"/>
@@ -3490,22 +3730,22 @@ design rules under a new name.</description>
 <signal name="N$LEDB95_IC6_PIN38">
 <contactref element="LED95" pad="2"/>
 <contactref element="IC6" pad="38"/>
-<wire x1="10.716665625" y1="-94.804665625" x2="11.383334375" y2="-99.933334375" width="0" layer="19" extent="1-16"/>
+<wire x1="10.716665625" y1="-94.804665625" x2="11.383334375" y2="-99.93333125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR95_IC6_PIN37">
 <contactref element="LED95" pad="4"/>
 <contactref element="IC6" pad="37"/>
-<wire x1="11.216665625" y1="-94.804665625" x2="9.783334375" y2="-99.033334375" width="0" layer="19" extent="1-16"/>
+<wire x1="11.216665625" y1="-94.804665625" x2="9.783334375" y2="-99.03333125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG95_IC6_PIN36">
 <contactref element="LED95" pad="1"/>
 <contactref element="IC6" pad="36"/>
-<wire x1="11.716665625" y1="-94.804665625" x2="11.383334375" y2="-99.033334375" width="0" layer="19" extent="1-16"/>
+<wire x1="11.716665625" y1="-94.804665625" x2="11.383334375" y2="-99.03333125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB92_IC6_PIN35">
 <contactref element="LED92" pad="2"/>
 <contactref element="IC6" pad="35"/>
-<wire x1="15.616665625" y1="-95.7" x2="12.216665625" y2="-94.804665625" width="0" layer="19" extent="1-16"/>
+<wire x1="12.216665625" y1="-94.804665625" x2="15.616665625" y2="-95.7" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR92_IC6_PIN34">
 <contactref element="LED92" pad="4"/>
@@ -3515,52 +3755,52 @@ design rules under a new name.</description>
 <signal name="N$LEDG92_IC6_PIN33">
 <contactref element="LED92" pad="1"/>
 <contactref element="IC6" pad="33"/>
-<wire x1="15.616665625" y1="-94.8" x2="13.216665625" y2="-94.804665625" width="0" layer="19" extent="1-16"/>
+<wire x1="13.216665625" y1="-94.804665625" x2="15.616665625" y2="-94.8" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB96_IC6_PIN32">
 <contactref element="LED96" pad="2"/>
 <contactref element="IC6" pad="32"/>
-<wire x1="13.716665625" y1="-94.804665625" x2="15.616665625" y2="-99.933334375" width="0" layer="19" extent="1-16"/>
+<wire x1="15.616665625" y1="-99.93333125" x2="13.716665625" y2="-94.804665625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR96_IC6_PIN31">
 <contactref element="LED96" pad="4"/>
 <contactref element="IC6" pad="31"/>
-<wire x1="14.216665625" y1="-94.804665625" x2="14.016665625" y2="-99.033334375" width="0" layer="19" extent="1-16"/>
+<wire x1="14.016665625" y1="-99.03333125" x2="14.216665625" y2="-94.804665625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG96_IC6_PIN30">
 <contactref element="LED96" pad="1"/>
 <contactref element="IC6" pad="30"/>
-<wire x1="14.716665625" y1="-94.804665625" x2="15.616665625" y2="-99.033334375" width="0" layer="19" extent="1-16"/>
+<wire x1="15.616665625" y1="-99.03333125" x2="14.716665625" y2="-94.804665625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB87_IC6_PIN19">
 <contactref element="LED87" pad="2"/>
 <contactref element="IC6" pad="19"/>
-<wire x1="10.716665625" y1="-87.228665625" x2="11.383334375" y2="-91.466665625" width="0" layer="19" extent="1-16"/>
+<wire x1="11.383334375" y1="-91.466665625" x2="10.716665625" y2="-87.228665625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR87_IC6_PIN20">
 <contactref element="LED87" pad="4"/>
 <contactref element="IC6" pad="20"/>
-<wire x1="11.216665625" y1="-87.228665625" x2="9.783334375" y2="-90.566665625" width="0" layer="19" extent="1-16"/>
+<wire x1="9.783334375" y1="-90.566665625" x2="11.216665625" y2="-87.228665625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG87_IC6_PIN21">
 <contactref element="LED87" pad="1"/>
 <contactref element="IC6" pad="21"/>
-<wire x1="11.716665625" y1="-87.228665625" x2="11.383334375" y2="-90.566665625" width="0" layer="19" extent="1-16"/>
+<wire x1="11.383334375" y1="-90.566665625" x2="11.716665625" y2="-87.228665625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB84_IC6_PIN22">
 <contactref element="LED84" pad="2"/>
 <contactref element="IC6" pad="22"/>
-<wire x1="15.616665625" y1="-87.233334375" x2="12.216665625" y2="-87.228665625" width="0" layer="19" extent="1-16"/>
+<wire x1="12.216665625" y1="-87.228665625" x2="15.616665625" y2="-87.23333125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR84_IC6_PIN23">
 <contactref element="LED84" pad="4"/>
 <contactref element="IC6" pad="23"/>
-<wire x1="14.016665625" y1="-86.333334375" x2="12.716665625" y2="-87.228665625" width="0" layer="19" extent="1-16"/>
+<wire x1="12.716665625" y1="-87.228665625" x2="14.016665625" y2="-86.33333125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG84_IC6_PIN24">
 <contactref element="LED84" pad="1"/>
 <contactref element="IC6" pad="24"/>
-<wire x1="15.616665625" y1="-86.333334375" x2="13.216665625" y2="-87.228665625" width="0" layer="19" extent="1-16"/>
+<wire x1="13.216665625" y1="-87.228665625" x2="15.616665625" y2="-86.33333125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB88_IC6_PIN25">
 <contactref element="LED88" pad="2"/>
@@ -3570,7 +3810,7 @@ design rules under a new name.</description>
 <signal name="N$LEDR88_IC6_PIN26">
 <contactref element="LED88" pad="4"/>
 <contactref element="IC6" pad="26"/>
-<wire x1="14.216665625" y1="-87.228665625" x2="14.016665625" y2="-90.566665625" width="0" layer="19" extent="1-16"/>
+<wire x1="14.016665625" y1="-90.566665625" x2="14.216665625" y2="-87.228665625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG88_IC6_PIN27">
 <contactref element="LED88" pad="1"/>
@@ -3580,32 +3820,72 @@ design rules under a new name.</description>
 <signal name="N$LEDB97_IC7_PIN4">
 <contactref element="LED97" pad="2"/>
 <contactref element="IC7" pad="4"/>
-<wire x1="3.216665625" y1="-104.162" x2="2.916665625" y2="-104.166665625" width="0" layer="19" extent="1-16"/>
+<wire x1="3.216665625" y1="-104.162" x2="3.216665625" y2="-105.03523125" width="0.1" layer="16"/>
+<wire x1="3.216665625" y1="-105.03523125" x2="2.9" y2="-105.351896875" width="0.1" layer="16"/>
+<via x="2.9" y="-105.351896875" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="2.9" y1="-105.351896875" x2="2.9" y2="-104.18333125" width="0.1" layer="1"/>
+<wire x1="2.9" y1="-104.18333125" x2="2.916665625" y2="-104.166665625" width="0.1" layer="1"/>
 </signal>
 <signal name="N$LEDR97_IC7_PIN5">
 <contactref element="LED97" pad="4"/>
 <contactref element="IC7" pad="5"/>
-<wire x1="3.716665625" y1="-104.162" x2="1.316665625" y2="-103.266665625" width="0" layer="19" extent="1-16"/>
+<wire x1="3.716665625" y1="-104.162" x2="3.716665625" y2="-102.616665625" width="0.1" layer="16"/>
+<wire x1="3.716665625" y1="-102.616665625" x2="3.7" y2="-102.6" width="0.1" layer="16"/>
+<via x="3.7" y="-102.6" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="3.7" y1="-102.6" x2="1.4" y2="-102.6" width="0.1" layer="15"/>
+<via x="1.4" y="-102.6" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="1.4" y1="-102.6" x2="1.316665625" y2="-102.683334375" width="0.1" layer="1"/>
+<wire x1="1.316665625" y1="-102.683334375" x2="1.316665625" y2="-103.266665625" width="0.1" layer="1"/>
 </signal>
 <signal name="N$LEDG97_IC7_PIN6">
 <contactref element="LED97" pad="1"/>
 <contactref element="IC7" pad="6"/>
-<wire x1="2.916665625" y1="-103.266665625" x2="4.216665625" y2="-104.162" width="0" layer="19" extent="1-16"/>
+<wire x1="4.216665625" y1="-104.162" x2="4.216665625" y2="-103.004003125" width="0.1" layer="16"/>
+<wire x1="4.216665625" y1="-103.004003125" x2="4.22066875" y2="-103" width="0.1" layer="16"/>
+<via x="4.22066875" y="-103" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="4.22066875" y1="-103" x2="4.054003125" y2="-103.166665625" width="0.1" layer="1"/>
+<wire x1="4.054003125" y1="-103.166665625" x2="3.016665625" y2="-103.166665625" width="0.1" layer="1"/>
+<wire x1="3.016665625" y1="-103.166665625" x2="2.916665625" y2="-103.266665625" width="0.1" layer="1"/>
 </signal>
 <signal name="N$LEDB101_IC7_PIN7">
 <contactref element="LED101" pad="2"/>
 <contactref element="IC7" pad="7"/>
-<wire x1="4.716665625" y1="-104.162" x2="2.916665625" y2="-108.4" width="0" layer="19" extent="1-16"/>
+<via x="4.7" y="-106.26210625" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="4.716665625" y1="-104.162" x2="4.70010625" y2="-104.178559375" width="0.1" layer="16"/>
+<wire x1="4.70010625" y1="-104.178559375" x2="4.70010625" y2="-106.262" width="0.1" layer="16"/>
+<wire x1="4.70010625" y1="-106.262" x2="4.7" y2="-106.26210625" width="0.1" layer="16"/>
+<wire x1="4.7" y1="-106.26210625" x2="4.7" y2="-107.4" width="0.1" layer="15"/>
+<wire x1="4.7" y1="-107.4" x2="3.7" y2="-108.4" width="0.1" layer="15"/>
+<via x="3.7" y="-108.4" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="3.7" y1="-108.4" x2="2.916665625" y2="-108.4" width="0.1" layer="1"/>
 </signal>
 <signal name="N$LEDR101_IC7_PIN8">
 <contactref element="LED101" pad="4"/>
 <contactref element="IC7" pad="8"/>
-<wire x1="5.216665625" y1="-104.162" x2="1.316665625" y2="-107.5" width="0" layer="19" extent="1-16"/>
+<wire x1="5.216665625" y1="-104.162" x2="5.216665625" y2="-105.291546875" width="0.1" layer="16"/>
+<wire x1="5.216665625" y1="-105.291546875" x2="5.20410625" y2="-105.30410625" width="0.1" layer="16"/>
+<via x="5.20410625" y="-105.30410625" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="5.20410625" y1="-105.30410625" x2="4.19589375" y2="-105.30410625" width="0.1" layer="15"/>
+<wire x1="1.4" y1="-106.7" x2="1.3" y2="-106.8" width="0.1" layer="15"/>
+<via x="1.3" y="-106.8" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="1.3" y1="-106.8" x2="1.316665625" y2="-106.816665625" width="0.1" layer="1"/>
+<wire x1="1.316665625" y1="-106.816665625" x2="1.316665625" y2="-107.5" width="0.1" layer="1"/>
+<wire x1="4.19589375" y1="-105.30410625" x2="2.8" y2="-106.7" width="0.1" layer="15"/>
+<wire x1="2.8" y1="-106.7" x2="1.4" y2="-106.7" width="0.1" layer="15"/>
 </signal>
 <signal name="N$LEDG101_IC7_PIN9">
 <contactref element="LED101" pad="1"/>
 <contactref element="IC7" pad="9"/>
-<wire x1="5.716665625" y1="-104.162" x2="2.916665625" y2="-107.5" width="0" layer="19" extent="1-16"/>
+<wire x1="5.716665625" y1="-104.162" x2="5.716665625" y2="-105.683334375" width="0.1" layer="16"/>
+<wire x1="5.716665625" y1="-105.683334375" x2="5.7" y2="-105.7" width="0.1" layer="16"/>
+<via x="5.7" y="-105.7" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="5.74189375" y1="-105.75810625" x2="5.7" y2="-105.7162125" width="0.1" layer="15"/>
+<wire x1="5.7" y1="-105.7" x2="5.7" y2="-105.7162125" width="0.1" layer="15"/>
+<wire x1="5.74189375" y1="-105.75810625" x2="4.24189375" y2="-105.75810625" width="0.1" layer="15"/>
+<wire x1="3.7" y1="-106.3" x2="3.7" y2="-107.5" width="0.1" layer="15"/>
+<via x="3.7" y="-107.5" extent="1-16" drill="0.2" diameter="0.4"/>
+<wire x1="3.7" y1="-107.5" x2="2.916665625" y2="-107.5" width="0.1" layer="1"/>
+<wire x1="4.24189375" y1="-105.75810625" x2="3.7" y2="-106.3" width="0.1" layer="15"/>
 </signal>
 <signal name="N$LEDB98_IC7_PIN10">
 <contactref element="LED98" pad="2"/>
@@ -3615,42 +3895,42 @@ design rules under a new name.</description>
 <signal name="N$LEDR98_IC7_PIN11">
 <contactref element="LED98" pad="4"/>
 <contactref element="IC7" pad="11"/>
-<wire x1="5.55" y1="-103.266665625" x2="6.716665625" y2="-104.162" width="0" layer="19" extent="1-16"/>
+<wire x1="6.716665625" y1="-104.162" x2="5.55" y2="-103.266665625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG98_IC7_PIN12">
 <contactref element="LED98" pad="1"/>
 <contactref element="IC7" pad="12"/>
-<wire x1="7.15" y1="-103.266665625" x2="7.216665625" y2="-104.162" width="0" layer="19" extent="1-16"/>
+<wire x1="7.216665625" y1="-104.162" x2="7.15" y2="-103.266665625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB102_IC7_PIN13">
 <contactref element="LED102" pad="2"/>
 <contactref element="IC7" pad="13"/>
-<wire x1="7.716665625" y1="-104.162" x2="7.15" y2="-108.4" width="0" layer="19" extent="1-16"/>
+<wire x1="7.15" y1="-108.4" x2="7.716665625" y2="-104.162" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR102_IC7_PIN14">
 <contactref element="LED102" pad="4"/>
 <contactref element="IC7" pad="14"/>
-<wire x1="8.216665625" y1="-104.162" x2="5.55" y2="-107.5" width="0" layer="19" extent="1-16"/>
+<wire x1="5.55" y1="-107.5" x2="8.216665625" y2="-104.162" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG102_IC7_PIN15">
 <contactref element="LED102" pad="1"/>
 <contactref element="IC7" pad="15"/>
-<wire x1="8.716665625" y1="-104.162" x2="7.15" y2="-107.5" width="0" layer="19" extent="1-16"/>
+<wire x1="7.15" y1="-107.5" x2="8.716665625" y2="-104.162" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB99_IC7_PIN16">
 <contactref element="LED99" pad="2"/>
 <contactref element="IC7" pad="16"/>
-<wire x1="11.383334375" y1="-104.166665625" x2="9.216665625" y2="-104.162" width="0" layer="19" extent="1-16"/>
+<wire x1="9.216665625" y1="-104.162" x2="11.383334375" y2="-104.166665625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR99_IC7_PIN17">
 <contactref element="LED99" pad="4"/>
 <contactref element="IC7" pad="17"/>
-<wire x1="9.783334375" y1="-103.266665625" x2="9.716665625" y2="-104.162" width="0" layer="19" extent="1-16"/>
+<wire x1="9.716665625" y1="-104.162" x2="9.783334375" y2="-103.266665625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG99_IC7_PIN18">
 <contactref element="LED99" pad="1"/>
 <contactref element="IC7" pad="18"/>
-<wire x1="11.383334375" y1="-103.266665625" x2="10.216665625" y2="-104.162" width="0" layer="19" extent="1-16"/>
+<wire x1="10.216665625" y1="-104.162" x2="11.383334375" y2="-103.266665625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB105_IC7_PIN53">
 <contactref element="LED105" pad="2"/>
@@ -3745,7 +4025,7 @@ design rules under a new name.</description>
 <signal name="N$LEDB108_IC7_PIN35">
 <contactref element="LED108" pad="2"/>
 <contactref element="IC7" pad="35"/>
-<wire x1="15.616665625" y1="-112.633334375" x2="12.216665625" y2="-111.738" width="0" layer="19" extent="1-16"/>
+<wire x1="12.216665625" y1="-111.738" x2="15.616665625" y2="-112.633334375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR108_IC7_PIN34">
 <contactref element="LED108" pad="4"/>
@@ -3755,52 +4035,52 @@ design rules under a new name.</description>
 <signal name="N$LEDG108_IC7_PIN33">
 <contactref element="LED108" pad="1"/>
 <contactref element="IC7" pad="33"/>
-<wire x1="15.616665625" y1="-111.733334375" x2="13.216665625" y2="-111.738" width="0" layer="19" extent="1-16"/>
+<wire x1="13.216665625" y1="-111.738" x2="15.616665625" y2="-111.733334375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB112_IC7_PIN32">
 <contactref element="LED112" pad="2"/>
 <contactref element="IC7" pad="32"/>
-<wire x1="13.716665625" y1="-111.738" x2="15.616665625" y2="-116.866665625" width="0" layer="19" extent="1-16"/>
+<wire x1="15.616665625" y1="-116.866665625" x2="13.716665625" y2="-111.738" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR112_IC7_PIN31">
 <contactref element="LED112" pad="4"/>
 <contactref element="IC7" pad="31"/>
-<wire x1="14.216665625" y1="-111.738" x2="14.016665625" y2="-115.966665625" width="0" layer="19" extent="1-16"/>
+<wire x1="14.016665625" y1="-115.966665625" x2="14.216665625" y2="-111.738" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG112_IC7_PIN30">
 <contactref element="LED112" pad="1"/>
 <contactref element="IC7" pad="30"/>
-<wire x1="14.716665625" y1="-111.738" x2="15.616665625" y2="-115.966665625" width="0" layer="19" extent="1-16"/>
+<wire x1="15.616665625" y1="-115.966665625" x2="14.716665625" y2="-111.738" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB103_IC7_PIN19">
 <contactref element="LED103" pad="2"/>
 <contactref element="IC7" pad="19"/>
-<wire x1="10.716665625" y1="-104.162" x2="11.383334375" y2="-108.4" width="0" layer="19" extent="1-16"/>
+<wire x1="11.383334375" y1="-108.4" x2="10.716665625" y2="-104.162" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR103_IC7_PIN20">
 <contactref element="LED103" pad="4"/>
 <contactref element="IC7" pad="20"/>
-<wire x1="11.216665625" y1="-104.162" x2="9.783334375" y2="-107.5" width="0" layer="19" extent="1-16"/>
+<wire x1="9.783334375" y1="-107.5" x2="11.216665625" y2="-104.162" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG103_IC7_PIN21">
 <contactref element="LED103" pad="1"/>
 <contactref element="IC7" pad="21"/>
-<wire x1="11.716665625" y1="-104.162" x2="11.383334375" y2="-107.5" width="0" layer="19" extent="1-16"/>
+<wire x1="11.383334375" y1="-107.5" x2="11.716665625" y2="-104.162" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB100_IC7_PIN22">
 <contactref element="LED100" pad="2"/>
 <contactref element="IC7" pad="22"/>
-<wire x1="15.616665625" y1="-104.166665625" x2="12.216665625" y2="-104.162" width="0" layer="19" extent="1-16"/>
+<wire x1="12.216665625" y1="-104.162" x2="15.616665625" y2="-104.166665625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDR100_IC7_PIN23">
 <contactref element="LED100" pad="4"/>
 <contactref element="IC7" pad="23"/>
-<wire x1="14.016665625" y1="-103.266665625" x2="12.716665625" y2="-104.162" width="0" layer="19" extent="1-16"/>
+<wire x1="12.716665625" y1="-104.162" x2="14.016665625" y2="-103.266665625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG100_IC7_PIN24">
 <contactref element="LED100" pad="1"/>
 <contactref element="IC7" pad="24"/>
-<wire x1="15.616665625" y1="-103.266665625" x2="13.216665625" y2="-104.162" width="0" layer="19" extent="1-16"/>
+<wire x1="13.216665625" y1="-104.162" x2="15.616665625" y2="-103.266665625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDB104_IC7_PIN25">
 <contactref element="LED104" pad="2"/>
@@ -3810,7 +4090,7 @@ design rules under a new name.</description>
 <signal name="N$LEDR104_IC7_PIN26">
 <contactref element="LED104" pad="4"/>
 <contactref element="IC7" pad="26"/>
-<wire x1="14.216665625" y1="-104.162" x2="14.016665625" y2="-107.5" width="0" layer="19" extent="1-16"/>
+<wire x1="14.016665625" y1="-107.5" x2="14.216665625" y2="-104.162" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$LEDG104_IC7_PIN27">
 <contactref element="LED104" pad="1"/>
@@ -4017,9 +4297,6 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
-<errors>
-<approved hash="4,1,30714869ef96f96e"/>
-</errors>
 </board>
 </drawing>
 <compatibility>
