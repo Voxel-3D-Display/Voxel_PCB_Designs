@@ -431,37 +431,37 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlc5955.pdf"&gt; Datasheet 
 <plain>
 </plain>
 <instances>
-<instance part="LED1" gate="G$1" x="-73.66" y="71.12" smashed="yes">
-<attribute name="NAME" x="-82.55" y="76.2" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-82.55" y="73.66" size="1.778" layer="96" align="center-left"/>
+<instance part="LED1" gate="G$1" x="-43.18" y="71.12" smashed="yes">
+<attribute name="NAME" x="-52.07" y="76.2" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-52.07" y="73.66" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="LED2" gate="G$1" x="-73.66" y="53.34" smashed="yes">
-<attribute name="NAME" x="-82.55" y="58.42" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-82.55" y="55.88" size="1.778" layer="96" align="center-left"/>
+<instance part="LED2" gate="G$1" x="-43.18" y="53.34" smashed="yes">
+<attribute name="NAME" x="-52.07" y="58.42" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-52.07" y="55.88" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="LED3" gate="G$1" x="-73.66" y="35.56" smashed="yes">
-<attribute name="NAME" x="-82.55" y="40.64" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-82.55" y="38.1" size="1.778" layer="96" align="center-left"/>
+<instance part="LED3" gate="G$1" x="-43.18" y="35.56" smashed="yes">
+<attribute name="NAME" x="-52.07" y="40.64" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-52.07" y="38.1" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="LED4" gate="G$1" x="-73.66" y="17.78" smashed="yes">
-<attribute name="NAME" x="-82.55" y="22.86" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-82.55" y="20.32" size="1.778" layer="96" align="center-left"/>
+<instance part="LED4" gate="G$1" x="-43.18" y="17.78" smashed="yes">
+<attribute name="NAME" x="-52.07" y="22.86" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-52.07" y="20.32" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="LED5" gate="G$1" x="-25.4" y="71.12" smashed="yes">
-<attribute name="NAME" x="-34.29" y="76.2" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-34.29" y="73.66" size="1.778" layer="96" align="center-left"/>
+<instance part="LED5" gate="G$1" x="-10.16" y="71.12" smashed="yes">
+<attribute name="NAME" x="-19.05" y="76.2" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-19.05" y="73.66" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="LED6" gate="G$1" x="-25.4" y="53.34" smashed="yes">
-<attribute name="NAME" x="-34.29" y="58.42" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-34.29" y="55.88" size="1.778" layer="96" align="center-left"/>
+<instance part="LED6" gate="G$1" x="-10.16" y="53.34" smashed="yes">
+<attribute name="NAME" x="-19.05" y="58.42" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-19.05" y="55.88" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="LED7" gate="G$1" x="-25.4" y="35.56" smashed="yes">
-<attribute name="NAME" x="-34.29" y="40.64" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-34.29" y="38.1" size="1.778" layer="96" align="center-left"/>
+<instance part="LED7" gate="G$1" x="-10.16" y="35.56" smashed="yes">
+<attribute name="NAME" x="-19.05" y="40.64" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-19.05" y="38.1" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="LED8" gate="G$1" x="-25.4" y="17.78" smashed="yes">
-<attribute name="NAME" x="-34.29" y="22.86" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-34.29" y="20.32" size="1.778" layer="96" align="center-left"/>
+<instance part="LED8" gate="G$1" x="-10.16" y="17.78" smashed="yes">
+<attribute name="NAME" x="-19.05" y="22.86" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-19.05" y="20.32" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="LED9" gate="G$1" x="22.86" y="71.12" smashed="yes">
 <attribute name="NAME" x="13.97" y="76.2" size="1.778" layer="95" align="center-left"/>
@@ -479,21 +479,21 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlc5955.pdf"&gt; Datasheet 
 <attribute name="NAME" x="13.97" y="22.86" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="13.97" y="20.32" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="LED13" gate="G$1" x="76.2" y="71.12" smashed="yes">
-<attribute name="NAME" x="67.31" y="76.2" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="67.31" y="73.66" size="1.778" layer="96" align="center-left"/>
+<instance part="LED13" gate="G$1" x="55.88" y="71.12" smashed="yes">
+<attribute name="NAME" x="46.99" y="76.2" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="46.99" y="73.66" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="LED14" gate="G$1" x="76.2" y="53.34" smashed="yes">
-<attribute name="NAME" x="67.31" y="58.42" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="67.31" y="55.88" size="1.778" layer="96" align="center-left"/>
+<instance part="LED14" gate="G$1" x="55.88" y="53.34" smashed="yes">
+<attribute name="NAME" x="46.99" y="58.42" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="46.99" y="55.88" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="LED15" gate="G$1" x="76.2" y="35.56" smashed="yes">
-<attribute name="NAME" x="67.31" y="40.64" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="67.31" y="38.1" size="1.778" layer="96" align="center-left"/>
+<instance part="LED15" gate="G$1" x="55.88" y="35.56" smashed="yes">
+<attribute name="NAME" x="46.99" y="40.64" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="46.99" y="38.1" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="LED16" gate="G$1" x="76.2" y="17.78" smashed="yes">
-<attribute name="NAME" x="67.31" y="22.86" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="67.31" y="20.32" size="1.778" layer="96" align="center-left"/>
+<instance part="LED16" gate="G$1" x="55.88" y="17.78" smashed="yes">
+<attribute name="NAME" x="46.99" y="22.86" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="46.99" y="20.32" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="IC1" gate="G$1" x="-48.26" y="-185.42" smashed="yes">
 <attribute name="NAME" x="-16.51" y="-177.8" size="1.778" layer="95" align="center-left"/>
@@ -506,43 +506,43 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlc5955.pdf"&gt; Datasheet 
 <net name="3V3" class="0">
 <segment>
 <pinref part="LED1" gate="G$1" pin="COM"/>
-<wire x1="-73.66" y1="71.12" x2="-78.74" y2="71.12" width="0.1524" layer="91"/>
-<label x="-78.74" y="68.58" size="1.778" layer="95"/>
+<wire x1="-43.18" y1="71.12" x2="-48.26" y2="71.12" width="0.1524" layer="91"/>
+<label x="-48.26" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="LED2" gate="G$1" pin="COM"/>
-<wire x1="-73.66" y1="53.34" x2="-78.74" y2="53.34" width="0.1524" layer="91"/>
-<label x="-78.74" y="50.8" size="1.778" layer="95"/>
+<wire x1="-43.18" y1="53.34" x2="-48.26" y2="53.34" width="0.1524" layer="91"/>
+<label x="-48.26" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="LED3" gate="G$1" pin="COM"/>
-<wire x1="-73.66" y1="35.56" x2="-78.74" y2="35.56" width="0.1524" layer="91"/>
-<label x="-78.74" y="33.02" size="1.778" layer="95"/>
+<wire x1="-43.18" y1="35.56" x2="-48.26" y2="35.56" width="0.1524" layer="91"/>
+<label x="-48.26" y="33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="LED4" gate="G$1" pin="COM"/>
-<wire x1="-73.66" y1="17.78" x2="-78.74" y2="17.78" width="0.1524" layer="91"/>
-<label x="-78.74" y="15.24" size="1.778" layer="95"/>
+<wire x1="-43.18" y1="17.78" x2="-48.26" y2="17.78" width="0.1524" layer="91"/>
+<label x="-48.26" y="15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="LED5" gate="G$1" pin="COM"/>
-<wire x1="-25.4" y1="71.12" x2="-30.48" y2="71.12" width="0.1524" layer="91"/>
-<label x="-30.48" y="68.58" size="1.778" layer="95"/>
+<wire x1="-10.16" y1="71.12" x2="-15.24" y2="71.12" width="0.1524" layer="91"/>
+<label x="-15.24" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="LED6" gate="G$1" pin="COM"/>
-<wire x1="-25.4" y1="53.34" x2="-30.48" y2="53.34" width="0.1524" layer="91"/>
-<label x="-30.48" y="50.8" size="1.778" layer="95"/>
+<wire x1="-10.16" y1="53.34" x2="-15.24" y2="53.34" width="0.1524" layer="91"/>
+<label x="-15.24" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="LED7" gate="G$1" pin="COM"/>
-<wire x1="-25.4" y1="35.56" x2="-30.48" y2="35.56" width="0.1524" layer="91"/>
-<label x="-30.48" y="33.02" size="1.778" layer="95"/>
+<wire x1="-10.16" y1="35.56" x2="-15.24" y2="35.56" width="0.1524" layer="91"/>
+<label x="-15.24" y="33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="LED8" gate="G$1" pin="COM"/>
-<wire x1="-25.4" y1="17.78" x2="-30.48" y2="17.78" width="0.1524" layer="91"/>
-<label x="-30.48" y="15.24" size="1.778" layer="95"/>
+<wire x1="-10.16" y1="17.78" x2="-15.24" y2="17.78" width="0.1524" layer="91"/>
+<label x="-15.24" y="15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="LED9" gate="G$1" pin="COM"/>
@@ -566,27 +566,27 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlc5955.pdf"&gt; Datasheet 
 </segment>
 <segment>
 <pinref part="LED13" gate="G$1" pin="COM"/>
-<wire x1="76.2" y1="71.12" x2="71.12" y2="71.12" width="0.1524" layer="91"/>
-<label x="71.12" y="68.58" size="1.778" layer="95"/>
+<wire x1="55.88" y1="71.12" x2="50.8" y2="71.12" width="0.1524" layer="91"/>
+<label x="50.8" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="LED14" gate="G$1" pin="COM"/>
-<wire x1="76.2" y1="53.34" x2="71.12" y2="53.34" width="0.1524" layer="91"/>
-<label x="71.12" y="50.8" size="1.778" layer="95"/>
+<wire x1="55.88" y1="53.34" x2="50.8" y2="53.34" width="0.1524" layer="91"/>
+<label x="50.8" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="LED15" gate="G$1" pin="COM"/>
-<wire x1="76.2" y1="35.56" x2="71.12" y2="35.56" width="0.1524" layer="91"/>
-<label x="71.12" y="33.02" size="1.778" layer="95"/>
+<wire x1="55.88" y1="35.56" x2="50.8" y2="35.56" width="0.1524" layer="91"/>
+<label x="50.8" y="33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="LED16" gate="G$1" pin="COM"/>
-<wire x1="76.2" y1="17.78" x2="71.12" y2="17.78" width="0.1524" layer="91"/>
-<label x="71.12" y="15.24" size="1.778" layer="95"/>
+<wire x1="55.88" y1="17.78" x2="50.8" y2="17.78" width="0.1524" layer="91"/>
+<label x="50.8" y="15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="VCC"/>
-<wire x1="-12.7" y1="-190.5" x2="12.7" y2="-190.5" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="-190.5" x2="-2.54" y2="-190.5" width="0.1524" layer="91"/>
 <label x="-10.16" y="-190.5" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -1313,220 +1313,220 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlc5955.pdf"&gt; Datasheet 
 <net name="SIN_MCU" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="SIN"/>
-<wire x1="-48.26" y1="-185.42" x2="-73.66" y2="-185.42" width="0.1524" layer="91"/>
-<label x="-73.66" y="-185.42" size="1.778" layer="95"/>
+<wire x1="-48.26" y1="-185.42" x2="-58.42" y2="-185.42" width="0.1524" layer="91"/>
+<label x="-58.42" y="-185.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCLK" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="SCLK"/>
-<wire x1="-48.26" y1="-187.96" x2="-73.66" y2="-187.96" width="0.1524" layer="91"/>
-<label x="-73.66" y="-187.96" size="1.778" layer="95"/>
+<wire x1="-48.26" y1="-187.96" x2="-58.42" y2="-187.96" width="0.1524" layer="91"/>
+<label x="-58.42" y="-187.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LAT" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="LAT"/>
-<wire x1="-48.26" y1="-190.5" x2="-73.66" y2="-190.5" width="0.1524" layer="91"/>
-<label x="-73.66" y="-190.5" size="1.778" layer="95"/>
+<wire x1="-48.26" y1="-190.5" x2="-58.42" y2="-190.5" width="0.1524" layer="91"/>
+<label x="-58.42" y="-190.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$LEDB1_IC1_PIN4" class="0">
 <segment>
 <pinref part="LED1" gate="G$1" pin="BLUE"/>
-<wire x1="-63.5" y1="66.04" x2="-58.42" y2="66.04" width="0.1524" layer="91"/>
-<label x="-63.5" y="66.04" size="1.778" layer="95"/>
+<wire x1="-33.02" y1="66.04" x2="-27.94" y2="66.04" width="0.1524" layer="91"/>
+<label x="-33.02" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTB4"/>
-<wire x1="-48.26" y1="-193.04" x2="-73.66" y2="-193.04" width="0.1524" layer="91"/>
-<label x="-73.66" y="-193.04" size="1.778" layer="95"/>
+<wire x1="-48.26" y1="-193.04" x2="-58.42" y2="-193.04" width="0.1524" layer="91"/>
+<label x="-58.42" y="-193.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$LEDR1_IC1_PIN5" class="0">
 <segment>
 <pinref part="LED1" gate="G$1" pin="RED"/>
-<wire x1="-63.5" y1="76.2" x2="-58.42" y2="76.2" width="0.1524" layer="91"/>
-<label x="-63.5" y="76.2" size="1.778" layer="95"/>
+<wire x1="-33.02" y1="76.2" x2="-27.94" y2="76.2" width="0.1524" layer="91"/>
+<label x="-33.02" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTR4"/>
-<wire x1="-48.26" y1="-195.58" x2="-73.66" y2="-195.58" width="0.1524" layer="91"/>
-<label x="-73.66" y="-195.58" size="1.778" layer="95"/>
+<wire x1="-48.26" y1="-195.58" x2="-58.42" y2="-195.58" width="0.1524" layer="91"/>
+<label x="-58.42" y="-195.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$LEDG1_IC1_PIN6" class="0">
 <segment>
 <pinref part="LED1" gate="G$1" pin="GREEN"/>
-<wire x1="-63.5" y1="71.12" x2="-58.42" y2="71.12" width="0.1524" layer="91"/>
-<label x="-63.5" y="71.12" size="1.778" layer="95"/>
+<wire x1="-33.02" y1="71.12" x2="-27.94" y2="71.12" width="0.1524" layer="91"/>
+<label x="-33.02" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTG4"/>
-<wire x1="-48.26" y1="-198.12" x2="-73.66" y2="-198.12" width="0.1524" layer="91"/>
-<label x="-73.66" y="-198.12" size="1.778" layer="95"/>
+<wire x1="-48.26" y1="-198.12" x2="-58.42" y2="-198.12" width="0.1524" layer="91"/>
+<label x="-58.42" y="-198.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$LEDB5_IC1_PIN7" class="0">
 <segment>
 <pinref part="LED5" gate="G$1" pin="BLUE"/>
-<wire x1="-15.24" y1="66.04" x2="-10.16" y2="66.04" width="0.1524" layer="91"/>
-<label x="-15.24" y="66.04" size="1.778" layer="95"/>
+<wire x1="0" y1="66.04" x2="5.08" y2="66.04" width="0.1524" layer="91"/>
+<label x="0" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTB0"/>
-<wire x1="-48.26" y1="-200.66" x2="-73.66" y2="-200.66" width="0.1524" layer="91"/>
-<label x="-73.66" y="-200.66" size="1.778" layer="95"/>
+<wire x1="-48.26" y1="-200.66" x2="-58.42" y2="-200.66" width="0.1524" layer="91"/>
+<label x="-58.42" y="-200.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$LEDR5_IC1_PIN8" class="0">
 <segment>
 <pinref part="LED5" gate="G$1" pin="RED"/>
-<wire x1="-15.24" y1="76.2" x2="-10.16" y2="76.2" width="0.1524" layer="91"/>
-<label x="-15.24" y="76.2" size="1.778" layer="95"/>
+<wire x1="0" y1="76.2" x2="5.08" y2="76.2" width="0.1524" layer="91"/>
+<label x="0" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTR0"/>
-<wire x1="-48.26" y1="-203.2" x2="-73.66" y2="-203.2" width="0.1524" layer="91"/>
-<label x="-73.66" y="-203.2" size="1.778" layer="95"/>
+<wire x1="-48.26" y1="-203.2" x2="-58.42" y2="-203.2" width="0.1524" layer="91"/>
+<label x="-58.42" y="-203.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$LEDG5_IC1_PIN9" class="0">
 <segment>
 <pinref part="LED5" gate="G$1" pin="GREEN"/>
-<wire x1="-15.24" y1="71.12" x2="-10.16" y2="71.12" width="0.1524" layer="91"/>
-<label x="-15.24" y="71.12" size="1.778" layer="95"/>
+<wire x1="0" y1="71.12" x2="5.08" y2="71.12" width="0.1524" layer="91"/>
+<label x="0" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTG0"/>
-<wire x1="-48.26" y1="-205.74" x2="-73.66" y2="-205.74" width="0.1524" layer="91"/>
-<label x="-73.66" y="-205.74" size="1.778" layer="95"/>
+<wire x1="-48.26" y1="-205.74" x2="-58.42" y2="-205.74" width="0.1524" layer="91"/>
+<label x="-58.42" y="-205.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$LEDB2_IC1_PIN10" class="0">
 <segment>
 <pinref part="LED2" gate="G$1" pin="BLUE"/>
-<wire x1="-63.5" y1="48.26" x2="-58.42" y2="48.26" width="0.1524" layer="91"/>
-<label x="-63.5" y="48.26" size="1.778" layer="95"/>
+<wire x1="-33.02" y1="48.26" x2="-27.94" y2="48.26" width="0.1524" layer="91"/>
+<label x="-33.02" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTB5"/>
-<wire x1="-48.26" y1="-208.28" x2="-73.66" y2="-208.28" width="0.1524" layer="91"/>
-<label x="-73.66" y="-208.28" size="1.778" layer="95"/>
+<wire x1="-48.26" y1="-208.28" x2="-58.42" y2="-208.28" width="0.1524" layer="91"/>
+<label x="-58.42" y="-208.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$LEDR2_IC1_PIN11" class="0">
 <segment>
 <pinref part="LED2" gate="G$1" pin="RED"/>
-<wire x1="-63.5" y1="58.42" x2="-58.42" y2="58.42" width="0.1524" layer="91"/>
-<label x="-63.5" y="58.42" size="1.778" layer="95"/>
+<wire x1="-33.02" y1="58.42" x2="-27.94" y2="58.42" width="0.1524" layer="91"/>
+<label x="-33.02" y="58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTR5"/>
-<wire x1="-48.26" y1="-210.82" x2="-73.66" y2="-210.82" width="0.1524" layer="91"/>
-<label x="-73.66" y="-210.82" size="1.778" layer="95"/>
+<wire x1="-48.26" y1="-210.82" x2="-58.42" y2="-210.82" width="0.1524" layer="91"/>
+<label x="-58.42" y="-210.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$LEDG2_IC1_PIN12" class="0">
 <segment>
 <pinref part="LED2" gate="G$1" pin="GREEN"/>
-<wire x1="-63.5" y1="53.34" x2="-58.42" y2="53.34" width="0.1524" layer="91"/>
-<label x="-63.5" y="53.34" size="1.778" layer="95"/>
+<wire x1="-33.02" y1="53.34" x2="-27.94" y2="53.34" width="0.1524" layer="91"/>
+<label x="-33.02" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTG5"/>
-<wire x1="-48.26" y1="-213.36" x2="-73.66" y2="-213.36" width="0.1524" layer="91"/>
-<label x="-73.66" y="-213.36" size="1.778" layer="95"/>
+<wire x1="-48.26" y1="-213.36" x2="-58.42" y2="-213.36" width="0.1524" layer="91"/>
+<label x="-58.42" y="-213.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$LEDB6_IC1_PIN13" class="0">
 <segment>
 <pinref part="LED6" gate="G$1" pin="BLUE"/>
-<wire x1="-15.24" y1="48.26" x2="-10.16" y2="48.26" width="0.1524" layer="91"/>
-<label x="-15.24" y="48.26" size="1.778" layer="95"/>
+<wire x1="0" y1="48.26" x2="5.08" y2="48.26" width="0.1524" layer="91"/>
+<label x="0" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTB1"/>
-<wire x1="-48.26" y1="-215.9" x2="-73.66" y2="-215.9" width="0.1524" layer="91"/>
-<label x="-73.66" y="-215.9" size="1.778" layer="95"/>
+<wire x1="-48.26" y1="-215.9" x2="-58.42" y2="-215.9" width="0.1524" layer="91"/>
+<label x="-58.42" y="-215.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$LEDR6_IC1_PIN14" class="0">
 <segment>
 <pinref part="LED6" gate="G$1" pin="RED"/>
-<wire x1="-15.24" y1="58.42" x2="-10.16" y2="58.42" width="0.1524" layer="91"/>
-<label x="-15.24" y="58.42" size="1.778" layer="95"/>
+<wire x1="0" y1="58.42" x2="5.08" y2="58.42" width="0.1524" layer="91"/>
+<label x="0" y="58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTR1"/>
-<wire x1="-48.26" y1="-218.44" x2="-73.66" y2="-218.44" width="0.1524" layer="91"/>
-<label x="-73.66" y="-218.44" size="1.778" layer="95"/>
+<wire x1="-48.26" y1="-218.44" x2="-58.42" y2="-218.44" width="0.1524" layer="91"/>
+<label x="-58.42" y="-218.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$LEDG6_IC1_PIN15" class="0">
 <segment>
 <pinref part="LED6" gate="G$1" pin="GREEN"/>
-<wire x1="-15.24" y1="53.34" x2="-10.16" y2="53.34" width="0.1524" layer="91"/>
-<label x="-15.24" y="53.34" size="1.778" layer="95"/>
+<wire x1="0" y1="53.34" x2="5.08" y2="53.34" width="0.1524" layer="91"/>
+<label x="0" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTG1"/>
-<wire x1="-48.26" y1="-220.98" x2="-73.66" y2="-220.98" width="0.1524" layer="91"/>
-<label x="-73.66" y="-220.98" size="1.778" layer="95"/>
+<wire x1="-48.26" y1="-220.98" x2="-58.42" y2="-220.98" width="0.1524" layer="91"/>
+<label x="-58.42" y="-220.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$LEDB3_IC1_PIN16" class="0">
 <segment>
 <pinref part="LED3" gate="G$1" pin="BLUE"/>
-<wire x1="-63.5" y1="30.48" x2="-58.42" y2="30.48" width="0.1524" layer="91"/>
-<label x="-63.5" y="30.48" size="1.778" layer="95"/>
+<wire x1="-33.02" y1="30.48" x2="-27.94" y2="30.48" width="0.1524" layer="91"/>
+<label x="-33.02" y="30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTB2"/>
-<wire x1="-48.26" y1="-223.52" x2="-73.66" y2="-223.52" width="0.1524" layer="91"/>
-<label x="-73.66" y="-223.52" size="1.778" layer="95"/>
+<wire x1="-48.26" y1="-223.52" x2="-58.42" y2="-223.52" width="0.1524" layer="91"/>
+<label x="-58.42" y="-223.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$LEDR3_IC1_PIN17" class="0">
 <segment>
 <pinref part="LED3" gate="G$1" pin="RED"/>
-<wire x1="-63.5" y1="40.64" x2="-58.42" y2="40.64" width="0.1524" layer="91"/>
-<label x="-63.5" y="40.64" size="1.778" layer="95"/>
+<wire x1="-33.02" y1="40.64" x2="-27.94" y2="40.64" width="0.1524" layer="91"/>
+<label x="-33.02" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTR2"/>
-<wire x1="-48.26" y1="-226.06" x2="-73.66" y2="-226.06" width="0.1524" layer="91"/>
-<label x="-73.66" y="-226.06" size="1.778" layer="95"/>
+<wire x1="-48.26" y1="-226.06" x2="-58.42" y2="-226.06" width="0.1524" layer="91"/>
+<label x="-58.42" y="-226.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$LEDG3_IC1_PIN18" class="0">
 <segment>
 <pinref part="LED3" gate="G$1" pin="GREEN"/>
-<wire x1="-63.5" y1="35.56" x2="-58.42" y2="35.56" width="0.1524" layer="91"/>
-<label x="-63.5" y="35.56" size="1.778" layer="95"/>
+<wire x1="-33.02" y1="35.56" x2="-27.94" y2="35.56" width="0.1524" layer="91"/>
+<label x="-33.02" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTG2"/>
-<wire x1="-48.26" y1="-228.6" x2="-73.66" y2="-228.6" width="0.1524" layer="91"/>
-<label x="-73.66" y="-228.6" size="1.778" layer="95"/>
+<wire x1="-48.26" y1="-228.6" x2="-58.42" y2="-228.6" width="0.1524" layer="91"/>
+<label x="-58.42" y="-228.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SOUT1" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="SOUT"/>
-<wire x1="-48.26" y1="-254" x2="-73.66" y2="-254" width="0.1524" layer="91"/>
-<label x="-73.66" y="-254" size="1.778" layer="95"/>
+<wire x1="-48.26" y1="-254" x2="-58.42" y2="-254" width="0.1524" layer="91"/>
+<label x="-58.42" y="-254" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="GND_2"/>
-<wire x1="-12.7" y1="-185.42" x2="12.7" y2="-185.42" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="-185.42" x2="-2.54" y2="-185.42" width="0.1524" layer="91"/>
 <label x="-10.16" y="-185.42" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="GND_1"/>
-<wire x1="-12.7" y1="-254" x2="12.7" y2="-254" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="-254" x2="-2.54" y2="-254" width="0.1524" layer="91"/>
 <label x="-10.16" y="-254" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -1538,7 +1538,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlc5955.pdf"&gt; Datasheet 
 <net name="GSCLK" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="GSCLK"/>
-<wire x1="-12.7" y1="-187.96" x2="12.7" y2="-187.96" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="-187.96" x2="-2.54" y2="-187.96" width="0.1524" layer="91"/>
 <label x="-10.16" y="-187.96" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -1550,8 +1550,8 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlc5955.pdf"&gt; Datasheet 
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTB8"/>
-<wire x1="-12.7" y1="-193.04" x2="12.7" y2="-193.04" width="0.1524" layer="91"/>
-<label x="12.7" y="-193.04" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-12.7" y1="-193.04" x2="-2.54" y2="-193.04" width="0.1524" layer="91"/>
+<label x="-2.54" y="-193.04" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="N$LEDR9_IC1_PIN52" class="0">
@@ -1562,8 +1562,8 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlc5955.pdf"&gt; Datasheet 
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTR8"/>
-<wire x1="-12.7" y1="-195.58" x2="12.7" y2="-195.58" width="0.1524" layer="91"/>
-<label x="12.7" y="-195.58" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-12.7" y1="-195.58" x2="-2.54" y2="-195.58" width="0.1524" layer="91"/>
+<label x="-2.54" y="-195.58" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="N$LEDG9_IC1_PIN51" class="0">
@@ -1574,44 +1574,44 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlc5955.pdf"&gt; Datasheet 
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTG8"/>
-<wire x1="-12.7" y1="-198.12" x2="12.7" y2="-198.12" width="0.1524" layer="91"/>
-<label x="12.7" y="-198.12" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-12.7" y1="-198.12" x2="-2.54" y2="-198.12" width="0.1524" layer="91"/>
+<label x="-2.54" y="-198.12" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="N$LEDB13_IC1_PIN50" class="0">
 <segment>
 <pinref part="LED13" gate="G$1" pin="BLUE"/>
-<wire x1="86.36" y1="66.04" x2="91.44" y2="66.04" width="0.1524" layer="91"/>
-<label x="86.36" y="66.04" size="1.778" layer="95"/>
+<wire x1="66.04" y1="66.04" x2="71.12" y2="66.04" width="0.1524" layer="91"/>
+<label x="66.04" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTB12"/>
-<wire x1="-12.7" y1="-200.66" x2="12.7" y2="-200.66" width="0.1524" layer="91"/>
-<label x="12.7" y="-200.66" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-12.7" y1="-200.66" x2="-2.54" y2="-200.66" width="0.1524" layer="91"/>
+<label x="-2.54" y="-200.66" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="N$LEDR13_IC1_PIN49" class="0">
 <segment>
 <pinref part="LED13" gate="G$1" pin="RED"/>
-<wire x1="86.36" y1="76.2" x2="91.44" y2="76.2" width="0.1524" layer="91"/>
-<label x="86.36" y="76.2" size="1.778" layer="95"/>
+<wire x1="66.04" y1="76.2" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
+<label x="66.04" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTR12"/>
-<wire x1="-12.7" y1="-203.2" x2="12.7" y2="-203.2" width="0.1524" layer="91"/>
-<label x="12.7" y="-203.2" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-12.7" y1="-203.2" x2="-2.54" y2="-203.2" width="0.1524" layer="91"/>
+<label x="-2.54" y="-203.2" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="N$LEDG13_IC1_PIN48" class="0">
 <segment>
 <pinref part="LED13" gate="G$1" pin="GREEN"/>
-<wire x1="86.36" y1="71.12" x2="91.44" y2="71.12" width="0.1524" layer="91"/>
-<label x="86.36" y="71.12" size="1.778" layer="95"/>
+<wire x1="66.04" y1="71.12" x2="71.12" y2="71.12" width="0.1524" layer="91"/>
+<label x="66.04" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTG12"/>
-<wire x1="-12.7" y1="-205.74" x2="12.7" y2="-205.74" width="0.1524" layer="91"/>
-<label x="12.7" y="-205.74" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-12.7" y1="-205.74" x2="-2.54" y2="-205.74" width="0.1524" layer="91"/>
+<label x="-2.54" y="-205.74" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="N$LEDB10_IC1_PIN47" class="0">
@@ -1622,8 +1622,8 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlc5955.pdf"&gt; Datasheet 
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTB9"/>
-<wire x1="-12.7" y1="-208.28" x2="12.7" y2="-208.28" width="0.1524" layer="91"/>
-<label x="12.7" y="-208.28" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-12.7" y1="-208.28" x2="-2.54" y2="-208.28" width="0.1524" layer="91"/>
+<label x="-2.54" y="-208.28" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="N$LEDR10_IC1_PIN46" class="0">
@@ -1634,8 +1634,8 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlc5955.pdf"&gt; Datasheet 
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTR9"/>
-<wire x1="-12.7" y1="-210.82" x2="12.7" y2="-210.82" width="0.1524" layer="91"/>
-<label x="12.7" y="-210.82" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-12.7" y1="-210.82" x2="-2.54" y2="-210.82" width="0.1524" layer="91"/>
+<label x="-2.54" y="-210.82" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="N$LEDG10_IC1_PIN45" class="0">
@@ -1646,44 +1646,44 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlc5955.pdf"&gt; Datasheet 
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTG9"/>
-<wire x1="-12.7" y1="-213.36" x2="12.7" y2="-213.36" width="0.1524" layer="91"/>
-<label x="12.7" y="-213.36" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-12.7" y1="-213.36" x2="-2.54" y2="-213.36" width="0.1524" layer="91"/>
+<label x="-2.54" y="-213.36" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="N$LEDB14_IC1_PIN44" class="0">
 <segment>
 <pinref part="LED14" gate="G$1" pin="BLUE"/>
-<wire x1="86.36" y1="48.26" x2="91.44" y2="48.26" width="0.1524" layer="91"/>
-<label x="86.36" y="48.26" size="1.778" layer="95"/>
+<wire x1="66.04" y1="48.26" x2="71.12" y2="48.26" width="0.1524" layer="91"/>
+<label x="66.04" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTB13"/>
-<wire x1="-12.7" y1="-215.9" x2="12.7" y2="-215.9" width="0.1524" layer="91"/>
-<label x="12.7" y="-215.9" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-12.7" y1="-215.9" x2="-2.54" y2="-215.9" width="0.1524" layer="91"/>
+<label x="-2.54" y="-215.9" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="N$LEDR14_IC1_PIN43" class="0">
 <segment>
 <pinref part="LED14" gate="G$1" pin="RED"/>
-<wire x1="86.36" y1="58.42" x2="91.44" y2="58.42" width="0.1524" layer="91"/>
-<label x="86.36" y="58.42" size="1.778" layer="95"/>
+<wire x1="66.04" y1="58.42" x2="71.12" y2="58.42" width="0.1524" layer="91"/>
+<label x="66.04" y="58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTR13"/>
-<wire x1="-12.7" y1="-218.44" x2="12.7" y2="-218.44" width="0.1524" layer="91"/>
-<label x="12.7" y="-218.44" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-12.7" y1="-218.44" x2="-2.54" y2="-218.44" width="0.1524" layer="91"/>
+<label x="-2.54" y="-218.44" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="N$LEDG14_IC1_PIN42" class="0">
 <segment>
 <pinref part="LED14" gate="G$1" pin="GREEN"/>
-<wire x1="86.36" y1="53.34" x2="91.44" y2="53.34" width="0.1524" layer="91"/>
-<label x="86.36" y="53.34" size="1.778" layer="95"/>
+<wire x1="66.04" y1="53.34" x2="71.12" y2="53.34" width="0.1524" layer="91"/>
+<label x="66.04" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTG13"/>
-<wire x1="-12.7" y1="-220.98" x2="12.7" y2="-220.98" width="0.1524" layer="91"/>
-<label x="12.7" y="-220.98" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-12.7" y1="-220.98" x2="-2.54" y2="-220.98" width="0.1524" layer="91"/>
+<label x="-2.54" y="-220.98" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="N$LEDB11_IC1_PIN41" class="0">
@@ -1694,8 +1694,8 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlc5955.pdf"&gt; Datasheet 
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTB14"/>
-<wire x1="-12.7" y1="-223.52" x2="12.7" y2="-223.52" width="0.1524" layer="91"/>
-<label x="12.7" y="-223.52" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-12.7" y1="-223.52" x2="-2.54" y2="-223.52" width="0.1524" layer="91"/>
+<label x="-2.54" y="-223.52" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="N$LEDR11_IC1_PIN40" class="0">
@@ -1706,8 +1706,8 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlc5955.pdf"&gt; Datasheet 
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTR14"/>
-<wire x1="-12.7" y1="-226.06" x2="12.7" y2="-226.06" width="0.1524" layer="91"/>
-<label x="12.7" y="-226.06" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-12.7" y1="-226.06" x2="-2.54" y2="-226.06" width="0.1524" layer="91"/>
+<label x="-2.54" y="-226.06" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="N$LEDG11_IC1_PIN39" class="0">
@@ -1718,44 +1718,44 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlc5955.pdf"&gt; Datasheet 
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTG14"/>
-<wire x1="-12.7" y1="-228.6" x2="12.7" y2="-228.6" width="0.1524" layer="91"/>
-<label x="12.7" y="-228.6" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-12.7" y1="-228.6" x2="-2.54" y2="-228.6" width="0.1524" layer="91"/>
+<label x="-2.54" y="-228.6" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="N$LEDB15_IC1_PIN38" class="0">
 <segment>
 <pinref part="LED15" gate="G$1" pin="BLUE"/>
-<wire x1="86.36" y1="30.48" x2="91.44" y2="30.48" width="0.1524" layer="91"/>
-<label x="86.36" y="30.48" size="1.778" layer="95"/>
+<wire x1="66.04" y1="30.48" x2="71.12" y2="30.48" width="0.1524" layer="91"/>
+<label x="66.04" y="30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTB10"/>
-<wire x1="-12.7" y1="-231.14" x2="12.7" y2="-231.14" width="0.1524" layer="91"/>
-<label x="12.7" y="-231.14" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-12.7" y1="-231.14" x2="-2.54" y2="-231.14" width="0.1524" layer="91"/>
+<label x="-2.54" y="-231.14" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="N$LEDR15_IC1_PIN37" class="0">
 <segment>
 <pinref part="LED15" gate="G$1" pin="RED"/>
-<wire x1="86.36" y1="40.64" x2="91.44" y2="40.64" width="0.1524" layer="91"/>
-<label x="86.36" y="40.64" size="1.778" layer="95"/>
+<wire x1="66.04" y1="40.64" x2="71.12" y2="40.64" width="0.1524" layer="91"/>
+<label x="66.04" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTR10"/>
-<wire x1="-12.7" y1="-233.68" x2="12.7" y2="-233.68" width="0.1524" layer="91"/>
-<label x="12.7" y="-233.68" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-12.7" y1="-233.68" x2="-2.54" y2="-233.68" width="0.1524" layer="91"/>
+<label x="-2.54" y="-233.68" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="N$LEDG15_IC1_PIN36" class="0">
 <segment>
 <pinref part="LED15" gate="G$1" pin="GREEN"/>
-<wire x1="86.36" y1="35.56" x2="91.44" y2="35.56" width="0.1524" layer="91"/>
-<label x="86.36" y="35.56" size="1.778" layer="95"/>
+<wire x1="66.04" y1="35.56" x2="71.12" y2="35.56" width="0.1524" layer="91"/>
+<label x="66.04" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTG10"/>
-<wire x1="12.7" y1="-236.22" x2="-12.7" y2="-236.22" width="0.1524" layer="91"/>
-<label x="12.7" y="-236.22" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-2.54" y1="-236.22" x2="-12.7" y2="-236.22" width="0.1524" layer="91"/>
+<label x="-2.54" y="-236.22" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="N$LEDB12_IC1_PIN35" class="0">
@@ -1766,8 +1766,8 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlc5955.pdf"&gt; Datasheet 
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTB15"/>
-<wire x1="-12.7" y1="-238.76" x2="12.7" y2="-238.76" width="0.1524" layer="91"/>
-<label x="12.7" y="-238.76" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-12.7" y1="-238.76" x2="-2.54" y2="-238.76" width="0.1524" layer="91"/>
+<label x="-2.54" y="-238.76" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="N$LEDR12_IC1_PIN34" class="0">
@@ -1778,8 +1778,8 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlc5955.pdf"&gt; Datasheet 
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTR15"/>
-<wire x1="-12.7" y1="-241.3" x2="12.7" y2="-241.3" width="0.1524" layer="91"/>
-<label x="12.7" y="-241.3" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-12.7" y1="-241.3" x2="-2.54" y2="-241.3" width="0.1524" layer="91"/>
+<label x="-2.54" y="-241.3" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="N$LEDG12_IC1_PIN33" class="0">
@@ -1790,152 +1790,152 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlc5955.pdf"&gt; Datasheet 
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTG15"/>
-<wire x1="-12.7" y1="-243.84" x2="12.7" y2="-243.84" width="0.1524" layer="91"/>
-<label x="12.7" y="-243.84" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-12.7" y1="-243.84" x2="-2.54" y2="-243.84" width="0.1524" layer="91"/>
+<label x="-2.54" y="-243.84" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="N$LEDB16_IC1_PIN32" class="0">
 <segment>
 <pinref part="LED16" gate="G$1" pin="BLUE"/>
-<wire x1="86.36" y1="12.7" x2="91.44" y2="12.7" width="0.1524" layer="91"/>
-<label x="86.36" y="12.7" size="1.778" layer="95"/>
+<wire x1="66.04" y1="12.7" x2="71.12" y2="12.7" width="0.1524" layer="91"/>
+<label x="66.04" y="12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTB11"/>
-<wire x1="-12.7" y1="-246.38" x2="12.7" y2="-246.38" width="0.1524" layer="91"/>
-<label x="12.7" y="-246.38" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-12.7" y1="-246.38" x2="-2.54" y2="-246.38" width="0.1524" layer="91"/>
+<label x="-2.54" y="-246.38" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="N$LEDR16_IC1_PIN31" class="0">
 <segment>
 <pinref part="LED16" gate="G$1" pin="RED"/>
-<wire x1="86.36" y1="22.86" x2="91.44" y2="22.86" width="0.1524" layer="91"/>
-<label x="86.36" y="22.86" size="1.778" layer="95"/>
+<wire x1="66.04" y1="22.86" x2="71.12" y2="22.86" width="0.1524" layer="91"/>
+<label x="66.04" y="22.86" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTR11"/>
-<wire x1="-12.7" y1="-248.92" x2="12.7" y2="-248.92" width="0.1524" layer="91"/>
-<label x="12.7" y="-248.92" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-12.7" y1="-248.92" x2="-2.54" y2="-248.92" width="0.1524" layer="91"/>
+<label x="-2.54" y="-248.92" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="N$LEDG16_IC1_PIN30" class="0">
 <segment>
 <pinref part="LED16" gate="G$1" pin="GREEN"/>
-<wire x1="86.36" y1="17.78" x2="91.44" y2="17.78" width="0.1524" layer="91"/>
-<label x="86.36" y="17.78" size="1.778" layer="95"/>
+<wire x1="66.04" y1="17.78" x2="71.12" y2="17.78" width="0.1524" layer="91"/>
+<label x="66.04" y="17.78" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTG11"/>
-<wire x1="-12.7" y1="-251.46" x2="12.7" y2="-251.46" width="0.1524" layer="91"/>
-<label x="12.7" y="-251.46" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-12.7" y1="-251.46" x2="-2.54" y2="-251.46" width="0.1524" layer="91"/>
+<label x="-2.54" y="-251.46" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="N$LEDB7_IC1_PIN19" class="0">
 <segment>
 <pinref part="LED7" gate="G$1" pin="BLUE"/>
-<wire x1="-15.24" y1="30.48" x2="-10.16" y2="30.48" width="0.1524" layer="91"/>
-<label x="-15.24" y="30.48" size="1.778" layer="95"/>
+<wire x1="0" y1="30.48" x2="5.08" y2="30.48" width="0.1524" layer="91"/>
+<label x="0" y="30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTB6"/>
-<wire x1="-48.26" y1="-231.14" x2="-73.66" y2="-231.14" width="0.1524" layer="91"/>
-<label x="-73.66" y="-231.14" size="1.778" layer="95"/>
+<wire x1="-48.26" y1="-231.14" x2="-58.42" y2="-231.14" width="0.1524" layer="91"/>
+<label x="-58.42" y="-231.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$LEDR7_IC1_PIN20" class="0">
 <segment>
 <pinref part="LED7" gate="G$1" pin="RED"/>
-<wire x1="-15.24" y1="40.64" x2="-10.16" y2="40.64" width="0.1524" layer="91"/>
-<label x="-15.24" y="40.64" size="1.778" layer="95"/>
+<wire x1="0" y1="40.64" x2="5.08" y2="40.64" width="0.1524" layer="91"/>
+<label x="0" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTR6"/>
-<wire x1="-48.26" y1="-233.68" x2="-73.66" y2="-233.68" width="0.1524" layer="91"/>
-<label x="-73.66" y="-233.68" size="1.778" layer="95"/>
+<wire x1="-48.26" y1="-233.68" x2="-58.42" y2="-233.68" width="0.1524" layer="91"/>
+<label x="-58.42" y="-233.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$LEDG7_IC1_PIN21" class="0">
 <segment>
 <pinref part="LED7" gate="G$1" pin="GREEN"/>
-<wire x1="-15.24" y1="35.56" x2="-10.16" y2="35.56" width="0.1524" layer="91"/>
-<label x="-15.24" y="35.56" size="1.778" layer="95"/>
+<wire x1="0" y1="35.56" x2="5.08" y2="35.56" width="0.1524" layer="91"/>
+<label x="0" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTG6"/>
-<wire x1="-48.26" y1="-236.22" x2="-73.66" y2="-236.22" width="0.1524" layer="91"/>
-<label x="-73.66" y="-236.22" size="1.778" layer="95"/>
+<wire x1="-48.26" y1="-236.22" x2="-58.42" y2="-236.22" width="0.1524" layer="91"/>
+<label x="-58.42" y="-236.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$LEDB4_IC1_PIN22" class="0">
 <segment>
 <pinref part="LED4" gate="G$1" pin="BLUE"/>
-<wire x1="-63.5" y1="12.7" x2="-58.42" y2="12.7" width="0.1524" layer="91"/>
-<label x="-63.5" y="12.7" size="1.778" layer="95"/>
+<wire x1="-33.02" y1="12.7" x2="-27.94" y2="12.7" width="0.1524" layer="91"/>
+<label x="-33.02" y="12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTB3"/>
-<wire x1="-48.26" y1="-238.76" x2="-73.66" y2="-238.76" width="0.1524" layer="91"/>
-<label x="-73.66" y="-238.76" size="1.778" layer="95"/>
+<wire x1="-48.26" y1="-238.76" x2="-58.42" y2="-238.76" width="0.1524" layer="91"/>
+<label x="-58.42" y="-238.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$LEDR4_IC1_PIN23" class="0">
 <segment>
 <pinref part="LED4" gate="G$1" pin="RED"/>
-<wire x1="-63.5" y1="22.86" x2="-58.42" y2="22.86" width="0.1524" layer="91"/>
-<label x="-63.5" y="22.86" size="1.778" layer="95"/>
+<wire x1="-33.02" y1="22.86" x2="-27.94" y2="22.86" width="0.1524" layer="91"/>
+<label x="-33.02" y="22.86" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTR3"/>
-<wire x1="-48.26" y1="-241.3" x2="-73.66" y2="-241.3" width="0.1524" layer="91"/>
-<label x="-73.66" y="-241.3" size="1.778" layer="95"/>
+<wire x1="-48.26" y1="-241.3" x2="-58.42" y2="-241.3" width="0.1524" layer="91"/>
+<label x="-58.42" y="-241.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$LEDG4_IC1_PIN24" class="0">
 <segment>
 <pinref part="LED4" gate="G$1" pin="GREEN"/>
-<wire x1="-63.5" y1="17.78" x2="-58.42" y2="17.78" width="0.1524" layer="91"/>
-<label x="-63.5" y="17.78" size="1.778" layer="95"/>
+<wire x1="-33.02" y1="17.78" x2="-27.94" y2="17.78" width="0.1524" layer="91"/>
+<label x="-33.02" y="17.78" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTG3"/>
-<wire x1="-48.26" y1="-243.84" x2="-73.66" y2="-243.84" width="0.1524" layer="91"/>
-<label x="-73.66" y="-243.84" size="1.778" layer="95"/>
+<wire x1="-48.26" y1="-243.84" x2="-58.42" y2="-243.84" width="0.1524" layer="91"/>
+<label x="-58.42" y="-243.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$LEDB8_IC1_PIN25" class="0">
 <segment>
 <pinref part="LED8" gate="G$1" pin="BLUE"/>
-<wire x1="-15.24" y1="12.7" x2="-10.16" y2="12.7" width="0.1524" layer="91"/>
-<label x="-15.24" y="12.7" size="1.778" layer="95"/>
+<wire x1="0" y1="12.7" x2="5.08" y2="12.7" width="0.1524" layer="91"/>
+<label x="0" y="12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTB7"/>
-<wire x1="-48.26" y1="-246.38" x2="-73.66" y2="-246.38" width="0.1524" layer="91"/>
-<label x="-73.66" y="-246.38" size="1.778" layer="95"/>
+<wire x1="-48.26" y1="-246.38" x2="-58.42" y2="-246.38" width="0.1524" layer="91"/>
+<label x="-58.42" y="-246.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$LEDR8_IC1_PIN26" class="0">
 <segment>
 <pinref part="LED8" gate="G$1" pin="RED"/>
-<wire x1="-15.24" y1="22.86" x2="-10.16" y2="22.86" width="0.1524" layer="91"/>
-<label x="-15.24" y="22.86" size="1.778" layer="95"/>
+<wire x1="0" y1="22.86" x2="5.08" y2="22.86" width="0.1524" layer="91"/>
+<label x="0" y="22.86" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTR7"/>
-<wire x1="-48.26" y1="-248.92" x2="-73.66" y2="-248.92" width="0.1524" layer="91"/>
-<label x="-73.66" y="-248.92" size="1.778" layer="95"/>
+<wire x1="-48.26" y1="-248.92" x2="-58.42" y2="-248.92" width="0.1524" layer="91"/>
+<label x="-58.42" y="-248.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$LEDG8_IC1_PIN27" class="0">
 <segment>
 <pinref part="LED8" gate="G$1" pin="GREEN"/>
-<wire x1="-15.24" y1="17.78" x2="-10.16" y2="17.78" width="0.1524" layer="91"/>
-<label x="-15.24" y="17.78" size="1.778" layer="95"/>
+<wire x1="0" y1="17.78" x2="5.08" y2="17.78" width="0.1524" layer="91"/>
+<label x="0" y="17.78" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTG7"/>
-<wire x1="-48.26" y1="-251.46" x2="-73.66" y2="-251.46" width="0.1524" layer="91"/>
-<label x="-73.66" y="-251.46" size="1.778" layer="95"/>
+<wire x1="-48.26" y1="-251.46" x2="-58.42" y2="-251.46" width="0.1524" layer="91"/>
+<label x="-58.42" y="-251.46" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

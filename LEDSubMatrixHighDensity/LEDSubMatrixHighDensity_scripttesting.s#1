@@ -668,7 +668,6 @@ W = angled&lt;p&gt;
 <sheets>
 <sheet>
 <plain>
-<text x="248.92" y="-182.88" size="25.4" layer="91">ADD DECOUPLING CAPACITORS (.01uF or .1uF)</text>
 </plain>
 <instances>
 <instance part="LED1" gate="G$1" x="-43.18" y="71.12" smashed="yes">
