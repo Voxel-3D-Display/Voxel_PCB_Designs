@@ -1702,6 +1702,49 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlc5955.pdf"&gt; Datasheet 
 <label x="323.36" y="-282.1" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="SIN_MCU" class="0">
+<segment>
+<pinref part="IC7" gate="G$1" pin="SIN"/>
+<wire x1="151.6" y1="-277.02" x2="121.44" y2="-277.02" width="0.1524" layer="91"/>
+<label x="121.44" y="-277.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC8" gate="G$1" pin="SIN"/>
+<wire x1="265.26" y1="-277.02" x2="235.1" y2="-277.02" width="0.1524" layer="91"/>
+<label x="235.1" y="-277.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="SIN"/>
+<wire x1="-78.26" y1="-175.42" x2="-108.42" y2="-175.42" width="0.1524" layer="91"/>
+<label x="-108.42" y="-175.42" size="1.778" layer="95"/>
+<label x="-108.42" y="-175.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="SIN"/>
+<wire x1="35.4" y1="-175.42" x2="5.24" y2="-175.42" width="0.1524" layer="91"/>
+<label x="5.24" y="-175.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="SIN"/>
+<wire x1="151.6" y1="-175.42" x2="121.44" y2="-175.42" width="0.1524" layer="91"/>
+<label x="121.44" y="-175.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="G$1" pin="SIN"/>
+<wire x1="265.26" y1="-175.42" x2="235.1" y2="-175.42" width="0.1524" layer="91"/>
+<label x="235.1" y="-175.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="SIN"/>
+<wire x1="-78.26" y1="-277.02" x2="-108.42" y2="-277.02" width="0.1524" layer="91"/>
+<label x="-108.42" y="-277.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC6" gate="G$1" pin="SIN"/>
+<wire x1="35.4" y1="-277.02" x2="5.24" y2="-277.02" width="0.1524" layer="91"/>
+<label x="5.24" y="-277.02" size="1.778" layer="95"/>
+</segment>
+</net>
 <net name="SCLK" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="SCLK"/>
@@ -1966,11 +2009,11 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlc5955.pdf"&gt; Datasheet 
 <label x="-108.42" y="-218.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SOUT3" class="0">
+<net name="SOUT1" class="0">
 <segment>
-<pinref part="IC3" gate="G$1" pin="SOUT"/>
-<wire x1="151.6" y1="-244" x2="121.44" y2="-244" width="0.1524" layer="91"/>
-<label x="121.44" y="-244" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="SOUT"/>
+<wire x1="-78.26" y1="-244" x2="-108.42" y2="-244" width="0.1524" layer="91"/>
+<label x="-108.42" y="-244" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -6445,18 +6488,18 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlc5955.pdf"&gt; Datasheet 
 <label x="235.1" y="-343.06" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SOUT1" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="SOUT"/>
-<wire x1="-78.26" y1="-244" x2="-108.42" y2="-244" width="0.1524" layer="91"/>
-<label x="-108.42" y="-244" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="SOUT2" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="SOUT"/>
 <wire x1="35.4" y1="-244" x2="5.24" y2="-244" width="0.1524" layer="91"/>
 <label x="5.24" y="-244" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SOUT3" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="SOUT"/>
+<wire x1="151.6" y1="-244" x2="121.44" y2="-244" width="0.1524" layer="91"/>
+<label x="121.44" y="-244" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SOUT4" class="0">
@@ -6492,55 +6535,6 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlc5955.pdf"&gt; Datasheet 
 <pinref part="IC8" gate="G$1" pin="SOUT"/>
 <wire x1="265.26" y1="-345.6" x2="235.1" y2="-345.6" width="0.1524" layer="91"/>
 <label x="235.1" y="-345.6" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SIN_1,2" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="SIN"/>
-<wire x1="-78.26" y1="-175.42" x2="-108.42" y2="-175.42" width="0.1524" layer="91"/>
-<label x="-108.42" y="-175.42" size="1.778" layer="95"/>
-<label x="-108.42" y="-175.42" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="SIN"/>
-<wire x1="35.4" y1="-175.42" x2="5.24" y2="-175.42" width="0.1524" layer="91"/>
-<label x="5.24" y="-175.42" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SIN_3,4" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="SIN"/>
-<wire x1="151.6" y1="-175.42" x2="121.44" y2="-175.42" width="0.1524" layer="91"/>
-<label x="121.44" y="-175.42" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="G$1" pin="SIN"/>
-<wire x1="265.26" y1="-175.42" x2="235.1" y2="-175.42" width="0.1524" layer="91"/>
-<label x="235.1" y="-175.42" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SIN_5,6" class="0">
-<segment>
-<pinref part="IC5" gate="G$1" pin="SIN"/>
-<wire x1="-78.26" y1="-277.02" x2="-108.42" y2="-277.02" width="0.1524" layer="91"/>
-<label x="-108.42" y="-277.02" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="SIN"/>
-<wire x1="35.4" y1="-277.02" x2="5.24" y2="-277.02" width="0.1524" layer="91"/>
-<label x="5.24" y="-277.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SIN_7,8" class="0">
-<segment>
-<pinref part="IC7" gate="G$1" pin="SIN"/>
-<wire x1="151.6" y1="-277.02" x2="121.44" y2="-277.02" width="0.1524" layer="91"/>
-<label x="121.44" y="-277.02" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC8" gate="G$1" pin="SIN"/>
-<wire x1="265.26" y1="-277.02" x2="235.1" y2="-277.02" width="0.1524" layer="91"/>
-<label x="235.1" y="-277.02" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
