@@ -1,0 +1,25 @@
+EAGLE AutoRouter Statistics:
+
+Job           : C:/Users/Ryan/Documents/1GitRepositories/VOXEL/Voxel_PCB_Designs/LEDSubMatrixLowDensitySMD/LEDSubMatrixLowDensitySMD - Copy.brd
+
+Start at      : 04:29:13 (11/18/2021)
+End at        : 04:29:39 (11/18/2021)
+Elapsed time  : 00:00:19
+
+Signals       :   170   RoutingGrid: 9.84252 mil  Layers: 2
+Connections   :   227   predefined:  107 ( 24 Vias )
+
+Router memory :   1158144
+
+Passname          :     Route Optimize1 Optimize2 Optimize3 Optimize4
+
+Time per pass     :  00:00:05  00:00:03  00:00:03  00:00:04  00:00:04
+Number of Ripups  :        28         0         0         0         0
+max. Level        :         3         0         0         0         0
+max. Total        :         4         0         0         0         0
+
+Routed            :       120       120       120       120       120
+Vias              :       198       146       146       138       132
+Resolution        :   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
+
+Final             : 95.2% finished. Polygons may have fallen apart.

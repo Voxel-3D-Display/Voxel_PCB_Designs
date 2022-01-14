@@ -11234,11 +11234,10 @@ Source: AVX .. aphvc.pdf</description>
 <label x="-734.06" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="142142" class="0">
+<net name="N$1" class="0">
 <segment>
 <pinref part="SV1" gate="1" pin="1"/>
 <wire x1="-723.9" y1="20.32" x2="-734.06" y2="20.32" width="0.1524" layer="91"/>
-<label x="-734.06" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
