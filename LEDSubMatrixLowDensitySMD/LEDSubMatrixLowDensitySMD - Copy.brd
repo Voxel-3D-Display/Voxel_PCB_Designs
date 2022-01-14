@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -80,6 +80,8 @@
 <hole x="8.382" y="-3.175" drill="2.75081875"/>
 <hole x="25.31533125" y="-3.175" drill="2.75081875"/>
 <hole x="42.248665625" y="-3.175" drill="2.75081875"/>
+<dimension x1="0" y1="0" x2="0" y2="-146" x3="-2.95" y3="-73" textsize="1.778" layer="20" visible="yes"/>
+<dimension x1="0" y1="0" x2="50.8" y2="0" x3="25.4" y3="4.05" textsize="1.778" layer="20" visible="yes"/>
 </plain>
 <libraries>
 <library name="TLC5955DCAR">

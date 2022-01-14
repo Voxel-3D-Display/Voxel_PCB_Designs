@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2022-01-14T19:20:19Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.5.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 4,
+        "Name": {
+            "ProjectId": "LEDSubMatrixHighDensity"
+        },
+        "Owner": "Marcus Chan <mchan79@gatech.edu>",
+        "Size": {
+            "X": 16.933334,
+            "Y": 146
+        }
+    }
+}
