@@ -11129,23 +11129,12 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="-495.46" y1="-12.86" x2="-525.62" y2="-12.86" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
 <label x="-525.62" y="-12.86" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="SIN"/>
-<wire x1="-609.12" y1="55.72" x2="-639.28" y2="55.72" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
-<label x="-639.28" y="55.72" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
-<label x="-639.28" y="55.72" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
-</segment>
 </net>
 <net name="SOUT4" class="0">
 <segment>
 <pinref part="IC4" gate="G$1" pin="SOUT"/>
 <wire x1="-265.6" y1="-12.86" x2="-295.76" y2="-12.86" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
 <label x="-295.76" y="-12.86" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="SIN"/>
-<wire x1="-379.26" y1="55.72" x2="-409.42" y2="55.72" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
-<label x="-409.42" y="55.72" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
 <net name="SOUT5" class="0">
@@ -11161,11 +11150,6 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="-495.46" y1="-114.46" x2="-525.62" y2="-114.46" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
 <label x="-525.62" y="-114.46" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
-<segment>
-<pinref part="IC5" gate="G$1" pin="SIN"/>
-<wire x1="-609.12" y1="-45.88" x2="-639.28" y2="-45.88" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
-<label x="-639.28" y="-45.88" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
-</segment>
 </net>
 <net name="SOUT7" class="0">
 <segment>
@@ -11180,13 +11164,14 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="-265.6" y1="-114.46" x2="-295.76" y2="-114.46" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
 <label x="-295.76" y="-114.46" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
-<segment>
-<pinref part="IC7" gate="G$1" pin="SIN"/>
-<wire x1="-379.26" y1="-45.88" x2="-409.42" y2="-45.88" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
-<label x="-409.42" y="-45.88" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
-</segment>
 </net>
 <net name="SIN_1,2" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="SIN"/>
+<wire x1="-609.12" y1="55.72" x2="-639.28" y2="55.72" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="55.72" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="55.72" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="SIN"/>
 <wire x1="-495.46" y1="55.72" x2="-525.62" y2="55.72" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
@@ -11200,6 +11185,11 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="SIN_3,4" class="0">
 <segment>
+<pinref part="IC3" gate="G$1" pin="SIN"/>
+<wire x1="-379.26" y1="55.72" x2="-409.42" y2="55.72" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="55.72" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
 <pinref part="IC4" gate="G$1" pin="SIN"/>
 <wire x1="-265.6" y1="55.72" x2="-295.76" y2="55.72" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
 <label x="-295.76" y="55.72" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
@@ -11212,6 +11202,11 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="SIN_5,6" class="0">
 <segment>
+<pinref part="IC5" gate="G$1" pin="SIN"/>
+<wire x1="-609.12" y1="-45.88" x2="-639.28" y2="-45.88" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="-45.88" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
 <pinref part="IC6" gate="G$1" pin="SIN"/>
 <wire x1="-495.46" y1="-45.88" x2="-525.62" y2="-45.88" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
 <label x="-525.62" y="-45.88" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
@@ -11223,6 +11218,11 @@ Source: AVX .. aphvc.pdf</description>
 </segment>
 </net>
 <net name="SIN_7,8" class="0">
+<segment>
+<pinref part="IC7" gate="G$1" pin="SIN"/>
+<wire x1="-379.26" y1="-45.88" x2="-409.42" y2="-45.88" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="-45.88" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
 <segment>
 <pinref part="IC8" gate="G$1" pin="SIN"/>
 <wire x1="-265.6" y1="-45.88" x2="-295.76" y2="-45.88" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
