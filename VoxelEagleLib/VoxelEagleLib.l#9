@@ -182,8 +182,7 @@
 </package>
 <package name="RGBLED-A-5MM" urn="urn:adsk.eagle:footprint:15721/1" locally_modified="yes">
 <description>&lt;B&gt;DUO LED&lt;/B&gt;&lt;P&gt;
-2 colors (red/green, red/yellow), 5 mm, round, common Anode&lt;BR&gt;
-&lt;I&gt;www.ligitek.com&lt;/I&gt; or other producers.</description>
+3 colors (red, green, blue), 5 mm, round, common Anode&lt;BR&gt;</description>
 <wire x1="-2.794" y1="0.8636" x2="-2.794" y2="-0.8636" width="0.254" layer="51" curve="34.351807"/>
 <wire x1="2.3876" y1="-0.8636" x2="2.3876" y2="0.8636" width="0.1524" layer="51" curve="39.77033"/>
 <wire x1="2.54" y1="1.4478" x2="2.54" y2="0.889" width="0.254" layer="21"/>
@@ -463,6 +462,24 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlc5955.pdf"&gt; Datasheet 
 <attribute name="MOUSER_PART_NUMBER" value="595-TLC5955DCAR" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLC5955DCAR?qs=%2Fd%252BFzHvH4c3zo%2FeGYG5n7g%3D%3D" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RGB-LED-A-5MM">
+<gates>
+<gate name="G$1" symbol="B38G3RGB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RGBLED-A-5MM">
+<connects>
+<connect gate="G$1" pin="BLUE" pad="B"/>
+<connect gate="G$1" pin="COM" pad="AN"/>
+<connect gate="G$1" pin="GREEN" pad="G"/>
+<connect gate="G$1" pin="RED" pad="R"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
