@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle>
+    <drawing>
+        <grid unitdist="mm" unit="mm"/>
+        <layers>
+            <layer name="Top" color="4" number="1" visible="yes" active="yes" fill="1"/>
+            <layer name="tKeepout" color="0" number="4" visible="yes" active="yes" fill="1"/>
+            <layer name="Bottom" color="4" number="16" visible="yes" active="yes" fill="1"/>
+            <layer name="tPlace" color="7" number="21" visible="yes" active="yes" fill="1"/>
+            <layer name="bPlace" color="7" number="22" visible="yes" active="yes" fill="1"/>
+            <layer name="tNames" color="7" number="25" visible="yes" active="yes" fill="1"/>
+            <layer name="bNames" color="7" number="26" visible="yes" active="yes" fill="1"/>
+            <layer name="tValues" color="7" number="27" visible="yes" active="yes" fill="1"/>
+            <layer name="bValues" color="7" number="28" visible="yes" active="yes" fill="1"/>
+            <layer name="tStop" color="7" number="29" visible="yes" active="yes" fill="1"/>
+            <layer name="bStop" color="7" number="30" visible="yes" active="yes" fill="1"/>
+            <layer name="tCream" color="7" number="31" visible="yes" active="yes" fill="1"/>
+            <layer name="bCream" color="7" number="32" visible="yes" active="yes" fill="1"/>
+            <layer name="bKeepout" color="0" number="40" visible="yes" active="yes" fill="1"/>
+            <layer name="tRestrict" color="4" number="41" visible="yes" active="yes" fill="1"/>
+            <layer name="bRestrict" color="4" number="42" visible="yes" active="yes" fill="1"/>
+            <layer name="tDocu" color="7" number="51" visible="yes" active="yes" fill="1"/>
+            <layer name="bDocu" color="7" number="52" visible="yes" active="yes" fill="1"/>
+            <layer name="Nets" color="2" number="91" visible="yes" active="yes" fill="1"/>
+            <layer name="Busses" color="1" number="92" visible="yes" active="yes" fill="1"/>
+            <layer name="Pins" color="2" number="93" visible="yes" active="yes" fill="1"/>
+            <layer name="Symbols" color="4" number="94" visible="yes" active="yes" fill="1"/>
+            <layer name="Names" color="7" number="95" visible="yes" active="yes" fill="1"/>
+            <layer name="Values" color="7" number="96" visible="yes" active="yes" fill="1"/>
+            <layer name="Info" color="7" number="97" visible="yes" active="yes" fill="1"/>
+            <layer name="Guide" color="6" number="98" visible="yes" active="yes" fill="1"/>
+        </layers>
+        <library name="Upverter Library">
+            <description>Upverter Parts Library
+
+Created by Upverter.com</description>
+            <packages>
+                <package name="SULLINS_PPPC062LFBN-RC_0">
+                    <description>12 Position Header Connector 0.100" (2.54mm) Through Hole Gold</description>
+                    <wire layer="51" y2="2.615" width="0.15" x2="-8.045" y1="-2.615" x1="-8.045"/>
+                    <wire layer="51" y2="2.615" width="0.15" x2="8.045" y1="2.615" x1="-8.045"/>
+                    <wire layer="51" y2="-2.615" width="0.15" x2="8.045" y1="2.615" x1="8.045"/>
+                    <wire layer="51" y2="-2.615" width="0.15" x2="-8.045" y1="-2.615" x1="8.045"/>
+                    <wire layer="21" y2="2.615" width="0.15" x2="8.045" y1="2.615" x1="-8.045"/>
+                    <wire layer="21" y2="2.615" width="0.15" x2="8.045" y1="-2.615" x1="8.045"/>
+                    <wire layer="21" y2="-2.615" width="0.15" x2="8.045" y1="-2.615" x1="-8.045"/>
+                    <wire layer="21" y2="2.615" width="0.15" x2="-8.045" y1="-2.615" x1="-8.045"/>
+                    <wire layer="41" y2="2.715" width="0.1" x2="-8.145" y1="-2.715" x1="-8.145"/>
+                    <wire layer="41" y2="2.715" width="0.1" x2="8.145" y1="2.715" x1="-8.145"/>
+                    <wire layer="41" y2="-2.715" width="0.1" x2="8.145" y1="2.715" x1="8.145"/>
+                    <wire layer="41" y2="-2.715" width="0.1" x2="-8.145" y1="-2.715" x1="8.145"/>
+                    <text layer="25" align="bottom-left" y="2.94" x="-7.945" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="-1.27" x="-8.545" layer="21" radius="0.25" width="0.0"/>
+                    <pad diameter="1.57" name="1" shape="square" drill="1.02" y="-1.27" x="-6.35" rot="R0"/>
+                    <pad diameter="1.57" name="3" shape="round" drill="1.02" y="-1.27" x="-3.81" rot="R0"/>
+                    <pad diameter="1.57" name="5" shape="round" drill="1.02" y="-1.27" x="-1.27" rot="R0"/>
+                    <pad diameter="1.57" name="7" shape="round" drill="1.02" y="-1.27" x="1.27" rot="R0"/>
+                    <pad diameter="1.57" name="9" shape="round" drill="1.02" y="-1.27" x="3.81" rot="R0"/>
+                    <pad diameter="1.57" name="11" shape="round" drill="1.02" y="-1.27" x="6.35" rot="R0"/>
+                    <pad diameter="1.57" name="2" shape="round" drill="1.02" y="1.27" x="-6.35" rot="R0"/>
+                    <pad diameter="1.57" name="4" shape="round" drill="1.02" y="1.27" x="-3.81" rot="R0"/>
+                    <pad diameter="1.57" name="6" shape="round" drill="1.02" y="1.27" x="-1.27" rot="R0"/>
+                    <pad diameter="1.57" name="8" shape="round" drill="1.02" y="1.27" x="1.27" rot="R0"/>
+                    <pad diameter="1.57" name="10" shape="round" drill="1.02" y="1.27" x="3.81" rot="R0"/>
+                    <pad diameter="1.57" name="12" shape="round" drill="1.02" y="1.27" x="6.35" rot="R0"/>
+                </package>
+            </packages>
+            <symbols>
+                <symbol name="SULLINS_PPPC062LFBN-RC_0_0">
+                    <description>12 Position Header Connector 0.100" (2.54mm) Through Hole Gold</description>
+                    <wire layer="94" y2="-5.08" width="0.254" x2="2.54" y1="-40.64" x1="2.54"/>
+                    <wire layer="94" y2="-5.08" width="0.254" x2="10.16" y1="-5.08" x1="2.54"/>
+                    <wire layer="94" y2="-40.64" width="0.254" x2="10.16" y1="-5.08" x1="10.16"/>
+                    <wire layer="94" y2="-40.64" width="0.254" x2="2.54" y1="-40.64" x1="10.16"/>
+                    <wire layer="94" y2="-10.16" width="0.508" x2="10.16" y1="-10.16" x1="7.112"/>
+                    <wire layer="94" y2="-15.24" width="0.508" x2="10.16" y1="-15.24" x1="7.112"/>
+                    <wire layer="94" y2="-20.32" width="0.508" x2="10.16" y1="-20.32" x1="7.112"/>
+                    <wire layer="94" y2="-25.4" width="0.508" x2="10.16" y1="-25.4" x1="7.112"/>
+                    <wire layer="94" y2="-30.48" width="0.508" x2="10.16" y1="-30.48" x1="7.112"/>
+                    <wire layer="94" y2="-35.56" width="0.508" x2="10.16" y1="-35.56" x1="7.112"/>
+                    <wire layer="94" y2="-10.16" width="0.15" x2="10.16" y1="-10.16" x1="10.16"/>
+                    <wire layer="94" y2="-15.24" width="0.15" x2="10.16" y1="-15.24" x1="10.16"/>
+                    <wire layer="94" y2="-20.32" width="0.15" x2="10.16" y1="-20.32" x1="10.16"/>
+                    <wire layer="94" y2="-25.4" width="0.15" x2="10.16" y1="-25.4" x1="10.16"/>
+                    <wire layer="94" y2="-30.48" width="0.15" x2="10.16" y1="-30.48" x1="10.16"/>
+                    <wire layer="94" y2="-35.56" width="0.15" x2="10.16" y1="-35.56" x1="10.16"/>
+                    <text layer="95" align="top-left" y="-2.54" x="2.54" rot="R0" size="2.54">&gt;NAME</text>
+                    <text layer="95" align="top-left" y="-45.72" x="2.54" rot="R0" size="2.54">PPPC062LFBN-RC</text>
+                    <pin direction="pas" name="1" visible="pad" length="middle" y="-10.16" x="15.24" rot="R180"/>
+                    <pin direction="pas" name="3" visible="pad" length="middle" y="-15.24" x="15.24" rot="R180"/>
+                    <pin direction="pas" name="5" visible="pad" length="middle" y="-20.32" x="15.24" rot="R180"/>
+                    <pin direction="pas" name="7" visible="pad" length="middle" y="-25.4" x="15.24" rot="R180"/>
+                    <pin direction="pas" name="9" visible="pad" length="middle" y="-30.48" x="15.24" rot="R180"/>
+                    <pin direction="pas" name="11" visible="pad" length="middle" y="-35.56" x="15.24" rot="R180"/>
+                    <circle y="-10.16" x="6.35" layer="94" radius="0.762" width="0.254"/>
+                    <circle y="-15.24" x="6.35" layer="94" radius="0.762" width="0.254"/>
+                    <circle y="-20.32" x="6.35" layer="94" radius="0.762" width="0.254"/>
+                    <circle y="-25.4" x="6.35" layer="94" radius="0.762" width="0.254"/>
+                    <circle y="-30.48" x="6.35" layer="94" radius="0.762" width="0.254"/>
+                    <circle y="-35.56" x="6.35" layer="94" radius="0.762" width="0.254"/>
+                </symbol>
+                <symbol name="SULLINS_PPPC062LFBN-RC_0_1">
+                    <description>12 Position Header Connector 0.100" (2.54mm) Through Hole Gold</description>
+                    <wire layer="94" y2="-5.08" width="0.254" x2="2.54" y1="-40.64" x1="2.54"/>
+                    <wire layer="94" y2="-5.08" width="0.254" x2="10.16" y1="-5.08" x1="2.54"/>
+                    <wire layer="94" y2="-40.64" width="0.254" x2="10.16" y1="-5.08" x1="10.16"/>
+                    <wire layer="94" y2="-40.64" width="0.254" x2="2.54" y1="-40.64" x1="10.16"/>
+                    <wire layer="94" y2="-10.16" width="0.508" x2="10.16" y1="-10.16" x1="7.112"/>
+                    <wire layer="94" y2="-15.24" width="0.508" x2="10.16" y1="-15.24" x1="7.112"/>
+                    <wire layer="94" y2="-20.32" width="0.508" x2="10.16" y1="-20.32" x1="7.112"/>
+                    <wire layer="94" y2="-25.4" width="0.508" x2="10.16" y1="-25.4" x1="7.112"/>
+                    <wire layer="94" y2="-30.48" width="0.508" x2="10.16" y1="-30.48" x1="7.112"/>
+                    <wire layer="94" y2="-35.56" width="0.508" x2="10.16" y1="-35.56" x1="7.112"/>
+                    <wire layer="94" y2="-10.16" width="0.15" x2="10.16" y1="-10.16" x1="10.16"/>
+                    <wire layer="94" y2="-15.24" width="0.15" x2="10.16" y1="-15.24" x1="10.16"/>
+                    <wire layer="94" y2="-20.32" width="0.15" x2="10.16" y1="-20.32" x1="10.16"/>
+                    <wire layer="94" y2="-25.4" width="0.15" x2="10.16" y1="-25.4" x1="10.16"/>
+                    <wire layer="94" y2="-30.48" width="0.15" x2="10.16" y1="-30.48" x1="10.16"/>
+                    <wire layer="94" y2="-35.56" width="0.15" x2="10.16" y1="-35.56" x1="10.16"/>
+                    <text layer="95" align="top-left" y="-2.54" x="2.54" rot="R0" size="2.54">&gt;NAME</text>
+                    <text layer="95" align="top-left" y="-45.72" x="2.54" rot="R0" size="2.54">PPPC062LFBN-RC</text>
+                    <pin direction="pas" name="2" visible="pad" length="middle" y="-10.16" x="15.24" rot="R180"/>
+                    <pin direction="pas" name="4" visible="pad" length="middle" y="-15.24" x="15.24" rot="R180"/>
+                    <pin direction="pas" name="6" visible="pad" length="middle" y="-20.32" x="15.24" rot="R180"/>
+                    <pin direction="pas" name="8" visible="pad" length="middle" y="-25.4" x="15.24" rot="R180"/>
+                    <pin direction="pas" name="10" visible="pad" length="middle" y="-30.48" x="15.24" rot="R180"/>
+                    <pin direction="pas" name="12" visible="pad" length="middle" y="-35.56" x="15.24" rot="R180"/>
+                    <circle y="-10.16" x="6.35" layer="94" radius="0.762" width="0.254"/>
+                    <circle y="-15.24" x="6.35" layer="94" radius="0.762" width="0.254"/>
+                    <circle y="-20.32" x="6.35" layer="94" radius="0.762" width="0.254"/>
+                    <circle y="-25.4" x="6.35" layer="94" radius="0.762" width="0.254"/>
+                    <circle y="-30.48" x="6.35" layer="94" radius="0.762" width="0.254"/>
+                    <circle y="-35.56" x="6.35" layer="94" radius="0.762" width="0.254"/>
+                </symbol>
+            </symbols>
+            <devicesets>
+                <deviceset prefix="J" name="SULLINS_PPPC062LFBN-RC">
+                    <description>12 Position Header Connector 0.100" (2.54mm) Through Hole Gold</description>
+                    <gates>
+                        <gate name="A" symbol="SULLINS_PPPC062LFBN-RC_0_0" x="0"/>
+                        <gate name="B" symbol="SULLINS_PPPC062LFBN-RC_0_1" x="27.62"/>
+                    </gates>
+                    <devices>
+                        <device name="SULLINS_PPPC062LFBN-RC_0_0" package="SULLINS_PPPC062LFBN-RC_0">
+                            <connects>
+                                <connect gate="A" pad="1" pin="1"/>
+                                <connect gate="B" pad="2" pin="2"/>
+                                <connect gate="A" pad="3" pin="3"/>
+                                <connect gate="B" pad="4" pin="4"/>
+                                <connect gate="A" pad="5" pin="5"/>
+                                <connect gate="B" pad="6" pin="6"/>
+                                <connect gate="A" pad="7" pin="7"/>
+                                <connect gate="B" pad="8" pin="8"/>
+                                <connect gate="A" pad="9" pin="9"/>
+                                <connect gate="B" pad="10" pin="10"/>
+                                <connect gate="A" pad="11" pin="11"/>
+                                <connect gate="B" pad="12" pin="12"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="prefix" value="J"/>
+                                    <attribute name="conn_gender" value="Female"/>
+                                    <attribute name="mfg_package_ident_date" value="0"/>
+                                    <attribute name="is_female" value="yes"/>
+                                    <attribute name="temperature_range_high" value="+105°C"/>
+                                    <attribute name="MPN" value="PPPC062LFBN-RC"/>
+                                    <attribute name="digikey_description" value="CONN HDR 12POS 0.1 GOLD PCB"/>
+                                    <attribute name="device_class_L3" value="unset"/>
+                                    <attribute name="device_class_L1" value="Connectors"/>
+                                    <attribute name="digikey_part_number" value="S7109-ND"/>
+                                    <attribute name="current_rating" value="3A"/>
+                                    <attribute name="verification_version" value="0.0.0.3"/>
+                                    <attribute name="datasheet" value="https://drawings-pdf.s3.amazonaws.com/10492.pdf"/>
+                                    <attribute name="voltage_rating" value="250V"/>
+                                    <attribute name="mfg_package_ident_rev" value="0"/>
+                                    <attribute name="lead_free" value="Yes"/>
+                                    <attribute name="height" value="8.65mm"/>
+                                    <attribute name="automotive" value="No"/>
+                                    <attribute name="mfg_package_ident" value="0"/>
+                                    <attribute name="footprint_variant_name_0" value="Recommended_Land_Pattern"/>
+                                    <attribute name="device_class_L2" value="Headers and Wire Housings"/>
+                                    <attribute name="number_of_contacts" value="12"/>
+                                    <attribute name="conn_orientation" value="Straight"/>
+                                    <attribute name="temperature_range_low" value="-40°C"/>
+                                    <attribute name="rohs" value="Yes"/>
+                                    <attribute name="centroid_not_specified" value="No"/>
+                                    <attribute name="pitch" value="2.54mm"/>
+                                    <attribute name="number_of_rows" value="2"/>
+                                    <attribute name="MF" value="Sullins"/>
+                                    <attribute name="contact_material" value="Gold,Nickel"/>
+                                    <attribute name="package" value="CONN_12"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                    </devices>
+                </deviceset>
+            </devicesets>
+        </library>
+    </drawing>
+</eagle>
