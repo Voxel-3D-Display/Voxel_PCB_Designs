@@ -988,53 +988,6 @@ Source: &lt;a href="https://www.amphenol-icc.com/media/wysiwyg/files/documentati
 </deviceset>
 </devicesets>
 </library>
-<library name="VoxelEagleLib">
-<description>&lt;Standard LEDs - SMD Surface Mount LEDs&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="TFP401">
-<wire x1="66.421" y1="-45.847" x2="66.421" y2="-5.207" width="0.1524" layer="21"/>
-<wire x1="66.421" y1="-5.207" x2="61.341" y2="-0.127" width="0.1524" layer="21" curve="90"/>
-<wire x1="61.341" y1="-0.127" x2="5.461" y2="-0.127" width="0.1524" layer="21"/>
-<wire x1="5.461" y1="-0.127" x2="0.381" y2="-5.207" width="0.1524" layer="21" curve="90"/>
-<wire x1="0.381" y1="-5.207" x2="0.381" y2="-45.847" width="0.1524" layer="21"/>
-<wire x1="0.381" y1="-45.847" x2="5.461" y2="-50.927" width="0.1524" layer="21" curve="90"/>
-<wire x1="5.461" y1="-50.927" x2="61.341" y2="-50.927" width="0.1524" layer="21"/>
-<wire x1="61.341" y1="-50.927" x2="66.421" y2="-45.847" width="0.1524" layer="21" curve="90"/>
-<wire x1="-0.8636" y1="-11.2903" x2="-0.8636" y2="-26.3017" width="0.127" layer="21"/>
-<wire x1="-0.8636" y1="-26.3017" x2="8.636" y2="-26.3017" width="0.127" layer="21"/>
-<wire x1="8.636" y1="-26.3017" x2="8.636" y2="-11.2903" width="0.127" layer="21"/>
-<wire x1="8.636" y1="-11.2903" x2="-0.8636" y2="-11.2903" width="0.127" layer="21"/>
-<hole x="5.461" y="-5.207" drill="2.59994375"/>
-<hole x="5.461" y="-45.847" drill="2.59994375"/>
-<hole x="61.341" y="-5.207" drill="2.59994375"/>
-<hole x="61.341" y="-45.847" drill="2.59994375"/>
-</package>
-</packages>
-<symbols>
-<symbol name="TFP401">
-<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-15.24" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-15.24" x2="10.16" y2="10.16" width="0.254" layer="94"/>
-<wire x1="10.16" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
-<text x="-7.366" y="11.43" size="1.778" layer="94">HDMI Decoder</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="TFP401">
-<gates>
-<gate name="G$1" symbol="TFP401" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TFP401">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1050,7 +1003,6 @@ Source: &lt;a href="https://www.amphenol-icc.com/media/wysiwyg/files/documentati
 <part name="U$1" library="RPI-Zero" deviceset="RPI-ZERO" device=""/>
 <part name="J2" library="SamacSys_Parts" deviceset="7-146256-0" device=""/>
 <part name="J3" library="F32R-1A7H1-11040" deviceset="F32R-1A7H1-11040" device=""/>
-<part name="U$2" library="VoxelEagleLib" deviceset="TFP401" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1076,7 +1028,6 @@ Source: &lt;a href="https://www.amphenol-icc.com/media/wysiwyg/files/documentati
 <attribute name="NAME" x="118.11" y="-30.48" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="118.11" y="-33.02" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="U$2" gate="G$1" x="38.1" y="7.62" smashed="yes"/>
 </instances>
 <busses>
 </busses>
