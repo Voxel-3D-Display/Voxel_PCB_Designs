@@ -12,7 +12,7 @@ led_offset = board_width/4/2
 num_leds = 120 # high density
 num_led_drivers = 8
 
-file = open('move_led_drivers.scr', 'w')
+file = open('move_components.scr', 'w')
 file.truncate()
 
 def set_grid():
@@ -42,19 +42,21 @@ def place_led_drivers():
         file.write("MOVE IC{num} ({x} {y})\n".format(num = ic_num, x = curr_x, y = curr_y))
         curr_y -= ic_spacing
 
-def place_20uF_caps():
-    curr_x = 14.7
-    curr_y = -19.7
+def place_caps():
+    curr_x = 13.75
+    curr_y = -19.91
+    b_offset = 15.5 - 14.32
     for cap_num in range(1,num_led_drivers+1):
         file.write("MOVE C{num} ({x} {y})\n".format(num = cap_num, x = curr_x, y = curr_y))
+        file.write("MOVE C{num}B ({x} {y})\n".format(num = cap_num, x = curr_x+b_offset, y = curr_y))
         curr_y -= ic_spacing
 
 
 # generate_board()
 # set_grid()
 # place_leds()
-place_led_drivers()
-# place_20uF_caps()
+# place_led_drivers()
+place_caps()
 print(board_length)
 print(board_width)
 print(led_spacing*4)
