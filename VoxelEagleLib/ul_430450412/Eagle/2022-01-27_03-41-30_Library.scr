@@ -1,0 +1,157 @@
+# Created by Ultra Librarian Gold 8.3.307 Copyright © 1999-2021
+# Frank Frank, Accelerated Designs
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit 'CON_430450412_MOL.pac';
+Grid Mil;
+Change Drill 40;
+Pad '1' Square 0 60 R0 (0 0);
+Change Drill 40;
+Pad '2' Round 0 60 R0 (-118 0);
+Change Drill 40;
+Pad '3' Round 0 60 R0 (0 118);
+Change Drill 40;
+Pad '4' Round 0 60 R0 (-118 118);
+Change Drill 40;
+Pad 'M1' Round 0 40 R0 (118 155);
+Change Drill 40;
+Pad 'M2' Round 0 40 R0 (-236 155);
+Layer 51;
+Wire 6 (151 0) (211 25);
+Wire 6 (211 25) (211 -25);
+Wire 6 (211 -25) (151 0);
+Wire 6 (-259 -97) (141 -97);
+Wire 6 (141 -97) (141 248);
+Wire 6 (141 248) (-259 248);
+Wire 6 (-259 248) (-259 -97);
+Change Size 50;
+Change Ratio 6;
+Text '430450412' SR0 (-263 575);
+Layer 21;
+Wire 6 (151 0) (211 25);
+Wire 6 (211 25) (211 -25);
+Wire 6 (211 -25) (151 0);
+Wire 6 (-259 248) (-259 179);
+Wire 6 (-259 -97) (141 -97);
+Wire 6 (141 -97) (141 132);
+Wire 6 (141 248) (-259 248);
+Wire 6 (141 179) (141 248);
+Wire 6 (-259 132) (-259 -97);
+Change Size 50;
+Change Ratio 6;
+Text '430450412' SR0 (-263 575);
+Change Size 50;
+Change Ratio 6;
+Text '>Value' SR0 (-127 425);
+Layer 41;
+Layer 41;
+Change Spacing 50;
+Change Pour solid;
+Polygon 6  (265.7477 373.0315) (265.7477 -222.2441) (-383.8578 -222.2441) \
+    (-383.8578 373.0315) (265.7477 373.0315);
+Layer 48;
+Change Size 50;
+Change Ratio 6;
+Text 'PTH_DRILL_SIZE:_1.02_MM,_TOL:_+0.05/-0.05' SR0 (-960 -425);
+Change Size 50;
+Change Ratio 6;
+Text 'NPTH_DRILL_SIZE:_1.02_MM,_TOL:_+0.05/-0.05' SR0 (-983 -525);
+Layer 48;
+Layer 25;
+Layer 27;
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-188 425);
+
+Edit 'CON_430450412.sym';
+Grid Mil;
+Layer 94;
+Pin '1' Pas None Middle R0 Pad 0 (0 0)
+Pin '2' Pas None Middle R0 Pad 0 (0 -100)
+Pin '3' Pas None Middle R0 Pad 0 (0 -200)
+Pin '4' Pas None Middle R0 Pad 0 (0 -300)
+Wire 6 (400 0) (200 0);
+Wire 6 (400 -100) (200 -100);
+Wire 6 (400 -200) (200 -200);
+Wire 6 (400 -300) (200 -300);
+Wire 6 (400 0) (350 33);
+Wire 6 (400 -100) (350 -67);
+Wire 6 (400 -200) (350 -167);
+Wire 6 (400 -300) (350 -267);
+Wire 6 (400 0) (350 -33);
+Wire 6 (400 -100) (350 -133);
+Wire 6 (400 -200) (350 -233);
+Wire 6 (400 -300) (350 -333);
+Wire 6 (200 100) (200 -400);
+Wire 6 (200 -400) (500 -400);
+Wire 6 (500 -400) (500 100);
+Wire 6 (500 100) (200 100);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (164 209);
+
+Edit 'CON_430450412_2.sym';
+Grid Mil;
+Layer 94;
+Pin '1' Pas None Middle R0 Pad 0 (0 0)
+Pin '2' Pas None Middle R0 Pad 0 (0 -100)
+Pin '3' Pas None Middle R0 Pad 0 (0 -200)
+Pin '4' Pas None Middle R0 Pad 0 (0 -300)
+Wire 6 (300 0) (200 0);
+Wire 6 (300 -100) (200 -100);
+Wire 6 (300 -200) (200 -200);
+Wire 6 (300 -300) (200 -300);
+Wire 6 (300 0) (350 33);
+Wire 6 (300 -100) (350 -67);
+Wire 6 (300 -200) (350 -167);
+Wire 6 (300 -300) (350 -267);
+Wire 6 (300 0) (350 -33);
+Wire 6 (300 -100) (350 -133);
+Wire 6 (300 -200) (350 -233);
+Wire 6 (300 -300) (350 -333);
+Wire 6 (200 100) (200 -400);
+Wire 6 (200 -400) (500 -400);
+Wire 6 (500 -400) (500 100);
+Wire 6 (500 100) (200 100);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (164 209);
+
+Edit 'CON_430450412_3.sym';
+Grid Mil;
+Layer 94;
+Pin '1' Pas None Middle R0 Pad 0 (0 0)
+Pin '2' Pas None Middle R0 Pad 0 (0 -100)
+Pin '3' Pas None Middle R0 Pad 0 (0 -200)
+Pin '4' Pas None Middle R0 Pad 0 (0 -300)
+Wire 6 (200 100) (200 -400);
+Wire 6 (200 -400) (500 -400);
+Wire 6 (500 -400) (500 100);
+Wire 6 (500 100) (200 100);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (164 209);
+
+Edit '430450412.dev';
+Prefix 'J';
+Description '';
+Value Off;
+Add CON_430450412 'A' Next  0 (0 0);
+Package 'CON_430450412_MOL';
+Technology '';
+Attribute Copyright 'Copyright (C) 2022 Ultra Librarian. All rights reserved.';
+Attribute Mfr_Name 'Molex Connector Corporation';
+Attribute Manufacturer_Part_Number '430450412';
+Connect 'A.1' '1';
+Connect 'A.2' '2';
+Connect 'A.3' '3';
+Connect 'A.4' '4';
