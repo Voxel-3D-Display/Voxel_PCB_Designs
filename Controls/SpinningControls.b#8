@@ -186,16 +186,15 @@
 </layers>
 <board>
 <plain>
-<wire x1="-3.175" y1="-6.35" x2="206.375" y2="-6.35" width="0" layer="20" locked="yes"/>
-<wire x1="206.375" y1="-6.35" x2="206.375" y2="101.6" width="0" layer="20" locked="yes"/>
+<wire x1="-3.175" y1="0" x2="206.375" y2="0" width="0" layer="20" locked="yes"/>
+<wire x1="206.375" y1="0" x2="206.375" y2="101.6" width="0" layer="20" locked="yes"/>
 <wire x1="206.375" y1="101.6" x2="-3.175" y2="101.6" width="0" layer="20" locked="yes"/>
-<wire x1="-3.175" y1="101.6" x2="-3.175" y2="-6.35" width="0" layer="20" locked="yes"/>
-<hole x="198.755" y="93.98" drill="2.59994375" locked="yes"/>
-<hole x="198.755" y="1.27" drill="2.59994375" locked="yes"/>
-<hole x="4.445" y="1.27" drill="2.59994375" locked="yes"/>
+<wire x1="-3.175" y1="101.6" x2="-3.175" y2="0" width="0" layer="20" locked="yes"/>
+<hole x="198.755" y="93.98" drill="2.59994375"/>
+<hole x="198.755" y="7.62" drill="2.59994375"/>
+<hole x="4.445" y="7.62" drill="2.59994375"/>
 <text x="9.398" y="93.091" size="0.889" layer="21">shared standoff
 (mount + hdmi)</text>
-<wire x1="205.74" y1="50.8" x2="-2.54" y2="50.8" width="0.1524" layer="21"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -2824,17 +2823,17 @@ design rules under a new name.</description>
 <attribute name="VERIFICATION_VERSION" value="0.0.0.3" x="-84.775" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VOLTAGE_RATING" value="250V" x="-84.775" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="J2" library="F32R-1A7H1-11040" package="F32R1A7H111040" value="F32R-1A7H1-11040" x="25.4" y="2.54" smashed="yes" rot="R180">
-<attribute name="ARROW_PART_NUMBER" value="" x="-57.15" y="115.57" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="" x="-57.15" y="115.57" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="FFC &amp; FPC Connectors F32R-1A7H1-11040-Slider type" x="-57.15" y="115.57" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="2.8mm" x="-57.15" y="115.57" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Amphenol ICC / Aorora" x="-57.15" y="115.57" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="F32R-1A7H1-11040" x="-57.15" y="115.57" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="649-F32R-1A7H1-11040" x="-57.15" y="115.57" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Amphenol-ICC-Aorora/F32R-1A7H1-11040?qs=xZ%2FP%252Ba9zWqZi2ltQqa0C7A%3D%3D" x="-57.15" y="115.57" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="25.4" y="1.94" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="VALUE" x="25.4" y="1.94" size="1.27" layer="27" rot="R180" align="center"/>
+<element name="J2" library="F32R-1A7H1-11040" package="F32R1A7H111040" value="F32R-1A7H1-11040" x="25.4" y="6.35" smashed="yes" rot="R180">
+<attribute name="ARROW_PART_NUMBER" value="" x="-57.15" y="119.38" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="-57.15" y="119.38" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="FFC &amp; FPC Connectors F32R-1A7H1-11040-Slider type" x="-57.15" y="119.38" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="2.8mm" x="-57.15" y="119.38" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Amphenol ICC / Aorora" x="-57.15" y="119.38" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="F32R-1A7H1-11040" x="-57.15" y="119.38" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="649-F32R-1A7H1-11040" x="-57.15" y="119.38" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Amphenol-ICC-Aorora/F32R-1A7H1-11040?qs=xZ%2FP%252Ba9zWqZi2ltQqa0C7A%3D%3D" x="-57.15" y="119.38" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="25.4" y="5.75" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="VALUE" x="25.4" y="5.75" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="J4" library="Sullins - PPPC062LFBN-RC" package="SULLINS_PPPC062LFBN-RC_0" value="SULLINS_PPPC062LFBN-RCSULLINS_PPPC062LFBN-RC_0_0" x="178.235" y="55.57011875" smashed="yes" rot="MR0">
 <attribute name="AUTOMOTIVE" value="No" x="156.645" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3041,32 +3040,20 @@ design rules under a new name.</description>
 <attribute name="VOLTAGE_RATING" value="250V" x="-17.40499375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="U$1" library="RPI-Zero" package="RASPBERRYPI_BASTELSTUBE_V13_RASPI_BOARD_B+_FULL" value="RPI-ZERO" x="189.23" y="100.33" smashed="yes" rot="R180"/>
-<element name="U$2" library="VoxelEagleLib" package="TFP401" value="TFP401" x="50.292" y="99.441" locked="yes" smashed="yes" rot="R270"/>
+<element name="U$2" library="VoxelEagleLib" package="TFP401" value="TFP401" x="50.292" y="99.441" smashed="yes" rot="R270"/>
 <element name="U$3" library="VoltageReg" package="2X06" value="3V3_BUCK_REGULATOR" x="106.68" y="64.77" smashed="yes">
 <attribute name="NAME" x="99.06" y="70.485" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="99.06" y="62.865" size="1.27" layer="27"/>
 </element>
-<element name="FPGA" library="VoxelEagleLib" package="DE0-NANO" value="DE0-NANO" x="51.943" y="25.527" smashed="yes" rot="R270">
-<attribute name="NAME" x="51.308" y="9.017" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="58.928" y="9.017" size="1.27" layer="27" rot="R90"/>
+<element name="FPGA" library="VoxelEagleLib" package="DE0-NANO" value="DE0-NANO" x="58.293" y="25.527" smashed="yes" rot="R270">
+<attribute name="NAME" x="57.658" y="9.017" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="65.278" y="9.017" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="U$6" library="VoltageReg" package="2X06" value="5V_BUCK_REGULATOR" x="80.01" y="64.77" smashed="yes">
 <attribute name="NAME" x="72.39" y="70.485" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="72.39" y="62.865" size="1.27" layer="27"/>
 </element>
-<element name="IC2" library="SN74LVC1G34DBVR" package="SOT95P280X145-5N" value="SN74LVC1G34DBVR" x="160.02" y="38.1" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="SN74LVC1G34DBVR" x="160.02" y="38.1" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74lvc1g34dbvr/texas-instruments?region=nac" x="160.02" y="38.1" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Single Buffer Gate" x="160.02" y="38.1" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.45mm" x="160.02" y="38.1" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="160.02" y="38.1" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SN74LVC1G34DBVR" x="160.02" y="38.1" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="595-SN74LVC1G34DBVR" x="160.02" y="38.1" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC1G34DBVR?qs=dT9u2OTAaVXXjYSQb2wcdg%3D%3D" x="160.02" y="38.1" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="163.83" y="38.1" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="160.02" y="36.83" size="1.27" layer="27" align="center"/>
-</element>
-<element name="IC3" library="SN74LVC1G34DBVR" package="SOT95P280X145-5N" value="SN74LVC1G34DBVR" x="160.02" y="43.18" smashed="yes">
+<element name="IC2" library="SN74LVC1G34DBVR" package="SOT95P280X145-5N" value="SN74LVC1G34DBVR" x="160.02" y="43.18" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="SN74LVC1G34DBVR" x="160.02" y="43.18" size="1.778" layer="27" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74lvc1g34dbvr/texas-instruments?region=nac" x="160.02" y="43.18" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="Single Buffer Gate" x="160.02" y="43.18" size="1.778" layer="27" display="off"/>
@@ -3077,6 +3064,18 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC1G34DBVR?qs=dT9u2OTAaVXXjYSQb2wcdg%3D%3D" x="160.02" y="43.18" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="163.83" y="43.18" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="160.02" y="41.91" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC3" library="SN74LVC1G34DBVR" package="SOT95P280X145-5N" value="SN74LVC1G34DBVR" x="160.02" y="38.1" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="SN74LVC1G34DBVR" x="160.02" y="38.1" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74lvc1g34dbvr/texas-instruments?region=nac" x="160.02" y="38.1" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Single Buffer Gate" x="160.02" y="38.1" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.45mm" x="160.02" y="38.1" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="160.02" y="38.1" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74LVC1G34DBVR" x="160.02" y="38.1" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74LVC1G34DBVR" x="160.02" y="38.1" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC1G34DBVR?qs=dT9u2OTAaVXXjYSQb2wcdg%3D%3D" x="160.02" y="38.1" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="163.83" y="38.1" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="160.02" y="36.83" size="1.27" layer="27" align="center"/>
 </element>
 <element name="IC4" library="SN74LVC1G34DBVR" package="SOT95P280X145-5N" value="SN74LVC1G34DBVR" x="160.02" y="33.02" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="SN74LVC1G34DBVR" x="160.02" y="33.02" size="1.778" layer="27" display="off"/>
@@ -3090,13 +3089,13 @@ design rules under a new name.</description>
 <attribute name="NAME" x="163.83" y="33.02" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="160.02" y="31.75" size="1.27" layer="27" align="center"/>
 </element>
-<element name="J19" library="molex" package="CON_436500215_MOL" value="436500215" x="201.93" y="19.05" smashed="yes" rot="R90">
-<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." x="201.93" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER_1" value="WM1917-ND" x="201.93" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="436500215" x="201.93" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR_NAME" value="Molex Connector Corporation" x="201.93" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="197.485" y="13.0048" size="1.27" layer="27" ratio="6" rot="SR90"/>
-<attribute name="VALUE" x="193.675" y="15.8242" size="1.27" layer="21" ratio="6" rot="SR90"/>
+<element name="J19" library="molex" package="CON_436500215_MOL" value="436500215" x="201.93" y="27.94" smashed="yes" rot="R90">
+<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." x="201.93" y="27.94" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER_1" value="WM1917-ND" x="201.93" y="27.94" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="436500215" x="201.93" y="27.94" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR_NAME" value="Molex Connector Corporation" x="201.93" y="27.94" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="197.485" y="21.8948" size="1.27" layer="27" ratio="6" rot="SR90"/>
+<attribute name="VALUE" x="193.675" y="24.7142" size="1.27" layer="21" ratio="6" rot="SR90"/>
 </element>
 <element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="165 Ω" x="194.31" y="82.55" smashed="yes" rot="R90">
 <attribute name="NAME" x="193.675" y="81.915" size="1.27" layer="25" rot="R90"/>
@@ -3352,13 +3351,13 @@ design rules under a new name.</description>
 <wire x1="28.775" y1="56.84011875" x2="31.315" y2="56.84011875" width="0" layer="19" extent="1-1"/>
 <wire x1="14.285" y1="56.84011875" x2="28.775" y2="56.84011875" width="0" layer="19" extent="1-1"/>
 <wire x1="11.745" y1="56.84011875" x2="14.285" y2="56.84011875" width="0" layer="19" extent="1-1"/>
-<wire x1="158.77" y1="37.15" x2="165.0150125" y2="56.84011875" width="0" layer="19" extent="1-1"/>
+<wire x1="158.77" y1="42.23" x2="165.0150125" y2="56.84011875" width="0" layer="19" extent="1-1"/>
 <wire x1="158.77" y1="37.15" x2="158.77" y2="42.23" width="0" layer="19" extent="1-1"/>
-<wire x1="158.77" y1="32.07" x2="158.77" y2="42.23" width="0" layer="19" extent="1-1"/>
+<wire x1="158.77" y1="32.07" x2="158.77" y2="37.15" width="0" layer="19" extent="1-1"/>
 <wire x1="58.801" y1="96.393" x2="59.055" y2="74.608" width="0" layer="19" extent="1-1"/>
 <wire x1="103.886" y1="93.853" x2="107.95" y2="68.58" width="0" layer="19" extent="1-1"/>
 <wire x1="97.8916" y1="93.853" x2="103.886" y2="93.853" width="0" layer="19" extent="1-1"/>
-<wire x1="201.93" y1="19.05" x2="201.614990625" y2="56.84011875" width="0" layer="19" extent="1-1"/>
+<wire x1="201.93" y1="27.94" x2="201.614990625" y2="56.84011875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3V3_LED">
 <contactref element="U$3" pad="11"/>
@@ -3452,9 +3451,9 @@ design rules under a new name.</description>
 <contactref element="R1" pad="2"/>
 <contactref element="J16" pad="3"/>
 <wire x1="178.32" y1="72.56" x2="180.86" y2="72.56" width="0" layer="19" extent="1-1"/>
-<wire x1="201.93" y1="16.0528" x2="178.32" y2="72.56" width="0" layer="19" extent="1-1"/>
+<wire x1="201.93" y1="24.9428" x2="178.32" y2="72.56" width="0" layer="19" extent="1-1"/>
 <wire x1="194.31" y1="83.4" x2="180.86" y2="72.56" width="0" layer="19" extent="1-1"/>
-<wire x1="57.785" y1="67.271" x2="201.93" y2="16.0528" width="0" layer="19" extent="1-1"/>
+<wire x1="57.785" y1="67.271" x2="201.93" y2="24.9428" width="0" layer="19" extent="1-1"/>
 <wire x1="57.785" y1="70.058" x2="57.785" y2="67.271" width="0" layer="19" extent="1-1"/>
 <wire x1="61.595" y1="70.058" x2="57.785" y2="70.058" width="0" layer="19" extent="1-1"/>
 <wire x1="86.36" y1="66.04" x2="61.595" y2="70.058" width="0" layer="19" extent="1-1"/>
@@ -3488,10 +3487,10 @@ design rules under a new name.</description>
 <contactref element="J11" pad="1"/>
 <contactref element="J14" pad="1"/>
 <wire x1="167.5550125" y1="54.30011875" x2="184.585" y2="54.30011875" width="0" layer="19" extent="1-1"/>
-<wire x1="161.27" y1="39.05" x2="167.5550125" y2="54.30011875" width="0" layer="19" extent="1-1"/>
-<wire x1="161.27" y1="44.13" x2="161.27" y2="39.05" width="0" layer="19" extent="1-1"/>
-<wire x1="161.27" y1="33.97" x2="161.27" y2="44.13" width="0" layer="19" extent="1-1"/>
-<wire x1="150.524996875" y1="54.30011875" x2="161.27" y2="39.05" width="0" layer="19" extent="1-1"/>
+<wire x1="161.27" y1="44.13" x2="167.5550125" y2="54.30011875" width="0" layer="19" extent="1-1"/>
+<wire x1="161.27" y1="39.05" x2="161.27" y2="44.13" width="0" layer="19" extent="1-1"/>
+<wire x1="161.27" y1="33.97" x2="161.27" y2="39.05" width="0" layer="19" extent="1-1"/>
+<wire x1="150.524996875" y1="54.30011875" x2="161.27" y2="44.13" width="0" layer="19" extent="1-1"/>
 <wire x1="133.495009375" y1="54.30011875" x2="150.524996875" y2="54.30011875" width="0" layer="19" extent="1-1"/>
 <wire x1="116.46499375" y1="54.30011875" x2="133.495009375" y2="54.30011875" width="0" layer="19" extent="1-1"/>
 <wire x1="99.43500625" y1="54.30011875" x2="116.46499375" y2="54.30011875" width="0" layer="19" extent="1-1"/>
@@ -3530,7 +3529,7 @@ design rules under a new name.</description>
 <contactref element="J14" pad="5"/>
 <wire x1="179.505" y1="54.30011875" x2="196.534990625" y2="54.30011875" width="0" layer="19" extent="1-1"/>
 <wire x1="162.4750125" y1="54.30011875" x2="179.505" y2="54.30011875" width="0" layer="19" extent="1-1"/>
-<wire x1="161.27" y1="37.15" x2="162.4750125" y2="54.30011875" width="0" layer="19" extent="1-1"/>
+<wire x1="161.27" y1="42.23" x2="162.4750125" y2="54.30011875" width="0" layer="19" extent="1-1"/>
 <wire x1="145.444996875" y1="54.30011875" x2="162.4750125" y2="54.30011875" width="0" layer="19" extent="1-1"/>
 <wire x1="128.415009375" y1="54.30011875" x2="145.444996875" y2="54.30011875" width="0" layer="19" extent="1-1"/>
 <wire x1="111.38499375" y1="54.30011875" x2="128.415009375" y2="54.30011875" width="0" layer="19" extent="1-1"/>
@@ -3543,13 +3542,9 @@ design rules under a new name.</description>
 </signal>
 <signal name="SCLK_FPGA">
 <contactref element="IC3" pad="2"/>
-<contactref element="FPGA" pad="40"/>
-<wire x1="110.617" y1="48.387" x2="158.77" y2="43.18" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GSCLK_FPGA">
 <contactref element="IC4" pad="2"/>
-<contactref element="FPGA" pad="65"/>
-<wire x1="80.137" y1="5.207" x2="158.77" y2="33.02" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCLK">
 <contactref element="IC3" pad="4"/>
@@ -3576,7 +3571,7 @@ design rules under a new name.</description>
 <wire x1="40.7249875" y1="54.30011875" x2="57.755003125" y2="54.30011875" width="0" layer="19" extent="1-1"/>
 <wire x1="23.695" y1="54.30011875" x2="40.7249875" y2="54.30011875" width="0" layer="19" extent="1-1"/>
 <wire x1="6.665" y1="54.30011875" x2="23.695" y2="54.30011875" width="0" layer="19" extent="1-1"/>
-<wire x1="161.27" y1="42.23" x2="159.9350125" y2="54.30011875" width="0" layer="19" extent="1-1"/>
+<wire x1="161.27" y1="37.15" x2="159.9350125" y2="54.30011875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GSCLK">
 <contactref element="IC4" pad="4"/>
@@ -3607,8 +3602,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="LAT_FPGA">
 <contactref element="IC2" pad="2"/>
-<contactref element="FPGA" pad="39"/>
-<wire x1="110.617" y1="45.847" x2="158.77" y2="38.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="FPGA" pad="11"/>
@@ -3631,14 +3624,15 @@ design rules under a new name.</description>
 <signal name="N$13">
 <contactref element="FPGA" pad="52"/>
 </signal>
+<signal name="N$14">
+<contactref element="FPGA" pad="70"/>
+</signal>
 <signal name="ENC_POS">
 <contactref element="J15" pad="4"/>
 <contactref element="J17" pad="4"/>
 <contactref element="R3" pad="1"/>
-<contactref element="FPGA" pad="41"/>
-<wire x1="194.31" y1="78.24" x2="103.886" y2="96.8502" width="0" layer="19" extent="1-1"/>
-<wire x1="201.3712" y1="81.534" x2="194.31" y2="78.24" width="0" layer="19" extent="1-1"/>
-<wire x1="110.617" y1="5.207" x2="103.886" y2="96.8502" width="0" layer="19" extent="1-1"/>
+<wire x1="103.886" y1="96.8502" x2="194.31" y2="78.24" width="0" layer="19" extent="1-1"/>
+<wire x1="201.3712" y1="81.534" x2="103.886" y2="96.8502" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="24V">
 <contactref element="U$3" pad="5"/>
@@ -3654,147 +3648,152 @@ design rules under a new name.</description>
 <signal name="R1">
 <contactref element="J2" pad="5"/>
 <contactref element="FPGA" pad="80"/>
-<wire x1="33.15" y1="-0.46" x2="62.357" y2="2.667" width="0" layer="19" extent="1-1"/>
+<wire x1="33.15" y1="3.35" x2="68.707" y2="2.667" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="R3">
 <contactref element="J2" pad="7"/>
 <contactref element="FPGA" pad="76"/>
-<wire x1="32.15" y1="-0.46" x2="67.437" y2="2.667" width="0" layer="19" extent="1-1"/>
+<wire x1="32.15" y1="3.35" x2="73.787" y2="2.667" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="R5">
 <contactref element="J2" pad="9"/>
 <contactref element="FPGA" pad="72"/>
-<wire x1="31.15" y1="-0.46" x2="72.517" y2="2.667" width="0" layer="19" extent="1-1"/>
+<wire x1="31.15" y1="3.35" x2="78.867" y2="2.667" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="R7">
 <contactref element="J2" pad="11"/>
 <contactref element="FPGA" pad="66"/>
-<wire x1="30.15" y1="-0.46" x2="80.137" y2="2.667" width="0" layer="19" extent="1-1"/>
+<wire x1="30.15" y1="3.35" x2="86.487" y2="2.667" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="R2">
 <contactref element="J2" pad="6"/>
 <contactref element="FPGA" pad="78"/>
-<wire x1="32.65" y1="-0.46" x2="64.897" y2="2.667" width="0" layer="19" extent="1-1"/>
+<wire x1="32.65" y1="3.35" x2="71.247" y2="2.667" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="R4">
 <contactref element="J2" pad="8"/>
 <contactref element="FPGA" pad="74"/>
-<wire x1="31.65" y1="-0.46" x2="69.977" y2="2.667" width="0" layer="19" extent="1-1"/>
+<wire x1="31.65" y1="3.35" x2="76.327" y2="2.667" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="R6">
 <contactref element="J2" pad="10"/>
 <contactref element="FPGA" pad="68"/>
-<wire x1="30.65" y1="-0.46" x2="77.597" y2="2.667" width="0" layer="19" extent="1-1"/>
+<wire x1="30.65" y1="3.35" x2="83.947" y2="2.667" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="R8">
 <contactref element="J2" pad="12"/>
-<contactref element="FPGA" pad="64"/>
-<wire x1="29.65" y1="-0.46" x2="82.677" y2="2.667" width="0" layer="19" extent="1-1"/>
+<contactref element="FPGA" pad="79"/>
+<wire x1="29.65" y1="3.35" x2="68.707" y2="5.207" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="G1">
 <contactref element="J2" pad="13"/>
-<contactref element="FPGA" pad="62"/>
-<wire x1="29.15" y1="-0.46" x2="85.217" y2="2.667" width="0" layer="19" extent="1-1"/>
+<contactref element="FPGA" pad="77"/>
+<wire x1="29.15" y1="3.35" x2="71.247" y2="5.207" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="G3">
 <contactref element="J2" pad="15"/>
-<contactref element="FPGA" pad="58"/>
-<wire x1="28.15" y1="-0.46" x2="90.297" y2="2.667" width="0" layer="19" extent="1-1"/>
+<contactref element="FPGA" pad="73"/>
+<wire x1="28.15" y1="3.35" x2="76.327" y2="5.207" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="G5">
 <contactref element="J2" pad="17"/>
-<contactref element="FPGA" pad="54"/>
-<wire x1="27.15" y1="-0.46" x2="95.377" y2="2.667" width="0" layer="19" extent="1-1"/>
+<contactref element="FPGA" pad="67"/>
+<wire x1="27.15" y1="3.35" x2="83.947" y2="5.207" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="G7">
 <contactref element="J2" pad="19"/>
 <contactref element="FPGA" pad="83"/>
-<wire x1="26.15" y1="-0.46" x2="55.753" y2="12.827" width="0" layer="19" extent="1-1"/>
+<wire x1="26.15" y1="3.35" x2="62.103" y2="12.827" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B1">
 <contactref element="J2" pad="21"/>
 <contactref element="FPGA" pad="85"/>
-<wire x1="25.15" y1="-0.46" x2="55.753" y2="15.367" width="0" layer="19" extent="1-1"/>
+<wire x1="25.15" y1="3.35" x2="62.103" y2="15.367" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B3">
 <contactref element="J2" pad="23"/>
 <contactref element="FPGA" pad="87"/>
-<wire x1="24.15" y1="-0.46" x2="55.753" y2="17.907" width="0" layer="19" extent="1-1"/>
+<wire x1="24.15" y1="3.35" x2="62.103" y2="17.907" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B5">
 <contactref element="J2" pad="25"/>
 <contactref element="FPGA" pad="89"/>
-<wire x1="23.15" y1="-0.46" x2="55.753" y2="20.447" width="0" layer="19" extent="1-1"/>
+<wire x1="23.15" y1="3.35" x2="62.103" y2="20.447" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B7">
 <contactref element="J2" pad="27"/>
 <contactref element="FPGA" pad="91"/>
-<wire x1="22.15" y1="-0.46" x2="55.753" y2="22.987" width="0" layer="19" extent="1-1"/>
+<wire x1="22.15" y1="3.35" x2="62.103" y2="22.987" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="G2">
 <contactref element="J2" pad="14"/>
-<contactref element="FPGA" pad="60"/>
-<wire x1="28.65" y1="-0.46" x2="87.757" y2="2.667" width="0" layer="19" extent="1-1"/>
+<contactref element="FPGA" pad="75"/>
+<wire x1="28.65" y1="3.35" x2="73.787" y2="5.207" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="G4">
 <contactref element="J2" pad="16"/>
-<contactref element="FPGA" pad="56"/>
-<wire x1="27.65" y1="-0.46" x2="92.837" y2="2.667" width="0" layer="19" extent="1-1"/>
+<contactref element="FPGA" pad="71"/>
+<wire x1="27.65" y1="3.35" x2="78.867" y2="5.207" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="G6">
 <contactref element="J2" pad="18"/>
 <contactref element="FPGA" pad="82"/>
-<wire x1="26.65" y1="-0.46" x2="53.213" y2="10.287" width="0" layer="19" extent="1-1"/>
+<wire x1="26.65" y1="3.35" x2="59.563" y2="10.287" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="G8">
 <contactref element="J2" pad="20"/>
 <contactref element="FPGA" pad="84"/>
-<wire x1="25.65" y1="-0.46" x2="53.213" y2="12.827" width="0" layer="19" extent="1-1"/>
+<wire x1="25.65" y1="3.35" x2="59.563" y2="12.827" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B2">
 <contactref element="J2" pad="22"/>
 <contactref element="FPGA" pad="86"/>
-<wire x1="24.65" y1="-0.46" x2="53.213" y2="15.367" width="0" layer="19" extent="1-1"/>
+<wire x1="24.65" y1="3.35" x2="59.563" y2="15.367" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B4">
 <contactref element="J2" pad="24"/>
 <contactref element="FPGA" pad="88"/>
-<wire x1="23.65" y1="-0.46" x2="53.213" y2="17.907" width="0" layer="19" extent="1-1"/>
+<wire x1="23.65" y1="3.35" x2="59.563" y2="17.907" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B6">
 <contactref element="J2" pad="26"/>
 <contactref element="FPGA" pad="90"/>
-<wire x1="22.65" y1="-0.46" x2="53.213" y2="20.447" width="0" layer="19" extent="1-1"/>
+<wire x1="22.65" y1="3.35" x2="59.563" y2="20.447" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B8">
 <contactref element="J2" pad="28"/>
 <contactref element="FPGA" pad="92"/>
-<wire x1="21.65" y1="-0.46" x2="53.213" y2="22.987" width="0" layer="19" extent="1-1"/>
+<wire x1="21.65" y1="3.35" x2="59.563" y2="22.987" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIXCLK">
 <contactref element="J2" pad="30"/>
 <contactref element="FPGA" pad="93"/>
-<wire x1="20.65" y1="-0.46" x2="55.753" y2="25.527" width="0" layer="19" extent="1-1"/>
+<wire x1="20.65" y1="3.35" x2="62.103" y2="25.527" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ACTIVE">
 <contactref element="J2" pad="31"/>
 <contactref element="FPGA" pad="94"/>
-<wire x1="20.15" y1="-0.46" x2="53.213" y2="25.527" width="0" layer="19" extent="1-1"/>
+<wire x1="20.15" y1="3.35" x2="59.563" y2="25.527" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VSYNC">
 <contactref element="J2" pad="33"/>
 <contactref element="FPGA" pad="96"/>
-<wire x1="19.15" y1="-0.46" x2="53.213" y2="28.067" width="0" layer="19" extent="1-1"/>
+<wire x1="19.15" y1="3.35" x2="59.563" y2="28.067" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="HSYNC">
 <contactref element="J2" pad="32"/>
 <contactref element="FPGA" pad="95"/>
-<wire x1="19.65" y1="-0.46" x2="55.753" y2="28.067" width="0" layer="19" extent="1-1"/>
+<wire x1="19.65" y1="3.35" x2="62.103" y2="28.067" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DISPEN">
 <contactref element="J2" pad="34"/>
 <contactref element="FPGA" pad="97"/>
-<wire x1="18.65" y1="-0.46" x2="55.753" y2="30.607" width="0" layer="19" extent="1-1"/>
+<wire x1="18.65" y1="3.35" x2="62.103" y2="30.607" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$8">
+<wire x1="208.28" y1="101.6" x2="208.28" y2="50.8" width="0.1524" layer="1"/>
+<wire x1="208.28" y1="50.8" x2="-7.62" y2="50.8" width="0.1524" layer="1"/>
+<wire x1="-7.62" y1="50.8" x2="-8.89" y2="52.07" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$6">
 <contactref element="J17" pad="1"/>
@@ -3809,8 +3808,6 @@ design rules under a new name.</description>
 <signal name="ENC_POS0">
 <contactref element="J16" pad="4"/>
 <contactref element="R4" pad="1"/>
-<contactref element="FPGA" pad="43"/>
-<wire x1="194.31" y1="63" x2="108.077" y2="5.207" width="0" layer="19" extent="1-1"/>
 <wire x1="201.3712" y1="65.913" x2="194.31" y2="63" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SIN78_J3">
@@ -3881,113 +3878,69 @@ design rules under a new name.</description>
 </signal>
 <signal name="SIN78_J9">
 <contactref element="J9" pad="9"/>
-<contactref element="FPGA" pad="28"/>
-<wire x1="95.377" y1="48.387" x2="89.27500625" y2="54.30011875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SIN34_J9">
 <contactref element="J9" pad="11"/>
-<contactref element="FPGA" pad="26"/>
-<wire x1="92.837" y1="48.387" x2="86.73500625" y2="54.30011875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SIN78_J10">
 <contactref element="J10" pad="9"/>
-<contactref element="FPGA" pad="24"/>
-<wire x1="72.244990625" y1="54.30011875" x2="90.297" y2="48.387" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SIN34_J10">
 <contactref element="J10" pad="11"/>
-<contactref element="FPGA" pad="22"/>
-<wire x1="69.704990625" y1="54.30011875" x2="87.757" y2="48.387" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SIN56_J10">
 <contactref element="J10" pad="10"/>
-<contactref element="FPGA" pad="23"/>
-<wire x1="72.244990625" y1="56.84011875" x2="90.297" y2="45.847" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SIN12_J10">
 <contactref element="J10" pad="12"/>
-<contactref element="FPGA" pad="21"/>
-<wire x1="69.704990625" y1="56.84011875" x2="87.757" y2="45.847" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SIN78_J11">
 <contactref element="J11" pad="9"/>
-<contactref element="FPGA" pad="20"/>
-<wire x1="55.215003125" y1="54.30011875" x2="85.217" y2="48.387" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SIN34_J11">
 <contactref element="J11" pad="11"/>
-<contactref element="FPGA" pad="18"/>
-<wire x1="52.675003125" y1="54.30011875" x2="82.677" y2="48.387" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SIN56_J11">
 <contactref element="J11" pad="10"/>
-<contactref element="FPGA" pad="19"/>
-<wire x1="85.217" y1="45.847" x2="55.215003125" y2="56.84011875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SIN12_J11">
 <contactref element="J11" pad="12"/>
-<contactref element="FPGA" pad="17"/>
-<wire x1="82.677" y1="45.847" x2="52.675003125" y2="56.84011875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SIN78_J12">
 <contactref element="J12" pad="9"/>
-<contactref element="FPGA" pad="16"/>
-<wire x1="38.1849875" y1="54.30011875" x2="80.137" y2="48.387" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SIN34_J12">
 <contactref element="J12" pad="11"/>
-<contactref element="FPGA" pad="14"/>
-<wire x1="35.6449875" y1="54.30011875" x2="77.597" y2="48.387" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SIN56_J12">
 <contactref element="J12" pad="10"/>
-<contactref element="FPGA" pad="15"/>
-<wire x1="38.1849875" y1="56.84011875" x2="80.137" y2="45.847" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SIN12_J12">
 <contactref element="J12" pad="12"/>
-<contactref element="FPGA" pad="13"/>
-<wire x1="35.6449875" y1="56.84011875" x2="77.597" y2="45.847" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SIN78_J13">
 <contactref element="J13" pad="9"/>
-<contactref element="FPGA" pad="10"/>
-<wire x1="72.517" y1="48.387" x2="21.155" y2="54.30011875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SIN34_J13">
 <contactref element="J13" pad="11"/>
-<contactref element="FPGA" pad="8"/>
-<wire x1="69.977" y1="48.387" x2="18.615" y2="54.30011875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SIN56_J13">
 <contactref element="J13" pad="10"/>
-<contactref element="FPGA" pad="9"/>
-<wire x1="72.517" y1="45.847" x2="21.155" y2="56.84011875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SIN12_J13">
 <contactref element="J13" pad="12"/>
-<contactref element="FPGA" pad="7"/>
-<wire x1="69.977" y1="45.847" x2="18.615" y2="56.84011875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SIN78_J14">
 <contactref element="J14" pad="9"/>
-<contactref element="FPGA" pad="6"/>
-<wire x1="4.125" y1="54.30011875" x2="67.437" y2="48.387" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SIN34_J14">
 <contactref element="J14" pad="11"/>
-<contactref element="FPGA" pad="4"/>
-<wire x1="1.585" y1="54.30011875" x2="64.897" y2="48.387" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SIN56_J14">
 <contactref element="J14" pad="10"/>
-<contactref element="FPGA" pad="5"/>
-<wire x1="4.125" y1="56.84011875" x2="67.437" y2="45.847" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SIN12_J14">
 <contactref element="J14" pad="12"/>
-<contactref element="FPGA" pad="2"/>
-<wire x1="1.585" y1="56.84011875" x2="62.357" y2="48.387" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SIN56_J6">
 <contactref element="J6" pad="10"/>
@@ -3997,16 +3950,9 @@ design rules under a new name.</description>
 </signal>
 <signal name="SIN56_J9">
 <contactref element="J9" pad="10"/>
-<contactref element="FPGA" pad="27"/>
-<wire x1="95.377" y1="45.847" x2="89.27500625" y2="56.84011875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SIN12_J9">
 <contactref element="J9" pad="12"/>
-<contactref element="FPGA" pad="25"/>
-<wire x1="92.837" y1="45.847" x2="86.73500625" y2="56.84011875" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$14">
-<contactref element="FPGA" pad="70"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
