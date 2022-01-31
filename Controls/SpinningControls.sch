@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1522,12 +1522,8 @@ Created by Upverter.com</description>
 <wire x1="8.045" y1="-2.615" x2="8.045" y2="2.615" width="0.15" layer="21"/>
 <wire x1="-8.045" y1="-2.615" x2="8.045" y2="-2.615" width="0.15" layer="21"/>
 <wire x1="-8.045" y1="-2.615" x2="-8.045" y2="2.615" width="0.15" layer="21"/>
-<wire x1="-8.145" y1="-2.715" x2="-8.145" y2="2.715" width="0.1" layer="41"/>
-<wire x1="-8.145" y1="2.715" x2="8.145" y2="2.715" width="0.1" layer="41"/>
-<wire x1="8.145" y1="2.715" x2="8.145" y2="-2.715" width="0.1" layer="41"/>
-<wire x1="8.145" y1="-2.715" x2="-8.145" y2="-2.715" width="0.1" layer="41"/>
 <text x="-7.945" y="2.94" size="1" layer="25">&gt;NAME</text>
-<circle x="-8.545" y="-1.27" radius="0.25" width="0" layer="21"/>
+<circle x="-6.894" y="-3.048" radius="0.25" width="0" layer="21"/>
 <pad name="1" x="-6.35" y="-1.27" drill="1.02" diameter="1.57" shape="square"/>
 <pad name="3" x="-3.81" y="-1.27" drill="1.02" diameter="1.57"/>
 <pad name="5" x="-1.27" y="-1.27" drill="1.02" diameter="1.57"/>
@@ -18077,12 +18073,12 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="IC4" library="SN74LVC1G34DBVR" deviceset="SN74LVC1G34DBVR" device=""/>
 <part name="J19" library="molex" deviceset="436500215" device=""/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="165 Ω"/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="19.1k Ω"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="19.1k Ω"/>
 <part name="J15" library="molex" deviceset="430450612" device=""/>
 <part name="J18" library="molex" deviceset="436500215" device=""/>
 <part name="J17" library="molex" deviceset="430450612" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="165 Ω"/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="19.1k Ω"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="19.1k Ω"/>
 <part name="J16" library="molex" deviceset="430450612" device=""/>
 <part name="C4" library="GTOR - Passive Components" deviceset="CAP_THT" device="E2-5" package3d_urn="urn:adsk.eagle:package:23346/2" value="100u"/>
 <part name="C5" library="GTOR - Passive Components" deviceset="CAP_THT" device="E2-5" package3d_urn="urn:adsk.eagle:package:23346/2" value="100u"/>
