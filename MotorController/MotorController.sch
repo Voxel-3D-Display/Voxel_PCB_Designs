@@ -2137,6 +2137,8 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <part name="R3" library="GTOR - Passive Components" deviceset="RES_AXIAL" device="1/4W-0.4" package3d_urn="urn:adsk.eagle:package:23491/2" value="220"/>
 <part name="JP5" library="GTOR - Connectors" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="R2" library="GTOR - Passive Components" deviceset="RES_AXIAL" device="1/4W-0.4" package3d_urn="urn:adsk.eagle:package:23491/2" value="220"/>
+<part name="JP6" library="GTOR - Connectors" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="R4" library="GTOR - Passive Components" deviceset="RES_AXIAL" device="1/4W-0.4" package3d_urn="urn:adsk.eagle:package:23491/2" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -2183,6 +2185,14 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <instance part="R2" gate="G$1" x="55.88" y="5.08" smashed="yes" rot="R180">
 <attribute name="NAME" x="59.69" y="3.5814" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="59.69" y="8.382" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="JP6" gate="G$1" x="15.24" y="71.12" smashed="yes">
+<attribute name="NAME" x="8.89" y="76.835" size="1.778" layer="95"/>
+<attribute name="VALUE" x="8.89" y="66.04" size="1.778" layer="96"/>
+</instance>
+<instance part="R4" gate="G$1" x="5.08" y="78.74" smashed="yes" rot="R90">
+<attribute name="NAME" x="3.5814" y="74.93" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="8.382" y="74.93" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -2482,6 +2492,11 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <wire x1="73.66" y1="2.54" x2="60.96" y2="2.54" width="0.1524" layer="91"/>
 <label x="60.96" y="2.54" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP6" gate="G$1" pin="2"/>
+<wire x1="12.7" y1="71.12" x2="-7.62" y2="71.12" width="0.1524" layer="91"/>
+<label x="-7.62" y="71.12" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="5V" class="0">
 <segment>
@@ -2519,6 +2534,12 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="5.08" x2="45.72" y2="5.08" width="0.1524" layer="91"/>
 <label x="45.72" y="5.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="5.08" y1="83.82" x2="5.08" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="86.36" x2="10.16" y2="86.36" width="0.1524" layer="91"/>
+<label x="10.16" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$59" class="0">
@@ -2584,10 +2605,19 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <label x="22.86" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="BUTTON" class="0">
+<segment>
+<pinref part="JP6" gate="G$1" pin="1"/>
+<wire x1="12.7" y1="73.66" x2="5.08" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<junction x="5.08" y="73.66"/>
+<wire x1="5.08" y1="73.66" x2="-7.62" y2="73.66" width="0.1524" layer="91"/>
+<label x="-7.62" y="73.66" size="1.778" layer="95"/>
+</segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="D8"/>
 <wire x1="22.86" y1="33.02" x2="30.48" y2="33.02" width="0.1524" layer="91"/>
+<label x="22.86" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
