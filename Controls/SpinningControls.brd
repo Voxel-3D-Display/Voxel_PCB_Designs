@@ -2319,12 +2319,6 @@ by exp-project-lbr.ulp</description>
 <wire x1="3.3274" y1="-1.0668" x2="3.3274" y2="3.0988" width="0.1524" layer="21"/>
 <wire x1="3.3274" y1="3.0988" x2="-6.3246" y2="3.0988" width="0.1524" layer="21"/>
 <text x="-3.2258" y="8.255" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<polygon width="0.0254" layer="41">
-<vertex x="3.705990625" y="3.354"/>
-<vertex x="3.705990625" y="-2.724"/>
-<vertex x="-6.7059875" y="-2.724"/>
-<vertex x="-6.7059875" y="3.354"/>
-</polygon>
 <text x="-4.7752" y="8.255" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
 </package>
 <package name="CON_430450612_MOL">
@@ -2353,12 +2347,6 @@ by exp-project-lbr.ulp</description>
 <wire x1="3.5814" y1="4.5466" x2="3.5814" y2="6.2992" width="0.1524" layer="21"/>
 <wire x1="-9.5758" y1="3.3528" x2="-9.5758" y2="-2.4638" width="0.1524" layer="21"/>
 <text x="-4.7244" y="10.795" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<polygon width="0.1524" layer="41">
-<vertex x="3.8289875" y="6.554"/>
-<vertex x="3.8289875" y="-2.724"/>
-<vertex x="-9.8289875" y="-2.724"/>
-<vertex x="-9.8289875" y="6.554"/>
-</polygon>
 <text x="-6.2738" y="10.795" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
 </package>
 </packages>
@@ -2616,39 +2604,39 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ABLIC/S-19246E33H-V5T2U?qs=DPoM0jnrROWX68Lwh%2F%252BJLQ%3D%3D" x="117.475" y="-40.767" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="61.595" y="78.272" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
-<element name="J3" library="Sullins - PPPC062LFBN-RC" package="SULLINS_PPPC062LFBN-RC_0" value="SULLINS_PPPC062LFBN-RCSULLINS_PPPC062LFBN-RC_0_0" x="195.264990625" y="55.57011875" smashed="yes" rot="MR0">
-<attribute name="AUTOMOTIVE" value="No" x="88.584990625" y="-56.18988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="88.584990625" y="-56.18988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CONN_GENDER" value="Female" x="88.584990625" y="-56.18988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CONN_ORIENTATION" value="Straight" x="88.584990625" y="-56.18988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CONTACT_MATERIAL" value="Gold,Nickel" x="88.584990625" y="-56.18988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CURRENT_RATING" value="3A" x="88.584990625" y="-56.18988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DATASHEET" value="https://drawings-pdf.s3.amazonaws.com/10492.pdf" x="88.584990625" y="-56.18988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DEVICE_CLASS_L1" value="Connectors" x="88.584990625" y="-56.18988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DEVICE_CLASS_L2" value="Headers and Wire Housings" x="88.584990625" y="-56.18988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DEVICE_CLASS_L3" value="unset" x="88.584990625" y="-56.18988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="CONN HDR 12POS 0.1 GOLD PCB" x="88.584990625" y="-56.18988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="S7109-ND" x="88.584990625" y="-56.18988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern" x="88.584990625" y="-56.18988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="HEIGHT" value="8.65mm" x="88.584990625" y="-56.18988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="IS_FEMALE" value="yes" x="88.584990625" y="-56.18988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="LEAD_FREE" value="Yes" x="88.584990625" y="-56.18988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="Sullins" x="88.584990625" y="-56.18988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT" value="0" x="88.584990625" y="-56.18988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="88.584990625" y="-56.18988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="88.584990625" y="-56.18988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="PPPC062LFBN-RC" x="88.584990625" y="-56.18988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="203.209990625" y="58.51011875" size="1" layer="26" rot="MR0"/>
-<attribute name="NUMBER_OF_CONTACTS" value="12" x="88.584990625" y="-56.18988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NUMBER_OF_ROWS" value="2" x="88.584990625" y="-56.18988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PACKAGE" value="CONN_12" x="88.584990625" y="-56.18988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PITCH" value="2.54mm" x="88.584990625" y="-56.18988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PREFIX" value="J" x="88.584990625" y="-56.18988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="ROHS" value="Yes" x="88.584990625" y="-56.18988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+105°C" x="88.584990625" y="-56.18988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-40°C" x="88.584990625" y="-56.18988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VERIFICATION_VERSION" value="0.0.0.3" x="88.584990625" y="-56.18988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VOLTAGE_RATING" value="250V" x="88.584990625" y="-56.18988125" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="J3" library="Sullins - PPPC062LFBN-RC" package="SULLINS_PPPC062LFBN-RC_0" value="SULLINS_PPPC062LFBN-RCSULLINS_PPPC062LFBN-RC_0_0" x="195.264990625" y="55.57011875" locked="yes" smashed="yes" rot="MR0">
+<attribute name="AUTOMOTIVE" value="No" x="88.584990625" y="-56.18988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="88.584990625" y="-56.18988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CONN_GENDER" value="Female" x="88.584990625" y="-56.18988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CONN_ORIENTATION" value="Straight" x="88.584990625" y="-56.18988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CONTACT_MATERIAL" value="Gold,Nickel" x="88.584990625" y="-56.18988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CURRENT_RATING" value="3A" x="88.584990625" y="-56.18988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DATASHEET" value="https://drawings-pdf.s3.amazonaws.com/10492.pdf" x="88.584990625" y="-56.18988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DEVICE_CLASS_L1" value="Connectors" x="88.584990625" y="-56.18988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DEVICE_CLASS_L2" value="Headers and Wire Housings" x="88.584990625" y="-56.18988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DEVICE_CLASS_L3" value="unset" x="88.584990625" y="-56.18988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DIGIKEY_DESCRIPTION" value="CONN HDR 12POS 0.1 GOLD PCB" x="88.584990625" y="-56.18988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="S7109-ND" x="88.584990625" y="-56.18988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern" x="88.584990625" y="-56.18988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="8.65mm" x="88.584990625" y="-56.18988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="IS_FEMALE" value="yes" x="88.584990625" y="-56.18988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="LEAD_FREE" value="Yes" x="88.584990625" y="-56.18988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Sullins" x="88.584990625" y="-56.18988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT" value="0" x="88.584990625" y="-56.18988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="88.584990625" y="-56.18988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="88.584990625" y="-56.18988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="PPPC062LFBN-RC" x="88.584990625" y="-56.18988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="203.209990625" y="58.51011875" locked="yes" size="1" layer="26" rot="MR0"/>
+<attribute name="NUMBER_OF_CONTACTS" value="12" x="88.584990625" y="-56.18988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NUMBER_OF_ROWS" value="2" x="88.584990625" y="-56.18988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PACKAGE" value="CONN_12" x="88.584990625" y="-56.18988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PITCH" value="2.54mm" x="88.584990625" y="-56.18988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PREFIX" value="J" x="88.584990625" y="-56.18988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="ROHS" value="Yes" x="88.584990625" y="-56.18988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMPERATURE_RANGE_HIGH" value="+105°C" x="88.584990625" y="-56.18988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMPERATURE_RANGE_LOW" value="-40°C" x="88.584990625" y="-56.18988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VERIFICATION_VERSION" value="0.0.0.3" x="88.584990625" y="-56.18988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE_RATING" value="250V" x="88.584990625" y="-56.18988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="J10" library="Sullins - PPPC062LFBN-RC" package="SULLINS_PPPC062LFBN-RC_0" value="SULLINS_PPPC062LFBN-RCSULLINS_PPPC062LFBN-RC_0_0" x="76.054990625" y="55.57011875" smashed="yes" rot="MR0">
 <attribute name="AUTOMOTIVE" value="No" x="54.464990625" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2718,39 +2706,39 @@ design rules under a new name.</description>
 <attribute name="VERIFICATION_VERSION" value="0.0.0.3" x="19.655003125" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VOLTAGE_RATING" value="250V" x="19.655003125" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="J12" library="Sullins - PPPC062LFBN-RC" package="SULLINS_PPPC062LFBN-RC_0" value="SULLINS_PPPC062LFBN-RCSULLINS_PPPC062LFBN-RC_0_0" x="41.9949875" y="55.57011875" smashed="yes" rot="MR0">
-<attribute name="AUTOMOTIVE" value="No" x="-15.1550125" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="-15.1550125" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CONN_GENDER" value="Female" x="-15.1550125" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CONN_ORIENTATION" value="Straight" x="-15.1550125" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CONTACT_MATERIAL" value="Gold,Nickel" x="-15.1550125" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CURRENT_RATING" value="3A" x="-15.1550125" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DATASHEET" value="https://drawings-pdf.s3.amazonaws.com/10492.pdf" x="-15.1550125" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DEVICE_CLASS_L1" value="Connectors" x="-15.1550125" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DEVICE_CLASS_L2" value="Headers and Wire Housings" x="-15.1550125" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DEVICE_CLASS_L3" value="unset" x="-15.1550125" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="CONN HDR 12POS 0.1 GOLD PCB" x="-15.1550125" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="S7109-ND" x="-15.1550125" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern" x="-15.1550125" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="HEIGHT" value="8.65mm" x="-15.1550125" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="IS_FEMALE" value="yes" x="-15.1550125" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="LEAD_FREE" value="Yes" x="-15.1550125" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="Sullins" x="-15.1550125" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT" value="0" x="-15.1550125" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="-15.1550125" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="-15.1550125" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="PPPC062LFBN-RC" x="-15.1550125" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="49.9399875" y="58.51011875" size="1" layer="26" rot="MR0"/>
-<attribute name="NUMBER_OF_CONTACTS" value="12" x="-15.1550125" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NUMBER_OF_ROWS" value="2" x="-15.1550125" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PACKAGE" value="CONN_12" x="-15.1550125" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PITCH" value="2.54mm" x="-15.1550125" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PREFIX" value="J" x="-15.1550125" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="ROHS" value="Yes" x="-15.1550125" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+105°C" x="-15.1550125" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-40°C" x="-15.1550125" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VERIFICATION_VERSION" value="0.0.0.3" x="-15.1550125" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VOLTAGE_RATING" value="250V" x="-15.1550125" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="J12" library="Sullins - PPPC062LFBN-RC" package="SULLINS_PPPC062LFBN-RC_0" value="SULLINS_PPPC062LFBN-RCSULLINS_PPPC062LFBN-RC_0_0" x="41.9949875" y="55.57011875" locked="yes" smashed="yes" rot="MR0">
+<attribute name="AUTOMOTIVE" value="No" x="-15.1550125" y="-93.01988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="-15.1550125" y="-93.01988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CONN_GENDER" value="Female" x="-15.1550125" y="-93.01988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CONN_ORIENTATION" value="Straight" x="-15.1550125" y="-93.01988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CONTACT_MATERIAL" value="Gold,Nickel" x="-15.1550125" y="-93.01988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CURRENT_RATING" value="3A" x="-15.1550125" y="-93.01988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DATASHEET" value="https://drawings-pdf.s3.amazonaws.com/10492.pdf" x="-15.1550125" y="-93.01988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DEVICE_CLASS_L1" value="Connectors" x="-15.1550125" y="-93.01988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DEVICE_CLASS_L2" value="Headers and Wire Housings" x="-15.1550125" y="-93.01988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DEVICE_CLASS_L3" value="unset" x="-15.1550125" y="-93.01988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DIGIKEY_DESCRIPTION" value="CONN HDR 12POS 0.1 GOLD PCB" x="-15.1550125" y="-93.01988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="S7109-ND" x="-15.1550125" y="-93.01988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern" x="-15.1550125" y="-93.01988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="8.65mm" x="-15.1550125" y="-93.01988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="IS_FEMALE" value="yes" x="-15.1550125" y="-93.01988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="LEAD_FREE" value="Yes" x="-15.1550125" y="-93.01988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Sullins" x="-15.1550125" y="-93.01988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT" value="0" x="-15.1550125" y="-93.01988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="-15.1550125" y="-93.01988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="-15.1550125" y="-93.01988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="PPPC062LFBN-RC" x="-15.1550125" y="-93.01988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="49.9399875" y="58.51011875" locked="yes" size="1" layer="26" rot="MR0"/>
+<attribute name="NUMBER_OF_CONTACTS" value="12" x="-15.1550125" y="-93.01988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NUMBER_OF_ROWS" value="2" x="-15.1550125" y="-93.01988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PACKAGE" value="CONN_12" x="-15.1550125" y="-93.01988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PITCH" value="2.54mm" x="-15.1550125" y="-93.01988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PREFIX" value="J" x="-15.1550125" y="-93.01988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="ROHS" value="Yes" x="-15.1550125" y="-93.01988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMPERATURE_RANGE_HIGH" value="+105°C" x="-15.1550125" y="-93.01988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMPERATURE_RANGE_LOW" value="-40°C" x="-15.1550125" y="-93.01988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VERIFICATION_VERSION" value="0.0.0.3" x="-15.1550125" y="-93.01988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE_RATING" value="250V" x="-15.1550125" y="-93.01988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="J13" library="Sullins - PPPC062LFBN-RC" package="SULLINS_PPPC062LFBN-RC_0" value="SULLINS_PPPC062LFBN-RCSULLINS_PPPC062LFBN-RC_0_0" x="24.965" y="55.57011875" smashed="yes" rot="MR0">
 <attribute name="AUTOMOTIVE" value="No" x="-49.965" y="-93.01988125" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2831,175 +2819,175 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Amphenol-ICC-Aorora/F32R-1A7H1-11040?qs=xZ%2FP%252Ba9zWqZi2ltQqa0C7A%3D%3D" x="-57.15" y="115.57" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="11.43" y="-3.14" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
-<element name="J4" library="Sullins - PPPC062LFBN-RC" package="SULLINS_PPPC062LFBN-RC_0" value="SULLINS_PPPC062LFBN-RCSULLINS_PPPC062LFBN-RC_0_0" x="178.235" y="55.57011875" smashed="yes" rot="MR0">
-<attribute name="AUTOMOTIVE" value="No" x="156.645" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="156.645" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CONN_GENDER" value="Female" x="156.645" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CONN_ORIENTATION" value="Straight" x="156.645" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CONTACT_MATERIAL" value="Gold,Nickel" x="156.645" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CURRENT_RATING" value="3A" x="156.645" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DATASHEET" value="https://drawings-pdf.s3.amazonaws.com/10492.pdf" x="156.645" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DEVICE_CLASS_L1" value="Connectors" x="156.645" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DEVICE_CLASS_L2" value="Headers and Wire Housings" x="156.645" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DEVICE_CLASS_L3" value="unset" x="156.645" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="CONN HDR 12POS 0.1 GOLD PCB" x="156.645" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="S7109-ND" x="156.645" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern" x="156.645" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="HEIGHT" value="8.65mm" x="156.645" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="IS_FEMALE" value="yes" x="156.645" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="LEAD_FREE" value="Yes" x="156.645" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="Sullins" x="156.645" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT" value="0" x="156.645" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="156.645" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="156.645" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="PPPC062LFBN-RC" x="156.645" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="186.18" y="58.51011875" size="1" layer="26" rot="MR0"/>
-<attribute name="NUMBER_OF_CONTACTS" value="12" x="156.645" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NUMBER_OF_ROWS" value="2" x="156.645" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PACKAGE" value="CONN_12" x="156.645" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PITCH" value="2.54mm" x="156.645" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PREFIX" value="J" x="156.645" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="ROHS" value="Yes" x="156.645" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+105°C" x="156.645" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-40°C" x="156.645" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VERIFICATION_VERSION" value="0.0.0.3" x="156.645" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VOLTAGE_RATING" value="250V" x="156.645" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="J4" library="Sullins - PPPC062LFBN-RC" package="SULLINS_PPPC062LFBN-RC_0" value="SULLINS_PPPC062LFBN-RCSULLINS_PPPC062LFBN-RC_0_0" x="178.235" y="55.57011875" locked="yes" smashed="yes" rot="MR0">
+<attribute name="AUTOMOTIVE" value="No" x="156.645" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="156.645" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CONN_GENDER" value="Female" x="156.645" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CONN_ORIENTATION" value="Straight" x="156.645" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CONTACT_MATERIAL" value="Gold,Nickel" x="156.645" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CURRENT_RATING" value="3A" x="156.645" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DATASHEET" value="https://drawings-pdf.s3.amazonaws.com/10492.pdf" x="156.645" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DEVICE_CLASS_L1" value="Connectors" x="156.645" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DEVICE_CLASS_L2" value="Headers and Wire Housings" x="156.645" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DEVICE_CLASS_L3" value="unset" x="156.645" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DIGIKEY_DESCRIPTION" value="CONN HDR 12POS 0.1 GOLD PCB" x="156.645" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="S7109-ND" x="156.645" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern" x="156.645" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="8.65mm" x="156.645" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="IS_FEMALE" value="yes" x="156.645" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="LEAD_FREE" value="Yes" x="156.645" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Sullins" x="156.645" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT" value="0" x="156.645" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="156.645" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="156.645" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="PPPC062LFBN-RC" x="156.645" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="186.18" y="58.51011875" locked="yes" size="1" layer="26" rot="MR0"/>
+<attribute name="NUMBER_OF_CONTACTS" value="12" x="156.645" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NUMBER_OF_ROWS" value="2" x="156.645" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PACKAGE" value="CONN_12" x="156.645" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PITCH" value="2.54mm" x="156.645" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PREFIX" value="J" x="156.645" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="ROHS" value="Yes" x="156.645" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMPERATURE_RANGE_HIGH" value="+105°C" x="156.645" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMPERATURE_RANGE_LOW" value="-40°C" x="156.645" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VERIFICATION_VERSION" value="0.0.0.3" x="156.645" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE_RATING" value="250V" x="156.645" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="J5" library="Sullins - PPPC062LFBN-RC" package="SULLINS_PPPC062LFBN-RC_0" value="SULLINS_PPPC062LFBN-RCSULLINS_PPPC062LFBN-RC_0_0" x="161.2050125" y="55.57011875" smashed="yes" rot="MR0">
-<attribute name="AUTOMOTIVE" value="No" x="121.8350125" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="121.8350125" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CONN_GENDER" value="Female" x="121.8350125" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CONN_ORIENTATION" value="Straight" x="121.8350125" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CONTACT_MATERIAL" value="Gold,Nickel" x="121.8350125" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CURRENT_RATING" value="3A" x="121.8350125" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DATASHEET" value="https://drawings-pdf.s3.amazonaws.com/10492.pdf" x="121.8350125" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DEVICE_CLASS_L1" value="Connectors" x="121.8350125" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DEVICE_CLASS_L2" value="Headers and Wire Housings" x="121.8350125" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DEVICE_CLASS_L3" value="unset" x="121.8350125" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="CONN HDR 12POS 0.1 GOLD PCB" x="121.8350125" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="S7109-ND" x="121.8350125" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern" x="121.8350125" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="HEIGHT" value="8.65mm" x="121.8350125" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="IS_FEMALE" value="yes" x="121.8350125" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="LEAD_FREE" value="Yes" x="121.8350125" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="Sullins" x="121.8350125" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT" value="0" x="121.8350125" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="121.8350125" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="121.8350125" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="PPPC062LFBN-RC" x="121.8350125" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="169.1500125" y="58.51011875" size="1" layer="26" rot="MR0"/>
-<attribute name="NUMBER_OF_CONTACTS" value="12" x="121.8350125" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NUMBER_OF_ROWS" value="2" x="121.8350125" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PACKAGE" value="CONN_12" x="121.8350125" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PITCH" value="2.54mm" x="121.8350125" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PREFIX" value="J" x="121.8350125" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="ROHS" value="Yes" x="121.8350125" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+105°C" x="121.8350125" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-40°C" x="121.8350125" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VERIFICATION_VERSION" value="0.0.0.3" x="121.8350125" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VOLTAGE_RATING" value="250V" x="121.8350125" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="J5" library="Sullins - PPPC062LFBN-RC" package="SULLINS_PPPC062LFBN-RC_0" value="SULLINS_PPPC062LFBN-RCSULLINS_PPPC062LFBN-RC_0_0" x="161.2050125" y="55.57011875" locked="yes" smashed="yes" rot="MR0">
+<attribute name="AUTOMOTIVE" value="No" x="121.8350125" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="121.8350125" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CONN_GENDER" value="Female" x="121.8350125" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CONN_ORIENTATION" value="Straight" x="121.8350125" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CONTACT_MATERIAL" value="Gold,Nickel" x="121.8350125" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CURRENT_RATING" value="3A" x="121.8350125" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DATASHEET" value="https://drawings-pdf.s3.amazonaws.com/10492.pdf" x="121.8350125" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DEVICE_CLASS_L1" value="Connectors" x="121.8350125" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DEVICE_CLASS_L2" value="Headers and Wire Housings" x="121.8350125" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DEVICE_CLASS_L3" value="unset" x="121.8350125" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DIGIKEY_DESCRIPTION" value="CONN HDR 12POS 0.1 GOLD PCB" x="121.8350125" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="S7109-ND" x="121.8350125" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern" x="121.8350125" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="8.65mm" x="121.8350125" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="IS_FEMALE" value="yes" x="121.8350125" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="LEAD_FREE" value="Yes" x="121.8350125" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Sullins" x="121.8350125" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT" value="0" x="121.8350125" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="121.8350125" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="121.8350125" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="PPPC062LFBN-RC" x="121.8350125" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="169.1500125" y="58.51011875" locked="yes" size="1" layer="26" rot="MR0"/>
+<attribute name="NUMBER_OF_CONTACTS" value="12" x="121.8350125" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NUMBER_OF_ROWS" value="2" x="121.8350125" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PACKAGE" value="CONN_12" x="121.8350125" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PITCH" value="2.54mm" x="121.8350125" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PREFIX" value="J" x="121.8350125" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="ROHS" value="Yes" x="121.8350125" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMPERATURE_RANGE_HIGH" value="+105°C" x="121.8350125" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMPERATURE_RANGE_LOW" value="-40°C" x="121.8350125" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VERIFICATION_VERSION" value="0.0.0.3" x="121.8350125" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE_RATING" value="250V" x="121.8350125" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="J6" library="Sullins - PPPC062LFBN-RC" package="SULLINS_PPPC062LFBN-RC_0" value="SULLINS_PPPC062LFBN-RCSULLINS_PPPC062LFBN-RC_0_0" x="144.174996875" y="55.57011875" smashed="yes" rot="MR0">
-<attribute name="AUTOMOTIVE" value="No" x="87.024996875" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="87.024996875" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CONN_GENDER" value="Female" x="87.024996875" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CONN_ORIENTATION" value="Straight" x="87.024996875" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CONTACT_MATERIAL" value="Gold,Nickel" x="87.024996875" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CURRENT_RATING" value="3A" x="87.024996875" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DATASHEET" value="https://drawings-pdf.s3.amazonaws.com/10492.pdf" x="87.024996875" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DEVICE_CLASS_L1" value="Connectors" x="87.024996875" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DEVICE_CLASS_L2" value="Headers and Wire Housings" x="87.024996875" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DEVICE_CLASS_L3" value="unset" x="87.024996875" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="CONN HDR 12POS 0.1 GOLD PCB" x="87.024996875" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="S7109-ND" x="87.024996875" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern" x="87.024996875" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="HEIGHT" value="8.65mm" x="87.024996875" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="IS_FEMALE" value="yes" x="87.024996875" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="LEAD_FREE" value="Yes" x="87.024996875" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="Sullins" x="87.024996875" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT" value="0" x="87.024996875" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="87.024996875" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="87.024996875" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="PPPC062LFBN-RC" x="87.024996875" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="152.119996875" y="58.51011875" size="1" layer="26" rot="MR0"/>
-<attribute name="NUMBER_OF_CONTACTS" value="12" x="87.024996875" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NUMBER_OF_ROWS" value="2" x="87.024996875" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PACKAGE" value="CONN_12" x="87.024996875" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PITCH" value="2.54mm" x="87.024996875" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PREFIX" value="J" x="87.024996875" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="ROHS" value="Yes" x="87.024996875" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+105°C" x="87.024996875" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-40°C" x="87.024996875" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VERIFICATION_VERSION" value="0.0.0.3" x="87.024996875" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VOLTAGE_RATING" value="250V" x="87.024996875" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="J6" library="Sullins - PPPC062LFBN-RC" package="SULLINS_PPPC062LFBN-RC_0" value="SULLINS_PPPC062LFBN-RCSULLINS_PPPC062LFBN-RC_0_0" x="144.174996875" y="55.57011875" locked="yes" smashed="yes" rot="MR0">
+<attribute name="AUTOMOTIVE" value="No" x="87.024996875" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="87.024996875" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CONN_GENDER" value="Female" x="87.024996875" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CONN_ORIENTATION" value="Straight" x="87.024996875" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CONTACT_MATERIAL" value="Gold,Nickel" x="87.024996875" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CURRENT_RATING" value="3A" x="87.024996875" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DATASHEET" value="https://drawings-pdf.s3.amazonaws.com/10492.pdf" x="87.024996875" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DEVICE_CLASS_L1" value="Connectors" x="87.024996875" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DEVICE_CLASS_L2" value="Headers and Wire Housings" x="87.024996875" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DEVICE_CLASS_L3" value="unset" x="87.024996875" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DIGIKEY_DESCRIPTION" value="CONN HDR 12POS 0.1 GOLD PCB" x="87.024996875" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="S7109-ND" x="87.024996875" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern" x="87.024996875" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="8.65mm" x="87.024996875" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="IS_FEMALE" value="yes" x="87.024996875" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="LEAD_FREE" value="Yes" x="87.024996875" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Sullins" x="87.024996875" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT" value="0" x="87.024996875" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="87.024996875" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="87.024996875" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="PPPC062LFBN-RC" x="87.024996875" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="152.119996875" y="58.51011875" locked="yes" size="1" layer="26" rot="MR0"/>
+<attribute name="NUMBER_OF_CONTACTS" value="12" x="87.024996875" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NUMBER_OF_ROWS" value="2" x="87.024996875" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PACKAGE" value="CONN_12" x="87.024996875" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PITCH" value="2.54mm" x="87.024996875" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PREFIX" value="J" x="87.024996875" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="ROHS" value="Yes" x="87.024996875" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMPERATURE_RANGE_HIGH" value="+105°C" x="87.024996875" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMPERATURE_RANGE_LOW" value="-40°C" x="87.024996875" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VERIFICATION_VERSION" value="0.0.0.3" x="87.024996875" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE_RATING" value="250V" x="87.024996875" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="J7" library="Sullins - PPPC062LFBN-RC" package="SULLINS_PPPC062LFBN-RC_0" value="SULLINS_PPPC062LFBN-RCSULLINS_PPPC062LFBN-RC_0_0" x="127.145009375" y="55.57011875" smashed="yes" rot="MR0">
-<attribute name="AUTOMOTIVE" value="No" x="52.215009375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="52.215009375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CONN_GENDER" value="Female" x="52.215009375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CONN_ORIENTATION" value="Straight" x="52.215009375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CONTACT_MATERIAL" value="Gold,Nickel" x="52.215009375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CURRENT_RATING" value="3A" x="52.215009375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DATASHEET" value="https://drawings-pdf.s3.amazonaws.com/10492.pdf" x="52.215009375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DEVICE_CLASS_L1" value="Connectors" x="52.215009375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DEVICE_CLASS_L2" value="Headers and Wire Housings" x="52.215009375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DEVICE_CLASS_L3" value="unset" x="52.215009375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="CONN HDR 12POS 0.1 GOLD PCB" x="52.215009375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="S7109-ND" x="52.215009375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern" x="52.215009375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="HEIGHT" value="8.65mm" x="52.215009375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="IS_FEMALE" value="yes" x="52.215009375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="LEAD_FREE" value="Yes" x="52.215009375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="Sullins" x="52.215009375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT" value="0" x="52.215009375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="52.215009375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="52.215009375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="PPPC062LFBN-RC" x="52.215009375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="135.090009375" y="58.51011875" size="1" layer="26" rot="MR0"/>
-<attribute name="NUMBER_OF_CONTACTS" value="12" x="52.215009375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NUMBER_OF_ROWS" value="2" x="52.215009375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PACKAGE" value="CONN_12" x="52.215009375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PITCH" value="2.54mm" x="52.215009375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PREFIX" value="J" x="52.215009375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="ROHS" value="Yes" x="52.215009375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+105°C" x="52.215009375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-40°C" x="52.215009375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VERIFICATION_VERSION" value="0.0.0.3" x="52.215009375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VOLTAGE_RATING" value="250V" x="52.215009375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="J7" library="Sullins - PPPC062LFBN-RC" package="SULLINS_PPPC062LFBN-RC_0" value="SULLINS_PPPC062LFBN-RCSULLINS_PPPC062LFBN-RC_0_0" x="127.145009375" y="55.57011875" locked="yes" smashed="yes" rot="MR0">
+<attribute name="AUTOMOTIVE" value="No" x="52.215009375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="52.215009375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CONN_GENDER" value="Female" x="52.215009375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CONN_ORIENTATION" value="Straight" x="52.215009375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CONTACT_MATERIAL" value="Gold,Nickel" x="52.215009375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CURRENT_RATING" value="3A" x="52.215009375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DATASHEET" value="https://drawings-pdf.s3.amazonaws.com/10492.pdf" x="52.215009375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DEVICE_CLASS_L1" value="Connectors" x="52.215009375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DEVICE_CLASS_L2" value="Headers and Wire Housings" x="52.215009375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DEVICE_CLASS_L3" value="unset" x="52.215009375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DIGIKEY_DESCRIPTION" value="CONN HDR 12POS 0.1 GOLD PCB" x="52.215009375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="S7109-ND" x="52.215009375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern" x="52.215009375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="8.65mm" x="52.215009375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="IS_FEMALE" value="yes" x="52.215009375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="LEAD_FREE" value="Yes" x="52.215009375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Sullins" x="52.215009375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT" value="0" x="52.215009375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="52.215009375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="52.215009375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="PPPC062LFBN-RC" x="52.215009375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="135.090009375" y="58.51011875" locked="yes" size="1" layer="26" rot="MR0"/>
+<attribute name="NUMBER_OF_CONTACTS" value="12" x="52.215009375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NUMBER_OF_ROWS" value="2" x="52.215009375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PACKAGE" value="CONN_12" x="52.215009375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PITCH" value="2.54mm" x="52.215009375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PREFIX" value="J" x="52.215009375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="ROHS" value="Yes" x="52.215009375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMPERATURE_RANGE_HIGH" value="+105°C" x="52.215009375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMPERATURE_RANGE_LOW" value="-40°C" x="52.215009375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VERIFICATION_VERSION" value="0.0.0.3" x="52.215009375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE_RATING" value="250V" x="52.215009375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="J8" library="Sullins - PPPC062LFBN-RC" package="SULLINS_PPPC062LFBN-RC_0" value="SULLINS_PPPC062LFBN-RCSULLINS_PPPC062LFBN-RC_0_0" x="110.11499375" y="55.57011875" smashed="yes" rot="MR0">
-<attribute name="AUTOMOTIVE" value="No" x="17.40499375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="17.40499375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CONN_GENDER" value="Female" x="17.40499375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CONN_ORIENTATION" value="Straight" x="17.40499375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CONTACT_MATERIAL" value="Gold,Nickel" x="17.40499375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CURRENT_RATING" value="3A" x="17.40499375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DATASHEET" value="https://drawings-pdf.s3.amazonaws.com/10492.pdf" x="17.40499375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DEVICE_CLASS_L1" value="Connectors" x="17.40499375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DEVICE_CLASS_L2" value="Headers and Wire Housings" x="17.40499375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DEVICE_CLASS_L3" value="unset" x="17.40499375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="CONN HDR 12POS 0.1 GOLD PCB" x="17.40499375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="S7109-ND" x="17.40499375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern" x="17.40499375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="HEIGHT" value="8.65mm" x="17.40499375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="IS_FEMALE" value="yes" x="17.40499375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="LEAD_FREE" value="Yes" x="17.40499375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="Sullins" x="17.40499375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT" value="0" x="17.40499375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="17.40499375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="17.40499375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="PPPC062LFBN-RC" x="17.40499375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="118.05999375" y="58.51011875" size="1" layer="26" rot="MR0"/>
-<attribute name="NUMBER_OF_CONTACTS" value="12" x="17.40499375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NUMBER_OF_ROWS" value="2" x="17.40499375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PACKAGE" value="CONN_12" x="17.40499375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PITCH" value="2.54mm" x="17.40499375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PREFIX" value="J" x="17.40499375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="ROHS" value="Yes" x="17.40499375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+105°C" x="17.40499375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-40°C" x="17.40499375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VERIFICATION_VERSION" value="0.0.0.3" x="17.40499375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VOLTAGE_RATING" value="250V" x="17.40499375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="J8" library="Sullins - PPPC062LFBN-RC" package="SULLINS_PPPC062LFBN-RC_0" value="SULLINS_PPPC062LFBN-RCSULLINS_PPPC062LFBN-RC_0_0" x="110.11499375" y="55.57011875" locked="yes" smashed="yes" rot="MR0">
+<attribute name="AUTOMOTIVE" value="No" x="17.40499375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="17.40499375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CONN_GENDER" value="Female" x="17.40499375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CONN_ORIENTATION" value="Straight" x="17.40499375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CONTACT_MATERIAL" value="Gold,Nickel" x="17.40499375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CURRENT_RATING" value="3A" x="17.40499375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DATASHEET" value="https://drawings-pdf.s3.amazonaws.com/10492.pdf" x="17.40499375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DEVICE_CLASS_L1" value="Connectors" x="17.40499375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DEVICE_CLASS_L2" value="Headers and Wire Housings" x="17.40499375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DEVICE_CLASS_L3" value="unset" x="17.40499375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DIGIKEY_DESCRIPTION" value="CONN HDR 12POS 0.1 GOLD PCB" x="17.40499375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="S7109-ND" x="17.40499375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern" x="17.40499375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="8.65mm" x="17.40499375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="IS_FEMALE" value="yes" x="17.40499375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="LEAD_FREE" value="Yes" x="17.40499375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Sullins" x="17.40499375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT" value="0" x="17.40499375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="17.40499375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="17.40499375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="PPPC062LFBN-RC" x="17.40499375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="118.05999375" y="58.51011875" locked="yes" size="1" layer="26" rot="MR0"/>
+<attribute name="NUMBER_OF_CONTACTS" value="12" x="17.40499375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NUMBER_OF_ROWS" value="2" x="17.40499375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PACKAGE" value="CONN_12" x="17.40499375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PITCH" value="2.54mm" x="17.40499375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PREFIX" value="J" x="17.40499375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="ROHS" value="Yes" x="17.40499375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMPERATURE_RANGE_HIGH" value="+105°C" x="17.40499375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMPERATURE_RANGE_LOW" value="-40°C" x="17.40499375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VERIFICATION_VERSION" value="0.0.0.3" x="17.40499375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE_RATING" value="250V" x="17.40499375" y="-85.39988125" locked="yes" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="J9" library="Sullins - PPPC062LFBN-RC" package="SULLINS_PPPC062LFBN-RC_0" value="SULLINS_PPPC062LFBN-RCSULLINS_PPPC062LFBN-RC_0_0" x="93.08500625" y="55.57011875" smashed="yes" rot="MR0">
 <attribute name="AUTOMOTIVE" value="No" x="-17.40499375" y="-85.39988125" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3282,6 +3270,16 @@ design rules under a new name.</description>
 <wire x1="113.92499375" y1="56.84011875" x2="110.49" y2="66.04" width="0" layer="19" extent="1-1"/>
 <wire x1="182.045" y1="56.84011875" x2="179.07" y2="66.294" width="0" layer="19" extent="1-1"/>
 <wire x1="99.43500625" y1="56.84011875" x2="107.95" y2="66.04" width="0" layer="19" extent="1-1"/>
+<wire x1="96.89500625" y1="56.84011875" x2="99.43500625" y2="56.84011875" width="0" layer="19" extent="1-1"/>
+<wire x1="128.671" y1="43.754" x2="130.955009375" y2="56.84011875" width="0" layer="19" extent="1-1"/>
+<wire x1="128.671" y1="39.944" x2="128.671" y2="43.754" width="0" layer="19" extent="1-1"/>
+<wire x1="128.671" y1="36.134" x2="128.671" y2="39.944" width="0" layer="19" extent="1-1"/>
+<wire x1="82.404990625" y1="56.84011875" x2="96.89500625" y2="56.84011875" width="0" layer="19" extent="1-1"/>
+<wire x1="79.864990625" y1="56.84011875" x2="82.404990625" y2="56.84011875" width="0" layer="19" extent="1-1"/>
+<wire x1="81.28" y1="66.04" x2="82.404990625" y2="56.84011875" width="0" layer="19" extent="1-1"/>
+<wire x1="81.28" y1="68.58" x2="81.28" y2="66.04" width="0" layer="19" extent="1-1"/>
+<wire x1="83.82" y1="68.58" x2="81.28" y2="68.58" width="0" layer="19" extent="1-1"/>
+<wire x1="83.82" y1="66.04" x2="81.28" y2="66.04" width="0" layer="19" extent="1-1"/>
 <wire x1="65.375003125" y1="56.84011875" x2="79.864990625" y2="56.84011875" width="0" layer="19" extent="1-1"/>
 <wire x1="60.325" y1="65.571" x2="62.835003125" y2="56.84011875" width="0" layer="19" extent="1-1"/>
 <wire x1="57.785" y1="65.571" x2="60.325" y2="65.571" width="0" layer="19" extent="1-1"/>
@@ -3290,6 +3288,11 @@ design rules under a new name.</description>
 <wire x1="48.3449875" y1="56.84011875" x2="57.785" y2="65.571" width="0" layer="19" extent="1-1"/>
 <wire x1="31.315" y1="56.84011875" x2="45.8049875" y2="56.84011875" width="0" layer="19" extent="1-1"/>
 <wire x1="14.285" y1="56.84011875" x2="28.775" y2="56.84011875" width="0" layer="19" extent="1-1"/>
+<wire x1="11.745" y1="56.84011875" x2="14.285" y2="56.84011875" width="0" layer="19" extent="1-1"/>
+<wire x1="60.071" y1="96.393" x2="59.055" y2="74.608" width="0" layer="19" extent="1-1"/>
+<wire x1="103.886" y1="93.853" x2="107.95" y2="68.58" width="0" layer="19" extent="1-1"/>
+<wire x1="97.8916" y1="93.853" x2="103.886" y2="93.853" width="0" layer="19" extent="1-1"/>
+<wire x1="201.93" y1="19.05" x2="201.614990625" y2="56.84011875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3V3_LED">
 <contactref element="U$3" pad="11"/>
