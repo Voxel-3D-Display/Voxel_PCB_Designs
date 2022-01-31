@@ -93,12 +93,6 @@
 <wire x1="3.3274" y1="-1.0668" x2="3.3274" y2="3.0988" width="0.1524" layer="21"/>
 <wire x1="3.3274" y1="3.0988" x2="-6.3246" y2="3.0988" width="0.1524" layer="21"/>
 <text x="-3.2258" y="8.255" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<polygon width="0.0254" layer="41">
-<vertex x="3.705990625" y="3.354"/>
-<vertex x="3.705990625" y="-2.724"/>
-<vertex x="-6.7059875" y="-2.724"/>
-<vertex x="-6.7059875" y="3.354"/>
-</polygon>
 <text x="-4.7752" y="8.255" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
 </package>
 <package name="CON_430450412_MOL">
@@ -125,12 +119,6 @@
 <wire x1="3.5814" y1="4.5466" x2="3.5814" y2="6.2992" width="0.1524" layer="21"/>
 <wire x1="-6.5786" y1="3.3528" x2="-6.5786" y2="-2.4638" width="0.1524" layer="21"/>
 <text x="-3.2258" y="10.795" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<polygon width="0.1524" layer="41">
-<vertex x="3.828990625" y="6.554"/>
-<vertex x="3.828990625" y="-2.724"/>
-<vertex x="-6.8289875" y="-2.724"/>
-<vertex x="-6.8289875" y="6.554"/>
-</polygon>
 <text x="-4.7752" y="10.795" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
 </package>
 <package name="CON_430450612_MOL">
@@ -159,12 +147,6 @@
 <wire x1="3.5814" y1="4.5466" x2="3.5814" y2="6.2992" width="0.1524" layer="21"/>
 <wire x1="-9.5758" y1="3.3528" x2="-9.5758" y2="-2.4638" width="0.1524" layer="21"/>
 <text x="-4.7244" y="10.795" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<polygon width="0.1524" layer="41">
-<vertex x="3.8289875" y="6.554"/>
-<vertex x="3.8289875" y="-2.724"/>
-<vertex x="-9.8289875" y="-2.724"/>
-<vertex x="-9.8289875" y="6.554"/>
-</polygon>
 <text x="-6.2738" y="10.795" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
 </package>
 </packages>
