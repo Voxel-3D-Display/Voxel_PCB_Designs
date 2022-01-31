@@ -5671,72 +5671,6 @@ Source: &lt;a href="https://www.arrow.com/en/products/sml-lx0606igc-tr/lumex"&gt
 <nets>
 <net name="3V3" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="VCC"/>
-<wire x1="-573.56" y1="50.64" x2="-543.4" y2="50.64" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
-<label x="-551.02" y="50.64" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="VCC"/>
-<wire x1="-459.9" y1="50.64" x2="-429.74" y2="50.64" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
-<label x="-437.36" y="50.64" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="VCC"/>
-<wire x1="-343.7" y1="50.64" x2="-313.54" y2="50.64" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
-<label x="-321.16" y="50.64" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="G$1" pin="VCC"/>
-<wire x1="-230.04" y1="50.64" x2="-199.88" y2="50.64" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
-<label x="-207.5" y="50.64" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="G$1" pin="VCC"/>
-<wire x1="-573.56" y1="-50.96" x2="-543.4" y2="-50.96" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
-<label x="-551.02" y="-50.96" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="VCC"/>
-<wire x1="-459.9" y1="-50.96" x2="-429.74" y2="-50.96" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
-<label x="-437.36" y="-50.96" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
-</segment>
-<segment>
-<pinref part="IC7" gate="G$1" pin="VCC"/>
-<wire x1="-343.7" y1="-50.96" x2="-313.54" y2="-50.96" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
-<label x="-321.16" y="-50.96" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
-</segment>
-<segment>
-<pinref part="IC8" gate="G$1" pin="VCC"/>
-<wire x1="-230.04" y1="-50.96" x2="-199.88" y2="-50.96" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
-<label x="-207.5" y="-50.96" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
-</segment>
-<segment>
-<pinref part="C1" gate="G$1" pin="1"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="-756.92" y1="-22.86" x2="-746.76" y2="-22.86" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="-746.76" y1="-22.86" x2="-736.6" y2="-22.86" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-746.76" y="-22.86" grouprefs="DECOUPLING"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="-736.6" y1="-22.86" x2="-726.44" y2="-22.86" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-736.6" y="-22.86" grouprefs="DECOUPLING"/>
-<pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="-726.44" y1="-22.86" x2="-716.28" y2="-22.86" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-726.44" y="-22.86" grouprefs="DECOUPLING"/>
-<pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="-716.28" y1="-22.86" x2="-706.12" y2="-22.86" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-716.28" y="-22.86" grouprefs="DECOUPLING"/>
-<pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="-706.12" y1="-22.86" x2="-695.96" y2="-22.86" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-706.12" y="-22.86" grouprefs="DECOUPLING"/>
-<pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="-695.96" y1="-22.86" x2="-685.8" y2="-22.86" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-695.96" y="-22.86" grouprefs="DECOUPLING"/>
-<wire x1="-756.92" y1="-22.86" x2="-764.54" y2="-22.86" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-756.92" y="-22.86" grouprefs="DECOUPLING"/>
-<label x="-764.54" y="-22.86" size="1.778" layer="95" grouprefs="DECOUPLING"/>
-</segment>
-<segment>
 <pinref part="LED1" gate="G$1" pin="COM"/>
 <wire x1="-625.78" y1="-190.5" x2="-630.86" y2="-190.5" width="0.1524" layer="91" grouprefs="LEDS1"/>
 <label x="-630.86" y="-193.04" size="1.778" layer="95" grouprefs="LEDS1"/>
@@ -6346,32 +6280,6 @@ Source: &lt;a href="https://www.arrow.com/en/products/sml-lx0606igc-tr/lumex"&gt
 <wire x1="-708.66" y1="12.7" x2="-698.5" y2="12.7" width="0.1524" layer="91"/>
 <label x="-698.5" y="12.7" size="1.778" layer="95" rot="MR0"/>
 </segment>
-<segment>
-<pinref part="C1B" gate="G$1" pin="1"/>
-<pinref part="C2B" gate="G$1" pin="1"/>
-<wire x1="-756.92" y1="-35.56" x2="-746.76" y2="-35.56" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<pinref part="C3B" gate="G$1" pin="1"/>
-<wire x1="-746.76" y1="-35.56" x2="-736.6" y2="-35.56" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-746.76" y="-35.56" grouprefs="DECOUPLING"/>
-<pinref part="C4B" gate="G$1" pin="1"/>
-<wire x1="-736.6" y1="-35.56" x2="-726.44" y2="-35.56" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-736.6" y="-35.56" grouprefs="DECOUPLING"/>
-<pinref part="C5B" gate="G$1" pin="1"/>
-<wire x1="-726.44" y1="-35.56" x2="-716.28" y2="-35.56" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-726.44" y="-35.56" grouprefs="DECOUPLING"/>
-<pinref part="C6B" gate="G$1" pin="1"/>
-<wire x1="-716.28" y1="-35.56" x2="-706.12" y2="-35.56" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-716.28" y="-35.56" grouprefs="DECOUPLING"/>
-<pinref part="C7B" gate="G$1" pin="1"/>
-<wire x1="-706.12" y1="-35.56" x2="-695.96" y2="-35.56" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-706.12" y="-35.56" grouprefs="DECOUPLING"/>
-<pinref part="C8B" gate="G$1" pin="1"/>
-<wire x1="-695.96" y1="-35.56" x2="-685.8" y2="-35.56" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-695.96" y="-35.56" grouprefs="DECOUPLING"/>
-<wire x1="-756.92" y1="-35.56" x2="-764.54" y2="-35.56" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-756.92" y="-35.56" grouprefs="DECOUPLING"/>
-<label x="-764.54" y="-35.56" size="1.778" layer="95" grouprefs="DECOUPLING"/>
-</segment>
 </net>
 <net name="SCLK" class="0">
 <segment>
@@ -6415,9 +6323,9 @@ Source: &lt;a href="https://www.arrow.com/en/products/sml-lx0606igc-tr/lumex"&gt
 <label x="-295.76" y="-48.42" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="1" pin="1"/>
-<wire x1="-723.9" y1="20.32" x2="-734.06" y2="20.32" width="0.1524" layer="91"/>
-<label x="-734.06" y="20.32" size="1.778" layer="95"/>
+<pinref part="SV1" gate="1" pin="7"/>
+<wire x1="-739.14" y1="12.7" x2="-723.9" y2="12.7" width="0.1524" layer="91"/>
+<label x="-739.14" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LAT" class="0">
@@ -6463,8 +6371,8 @@ Source: &lt;a href="https://www.arrow.com/en/products/sml-lx0606igc-tr/lumex"&gt
 </segment>
 <segment>
 <pinref part="SV1" gate="1" pin="5"/>
-<wire x1="-723.9" y1="15.24" x2="-734.06" y2="15.24" width="0.1524" layer="91"/>
-<label x="-734.06" y="15.24" size="1.778" layer="95"/>
+<wire x1="-723.9" y1="15.24" x2="-739.14" y2="15.24" width="0.1524" layer="91"/>
+<label x="-739.14" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$LEDG13" class="0">
@@ -6802,21 +6710,6 @@ Source: &lt;a href="https://www.arrow.com/en/products/sml-lx0606igc-tr/lumex"&gt
 <label x="-764.54" y="-30.48" size="1.778" layer="95" grouprefs="DECOUPLING"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="1" pin="10"/>
-<wire x1="-708.66" y1="10.16" x2="-698.5" y2="10.16" width="0.1524" layer="91"/>
-<label x="-698.5" y="10.16" size="1.778" layer="95" rot="MR0"/>
-</segment>
-<segment>
-<pinref part="SV1" gate="1" pin="12"/>
-<wire x1="-708.66" y1="7.62" x2="-698.5" y2="7.62" width="0.1524" layer="91"/>
-<label x="-698.5" y="7.62" size="1.778" layer="95" rot="MR0"/>
-</segment>
-<segment>
-<pinref part="SV1" gate="1" pin="9"/>
-<wire x1="-723.9" y1="10.16" x2="-734.06" y2="10.16" width="0.1524" layer="91"/>
-<label x="-734.06" y="10.16" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="C1B" gate="G$1" pin="2"/>
 <pinref part="C2B" gate="G$1" pin="2"/>
 <wire x1="-756.92" y1="-43.18" x2="-746.76" y2="-43.18" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
@@ -6841,6 +6734,16 @@ Source: &lt;a href="https://www.arrow.com/en/products/sml-lx0606igc-tr/lumex"&gt
 <wire x1="-756.92" y1="-43.18" x2="-764.54" y2="-43.18" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
 <junction x="-756.92" y="-43.18" grouprefs="DECOUPLING"/>
 <label x="-764.54" y="-43.18" size="1.778" layer="95" grouprefs="DECOUPLING"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="1" pin="2"/>
+<wire x1="-708.66" y1="20.32" x2="-698.5" y2="20.32" width="0.1524" layer="91"/>
+<label x="-698.5" y="20.32" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="1" pin="4"/>
+<wire x1="-708.66" y1="17.78" x2="-698.5" y2="17.78" width="0.1524" layer="91"/>
+<label x="-698.5" y="17.78" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="GSCLK" class="0">
@@ -6885,9 +6788,9 @@ Source: &lt;a href="https://www.arrow.com/en/products/sml-lx0606igc-tr/lumex"&gt
 <label x="-207.5" y="-48.42" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="1" pin="11"/>
-<wire x1="-723.9" y1="7.62" x2="-734.06" y2="7.62" width="0.1524" layer="91"/>
-<label x="-734.06" y="7.62" size="1.778" layer="95"/>
+<pinref part="SV1" gate="1" pin="3"/>
+<wire x1="-723.9" y1="17.78" x2="-739.14" y2="17.78" width="0.1524" layer="91"/>
+<label x="-739.14" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$LEDB16" class="0">
@@ -11275,9 +11178,9 @@ Source: &lt;a href="https://www.arrow.com/en/products/sml-lx0606igc-tr/lumex"&gt
 <label x="-525.62" y="55.72" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="1" pin="2"/>
-<wire x1="-708.66" y1="20.32" x2="-698.5" y2="20.32" width="0.1524" layer="91"/>
-<label x="-698.5" y="20.32" size="1.778" layer="95" rot="MR0"/>
+<pinref part="SV1" gate="1" pin="12"/>
+<wire x1="-708.66" y1="7.62" x2="-698.5" y2="7.62" width="0.1524" layer="91"/>
+<label x="-698.5" y="7.62" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="SIN_3,4" class="0">
@@ -11287,9 +11190,9 @@ Source: &lt;a href="https://www.arrow.com/en/products/sml-lx0606igc-tr/lumex"&gt
 <label x="-295.76" y="55.72" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="1" pin="3"/>
-<wire x1="-723.9" y1="17.78" x2="-734.06" y2="17.78" width="0.1524" layer="91"/>
-<label x="-734.06" y="17.78" size="1.778" layer="95"/>
+<pinref part="SV1" gate="1" pin="11"/>
+<wire x1="-723.9" y1="7.62" x2="-739.14" y2="7.62" width="0.1524" layer="91"/>
+<label x="-739.14" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SIN_5,6" class="0">
@@ -11299,9 +11202,9 @@ Source: &lt;a href="https://www.arrow.com/en/products/sml-lx0606igc-tr/lumex"&gt
 <label x="-525.62" y="-45.88" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="1" pin="4"/>
-<wire x1="-708.66" y1="17.78" x2="-698.5" y2="17.78" width="0.1524" layer="91"/>
-<label x="-698.5" y="17.78" size="1.778" layer="95" rot="MR0"/>
+<pinref part="SV1" gate="1" pin="10"/>
+<wire x1="-708.66" y1="10.16" x2="-698.5" y2="10.16" width="0.1524" layer="91"/>
+<label x="-698.5" y="10.16" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="SIN_7,8" class="0">
@@ -11311,9 +11214,108 @@ Source: &lt;a href="https://www.arrow.com/en/products/sml-lx0606igc-tr/lumex"&gt
 <label x="-295.76" y="-45.88" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="1" pin="7"/>
-<wire x1="-723.9" y1="12.7" x2="-734.06" y2="12.7" width="0.1524" layer="91"/>
-<label x="-734.06" y="12.7" size="1.778" layer="95"/>
+<pinref part="SV1" gate="1" pin="9"/>
+<wire x1="-723.9" y1="10.16" x2="-739.14" y2="10.16" width="0.1524" layer="91"/>
+<label x="-739.14" y="10.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="3V3_LOGIC" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="VCC"/>
+<wire x1="-573.56" y1="50.64" x2="-543.4" y2="50.64" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-551.02" y="50.64" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="VCC"/>
+<wire x1="-459.9" y1="50.64" x2="-429.74" y2="50.64" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-437.36" y="50.64" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="VCC"/>
+<wire x1="-343.7" y1="50.64" x2="-313.54" y2="50.64" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-321.16" y="50.64" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="G$1" pin="VCC"/>
+<wire x1="-230.04" y1="50.64" x2="-199.88" y2="50.64" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-207.5" y="50.64" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC8" gate="G$1" pin="VCC"/>
+<wire x1="-230.04" y1="-50.96" x2="-199.88" y2="-50.96" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-207.5" y="-50.96" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC7" gate="G$1" pin="VCC"/>
+<wire x1="-343.7" y1="-50.96" x2="-313.54" y2="-50.96" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-321.16" y="-50.96" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC6" gate="G$1" pin="VCC"/>
+<wire x1="-459.9" y1="-50.96" x2="-429.74" y2="-50.96" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-437.36" y="-50.96" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="VCC"/>
+<wire x1="-573.56" y1="-50.96" x2="-543.4" y2="-50.96" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-551.02" y="-50.96" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="-756.92" y1="-22.86" x2="-746.76" y2="-22.86" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="-746.76" y1="-22.86" x2="-736.6" y2="-22.86" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-746.76" y="-22.86" grouprefs="DECOUPLING"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="-736.6" y1="-22.86" x2="-726.44" y2="-22.86" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-736.6" y="-22.86" grouprefs="DECOUPLING"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="-726.44" y1="-22.86" x2="-716.28" y2="-22.86" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-726.44" y="-22.86" grouprefs="DECOUPLING"/>
+<pinref part="C6" gate="G$1" pin="1"/>
+<wire x1="-716.28" y1="-22.86" x2="-706.12" y2="-22.86" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-716.28" y="-22.86" grouprefs="DECOUPLING"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="-706.12" y1="-22.86" x2="-695.96" y2="-22.86" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-706.12" y="-22.86" grouprefs="DECOUPLING"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="-695.96" y1="-22.86" x2="-685.8" y2="-22.86" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-695.96" y="-22.86" grouprefs="DECOUPLING"/>
+<wire x1="-756.92" y1="-22.86" x2="-764.54" y2="-22.86" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-756.92" y="-22.86" grouprefs="DECOUPLING"/>
+<label x="-764.54" y="-22.86" size="1.778" layer="95" grouprefs="DECOUPLING"/>
+</segment>
+<segment>
+<pinref part="C1B" gate="G$1" pin="1"/>
+<pinref part="C2B" gate="G$1" pin="1"/>
+<wire x1="-756.92" y1="-35.56" x2="-746.76" y2="-35.56" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<pinref part="C3B" gate="G$1" pin="1"/>
+<wire x1="-746.76" y1="-35.56" x2="-736.6" y2="-35.56" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-746.76" y="-35.56" grouprefs="DECOUPLING"/>
+<pinref part="C4B" gate="G$1" pin="1"/>
+<wire x1="-736.6" y1="-35.56" x2="-726.44" y2="-35.56" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-736.6" y="-35.56" grouprefs="DECOUPLING"/>
+<pinref part="C5B" gate="G$1" pin="1"/>
+<wire x1="-726.44" y1="-35.56" x2="-716.28" y2="-35.56" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-726.44" y="-35.56" grouprefs="DECOUPLING"/>
+<pinref part="C6B" gate="G$1" pin="1"/>
+<wire x1="-716.28" y1="-35.56" x2="-706.12" y2="-35.56" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-716.28" y="-35.56" grouprefs="DECOUPLING"/>
+<pinref part="C7B" gate="G$1" pin="1"/>
+<wire x1="-706.12" y1="-35.56" x2="-695.96" y2="-35.56" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-706.12" y="-35.56" grouprefs="DECOUPLING"/>
+<pinref part="C8B" gate="G$1" pin="1"/>
+<wire x1="-695.96" y1="-35.56" x2="-685.8" y2="-35.56" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-695.96" y="-35.56" grouprefs="DECOUPLING"/>
+<wire x1="-756.92" y1="-35.56" x2="-764.54" y2="-35.56" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-756.92" y="-35.56" grouprefs="DECOUPLING"/>
+<label x="-764.54" y="-35.56" size="1.778" layer="95" grouprefs="DECOUPLING"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="1" pin="1"/>
+<wire x1="-723.9" y1="20.32" x2="-739.14" y2="20.32" width="0.1524" layer="91"/>
+<label x="-739.14" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

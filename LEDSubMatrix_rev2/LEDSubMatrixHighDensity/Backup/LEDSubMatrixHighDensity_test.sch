@@ -73,158 +73,229 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="con-lstb" urn="urn:adsk.eagle:library:162">
-<description>&lt;b&gt;Pin Headers&lt;/b&gt;&lt;p&gt;
-Naming:&lt;p&gt;
-MA = male&lt;p&gt;
-# contacts - # rows&lt;p&gt;
-W = angled&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<library name="TLC5955DCAR">
+<description>&lt;48ch, 16bit PWM LED Driver with Dot-Correction, Brightness Control, Open/Short Detection&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="MA06-2" urn="urn:adsk.eagle:footprint:8289/1" library_version="2">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-6.985" y1="2.54" x2="-5.715" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-5.715" y1="2.54" x2="-5.08" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="1.905" x2="-4.445" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="2.54" x2="-3.175" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="2.54" x2="-2.54" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-6.985" y1="2.54" x2="-7.62" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="1.905" x2="-1.905" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="2.54" x2="-0.635" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="2.54" x2="1.905" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="2.54" x2="2.54" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="1.905" x2="3.175" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="2.54" x2="4.445" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="2.54" x2="5.08" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="1.905" x2="5.715" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="5.715" y1="2.54" x2="6.985" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="6.985" y1="2.54" x2="7.62" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="1.905" x2="7.62" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-1.905" x2="-5.715" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-1.905" x2="-3.175" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="-2.54" x2="-4.445" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="-2.54" x2="-5.08" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="1.905" x2="-7.62" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="-1.905" x2="-6.985" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-5.715" y1="-2.54" x2="-6.985" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="0" y1="-1.905" x2="-0.635" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-2.54" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="1.905" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-1.905" x2="4.445" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="-2.54" x2="3.175" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="-2.54" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="0" y1="-1.905" x2="0.635" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-2.54" x2="0.635" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="-1.905" x2="6.985" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="6.985" y1="-2.54" x2="5.715" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="5.715" y1="-2.54" x2="5.08" y2="-1.905" width="0.1524" layer="21"/>
-<pad name="1" x="-6.35" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="3" x="-3.81" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="5" x="-1.27" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="7" x="1.27" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="9" x="3.81" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="11" x="6.35" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="2" x="-6.35" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="4" x="-3.81" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="6" x="-1.27" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="8" x="1.27" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="10" x="3.81" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="12" x="6.35" y="1.27" drill="1.016" shape="octagon"/>
-<text x="-6.858" y="-4.191" size="1.27" layer="21" ratio="10">1</text>
-<text x="-7.62" y="2.921" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="5.08" y="2.921" size="1.27" layer="21" ratio="10">12</text>
-<text x="-2.54" y="-4.191" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-4.064" y1="-1.524" x2="-3.556" y2="-1.016" layer="51"/>
-<rectangle x1="-6.604" y1="-1.524" x2="-6.096" y2="-1.016" layer="51"/>
-<rectangle x1="-1.524" y1="-1.524" x2="-1.016" y2="-1.016" layer="51"/>
-<rectangle x1="3.556" y1="-1.524" x2="4.064" y2="-1.016" layer="51"/>
-<rectangle x1="1.016" y1="-1.524" x2="1.524" y2="-1.016" layer="51"/>
-<rectangle x1="6.096" y1="-1.524" x2="6.604" y2="-1.016" layer="51"/>
-<rectangle x1="-6.604" y1="1.016" x2="-6.096" y2="1.524" layer="51"/>
-<rectangle x1="-4.064" y1="1.016" x2="-3.556" y2="1.524" layer="51"/>
-<rectangle x1="-1.524" y1="1.016" x2="-1.016" y2="1.524" layer="51"/>
-<rectangle x1="1.016" y1="1.016" x2="1.524" y2="1.524" layer="51"/>
-<rectangle x1="3.556" y1="1.016" x2="4.064" y2="1.524" layer="51"/>
-<rectangle x1="6.096" y1="1.016" x2="6.604" y2="1.524" layer="51"/>
+<package name="SOP50P810X120-57N">
+<description>&lt;b&gt;DCA (R-PDS0-G56)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-3.788" y="6.75" dx="1.475" dy="0.3" layer="1"/>
+<smd name="2" x="-3.788" y="6.25" dx="1.475" dy="0.3" layer="1"/>
+<smd name="3" x="-3.788" y="5.75" dx="1.475" dy="0.3" layer="1"/>
+<smd name="4" x="-3.788" y="5.25" dx="1.475" dy="0.3" layer="1"/>
+<smd name="5" x="-3.788" y="4.75" dx="1.475" dy="0.3" layer="1"/>
+<smd name="6" x="-3.788" y="4.25" dx="1.475" dy="0.3" layer="1"/>
+<smd name="7" x="-3.788" y="3.75" dx="1.475" dy="0.3" layer="1"/>
+<smd name="8" x="-3.788" y="3.25" dx="1.475" dy="0.3" layer="1"/>
+<smd name="9" x="-3.788" y="2.75" dx="1.475" dy="0.3" layer="1"/>
+<smd name="10" x="-3.788" y="2.25" dx="1.475" dy="0.3" layer="1"/>
+<smd name="11" x="-3.788" y="1.75" dx="1.475" dy="0.3" layer="1"/>
+<smd name="12" x="-3.788" y="1.25" dx="1.475" dy="0.3" layer="1"/>
+<smd name="13" x="-3.788" y="0.75" dx="1.475" dy="0.3" layer="1"/>
+<smd name="14" x="-3.788" y="0.25" dx="1.475" dy="0.3" layer="1"/>
+<smd name="15" x="-3.788" y="-0.25" dx="1.475" dy="0.3" layer="1"/>
+<smd name="16" x="-3.788" y="-0.75" dx="1.475" dy="0.3" layer="1"/>
+<smd name="17" x="-3.788" y="-1.25" dx="1.475" dy="0.3" layer="1"/>
+<smd name="18" x="-3.788" y="-1.75" dx="1.475" dy="0.3" layer="1"/>
+<smd name="19" x="-3.788" y="-2.25" dx="1.475" dy="0.3" layer="1"/>
+<smd name="20" x="-3.788" y="-2.75" dx="1.475" dy="0.3" layer="1"/>
+<smd name="21" x="-3.788" y="-3.25" dx="1.475" dy="0.3" layer="1"/>
+<smd name="22" x="-3.788" y="-3.75" dx="1.475" dy="0.3" layer="1"/>
+<smd name="23" x="-3.788" y="-4.25" dx="1.475" dy="0.3" layer="1"/>
+<smd name="24" x="-3.788" y="-4.75" dx="1.475" dy="0.3" layer="1"/>
+<smd name="25" x="-3.788" y="-5.25" dx="1.475" dy="0.3" layer="1"/>
+<smd name="26" x="-3.788" y="-5.75" dx="1.475" dy="0.3" layer="1"/>
+<smd name="27" x="-3.788" y="-6.25" dx="1.475" dy="0.3" layer="1"/>
+<smd name="28" x="-3.788" y="-6.75" dx="1.475" dy="0.3" layer="1"/>
+<smd name="29" x="3.788" y="-6.75" dx="1.475" dy="0.3" layer="1"/>
+<smd name="30" x="3.788" y="-6.25" dx="1.475" dy="0.3" layer="1"/>
+<smd name="31" x="3.788" y="-5.75" dx="1.475" dy="0.3" layer="1"/>
+<smd name="32" x="3.788" y="-5.25" dx="1.475" dy="0.3" layer="1"/>
+<smd name="33" x="3.788" y="-4.75" dx="1.475" dy="0.3" layer="1"/>
+<smd name="34" x="3.788" y="-4.25" dx="1.475" dy="0.3" layer="1"/>
+<smd name="35" x="3.788" y="-3.75" dx="1.475" dy="0.3" layer="1"/>
+<smd name="36" x="3.788" y="-3.25" dx="1.475" dy="0.3" layer="1"/>
+<smd name="37" x="3.788" y="-2.75" dx="1.475" dy="0.3" layer="1"/>
+<smd name="38" x="3.788" y="-2.25" dx="1.475" dy="0.3" layer="1"/>
+<smd name="39" x="3.788" y="-1.75" dx="1.475" dy="0.3" layer="1"/>
+<smd name="40" x="3.788" y="-1.25" dx="1.475" dy="0.3" layer="1"/>
+<smd name="41" x="3.788" y="-0.75" dx="1.475" dy="0.3" layer="1"/>
+<smd name="42" x="3.788" y="-0.25" dx="1.475" dy="0.3" layer="1"/>
+<smd name="43" x="3.788" y="0.25" dx="1.475" dy="0.3" layer="1"/>
+<smd name="44" x="3.788" y="0.75" dx="1.475" dy="0.3" layer="1"/>
+<smd name="45" x="3.788" y="1.25" dx="1.475" dy="0.3" layer="1"/>
+<smd name="46" x="3.788" y="1.75" dx="1.475" dy="0.3" layer="1"/>
+<smd name="47" x="3.788" y="2.25" dx="1.475" dy="0.3" layer="1"/>
+<smd name="48" x="3.788" y="2.75" dx="1.475" dy="0.3" layer="1"/>
+<smd name="49" x="3.788" y="3.25" dx="1.475" dy="0.3" layer="1"/>
+<smd name="50" x="3.788" y="3.75" dx="1.475" dy="0.3" layer="1"/>
+<smd name="51" x="3.788" y="4.25" dx="1.475" dy="0.3" layer="1"/>
+<smd name="52" x="3.788" y="4.75" dx="1.475" dy="0.3" layer="1"/>
+<smd name="53" x="3.788" y="5.25" dx="1.475" dy="0.3" layer="1"/>
+<smd name="54" x="3.788" y="5.75" dx="1.475" dy="0.3" layer="1"/>
+<smd name="55" x="3.788" y="6.25" dx="1.475" dy="0.3" layer="1"/>
+<smd name="56" x="3.788" y="6.75" dx="1.475" dy="0.3" layer="1"/>
+<smd name="57" x="0" y="0" dx="4.7" dy="3.61" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-4.775" y1="7.3" x2="4.775" y2="7.3" width="0.05" layer="51"/>
+<wire x1="4.775" y1="7.3" x2="4.775" y2="-7.3" width="0.05" layer="51"/>
+<wire x1="4.775" y1="-7.3" x2="-4.775" y2="-7.3" width="0.05" layer="51"/>
+<wire x1="-4.775" y1="-7.3" x2="-4.775" y2="7.3" width="0.05" layer="51"/>
+<wire x1="-3.05" y1="7" x2="3.05" y2="7" width="0.1" layer="51"/>
+<wire x1="3.05" y1="7" x2="3.05" y2="-7" width="0.1" layer="51"/>
+<wire x1="3.05" y1="-7" x2="-3.05" y2="-7" width="0.1" layer="51"/>
+<wire x1="-3.05" y1="-7" x2="-3.05" y2="7" width="0.1" layer="51"/>
+<wire x1="-3.05" y1="6.5" x2="-2.55" y2="7" width="0.1" layer="51"/>
+<wire x1="-4.525" y1="7.25" x2="-3.05" y2="7.25" width="0.2" layer="21"/>
 </package>
 </packages>
-<packages3d>
-<package3d name="MA06-2" urn="urn:adsk.eagle:package:8342/1" type="box" library_version="2">
-<description>PIN HEADER</description>
-<packageinstances>
-<packageinstance name="MA06-2"/>
-</packageinstances>
-</package3d>
-</packages3d>
 <symbols>
-<symbol name="MA06-2" urn="urn:adsk.eagle:symbol:8288/1" library_version="2">
-<wire x1="3.81" y1="-10.16" x2="-3.81" y2="-10.16" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
-<wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.6096" layer="94"/>
-<wire x1="1.27" y1="-7.62" x2="2.54" y2="-7.62" width="0.6096" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-1.27" y2="-2.54" width="0.6096" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="-1.27" y2="-5.08" width="0.6096" layer="94"/>
-<wire x1="-2.54" y1="-7.62" x2="-1.27" y2="-7.62" width="0.6096" layer="94"/>
-<wire x1="-3.81" y1="7.62" x2="-3.81" y2="-10.16" width="0.4064" layer="94"/>
-<wire x1="3.81" y1="-10.16" x2="3.81" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="-3.81" y1="7.62" x2="3.81" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="5.08" x2="2.54" y2="5.08" width="0.6096" layer="94"/>
-<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
-<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="-1.27" y2="5.08" width="0.6096" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-1.27" y2="2.54" width="0.6096" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.6096" layer="94"/>
-<text x="-3.81" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-3.81" y="8.382" size="1.778" layer="95">&gt;NAME</text>
-<pin name="1" x="7.62" y="-7.62" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="3" x="7.62" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="5" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="2" x="-7.62" y="-7.62" visible="pad" length="middle" direction="pas" swaplevel="1"/>
-<pin name="4" x="-7.62" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="1"/>
-<pin name="6" x="-7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1"/>
-<pin name="7" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="9" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="11" x="7.62" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="8" x="-7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1"/>
-<pin name="10" x="-7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1"/>
-<pin name="12" x="-7.62" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<symbol name="TLC5955DCAR">
+<wire x1="5.08" y1="2.54" x2="30.48" y2="2.54" width="0.254" layer="94"/>
+<wire x1="30.48" y1="-86.36" x2="30.48" y2="2.54" width="0.254" layer="94"/>
+<wire x1="30.48" y1="-86.36" x2="5.08" y2="-86.36" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-86.36" width="0.254" layer="94"/>
+<text x="31.75" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="31.75" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="SIN" x="0" y="0" length="middle"/>
+<pin name="SCLK" x="0" y="-2.54" length="middle"/>
+<pin name="LAT" x="0" y="-5.08" length="middle"/>
+<pin name="OUTB4" x="0" y="-7.62" length="middle"/>
+<pin name="OUTR4" x="0" y="-10.16" length="middle"/>
+<pin name="OUTG4" x="0" y="-12.7" length="middle"/>
+<pin name="OUTB0" x="0" y="-15.24" length="middle"/>
+<pin name="OUTR0" x="0" y="-17.78" length="middle"/>
+<pin name="OUTG0" x="0" y="-20.32" length="middle"/>
+<pin name="OUTB5" x="0" y="-22.86" length="middle"/>
+<pin name="OUTR5" x="0" y="-25.4" length="middle"/>
+<pin name="OUTG5" x="0" y="-27.94" length="middle"/>
+<pin name="OUTB1" x="0" y="-30.48" length="middle"/>
+<pin name="OUTR1" x="0" y="-33.02" length="middle"/>
+<pin name="OUTG1" x="0" y="-35.56" length="middle"/>
+<pin name="OUTB2" x="0" y="-38.1" length="middle"/>
+<pin name="OUTR2" x="0" y="-40.64" length="middle"/>
+<pin name="OUTG2" x="0" y="-43.18" length="middle"/>
+<pin name="OUTB6" x="0" y="-45.72" length="middle"/>
+<pin name="OUTR6" x="0" y="-48.26" length="middle"/>
+<pin name="OUTG6" x="0" y="-50.8" length="middle"/>
+<pin name="OUTB3" x="0" y="-53.34" length="middle"/>
+<pin name="OUTR3" x="0" y="-55.88" length="middle"/>
+<pin name="OUTG3" x="0" y="-58.42" length="middle"/>
+<pin name="OUTB7" x="0" y="-60.96" length="middle"/>
+<pin name="OUTR7" x="0" y="-63.5" length="middle"/>
+<pin name="OUTG7" x="0" y="-66.04" length="middle"/>
+<pin name="SOUT" x="0" y="-68.58" length="middle"/>
+<pin name="THERMALPAD" x="17.78" y="-91.44" length="middle" rot="R90"/>
+<pin name="GND_2" x="35.56" y="0" length="middle" rot="R180"/>
+<pin name="GSCLK" x="35.56" y="-2.54" length="middle" rot="R180"/>
+<pin name="VCC" x="35.56" y="-5.08" length="middle" rot="R180"/>
+<pin name="OUTB8" x="35.56" y="-7.62" length="middle" rot="R180"/>
+<pin name="OUTR8" x="35.56" y="-10.16" length="middle" rot="R180"/>
+<pin name="OUTG8" x="35.56" y="-12.7" length="middle" rot="R180"/>
+<pin name="OUTB12" x="35.56" y="-15.24" length="middle" rot="R180"/>
+<pin name="OUTR12" x="35.56" y="-17.78" length="middle" rot="R180"/>
+<pin name="OUTG12" x="35.56" y="-20.32" length="middle" rot="R180"/>
+<pin name="OUTB9" x="35.56" y="-22.86" length="middle" rot="R180"/>
+<pin name="OUTR9" x="35.56" y="-25.4" length="middle" rot="R180"/>
+<pin name="OUTG9" x="35.56" y="-27.94" length="middle" rot="R180"/>
+<pin name="OUTB13" x="35.56" y="-30.48" length="middle" rot="R180"/>
+<pin name="OUTR13" x="35.56" y="-33.02" length="middle" rot="R180"/>
+<pin name="OUTG13" x="35.56" y="-35.56" length="middle" rot="R180"/>
+<pin name="OUTB14" x="35.56" y="-38.1" length="middle" rot="R180"/>
+<pin name="OUTR14" x="35.56" y="-40.64" length="middle" rot="R180"/>
+<pin name="OUTG14" x="35.56" y="-43.18" length="middle" rot="R180"/>
+<pin name="OUTB10" x="35.56" y="-45.72" length="middle" rot="R180"/>
+<pin name="OUTR10" x="35.56" y="-48.26" length="middle" rot="R180"/>
+<pin name="OUTG10" x="35.56" y="-50.8" length="middle" rot="R180"/>
+<pin name="OUTB15" x="35.56" y="-53.34" length="middle" rot="R180"/>
+<pin name="OUTR15" x="35.56" y="-55.88" length="middle" rot="R180"/>
+<pin name="OUTG15" x="35.56" y="-58.42" length="middle" rot="R180"/>
+<pin name="OUTB11" x="35.56" y="-60.96" length="middle" rot="R180"/>
+<pin name="OUTR11" x="35.56" y="-63.5" length="middle" rot="R180"/>
+<pin name="OUTG11" x="35.56" y="-66.04" length="middle" rot="R180"/>
+<pin name="GND_1" x="35.56" y="-68.58" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MA06-2" urn="urn:adsk.eagle:component:8383/2" prefix="SV" uservalue="yes" library_version="2">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<deviceset name="TLC5955DCAR" prefix="IC">
+<description>&lt;b&gt;48ch, 16bit PWM LED Driver with Dot-Correction, Brightness Control, Open/Short Detection&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlc5955.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
-<gate name="1" symbol="MA06-2" x="0" y="0"/>
+<gate name="G$1" symbol="TLC5955DCAR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="MA06-2">
+<device name="" package="SOP50P810X120-57N">
 <connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="10" pad="10"/>
-<connect gate="1" pin="11" pad="11"/>
-<connect gate="1" pin="12" pad="12"/>
-<connect gate="1" pin="2" pad="2"/>
-<connect gate="1" pin="3" pad="3"/>
-<connect gate="1" pin="4" pad="4"/>
-<connect gate="1" pin="5" pad="5"/>
-<connect gate="1" pin="6" pad="6"/>
-<connect gate="1" pin="7" pad="7"/>
-<connect gate="1" pin="8" pad="8"/>
-<connect gate="1" pin="9" pad="9"/>
+<connect gate="G$1" pin="GND_1" pad="29"/>
+<connect gate="G$1" pin="GND_2" pad="56"/>
+<connect gate="G$1" pin="GSCLK" pad="55"/>
+<connect gate="G$1" pin="LAT" pad="3"/>
+<connect gate="G$1" pin="OUTB0" pad="7"/>
+<connect gate="G$1" pin="OUTB1" pad="13"/>
+<connect gate="G$1" pin="OUTB10" pad="38"/>
+<connect gate="G$1" pin="OUTB11" pad="32"/>
+<connect gate="G$1" pin="OUTB12" pad="50"/>
+<connect gate="G$1" pin="OUTB13" pad="44"/>
+<connect gate="G$1" pin="OUTB14" pad="41"/>
+<connect gate="G$1" pin="OUTB15" pad="35"/>
+<connect gate="G$1" pin="OUTB2" pad="16"/>
+<connect gate="G$1" pin="OUTB3" pad="22"/>
+<connect gate="G$1" pin="OUTB4" pad="4"/>
+<connect gate="G$1" pin="OUTB5" pad="10"/>
+<connect gate="G$1" pin="OUTB6" pad="19"/>
+<connect gate="G$1" pin="OUTB7" pad="25"/>
+<connect gate="G$1" pin="OUTB8" pad="53"/>
+<connect gate="G$1" pin="OUTB9" pad="47"/>
+<connect gate="G$1" pin="OUTG0" pad="9"/>
+<connect gate="G$1" pin="OUTG1" pad="15"/>
+<connect gate="G$1" pin="OUTG10" pad="36"/>
+<connect gate="G$1" pin="OUTG11" pad="30"/>
+<connect gate="G$1" pin="OUTG12" pad="48"/>
+<connect gate="G$1" pin="OUTG13" pad="42"/>
+<connect gate="G$1" pin="OUTG14" pad="39"/>
+<connect gate="G$1" pin="OUTG15" pad="33"/>
+<connect gate="G$1" pin="OUTG2" pad="18"/>
+<connect gate="G$1" pin="OUTG3" pad="24"/>
+<connect gate="G$1" pin="OUTG4" pad="6"/>
+<connect gate="G$1" pin="OUTG5" pad="12"/>
+<connect gate="G$1" pin="OUTG6" pad="21"/>
+<connect gate="G$1" pin="OUTG7" pad="27"/>
+<connect gate="G$1" pin="OUTG8" pad="51"/>
+<connect gate="G$1" pin="OUTG9" pad="45"/>
+<connect gate="G$1" pin="OUTR0" pad="8"/>
+<connect gate="G$1" pin="OUTR1" pad="14"/>
+<connect gate="G$1" pin="OUTR10" pad="37"/>
+<connect gate="G$1" pin="OUTR11" pad="31"/>
+<connect gate="G$1" pin="OUTR12" pad="49"/>
+<connect gate="G$1" pin="OUTR13" pad="43"/>
+<connect gate="G$1" pin="OUTR14" pad="40"/>
+<connect gate="G$1" pin="OUTR15" pad="34"/>
+<connect gate="G$1" pin="OUTR2" pad="17"/>
+<connect gate="G$1" pin="OUTR3" pad="23"/>
+<connect gate="G$1" pin="OUTR4" pad="5"/>
+<connect gate="G$1" pin="OUTR5" pad="11"/>
+<connect gate="G$1" pin="OUTR6" pad="20"/>
+<connect gate="G$1" pin="OUTR7" pad="26"/>
+<connect gate="G$1" pin="OUTR8" pad="52"/>
+<connect gate="G$1" pin="OUTR9" pad="46"/>
+<connect gate="G$1" pin="SCLK" pad="2"/>
+<connect gate="G$1" pin="SIN" pad="1"/>
+<connect gate="G$1" pin="SOUT" pad="28"/>
+<connect gate="G$1" pin="THERMALPAD" pad="57"/>
+<connect gate="G$1" pin="VCC" pad="54"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:8342/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-<attribute name="POPULARITY" value="8" constant="no"/>
+<attribute name="ARROW_PART_NUMBER" value="TLC5955DCAR" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/tlc5955dcar/texas-instruments" constant="no"/>
+<attribute name="DESCRIPTION" value="48ch, 16bit PWM LED Driver with Dot-Correction, Brightness Control, Open/Short Detection" constant="no"/>
+<attribute name="HEIGHT" value="1.2mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TLC5955DCAR" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-TLC5955DCAR" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLC5955DCAR?qs=%2Fd%252BFzHvH4c3zo%2FeGYG5n7g%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4693,229 +4764,154 @@ Source: &lt;a href="https://www.arrow.com/en/products/sml-lx0606igc-tr/lumex"&gt
 </deviceset>
 </devicesets>
 </library>
-<library name="TLC5955DCAR">
-<description>&lt;48ch, 16bit PWM LED Driver with Dot-Correction, Brightness Control, Open/Short Detection&lt;/b&gt;&lt;p&gt;
+<library name="VoxelEagleLib">
+<description>&lt;Standard LEDs - SMD Surface Mount LEDs&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="SOP50P810X120-57N">
-<description>&lt;b&gt;DCA (R-PDS0-G56)&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-3.788" y="6.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="2" x="-3.788" y="6.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="3" x="-3.788" y="5.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="4" x="-3.788" y="5.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="5" x="-3.788" y="4.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="6" x="-3.788" y="4.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="7" x="-3.788" y="3.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="8" x="-3.788" y="3.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="9" x="-3.788" y="2.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="10" x="-3.788" y="2.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="11" x="-3.788" y="1.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="12" x="-3.788" y="1.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="13" x="-3.788" y="0.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="14" x="-3.788" y="0.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="15" x="-3.788" y="-0.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="16" x="-3.788" y="-0.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="17" x="-3.788" y="-1.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="18" x="-3.788" y="-1.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="19" x="-3.788" y="-2.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="20" x="-3.788" y="-2.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="21" x="-3.788" y="-3.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="22" x="-3.788" y="-3.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="23" x="-3.788" y="-4.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="24" x="-3.788" y="-4.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="25" x="-3.788" y="-5.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="26" x="-3.788" y="-5.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="27" x="-3.788" y="-6.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="28" x="-3.788" y="-6.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="29" x="3.788" y="-6.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="30" x="3.788" y="-6.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="31" x="3.788" y="-5.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="32" x="3.788" y="-5.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="33" x="3.788" y="-4.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="34" x="3.788" y="-4.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="35" x="3.788" y="-3.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="36" x="3.788" y="-3.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="37" x="3.788" y="-2.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="38" x="3.788" y="-2.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="39" x="3.788" y="-1.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="40" x="3.788" y="-1.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="41" x="3.788" y="-0.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="42" x="3.788" y="-0.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="43" x="3.788" y="0.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="44" x="3.788" y="0.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="45" x="3.788" y="1.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="46" x="3.788" y="1.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="47" x="3.788" y="2.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="48" x="3.788" y="2.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="49" x="3.788" y="3.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="50" x="3.788" y="3.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="51" x="3.788" y="4.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="52" x="3.788" y="4.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="53" x="3.788" y="5.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="54" x="3.788" y="5.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="55" x="3.788" y="6.25" dx="1.475" dy="0.3" layer="1"/>
-<smd name="56" x="3.788" y="6.75" dx="1.475" dy="0.3" layer="1"/>
-<smd name="57" x="0" y="0" dx="4.7" dy="3.61" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-4.775" y1="7.3" x2="4.775" y2="7.3" width="0.05" layer="51"/>
-<wire x1="4.775" y1="7.3" x2="4.775" y2="-7.3" width="0.05" layer="51"/>
-<wire x1="4.775" y1="-7.3" x2="-4.775" y2="-7.3" width="0.05" layer="51"/>
-<wire x1="-4.775" y1="-7.3" x2="-4.775" y2="7.3" width="0.05" layer="51"/>
-<wire x1="-3.05" y1="7" x2="3.05" y2="7" width="0.1" layer="51"/>
-<wire x1="3.05" y1="7" x2="3.05" y2="-7" width="0.1" layer="51"/>
-<wire x1="3.05" y1="-7" x2="-3.05" y2="-7" width="0.1" layer="51"/>
-<wire x1="-3.05" y1="-7" x2="-3.05" y2="7" width="0.1" layer="51"/>
-<wire x1="-3.05" y1="6.5" x2="-2.55" y2="7" width="0.1" layer="51"/>
-<wire x1="-4.525" y1="7.25" x2="-3.05" y2="7.25" width="0.2" layer="21"/>
+<package name="MA06-2" urn="urn:adsk.eagle:footprint:8289/1" locally_modified="yes">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-6.985" y1="2.54" x2="-5.715" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-5.715" y1="2.54" x2="-5.08" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="1.905" x2="-4.445" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="2.54" x2="-3.175" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="2.54" x2="-2.54" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-6.985" y1="2.54" x2="-7.62" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="1.905" x2="-1.905" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="2.54" x2="-0.635" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="2.54" x2="1.905" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="2.54" x2="2.54" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="1.905" x2="3.175" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="2.54" x2="4.445" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="2.54" x2="5.08" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="1.905" x2="5.715" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="5.715" y1="2.54" x2="6.985" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="6.985" y1="2.54" x2="7.62" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="1.905" x2="7.62" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-1.905" x2="-5.715" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-1.905" x2="-3.175" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="-2.54" x2="-4.445" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="-2.54" x2="-5.08" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="1.905" x2="-7.62" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="-1.905" x2="-6.985" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-5.715" y1="-2.54" x2="-6.985" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="0" y1="-1.905" x2="-0.635" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-2.54" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="1.905" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-1.905" x2="4.445" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="-2.54" x2="3.175" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-2.54" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="0" y1="-1.905" x2="0.635" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-2.54" x2="0.635" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="-1.905" x2="6.985" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="6.985" y1="-2.54" x2="5.715" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="5.715" y1="-2.54" x2="5.08" y2="-1.905" width="0.1524" layer="21"/>
+<pad name="1" x="-6.35" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="3" x="-3.81" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="5" x="-1.27" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="7" x="1.27" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="9" x="3.81" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="11" x="6.35" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="2" x="-6.35" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="4" x="-3.81" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="6" x="-1.27" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="8" x="1.27" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="10" x="3.81" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="12" x="6.35" y="1.27" drill="1.016" shape="octagon"/>
+<text x="-6.858" y="-4.191" size="1.27" layer="21" ratio="10">1</text>
+<text x="-7.62" y="2.921" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="5.08" y="2.921" size="1.27" layer="21" ratio="10">12</text>
+<text x="-2.54" y="-4.191" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-4.064" y1="-1.524" x2="-3.556" y2="-1.016" layer="51"/>
+<rectangle x1="-6.604" y1="-1.524" x2="-6.096" y2="-1.016" layer="51"/>
+<rectangle x1="-1.524" y1="-1.524" x2="-1.016" y2="-1.016" layer="51"/>
+<rectangle x1="3.556" y1="-1.524" x2="4.064" y2="-1.016" layer="51"/>
+<rectangle x1="1.016" y1="-1.524" x2="1.524" y2="-1.016" layer="51"/>
+<rectangle x1="6.096" y1="-1.524" x2="6.604" y2="-1.016" layer="51"/>
+<rectangle x1="-6.604" y1="1.016" x2="-6.096" y2="1.524" layer="51"/>
+<rectangle x1="-4.064" y1="1.016" x2="-3.556" y2="1.524" layer="51"/>
+<rectangle x1="-1.524" y1="1.016" x2="-1.016" y2="1.524" layer="51"/>
+<rectangle x1="1.016" y1="1.016" x2="1.524" y2="1.524" layer="51"/>
+<rectangle x1="3.556" y1="1.016" x2="4.064" y2="1.524" layer="51"/>
+<rectangle x1="6.096" y1="1.016" x2="6.604" y2="1.524" layer="51"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="MA06-2" urn="urn:adsk.eagle:package:8342/1" type="box">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="MA06-2"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="TLC5955DCAR">
-<wire x1="5.08" y1="2.54" x2="30.48" y2="2.54" width="0.254" layer="94"/>
-<wire x1="30.48" y1="-86.36" x2="30.48" y2="2.54" width="0.254" layer="94"/>
-<wire x1="30.48" y1="-86.36" x2="5.08" y2="-86.36" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-86.36" width="0.254" layer="94"/>
-<text x="31.75" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="31.75" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="SIN" x="0" y="0" length="middle"/>
-<pin name="SCLK" x="0" y="-2.54" length="middle"/>
-<pin name="LAT" x="0" y="-5.08" length="middle"/>
-<pin name="OUTB4" x="0" y="-7.62" length="middle"/>
-<pin name="OUTR4" x="0" y="-10.16" length="middle"/>
-<pin name="OUTG4" x="0" y="-12.7" length="middle"/>
-<pin name="OUTB0" x="0" y="-15.24" length="middle"/>
-<pin name="OUTR0" x="0" y="-17.78" length="middle"/>
-<pin name="OUTG0" x="0" y="-20.32" length="middle"/>
-<pin name="OUTB5" x="0" y="-22.86" length="middle"/>
-<pin name="OUTR5" x="0" y="-25.4" length="middle"/>
-<pin name="OUTG5" x="0" y="-27.94" length="middle"/>
-<pin name="OUTB1" x="0" y="-30.48" length="middle"/>
-<pin name="OUTR1" x="0" y="-33.02" length="middle"/>
-<pin name="OUTG1" x="0" y="-35.56" length="middle"/>
-<pin name="OUTB2" x="0" y="-38.1" length="middle"/>
-<pin name="OUTR2" x="0" y="-40.64" length="middle"/>
-<pin name="OUTG2" x="0" y="-43.18" length="middle"/>
-<pin name="OUTB6" x="0" y="-45.72" length="middle"/>
-<pin name="OUTR6" x="0" y="-48.26" length="middle"/>
-<pin name="OUTG6" x="0" y="-50.8" length="middle"/>
-<pin name="OUTB3" x="0" y="-53.34" length="middle"/>
-<pin name="OUTR3" x="0" y="-55.88" length="middle"/>
-<pin name="OUTG3" x="0" y="-58.42" length="middle"/>
-<pin name="OUTB7" x="0" y="-60.96" length="middle"/>
-<pin name="OUTR7" x="0" y="-63.5" length="middle"/>
-<pin name="OUTG7" x="0" y="-66.04" length="middle"/>
-<pin name="SOUT" x="0" y="-68.58" length="middle"/>
-<pin name="THERMALPAD" x="17.78" y="-91.44" length="middle" rot="R90"/>
-<pin name="GND_2" x="35.56" y="0" length="middle" rot="R180"/>
-<pin name="GSCLK" x="35.56" y="-2.54" length="middle" rot="R180"/>
-<pin name="VCC" x="35.56" y="-5.08" length="middle" rot="R180"/>
-<pin name="OUTB8" x="35.56" y="-7.62" length="middle" rot="R180"/>
-<pin name="OUTR8" x="35.56" y="-10.16" length="middle" rot="R180"/>
-<pin name="OUTG8" x="35.56" y="-12.7" length="middle" rot="R180"/>
-<pin name="OUTB12" x="35.56" y="-15.24" length="middle" rot="R180"/>
-<pin name="OUTR12" x="35.56" y="-17.78" length="middle" rot="R180"/>
-<pin name="OUTG12" x="35.56" y="-20.32" length="middle" rot="R180"/>
-<pin name="OUTB9" x="35.56" y="-22.86" length="middle" rot="R180"/>
-<pin name="OUTR9" x="35.56" y="-25.4" length="middle" rot="R180"/>
-<pin name="OUTG9" x="35.56" y="-27.94" length="middle" rot="R180"/>
-<pin name="OUTB13" x="35.56" y="-30.48" length="middle" rot="R180"/>
-<pin name="OUTR13" x="35.56" y="-33.02" length="middle" rot="R180"/>
-<pin name="OUTG13" x="35.56" y="-35.56" length="middle" rot="R180"/>
-<pin name="OUTB14" x="35.56" y="-38.1" length="middle" rot="R180"/>
-<pin name="OUTR14" x="35.56" y="-40.64" length="middle" rot="R180"/>
-<pin name="OUTG14" x="35.56" y="-43.18" length="middle" rot="R180"/>
-<pin name="OUTB10" x="35.56" y="-45.72" length="middle" rot="R180"/>
-<pin name="OUTR10" x="35.56" y="-48.26" length="middle" rot="R180"/>
-<pin name="OUTG10" x="35.56" y="-50.8" length="middle" rot="R180"/>
-<pin name="OUTB15" x="35.56" y="-53.34" length="middle" rot="R180"/>
-<pin name="OUTR15" x="35.56" y="-55.88" length="middle" rot="R180"/>
-<pin name="OUTG15" x="35.56" y="-58.42" length="middle" rot="R180"/>
-<pin name="OUTB11" x="35.56" y="-60.96" length="middle" rot="R180"/>
-<pin name="OUTR11" x="35.56" y="-63.5" length="middle" rot="R180"/>
-<pin name="OUTG11" x="35.56" y="-66.04" length="middle" rot="R180"/>
-<pin name="GND_1" x="35.56" y="-68.58" length="middle" rot="R180"/>
+<symbol name="MA06-2">
+<wire x1="3.81" y1="-10.16" x2="-3.81" y2="-10.16" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-7.62" x2="2.54" y2="-7.62" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-1.27" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-1.27" y2="-5.08" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-1.27" y2="-7.62" width="0.6096" layer="94"/>
+<wire x1="-3.81" y1="7.62" x2="-3.81" y2="-10.16" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-10.16" x2="3.81" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="-3.81" y1="7.62" x2="3.81" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="2.54" y2="5.08" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-1.27" y2="5.08" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-1.27" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.6096" layer="94"/>
+<text x="-3.81" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-3.81" y="8.382" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="7.62" y="-7.62" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="3" x="7.62" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="5" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="-7.62" y="-7.62" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="4" x="-7.62" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="6" x="-7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="7" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="9" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="11" x="7.62" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="8" x="-7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="10" x="-7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="12" x="-7.62" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TLC5955DCAR" prefix="IC">
-<description>&lt;b&gt;48ch, 16bit PWM LED Driver with Dot-Correction, Brightness Control, Open/Short Detection&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlc5955.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="MA06-2" prefix="SV" uservalue="yes">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="TLC5955DCAR" x="0" y="0"/>
+<gate name="1" symbol="MA06-2" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOP50P810X120-57N">
+<device name="" package="MA06-2">
 <connects>
-<connect gate="G$1" pin="GND_1" pad="29"/>
-<connect gate="G$1" pin="GND_2" pad="56"/>
-<connect gate="G$1" pin="GSCLK" pad="55"/>
-<connect gate="G$1" pin="LAT" pad="3"/>
-<connect gate="G$1" pin="OUTB0" pad="7"/>
-<connect gate="G$1" pin="OUTB1" pad="13"/>
-<connect gate="G$1" pin="OUTB10" pad="38"/>
-<connect gate="G$1" pin="OUTB11" pad="32"/>
-<connect gate="G$1" pin="OUTB12" pad="50"/>
-<connect gate="G$1" pin="OUTB13" pad="44"/>
-<connect gate="G$1" pin="OUTB14" pad="41"/>
-<connect gate="G$1" pin="OUTB15" pad="35"/>
-<connect gate="G$1" pin="OUTB2" pad="16"/>
-<connect gate="G$1" pin="OUTB3" pad="22"/>
-<connect gate="G$1" pin="OUTB4" pad="4"/>
-<connect gate="G$1" pin="OUTB5" pad="10"/>
-<connect gate="G$1" pin="OUTB6" pad="19"/>
-<connect gate="G$1" pin="OUTB7" pad="25"/>
-<connect gate="G$1" pin="OUTB8" pad="53"/>
-<connect gate="G$1" pin="OUTB9" pad="47"/>
-<connect gate="G$1" pin="OUTG0" pad="9"/>
-<connect gate="G$1" pin="OUTG1" pad="15"/>
-<connect gate="G$1" pin="OUTG10" pad="36"/>
-<connect gate="G$1" pin="OUTG11" pad="30"/>
-<connect gate="G$1" pin="OUTG12" pad="48"/>
-<connect gate="G$1" pin="OUTG13" pad="42"/>
-<connect gate="G$1" pin="OUTG14" pad="39"/>
-<connect gate="G$1" pin="OUTG15" pad="33"/>
-<connect gate="G$1" pin="OUTG2" pad="18"/>
-<connect gate="G$1" pin="OUTG3" pad="24"/>
-<connect gate="G$1" pin="OUTG4" pad="6"/>
-<connect gate="G$1" pin="OUTG5" pad="12"/>
-<connect gate="G$1" pin="OUTG6" pad="21"/>
-<connect gate="G$1" pin="OUTG7" pad="27"/>
-<connect gate="G$1" pin="OUTG8" pad="51"/>
-<connect gate="G$1" pin="OUTG9" pad="45"/>
-<connect gate="G$1" pin="OUTR0" pad="8"/>
-<connect gate="G$1" pin="OUTR1" pad="14"/>
-<connect gate="G$1" pin="OUTR10" pad="37"/>
-<connect gate="G$1" pin="OUTR11" pad="31"/>
-<connect gate="G$1" pin="OUTR12" pad="49"/>
-<connect gate="G$1" pin="OUTR13" pad="43"/>
-<connect gate="G$1" pin="OUTR14" pad="40"/>
-<connect gate="G$1" pin="OUTR15" pad="34"/>
-<connect gate="G$1" pin="OUTR2" pad="17"/>
-<connect gate="G$1" pin="OUTR3" pad="23"/>
-<connect gate="G$1" pin="OUTR4" pad="5"/>
-<connect gate="G$1" pin="OUTR5" pad="11"/>
-<connect gate="G$1" pin="OUTR6" pad="20"/>
-<connect gate="G$1" pin="OUTR7" pad="26"/>
-<connect gate="G$1" pin="OUTR8" pad="52"/>
-<connect gate="G$1" pin="OUTR9" pad="46"/>
-<connect gate="G$1" pin="SCLK" pad="2"/>
-<connect gate="G$1" pin="SIN" pad="1"/>
-<connect gate="G$1" pin="SOUT" pad="28"/>
-<connect gate="G$1" pin="THERMALPAD" pad="57"/>
-<connect gate="G$1" pin="VCC" pad="54"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="10" pad="10"/>
+<connect gate="1" pin="11" pad="11"/>
+<connect gate="1" pin="12" pad="12"/>
+<connect gate="1" pin="2" pad="2"/>
+<connect gate="1" pin="3" pad="3"/>
+<connect gate="1" pin="4" pad="4"/>
+<connect gate="1" pin="5" pad="5"/>
+<connect gate="1" pin="6" pad="6"/>
+<connect gate="1" pin="7" pad="7"/>
+<connect gate="1" pin="8" pad="8"/>
+<connect gate="1" pin="9" pad="9"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8342/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="ARROW_PART_NUMBER" value="TLC5955DCAR" constant="no"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/tlc5955dcar/texas-instruments" constant="no"/>
-<attribute name="DESCRIPTION" value="48ch, 16bit PWM LED Driver with Dot-Correction, Brightness Control, Open/Short Detection" constant="no"/>
-<attribute name="HEIGHT" value="1.2mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Texas Instruments" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TLC5955DCAR" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="595-TLC5955DCAR" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLC5955DCAR?qs=%2Fd%252BFzHvH4c3zo%2FeGYG5n7g%3D%3D" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="8" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4933,21 +4929,28 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlc5955.pdf"&gt; Datasheet 
 </class>
 </classes>
 <groups>
+<schematic_group name="LED_DRIVERS"/>
 <schematic_group name="DECOUPLING"/>
 <schematic_group name="LEDS1"/>
-<schematic_group name="LED_DRIVERS1"/>
 </groups>
 <parts>
-<part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA06-2" device="" package3d_urn="urn:adsk.eagle:package:8342/1"/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="20uF"/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="20uF"/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="20uF"/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="20uF"/>
-<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="20uF"/>
-<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="20uF"/>
-<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="20uF"/>
-<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="20uF"/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="20uF"/>
+<part name="IC1" library="TLC5955DCAR" deviceset="TLC5955DCAR" device=""/>
+<part name="IC2" library="TLC5955DCAR" deviceset="TLC5955DCAR" device=""/>
+<part name="IC3" library="TLC5955DCAR" deviceset="TLC5955DCAR" device=""/>
+<part name="IC4" library="TLC5955DCAR" deviceset="TLC5955DCAR" device=""/>
+<part name="IC5" library="TLC5955DCAR" deviceset="TLC5955DCAR" device=""/>
+<part name="IC6" library="TLC5955DCAR" deviceset="TLC5955DCAR" device=""/>
+<part name="IC7" library="TLC5955DCAR" deviceset="TLC5955DCAR" device=""/>
+<part name="IC8" library="TLC5955DCAR" deviceset="TLC5955DCAR" device=""/>
+<part name="SV1" library="VoxelEagleLib" deviceset="MA06-2" device="" package3d_urn="urn:adsk.eagle:package:8342/1"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value=".1uF"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value=".1uF"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value=".1uF"/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value=".1uF"/>
+<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value=".1uF"/>
+<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value=".1uF"/>
+<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value=".1uF"/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value=".1uF"/>
 <part name="LED1" library="B38G3RGB" deviceset="B38G3RGB" device=""/>
 <part name="LED2" library="B38G3RGB" deviceset="B38G3RGB" device=""/>
 <part name="LED3" library="B38G3RGB" deviceset="B38G3RGB" device=""/>
@@ -5068,571 +5071,599 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlc5955.pdf"&gt; Datasheet 
 <part name="LED118" library="B38G3RGB" deviceset="B38G3RGB" device=""/>
 <part name="LED119" library="B38G3RGB" deviceset="B38G3RGB" device=""/>
 <part name="LED120" library="B38G3RGB" deviceset="B38G3RGB" device=""/>
-<part name="IC1" library="TLC5955DCAR" deviceset="TLC5955DCAR" device=""/>
-<part name="IC2" library="TLC5955DCAR" deviceset="TLC5955DCAR" device=""/>
-<part name="IC3" library="TLC5955DCAR" deviceset="TLC5955DCAR" device=""/>
-<part name="IC4" library="TLC5955DCAR" deviceset="TLC5955DCAR" device=""/>
-<part name="IC5" library="TLC5955DCAR" deviceset="TLC5955DCAR" device=""/>
-<part name="IC6" library="TLC5955DCAR" deviceset="TLC5955DCAR" device=""/>
-<part name="IC7" library="TLC5955DCAR" deviceset="TLC5955DCAR" device=""/>
-<part name="IC8" library="TLC5955DCAR" deviceset="TLC5955DCAR" device=""/>
+<part name="C2B" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF"/>
+<part name="C3B" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF"/>
+<part name="C4B" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF"/>
+<part name="C5B" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF"/>
+<part name="C6B" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF"/>
+<part name="C7B" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF"/>
+<part name="C8B" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF"/>
+<part name="C1B" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
+<instance part="IC1" gate="G$1" x="-609.12" y="55.72" smashed="yes" grouprefs="LED_DRIVERS">
+<attribute name="NAME" x="-577.37" y="63.34" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-577.37" y="60.8" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="IC2" gate="G$1" x="-495.46" y="55.72" smashed="yes" grouprefs="LED_DRIVERS">
+<attribute name="NAME" x="-463.71" y="63.34" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-463.71" y="60.8" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="IC3" gate="G$1" x="-379.26" y="55.72" smashed="yes" grouprefs="LED_DRIVERS">
+<attribute name="NAME" x="-347.51" y="63.34" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-347.51" y="60.8" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="IC4" gate="G$1" x="-265.6" y="55.72" smashed="yes" grouprefs="LED_DRIVERS">
+<attribute name="NAME" x="-233.85" y="63.34" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-233.85" y="60.8" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="IC5" gate="G$1" x="-609.12" y="-45.88" smashed="yes" grouprefs="LED_DRIVERS">
+<attribute name="NAME" x="-577.37" y="-38.26" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-577.37" y="-40.8" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="IC6" gate="G$1" x="-495.46" y="-45.88" smashed="yes" grouprefs="LED_DRIVERS">
+<attribute name="NAME" x="-463.71" y="-38.26" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-463.71" y="-40.8" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="IC7" gate="G$1" x="-379.26" y="-45.88" smashed="yes" grouprefs="LED_DRIVERS">
+<attribute name="NAME" x="-347.51" y="-38.26" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-347.51" y="-40.8" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="IC8" gate="G$1" x="-265.6" y="-45.88" smashed="yes" grouprefs="LED_DRIVERS">
+<attribute name="NAME" x="-233.85" y="-38.26" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-233.85" y="-40.8" size="1.778" layer="96" align="center-left"/>
+</instance>
 <instance part="SV1" gate="1" x="-716.28" y="12.7" smashed="yes" rot="R180">
 <attribute name="VALUE" x="-712.47" y="25.4" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="-712.47" y="4.318" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="C2" gate="G$1" x="-746.76" y="-35.56" smashed="yes" grouprefs="DECOUPLING">
-<attribute name="NAME" x="-745.236" y="-35.179" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-745.236" y="-40.259" size="1.778" layer="96"/>
-</instance>
-<instance part="C3" gate="G$1" x="-736.6" y="-35.56" smashed="yes" grouprefs="DECOUPLING">
-<attribute name="NAME" x="-735.076" y="-35.179" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-735.076" y="-40.259" size="1.778" layer="96"/>
-</instance>
-<instance part="C4" gate="G$1" x="-726.44" y="-35.56" smashed="yes" grouprefs="DECOUPLING">
-<attribute name="NAME" x="-724.916" y="-35.179" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-724.916" y="-40.259" size="1.778" layer="96"/>
-</instance>
-<instance part="C5" gate="G$1" x="-716.28" y="-35.56" smashed="yes" grouprefs="DECOUPLING">
-<attribute name="NAME" x="-714.756" y="-35.179" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-714.756" y="-40.259" size="1.778" layer="96"/>
-</instance>
-<instance part="C6" gate="G$1" x="-706.12" y="-35.56" smashed="yes" grouprefs="DECOUPLING">
-<attribute name="NAME" x="-704.596" y="-35.179" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-704.596" y="-40.259" size="1.778" layer="96"/>
-</instance>
-<instance part="C7" gate="G$1" x="-695.96" y="-35.56" smashed="yes" grouprefs="DECOUPLING">
-<attribute name="NAME" x="-694.436" y="-35.179" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-694.436" y="-40.259" size="1.778" layer="96"/>
-</instance>
-<instance part="C8" gate="G$1" x="-685.8" y="-35.56" smashed="yes" grouprefs="DECOUPLING">
-<attribute name="NAME" x="-684.276" y="-35.179" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-684.276" y="-40.259" size="1.778" layer="96"/>
-</instance>
-<instance part="C9" gate="G$1" x="-675.64" y="-35.56" smashed="yes" grouprefs="DECOUPLING">
-<attribute name="NAME" x="-674.116" y="-35.179" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-674.116" y="-40.259" size="1.778" layer="96"/>
-</instance>
-<instance part="C1" gate="G$1" x="-756.92" y="-35.56" smashed="yes" grouprefs="DECOUPLING">
-<attribute name="NAME" x="-755.396" y="-35.179" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-755.396" y="-40.259" size="1.778" layer="96"/>
-</instance>
-<instance part="LED1" gate="G$1" x="-493.7" y="337.82" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-502.59" y="342.9" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-502.59" y="340.36" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED2" gate="G$1" x="-493.7" y="320.04" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-502.59" y="325.12" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-502.59" y="322.58" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED3" gate="G$1" x="-493.7" y="302.26" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-502.59" y="307.34" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-502.59" y="304.8" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED4" gate="G$1" x="-493.7" y="284.48" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-502.59" y="289.56" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-502.59" y="287.02" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED5" gate="G$1" x="-440.68" y="337.82" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-449.57" y="342.9" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-449.57" y="340.36" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED6" gate="G$1" x="-440.68" y="320.04" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-449.57" y="325.12" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-449.57" y="322.58" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED7" gate="G$1" x="-440.68" y="302.26" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-449.57" y="307.34" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-449.57" y="304.8" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED8" gate="G$1" x="-440.68" y="284.48" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-449.57" y="289.56" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-449.57" y="287.02" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED9" gate="G$1" x="-387.66" y="337.82" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-396.55" y="342.9" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-396.55" y="340.36" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED10" gate="G$1" x="-387.66" y="320.04" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-396.55" y="325.12" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-396.55" y="322.58" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED11" gate="G$1" x="-387.66" y="302.26" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-396.55" y="307.34" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-396.55" y="304.8" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED12" gate="G$1" x="-387.66" y="284.48" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-396.55" y="289.56" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-396.55" y="287.02" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED13" gate="G$1" x="-334.64" y="337.82" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-343.53" y="342.9" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-343.53" y="340.36" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED14" gate="G$1" x="-334.64" y="320.04" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-343.53" y="325.12" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-343.53" y="322.58" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED15" gate="G$1" x="-334.64" y="302.26" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-343.53" y="307.34" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-343.53" y="304.8" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED16" gate="G$1" x="-334.64" y="284.48" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-343.53" y="289.56" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-343.53" y="287.02" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED17" gate="G$1" x="-281.62" y="337.82" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-290.51" y="342.9" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-290.51" y="340.36" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED18" gate="G$1" x="-281.62" y="320.04" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-290.51" y="325.12" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-290.51" y="322.58" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED19" gate="G$1" x="-281.62" y="302.26" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-290.51" y="307.34" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-290.51" y="304.8" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED20" gate="G$1" x="-281.62" y="284.48" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-290.51" y="289.56" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-290.51" y="287.02" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED21" gate="G$1" x="-228.6" y="337.82" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-237.49" y="342.9" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-237.49" y="340.36" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED22" gate="G$1" x="-228.6" y="320.04" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-237.49" y="325.12" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-237.49" y="322.58" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED23" gate="G$1" x="-228.6" y="302.26" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-237.49" y="307.34" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-237.49" y="304.8" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED24" gate="G$1" x="-228.6" y="284.48" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-237.49" y="289.56" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-237.49" y="287.02" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED25" gate="G$1" x="-175.58" y="337.82" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-184.47" y="342.9" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-184.47" y="340.36" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED26" gate="G$1" x="-175.58" y="320.04" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-184.47" y="325.12" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-184.47" y="322.58" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED27" gate="G$1" x="-175.58" y="302.26" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-184.47" y="307.34" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-184.47" y="304.8" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED28" gate="G$1" x="-175.58" y="284.48" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-184.47" y="289.56" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-184.47" y="287.02" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED29" gate="G$1" x="-122.56" y="337.82" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-131.45" y="342.9" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-131.45" y="340.36" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED30" gate="G$1" x="-122.56" y="320.04" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-131.45" y="325.12" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-131.45" y="322.58" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED31" gate="G$1" x="-122.56" y="302.26" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-131.45" y="307.34" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-131.45" y="304.8" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED32" gate="G$1" x="-122.56" y="284.48" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-131.45" y="289.56" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-131.45" y="287.02" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED33" gate="G$1" x="-69.54" y="337.82" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-78.43" y="342.9" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-78.43" y="340.36" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED34" gate="G$1" x="-69.54" y="320.04" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-78.43" y="325.12" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-78.43" y="322.58" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED35" gate="G$1" x="-69.54" y="302.26" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-78.43" y="307.34" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-78.43" y="304.8" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED36" gate="G$1" x="-69.54" y="284.48" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-78.43" y="289.56" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-78.43" y="287.02" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED37" gate="G$1" x="-16.52" y="337.82" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-25.41" y="342.9" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-25.41" y="340.36" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED38" gate="G$1" x="-16.52" y="320.04" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-25.41" y="325.12" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-25.41" y="322.58" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED39" gate="G$1" x="-16.52" y="302.26" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-25.41" y="307.34" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-25.41" y="304.8" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED40" gate="G$1" x="-16.52" y="284.48" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-25.41" y="289.56" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-25.41" y="287.02" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED41" gate="G$1" x="-493.7" y="259.08" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-502.59" y="264.16" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-502.59" y="261.62" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED42" gate="G$1" x="-493.7" y="241.3" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-502.59" y="246.38" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-502.59" y="243.84" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED43" gate="G$1" x="-493.7" y="223.52" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-502.59" y="228.6" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-502.59" y="226.06" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED44" gate="G$1" x="-493.7" y="205.74" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-502.59" y="210.82" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-502.59" y="208.28" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED45" gate="G$1" x="-440.68" y="259.08" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-449.57" y="264.16" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-449.57" y="261.62" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED46" gate="G$1" x="-440.68" y="241.3" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-449.57" y="246.38" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-449.57" y="243.84" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED47" gate="G$1" x="-440.68" y="223.52" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-449.57" y="228.6" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-449.57" y="226.06" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED48" gate="G$1" x="-440.68" y="205.74" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-449.57" y="210.82" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-449.57" y="208.28" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED49" gate="G$1" x="-387.66" y="259.08" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-396.55" y="264.16" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-396.55" y="261.62" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED50" gate="G$1" x="-387.66" y="241.3" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-396.55" y="246.38" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-396.55" y="243.84" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED51" gate="G$1" x="-387.66" y="223.52" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-396.55" y="228.6" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-396.55" y="226.06" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED52" gate="G$1" x="-387.66" y="205.74" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-396.55" y="210.82" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-396.55" y="208.28" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED53" gate="G$1" x="-334.64" y="259.08" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-343.53" y="264.16" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-343.53" y="261.62" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED54" gate="G$1" x="-334.64" y="241.3" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-343.53" y="246.38" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-343.53" y="243.84" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED55" gate="G$1" x="-334.64" y="223.52" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-343.53" y="228.6" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-343.53" y="226.06" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED56" gate="G$1" x="-334.64" y="205.74" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-343.53" y="210.82" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-343.53" y="208.28" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED57" gate="G$1" x="-281.62" y="259.08" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-290.51" y="264.16" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-290.51" y="261.62" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED58" gate="G$1" x="-281.62" y="241.3" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-290.51" y="246.38" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-290.51" y="243.84" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED59" gate="G$1" x="-281.62" y="223.52" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-290.51" y="228.6" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-290.51" y="226.06" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED60" gate="G$1" x="-281.62" y="205.74" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-290.51" y="210.82" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-290.51" y="208.28" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED61" gate="G$1" x="-228.6" y="259.08" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-237.49" y="264.16" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-237.49" y="261.62" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED62" gate="G$1" x="-228.6" y="241.3" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-237.49" y="246.38" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-237.49" y="243.84" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED63" gate="G$1" x="-228.6" y="223.52" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-237.49" y="228.6" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-237.49" y="226.06" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED64" gate="G$1" x="-228.6" y="205.74" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-237.49" y="210.82" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-237.49" y="208.28" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED65" gate="G$1" x="-175.58" y="259.08" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-184.47" y="264.16" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-184.47" y="261.62" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED66" gate="G$1" x="-175.58" y="241.3" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-184.47" y="246.38" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-184.47" y="243.84" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED67" gate="G$1" x="-175.58" y="223.52" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-184.47" y="228.6" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-184.47" y="226.06" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED68" gate="G$1" x="-175.58" y="205.74" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-184.47" y="210.82" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-184.47" y="208.28" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED69" gate="G$1" x="-122.56" y="259.08" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-131.45" y="264.16" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-131.45" y="261.62" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED70" gate="G$1" x="-122.56" y="241.3" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-131.45" y="246.38" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-131.45" y="243.84" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED71" gate="G$1" x="-122.56" y="223.52" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-131.45" y="228.6" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-131.45" y="226.06" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED72" gate="G$1" x="-122.56" y="205.74" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-131.45" y="210.82" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-131.45" y="208.28" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED73" gate="G$1" x="-69.54" y="259.08" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-78.43" y="264.16" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-78.43" y="261.62" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED74" gate="G$1" x="-69.54" y="241.3" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-78.43" y="246.38" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-78.43" y="243.84" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED75" gate="G$1" x="-69.54" y="223.52" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-78.43" y="228.6" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-78.43" y="226.06" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED76" gate="G$1" x="-69.54" y="205.74" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-78.43" y="210.82" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-78.43" y="208.28" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED77" gate="G$1" x="-16.52" y="259.08" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-25.41" y="264.16" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-25.41" y="261.62" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED78" gate="G$1" x="-16.52" y="241.3" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-25.41" y="246.38" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-25.41" y="243.84" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED79" gate="G$1" x="-16.52" y="223.52" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-25.41" y="228.6" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-25.41" y="226.06" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED80" gate="G$1" x="-16.52" y="205.74" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-25.41" y="210.82" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-25.41" y="208.28" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED81" gate="G$1" x="-493.7" y="180.34" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-502.59" y="185.42" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-502.59" y="182.88" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED82" gate="G$1" x="-493.7" y="162.56" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-502.59" y="167.64" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-502.59" y="165.1" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED83" gate="G$1" x="-493.7" y="144.78" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-502.59" y="149.86" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-502.59" y="147.32" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED84" gate="G$1" x="-493.7" y="127" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-502.59" y="132.08" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-502.59" y="129.54" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED85" gate="G$1" x="-440.68" y="180.34" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-449.57" y="185.42" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-449.57" y="182.88" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED86" gate="G$1" x="-440.68" y="162.56" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-449.57" y="167.64" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-449.57" y="165.1" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED87" gate="G$1" x="-440.68" y="144.78" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-449.57" y="149.86" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-449.57" y="147.32" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED88" gate="G$1" x="-440.68" y="127" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-449.57" y="132.08" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-449.57" y="129.54" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED89" gate="G$1" x="-387.66" y="180.34" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-396.55" y="185.42" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-396.55" y="182.88" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED90" gate="G$1" x="-387.66" y="162.56" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-396.55" y="167.64" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-396.55" y="165.1" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED91" gate="G$1" x="-387.66" y="144.78" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-396.55" y="149.86" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-396.55" y="147.32" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED92" gate="G$1" x="-387.66" y="127" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-396.55" y="132.08" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-396.55" y="129.54" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED93" gate="G$1" x="-334.64" y="180.34" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-343.53" y="185.42" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-343.53" y="182.88" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED94" gate="G$1" x="-334.64" y="162.56" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-343.53" y="167.64" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-343.53" y="165.1" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED95" gate="G$1" x="-334.64" y="144.78" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-343.53" y="149.86" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-343.53" y="147.32" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED96" gate="G$1" x="-334.64" y="127" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-343.53" y="132.08" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-343.53" y="129.54" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED97" gate="G$1" x="-281.62" y="180.34" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-290.51" y="185.42" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-290.51" y="182.88" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED98" gate="G$1" x="-281.62" y="162.56" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-290.51" y="167.64" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-290.51" y="165.1" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED99" gate="G$1" x="-281.62" y="144.78" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-290.51" y="149.86" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-290.51" y="147.32" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED100" gate="G$1" x="-281.62" y="127" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-290.51" y="132.08" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-290.51" y="129.54" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED101" gate="G$1" x="-228.6" y="180.34" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-237.49" y="185.42" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-237.49" y="182.88" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED102" gate="G$1" x="-228.6" y="162.56" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-237.49" y="167.64" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-237.49" y="165.1" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED103" gate="G$1" x="-228.6" y="144.78" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-237.49" y="149.86" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-237.49" y="147.32" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED104" gate="G$1" x="-228.6" y="127" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-237.49" y="132.08" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-237.49" y="129.54" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED105" gate="G$1" x="-175.58" y="180.34" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-184.47" y="185.42" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-184.47" y="182.88" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED106" gate="G$1" x="-175.58" y="162.56" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-184.47" y="167.64" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-184.47" y="165.1" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED107" gate="G$1" x="-175.58" y="144.78" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-184.47" y="149.86" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-184.47" y="147.32" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED108" gate="G$1" x="-175.58" y="127" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-184.47" y="132.08" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-184.47" y="129.54" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED109" gate="G$1" x="-122.56" y="180.34" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-131.45" y="185.42" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-131.45" y="182.88" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED110" gate="G$1" x="-122.56" y="162.56" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-131.45" y="167.64" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-131.45" y="165.1" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED111" gate="G$1" x="-122.56" y="144.78" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-131.45" y="149.86" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-131.45" y="147.32" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED112" gate="G$1" x="-122.56" y="127" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-131.45" y="132.08" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-131.45" y="129.54" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED113" gate="G$1" x="-69.54" y="180.34" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-78.43" y="185.42" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-78.43" y="182.88" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED114" gate="G$1" x="-69.54" y="162.56" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-78.43" y="167.64" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-78.43" y="165.1" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED115" gate="G$1" x="-69.54" y="144.78" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-78.43" y="149.86" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-78.43" y="147.32" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED116" gate="G$1" x="-69.54" y="127" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-78.43" y="132.08" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-78.43" y="129.54" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED117" gate="G$1" x="-16.52" y="180.34" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-25.41" y="185.42" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-25.41" y="182.88" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED118" gate="G$1" x="-16.52" y="162.56" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-25.41" y="167.64" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-25.41" y="165.1" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED119" gate="G$1" x="-16.52" y="144.78" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-25.41" y="149.86" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-25.41" y="147.32" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="LED120" gate="G$1" x="-16.52" y="127" smashed="yes" grouprefs="LEDS1">
-<attribute name="NAME" x="-25.41" y="132.08" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-25.41" y="129.54" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="IC1" gate="G$1" x="-459.26" y="566.26" smashed="yes" grouprefs="LED_DRIVERS1">
-<attribute name="NAME" x="-427.51" y="573.88" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-427.51" y="571.34" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="IC2" gate="G$1" x="-345.6" y="566.26" smashed="yes" grouprefs="LED_DRIVERS1">
-<attribute name="NAME" x="-313.85" y="573.88" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-313.85" y="571.34" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="IC3" gate="G$1" x="-229.4" y="566.26" smashed="yes" grouprefs="LED_DRIVERS1">
-<attribute name="NAME" x="-197.65" y="573.88" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-197.65" y="571.34" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="IC4" gate="G$1" x="-115.74" y="566.26" smashed="yes" grouprefs="LED_DRIVERS1">
-<attribute name="NAME" x="-83.99" y="573.88" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-83.99" y="571.34" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="IC5" gate="G$1" x="-459.26" y="464.66" smashed="yes" grouprefs="LED_DRIVERS1">
-<attribute name="NAME" x="-427.51" y="472.28" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-427.51" y="469.74" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="IC6" gate="G$1" x="-345.6" y="464.66" smashed="yes" grouprefs="LED_DRIVERS1">
-<attribute name="NAME" x="-313.85" y="472.28" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-313.85" y="469.74" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="IC7" gate="G$1" x="-229.4" y="464.66" smashed="yes" grouprefs="LED_DRIVERS1">
-<attribute name="NAME" x="-197.65" y="472.28" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-197.65" y="469.74" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="IC8" gate="G$1" x="-115.74" y="464.66" smashed="yes" grouprefs="LED_DRIVERS1">
-<attribute name="NAME" x="-83.99" y="472.28" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-83.99" y="469.74" size="1.778" layer="96" align="center-left"/>
+<instance part="C2" gate="G$1" x="-746.76" y="-25.4" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-745.236" y="-25.019" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-745.236" y="-30.099" size="1.778" layer="96"/>
+</instance>
+<instance part="C3" gate="G$1" x="-736.6" y="-25.4" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-735.076" y="-25.019" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-735.076" y="-30.099" size="1.778" layer="96"/>
+</instance>
+<instance part="C4" gate="G$1" x="-726.44" y="-25.4" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-724.916" y="-25.019" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-724.916" y="-30.099" size="1.778" layer="96"/>
+</instance>
+<instance part="C5" gate="G$1" x="-716.28" y="-25.4" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-714.756" y="-25.019" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-714.756" y="-30.099" size="1.778" layer="96"/>
+</instance>
+<instance part="C6" gate="G$1" x="-706.12" y="-25.4" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-704.596" y="-25.019" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-704.596" y="-30.099" size="1.778" layer="96"/>
+</instance>
+<instance part="C7" gate="G$1" x="-695.96" y="-25.4" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-694.436" y="-25.019" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-694.436" y="-30.099" size="1.778" layer="96"/>
+</instance>
+<instance part="C8" gate="G$1" x="-685.8" y="-25.4" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-684.276" y="-25.019" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-684.276" y="-30.099" size="1.778" layer="96"/>
+</instance>
+<instance part="C1" gate="G$1" x="-756.92" y="-25.4" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-755.396" y="-25.019" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-755.396" y="-30.099" size="1.778" layer="96"/>
+</instance>
+<instance part="LED1" gate="G$1" x="-625.78" y="-190.5" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-634.67" y="-185.42" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-634.67" y="-187.96" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED2" gate="G$1" x="-625.78" y="-208.28" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-634.67" y="-203.2" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-634.67" y="-205.74" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED3" gate="G$1" x="-625.78" y="-226.06" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-634.67" y="-220.98" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-634.67" y="-223.52" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED4" gate="G$1" x="-625.78" y="-243.84" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-634.67" y="-238.76" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-634.67" y="-241.3" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED5" gate="G$1" x="-572.76" y="-190.5" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-581.65" y="-185.42" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-581.65" y="-187.96" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED6" gate="G$1" x="-572.76" y="-208.28" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-581.65" y="-203.2" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-581.65" y="-205.74" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED7" gate="G$1" x="-572.76" y="-226.06" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-581.65" y="-220.98" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-581.65" y="-223.52" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED8" gate="G$1" x="-572.76" y="-243.84" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-581.65" y="-238.76" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-581.65" y="-241.3" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED9" gate="G$1" x="-519.74" y="-190.5" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-528.63" y="-185.42" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-528.63" y="-187.96" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED10" gate="G$1" x="-519.74" y="-208.28" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-528.63" y="-203.2" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-528.63" y="-205.74" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED11" gate="G$1" x="-519.74" y="-226.06" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-528.63" y="-220.98" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-528.63" y="-223.52" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED12" gate="G$1" x="-519.74" y="-243.84" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-528.63" y="-238.76" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-528.63" y="-241.3" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED13" gate="G$1" x="-466.72" y="-190.5" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-475.61" y="-185.42" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-475.61" y="-187.96" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED14" gate="G$1" x="-466.72" y="-208.28" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-475.61" y="-203.2" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-475.61" y="-205.74" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED15" gate="G$1" x="-466.72" y="-226.06" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-475.61" y="-220.98" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-475.61" y="-223.52" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED16" gate="G$1" x="-466.72" y="-243.84" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-475.61" y="-238.76" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-475.61" y="-241.3" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED17" gate="G$1" x="-413.7" y="-190.5" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-422.59" y="-185.42" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-422.59" y="-187.96" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED18" gate="G$1" x="-413.7" y="-208.28" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-422.59" y="-203.2" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-422.59" y="-205.74" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED19" gate="G$1" x="-413.7" y="-226.06" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-422.59" y="-220.98" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-422.59" y="-223.52" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED20" gate="G$1" x="-413.7" y="-243.84" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-422.59" y="-238.76" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-422.59" y="-241.3" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED21" gate="G$1" x="-360.68" y="-190.5" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-369.57" y="-185.42" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-369.57" y="-187.96" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED22" gate="G$1" x="-360.68" y="-208.28" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-369.57" y="-203.2" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-369.57" y="-205.74" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED23" gate="G$1" x="-360.68" y="-226.06" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-369.57" y="-220.98" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-369.57" y="-223.52" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED24" gate="G$1" x="-360.68" y="-243.84" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-369.57" y="-238.76" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-369.57" y="-241.3" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED25" gate="G$1" x="-307.66" y="-190.5" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-316.55" y="-185.42" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-316.55" y="-187.96" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED26" gate="G$1" x="-307.66" y="-208.28" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-316.55" y="-203.2" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-316.55" y="-205.74" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED27" gate="G$1" x="-307.66" y="-226.06" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-316.55" y="-220.98" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-316.55" y="-223.52" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED28" gate="G$1" x="-307.66" y="-243.84" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-316.55" y="-238.76" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-316.55" y="-241.3" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED29" gate="G$1" x="-254.64" y="-190.5" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-263.53" y="-185.42" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-263.53" y="-187.96" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED30" gate="G$1" x="-254.64" y="-208.28" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-263.53" y="-203.2" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-263.53" y="-205.74" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED31" gate="G$1" x="-254.64" y="-226.06" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-263.53" y="-220.98" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-263.53" y="-223.52" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED32" gate="G$1" x="-254.64" y="-243.84" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-263.53" y="-238.76" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-263.53" y="-241.3" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED33" gate="G$1" x="-201.62" y="-190.5" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-210.51" y="-185.42" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-210.51" y="-187.96" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED34" gate="G$1" x="-201.62" y="-208.28" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-210.51" y="-203.2" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-210.51" y="-205.74" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED35" gate="G$1" x="-201.62" y="-226.06" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-210.51" y="-220.98" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-210.51" y="-223.52" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED36" gate="G$1" x="-201.62" y="-243.84" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-210.51" y="-238.76" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-210.51" y="-241.3" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED37" gate="G$1" x="-148.6" y="-190.5" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-157.49" y="-185.42" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-157.49" y="-187.96" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED38" gate="G$1" x="-148.6" y="-208.28" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-157.49" y="-203.2" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-157.49" y="-205.74" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED39" gate="G$1" x="-148.6" y="-226.06" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-157.49" y="-220.98" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-157.49" y="-223.52" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED40" gate="G$1" x="-148.6" y="-243.84" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-157.49" y="-238.76" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-157.49" y="-241.3" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED41" gate="G$1" x="-625.78" y="-269.24" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-634.67" y="-264.16" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-634.67" y="-266.7" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED42" gate="G$1" x="-625.78" y="-287.02" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-634.67" y="-281.94" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-634.67" y="-284.48" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED43" gate="G$1" x="-625.78" y="-304.8" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-634.67" y="-299.72" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-634.67" y="-302.26" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED44" gate="G$1" x="-625.78" y="-322.58" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-634.67" y="-317.5" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-634.67" y="-320.04" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED45" gate="G$1" x="-572.76" y="-269.24" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-581.65" y="-264.16" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-581.65" y="-266.7" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED46" gate="G$1" x="-572.76" y="-287.02" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-581.65" y="-281.94" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-581.65" y="-284.48" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED47" gate="G$1" x="-572.76" y="-304.8" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-581.65" y="-299.72" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-581.65" y="-302.26" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED48" gate="G$1" x="-572.76" y="-322.58" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-581.65" y="-317.5" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-581.65" y="-320.04" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED49" gate="G$1" x="-519.74" y="-269.24" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-528.63" y="-264.16" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-528.63" y="-266.7" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED50" gate="G$1" x="-519.74" y="-287.02" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-528.63" y="-281.94" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-528.63" y="-284.48" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED51" gate="G$1" x="-519.74" y="-304.8" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-528.63" y="-299.72" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-528.63" y="-302.26" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED52" gate="G$1" x="-519.74" y="-322.58" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-528.63" y="-317.5" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-528.63" y="-320.04" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED53" gate="G$1" x="-466.72" y="-269.24" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-475.61" y="-264.16" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-475.61" y="-266.7" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED54" gate="G$1" x="-466.72" y="-287.02" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-475.61" y="-281.94" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-475.61" y="-284.48" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED55" gate="G$1" x="-466.72" y="-304.8" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-475.61" y="-299.72" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-475.61" y="-302.26" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED56" gate="G$1" x="-466.72" y="-322.58" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-475.61" y="-317.5" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-475.61" y="-320.04" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED57" gate="G$1" x="-413.7" y="-269.24" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-422.59" y="-264.16" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-422.59" y="-266.7" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED58" gate="G$1" x="-413.7" y="-287.02" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-422.59" y="-281.94" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-422.59" y="-284.48" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED59" gate="G$1" x="-413.7" y="-304.8" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-422.59" y="-299.72" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-422.59" y="-302.26" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED60" gate="G$1" x="-413.7" y="-322.58" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-422.59" y="-317.5" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-422.59" y="-320.04" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED61" gate="G$1" x="-360.68" y="-269.24" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-369.57" y="-264.16" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-369.57" y="-266.7" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED62" gate="G$1" x="-360.68" y="-287.02" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-369.57" y="-281.94" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-369.57" y="-284.48" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED63" gate="G$1" x="-360.68" y="-304.8" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-369.57" y="-299.72" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-369.57" y="-302.26" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED64" gate="G$1" x="-360.68" y="-322.58" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-369.57" y="-317.5" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-369.57" y="-320.04" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED65" gate="G$1" x="-307.66" y="-269.24" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-316.55" y="-264.16" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-316.55" y="-266.7" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED66" gate="G$1" x="-307.66" y="-287.02" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-316.55" y="-281.94" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-316.55" y="-284.48" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED67" gate="G$1" x="-307.66" y="-304.8" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-316.55" y="-299.72" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-316.55" y="-302.26" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED68" gate="G$1" x="-307.66" y="-322.58" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-316.55" y="-317.5" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-316.55" y="-320.04" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED69" gate="G$1" x="-254.64" y="-269.24" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-263.53" y="-264.16" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-263.53" y="-266.7" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED70" gate="G$1" x="-254.64" y="-287.02" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-263.53" y="-281.94" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-263.53" y="-284.48" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED71" gate="G$1" x="-254.64" y="-304.8" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-263.53" y="-299.72" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-263.53" y="-302.26" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED72" gate="G$1" x="-254.64" y="-322.58" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-263.53" y="-317.5" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-263.53" y="-320.04" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED73" gate="G$1" x="-201.62" y="-269.24" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-210.51" y="-264.16" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-210.51" y="-266.7" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED74" gate="G$1" x="-201.62" y="-287.02" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-210.51" y="-281.94" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-210.51" y="-284.48" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED75" gate="G$1" x="-201.62" y="-304.8" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-210.51" y="-299.72" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-210.51" y="-302.26" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED76" gate="G$1" x="-201.62" y="-322.58" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-210.51" y="-317.5" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-210.51" y="-320.04" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED77" gate="G$1" x="-148.6" y="-269.24" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-157.49" y="-264.16" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-157.49" y="-266.7" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED78" gate="G$1" x="-148.6" y="-287.02" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-157.49" y="-281.94" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-157.49" y="-284.48" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED79" gate="G$1" x="-148.6" y="-304.8" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-157.49" y="-299.72" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-157.49" y="-302.26" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED80" gate="G$1" x="-148.6" y="-322.58" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-157.49" y="-317.5" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-157.49" y="-320.04" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED81" gate="G$1" x="-625.78" y="-347.98" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-634.67" y="-342.9" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-634.67" y="-345.44" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED82" gate="G$1" x="-625.78" y="-365.76" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-634.67" y="-360.68" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-634.67" y="-363.22" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED83" gate="G$1" x="-625.78" y="-383.54" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-634.67" y="-378.46" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-634.67" y="-381" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED84" gate="G$1" x="-625.78" y="-401.32" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-634.67" y="-396.24" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-634.67" y="-398.78" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED85" gate="G$1" x="-572.76" y="-347.98" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-581.65" y="-342.9" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-581.65" y="-345.44" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED86" gate="G$1" x="-572.76" y="-365.76" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-581.65" y="-360.68" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-581.65" y="-363.22" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED87" gate="G$1" x="-572.76" y="-383.54" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-581.65" y="-378.46" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-581.65" y="-381" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED88" gate="G$1" x="-572.76" y="-401.32" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-581.65" y="-396.24" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-581.65" y="-398.78" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED89" gate="G$1" x="-519.74" y="-347.98" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-528.63" y="-342.9" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-528.63" y="-345.44" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED90" gate="G$1" x="-519.74" y="-365.76" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-528.63" y="-360.68" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-528.63" y="-363.22" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED91" gate="G$1" x="-519.74" y="-383.54" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-528.63" y="-378.46" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-528.63" y="-381" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED92" gate="G$1" x="-519.74" y="-401.32" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-528.63" y="-396.24" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-528.63" y="-398.78" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED93" gate="G$1" x="-466.72" y="-347.98" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-475.61" y="-342.9" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-475.61" y="-345.44" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED94" gate="G$1" x="-466.72" y="-365.76" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-475.61" y="-360.68" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-475.61" y="-363.22" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED95" gate="G$1" x="-466.72" y="-383.54" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-475.61" y="-378.46" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-475.61" y="-381" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED96" gate="G$1" x="-466.72" y="-401.32" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-475.61" y="-396.24" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-475.61" y="-398.78" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED97" gate="G$1" x="-413.7" y="-347.98" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-422.59" y="-342.9" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-422.59" y="-345.44" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED98" gate="G$1" x="-413.7" y="-365.76" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-422.59" y="-360.68" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-422.59" y="-363.22" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED99" gate="G$1" x="-413.7" y="-383.54" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-422.59" y="-378.46" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-422.59" y="-381" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED100" gate="G$1" x="-413.7" y="-401.32" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-422.59" y="-396.24" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-422.59" y="-398.78" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED101" gate="G$1" x="-360.68" y="-347.98" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-369.57" y="-342.9" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-369.57" y="-345.44" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED102" gate="G$1" x="-360.68" y="-365.76" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-369.57" y="-360.68" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-369.57" y="-363.22" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED103" gate="G$1" x="-360.68" y="-383.54" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-369.57" y="-378.46" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-369.57" y="-381" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED104" gate="G$1" x="-360.68" y="-401.32" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-369.57" y="-396.24" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-369.57" y="-398.78" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED105" gate="G$1" x="-307.66" y="-347.98" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-316.55" y="-342.9" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-316.55" y="-345.44" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED106" gate="G$1" x="-307.66" y="-365.76" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-316.55" y="-360.68" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-316.55" y="-363.22" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED107" gate="G$1" x="-307.66" y="-383.54" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-316.55" y="-378.46" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-316.55" y="-381" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED108" gate="G$1" x="-307.66" y="-401.32" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-316.55" y="-396.24" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-316.55" y="-398.78" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED109" gate="G$1" x="-254.64" y="-347.98" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-263.53" y="-342.9" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-263.53" y="-345.44" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED110" gate="G$1" x="-254.64" y="-365.76" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-263.53" y="-360.68" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-263.53" y="-363.22" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED111" gate="G$1" x="-254.64" y="-383.54" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-263.53" y="-378.46" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-263.53" y="-381" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED112" gate="G$1" x="-254.64" y="-401.32" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-263.53" y="-396.24" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-263.53" y="-398.78" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED113" gate="G$1" x="-201.62" y="-347.98" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-210.51" y="-342.9" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-210.51" y="-345.44" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED114" gate="G$1" x="-201.62" y="-365.76" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-210.51" y="-360.68" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-210.51" y="-363.22" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED115" gate="G$1" x="-201.62" y="-383.54" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-210.51" y="-378.46" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-210.51" y="-381" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED116" gate="G$1" x="-201.62" y="-401.32" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-210.51" y="-396.24" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-210.51" y="-398.78" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED117" gate="G$1" x="-148.6" y="-347.98" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-157.49" y="-342.9" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-157.49" y="-345.44" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED118" gate="G$1" x="-148.6" y="-365.76" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-157.49" y="-360.68" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-157.49" y="-363.22" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED119" gate="G$1" x="-148.6" y="-383.54" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-157.49" y="-378.46" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-157.49" y="-381" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="LED120" gate="G$1" x="-148.6" y="-401.32" smashed="yes" grouprefs="LEDS1">
+<attribute name="NAME" x="-157.49" y="-396.24" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-157.49" y="-398.78" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="C2B" gate="G$1" x="-746.76" y="-38.1" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-745.236" y="-37.719" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-745.236" y="-42.799" size="1.778" layer="96"/>
+</instance>
+<instance part="C3B" gate="G$1" x="-736.6" y="-38.1" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-735.076" y="-37.719" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-735.076" y="-42.799" size="1.778" layer="96"/>
+</instance>
+<instance part="C4B" gate="G$1" x="-726.44" y="-38.1" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-724.916" y="-37.719" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-724.916" y="-42.799" size="1.778" layer="96"/>
+</instance>
+<instance part="C5B" gate="G$1" x="-716.28" y="-38.1" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-714.756" y="-37.719" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-714.756" y="-42.799" size="1.778" layer="96"/>
+</instance>
+<instance part="C6B" gate="G$1" x="-706.12" y="-38.1" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-704.596" y="-37.719" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-704.596" y="-42.799" size="1.778" layer="96"/>
+</instance>
+<instance part="C7B" gate="G$1" x="-695.96" y="-38.1" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-694.436" y="-37.719" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-694.436" y="-42.799" size="1.778" layer="96"/>
+</instance>
+<instance part="C8B" gate="G$1" x="-685.8" y="-38.1" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-684.276" y="-37.719" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-684.276" y="-42.799" size="1.778" layer="96"/>
+</instance>
+<instance part="C1B" gate="G$1" x="-756.92" y="-38.1" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-755.396" y="-37.719" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-755.396" y="-42.799" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -5640,9 +5671,1135 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlc5955.pdf"&gt; Datasheet 
 <nets>
 <net name="3V3" class="0">
 <segment>
-<pinref part="SV1" gate="1" pin="9"/>
-<wire x1="-723.9" y1="10.16" x2="-734.06" y2="10.16" width="0.1524" layer="91"/>
-<label x="-734.06" y="10.16" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="VCC"/>
+<wire x1="-573.56" y1="50.64" x2="-543.4" y2="50.64" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-551.02" y="50.64" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="VCC"/>
+<wire x1="-459.9" y1="50.64" x2="-429.74" y2="50.64" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-437.36" y="50.64" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="VCC"/>
+<wire x1="-343.7" y1="50.64" x2="-313.54" y2="50.64" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-321.16" y="50.64" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="G$1" pin="VCC"/>
+<wire x1="-230.04" y1="50.64" x2="-199.88" y2="50.64" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-207.5" y="50.64" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="VCC"/>
+<wire x1="-573.56" y1="-50.96" x2="-543.4" y2="-50.96" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-551.02" y="-50.96" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC6" gate="G$1" pin="VCC"/>
+<wire x1="-459.9" y1="-50.96" x2="-429.74" y2="-50.96" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-437.36" y="-50.96" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC7" gate="G$1" pin="VCC"/>
+<wire x1="-343.7" y1="-50.96" x2="-313.54" y2="-50.96" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-321.16" y="-50.96" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC8" gate="G$1" pin="VCC"/>
+<wire x1="-230.04" y1="-50.96" x2="-199.88" y2="-50.96" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-207.5" y="-50.96" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="-756.92" y1="-22.86" x2="-746.76" y2="-22.86" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="-746.76" y1="-22.86" x2="-736.6" y2="-22.86" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-746.76" y="-22.86" grouprefs="DECOUPLING"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="-736.6" y1="-22.86" x2="-726.44" y2="-22.86" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-736.6" y="-22.86" grouprefs="DECOUPLING"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="-726.44" y1="-22.86" x2="-716.28" y2="-22.86" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-726.44" y="-22.86" grouprefs="DECOUPLING"/>
+<pinref part="C6" gate="G$1" pin="1"/>
+<wire x1="-716.28" y1="-22.86" x2="-706.12" y2="-22.86" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-716.28" y="-22.86" grouprefs="DECOUPLING"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="-706.12" y1="-22.86" x2="-695.96" y2="-22.86" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-706.12" y="-22.86" grouprefs="DECOUPLING"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="-695.96" y1="-22.86" x2="-685.8" y2="-22.86" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-695.96" y="-22.86" grouprefs="DECOUPLING"/>
+<wire x1="-756.92" y1="-22.86" x2="-764.54" y2="-22.86" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-756.92" y="-22.86" grouprefs="DECOUPLING"/>
+<label x="-764.54" y="-22.86" size="1.778" layer="95" grouprefs="DECOUPLING"/>
+</segment>
+<segment>
+<pinref part="LED1" gate="G$1" pin="COM"/>
+<wire x1="-625.78" y1="-190.5" x2="-630.86" y2="-190.5" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-630.86" y="-193.04" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED2" gate="G$1" pin="COM"/>
+<wire x1="-625.78" y1="-208.28" x2="-630.86" y2="-208.28" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-630.86" y="-210.82" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED3" gate="G$1" pin="COM"/>
+<wire x1="-625.78" y1="-226.06" x2="-630.86" y2="-226.06" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-630.86" y="-228.6" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED4" gate="G$1" pin="COM"/>
+<wire x1="-625.78" y1="-243.84" x2="-630.86" y2="-243.84" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-630.86" y="-246.38" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED5" gate="G$1" pin="COM"/>
+<wire x1="-572.76" y1="-190.5" x2="-577.84" y2="-190.5" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-577.84" y="-193.04" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED6" gate="G$1" pin="COM"/>
+<wire x1="-572.76" y1="-208.28" x2="-577.84" y2="-208.28" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-577.84" y="-210.82" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED7" gate="G$1" pin="COM"/>
+<wire x1="-572.76" y1="-226.06" x2="-577.84" y2="-226.06" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-577.84" y="-228.6" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED8" gate="G$1" pin="COM"/>
+<wire x1="-572.76" y1="-243.84" x2="-577.84" y2="-243.84" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-577.84" y="-246.38" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED9" gate="G$1" pin="COM"/>
+<wire x1="-519.74" y1="-190.5" x2="-524.82" y2="-190.5" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-524.82" y="-193.04" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED10" gate="G$1" pin="COM"/>
+<wire x1="-519.74" y1="-208.28" x2="-524.82" y2="-208.28" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-524.82" y="-210.82" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED11" gate="G$1" pin="COM"/>
+<wire x1="-519.74" y1="-226.06" x2="-524.82" y2="-226.06" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-524.82" y="-228.6" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED12" gate="G$1" pin="COM"/>
+<wire x1="-519.74" y1="-243.84" x2="-524.82" y2="-243.84" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-524.82" y="-246.38" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED13" gate="G$1" pin="COM"/>
+<wire x1="-466.72" y1="-190.5" x2="-471.8" y2="-190.5" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-471.8" y="-193.04" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED14" gate="G$1" pin="COM"/>
+<wire x1="-466.72" y1="-208.28" x2="-471.8" y2="-208.28" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-471.8" y="-210.82" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED15" gate="G$1" pin="COM"/>
+<wire x1="-466.72" y1="-226.06" x2="-471.8" y2="-226.06" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-471.8" y="-228.6" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED16" gate="G$1" pin="COM"/>
+<wire x1="-466.72" y1="-243.84" x2="-471.8" y2="-243.84" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-471.8" y="-246.38" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED17" gate="G$1" pin="COM"/>
+<wire x1="-413.7" y1="-190.5" x2="-418.78" y2="-190.5" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-418.78" y="-193.04" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED18" gate="G$1" pin="COM"/>
+<wire x1="-413.7" y1="-208.28" x2="-418.78" y2="-208.28" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-418.78" y="-210.82" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED19" gate="G$1" pin="COM"/>
+<wire x1="-413.7" y1="-226.06" x2="-418.78" y2="-226.06" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-418.78" y="-228.6" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED20" gate="G$1" pin="COM"/>
+<wire x1="-413.7" y1="-243.84" x2="-418.78" y2="-243.84" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-418.78" y="-246.38" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED21" gate="G$1" pin="COM"/>
+<wire x1="-360.68" y1="-190.5" x2="-365.76" y2="-190.5" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-365.76" y="-193.04" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED22" gate="G$1" pin="COM"/>
+<wire x1="-360.68" y1="-208.28" x2="-365.76" y2="-208.28" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-365.76" y="-210.82" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED23" gate="G$1" pin="COM"/>
+<wire x1="-360.68" y1="-226.06" x2="-365.76" y2="-226.06" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-365.76" y="-228.6" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED24" gate="G$1" pin="COM"/>
+<wire x1="-360.68" y1="-243.84" x2="-365.76" y2="-243.84" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-365.76" y="-246.38" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED25" gate="G$1" pin="COM"/>
+<wire x1="-307.66" y1="-190.5" x2="-312.74" y2="-190.5" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-312.74" y="-193.04" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED26" gate="G$1" pin="COM"/>
+<wire x1="-307.66" y1="-208.28" x2="-312.74" y2="-208.28" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-312.74" y="-210.82" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED27" gate="G$1" pin="COM"/>
+<wire x1="-307.66" y1="-226.06" x2="-312.74" y2="-226.06" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-312.74" y="-228.6" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED28" gate="G$1" pin="COM"/>
+<wire x1="-307.66" y1="-243.84" x2="-312.74" y2="-243.84" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-312.74" y="-246.38" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED29" gate="G$1" pin="COM"/>
+<wire x1="-254.64" y1="-190.5" x2="-259.72" y2="-190.5" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-259.72" y="-193.04" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED30" gate="G$1" pin="COM"/>
+<wire x1="-254.64" y1="-208.28" x2="-259.72" y2="-208.28" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-259.72" y="-210.82" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED31" gate="G$1" pin="COM"/>
+<wire x1="-254.64" y1="-226.06" x2="-259.72" y2="-226.06" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-259.72" y="-228.6" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED32" gate="G$1" pin="COM"/>
+<wire x1="-254.64" y1="-243.84" x2="-259.72" y2="-243.84" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-259.72" y="-246.38" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED33" gate="G$1" pin="COM"/>
+<wire x1="-201.62" y1="-190.5" x2="-206.7" y2="-190.5" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-206.7" y="-193.04" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED34" gate="G$1" pin="COM"/>
+<wire x1="-201.62" y1="-208.28" x2="-206.7" y2="-208.28" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-206.7" y="-210.82" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED35" gate="G$1" pin="COM"/>
+<wire x1="-201.62" y1="-226.06" x2="-206.7" y2="-226.06" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-206.7" y="-228.6" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED36" gate="G$1" pin="COM"/>
+<wire x1="-201.62" y1="-243.84" x2="-206.7" y2="-243.84" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-206.7" y="-246.38" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED37" gate="G$1" pin="COM"/>
+<wire x1="-148.6" y1="-190.5" x2="-153.68" y2="-190.5" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-153.68" y="-193.04" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED38" gate="G$1" pin="COM"/>
+<wire x1="-148.6" y1="-208.28" x2="-153.68" y2="-208.28" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-153.68" y="-210.82" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED39" gate="G$1" pin="COM"/>
+<wire x1="-148.6" y1="-226.06" x2="-153.68" y2="-226.06" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-153.68" y="-228.6" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED40" gate="G$1" pin="COM"/>
+<wire x1="-148.6" y1="-243.84" x2="-153.68" y2="-243.84" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-153.68" y="-246.38" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED41" gate="G$1" pin="COM"/>
+<wire x1="-625.78" y1="-269.24" x2="-630.86" y2="-269.24" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-630.86" y="-271.78" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED42" gate="G$1" pin="COM"/>
+<wire x1="-625.78" y1="-287.02" x2="-630.86" y2="-287.02" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-630.86" y="-289.56" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED43" gate="G$1" pin="COM"/>
+<wire x1="-625.78" y1="-304.8" x2="-630.86" y2="-304.8" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-630.86" y="-307.34" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED44" gate="G$1" pin="COM"/>
+<wire x1="-625.78" y1="-322.58" x2="-630.86" y2="-322.58" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-630.86" y="-325.12" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED45" gate="G$1" pin="COM"/>
+<wire x1="-572.76" y1="-269.24" x2="-577.84" y2="-269.24" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-577.84" y="-271.78" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED46" gate="G$1" pin="COM"/>
+<wire x1="-572.76" y1="-287.02" x2="-577.84" y2="-287.02" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-577.84" y="-289.56" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED47" gate="G$1" pin="COM"/>
+<wire x1="-572.76" y1="-304.8" x2="-577.84" y2="-304.8" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-577.84" y="-307.34" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED48" gate="G$1" pin="COM"/>
+<wire x1="-572.76" y1="-322.58" x2="-577.84" y2="-322.58" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-577.84" y="-325.12" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED49" gate="G$1" pin="COM"/>
+<wire x1="-519.74" y1="-269.24" x2="-524.82" y2="-269.24" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-524.82" y="-271.78" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED50" gate="G$1" pin="COM"/>
+<wire x1="-519.74" y1="-287.02" x2="-524.82" y2="-287.02" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-524.82" y="-289.56" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED51" gate="G$1" pin="COM"/>
+<wire x1="-519.74" y1="-304.8" x2="-524.82" y2="-304.8" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-524.82" y="-307.34" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED52" gate="G$1" pin="COM"/>
+<wire x1="-519.74" y1="-322.58" x2="-524.82" y2="-322.58" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-524.82" y="-325.12" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED53" gate="G$1" pin="COM"/>
+<wire x1="-466.72" y1="-269.24" x2="-471.8" y2="-269.24" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-471.8" y="-271.78" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED54" gate="G$1" pin="COM"/>
+<wire x1="-466.72" y1="-287.02" x2="-471.8" y2="-287.02" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-471.8" y="-289.56" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED55" gate="G$1" pin="COM"/>
+<wire x1="-466.72" y1="-304.8" x2="-471.8" y2="-304.8" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-471.8" y="-307.34" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED56" gate="G$1" pin="COM"/>
+<wire x1="-466.72" y1="-322.58" x2="-471.8" y2="-322.58" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-471.8" y="-325.12" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED57" gate="G$1" pin="COM"/>
+<wire x1="-413.7" y1="-269.24" x2="-418.78" y2="-269.24" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-418.78" y="-271.78" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED58" gate="G$1" pin="COM"/>
+<wire x1="-413.7" y1="-287.02" x2="-418.78" y2="-287.02" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-418.78" y="-289.56" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED59" gate="G$1" pin="COM"/>
+<wire x1="-413.7" y1="-304.8" x2="-418.78" y2="-304.8" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-418.78" y="-307.34" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED60" gate="G$1" pin="COM"/>
+<wire x1="-413.7" y1="-322.58" x2="-418.78" y2="-322.58" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-418.78" y="-325.12" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED61" gate="G$1" pin="COM"/>
+<wire x1="-360.68" y1="-269.24" x2="-365.76" y2="-269.24" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-365.76" y="-271.78" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED62" gate="G$1" pin="COM"/>
+<wire x1="-360.68" y1="-287.02" x2="-365.76" y2="-287.02" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-365.76" y="-289.56" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED63" gate="G$1" pin="COM"/>
+<wire x1="-360.68" y1="-304.8" x2="-365.76" y2="-304.8" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-365.76" y="-307.34" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED64" gate="G$1" pin="COM"/>
+<wire x1="-360.68" y1="-322.58" x2="-365.76" y2="-322.58" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-365.76" y="-325.12" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED65" gate="G$1" pin="COM"/>
+<wire x1="-307.66" y1="-269.24" x2="-312.74" y2="-269.24" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-312.74" y="-271.78" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED66" gate="G$1" pin="COM"/>
+<wire x1="-307.66" y1="-287.02" x2="-312.74" y2="-287.02" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-312.74" y="-289.56" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED67" gate="G$1" pin="COM"/>
+<wire x1="-307.66" y1="-304.8" x2="-312.74" y2="-304.8" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-312.74" y="-307.34" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED68" gate="G$1" pin="COM"/>
+<wire x1="-307.66" y1="-322.58" x2="-312.74" y2="-322.58" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-312.74" y="-325.12" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED69" gate="G$1" pin="COM"/>
+<wire x1="-254.64" y1="-269.24" x2="-259.72" y2="-269.24" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-259.72" y="-271.78" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED70" gate="G$1" pin="COM"/>
+<wire x1="-254.64" y1="-287.02" x2="-259.72" y2="-287.02" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-259.72" y="-289.56" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED71" gate="G$1" pin="COM"/>
+<wire x1="-254.64" y1="-304.8" x2="-259.72" y2="-304.8" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-259.72" y="-307.34" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED72" gate="G$1" pin="COM"/>
+<wire x1="-254.64" y1="-322.58" x2="-259.72" y2="-322.58" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-259.72" y="-325.12" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED73" gate="G$1" pin="COM"/>
+<wire x1="-201.62" y1="-269.24" x2="-206.7" y2="-269.24" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-206.7" y="-271.78" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED74" gate="G$1" pin="COM"/>
+<wire x1="-201.62" y1="-287.02" x2="-206.7" y2="-287.02" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-206.7" y="-289.56" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED75" gate="G$1" pin="COM"/>
+<wire x1="-201.62" y1="-304.8" x2="-206.7" y2="-304.8" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-206.7" y="-307.34" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED76" gate="G$1" pin="COM"/>
+<wire x1="-201.62" y1="-322.58" x2="-206.7" y2="-322.58" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-206.7" y="-325.12" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED77" gate="G$1" pin="COM"/>
+<wire x1="-148.6" y1="-269.24" x2="-153.68" y2="-269.24" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-153.68" y="-271.78" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED78" gate="G$1" pin="COM"/>
+<wire x1="-148.6" y1="-287.02" x2="-153.68" y2="-287.02" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-153.68" y="-289.56" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED79" gate="G$1" pin="COM"/>
+<wire x1="-148.6" y1="-304.8" x2="-153.68" y2="-304.8" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-153.68" y="-307.34" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED80" gate="G$1" pin="COM"/>
+<wire x1="-148.6" y1="-322.58" x2="-153.68" y2="-322.58" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-153.68" y="-325.12" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED81" gate="G$1" pin="COM"/>
+<wire x1="-625.78" y1="-347.98" x2="-630.86" y2="-347.98" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-630.86" y="-350.52" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED82" gate="G$1" pin="COM"/>
+<wire x1="-625.78" y1="-365.76" x2="-630.86" y2="-365.76" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-630.86" y="-368.3" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED83" gate="G$1" pin="COM"/>
+<wire x1="-625.78" y1="-383.54" x2="-630.86" y2="-383.54" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-630.86" y="-386.08" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED84" gate="G$1" pin="COM"/>
+<wire x1="-625.78" y1="-401.32" x2="-630.86" y2="-401.32" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-630.86" y="-403.86" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED85" gate="G$1" pin="COM"/>
+<wire x1="-572.76" y1="-347.98" x2="-577.84" y2="-347.98" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-577.84" y="-350.52" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED86" gate="G$1" pin="COM"/>
+<wire x1="-572.76" y1="-365.76" x2="-577.84" y2="-365.76" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-577.84" y="-368.3" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED87" gate="G$1" pin="COM"/>
+<wire x1="-572.76" y1="-383.54" x2="-577.84" y2="-383.54" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-577.84" y="-386.08" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED88" gate="G$1" pin="COM"/>
+<wire x1="-572.76" y1="-401.32" x2="-577.84" y2="-401.32" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-577.84" y="-403.86" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED89" gate="G$1" pin="COM"/>
+<wire x1="-519.74" y1="-347.98" x2="-524.82" y2="-347.98" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-524.82" y="-350.52" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED90" gate="G$1" pin="COM"/>
+<wire x1="-519.74" y1="-365.76" x2="-524.82" y2="-365.76" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-524.82" y="-368.3" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED91" gate="G$1" pin="COM"/>
+<wire x1="-519.74" y1="-383.54" x2="-524.82" y2="-383.54" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-524.82" y="-386.08" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED92" gate="G$1" pin="COM"/>
+<wire x1="-519.74" y1="-401.32" x2="-524.82" y2="-401.32" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-524.82" y="-403.86" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED93" gate="G$1" pin="COM"/>
+<wire x1="-466.72" y1="-347.98" x2="-471.8" y2="-347.98" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-471.8" y="-350.52" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED94" gate="G$1" pin="COM"/>
+<wire x1="-466.72" y1="-365.76" x2="-471.8" y2="-365.76" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-471.8" y="-368.3" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED95" gate="G$1" pin="COM"/>
+<wire x1="-466.72" y1="-383.54" x2="-471.8" y2="-383.54" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-471.8" y="-386.08" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED96" gate="G$1" pin="COM"/>
+<wire x1="-466.72" y1="-401.32" x2="-471.8" y2="-401.32" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-471.8" y="-403.86" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED97" gate="G$1" pin="COM"/>
+<wire x1="-413.7" y1="-347.98" x2="-418.78" y2="-347.98" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-418.78" y="-350.52" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED98" gate="G$1" pin="COM"/>
+<wire x1="-413.7" y1="-365.76" x2="-418.78" y2="-365.76" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-418.78" y="-368.3" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED99" gate="G$1" pin="COM"/>
+<wire x1="-413.7" y1="-383.54" x2="-418.78" y2="-383.54" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-418.78" y="-386.08" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED100" gate="G$1" pin="COM"/>
+<wire x1="-413.7" y1="-401.32" x2="-418.78" y2="-401.32" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-418.78" y="-403.86" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED101" gate="G$1" pin="COM"/>
+<wire x1="-360.68" y1="-347.98" x2="-365.76" y2="-347.98" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-365.76" y="-350.52" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED102" gate="G$1" pin="COM"/>
+<wire x1="-360.68" y1="-365.76" x2="-365.76" y2="-365.76" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-365.76" y="-368.3" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED103" gate="G$1" pin="COM"/>
+<wire x1="-360.68" y1="-383.54" x2="-365.76" y2="-383.54" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-365.76" y="-386.08" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED104" gate="G$1" pin="COM"/>
+<wire x1="-360.68" y1="-401.32" x2="-365.76" y2="-401.32" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-365.76" y="-403.86" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED105" gate="G$1" pin="COM"/>
+<wire x1="-307.66" y1="-347.98" x2="-312.74" y2="-347.98" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-312.74" y="-350.52" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED106" gate="G$1" pin="COM"/>
+<wire x1="-307.66" y1="-365.76" x2="-312.74" y2="-365.76" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-312.74" y="-368.3" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED107" gate="G$1" pin="COM"/>
+<wire x1="-307.66" y1="-383.54" x2="-312.74" y2="-383.54" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-312.74" y="-386.08" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED108" gate="G$1" pin="COM"/>
+<wire x1="-307.66" y1="-401.32" x2="-312.74" y2="-401.32" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-312.74" y="-403.86" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED109" gate="G$1" pin="COM"/>
+<wire x1="-254.64" y1="-347.98" x2="-259.72" y2="-347.98" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-259.72" y="-350.52" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED110" gate="G$1" pin="COM"/>
+<wire x1="-254.64" y1="-365.76" x2="-259.72" y2="-365.76" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-259.72" y="-368.3" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED111" gate="G$1" pin="COM"/>
+<wire x1="-254.64" y1="-383.54" x2="-259.72" y2="-383.54" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-259.72" y="-386.08" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED112" gate="G$1" pin="COM"/>
+<wire x1="-254.64" y1="-401.32" x2="-259.72" y2="-401.32" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-259.72" y="-403.86" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED113" gate="G$1" pin="COM"/>
+<wire x1="-201.62" y1="-347.98" x2="-206.7" y2="-347.98" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-206.7" y="-350.52" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED114" gate="G$1" pin="COM"/>
+<wire x1="-201.62" y1="-365.76" x2="-206.7" y2="-365.76" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-206.7" y="-368.3" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED115" gate="G$1" pin="COM"/>
+<wire x1="-201.62" y1="-383.54" x2="-206.7" y2="-383.54" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-206.7" y="-386.08" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED116" gate="G$1" pin="COM"/>
+<wire x1="-201.62" y1="-401.32" x2="-206.7" y2="-401.32" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-206.7" y="-403.86" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED117" gate="G$1" pin="COM"/>
+<wire x1="-148.6" y1="-347.98" x2="-153.68" y2="-347.98" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-153.68" y="-350.52" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED118" gate="G$1" pin="COM"/>
+<wire x1="-148.6" y1="-365.76" x2="-153.68" y2="-365.76" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-153.68" y="-368.3" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED119" gate="G$1" pin="COM"/>
+<wire x1="-148.6" y1="-383.54" x2="-153.68" y2="-383.54" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-153.68" y="-386.08" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="LED120" gate="G$1" pin="COM"/>
+<wire x1="-148.6" y1="-401.32" x2="-153.68" y2="-401.32" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-153.68" y="-403.86" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="1" pin="6"/>
+<wire x1="-708.66" y1="15.24" x2="-698.5" y2="15.24" width="0.1524" layer="91"/>
+<label x="-698.5" y="15.24" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="1" pin="8"/>
+<wire x1="-708.66" y1="12.7" x2="-698.5" y2="12.7" width="0.1524" layer="91"/>
+<label x="-698.5" y="12.7" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="C1B" gate="G$1" pin="1"/>
+<pinref part="C2B" gate="G$1" pin="1"/>
+<wire x1="-756.92" y1="-35.56" x2="-746.76" y2="-35.56" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<pinref part="C3B" gate="G$1" pin="1"/>
+<wire x1="-746.76" y1="-35.56" x2="-736.6" y2="-35.56" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-746.76" y="-35.56" grouprefs="DECOUPLING"/>
+<pinref part="C4B" gate="G$1" pin="1"/>
+<wire x1="-736.6" y1="-35.56" x2="-726.44" y2="-35.56" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-736.6" y="-35.56" grouprefs="DECOUPLING"/>
+<pinref part="C5B" gate="G$1" pin="1"/>
+<wire x1="-726.44" y1="-35.56" x2="-716.28" y2="-35.56" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-726.44" y="-35.56" grouprefs="DECOUPLING"/>
+<pinref part="C6B" gate="G$1" pin="1"/>
+<wire x1="-716.28" y1="-35.56" x2="-706.12" y2="-35.56" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-716.28" y="-35.56" grouprefs="DECOUPLING"/>
+<pinref part="C7B" gate="G$1" pin="1"/>
+<wire x1="-706.12" y1="-35.56" x2="-695.96" y2="-35.56" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-706.12" y="-35.56" grouprefs="DECOUPLING"/>
+<pinref part="C8B" gate="G$1" pin="1"/>
+<wire x1="-695.96" y1="-35.56" x2="-685.8" y2="-35.56" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-695.96" y="-35.56" grouprefs="DECOUPLING"/>
+<wire x1="-756.92" y1="-35.56" x2="-764.54" y2="-35.56" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-756.92" y="-35.56" grouprefs="DECOUPLING"/>
+<label x="-764.54" y="-35.56" size="1.778" layer="95" grouprefs="DECOUPLING"/>
+</segment>
+</net>
+<net name="SCLK" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="SCLK"/>
+<wire x1="-609.12" y1="53.18" x2="-639.28" y2="53.18" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="53.18" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="SCLK"/>
+<wire x1="-495.46" y1="53.18" x2="-525.62" y2="53.18" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="53.18" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="SCLK"/>
+<wire x1="-379.26" y1="53.18" x2="-409.42" y2="53.18" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="53.18" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="G$1" pin="SCLK"/>
+<wire x1="-265.6" y1="53.18" x2="-295.76" y2="53.18" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="53.18" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="SCLK"/>
+<wire x1="-609.12" y1="-48.42" x2="-639.28" y2="-48.42" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="-48.42" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC6" gate="G$1" pin="SCLK"/>
+<wire x1="-495.46" y1="-48.42" x2="-525.62" y2="-48.42" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="-48.42" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC7" gate="G$1" pin="SCLK"/>
+<wire x1="-379.26" y1="-48.42" x2="-409.42" y2="-48.42" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="-48.42" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC8" gate="G$1" pin="SCLK"/>
+<wire x1="-265.6" y1="-48.42" x2="-295.76" y2="-48.42" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="-48.42" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="1" pin="1"/>
+<wire x1="-723.9" y1="20.32" x2="-734.06" y2="20.32" width="0.1524" layer="91"/>
+<label x="-734.06" y="20.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LAT" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="LAT"/>
+<wire x1="-609.12" y1="50.64" x2="-639.28" y2="50.64" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="50.64" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="LAT"/>
+<wire x1="-495.46" y1="50.64" x2="-525.62" y2="50.64" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="50.64" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="LAT"/>
+<wire x1="-379.26" y1="50.64" x2="-409.42" y2="50.64" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="50.64" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="G$1" pin="LAT"/>
+<wire x1="-265.6" y1="50.64" x2="-295.76" y2="50.64" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="50.64" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="LAT"/>
+<wire x1="-609.12" y1="-50.96" x2="-639.28" y2="-50.96" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="-50.96" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC6" gate="G$1" pin="LAT"/>
+<wire x1="-495.46" y1="-50.96" x2="-525.62" y2="-50.96" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="-50.96" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC7" gate="G$1" pin="LAT"/>
+<wire x1="-379.26" y1="-50.96" x2="-409.42" y2="-50.96" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="-50.96" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC8" gate="G$1" pin="LAT"/>
+<wire x1="-265.6" y1="-50.96" x2="-295.76" y2="-50.96" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="-50.96" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="1" pin="5"/>
+<wire x1="-723.9" y1="15.24" x2="-734.06" y2="15.24" width="0.1524" layer="91"/>
+<label x="-734.06" y="15.24" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$LEDG13" class="0">
+<segment>
+<pinref part="LED13" gate="G$1" pin="GREEN"/>
+<wire x1="-456.56" y1="-190.5" x2="-451.48" y2="-190.5" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-456.56" y="-190.5" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTG4"/>
+<wire x1="-609.12" y1="43.02" x2="-639.28" y2="43.02" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="43.02" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+</net>
+<net name="N$LEDR13" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTR4"/>
+<wire x1="-609.12" y1="45.56" x2="-639.28" y2="45.56" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="45.56" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED13" gate="G$1" pin="RED"/>
+<wire x1="-456.56" y1="-185.42" x2="-451.48" y2="-185.42" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-456.56" y="-185.42" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB13" class="0">
+<segment>
+<pinref part="LED13" gate="G$1" pin="BLUE"/>
+<wire x1="-456.56" y1="-195.58" x2="-451.48" y2="-195.58" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-456.56" y="-195.58" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTB4"/>
+<wire x1="-609.12" y1="48.1" x2="-639.28" y2="48.1" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="48.1" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+</net>
+<net name="N$LEDG14" class="0">
+<segment>
+<pinref part="LED14" gate="G$1" pin="GREEN"/>
+<wire x1="-456.56" y1="-208.28" x2="-451.48" y2="-208.28" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-456.56" y="-208.28" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTG0"/>
+<wire x1="-609.12" y1="35.4" x2="-639.28" y2="35.4" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="35.4" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+</net>
+<net name="N$LEDR14" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTR0"/>
+<wire x1="-609.12" y1="37.94" x2="-639.28" y2="37.94" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="37.94" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED14" gate="G$1" pin="RED"/>
+<wire x1="-456.56" y1="-203.2" x2="-451.48" y2="-203.2" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-456.56" y="-203.2" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB14" class="0">
+<segment>
+<pinref part="LED14" gate="G$1" pin="BLUE"/>
+<wire x1="-456.56" y1="-213.36" x2="-451.48" y2="-213.36" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-456.56" y="-213.36" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTB0"/>
+<wire x1="-609.12" y1="40.48" x2="-639.28" y2="40.48" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="40.48" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+</net>
+<net name="N$LEDB10" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTB5"/>
+<wire x1="-609.12" y1="32.86" x2="-639.28" y2="32.86" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="32.86" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED10" gate="G$1" pin="BLUE"/>
+<wire x1="-509.58" y1="-213.36" x2="-504.5" y2="-213.36" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-509.58" y="-213.36" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR10" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTR5"/>
+<wire x1="-609.12" y1="30.32" x2="-639.28" y2="30.32" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="30.32" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED10" gate="G$1" pin="RED"/>
+<wire x1="-509.58" y1="-203.2" x2="-504.5" y2="-203.2" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-509.58" y="-203.2" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG10" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTG5"/>
+<wire x1="-609.12" y1="27.78" x2="-639.28" y2="27.78" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="27.78" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED10" gate="G$1" pin="GREEN"/>
+<wire x1="-509.58" y1="-208.28" x2="-504.5" y2="-208.28" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-509.58" y="-208.28" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB9" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTB1"/>
+<wire x1="-609.12" y1="25.24" x2="-639.28" y2="25.24" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="25.24" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED9" gate="G$1" pin="BLUE"/>
+<wire x1="-509.58" y1="-195.58" x2="-504.5" y2="-195.58" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-509.58" y="-195.58" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR9" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTR1"/>
+<wire x1="-609.12" y1="22.7" x2="-639.28" y2="22.7" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="22.7" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED9" gate="G$1" pin="RED"/>
+<wire x1="-509.58" y1="-185.42" x2="-504.5" y2="-185.42" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-509.58" y="-185.42" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG9" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTG1"/>
+<wire x1="-609.12" y1="20.16" x2="-639.28" y2="20.16" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="20.16" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED9" gate="G$1" pin="GREEN"/>
+<wire x1="-509.58" y1="-190.5" x2="-504.5" y2="-190.5" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-509.58" y="-190.5" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB6" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTB2"/>
+<wire x1="-609.12" y1="17.62" x2="-639.28" y2="17.62" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="17.62" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED6" gate="G$1" pin="BLUE"/>
+<wire x1="-562.6" y1="-213.36" x2="-557.52" y2="-213.36" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-562.6" y="-213.36" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR6" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTR2"/>
+<wire x1="-609.12" y1="15.08" x2="-639.28" y2="15.08" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="15.08" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED6" gate="G$1" pin="RED"/>
+<wire x1="-562.6" y1="-203.2" x2="-557.52" y2="-203.2" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-562.6" y="-203.2" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG6" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTG2"/>
+<wire x1="-609.12" y1="12.54" x2="-639.28" y2="12.54" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="12.54" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED6" gate="G$1" pin="GREEN"/>
+<wire x1="-562.6" y1="-208.28" x2="-557.52" y2="-208.28" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-562.6" y="-208.28" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="SOUT3" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="SOUT"/>
+<wire x1="-379.26" y1="-12.86" x2="-409.42" y2="-12.86" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="-12.86" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="GND_2"/>
+<wire x1="-573.56" y1="55.72" x2="-543.4" y2="55.72" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-551.02" y="55.72" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="GND_1"/>
+<wire x1="-573.56" y1="-12.86" x2="-543.4" y2="-12.86" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-551.02" y="-12.86" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="THERMALPAD"/>
+<wire x1="-591.34" y1="-35.72" x2="-586.26" y2="-35.72" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-591.34" y="-35.72" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="GND_2"/>
+<wire x1="-459.9" y1="55.72" x2="-429.74" y2="55.72" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-437.36" y="55.72" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="GND_1"/>
+<wire x1="-459.9" y1="-12.86" x2="-429.74" y2="-12.86" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-437.36" y="-12.86" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="THERMALPAD"/>
+<wire x1="-477.68" y1="-35.72" x2="-472.92" y2="-35.72" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-477.68" y="-35.72" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="GND_2"/>
+<wire x1="-343.7" y1="55.72" x2="-313.54" y2="55.72" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-321.16" y="55.72" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="GND_1"/>
+<wire x1="-343.7" y1="-12.86" x2="-313.54" y2="-12.86" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-321.16" y="-12.86" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="THERMALPAD"/>
+<wire x1="-361.48" y1="-35.72" x2="-356.4" y2="-35.72" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-361.48" y="-35.72" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="G$1" pin="GND_2"/>
+<wire x1="-230.04" y1="55.72" x2="-199.88" y2="55.72" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-207.5" y="55.72" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="G$1" pin="GND_1"/>
+<wire x1="-230.04" y1="-12.86" x2="-199.88" y2="-12.86" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-207.5" y="-12.86" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="G$1" pin="THERMALPAD"/>
+<wire x1="-247.82" y1="-35.72" x2="-242.74" y2="-35.72" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-247.82" y="-35.72" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="GND_2"/>
+<wire x1="-573.56" y1="-45.88" x2="-543.4" y2="-45.88" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-551.02" y="-45.88" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="GND_1"/>
+<wire x1="-573.56" y1="-114.46" x2="-543.4" y2="-114.46" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-551.02" y="-114.46" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="THERMALPAD"/>
+<wire x1="-591.34" y1="-137.32" x2="-586.26" y2="-137.32" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-591.34" y="-137.32" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC6" gate="G$1" pin="GND_2"/>
+<wire x1="-459.9" y1="-45.88" x2="-429.74" y2="-45.88" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-437.36" y="-45.88" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC6" gate="G$1" pin="GND_1"/>
+<wire x1="-459.9" y1="-114.46" x2="-429.74" y2="-114.46" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-437.36" y="-114.46" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC6" gate="G$1" pin="THERMALPAD"/>
+<wire x1="-477.68" y1="-137.32" x2="-472.6" y2="-137.32" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-477.68" y="-137.32" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC7" gate="G$1" pin="GND_2"/>
+<wire x1="-343.7" y1="-45.88" x2="-313.54" y2="-45.88" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-321.16" y="-45.88" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC7" gate="G$1" pin="GND_1"/>
+<wire x1="-343.7" y1="-114.46" x2="-313.54" y2="-114.46" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-321.16" y="-114.46" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC7" gate="G$1" pin="THERMALPAD"/>
+<wire x1="-361.48" y1="-137.32" x2="-356.4" y2="-137.32" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-361.48" y="-137.32" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC8" gate="G$1" pin="GND_2"/>
+<wire x1="-230.04" y1="-45.88" x2="-199.88" y2="-45.88" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-207.5" y="-45.88" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC8" gate="G$1" pin="GND_1"/>
+<wire x1="-230.04" y1="-114.46" x2="-199.88" y2="-114.46" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-207.5" y="-114.46" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="IC8" gate="G$1" pin="THERMALPAD"/>
+<wire x1="-247.82" y1="-137.32" x2="-242.74" y2="-137.32" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-247.82" y="-137.32" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="-756.92" y1="-30.48" x2="-746.76" y2="-30.48" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="-736.6" y1="-30.48" x2="-746.76" y2="-30.48" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-746.76" y="-30.48" grouprefs="DECOUPLING"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="-736.6" y1="-30.48" x2="-726.44" y2="-30.48" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-736.6" y="-30.48" grouprefs="DECOUPLING"/>
+<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="-726.44" y1="-30.48" x2="-716.28" y2="-30.48" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-726.44" y="-30.48" grouprefs="DECOUPLING"/>
+<pinref part="C6" gate="G$1" pin="2"/>
+<wire x1="-716.28" y1="-30.48" x2="-706.12" y2="-30.48" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-716.28" y="-30.48" grouprefs="DECOUPLING"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="-706.12" y1="-30.48" x2="-695.96" y2="-30.48" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-706.12" y="-30.48" grouprefs="DECOUPLING"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="-695.96" y1="-30.48" x2="-685.8" y2="-30.48" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-695.96" y="-30.48" grouprefs="DECOUPLING"/>
+<wire x1="-756.92" y1="-30.48" x2="-764.54" y2="-30.48" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-756.92" y="-30.48" grouprefs="DECOUPLING"/>
+<label x="-764.54" y="-30.48" size="1.778" layer="95" grouprefs="DECOUPLING"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="1" pin="10"/>
@@ -5650,5618 +6807,4513 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlc5955.pdf"&gt; Datasheet 
 <label x="-698.5" y="10.16" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="C1" gate="G$1" pin="1"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="-756.92" y1="-33.02" x2="-746.76" y2="-33.02" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="-746.76" y1="-33.02" x2="-736.6" y2="-33.02" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-746.76" y="-33.02" grouprefs="DECOUPLING"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="-736.6" y1="-33.02" x2="-726.44" y2="-33.02" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-736.6" y="-33.02" grouprefs="DECOUPLING"/>
-<pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="-726.44" y1="-33.02" x2="-716.28" y2="-33.02" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-726.44" y="-33.02" grouprefs="DECOUPLING"/>
-<pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="-716.28" y1="-33.02" x2="-706.12" y2="-33.02" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-716.28" y="-33.02" grouprefs="DECOUPLING"/>
-<pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="-706.12" y1="-33.02" x2="-695.96" y2="-33.02" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-706.12" y="-33.02" grouprefs="DECOUPLING"/>
-<pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="-695.96" y1="-33.02" x2="-685.8" y2="-33.02" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-695.96" y="-33.02" grouprefs="DECOUPLING"/>
-<pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="-685.8" y1="-33.02" x2="-675.64" y2="-33.02" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-685.8" y="-33.02" grouprefs="DECOUPLING"/>
-<wire x1="-756.92" y1="-33.02" x2="-764.54" y2="-33.02" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-756.92" y="-33.02" grouprefs="DECOUPLING"/>
-<label x="-764.54" y="-33.02" size="1.778" layer="95" grouprefs="DECOUPLING"/>
-</segment>
-<segment>
-<pinref part="LED1" gate="G$1" pin="COM"/>
-<wire x1="-493.7" y1="337.82" x2="-498.78" y2="337.82" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-498.78" y="335.28" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED2" gate="G$1" pin="COM"/>
-<wire x1="-493.7" y1="320.04" x2="-498.78" y2="320.04" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-498.78" y="317.5" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED3" gate="G$1" pin="COM"/>
-<wire x1="-493.7" y1="302.26" x2="-498.78" y2="302.26" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-498.78" y="299.72" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED4" gate="G$1" pin="COM"/>
-<wire x1="-493.7" y1="284.48" x2="-498.78" y2="284.48" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-498.78" y="281.94" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED5" gate="G$1" pin="COM"/>
-<wire x1="-440.68" y1="337.82" x2="-445.76" y2="337.82" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-445.76" y="335.28" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED6" gate="G$1" pin="COM"/>
-<wire x1="-440.68" y1="320.04" x2="-445.76" y2="320.04" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-445.76" y="317.5" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED7" gate="G$1" pin="COM"/>
-<wire x1="-440.68" y1="302.26" x2="-445.76" y2="302.26" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-445.76" y="299.72" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED8" gate="G$1" pin="COM"/>
-<wire x1="-440.68" y1="284.48" x2="-445.76" y2="284.48" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-445.76" y="281.94" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED9" gate="G$1" pin="COM"/>
-<wire x1="-387.66" y1="337.82" x2="-392.74" y2="337.82" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-392.74" y="335.28" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED10" gate="G$1" pin="COM"/>
-<wire x1="-387.66" y1="320.04" x2="-392.74" y2="320.04" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-392.74" y="317.5" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED11" gate="G$1" pin="COM"/>
-<wire x1="-387.66" y1="302.26" x2="-392.74" y2="302.26" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-392.74" y="299.72" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED12" gate="G$1" pin="COM"/>
-<wire x1="-387.66" y1="284.48" x2="-392.74" y2="284.48" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-392.74" y="281.94" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED13" gate="G$1" pin="COM"/>
-<wire x1="-334.64" y1="337.82" x2="-339.72" y2="337.82" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-339.72" y="335.28" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED14" gate="G$1" pin="COM"/>
-<wire x1="-334.64" y1="320.04" x2="-339.72" y2="320.04" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-339.72" y="317.5" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED15" gate="G$1" pin="COM"/>
-<wire x1="-334.64" y1="302.26" x2="-339.72" y2="302.26" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-339.72" y="299.72" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED16" gate="G$1" pin="COM"/>
-<wire x1="-334.64" y1="284.48" x2="-339.72" y2="284.48" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-339.72" y="281.94" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED17" gate="G$1" pin="COM"/>
-<wire x1="-281.62" y1="337.82" x2="-286.7" y2="337.82" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-286.7" y="335.28" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED18" gate="G$1" pin="COM"/>
-<wire x1="-281.62" y1="320.04" x2="-286.7" y2="320.04" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-286.7" y="317.5" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED19" gate="G$1" pin="COM"/>
-<wire x1="-281.62" y1="302.26" x2="-286.7" y2="302.26" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-286.7" y="299.72" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED20" gate="G$1" pin="COM"/>
-<wire x1="-281.62" y1="284.48" x2="-286.7" y2="284.48" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-286.7" y="281.94" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED21" gate="G$1" pin="COM"/>
-<wire x1="-228.6" y1="337.82" x2="-233.68" y2="337.82" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-233.68" y="335.28" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED22" gate="G$1" pin="COM"/>
-<wire x1="-228.6" y1="320.04" x2="-233.68" y2="320.04" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-233.68" y="317.5" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED23" gate="G$1" pin="COM"/>
-<wire x1="-228.6" y1="302.26" x2="-233.68" y2="302.26" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-233.68" y="299.72" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED24" gate="G$1" pin="COM"/>
-<wire x1="-228.6" y1="284.48" x2="-233.68" y2="284.48" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-233.68" y="281.94" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED25" gate="G$1" pin="COM"/>
-<wire x1="-175.58" y1="337.82" x2="-180.66" y2="337.82" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-180.66" y="335.28" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED26" gate="G$1" pin="COM"/>
-<wire x1="-175.58" y1="320.04" x2="-180.66" y2="320.04" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-180.66" y="317.5" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED27" gate="G$1" pin="COM"/>
-<wire x1="-175.58" y1="302.26" x2="-180.66" y2="302.26" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-180.66" y="299.72" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED28" gate="G$1" pin="COM"/>
-<wire x1="-175.58" y1="284.48" x2="-180.66" y2="284.48" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-180.66" y="281.94" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED29" gate="G$1" pin="COM"/>
-<wire x1="-122.56" y1="337.82" x2="-127.64" y2="337.82" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-127.64" y="335.28" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED30" gate="G$1" pin="COM"/>
-<wire x1="-122.56" y1="320.04" x2="-127.64" y2="320.04" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-127.64" y="317.5" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED31" gate="G$1" pin="COM"/>
-<wire x1="-122.56" y1="302.26" x2="-127.64" y2="302.26" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-127.64" y="299.72" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED32" gate="G$1" pin="COM"/>
-<wire x1="-122.56" y1="284.48" x2="-127.64" y2="284.48" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-127.64" y="281.94" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED33" gate="G$1" pin="COM"/>
-<wire x1="-69.54" y1="337.82" x2="-74.62" y2="337.82" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-74.62" y="335.28" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED34" gate="G$1" pin="COM"/>
-<wire x1="-69.54" y1="320.04" x2="-74.62" y2="320.04" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-74.62" y="317.5" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED35" gate="G$1" pin="COM"/>
-<wire x1="-69.54" y1="302.26" x2="-74.62" y2="302.26" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-74.62" y="299.72" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED36" gate="G$1" pin="COM"/>
-<wire x1="-69.54" y1="284.48" x2="-74.62" y2="284.48" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-74.62" y="281.94" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED37" gate="G$1" pin="COM"/>
-<wire x1="-16.52" y1="337.82" x2="-21.6" y2="337.82" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-21.6" y="335.28" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED38" gate="G$1" pin="COM"/>
-<wire x1="-16.52" y1="320.04" x2="-21.6" y2="320.04" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-21.6" y="317.5" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED39" gate="G$1" pin="COM"/>
-<wire x1="-16.52" y1="302.26" x2="-21.6" y2="302.26" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-21.6" y="299.72" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED40" gate="G$1" pin="COM"/>
-<wire x1="-16.52" y1="284.48" x2="-21.6" y2="284.48" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-21.6" y="281.94" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED41" gate="G$1" pin="COM"/>
-<wire x1="-493.7" y1="259.08" x2="-498.78" y2="259.08" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-498.78" y="256.54" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED42" gate="G$1" pin="COM"/>
-<wire x1="-493.7" y1="241.3" x2="-498.78" y2="241.3" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-498.78" y="238.76" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED43" gate="G$1" pin="COM"/>
-<wire x1="-493.7" y1="223.52" x2="-498.78" y2="223.52" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-498.78" y="220.98" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED44" gate="G$1" pin="COM"/>
-<wire x1="-493.7" y1="205.74" x2="-498.78" y2="205.74" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-498.78" y="203.2" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED45" gate="G$1" pin="COM"/>
-<wire x1="-440.68" y1="259.08" x2="-445.76" y2="259.08" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-445.76" y="256.54" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED46" gate="G$1" pin="COM"/>
-<wire x1="-440.68" y1="241.3" x2="-445.76" y2="241.3" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-445.76" y="238.76" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED47" gate="G$1" pin="COM"/>
-<wire x1="-440.68" y1="223.52" x2="-445.76" y2="223.52" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-445.76" y="220.98" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED48" gate="G$1" pin="COM"/>
-<wire x1="-440.68" y1="205.74" x2="-445.76" y2="205.74" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-445.76" y="203.2" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED49" gate="G$1" pin="COM"/>
-<wire x1="-387.66" y1="259.08" x2="-392.74" y2="259.08" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-392.74" y="256.54" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED50" gate="G$1" pin="COM"/>
-<wire x1="-387.66" y1="241.3" x2="-392.74" y2="241.3" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-392.74" y="238.76" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED51" gate="G$1" pin="COM"/>
-<wire x1="-387.66" y1="223.52" x2="-392.74" y2="223.52" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-392.74" y="220.98" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED52" gate="G$1" pin="COM"/>
-<wire x1="-387.66" y1="205.74" x2="-392.74" y2="205.74" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-392.74" y="203.2" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED53" gate="G$1" pin="COM"/>
-<wire x1="-334.64" y1="259.08" x2="-339.72" y2="259.08" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-339.72" y="256.54" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED54" gate="G$1" pin="COM"/>
-<wire x1="-334.64" y1="241.3" x2="-339.72" y2="241.3" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-339.72" y="238.76" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED55" gate="G$1" pin="COM"/>
-<wire x1="-334.64" y1="223.52" x2="-339.72" y2="223.52" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-339.72" y="220.98" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED56" gate="G$1" pin="COM"/>
-<wire x1="-334.64" y1="205.74" x2="-339.72" y2="205.74" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-339.72" y="203.2" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED57" gate="G$1" pin="COM"/>
-<wire x1="-281.62" y1="259.08" x2="-286.7" y2="259.08" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-286.7" y="256.54" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED58" gate="G$1" pin="COM"/>
-<wire x1="-281.62" y1="241.3" x2="-286.7" y2="241.3" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-286.7" y="238.76" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED59" gate="G$1" pin="COM"/>
-<wire x1="-281.62" y1="223.52" x2="-286.7" y2="223.52" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-286.7" y="220.98" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED60" gate="G$1" pin="COM"/>
-<wire x1="-281.62" y1="205.74" x2="-286.7" y2="205.74" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-286.7" y="203.2" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED61" gate="G$1" pin="COM"/>
-<wire x1="-228.6" y1="259.08" x2="-233.68" y2="259.08" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-233.68" y="256.54" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED62" gate="G$1" pin="COM"/>
-<wire x1="-228.6" y1="241.3" x2="-233.68" y2="241.3" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-233.68" y="238.76" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED63" gate="G$1" pin="COM"/>
-<wire x1="-228.6" y1="223.52" x2="-233.68" y2="223.52" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-233.68" y="220.98" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED64" gate="G$1" pin="COM"/>
-<wire x1="-228.6" y1="205.74" x2="-233.68" y2="205.74" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-233.68" y="203.2" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED65" gate="G$1" pin="COM"/>
-<wire x1="-175.58" y1="259.08" x2="-180.66" y2="259.08" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-180.66" y="256.54" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED66" gate="G$1" pin="COM"/>
-<wire x1="-175.58" y1="241.3" x2="-180.66" y2="241.3" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-180.66" y="238.76" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED67" gate="G$1" pin="COM"/>
-<wire x1="-175.58" y1="223.52" x2="-180.66" y2="223.52" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-180.66" y="220.98" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED68" gate="G$1" pin="COM"/>
-<wire x1="-175.58" y1="205.74" x2="-180.66" y2="205.74" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-180.66" y="203.2" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED69" gate="G$1" pin="COM"/>
-<wire x1="-122.56" y1="259.08" x2="-127.64" y2="259.08" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-127.64" y="256.54" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED70" gate="G$1" pin="COM"/>
-<wire x1="-122.56" y1="241.3" x2="-127.64" y2="241.3" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-127.64" y="238.76" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED71" gate="G$1" pin="COM"/>
-<wire x1="-122.56" y1="223.52" x2="-127.64" y2="223.52" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-127.64" y="220.98" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED72" gate="G$1" pin="COM"/>
-<wire x1="-122.56" y1="205.74" x2="-127.64" y2="205.74" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-127.64" y="203.2" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED73" gate="G$1" pin="COM"/>
-<wire x1="-69.54" y1="259.08" x2="-74.62" y2="259.08" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-74.62" y="256.54" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED74" gate="G$1" pin="COM"/>
-<wire x1="-69.54" y1="241.3" x2="-74.62" y2="241.3" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-74.62" y="238.76" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED75" gate="G$1" pin="COM"/>
-<wire x1="-69.54" y1="223.52" x2="-74.62" y2="223.52" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-74.62" y="220.98" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED76" gate="G$1" pin="COM"/>
-<wire x1="-69.54" y1="205.74" x2="-74.62" y2="205.74" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-74.62" y="203.2" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED77" gate="G$1" pin="COM"/>
-<wire x1="-16.52" y1="259.08" x2="-21.6" y2="259.08" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-21.6" y="256.54" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED78" gate="G$1" pin="COM"/>
-<wire x1="-16.52" y1="241.3" x2="-21.6" y2="241.3" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-21.6" y="238.76" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED79" gate="G$1" pin="COM"/>
-<wire x1="-16.52" y1="223.52" x2="-21.6" y2="223.52" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-21.6" y="220.98" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED80" gate="G$1" pin="COM"/>
-<wire x1="-16.52" y1="205.74" x2="-21.6" y2="205.74" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-21.6" y="203.2" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED81" gate="G$1" pin="COM"/>
-<wire x1="-493.7" y1="180.34" x2="-498.78" y2="180.34" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-498.78" y="177.8" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED82" gate="G$1" pin="COM"/>
-<wire x1="-493.7" y1="162.56" x2="-498.78" y2="162.56" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-498.78" y="160.02" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED83" gate="G$1" pin="COM"/>
-<wire x1="-493.7" y1="144.78" x2="-498.78" y2="144.78" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-498.78" y="142.24" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED84" gate="G$1" pin="COM"/>
-<wire x1="-493.7" y1="127" x2="-498.78" y2="127" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-498.78" y="124.46" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED85" gate="G$1" pin="COM"/>
-<wire x1="-440.68" y1="180.34" x2="-445.76" y2="180.34" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-445.76" y="177.8" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED86" gate="G$1" pin="COM"/>
-<wire x1="-440.68" y1="162.56" x2="-445.76" y2="162.56" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-445.76" y="160.02" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED87" gate="G$1" pin="COM"/>
-<wire x1="-440.68" y1="144.78" x2="-445.76" y2="144.78" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-445.76" y="142.24" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED88" gate="G$1" pin="COM"/>
-<wire x1="-440.68" y1="127" x2="-445.76" y2="127" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-445.76" y="124.46" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED89" gate="G$1" pin="COM"/>
-<wire x1="-387.66" y1="180.34" x2="-392.74" y2="180.34" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-392.74" y="177.8" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED90" gate="G$1" pin="COM"/>
-<wire x1="-387.66" y1="162.56" x2="-392.74" y2="162.56" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-392.74" y="160.02" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED91" gate="G$1" pin="COM"/>
-<wire x1="-387.66" y1="144.78" x2="-392.74" y2="144.78" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-392.74" y="142.24" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED92" gate="G$1" pin="COM"/>
-<wire x1="-387.66" y1="127" x2="-392.74" y2="127" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-392.74" y="124.46" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED93" gate="G$1" pin="COM"/>
-<wire x1="-334.64" y1="180.34" x2="-339.72" y2="180.34" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-339.72" y="177.8" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED94" gate="G$1" pin="COM"/>
-<wire x1="-334.64" y1="162.56" x2="-339.72" y2="162.56" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-339.72" y="160.02" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED95" gate="G$1" pin="COM"/>
-<wire x1="-334.64" y1="144.78" x2="-339.72" y2="144.78" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-339.72" y="142.24" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED96" gate="G$1" pin="COM"/>
-<wire x1="-334.64" y1="127" x2="-339.72" y2="127" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-339.72" y="124.46" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED97" gate="G$1" pin="COM"/>
-<wire x1="-281.62" y1="180.34" x2="-286.7" y2="180.34" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-286.7" y="177.8" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED98" gate="G$1" pin="COM"/>
-<wire x1="-281.62" y1="162.56" x2="-286.7" y2="162.56" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-286.7" y="160.02" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED99" gate="G$1" pin="COM"/>
-<wire x1="-281.62" y1="144.78" x2="-286.7" y2="144.78" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-286.7" y="142.24" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED100" gate="G$1" pin="COM"/>
-<wire x1="-281.62" y1="127" x2="-286.7" y2="127" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-286.7" y="124.46" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED101" gate="G$1" pin="COM"/>
-<wire x1="-228.6" y1="180.34" x2="-233.68" y2="180.34" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-233.68" y="177.8" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED102" gate="G$1" pin="COM"/>
-<wire x1="-228.6" y1="162.56" x2="-233.68" y2="162.56" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-233.68" y="160.02" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED103" gate="G$1" pin="COM"/>
-<wire x1="-228.6" y1="144.78" x2="-233.68" y2="144.78" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-233.68" y="142.24" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED104" gate="G$1" pin="COM"/>
-<wire x1="-228.6" y1="127" x2="-233.68" y2="127" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-233.68" y="124.46" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED105" gate="G$1" pin="COM"/>
-<wire x1="-175.58" y1="180.34" x2="-180.66" y2="180.34" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-180.66" y="177.8" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED106" gate="G$1" pin="COM"/>
-<wire x1="-175.58" y1="162.56" x2="-180.66" y2="162.56" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-180.66" y="160.02" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED107" gate="G$1" pin="COM"/>
-<wire x1="-175.58" y1="144.78" x2="-180.66" y2="144.78" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-180.66" y="142.24" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED108" gate="G$1" pin="COM"/>
-<wire x1="-175.58" y1="127" x2="-180.66" y2="127" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-180.66" y="124.46" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED109" gate="G$1" pin="COM"/>
-<wire x1="-122.56" y1="180.34" x2="-127.64" y2="180.34" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-127.64" y="177.8" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED110" gate="G$1" pin="COM"/>
-<wire x1="-122.56" y1="162.56" x2="-127.64" y2="162.56" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-127.64" y="160.02" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED111" gate="G$1" pin="COM"/>
-<wire x1="-122.56" y1="144.78" x2="-127.64" y2="144.78" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-127.64" y="142.24" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED112" gate="G$1" pin="COM"/>
-<wire x1="-122.56" y1="127" x2="-127.64" y2="127" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-127.64" y="124.46" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED113" gate="G$1" pin="COM"/>
-<wire x1="-69.54" y1="180.34" x2="-74.62" y2="180.34" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-74.62" y="177.8" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED114" gate="G$1" pin="COM"/>
-<wire x1="-69.54" y1="162.56" x2="-74.62" y2="162.56" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-74.62" y="160.02" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED115" gate="G$1" pin="COM"/>
-<wire x1="-69.54" y1="144.78" x2="-74.62" y2="144.78" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-74.62" y="142.24" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED116" gate="G$1" pin="COM"/>
-<wire x1="-69.54" y1="127" x2="-74.62" y2="127" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-74.62" y="124.46" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED117" gate="G$1" pin="COM"/>
-<wire x1="-16.52" y1="180.34" x2="-21.6" y2="180.34" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-21.6" y="177.8" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED118" gate="G$1" pin="COM"/>
-<wire x1="-16.52" y1="162.56" x2="-21.6" y2="162.56" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-21.6" y="160.02" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED119" gate="G$1" pin="COM"/>
-<wire x1="-16.52" y1="144.78" x2="-21.6" y2="144.78" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-21.6" y="142.24" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="LED120" gate="G$1" pin="COM"/>
-<wire x1="-16.52" y1="127" x2="-21.6" y2="127" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-21.6" y="124.46" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="VCC"/>
-<wire x1="-423.7" y1="561.18" x2="-393.54" y2="561.18" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-401.16" y="561.18" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="VCC"/>
-<wire x1="-310.04" y1="561.18" x2="-279.88" y2="561.18" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-287.5" y="561.18" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="VCC"/>
-<wire x1="-193.84" y1="561.18" x2="-163.68" y2="561.18" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-171.3" y="561.18" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="G$1" pin="VCC"/>
-<wire x1="-80.18" y1="561.18" x2="-50.02" y2="561.18" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-57.64" y="561.18" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="G$1" pin="VCC"/>
-<wire x1="-423.7" y1="459.58" x2="-393.54" y2="459.58" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-401.16" y="459.58" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="VCC"/>
-<wire x1="-310.04" y1="459.58" x2="-279.88" y2="459.58" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-287.5" y="459.58" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC7" gate="G$1" pin="VCC"/>
-<wire x1="-193.84" y1="459.58" x2="-163.68" y2="459.58" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-171.3" y="459.58" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC8" gate="G$1" pin="VCC"/>
-<wire x1="-80.18" y1="459.58" x2="-50.02" y2="459.58" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-57.64" y="459.58" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="SCLK" class="0">
-<segment>
-<pinref part="SV1" gate="1" pin="7"/>
-<wire x1="-723.9" y1="12.7" x2="-734.06" y2="12.7" width="0.1524" layer="91"/>
-<label x="-734.06" y="12.7" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="SCLK"/>
-<wire x1="-459.26" y1="563.72" x2="-489.42" y2="563.72" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="563.72" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="SCLK"/>
-<wire x1="-345.6" y1="563.72" x2="-375.76" y2="563.72" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="563.72" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="SCLK"/>
-<wire x1="-229.4" y1="563.72" x2="-259.56" y2="563.72" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="563.72" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="G$1" pin="SCLK"/>
-<wire x1="-115.74" y1="563.72" x2="-145.9" y2="563.72" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="563.72" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="G$1" pin="SCLK"/>
-<wire x1="-459.26" y1="462.12" x2="-489.42" y2="462.12" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="462.12" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="SCLK"/>
-<wire x1="-345.6" y1="462.12" x2="-375.76" y2="462.12" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="462.12" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC7" gate="G$1" pin="SCLK"/>
-<wire x1="-229.4" y1="462.12" x2="-259.56" y2="462.12" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="462.12" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC8" gate="G$1" pin="SCLK"/>
-<wire x1="-115.74" y1="462.12" x2="-145.9" y2="462.12" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="462.12" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="LAT" class="0">
-<segment>
-<pinref part="SV1" gate="1" pin="8"/>
-<wire x1="-708.66" y1="12.7" x2="-698.5" y2="12.7" width="0.1524" layer="91"/>
-<label x="-698.5" y="12.7" size="1.778" layer="95" rot="MR0"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="LAT"/>
-<wire x1="-459.26" y1="561.18" x2="-489.42" y2="561.18" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="561.18" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="LAT"/>
-<wire x1="-345.6" y1="561.18" x2="-375.76" y2="561.18" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="561.18" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="LAT"/>
-<wire x1="-229.4" y1="561.18" x2="-259.56" y2="561.18" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="561.18" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="G$1" pin="LAT"/>
-<wire x1="-115.74" y1="561.18" x2="-145.9" y2="561.18" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="561.18" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="G$1" pin="LAT"/>
-<wire x1="-459.26" y1="459.58" x2="-489.42" y2="459.58" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="459.58" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="LAT"/>
-<wire x1="-345.6" y1="459.58" x2="-375.76" y2="459.58" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="459.58" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC7" gate="G$1" pin="LAT"/>
-<wire x1="-229.4" y1="459.58" x2="-259.56" y2="459.58" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="459.58" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC8" gate="G$1" pin="LAT"/>
-<wire x1="-115.74" y1="459.58" x2="-145.9" y2="459.58" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="459.58" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="GND" class="0">
-<segment>
-<pinref part="SV1" gate="1" pin="11"/>
-<wire x1="-723.9" y1="7.62" x2="-734.06" y2="7.62" width="0.1524" layer="91"/>
-<label x="-734.06" y="7.62" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="SV1" gate="1" pin="12"/>
 <wire x1="-708.66" y1="7.62" x2="-698.5" y2="7.62" width="0.1524" layer="91"/>
 <label x="-698.5" y="7.62" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="C1" gate="G$1" pin="2"/>
-<pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="-756.92" y1="-40.64" x2="-746.76" y2="-40.64" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="-736.6" y1="-40.64" x2="-746.76" y2="-40.64" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-746.76" y="-40.64" grouprefs="DECOUPLING"/>
-<pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="-736.6" y1="-40.64" x2="-726.44" y2="-40.64" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-736.6" y="-40.64" grouprefs="DECOUPLING"/>
-<pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="-726.44" y1="-40.64" x2="-716.28" y2="-40.64" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-726.44" y="-40.64" grouprefs="DECOUPLING"/>
-<pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="-716.28" y1="-40.64" x2="-706.12" y2="-40.64" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-716.28" y="-40.64" grouprefs="DECOUPLING"/>
-<pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="-706.12" y1="-40.64" x2="-695.96" y2="-40.64" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-706.12" y="-40.64" grouprefs="DECOUPLING"/>
-<pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="-695.96" y1="-40.64" x2="-685.8" y2="-40.64" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-695.96" y="-40.64" grouprefs="DECOUPLING"/>
-<pinref part="C9" gate="G$1" pin="2"/>
-<wire x1="-685.8" y1="-40.64" x2="-675.64" y2="-40.64" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-685.8" y="-40.64" grouprefs="DECOUPLING"/>
-<wire x1="-756.92" y1="-40.64" x2="-764.54" y2="-40.64" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-756.92" y="-40.64" grouprefs="DECOUPLING"/>
-<label x="-764.54" y="-40.64" size="1.778" layer="95" grouprefs="DECOUPLING"/>
+<pinref part="SV1" gate="1" pin="9"/>
+<wire x1="-723.9" y1="10.16" x2="-734.06" y2="10.16" width="0.1524" layer="91"/>
+<label x="-734.06" y="10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="GND_2"/>
-<wire x1="-423.7" y1="566.26" x2="-393.54" y2="566.26" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-401.16" y="566.26" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="GND_1"/>
-<wire x1="-423.7" y1="497.68" x2="-393.54" y2="497.68" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-401.16" y="497.68" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="THERMALPAD"/>
-<wire x1="-441.48" y1="474.82" x2="-436.4" y2="474.82" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-441.48" y="474.82" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="GND_2"/>
-<wire x1="-310.04" y1="566.26" x2="-279.88" y2="566.26" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-287.5" y="566.26" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="GND_1"/>
-<wire x1="-310.04" y1="497.68" x2="-279.88" y2="497.68" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-287.5" y="497.68" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="THERMALPAD"/>
-<wire x1="-327.82" y1="474.82" x2="-323.06" y2="474.82" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-327.82" y="474.82" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="GND_2"/>
-<wire x1="-193.84" y1="566.26" x2="-163.68" y2="566.26" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-171.3" y="566.26" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="GND_1"/>
-<wire x1="-193.84" y1="497.68" x2="-163.68" y2="497.68" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-171.3" y="497.68" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="THERMALPAD"/>
-<wire x1="-211.62" y1="474.82" x2="-206.54" y2="474.82" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-211.62" y="474.82" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="G$1" pin="GND_2"/>
-<wire x1="-80.18" y1="566.26" x2="-50.02" y2="566.26" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-57.64" y="566.26" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="G$1" pin="GND_1"/>
-<wire x1="-80.18" y1="497.68" x2="-50.02" y2="497.68" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-57.64" y="497.68" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="G$1" pin="THERMALPAD"/>
-<wire x1="-97.96" y1="474.82" x2="-92.88" y2="474.82" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-97.96" y="474.82" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="G$1" pin="GND_2"/>
-<wire x1="-423.7" y1="464.66" x2="-393.54" y2="464.66" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-401.16" y="464.66" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="G$1" pin="GND_1"/>
-<wire x1="-423.7" y1="396.08" x2="-393.54" y2="396.08" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-401.16" y="396.08" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="G$1" pin="THERMALPAD"/>
-<wire x1="-441.48" y1="373.22" x2="-436.4" y2="373.22" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-441.48" y="373.22" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="GND_2"/>
-<wire x1="-310.04" y1="464.66" x2="-279.88" y2="464.66" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-287.5" y="464.66" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="GND_1"/>
-<wire x1="-310.04" y1="396.08" x2="-279.88" y2="396.08" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-287.5" y="396.08" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="THERMALPAD"/>
-<wire x1="-327.82" y1="373.22" x2="-322.74" y2="373.22" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-327.82" y="373.22" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC7" gate="G$1" pin="GND_2"/>
-<wire x1="-193.84" y1="464.66" x2="-163.68" y2="464.66" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-171.3" y="464.66" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC7" gate="G$1" pin="GND_1"/>
-<wire x1="-193.84" y1="396.08" x2="-163.68" y2="396.08" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-171.3" y="396.08" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC7" gate="G$1" pin="THERMALPAD"/>
-<wire x1="-211.62" y1="373.22" x2="-206.54" y2="373.22" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-211.62" y="373.22" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC8" gate="G$1" pin="GND_2"/>
-<wire x1="-80.18" y1="464.66" x2="-50.02" y2="464.66" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-57.64" y="464.66" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC8" gate="G$1" pin="GND_1"/>
-<wire x1="-80.18" y1="396.08" x2="-50.02" y2="396.08" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-57.64" y="396.08" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-<segment>
-<pinref part="IC8" gate="G$1" pin="THERMALPAD"/>
-<wire x1="-97.96" y1="373.22" x2="-92.88" y2="373.22" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-97.96" y="373.22" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="C1B" gate="G$1" pin="2"/>
+<pinref part="C2B" gate="G$1" pin="2"/>
+<wire x1="-756.92" y1="-43.18" x2="-746.76" y2="-43.18" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<pinref part="C3B" gate="G$1" pin="2"/>
+<wire x1="-736.6" y1="-43.18" x2="-746.76" y2="-43.18" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-746.76" y="-43.18" grouprefs="DECOUPLING"/>
+<pinref part="C4B" gate="G$1" pin="2"/>
+<wire x1="-736.6" y1="-43.18" x2="-726.44" y2="-43.18" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-736.6" y="-43.18" grouprefs="DECOUPLING"/>
+<pinref part="C5B" gate="G$1" pin="2"/>
+<wire x1="-726.44" y1="-43.18" x2="-716.28" y2="-43.18" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-726.44" y="-43.18" grouprefs="DECOUPLING"/>
+<pinref part="C6B" gate="G$1" pin="2"/>
+<wire x1="-716.28" y1="-43.18" x2="-706.12" y2="-43.18" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-716.28" y="-43.18" grouprefs="DECOUPLING"/>
+<pinref part="C7B" gate="G$1" pin="2"/>
+<wire x1="-706.12" y1="-43.18" x2="-695.96" y2="-43.18" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-706.12" y="-43.18" grouprefs="DECOUPLING"/>
+<pinref part="C8B" gate="G$1" pin="2"/>
+<wire x1="-695.96" y1="-43.18" x2="-685.8" y2="-43.18" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-695.96" y="-43.18" grouprefs="DECOUPLING"/>
+<wire x1="-756.92" y1="-43.18" x2="-764.54" y2="-43.18" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-756.92" y="-43.18" grouprefs="DECOUPLING"/>
+<label x="-764.54" y="-43.18" size="1.778" layer="95" grouprefs="DECOUPLING"/>
 </segment>
 </net>
 <net name="GSCLK" class="0">
 <segment>
-<pinref part="SV1" gate="1" pin="6"/>
-<wire x1="-708.66" y1="15.24" x2="-698.5" y2="15.24" width="0.1524" layer="91"/>
-<label x="-698.5" y="15.24" size="1.778" layer="95" rot="MR0"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="G$1" pin="GSCLK"/>
-<wire x1="-423.7" y1="563.72" x2="-393.54" y2="563.72" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-401.16" y="563.72" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-573.56" y1="53.18" x2="-543.4" y2="53.18" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-551.02" y="53.18" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="GSCLK"/>
-<wire x1="-310.04" y1="563.72" x2="-279.88" y2="563.72" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-287.5" y="563.72" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-459.9" y1="53.18" x2="-429.74" y2="53.18" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-437.36" y="53.18" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="GSCLK"/>
-<wire x1="-193.84" y1="563.72" x2="-163.68" y2="563.72" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-171.3" y="563.72" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-343.7" y1="53.18" x2="-313.54" y2="53.18" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-321.16" y="53.18" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="G$1" pin="GSCLK"/>
-<wire x1="-80.18" y1="563.72" x2="-50.02" y2="563.72" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-57.64" y="563.72" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-230.04" y1="53.18" x2="-199.88" y2="53.18" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-207.5" y="53.18" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="GSCLK"/>
-<wire x1="-423.7" y1="462.12" x2="-393.54" y2="462.12" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-401.16" y="462.12" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-573.56" y1="-48.42" x2="-543.4" y2="-48.42" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-551.02" y="-48.42" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
 <pinref part="IC6" gate="G$1" pin="GSCLK"/>
-<wire x1="-310.04" y1="462.12" x2="-279.88" y2="462.12" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-287.5" y="462.12" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-459.9" y1="-48.42" x2="-429.74" y2="-48.42" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-437.36" y="-48.42" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
 <pinref part="IC7" gate="G$1" pin="GSCLK"/>
-<wire x1="-193.84" y1="462.12" x2="-163.68" y2="462.12" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-171.3" y="462.12" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-343.7" y1="-48.42" x2="-313.54" y2="-48.42" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-321.16" y="-48.42" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
 <pinref part="IC8" gate="G$1" pin="GSCLK"/>
-<wire x1="-80.18" y1="462.12" x2="-50.02" y2="462.12" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-57.64" y="462.12" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-230.04" y1="-48.42" x2="-199.88" y2="-48.42" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-207.5" y="-48.42" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="1" pin="11"/>
+<wire x1="-723.9" y1="7.62" x2="-734.06" y2="7.62" width="0.1524" layer="91"/>
+<label x="-734.06" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SIN_1,2" class="0">
+<net name="N$LEDB16" class="0">
 <segment>
-<pinref part="SV1" gate="1" pin="2"/>
-<wire x1="-708.66" y1="20.32" x2="-698.5" y2="20.32" width="0.1524" layer="91"/>
-<label x="-698.5" y="20.32" size="1.778" layer="95" rot="MR0"/>
+<pinref part="IC1" gate="G$1" pin="OUTB8"/>
+<wire x1="-573.56" y1="48.1" x2="-543.4" y2="48.1" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="48.1" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="SIN"/>
-<wire x1="-345.6" y1="566.26" x2="-375.76" y2="566.26" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="566.26" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="SIN_3,4" class="0">
-<segment>
-<pinref part="SV1" gate="1" pin="3"/>
-<wire x1="-723.9" y1="17.78" x2="-734.06" y2="17.78" width="0.1524" layer="91"/>
-<label x="-734.06" y="17.78" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="G$1" pin="SIN"/>
-<wire x1="-115.74" y1="566.26" x2="-145.9" y2="566.26" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="566.26" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED16" gate="G$1" pin="BLUE"/>
+<wire x1="-456.56" y1="-248.92" x2="-451.48" y2="-248.92" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-456.56" y="-248.92" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="SIN_5,6" class="0">
+<net name="N$LEDR16" class="0">
 <segment>
-<pinref part="SV1" gate="1" pin="4"/>
-<wire x1="-708.66" y1="17.78" x2="-698.5" y2="17.78" width="0.1524" layer="91"/>
-<label x="-698.5" y="17.78" size="1.778" layer="95" rot="MR0"/>
+<pinref part="IC1" gate="G$1" pin="OUTR8"/>
+<wire x1="-573.56" y1="45.56" x2="-543.4" y2="45.56" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="45.56" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="SIN"/>
-<wire x1="-345.6" y1="464.66" x2="-375.76" y2="464.66" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="464.66" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="SIN_7,8" class="0">
-<segment>
-<pinref part="SV1" gate="1" pin="5"/>
-<wire x1="-723.9" y1="15.24" x2="-734.06" y2="15.24" width="0.1524" layer="91"/>
-<label x="-734.06" y="15.24" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC8" gate="G$1" pin="SIN"/>
-<wire x1="-115.74" y1="464.66" x2="-145.9" y2="464.66" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="464.66" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED16" gate="G$1" pin="RED"/>
+<wire x1="-456.56" y1="-238.76" x2="-451.48" y2="-238.76" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-456.56" y="-238.76" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="N$LEDG16" class="0">
 <segment>
-<pinref part="SV1" gate="1" pin="1"/>
-<wire x1="-723.9" y1="20.32" x2="-734.06" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="OUTG8"/>
+<wire x1="-573.56" y1="43.02" x2="-543.4" y2="43.02" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="43.02" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED16" gate="G$1" pin="GREEN"/>
+<wire x1="-456.56" y1="-243.84" x2="-451.48" y2="-243.84" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-456.56" y="-243.84" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB15" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTB12"/>
+<wire x1="-573.56" y1="40.48" x2="-543.4" y2="40.48" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="40.48" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED15" gate="G$1" pin="BLUE"/>
+<wire x1="-456.56" y1="-231.14" x2="-451.48" y2="-231.14" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-456.56" y="-231.14" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR15" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTR12"/>
+<wire x1="-573.56" y1="37.94" x2="-543.4" y2="37.94" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="37.94" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED15" gate="G$1" pin="RED"/>
+<wire x1="-456.56" y1="-220.98" x2="-451.48" y2="-220.98" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-456.56" y="-220.98" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG15" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTG12"/>
+<wire x1="-573.56" y1="35.4" x2="-543.4" y2="35.4" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="35.4" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED15" gate="G$1" pin="GREEN"/>
+<wire x1="-456.56" y1="-226.06" x2="-451.48" y2="-226.06" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-456.56" y="-226.06" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB12" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTB9"/>
+<wire x1="-573.56" y1="32.86" x2="-543.4" y2="32.86" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="32.86" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED12" gate="G$1" pin="BLUE"/>
+<wire x1="-509.58" y1="-248.92" x2="-504.5" y2="-248.92" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-509.58" y="-248.92" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR12" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTR9"/>
+<wire x1="-573.56" y1="30.32" x2="-543.4" y2="30.32" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="30.32" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED12" gate="G$1" pin="RED"/>
+<wire x1="-509.58" y1="-238.76" x2="-504.5" y2="-238.76" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-509.58" y="-238.76" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG12" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTG9"/>
+<wire x1="-573.56" y1="27.78" x2="-543.4" y2="27.78" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="27.78" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED12" gate="G$1" pin="GREEN"/>
+<wire x1="-509.58" y1="-243.84" x2="-504.5" y2="-243.84" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-509.58" y="-243.84" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB11" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTB13"/>
+<wire x1="-573.56" y1="25.24" x2="-543.4" y2="25.24" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="25.24" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED11" gate="G$1" pin="BLUE"/>
+<wire x1="-509.58" y1="-231.14" x2="-504.5" y2="-231.14" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-509.58" y="-231.14" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR11" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTR13"/>
+<wire x1="-573.56" y1="22.7" x2="-543.4" y2="22.7" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="22.7" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED11" gate="G$1" pin="RED"/>
+<wire x1="-509.58" y1="-220.98" x2="-504.5" y2="-220.98" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-509.58" y="-220.98" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG11" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTG13"/>
+<wire x1="-573.56" y1="20.16" x2="-543.4" y2="20.16" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="20.16" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED11" gate="G$1" pin="GREEN"/>
+<wire x1="-509.58" y1="-226.06" x2="-504.5" y2="-226.06" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-509.58" y="-226.06" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB8" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTB14"/>
+<wire x1="-573.56" y1="17.62" x2="-543.4" y2="17.62" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="17.62" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED8" gate="G$1" pin="BLUE"/>
+<wire x1="-562.6" y1="-248.92" x2="-557.52" y2="-248.92" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-562.6" y="-248.92" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR8" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTR14"/>
+<wire x1="-573.56" y1="15.08" x2="-543.4" y2="15.08" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="15.08" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED8" gate="G$1" pin="RED"/>
+<wire x1="-562.6" y1="-238.76" x2="-557.52" y2="-238.76" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-562.6" y="-238.76" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG8" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTG14"/>
+<wire x1="-573.56" y1="12.54" x2="-543.4" y2="12.54" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="12.54" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED8" gate="G$1" pin="GREEN"/>
+<wire x1="-562.6" y1="-243.84" x2="-557.52" y2="-243.84" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-562.6" y="-243.84" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB7" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTB10"/>
+<wire x1="-573.56" y1="10" x2="-543.4" y2="10" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="10" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED7" gate="G$1" pin="BLUE"/>
+<wire x1="-562.6" y1="-231.14" x2="-557.52" y2="-231.14" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-562.6" y="-231.14" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR7" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTR10"/>
+<wire x1="-573.56" y1="7.46" x2="-543.4" y2="7.46" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="7.46" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED7" gate="G$1" pin="RED"/>
+<wire x1="-562.6" y1="-220.98" x2="-557.52" y2="-220.98" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-562.6" y="-220.98" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG7" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTG10"/>
+<wire x1="-543.4" y1="4.92" x2="-573.56" y2="4.92" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="4.92" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED7" gate="G$1" pin="GREEN"/>
+<wire x1="-562.6" y1="-226.06" x2="-557.52" y2="-226.06" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-562.6" y="-226.06" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB4" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTB15"/>
+<wire x1="-573.56" y1="2.38" x2="-543.4" y2="2.38" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="2.38" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED4" gate="G$1" pin="BLUE"/>
+<wire x1="-615.62" y1="-248.92" x2="-610.54" y2="-248.92" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-615.62" y="-248.92" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR4" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTR15"/>
+<wire x1="-573.56" y1="-0.16" x2="-543.4" y2="-0.16" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="-0.16" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED4" gate="G$1" pin="RED"/>
+<wire x1="-615.62" y1="-238.76" x2="-610.54" y2="-238.76" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-615.62" y="-238.76" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG4" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTG15"/>
+<wire x1="-573.56" y1="-2.7" x2="-543.4" y2="-2.7" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="-2.7" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED4" gate="G$1" pin="GREEN"/>
+<wire x1="-615.62" y1="-243.84" x2="-610.54" y2="-243.84" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-615.62" y="-243.84" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB3" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTB11"/>
+<wire x1="-573.56" y1="-5.24" x2="-543.4" y2="-5.24" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="-5.24" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED3" gate="G$1" pin="BLUE"/>
+<wire x1="-615.62" y1="-231.14" x2="-610.54" y2="-231.14" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-615.62" y="-231.14" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR3" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTR11"/>
+<wire x1="-573.56" y1="-7.78" x2="-543.4" y2="-7.78" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="-7.78" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED3" gate="G$1" pin="RED"/>
+<wire x1="-615.62" y1="-220.98" x2="-610.54" y2="-220.98" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-615.62" y="-220.98" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG3" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTG11"/>
+<wire x1="-573.56" y1="-10.32" x2="-543.4" y2="-10.32" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="-10.32" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED3" gate="G$1" pin="GREEN"/>
+<wire x1="-615.62" y1="-226.06" x2="-610.54" y2="-226.06" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-615.62" y="-226.06" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB5" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTB6"/>
+<wire x1="-609.12" y1="10" x2="-639.28" y2="10" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="10" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED5" gate="G$1" pin="BLUE"/>
+<wire x1="-562.6" y1="-195.58" x2="-557.52" y2="-195.58" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-562.6" y="-195.58" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR5" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTR6"/>
+<wire x1="-609.12" y1="7.46" x2="-639.28" y2="7.46" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="7.46" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED5" gate="G$1" pin="RED"/>
+<wire x1="-562.6" y1="-185.42" x2="-557.52" y2="-185.42" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-562.6" y="-185.42" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG5" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTG6"/>
+<wire x1="-609.12" y1="4.92" x2="-639.28" y2="4.92" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="4.92" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED5" gate="G$1" pin="GREEN"/>
+<wire x1="-562.6" y1="-190.5" x2="-557.52" y2="-190.5" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-562.6" y="-190.5" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB2" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTB3"/>
+<wire x1="-609.12" y1="2.38" x2="-639.28" y2="2.38" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="2.38" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED2" gate="G$1" pin="BLUE"/>
+<wire x1="-615.62" y1="-213.36" x2="-610.54" y2="-213.36" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-615.62" y="-213.36" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR2" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTR3"/>
+<wire x1="-609.12" y1="-0.16" x2="-639.28" y2="-0.16" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="-0.16" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED2" gate="G$1" pin="RED"/>
+<wire x1="-615.62" y1="-203.2" x2="-610.54" y2="-203.2" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-615.62" y="-203.2" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG2" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTG3"/>
+<wire x1="-609.12" y1="-2.7" x2="-639.28" y2="-2.7" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="-2.7" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED2" gate="G$1" pin="GREEN"/>
+<wire x1="-615.62" y1="-208.28" x2="-610.54" y2="-208.28" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-615.62" y="-208.28" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDB1" class="0">
 <segment>
 <pinref part="LED1" gate="G$1" pin="BLUE"/>
-<wire x1="-483.54" y1="332.74" x2="-478.46" y2="332.74" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-483.54" y="332.74" size="1.778" layer="95" grouprefs="LEDS1"/>
+<wire x1="-615.62" y1="-195.58" x2="-610.54" y2="-195.58" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-615.62" y="-195.58" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTB7"/>
-<wire x1="-459.26" y1="505.3" x2="-489.42" y2="505.3" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="505.3" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-609.12" y1="-5.24" x2="-639.28" y2="-5.24" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="-5.24" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
 <net name="N$LEDR1" class="0">
 <segment>
-<pinref part="LED1" gate="G$1" pin="RED"/>
-<wire x1="-483.54" y1="342.9" x2="-478.46" y2="342.9" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-483.54" y="342.9" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC1" gate="G$1" pin="OUTR7"/>
+<wire x1="-609.12" y1="-7.78" x2="-639.28" y2="-7.78" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="-7.78" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="OUTR7"/>
-<wire x1="-459.26" y1="502.76" x2="-489.42" y2="502.76" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="502.76" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED1" gate="G$1" pin="RED"/>
+<wire x1="-615.62" y1="-185.42" x2="-610.54" y2="-185.42" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-615.62" y="-185.42" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDG1" class="0">
 <segment>
-<pinref part="LED1" gate="G$1" pin="GREEN"/>
-<wire x1="-483.54" y1="337.82" x2="-478.46" y2="337.82" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-483.54" y="337.82" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="G$1" pin="OUTG7"/>
-<wire x1="-459.26" y1="500.22" x2="-489.42" y2="500.22" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="500.22" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-609.12" y1="-10.32" x2="-639.28" y2="-10.32" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="-10.32" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
-</net>
-<net name="N$LEDB5" class="0">
 <segment>
-<pinref part="LED5" gate="G$1" pin="BLUE"/>
-<wire x1="-430.52" y1="332.74" x2="-425.44" y2="332.74" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-430.52" y="332.74" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTB6"/>
-<wire x1="-459.26" y1="520.54" x2="-489.42" y2="520.54" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="520.54" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR5" class="0">
-<segment>
-<pinref part="LED5" gate="G$1" pin="RED"/>
-<wire x1="-430.52" y1="342.9" x2="-425.44" y2="342.9" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-430.52" y="342.9" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTR6"/>
-<wire x1="-459.26" y1="518" x2="-489.42" y2="518" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="518" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG5" class="0">
-<segment>
-<pinref part="LED5" gate="G$1" pin="GREEN"/>
-<wire x1="-430.52" y1="337.82" x2="-425.44" y2="337.82" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-430.52" y="337.82" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTG6"/>
-<wire x1="-459.26" y1="515.46" x2="-489.42" y2="515.46" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="515.46" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB2" class="0">
-<segment>
-<pinref part="LED2" gate="G$1" pin="BLUE"/>
-<wire x1="-483.54" y1="314.96" x2="-478.46" y2="314.96" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-483.54" y="314.96" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTB3"/>
-<wire x1="-459.26" y1="512.92" x2="-489.42" y2="512.92" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="512.92" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR2" class="0">
-<segment>
-<pinref part="LED2" gate="G$1" pin="RED"/>
-<wire x1="-483.54" y1="325.12" x2="-478.46" y2="325.12" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-483.54" y="325.12" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTR3"/>
-<wire x1="-459.26" y1="510.38" x2="-489.42" y2="510.38" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="510.38" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG2" class="0">
-<segment>
-<pinref part="LED2" gate="G$1" pin="GREEN"/>
-<wire x1="-483.54" y1="320.04" x2="-478.46" y2="320.04" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-483.54" y="320.04" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTG3"/>
-<wire x1="-459.26" y1="507.84" x2="-489.42" y2="507.84" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="507.84" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB6" class="0">
-<segment>
-<pinref part="LED6" gate="G$1" pin="BLUE"/>
-<wire x1="-430.52" y1="314.96" x2="-425.44" y2="314.96" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-430.52" y="314.96" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTB2"/>
-<wire x1="-459.26" y1="528.16" x2="-489.42" y2="528.16" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="528.16" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR6" class="0">
-<segment>
-<pinref part="LED6" gate="G$1" pin="RED"/>
-<wire x1="-430.52" y1="325.12" x2="-425.44" y2="325.12" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-430.52" y="325.12" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTR2"/>
-<wire x1="-459.26" y1="525.62" x2="-489.42" y2="525.62" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="525.62" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG6" class="0">
-<segment>
-<pinref part="LED6" gate="G$1" pin="GREEN"/>
-<wire x1="-430.52" y1="320.04" x2="-425.44" y2="320.04" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-430.52" y="320.04" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTG2"/>
-<wire x1="-459.26" y1="523.08" x2="-489.42" y2="523.08" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="523.08" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB3" class="0">
-<segment>
-<pinref part="LED3" gate="G$1" pin="BLUE"/>
-<wire x1="-483.54" y1="297.18" x2="-478.46" y2="297.18" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-483.54" y="297.18" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTB11"/>
-<wire x1="-423.7" y1="505.3" x2="-393.54" y2="505.3" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="505.3" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR3" class="0">
-<segment>
-<pinref part="LED3" gate="G$1" pin="RED"/>
-<wire x1="-483.54" y1="307.34" x2="-478.46" y2="307.34" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-483.54" y="307.34" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTR11"/>
-<wire x1="-423.7" y1="502.76" x2="-393.54" y2="502.76" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="502.76" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG3" class="0">
-<segment>
-<pinref part="LED3" gate="G$1" pin="GREEN"/>
-<wire x1="-483.54" y1="302.26" x2="-478.46" y2="302.26" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-483.54" y="302.26" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTG11"/>
-<wire x1="-423.7" y1="500.22" x2="-393.54" y2="500.22" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="500.22" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB9" class="0">
-<segment>
-<pinref part="LED9" gate="G$1" pin="BLUE"/>
-<wire x1="-377.5" y1="332.74" x2="-372.42" y2="332.74" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-377.5" y="332.74" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTB1"/>
-<wire x1="-459.26" y1="535.78" x2="-489.42" y2="535.78" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="535.78" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR9" class="0">
-<segment>
-<pinref part="LED9" gate="G$1" pin="RED"/>
-<wire x1="-377.5" y1="342.9" x2="-372.42" y2="342.9" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-377.5" y="342.9" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTR1"/>
-<wire x1="-459.26" y1="533.24" x2="-489.42" y2="533.24" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="533.24" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG9" class="0">
-<segment>
-<pinref part="LED9" gate="G$1" pin="GREEN"/>
-<wire x1="-377.5" y1="337.82" x2="-372.42" y2="337.82" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-377.5" y="337.82" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTG1"/>
-<wire x1="-459.26" y1="530.7" x2="-489.42" y2="530.7" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="530.7" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB13" class="0">
-<segment>
-<pinref part="LED13" gate="G$1" pin="BLUE"/>
-<wire x1="-324.48" y1="332.74" x2="-319.4" y2="332.74" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-324.48" y="332.74" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTG4"/>
-<wire x1="-459.26" y1="553.56" x2="-489.42" y2="553.56" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="553.56" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR13" class="0">
-<segment>
-<pinref part="LED13" gate="G$1" pin="RED"/>
-<wire x1="-324.48" y1="342.9" x2="-319.4" y2="342.9" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-324.48" y="342.9" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTR4"/>
-<wire x1="-459.26" y1="556.1" x2="-489.42" y2="556.1" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="556.1" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG13" class="0">
-<segment>
-<pinref part="LED13" gate="G$1" pin="GREEN"/>
-<wire x1="-324.48" y1="337.82" x2="-319.4" y2="337.82" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-324.48" y="337.82" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTB4"/>
-<wire x1="-459.26" y1="558.64" x2="-489.42" y2="558.64" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="558.64" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB10" class="0">
-<segment>
-<pinref part="LED10" gate="G$1" pin="BLUE"/>
-<wire x1="-377.5" y1="314.96" x2="-372.42" y2="314.96" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-377.5" y="314.96" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTB5"/>
-<wire x1="-459.26" y1="543.4" x2="-489.42" y2="543.4" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="543.4" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR10" class="0">
-<segment>
-<pinref part="LED10" gate="G$1" pin="RED"/>
-<wire x1="-377.5" y1="325.12" x2="-372.42" y2="325.12" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-377.5" y="325.12" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTR5"/>
-<wire x1="-459.26" y1="540.86" x2="-489.42" y2="540.86" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="540.86" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG10" class="0">
-<segment>
-<pinref part="LED10" gate="G$1" pin="GREEN"/>
-<wire x1="-377.5" y1="320.04" x2="-372.42" y2="320.04" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-377.5" y="320.04" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTG5"/>
-<wire x1="-459.26" y1="538.32" x2="-489.42" y2="538.32" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="538.32" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB14" class="0">
-<segment>
-<pinref part="LED14" gate="G$1" pin="BLUE"/>
-<wire x1="-324.48" y1="314.96" x2="-319.4" y2="314.96" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-324.48" y="314.96" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTG0"/>
-<wire x1="-459.26" y1="545.94" x2="-489.42" y2="545.94" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="545.94" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR14" class="0">
-<segment>
-<pinref part="LED14" gate="G$1" pin="RED"/>
-<wire x1="-324.48" y1="325.12" x2="-319.4" y2="325.12" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-324.48" y="325.12" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTR0"/>
-<wire x1="-459.26" y1="548.48" x2="-489.42" y2="548.48" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="548.48" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG14" class="0">
-<segment>
-<pinref part="LED14" gate="G$1" pin="GREEN"/>
-<wire x1="-324.48" y1="320.04" x2="-319.4" y2="320.04" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-324.48" y="320.04" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTB0"/>
-<wire x1="-459.26" y1="551.02" x2="-489.42" y2="551.02" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="551.02" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB11" class="0">
-<segment>
-<pinref part="LED11" gate="G$1" pin="BLUE"/>
-<wire x1="-377.5" y1="297.18" x2="-372.42" y2="297.18" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-377.5" y="297.18" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTB13"/>
-<wire x1="-423.7" y1="535.78" x2="-393.54" y2="535.78" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="535.78" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR11" class="0">
-<segment>
-<pinref part="LED11" gate="G$1" pin="RED"/>
-<wire x1="-377.5" y1="307.34" x2="-372.42" y2="307.34" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-377.5" y="307.34" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTR13"/>
-<wire x1="-423.7" y1="533.24" x2="-393.54" y2="533.24" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="533.24" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG11" class="0">
-<segment>
-<pinref part="LED11" gate="G$1" pin="GREEN"/>
-<wire x1="-377.5" y1="302.26" x2="-372.42" y2="302.26" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-377.5" y="302.26" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTG13"/>
-<wire x1="-423.7" y1="530.7" x2="-393.54" y2="530.7" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="530.7" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB15" class="0">
-<segment>
-<pinref part="LED15" gate="G$1" pin="BLUE"/>
-<wire x1="-324.48" y1="297.18" x2="-319.4" y2="297.18" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-324.48" y="297.18" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTB12"/>
-<wire x1="-423.7" y1="551.02" x2="-393.54" y2="551.02" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="551.02" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR15" class="0">
-<segment>
-<pinref part="LED15" gate="G$1" pin="RED"/>
-<wire x1="-324.48" y1="307.34" x2="-319.4" y2="307.34" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-324.48" y="307.34" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTR12"/>
-<wire x1="-423.7" y1="548.48" x2="-393.54" y2="548.48" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="548.48" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG15" class="0">
-<segment>
-<pinref part="LED15" gate="G$1" pin="GREEN"/>
-<wire x1="-324.48" y1="302.26" x2="-319.4" y2="302.26" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-324.48" y="302.26" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTG12"/>
-<wire x1="-423.7" y1="545.94" x2="-393.54" y2="545.94" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="545.94" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB12" class="0">
-<segment>
-<pinref part="LED12" gate="G$1" pin="BLUE"/>
-<wire x1="-377.5" y1="279.4" x2="-372.42" y2="279.4" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-377.5" y="279.4" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTB9"/>
-<wire x1="-423.7" y1="543.4" x2="-393.54" y2="543.4" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="543.4" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR12" class="0">
-<segment>
-<pinref part="LED12" gate="G$1" pin="RED"/>
-<wire x1="-377.5" y1="289.56" x2="-372.42" y2="289.56" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-377.5" y="289.56" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTR9"/>
-<wire x1="-423.7" y1="540.86" x2="-393.54" y2="540.86" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="540.86" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG12" class="0">
-<segment>
-<pinref part="LED12" gate="G$1" pin="GREEN"/>
-<wire x1="-377.5" y1="284.48" x2="-372.42" y2="284.48" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-377.5" y="284.48" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTG9"/>
-<wire x1="-423.7" y1="538.32" x2="-393.54" y2="538.32" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="538.32" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB16" class="0">
-<segment>
-<pinref part="LED16" gate="G$1" pin="BLUE"/>
-<wire x1="-324.48" y1="279.4" x2="-319.4" y2="279.4" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-324.48" y="279.4" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTB8"/>
-<wire x1="-423.7" y1="558.64" x2="-393.54" y2="558.64" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="558.64" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR16" class="0">
-<segment>
-<pinref part="LED16" gate="G$1" pin="RED"/>
-<wire x1="-324.48" y1="289.56" x2="-319.4" y2="289.56" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-324.48" y="289.56" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTR8"/>
-<wire x1="-423.7" y1="556.1" x2="-393.54" y2="556.1" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="556.1" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG16" class="0">
-<segment>
-<pinref part="LED16" gate="G$1" pin="GREEN"/>
-<wire x1="-324.48" y1="284.48" x2="-319.4" y2="284.48" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-324.48" y="284.48" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTG8"/>
-<wire x1="-423.7" y1="553.56" x2="-393.54" y2="553.56" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="553.56" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB7" class="0">
-<segment>
-<pinref part="LED7" gate="G$1" pin="BLUE"/>
-<wire x1="-430.52" y1="297.18" x2="-425.44" y2="297.18" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-430.52" y="297.18" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTB10"/>
-<wire x1="-423.7" y1="520.54" x2="-393.54" y2="520.54" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="520.54" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR7" class="0">
-<segment>
-<pinref part="LED7" gate="G$1" pin="RED"/>
-<wire x1="-430.52" y1="307.34" x2="-425.44" y2="307.34" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-430.52" y="307.34" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTR10"/>
-<wire x1="-423.7" y1="518" x2="-393.54" y2="518" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="518" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG7" class="0">
-<segment>
-<pinref part="LED7" gate="G$1" pin="GREEN"/>
-<wire x1="-430.52" y1="302.26" x2="-425.44" y2="302.26" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-430.52" y="302.26" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTG10"/>
-<wire x1="-393.54" y1="515.46" x2="-423.7" y2="515.46" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="515.46" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB4" class="0">
-<segment>
-<pinref part="LED4" gate="G$1" pin="BLUE"/>
-<wire x1="-483.54" y1="279.4" x2="-478.46" y2="279.4" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-483.54" y="279.4" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTB15"/>
-<wire x1="-423.7" y1="512.92" x2="-393.54" y2="512.92" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="512.92" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR4" class="0">
-<segment>
-<pinref part="LED4" gate="G$1" pin="RED"/>
-<wire x1="-483.54" y1="289.56" x2="-478.46" y2="289.56" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-483.54" y="289.56" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTR15"/>
-<wire x1="-423.7" y1="510.38" x2="-393.54" y2="510.38" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="510.38" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG4" class="0">
-<segment>
-<pinref part="LED4" gate="G$1" pin="GREEN"/>
-<wire x1="-483.54" y1="284.48" x2="-478.46" y2="284.48" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-483.54" y="284.48" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTG15"/>
-<wire x1="-423.7" y1="507.84" x2="-393.54" y2="507.84" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="507.84" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB8" class="0">
-<segment>
-<pinref part="LED8" gate="G$1" pin="BLUE"/>
-<wire x1="-430.52" y1="279.4" x2="-425.44" y2="279.4" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-430.52" y="279.4" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTB14"/>
-<wire x1="-423.7" y1="528.16" x2="-393.54" y2="528.16" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="528.16" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR8" class="0">
-<segment>
-<pinref part="LED8" gate="G$1" pin="RED"/>
-<wire x1="-430.52" y1="289.56" x2="-425.44" y2="289.56" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-430.52" y="289.56" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTR14"/>
-<wire x1="-423.7" y1="525.62" x2="-393.54" y2="525.62" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="525.62" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG8" class="0">
-<segment>
-<pinref part="LED8" gate="G$1" pin="GREEN"/>
-<wire x1="-430.52" y1="284.48" x2="-425.44" y2="284.48" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-430.52" y="284.48" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUTG14"/>
-<wire x1="-423.7" y1="523.08" x2="-393.54" y2="523.08" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="523.08" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB17" class="0">
-<segment>
-<pinref part="LED17" gate="G$1" pin="BLUE"/>
-<wire x1="-271.46" y1="332.74" x2="-266.38" y2="332.74" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-271.46" y="332.74" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="OUTB7"/>
-<wire x1="-345.6" y1="505.3" x2="-375.76" y2="505.3" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="505.3" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR17" class="0">
-<segment>
-<pinref part="LED17" gate="G$1" pin="RED"/>
-<wire x1="-271.46" y1="342.9" x2="-266.38" y2="342.9" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-271.46" y="342.9" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="OUTR7"/>
-<wire x1="-345.6" y1="502.76" x2="-375.76" y2="502.76" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="502.76" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG17" class="0">
-<segment>
-<pinref part="LED17" gate="G$1" pin="GREEN"/>
-<wire x1="-271.46" y1="337.82" x2="-266.38" y2="337.82" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-271.46" y="337.82" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="OUTG7"/>
-<wire x1="-345.6" y1="500.22" x2="-375.76" y2="500.22" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="500.22" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB21" class="0">
-<segment>
-<pinref part="LED21" gate="G$1" pin="BLUE"/>
-<wire x1="-218.44" y1="332.74" x2="-213.36" y2="332.74" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-218.44" y="332.74" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="OUTB6"/>
-<wire x1="-345.6" y1="520.54" x2="-375.76" y2="520.54" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="520.54" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR21" class="0">
-<segment>
-<pinref part="LED21" gate="G$1" pin="RED"/>
-<wire x1="-218.44" y1="342.9" x2="-213.36" y2="342.9" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-218.44" y="342.9" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="OUTR6"/>
-<wire x1="-345.6" y1="518" x2="-375.76" y2="518" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="518" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG21" class="0">
-<segment>
-<pinref part="LED21" gate="G$1" pin="GREEN"/>
-<wire x1="-218.44" y1="337.82" x2="-213.36" y2="337.82" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-218.44" y="337.82" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="OUTG6"/>
-<wire x1="-345.6" y1="515.46" x2="-375.76" y2="515.46" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="515.46" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB18" class="0">
-<segment>
-<pinref part="LED18" gate="G$1" pin="BLUE"/>
-<wire x1="-271.46" y1="314.96" x2="-266.38" y2="314.96" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-271.46" y="314.96" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="OUTB3"/>
-<wire x1="-345.6" y1="512.92" x2="-375.76" y2="512.92" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="512.92" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR18" class="0">
-<segment>
-<pinref part="LED18" gate="G$1" pin="RED"/>
-<wire x1="-271.46" y1="325.12" x2="-266.38" y2="325.12" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-271.46" y="325.12" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="OUTR3"/>
-<wire x1="-345.6" y1="510.38" x2="-375.76" y2="510.38" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="510.38" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG18" class="0">
-<segment>
-<pinref part="LED18" gate="G$1" pin="GREEN"/>
-<wire x1="-271.46" y1="320.04" x2="-266.38" y2="320.04" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-271.46" y="320.04" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="OUTG3"/>
-<wire x1="-345.6" y1="507.84" x2="-375.76" y2="507.84" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="507.84" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB22" class="0">
-<segment>
-<pinref part="LED22" gate="G$1" pin="BLUE"/>
-<wire x1="-218.44" y1="314.96" x2="-213.36" y2="314.96" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-218.44" y="314.96" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="OUTB2"/>
-<wire x1="-345.6" y1="528.16" x2="-375.76" y2="528.16" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="528.16" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR22" class="0">
-<segment>
-<pinref part="LED22" gate="G$1" pin="RED"/>
-<wire x1="-218.44" y1="325.12" x2="-213.36" y2="325.12" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-218.44" y="325.12" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="OUTR2"/>
-<wire x1="-345.6" y1="525.62" x2="-375.76" y2="525.62" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="525.62" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG22" class="0">
-<segment>
-<pinref part="LED22" gate="G$1" pin="GREEN"/>
-<wire x1="-218.44" y1="320.04" x2="-213.36" y2="320.04" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-218.44" y="320.04" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="OUTG2"/>
-<wire x1="-345.6" y1="523.08" x2="-375.76" y2="523.08" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="523.08" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB19" class="0">
-<segment>
-<pinref part="LED19" gate="G$1" pin="BLUE"/>
-<wire x1="-271.46" y1="297.18" x2="-266.38" y2="297.18" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-271.46" y="297.18" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="OUTB11"/>
-<wire x1="-310.04" y1="505.3" x2="-279.88" y2="505.3" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-282.42" y="505.3" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR19" class="0">
-<segment>
-<pinref part="LED19" gate="G$1" pin="RED"/>
-<wire x1="-271.46" y1="307.34" x2="-266.38" y2="307.34" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-271.46" y="307.34" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="OUTR11"/>
-<wire x1="-310.04" y1="502.76" x2="-279.88" y2="502.76" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="502.76" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG19" class="0">
-<segment>
-<pinref part="LED19" gate="G$1" pin="GREEN"/>
-<wire x1="-271.46" y1="302.26" x2="-266.38" y2="302.26" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-271.46" y="302.26" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="OUTG11"/>
-<wire x1="-310.04" y1="500.22" x2="-279.88" y2="500.22" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="500.22" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB25" class="0">
-<segment>
-<pinref part="LED25" gate="G$1" pin="BLUE"/>
-<wire x1="-165.42" y1="332.74" x2="-160.34" y2="332.74" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-165.42" y="332.74" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="OUTB1"/>
-<wire x1="-345.6" y1="535.78" x2="-375.76" y2="535.78" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="535.78" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR25" class="0">
-<segment>
-<pinref part="LED25" gate="G$1" pin="RED"/>
-<wire x1="-165.42" y1="342.9" x2="-160.34" y2="342.9" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-165.42" y="342.9" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="OUTR1"/>
-<wire x1="-345.6" y1="533.24" x2="-375.76" y2="533.24" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="533.24" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG25" class="0">
-<segment>
-<pinref part="LED25" gate="G$1" pin="GREEN"/>
-<wire x1="-165.42" y1="337.82" x2="-160.34" y2="337.82" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-165.42" y="337.82" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="OUTG1"/>
-<wire x1="-345.6" y1="530.7" x2="-375.76" y2="530.7" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="530.7" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB29" class="0">
-<segment>
-<pinref part="LED29" gate="G$1" pin="BLUE"/>
-<wire x1="-112.4" y1="332.74" x2="-107.32" y2="332.74" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-112.4" y="332.74" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="OUTG4"/>
-<wire x1="-345.6" y1="553.56" x2="-375.76" y2="553.56" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="553.56" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR29" class="0">
-<segment>
-<pinref part="LED29" gate="G$1" pin="RED"/>
-<wire x1="-112.4" y1="342.9" x2="-107.32" y2="342.9" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-112.4" y="342.9" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="OUTR4"/>
-<wire x1="-345.6" y1="556.1" x2="-375.76" y2="556.1" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="556.1" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED1" gate="G$1" pin="GREEN"/>
+<wire x1="-615.62" y1="-190.5" x2="-610.54" y2="-190.5" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-615.62" y="-190.5" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDG29" class="0">
 <segment>
 <pinref part="LED29" gate="G$1" pin="GREEN"/>
-<wire x1="-112.4" y1="337.82" x2="-107.32" y2="337.82" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-112.4" y="337.82" size="1.778" layer="95" grouprefs="LEDS1"/>
+<wire x1="-244.48" y1="-190.5" x2="-239.4" y2="-190.5" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-244.48" y="-190.5" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="OUTG4"/>
+<wire x1="-495.46" y1="43.02" x2="-525.62" y2="43.02" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="43.02" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+</net>
+<net name="N$LEDR29" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="OUTR4"/>
+<wire x1="-495.46" y1="45.56" x2="-525.62" y2="45.56" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="45.56" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED29" gate="G$1" pin="RED"/>
+<wire x1="-244.48" y1="-185.42" x2="-239.4" y2="-185.42" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-244.48" y="-185.42" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB29" class="0">
+<segment>
+<pinref part="LED29" gate="G$1" pin="BLUE"/>
+<wire x1="-244.48" y1="-195.58" x2="-239.4" y2="-195.58" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-244.48" y="-195.58" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="OUTB4"/>
-<wire x1="-345.6" y1="558.64" x2="-375.76" y2="558.64" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="558.64" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB26" class="0">
-<segment>
-<pinref part="LED26" gate="G$1" pin="BLUE"/>
-<wire x1="-165.42" y1="314.96" x2="-160.34" y2="314.96" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-165.42" y="314.96" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="OUTB5"/>
-<wire x1="-345.6" y1="543.4" x2="-375.76" y2="543.4" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="543.4" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR26" class="0">
-<segment>
-<pinref part="LED26" gate="G$1" pin="RED"/>
-<wire x1="-165.42" y1="325.12" x2="-160.34" y2="325.12" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-165.42" y="325.12" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="OUTR5"/>
-<wire x1="-345.6" y1="540.86" x2="-375.76" y2="540.86" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="540.86" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG26" class="0">
-<segment>
-<pinref part="LED26" gate="G$1" pin="GREEN"/>
-<wire x1="-165.42" y1="320.04" x2="-160.34" y2="320.04" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-165.42" y="320.04" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="OUTG5"/>
-<wire x1="-345.6" y1="538.32" x2="-375.76" y2="538.32" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="538.32" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB30" class="0">
-<segment>
-<pinref part="LED30" gate="G$1" pin="BLUE"/>
-<wire x1="-112.4" y1="314.96" x2="-107.32" y2="314.96" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-112.4" y="314.96" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="OUTG0"/>
-<wire x1="-345.6" y1="545.94" x2="-375.76" y2="545.94" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="545.94" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR30" class="0">
-<segment>
-<pinref part="LED30" gate="G$1" pin="RED"/>
-<wire x1="-112.4" y1="325.12" x2="-107.32" y2="325.12" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-112.4" y="325.12" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="OUTR0"/>
-<wire x1="-345.6" y1="548.48" x2="-375.76" y2="548.48" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="548.48" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-495.46" y1="48.1" x2="-525.62" y2="48.1" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="48.1" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
 <net name="N$LEDG30" class="0">
 <segment>
 <pinref part="LED30" gate="G$1" pin="GREEN"/>
-<wire x1="-112.4" y1="320.04" x2="-107.32" y2="320.04" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-112.4" y="320.04" size="1.778" layer="95" grouprefs="LEDS1"/>
+<wire x1="-244.48" y1="-208.28" x2="-239.4" y2="-208.28" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-244.48" y="-208.28" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="OUTG0"/>
+<wire x1="-495.46" y1="35.4" x2="-525.62" y2="35.4" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="35.4" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+</net>
+<net name="N$LEDR30" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="OUTR0"/>
+<wire x1="-495.46" y1="37.94" x2="-525.62" y2="37.94" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="37.94" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED30" gate="G$1" pin="RED"/>
+<wire x1="-244.48" y1="-203.2" x2="-239.4" y2="-203.2" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-244.48" y="-203.2" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB30" class="0">
+<segment>
+<pinref part="LED30" gate="G$1" pin="BLUE"/>
+<wire x1="-244.48" y1="-213.36" x2="-239.4" y2="-213.36" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-244.48" y="-213.36" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="OUTB0"/>
-<wire x1="-345.6" y1="551.02" x2="-375.76" y2="551.02" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="551.02" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-495.46" y1="40.48" x2="-525.62" y2="40.48" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="40.48" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
-<net name="N$LEDB27" class="0">
+<net name="N$LEDB26" class="0">
 <segment>
-<pinref part="LED27" gate="G$1" pin="BLUE"/>
-<wire x1="-165.42" y1="297.18" x2="-160.34" y2="297.18" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-165.42" y="297.18" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC2" gate="G$1" pin="OUTB5"/>
+<wire x1="-495.46" y1="32.86" x2="-525.62" y2="32.86" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="32.86" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="OUTB13"/>
-<wire x1="-310.04" y1="535.78" x2="-279.88" y2="535.78" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="535.78" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR27" class="0">
-<segment>
-<pinref part="LED27" gate="G$1" pin="RED"/>
-<wire x1="-165.42" y1="307.34" x2="-160.34" y2="307.34" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-165.42" y="307.34" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="OUTR13"/>
-<wire x1="-310.04" y1="533.24" x2="-279.88" y2="533.24" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="533.24" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED26" gate="G$1" pin="BLUE"/>
+<wire x1="-297.5" y1="-213.36" x2="-292.42" y2="-213.36" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-297.5" y="-213.36" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG27" class="0">
+<net name="N$LEDR26" class="0">
 <segment>
-<pinref part="LED27" gate="G$1" pin="GREEN"/>
-<wire x1="-165.42" y1="302.26" x2="-160.34" y2="302.26" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-165.42" y="302.26" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC2" gate="G$1" pin="OUTR5"/>
+<wire x1="-495.46" y1="30.32" x2="-525.62" y2="30.32" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="30.32" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="OUTG13"/>
-<wire x1="-310.04" y1="530.7" x2="-279.88" y2="530.7" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="530.7" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB31" class="0">
-<segment>
-<pinref part="LED31" gate="G$1" pin="BLUE"/>
-<wire x1="-112.4" y1="297.18" x2="-107.32" y2="297.18" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-112.4" y="297.18" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="OUTB12"/>
-<wire x1="-310.04" y1="551.02" x2="-279.88" y2="551.02" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="551.02" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED26" gate="G$1" pin="RED"/>
+<wire x1="-297.5" y1="-203.2" x2="-292.42" y2="-203.2" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-297.5" y="-203.2" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR31" class="0">
+<net name="N$LEDG26" class="0">
 <segment>
-<pinref part="LED31" gate="G$1" pin="RED"/>
-<wire x1="-112.4" y1="307.34" x2="-107.32" y2="307.34" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-112.4" y="307.34" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC2" gate="G$1" pin="OUTG5"/>
+<wire x1="-495.46" y1="27.78" x2="-525.62" y2="27.78" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="27.78" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="OUTR12"/>
-<wire x1="-310.04" y1="548.48" x2="-279.88" y2="548.48" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="548.48" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG31" class="0">
-<segment>
-<pinref part="LED31" gate="G$1" pin="GREEN"/>
-<wire x1="-112.4" y1="302.26" x2="-107.32" y2="302.26" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-112.4" y="302.26" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="OUTG12"/>
-<wire x1="-310.04" y1="545.94" x2="-279.88" y2="545.94" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="545.94" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED26" gate="G$1" pin="GREEN"/>
+<wire x1="-297.5" y1="-208.28" x2="-292.42" y2="-208.28" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-297.5" y="-208.28" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB28" class="0">
+<net name="N$LEDB25" class="0">
 <segment>
-<pinref part="LED28" gate="G$1" pin="BLUE"/>
-<wire x1="-165.42" y1="279.4" x2="-160.34" y2="279.4" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-165.42" y="279.4" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC2" gate="G$1" pin="OUTB1"/>
+<wire x1="-495.46" y1="25.24" x2="-525.62" y2="25.24" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="25.24" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="OUTB9"/>
-<wire x1="-310.04" y1="543.4" x2="-279.88" y2="543.4" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="543.4" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR28" class="0">
-<segment>
-<pinref part="LED28" gate="G$1" pin="RED"/>
-<wire x1="-165.42" y1="289.56" x2="-160.34" y2="289.56" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-165.42" y="289.56" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="OUTR9"/>
-<wire x1="-310.04" y1="540.86" x2="-279.88" y2="540.86" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="540.86" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED25" gate="G$1" pin="BLUE"/>
+<wire x1="-297.5" y1="-195.58" x2="-292.42" y2="-195.58" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-297.5" y="-195.58" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG28" class="0">
+<net name="N$LEDR25" class="0">
 <segment>
-<pinref part="LED28" gate="G$1" pin="GREEN"/>
-<wire x1="-165.42" y1="284.48" x2="-160.34" y2="284.48" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-165.42" y="284.48" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC2" gate="G$1" pin="OUTR1"/>
+<wire x1="-495.46" y1="22.7" x2="-525.62" y2="22.7" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="22.7" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="OUTG9"/>
-<wire x1="-310.04" y1="538.32" x2="-279.88" y2="538.32" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="538.32" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED25" gate="G$1" pin="RED"/>
+<wire x1="-297.5" y1="-185.42" x2="-292.42" y2="-185.42" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-297.5" y="-185.42" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG25" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="OUTG1"/>
+<wire x1="-495.46" y1="20.16" x2="-525.62" y2="20.16" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="20.16" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED25" gate="G$1" pin="GREEN"/>
+<wire x1="-297.5" y1="-190.5" x2="-292.42" y2="-190.5" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-297.5" y="-190.5" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB22" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="OUTB2"/>
+<wire x1="-495.46" y1="17.62" x2="-525.62" y2="17.62" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="17.62" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED22" gate="G$1" pin="BLUE"/>
+<wire x1="-350.52" y1="-213.36" x2="-345.44" y2="-213.36" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-350.52" y="-213.36" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR22" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="OUTR2"/>
+<wire x1="-495.46" y1="15.08" x2="-525.62" y2="15.08" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="15.08" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED22" gate="G$1" pin="RED"/>
+<wire x1="-350.52" y1="-203.2" x2="-345.44" y2="-203.2" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-350.52" y="-203.2" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG22" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="OUTG2"/>
+<wire x1="-495.46" y1="12.54" x2="-525.62" y2="12.54" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="12.54" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED22" gate="G$1" pin="GREEN"/>
+<wire x1="-350.52" y1="-208.28" x2="-345.44" y2="-208.28" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-350.52" y="-208.28" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDB32" class="0">
 <segment>
-<pinref part="LED32" gate="G$1" pin="BLUE"/>
-<wire x1="-112.4" y1="279.4" x2="-107.32" y2="279.4" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-112.4" y="279.4" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC2" gate="G$1" pin="OUTB8"/>
+<wire x1="-459.9" y1="48.1" x2="-429.74" y2="48.1" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="48.1" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="OUTB8"/>
-<wire x1="-310.04" y1="558.64" x2="-279.88" y2="558.64" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="558.64" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED32" gate="G$1" pin="BLUE"/>
+<wire x1="-244.48" y1="-248.92" x2="-239.4" y2="-248.92" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-244.48" y="-248.92" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDR32" class="0">
 <segment>
-<pinref part="LED32" gate="G$1" pin="RED"/>
-<wire x1="-112.4" y1="289.56" x2="-107.32" y2="289.56" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-112.4" y="289.56" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC2" gate="G$1" pin="OUTR8"/>
+<wire x1="-459.9" y1="45.56" x2="-429.74" y2="45.56" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="45.56" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="OUTR8"/>
-<wire x1="-310.04" y1="556.1" x2="-279.88" y2="556.1" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="556.1" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED32" gate="G$1" pin="RED"/>
+<wire x1="-244.48" y1="-238.76" x2="-239.4" y2="-238.76" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-244.48" y="-238.76" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDG32" class="0">
 <segment>
-<pinref part="LED32" gate="G$1" pin="GREEN"/>
-<wire x1="-112.4" y1="284.48" x2="-107.32" y2="284.48" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-112.4" y="284.48" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
 <pinref part="IC2" gate="G$1" pin="OUTG8"/>
-<wire x1="-310.04" y1="553.56" x2="-279.88" y2="553.56" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="553.56" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<wire x1="-459.9" y1="43.02" x2="-429.74" y2="43.02" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="43.02" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED32" gate="G$1" pin="GREEN"/>
+<wire x1="-244.48" y1="-243.84" x2="-239.4" y2="-243.84" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-244.48" y="-243.84" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB23" class="0">
+<net name="N$LEDB31" class="0">
 <segment>
-<pinref part="LED23" gate="G$1" pin="BLUE"/>
-<wire x1="-218.44" y1="297.18" x2="-213.36" y2="297.18" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-218.44" y="297.18" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC2" gate="G$1" pin="OUTB12"/>
+<wire x1="-459.9" y1="40.48" x2="-429.74" y2="40.48" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="40.48" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="OUTB10"/>
-<wire x1="-310.04" y1="520.54" x2="-279.88" y2="520.54" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="520.54" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR23" class="0">
-<segment>
-<pinref part="LED23" gate="G$1" pin="RED"/>
-<wire x1="-218.44" y1="307.34" x2="-213.36" y2="307.34" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-218.44" y="307.34" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="OUTR10"/>
-<wire x1="-310.04" y1="518" x2="-279.88" y2="518" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="518" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED31" gate="G$1" pin="BLUE"/>
+<wire x1="-244.48" y1="-231.14" x2="-239.4" y2="-231.14" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-244.48" y="-231.14" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG23" class="0">
+<net name="N$LEDR31" class="0">
 <segment>
-<pinref part="LED23" gate="G$1" pin="GREEN"/>
-<wire x1="-218.44" y1="302.26" x2="-213.36" y2="302.26" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-218.44" y="302.26" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC2" gate="G$1" pin="OUTR12"/>
+<wire x1="-459.9" y1="37.94" x2="-429.74" y2="37.94" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="37.94" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="OUTG10"/>
-<wire x1="-279.88" y1="515.46" x2="-310.04" y2="515.46" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="515.46" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB20" class="0">
-<segment>
-<pinref part="LED20" gate="G$1" pin="BLUE"/>
-<wire x1="-271.46" y1="279.4" x2="-266.38" y2="279.4" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-271.46" y="279.4" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="OUTB15"/>
-<wire x1="-310.04" y1="512.92" x2="-279.88" y2="512.92" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-282.42" y="512.92" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED31" gate="G$1" pin="RED"/>
+<wire x1="-244.48" y1="-220.98" x2="-239.4" y2="-220.98" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-244.48" y="-220.98" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR20" class="0">
+<net name="N$LEDG31" class="0">
 <segment>
-<pinref part="LED20" gate="G$1" pin="RED"/>
-<wire x1="-271.46" y1="289.56" x2="-266.38" y2="289.56" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-271.46" y="289.56" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC2" gate="G$1" pin="OUTG12"/>
+<wire x1="-459.9" y1="35.4" x2="-429.74" y2="35.4" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="35.4" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="OUTR15"/>
-<wire x1="-310.04" y1="510.38" x2="-279.88" y2="510.38" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-282.42" y="510.38" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED31" gate="G$1" pin="GREEN"/>
+<wire x1="-244.48" y1="-226.06" x2="-239.4" y2="-226.06" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-244.48" y="-226.06" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG20" class="0">
+<net name="N$LEDB28" class="0">
 <segment>
-<pinref part="LED20" gate="G$1" pin="GREEN"/>
-<wire x1="-271.46" y1="284.48" x2="-266.38" y2="284.48" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-271.46" y="284.48" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC2" gate="G$1" pin="OUTB9"/>
+<wire x1="-459.9" y1="32.86" x2="-429.74" y2="32.86" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="32.86" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="OUTG15"/>
-<wire x1="-310.04" y1="507.84" x2="-279.88" y2="507.84" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="507.84" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED28" gate="G$1" pin="BLUE"/>
+<wire x1="-297.5" y1="-248.92" x2="-292.42" y2="-248.92" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-297.5" y="-248.92" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR28" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="OUTR9"/>
+<wire x1="-459.9" y1="30.32" x2="-429.74" y2="30.32" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="30.32" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED28" gate="G$1" pin="RED"/>
+<wire x1="-297.5" y1="-238.76" x2="-292.42" y2="-238.76" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-297.5" y="-238.76" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG28" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="OUTG9"/>
+<wire x1="-459.9" y1="27.78" x2="-429.74" y2="27.78" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="27.78" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED28" gate="G$1" pin="GREEN"/>
+<wire x1="-297.5" y1="-243.84" x2="-292.42" y2="-243.84" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-297.5" y="-243.84" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB27" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="OUTB13"/>
+<wire x1="-459.9" y1="25.24" x2="-429.74" y2="25.24" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="25.24" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED27" gate="G$1" pin="BLUE"/>
+<wire x1="-297.5" y1="-231.14" x2="-292.42" y2="-231.14" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-297.5" y="-231.14" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR27" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="OUTR13"/>
+<wire x1="-459.9" y1="22.7" x2="-429.74" y2="22.7" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="22.7" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED27" gate="G$1" pin="RED"/>
+<wire x1="-297.5" y1="-220.98" x2="-292.42" y2="-220.98" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-297.5" y="-220.98" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG27" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="OUTG13"/>
+<wire x1="-459.9" y1="20.16" x2="-429.74" y2="20.16" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="20.16" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED27" gate="G$1" pin="GREEN"/>
+<wire x1="-297.5" y1="-226.06" x2="-292.42" y2="-226.06" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-297.5" y="-226.06" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDB24" class="0">
 <segment>
-<pinref part="LED24" gate="G$1" pin="BLUE"/>
-<wire x1="-218.44" y1="279.4" x2="-213.36" y2="279.4" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-218.44" y="279.4" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC2" gate="G$1" pin="OUTB14"/>
+<wire x1="-459.9" y1="17.62" x2="-429.74" y2="17.62" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="17.62" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="OUTB14"/>
-<wire x1="-310.04" y1="528.16" x2="-279.88" y2="528.16" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="528.16" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED24" gate="G$1" pin="BLUE"/>
+<wire x1="-350.52" y1="-248.92" x2="-345.44" y2="-248.92" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-350.52" y="-248.92" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDR24" class="0">
 <segment>
-<pinref part="LED24" gate="G$1" pin="RED"/>
-<wire x1="-218.44" y1="289.56" x2="-213.36" y2="289.56" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-218.44" y="289.56" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC2" gate="G$1" pin="OUTR14"/>
+<wire x1="-459.9" y1="15.08" x2="-429.74" y2="15.08" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="15.08" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="OUTR14"/>
-<wire x1="-310.04" y1="525.62" x2="-279.88" y2="525.62" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="525.62" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED24" gate="G$1" pin="RED"/>
+<wire x1="-350.52" y1="-238.76" x2="-345.44" y2="-238.76" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-350.52" y="-238.76" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDG24" class="0">
 <segment>
-<pinref part="LED24" gate="G$1" pin="GREEN"/>
-<wire x1="-218.44" y1="284.48" x2="-213.36" y2="284.48" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-218.44" y="284.48" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
 <pinref part="IC2" gate="G$1" pin="OUTG14"/>
-<wire x1="-310.04" y1="523.08" x2="-279.88" y2="523.08" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="523.08" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<wire x1="-459.9" y1="12.54" x2="-429.74" y2="12.54" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="12.54" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED24" gate="G$1" pin="GREEN"/>
+<wire x1="-350.52" y1="-243.84" x2="-345.44" y2="-243.84" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-350.52" y="-243.84" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB33" class="0">
+<net name="N$LEDB23" class="0">
 <segment>
-<pinref part="LED33" gate="G$1" pin="BLUE"/>
-<wire x1="-59.38" y1="332.74" x2="-54.3" y2="332.74" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-59.38" y="332.74" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC2" gate="G$1" pin="OUTB10"/>
+<wire x1="-459.9" y1="10" x2="-429.74" y2="10" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="10" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUTB7"/>
-<wire x1="-229.4" y1="505.3" x2="-259.56" y2="505.3" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="505.3" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR33" class="0">
-<segment>
-<pinref part="LED33" gate="G$1" pin="RED"/>
-<wire x1="-59.38" y1="342.9" x2="-54.3" y2="342.9" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-59.38" y="342.9" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="OUTR7"/>
-<wire x1="-229.4" y1="502.76" x2="-259.56" y2="502.76" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="502.76" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED23" gate="G$1" pin="BLUE"/>
+<wire x1="-350.52" y1="-231.14" x2="-345.44" y2="-231.14" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-350.52" y="-231.14" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG33" class="0">
+<net name="N$LEDR23" class="0">
 <segment>
-<pinref part="LED33" gate="G$1" pin="GREEN"/>
-<wire x1="-59.38" y1="337.82" x2="-54.3" y2="337.82" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-59.38" y="337.82" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC2" gate="G$1" pin="OUTR10"/>
+<wire x1="-459.9" y1="7.46" x2="-429.74" y2="7.46" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="7.46" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUTG7"/>
-<wire x1="-229.4" y1="500.22" x2="-259.56" y2="500.22" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="500.22" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB37" class="0">
-<segment>
-<pinref part="LED37" gate="G$1" pin="BLUE"/>
-<wire x1="-6.36" y1="332.74" x2="-1.28" y2="332.74" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-6.36" y="332.74" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="OUTB6"/>
-<wire x1="-229.4" y1="520.54" x2="-259.56" y2="520.54" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="520.54" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED23" gate="G$1" pin="RED"/>
+<wire x1="-350.52" y1="-220.98" x2="-345.44" y2="-220.98" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-350.52" y="-220.98" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR37" class="0">
+<net name="N$LEDG23" class="0">
 <segment>
-<pinref part="LED37" gate="G$1" pin="RED"/>
-<wire x1="-6.36" y1="342.9" x2="-1.28" y2="342.9" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-6.36" y="342.9" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC2" gate="G$1" pin="OUTG10"/>
+<wire x1="-429.74" y1="4.92" x2="-459.9" y2="4.92" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="4.92" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUTR6"/>
-<wire x1="-229.4" y1="518" x2="-259.56" y2="518" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="518" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG37" class="0">
-<segment>
-<pinref part="LED37" gate="G$1" pin="GREEN"/>
-<wire x1="-6.36" y1="337.82" x2="-1.28" y2="337.82" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-6.36" y="337.82" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="OUTG6"/>
-<wire x1="-229.4" y1="515.46" x2="-259.56" y2="515.46" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="515.46" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED23" gate="G$1" pin="GREEN"/>
+<wire x1="-350.52" y1="-226.06" x2="-345.44" y2="-226.06" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-350.52" y="-226.06" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB34" class="0">
+<net name="N$LEDB20" class="0">
 <segment>
-<pinref part="LED34" gate="G$1" pin="BLUE"/>
-<wire x1="-59.38" y1="314.96" x2="-54.3" y2="314.96" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-59.38" y="314.96" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC2" gate="G$1" pin="OUTB15"/>
+<wire x1="-459.9" y1="2.38" x2="-429.74" y2="2.38" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-432.28" y="2.38" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUTB3"/>
-<wire x1="-229.4" y1="512.92" x2="-259.56" y2="512.92" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="512.92" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR34" class="0">
-<segment>
-<pinref part="LED34" gate="G$1" pin="RED"/>
-<wire x1="-59.38" y1="325.12" x2="-54.3" y2="325.12" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-59.38" y="325.12" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="OUTR3"/>
-<wire x1="-229.4" y1="510.38" x2="-259.56" y2="510.38" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="510.38" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED20" gate="G$1" pin="BLUE"/>
+<wire x1="-403.54" y1="-248.92" x2="-398.46" y2="-248.92" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-403.54" y="-248.92" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG34" class="0">
+<net name="N$LEDR20" class="0">
 <segment>
-<pinref part="LED34" gate="G$1" pin="GREEN"/>
-<wire x1="-59.38" y1="320.04" x2="-54.3" y2="320.04" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-59.38" y="320.04" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC2" gate="G$1" pin="OUTR15"/>
+<wire x1="-459.9" y1="-0.16" x2="-429.74" y2="-0.16" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-432.28" y="-0.16" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUTG3"/>
-<wire x1="-229.4" y1="507.84" x2="-259.56" y2="507.84" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="507.84" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB38" class="0">
-<segment>
-<pinref part="LED38" gate="G$1" pin="BLUE"/>
-<wire x1="-6.36" y1="314.96" x2="-1.28" y2="314.96" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-6.36" y="314.96" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="OUTB2"/>
-<wire x1="-229.4" y1="528.16" x2="-259.56" y2="528.16" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="528.16" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED20" gate="G$1" pin="RED"/>
+<wire x1="-403.54" y1="-238.76" x2="-398.46" y2="-238.76" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-403.54" y="-238.76" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR38" class="0">
+<net name="N$LEDG20" class="0">
 <segment>
-<pinref part="LED38" gate="G$1" pin="RED"/>
-<wire x1="-6.36" y1="325.12" x2="-1.28" y2="325.12" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-6.36" y="325.12" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC2" gate="G$1" pin="OUTG15"/>
+<wire x1="-459.9" y1="-2.7" x2="-429.74" y2="-2.7" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="-2.7" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUTR2"/>
-<wire x1="-229.4" y1="525.62" x2="-259.56" y2="525.62" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="525.62" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG38" class="0">
-<segment>
-<pinref part="LED38" gate="G$1" pin="GREEN"/>
-<wire x1="-6.36" y1="320.04" x2="-1.28" y2="320.04" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-6.36" y="320.04" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="OUTG2"/>
-<wire x1="-229.4" y1="523.08" x2="-259.56" y2="523.08" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="523.08" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED20" gate="G$1" pin="GREEN"/>
+<wire x1="-403.54" y1="-243.84" x2="-398.46" y2="-243.84" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-403.54" y="-243.84" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB35" class="0">
+<net name="N$LEDB19" class="0">
 <segment>
-<pinref part="LED35" gate="G$1" pin="BLUE"/>
-<wire x1="-59.38" y1="297.18" x2="-54.3" y2="297.18" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-59.38" y="297.18" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC2" gate="G$1" pin="OUTB11"/>
+<wire x1="-459.9" y1="-5.24" x2="-429.74" y2="-5.24" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-432.28" y="-5.24" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUTB11"/>
-<wire x1="-193.84" y1="505.3" x2="-163.68" y2="505.3" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="505.3" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR35" class="0">
-<segment>
-<pinref part="LED35" gate="G$1" pin="RED"/>
-<wire x1="-59.38" y1="307.34" x2="-54.3" y2="307.34" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-59.38" y="307.34" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="OUTR11"/>
-<wire x1="-193.84" y1="502.76" x2="-163.68" y2="502.76" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="502.76" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED19" gate="G$1" pin="BLUE"/>
+<wire x1="-403.54" y1="-231.14" x2="-398.46" y2="-231.14" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-403.54" y="-231.14" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG35" class="0">
+<net name="N$LEDR19" class="0">
 <segment>
-<pinref part="LED35" gate="G$1" pin="GREEN"/>
-<wire x1="-59.38" y1="302.26" x2="-54.3" y2="302.26" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-59.38" y="302.26" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC2" gate="G$1" pin="OUTR11"/>
+<wire x1="-459.9" y1="-7.78" x2="-429.74" y2="-7.78" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="-7.78" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUTG11"/>
-<wire x1="-193.84" y1="500.22" x2="-163.68" y2="500.22" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="500.22" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB41" class="0">
-<segment>
-<pinref part="LED41" gate="G$1" pin="BLUE"/>
-<wire x1="-483.54" y1="254" x2="-478.46" y2="254" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-483.54" y="254" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="OUTB1"/>
-<wire x1="-229.4" y1="535.78" x2="-259.56" y2="535.78" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="535.78" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED19" gate="G$1" pin="RED"/>
+<wire x1="-403.54" y1="-220.98" x2="-398.46" y2="-220.98" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-403.54" y="-220.98" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR41" class="0">
+<net name="N$LEDG19" class="0">
 <segment>
-<pinref part="LED41" gate="G$1" pin="RED"/>
-<wire x1="-483.54" y1="264.16" x2="-478.46" y2="264.16" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-483.54" y="264.16" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC2" gate="G$1" pin="OUTG11"/>
+<wire x1="-459.9" y1="-10.32" x2="-429.74" y2="-10.32" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="-10.32" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUTR1"/>
-<wire x1="-229.4" y1="533.24" x2="-259.56" y2="533.24" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="533.24" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG41" class="0">
-<segment>
-<pinref part="LED41" gate="G$1" pin="GREEN"/>
-<wire x1="-483.54" y1="259.08" x2="-478.46" y2="259.08" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-483.54" y="259.08" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="OUTG1"/>
-<wire x1="-229.4" y1="530.7" x2="-259.56" y2="530.7" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="530.7" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED19" gate="G$1" pin="GREEN"/>
+<wire x1="-403.54" y1="-226.06" x2="-398.46" y2="-226.06" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-403.54" y="-226.06" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB45" class="0">
+<net name="N$LEDB21" class="0">
 <segment>
-<pinref part="LED45" gate="G$1" pin="BLUE"/>
-<wire x1="-430.52" y1="254" x2="-425.44" y2="254" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-430.52" y="254" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC2" gate="G$1" pin="OUTB6"/>
+<wire x1="-495.46" y1="10" x2="-525.62" y2="10" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="10" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUTG4"/>
-<wire x1="-229.4" y1="553.56" x2="-259.56" y2="553.56" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="553.56" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED21" gate="G$1" pin="BLUE"/>
+<wire x1="-350.52" y1="-195.58" x2="-345.44" y2="-195.58" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-350.52" y="-195.58" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR45" class="0">
+<net name="N$LEDR21" class="0">
 <segment>
-<pinref part="LED45" gate="G$1" pin="RED"/>
-<wire x1="-430.52" y1="264.16" x2="-425.44" y2="264.16" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-430.52" y="264.16" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC2" gate="G$1" pin="OUTR6"/>
+<wire x1="-495.46" y1="7.46" x2="-525.62" y2="7.46" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="7.46" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUTR4"/>
-<wire x1="-229.4" y1="556.1" x2="-259.56" y2="556.1" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="556.1" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED21" gate="G$1" pin="RED"/>
+<wire x1="-350.52" y1="-185.42" x2="-345.44" y2="-185.42" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-350.52" y="-185.42" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG21" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="OUTG6"/>
+<wire x1="-495.46" y1="4.92" x2="-525.62" y2="4.92" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="4.92" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED21" gate="G$1" pin="GREEN"/>
+<wire x1="-350.52" y1="-190.5" x2="-345.44" y2="-190.5" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-350.52" y="-190.5" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB18" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="OUTB3"/>
+<wire x1="-495.46" y1="2.38" x2="-525.62" y2="2.38" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="2.38" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED18" gate="G$1" pin="BLUE"/>
+<wire x1="-403.54" y1="-213.36" x2="-398.46" y2="-213.36" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-403.54" y="-213.36" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR18" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="OUTR3"/>
+<wire x1="-495.46" y1="-0.16" x2="-525.62" y2="-0.16" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="-0.16" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED18" gate="G$1" pin="RED"/>
+<wire x1="-403.54" y1="-203.2" x2="-398.46" y2="-203.2" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-403.54" y="-203.2" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG18" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="OUTG3"/>
+<wire x1="-495.46" y1="-2.7" x2="-525.62" y2="-2.7" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="-2.7" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED18" gate="G$1" pin="GREEN"/>
+<wire x1="-403.54" y1="-208.28" x2="-398.46" y2="-208.28" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-403.54" y="-208.28" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB17" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="OUTB7"/>
+<wire x1="-495.46" y1="-5.24" x2="-525.62" y2="-5.24" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="-5.24" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED17" gate="G$1" pin="BLUE"/>
+<wire x1="-403.54" y1="-195.58" x2="-398.46" y2="-195.58" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-403.54" y="-195.58" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR17" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="OUTR7"/>
+<wire x1="-495.46" y1="-7.78" x2="-525.62" y2="-7.78" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="-7.78" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED17" gate="G$1" pin="RED"/>
+<wire x1="-403.54" y1="-185.42" x2="-398.46" y2="-185.42" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-403.54" y="-185.42" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG17" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="OUTG7"/>
+<wire x1="-495.46" y1="-10.32" x2="-525.62" y2="-10.32" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="-10.32" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED17" gate="G$1" pin="GREEN"/>
+<wire x1="-403.54" y1="-190.5" x2="-398.46" y2="-190.5" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-403.54" y="-190.5" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDG45" class="0">
 <segment>
 <pinref part="LED45" gate="G$1" pin="GREEN"/>
-<wire x1="-430.52" y1="259.08" x2="-425.44" y2="259.08" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-430.52" y="259.08" size="1.778" layer="95" grouprefs="LEDS1"/>
+<wire x1="-562.6" y1="-269.24" x2="-557.52" y2="-269.24" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-562.6" y="-269.24" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="OUTG4"/>
+<wire x1="-379.26" y1="43.02" x2="-409.42" y2="43.02" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="43.02" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+</net>
+<net name="N$LEDR45" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="OUTR4"/>
+<wire x1="-379.26" y1="45.56" x2="-409.42" y2="45.56" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="45.56" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED45" gate="G$1" pin="RED"/>
+<wire x1="-562.6" y1="-264.16" x2="-557.52" y2="-264.16" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-562.6" y="-264.16" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB45" class="0">
+<segment>
+<pinref part="LED45" gate="G$1" pin="BLUE"/>
+<wire x1="-562.6" y1="-274.32" x2="-557.52" y2="-274.32" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-562.6" y="-274.32" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="OUTB4"/>
-<wire x1="-229.4" y1="558.64" x2="-259.56" y2="558.64" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="558.64" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB42" class="0">
-<segment>
-<pinref part="LED42" gate="G$1" pin="BLUE"/>
-<wire x1="-483.54" y1="236.22" x2="-478.46" y2="236.22" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-483.54" y="236.22" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="OUTB5"/>
-<wire x1="-229.4" y1="543.4" x2="-259.56" y2="543.4" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="543.4" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR42" class="0">
-<segment>
-<pinref part="LED42" gate="G$1" pin="RED"/>
-<wire x1="-483.54" y1="246.38" x2="-478.46" y2="246.38" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-483.54" y="246.38" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="OUTR5"/>
-<wire x1="-229.4" y1="540.86" x2="-259.56" y2="540.86" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="540.86" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG42" class="0">
-<segment>
-<pinref part="LED42" gate="G$1" pin="GREEN"/>
-<wire x1="-483.54" y1="241.3" x2="-478.46" y2="241.3" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-483.54" y="241.3" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="OUTG5"/>
-<wire x1="-229.4" y1="538.32" x2="-259.56" y2="538.32" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-257.02" y="538.32" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB46" class="0">
-<segment>
-<pinref part="LED46" gate="G$1" pin="BLUE"/>
-<wire x1="-430.52" y1="236.22" x2="-425.44" y2="236.22" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-430.52" y="236.22" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="OUTG0"/>
-<wire x1="-229.4" y1="545.94" x2="-259.56" y2="545.94" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="545.94" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR46" class="0">
-<segment>
-<pinref part="LED46" gate="G$1" pin="RED"/>
-<wire x1="-430.52" y1="246.38" x2="-425.44" y2="246.38" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-430.52" y="246.38" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="OUTR0"/>
-<wire x1="-229.4" y1="548.48" x2="-259.56" y2="548.48" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="548.48" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-379.26" y1="48.1" x2="-409.42" y2="48.1" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="48.1" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
 <net name="N$LEDG46" class="0">
 <segment>
 <pinref part="LED46" gate="G$1" pin="GREEN"/>
-<wire x1="-430.52" y1="241.3" x2="-425.44" y2="241.3" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-430.52" y="241.3" size="1.778" layer="95" grouprefs="LEDS1"/>
+<wire x1="-562.6" y1="-287.02" x2="-557.52" y2="-287.02" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-562.6" y="-287.02" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="OUTG0"/>
+<wire x1="-379.26" y1="35.4" x2="-409.42" y2="35.4" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="35.4" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+</net>
+<net name="N$LEDR46" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="OUTR0"/>
+<wire x1="-379.26" y1="37.94" x2="-409.42" y2="37.94" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="37.94" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED46" gate="G$1" pin="RED"/>
+<wire x1="-562.6" y1="-281.94" x2="-557.52" y2="-281.94" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-562.6" y="-281.94" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB46" class="0">
+<segment>
+<pinref part="LED46" gate="G$1" pin="BLUE"/>
+<wire x1="-562.6" y1="-292.1" x2="-557.52" y2="-292.1" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-562.6" y="-292.1" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="OUTB0"/>
-<wire x1="-229.4" y1="551.02" x2="-259.56" y2="551.02" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="551.02" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-379.26" y1="40.48" x2="-409.42" y2="40.48" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="40.48" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
-<net name="N$LEDB43" class="0">
+<net name="N$LEDB42" class="0">
 <segment>
-<pinref part="LED43" gate="G$1" pin="BLUE"/>
-<wire x1="-483.54" y1="218.44" x2="-478.46" y2="218.44" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-483.54" y="218.44" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC3" gate="G$1" pin="OUTB5"/>
+<wire x1="-379.26" y1="32.86" x2="-409.42" y2="32.86" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="32.86" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUTB13"/>
-<wire x1="-193.84" y1="535.78" x2="-163.68" y2="535.78" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="535.78" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR43" class="0">
-<segment>
-<pinref part="LED43" gate="G$1" pin="RED"/>
-<wire x1="-483.54" y1="228.6" x2="-478.46" y2="228.6" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-483.54" y="228.6" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="OUTR13"/>
-<wire x1="-193.84" y1="533.24" x2="-163.68" y2="533.24" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="533.24" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED42" gate="G$1" pin="BLUE"/>
+<wire x1="-615.62" y1="-292.1" x2="-610.54" y2="-292.1" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-615.62" y="-292.1" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG43" class="0">
+<net name="N$LEDR42" class="0">
 <segment>
-<pinref part="LED43" gate="G$1" pin="GREEN"/>
-<wire x1="-483.54" y1="223.52" x2="-478.46" y2="223.52" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-483.54" y="223.52" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC3" gate="G$1" pin="OUTR5"/>
+<wire x1="-379.26" y1="30.32" x2="-409.42" y2="30.32" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="30.32" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUTG13"/>
-<wire x1="-193.84" y1="530.7" x2="-163.68" y2="530.7" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="530.7" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB47" class="0">
-<segment>
-<pinref part="LED47" gate="G$1" pin="BLUE"/>
-<wire x1="-430.52" y1="218.44" x2="-425.44" y2="218.44" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-430.52" y="218.44" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="OUTB12"/>
-<wire x1="-193.84" y1="551.02" x2="-163.68" y2="551.02" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="551.02" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED42" gate="G$1" pin="RED"/>
+<wire x1="-615.62" y1="-281.94" x2="-610.54" y2="-281.94" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-615.62" y="-281.94" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR47" class="0">
+<net name="N$LEDG42" class="0">
 <segment>
-<pinref part="LED47" gate="G$1" pin="RED"/>
-<wire x1="-430.52" y1="228.6" x2="-425.44" y2="228.6" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-430.52" y="228.6" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC3" gate="G$1" pin="OUTG5"/>
+<wire x1="-379.26" y1="27.78" x2="-409.42" y2="27.78" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-406.88" y="27.78" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUTR12"/>
-<wire x1="-193.84" y1="548.48" x2="-163.68" y2="548.48" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="548.48" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG47" class="0">
-<segment>
-<pinref part="LED47" gate="G$1" pin="GREEN"/>
-<wire x1="-430.52" y1="223.52" x2="-425.44" y2="223.52" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-430.52" y="223.52" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="OUTG12"/>
-<wire x1="-193.84" y1="545.94" x2="-163.68" y2="545.94" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="545.94" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED42" gate="G$1" pin="GREEN"/>
+<wire x1="-615.62" y1="-287.02" x2="-610.54" y2="-287.02" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-615.62" y="-287.02" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB44" class="0">
+<net name="N$LEDB41" class="0">
 <segment>
-<pinref part="LED44" gate="G$1" pin="BLUE"/>
-<wire x1="-483.54" y1="200.66" x2="-478.46" y2="200.66" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-483.54" y="200.66" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC3" gate="G$1" pin="OUTB1"/>
+<wire x1="-379.26" y1="25.24" x2="-409.42" y2="25.24" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="25.24" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUTB9"/>
-<wire x1="-193.84" y1="543.4" x2="-163.68" y2="543.4" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="543.4" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR44" class="0">
-<segment>
-<pinref part="LED44" gate="G$1" pin="RED"/>
-<wire x1="-483.54" y1="210.82" x2="-478.46" y2="210.82" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-483.54" y="210.82" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="OUTR9"/>
-<wire x1="-193.84" y1="540.86" x2="-163.68" y2="540.86" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="540.86" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED41" gate="G$1" pin="BLUE"/>
+<wire x1="-615.62" y1="-274.32" x2="-610.54" y2="-274.32" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-615.62" y="-274.32" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG44" class="0">
+<net name="N$LEDR41" class="0">
 <segment>
-<pinref part="LED44" gate="G$1" pin="GREEN"/>
-<wire x1="-483.54" y1="205.74" x2="-478.46" y2="205.74" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-483.54" y="205.74" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC3" gate="G$1" pin="OUTR1"/>
+<wire x1="-379.26" y1="22.7" x2="-409.42" y2="22.7" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="22.7" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUTG9"/>
-<wire x1="-193.84" y1="538.32" x2="-163.68" y2="538.32" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="538.32" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED41" gate="G$1" pin="RED"/>
+<wire x1="-615.62" y1="-264.16" x2="-610.54" y2="-264.16" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-615.62" y="-264.16" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG41" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="OUTG1"/>
+<wire x1="-379.26" y1="20.16" x2="-409.42" y2="20.16" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="20.16" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED41" gate="G$1" pin="GREEN"/>
+<wire x1="-615.62" y1="-269.24" x2="-610.54" y2="-269.24" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-615.62" y="-269.24" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB38" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="OUTB2"/>
+<wire x1="-379.26" y1="17.62" x2="-409.42" y2="17.62" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="17.62" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED38" gate="G$1" pin="BLUE"/>
+<wire x1="-138.44" y1="-213.36" x2="-133.36" y2="-213.36" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-138.44" y="-213.36" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR38" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="OUTR2"/>
+<wire x1="-379.26" y1="15.08" x2="-409.42" y2="15.08" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="15.08" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED38" gate="G$1" pin="RED"/>
+<wire x1="-138.44" y1="-203.2" x2="-133.36" y2="-203.2" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-138.44" y="-203.2" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG38" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="OUTG2"/>
+<wire x1="-379.26" y1="12.54" x2="-409.42" y2="12.54" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="12.54" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED38" gate="G$1" pin="GREEN"/>
+<wire x1="-138.44" y1="-208.28" x2="-133.36" y2="-208.28" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-138.44" y="-208.28" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDB48" class="0">
 <segment>
-<pinref part="LED48" gate="G$1" pin="BLUE"/>
-<wire x1="-430.52" y1="200.66" x2="-425.44" y2="200.66" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-430.52" y="200.66" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC3" gate="G$1" pin="OUTB8"/>
+<wire x1="-343.7" y1="48.1" x2="-313.54" y2="48.1" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="48.1" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUTB8"/>
-<wire x1="-193.84" y1="558.64" x2="-163.68" y2="558.64" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="558.64" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED48" gate="G$1" pin="BLUE"/>
+<wire x1="-562.6" y1="-327.66" x2="-557.52" y2="-327.66" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-562.6" y="-327.66" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDR48" class="0">
 <segment>
-<pinref part="LED48" gate="G$1" pin="RED"/>
-<wire x1="-430.52" y1="210.82" x2="-425.44" y2="210.82" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-430.52" y="210.82" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC3" gate="G$1" pin="OUTR8"/>
+<wire x1="-343.7" y1="45.56" x2="-313.54" y2="45.56" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="45.56" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUTR8"/>
-<wire x1="-193.84" y1="556.1" x2="-163.68" y2="556.1" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="556.1" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED48" gate="G$1" pin="RED"/>
+<wire x1="-562.6" y1="-317.5" x2="-557.52" y2="-317.5" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-562.6" y="-317.5" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDG48" class="0">
 <segment>
-<pinref part="LED48" gate="G$1" pin="GREEN"/>
-<wire x1="-430.52" y1="205.74" x2="-425.44" y2="205.74" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-430.52" y="205.74" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
 <pinref part="IC3" gate="G$1" pin="OUTG8"/>
-<wire x1="-193.84" y1="553.56" x2="-163.68" y2="553.56" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="553.56" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<wire x1="-343.7" y1="43.02" x2="-313.54" y2="43.02" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="43.02" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED48" gate="G$1" pin="GREEN"/>
+<wire x1="-562.6" y1="-322.58" x2="-557.52" y2="-322.58" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-562.6" y="-322.58" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB39" class="0">
+<net name="N$LEDB47" class="0">
 <segment>
-<pinref part="LED39" gate="G$1" pin="BLUE"/>
-<wire x1="-6.36" y1="297.18" x2="-1.28" y2="297.18" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-6.36" y="297.18" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC3" gate="G$1" pin="OUTB12"/>
+<wire x1="-343.7" y1="40.48" x2="-313.54" y2="40.48" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="40.48" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUTB10"/>
-<wire x1="-193.84" y1="520.54" x2="-163.68" y2="520.54" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="520.54" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR39" class="0">
-<segment>
-<pinref part="LED39" gate="G$1" pin="RED"/>
-<wire x1="-6.36" y1="307.34" x2="-1.28" y2="307.34" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-6.36" y="307.34" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="OUTR10"/>
-<wire x1="-193.84" y1="518" x2="-163.68" y2="518" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="518" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED47" gate="G$1" pin="BLUE"/>
+<wire x1="-562.6" y1="-309.88" x2="-557.52" y2="-309.88" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-562.6" y="-309.88" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG39" class="0">
+<net name="N$LEDR47" class="0">
 <segment>
-<pinref part="LED39" gate="G$1" pin="GREEN"/>
-<wire x1="-6.36" y1="302.26" x2="-1.28" y2="302.26" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-6.36" y="302.26" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC3" gate="G$1" pin="OUTR12"/>
+<wire x1="-343.7" y1="37.94" x2="-313.54" y2="37.94" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="37.94" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUTG10"/>
-<wire x1="-163.68" y1="515.46" x2="-193.84" y2="515.46" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="515.46" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB36" class="0">
-<segment>
-<pinref part="LED36" gate="G$1" pin="BLUE"/>
-<wire x1="-59.38" y1="279.4" x2="-54.3" y2="279.4" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-59.38" y="279.4" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="OUTB15"/>
-<wire x1="-193.84" y1="512.92" x2="-163.68" y2="512.92" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="512.92" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED47" gate="G$1" pin="RED"/>
+<wire x1="-562.6" y1="-299.72" x2="-557.52" y2="-299.72" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-562.6" y="-299.72" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR36" class="0">
+<net name="N$LEDG47" class="0">
 <segment>
-<pinref part="LED36" gate="G$1" pin="RED"/>
-<wire x1="-59.38" y1="289.56" x2="-54.3" y2="289.56" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-59.38" y="289.56" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC3" gate="G$1" pin="OUTG12"/>
+<wire x1="-343.7" y1="35.4" x2="-313.54" y2="35.4" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="35.4" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUTR15"/>
-<wire x1="-193.84" y1="510.38" x2="-163.68" y2="510.38" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="510.38" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED47" gate="G$1" pin="GREEN"/>
+<wire x1="-562.6" y1="-304.8" x2="-557.52" y2="-304.8" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-562.6" y="-304.8" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG36" class="0">
+<net name="N$LEDB44" class="0">
 <segment>
-<pinref part="LED36" gate="G$1" pin="GREEN"/>
-<wire x1="-59.38" y1="284.48" x2="-54.3" y2="284.48" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-59.38" y="284.48" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC3" gate="G$1" pin="OUTB9"/>
+<wire x1="-343.7" y1="32.86" x2="-313.54" y2="32.86" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="32.86" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUTG15"/>
-<wire x1="-193.84" y1="507.84" x2="-163.68" y2="507.84" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="507.84" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED44" gate="G$1" pin="BLUE"/>
+<wire x1="-615.62" y1="-327.66" x2="-610.54" y2="-327.66" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-615.62" y="-327.66" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR44" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="OUTR9"/>
+<wire x1="-343.7" y1="30.32" x2="-313.54" y2="30.32" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="30.32" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED44" gate="G$1" pin="RED"/>
+<wire x1="-615.62" y1="-317.5" x2="-610.54" y2="-317.5" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-615.62" y="-317.5" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG44" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="OUTG9"/>
+<wire x1="-343.7" y1="27.78" x2="-313.54" y2="27.78" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="27.78" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED44" gate="G$1" pin="GREEN"/>
+<wire x1="-615.62" y1="-322.58" x2="-610.54" y2="-322.58" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-615.62" y="-322.58" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB43" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="OUTB13"/>
+<wire x1="-343.7" y1="25.24" x2="-313.54" y2="25.24" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="25.24" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED43" gate="G$1" pin="BLUE"/>
+<wire x1="-615.62" y1="-309.88" x2="-610.54" y2="-309.88" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-615.62" y="-309.88" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR43" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="OUTR13"/>
+<wire x1="-343.7" y1="22.7" x2="-313.54" y2="22.7" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="22.7" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED43" gate="G$1" pin="RED"/>
+<wire x1="-615.62" y1="-299.72" x2="-610.54" y2="-299.72" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-615.62" y="-299.72" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG43" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="OUTG13"/>
+<wire x1="-343.7" y1="20.16" x2="-313.54" y2="20.16" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="20.16" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED43" gate="G$1" pin="GREEN"/>
+<wire x1="-615.62" y1="-304.8" x2="-610.54" y2="-304.8" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-615.62" y="-304.8" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDB40" class="0">
 <segment>
-<pinref part="LED40" gate="G$1" pin="BLUE"/>
-<wire x1="-6.36" y1="279.4" x2="-1.28" y2="279.4" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-6.36" y="279.4" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC3" gate="G$1" pin="OUTB14"/>
+<wire x1="-343.7" y1="17.62" x2="-313.54" y2="17.62" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="17.62" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUTB14"/>
-<wire x1="-193.84" y1="528.16" x2="-163.68" y2="528.16" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="528.16" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED40" gate="G$1" pin="BLUE"/>
+<wire x1="-138.44" y1="-248.92" x2="-133.36" y2="-248.92" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-138.44" y="-248.92" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDR40" class="0">
 <segment>
-<pinref part="LED40" gate="G$1" pin="RED"/>
-<wire x1="-6.36" y1="289.56" x2="-1.28" y2="289.56" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-6.36" y="289.56" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC3" gate="G$1" pin="OUTR14"/>
+<wire x1="-343.7" y1="15.08" x2="-313.54" y2="15.08" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="15.08" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUTR14"/>
-<wire x1="-193.84" y1="525.62" x2="-163.68" y2="525.62" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="525.62" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED40" gate="G$1" pin="RED"/>
+<wire x1="-138.44" y1="-238.76" x2="-133.36" y2="-238.76" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-138.44" y="-238.76" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDG40" class="0">
 <segment>
-<pinref part="LED40" gate="G$1" pin="GREEN"/>
-<wire x1="-6.36" y1="284.48" x2="-1.28" y2="284.48" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-6.36" y="284.48" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
 <pinref part="IC3" gate="G$1" pin="OUTG14"/>
-<wire x1="-193.84" y1="523.08" x2="-163.68" y2="523.08" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="523.08" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<wire x1="-343.7" y1="12.54" x2="-313.54" y2="12.54" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="12.54" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED40" gate="G$1" pin="GREEN"/>
+<wire x1="-138.44" y1="-243.84" x2="-133.36" y2="-243.84" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-138.44" y="-243.84" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB49" class="0">
+<net name="N$LEDB39" class="0">
 <segment>
-<pinref part="LED49" gate="G$1" pin="BLUE"/>
-<wire x1="-377.5" y1="254" x2="-372.42" y2="254" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-377.5" y="254" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC3" gate="G$1" pin="OUTB10"/>
+<wire x1="-343.7" y1="10" x2="-313.54" y2="10" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="10" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="OUTB7"/>
-<wire x1="-115.74" y1="505.3" x2="-145.9" y2="505.3" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="505.3" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR49" class="0">
-<segment>
-<pinref part="LED49" gate="G$1" pin="RED"/>
-<wire x1="-377.5" y1="264.16" x2="-372.42" y2="264.16" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-377.5" y="264.16" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="G$1" pin="OUTR7"/>
-<wire x1="-115.74" y1="502.76" x2="-145.9" y2="502.76" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="502.76" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED39" gate="G$1" pin="BLUE"/>
+<wire x1="-138.44" y1="-231.14" x2="-133.36" y2="-231.14" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-138.44" y="-231.14" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG49" class="0">
+<net name="N$LEDR39" class="0">
 <segment>
-<pinref part="LED49" gate="G$1" pin="GREEN"/>
-<wire x1="-377.5" y1="259.08" x2="-372.42" y2="259.08" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-377.5" y="259.08" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC3" gate="G$1" pin="OUTR10"/>
+<wire x1="-343.7" y1="7.46" x2="-313.54" y2="7.46" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="7.46" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="OUTG7"/>
-<wire x1="-115.74" y1="500.22" x2="-145.9" y2="500.22" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="500.22" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB53" class="0">
-<segment>
-<pinref part="LED53" gate="G$1" pin="BLUE"/>
-<wire x1="-324.48" y1="254" x2="-319.4" y2="254" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-324.48" y="254" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="G$1" pin="OUTB6"/>
-<wire x1="-115.74" y1="520.54" x2="-145.9" y2="520.54" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="520.54" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED39" gate="G$1" pin="RED"/>
+<wire x1="-138.44" y1="-220.98" x2="-133.36" y2="-220.98" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-138.44" y="-220.98" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR53" class="0">
+<net name="N$LEDG39" class="0">
 <segment>
-<pinref part="LED53" gate="G$1" pin="RED"/>
-<wire x1="-324.48" y1="264.16" x2="-319.4" y2="264.16" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-324.48" y="264.16" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC3" gate="G$1" pin="OUTG10"/>
+<wire x1="-313.54" y1="4.92" x2="-343.7" y2="4.92" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="4.92" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="OUTR6"/>
-<wire x1="-115.74" y1="518" x2="-145.9" y2="518" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="518" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG53" class="0">
-<segment>
-<pinref part="LED53" gate="G$1" pin="GREEN"/>
-<wire x1="-324.48" y1="259.08" x2="-319.4" y2="259.08" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-324.48" y="259.08" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="G$1" pin="OUTG6"/>
-<wire x1="-115.74" y1="515.46" x2="-145.9" y2="515.46" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="515.46" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED39" gate="G$1" pin="GREEN"/>
+<wire x1="-138.44" y1="-226.06" x2="-133.36" y2="-226.06" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-138.44" y="-226.06" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB50" class="0">
+<net name="N$LEDB36" class="0">
 <segment>
-<pinref part="LED50" gate="G$1" pin="BLUE"/>
-<wire x1="-377.5" y1="236.22" x2="-372.42" y2="236.22" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-377.5" y="236.22" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC3" gate="G$1" pin="OUTB15"/>
+<wire x1="-343.7" y1="2.38" x2="-313.54" y2="2.38" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="2.38" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="OUTB3"/>
-<wire x1="-115.74" y1="512.92" x2="-145.9" y2="512.92" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="512.92" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR50" class="0">
-<segment>
-<pinref part="LED50" gate="G$1" pin="RED"/>
-<wire x1="-377.5" y1="246.38" x2="-372.42" y2="246.38" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-377.5" y="246.38" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="G$1" pin="OUTR3"/>
-<wire x1="-115.74" y1="510.38" x2="-145.9" y2="510.38" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="510.38" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED36" gate="G$1" pin="BLUE"/>
+<wire x1="-191.46" y1="-248.92" x2="-186.38" y2="-248.92" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-191.46" y="-248.92" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG50" class="0">
+<net name="N$LEDR36" class="0">
 <segment>
-<pinref part="LED50" gate="G$1" pin="GREEN"/>
-<wire x1="-377.5" y1="241.3" x2="-372.42" y2="241.3" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-377.5" y="241.3" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC3" gate="G$1" pin="OUTR15"/>
+<wire x1="-343.7" y1="-0.16" x2="-313.54" y2="-0.16" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="-0.16" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="OUTG3"/>
-<wire x1="-115.74" y1="507.84" x2="-145.9" y2="507.84" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="507.84" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB54" class="0">
-<segment>
-<pinref part="LED54" gate="G$1" pin="BLUE"/>
-<wire x1="-324.48" y1="236.22" x2="-319.4" y2="236.22" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-324.48" y="236.22" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="G$1" pin="OUTB2"/>
-<wire x1="-115.74" y1="528.16" x2="-145.9" y2="528.16" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="528.16" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED36" gate="G$1" pin="RED"/>
+<wire x1="-191.46" y1="-238.76" x2="-186.38" y2="-238.76" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-191.46" y="-238.76" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR54" class="0">
+<net name="N$LEDG36" class="0">
 <segment>
-<pinref part="LED54" gate="G$1" pin="RED"/>
-<wire x1="-324.48" y1="246.38" x2="-319.4" y2="246.38" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-324.48" y="246.38" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC3" gate="G$1" pin="OUTG15"/>
+<wire x1="-343.7" y1="-2.7" x2="-313.54" y2="-2.7" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="-2.7" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="OUTR2"/>
-<wire x1="-115.74" y1="525.62" x2="-145.9" y2="525.62" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="525.62" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG54" class="0">
-<segment>
-<pinref part="LED54" gate="G$1" pin="GREEN"/>
-<wire x1="-324.48" y1="241.3" x2="-319.4" y2="241.3" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-324.48" y="241.3" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="G$1" pin="OUTG2"/>
-<wire x1="-115.74" y1="523.08" x2="-145.9" y2="523.08" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="523.08" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED36" gate="G$1" pin="GREEN"/>
+<wire x1="-191.46" y1="-243.84" x2="-186.38" y2="-243.84" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-191.46" y="-243.84" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB51" class="0">
+<net name="N$LEDB35" class="0">
 <segment>
-<pinref part="LED51" gate="G$1" pin="BLUE"/>
-<wire x1="-377.5" y1="218.44" x2="-372.42" y2="218.44" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-377.5" y="218.44" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC3" gate="G$1" pin="OUTB11"/>
+<wire x1="-343.7" y1="-5.24" x2="-313.54" y2="-5.24" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="-5.24" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="OUTB11"/>
-<wire x1="-80.18" y1="505.3" x2="-50.02" y2="505.3" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="505.3" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR51" class="0">
-<segment>
-<pinref part="LED51" gate="G$1" pin="RED"/>
-<wire x1="-377.5" y1="228.6" x2="-372.42" y2="228.6" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-377.5" y="228.6" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="G$1" pin="OUTR11"/>
-<wire x1="-80.18" y1="502.76" x2="-50.02" y2="502.76" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="502.76" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED35" gate="G$1" pin="BLUE"/>
+<wire x1="-191.46" y1="-231.14" x2="-186.38" y2="-231.14" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-191.46" y="-231.14" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG51" class="0">
+<net name="N$LEDR35" class="0">
 <segment>
-<pinref part="LED51" gate="G$1" pin="GREEN"/>
-<wire x1="-377.5" y1="223.52" x2="-372.42" y2="223.52" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-377.5" y="223.52" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC3" gate="G$1" pin="OUTR11"/>
+<wire x1="-343.7" y1="-7.78" x2="-313.54" y2="-7.78" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="-7.78" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="OUTG11"/>
-<wire x1="-80.18" y1="500.22" x2="-50.02" y2="500.22" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="500.22" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB57" class="0">
-<segment>
-<pinref part="LED57" gate="G$1" pin="BLUE"/>
-<wire x1="-271.46" y1="254" x2="-266.38" y2="254" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-271.46" y="254" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="G$1" pin="OUTB1"/>
-<wire x1="-115.74" y1="535.78" x2="-145.9" y2="535.78" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="535.78" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED35" gate="G$1" pin="RED"/>
+<wire x1="-191.46" y1="-220.98" x2="-186.38" y2="-220.98" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-191.46" y="-220.98" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR57" class="0">
+<net name="N$LEDG35" class="0">
 <segment>
-<pinref part="LED57" gate="G$1" pin="RED"/>
-<wire x1="-271.46" y1="264.16" x2="-266.38" y2="264.16" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-271.46" y="264.16" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC3" gate="G$1" pin="OUTG11"/>
+<wire x1="-343.7" y1="-10.32" x2="-313.54" y2="-10.32" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="-10.32" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="OUTR1"/>
-<wire x1="-115.74" y1="533.24" x2="-145.9" y2="533.24" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="533.24" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG57" class="0">
-<segment>
-<pinref part="LED57" gate="G$1" pin="GREEN"/>
-<wire x1="-271.46" y1="259.08" x2="-266.38" y2="259.08" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-271.46" y="259.08" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="G$1" pin="OUTG1"/>
-<wire x1="-115.74" y1="530.7" x2="-145.9" y2="530.7" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="530.7" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED35" gate="G$1" pin="GREEN"/>
+<wire x1="-191.46" y1="-226.06" x2="-186.38" y2="-226.06" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-191.46" y="-226.06" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB61" class="0">
+<net name="N$LEDB37" class="0">
 <segment>
-<pinref part="LED61" gate="G$1" pin="BLUE"/>
-<wire x1="-218.44" y1="254" x2="-213.36" y2="254" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-218.44" y="254" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC3" gate="G$1" pin="OUTB6"/>
+<wire x1="-379.26" y1="10" x2="-409.42" y2="10" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="10" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="OUTG4"/>
-<wire x1="-115.74" y1="553.56" x2="-145.9" y2="553.56" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="553.56" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED37" gate="G$1" pin="BLUE"/>
+<wire x1="-138.44" y1="-195.58" x2="-133.36" y2="-195.58" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-138.44" y="-195.58" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR61" class="0">
+<net name="N$LEDR37" class="0">
 <segment>
-<pinref part="LED61" gate="G$1" pin="RED"/>
-<wire x1="-218.44" y1="264.16" x2="-213.36" y2="264.16" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-218.44" y="264.16" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC3" gate="G$1" pin="OUTR6"/>
+<wire x1="-379.26" y1="7.46" x2="-409.42" y2="7.46" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="7.46" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="OUTR4"/>
-<wire x1="-115.74" y1="556.1" x2="-145.9" y2="556.1" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="556.1" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED37" gate="G$1" pin="RED"/>
+<wire x1="-138.44" y1="-185.42" x2="-133.36" y2="-185.42" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-138.44" y="-185.42" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG37" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="OUTG6"/>
+<wire x1="-379.26" y1="4.92" x2="-409.42" y2="4.92" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="4.92" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED37" gate="G$1" pin="GREEN"/>
+<wire x1="-138.44" y1="-190.5" x2="-133.36" y2="-190.5" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-138.44" y="-190.5" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB34" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="OUTB3"/>
+<wire x1="-379.26" y1="2.38" x2="-409.42" y2="2.38" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="2.38" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED34" gate="G$1" pin="BLUE"/>
+<wire x1="-191.46" y1="-213.36" x2="-186.38" y2="-213.36" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-191.46" y="-213.36" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR34" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="OUTR3"/>
+<wire x1="-379.26" y1="-0.16" x2="-409.42" y2="-0.16" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="-0.16" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED34" gate="G$1" pin="RED"/>
+<wire x1="-191.46" y1="-203.2" x2="-186.38" y2="-203.2" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-191.46" y="-203.2" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG34" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="OUTG3"/>
+<wire x1="-379.26" y1="-2.7" x2="-409.42" y2="-2.7" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="-2.7" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED34" gate="G$1" pin="GREEN"/>
+<wire x1="-191.46" y1="-208.28" x2="-186.38" y2="-208.28" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-191.46" y="-208.28" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB33" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="OUTB7"/>
+<wire x1="-379.26" y1="-5.24" x2="-409.42" y2="-5.24" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="-5.24" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED33" gate="G$1" pin="BLUE"/>
+<wire x1="-191.46" y1="-195.58" x2="-186.38" y2="-195.58" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-191.46" y="-195.58" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR33" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="OUTR7"/>
+<wire x1="-379.26" y1="-7.78" x2="-409.42" y2="-7.78" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="-7.78" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED33" gate="G$1" pin="RED"/>
+<wire x1="-191.46" y1="-185.42" x2="-186.38" y2="-185.42" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-191.46" y="-185.42" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG33" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="OUTG7"/>
+<wire x1="-379.26" y1="-10.32" x2="-409.42" y2="-10.32" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="-10.32" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED33" gate="G$1" pin="GREEN"/>
+<wire x1="-191.46" y1="-190.5" x2="-186.38" y2="-190.5" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-191.46" y="-190.5" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDG61" class="0">
 <segment>
 <pinref part="LED61" gate="G$1" pin="GREEN"/>
-<wire x1="-218.44" y1="259.08" x2="-213.36" y2="259.08" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-218.44" y="259.08" size="1.778" layer="95" grouprefs="LEDS1"/>
+<wire x1="-350.52" y1="-269.24" x2="-345.44" y2="-269.24" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-350.52" y="-269.24" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="G$1" pin="OUTG4"/>
+<wire x1="-265.6" y1="43.02" x2="-295.76" y2="43.02" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="43.02" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+</net>
+<net name="N$LEDR61" class="0">
+<segment>
+<pinref part="IC4" gate="G$1" pin="OUTR4"/>
+<wire x1="-265.6" y1="45.56" x2="-295.76" y2="45.56" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="45.56" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED61" gate="G$1" pin="RED"/>
+<wire x1="-350.52" y1="-264.16" x2="-345.44" y2="-264.16" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-350.52" y="-264.16" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB61" class="0">
+<segment>
+<pinref part="LED61" gate="G$1" pin="BLUE"/>
+<wire x1="-350.52" y1="-274.32" x2="-345.44" y2="-274.32" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-350.52" y="-274.32" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="G$1" pin="OUTB4"/>
-<wire x1="-115.74" y1="558.64" x2="-145.9" y2="558.64" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="558.64" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB58" class="0">
-<segment>
-<pinref part="LED58" gate="G$1" pin="BLUE"/>
-<wire x1="-271.46" y1="236.22" x2="-266.38" y2="236.22" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-271.46" y="236.22" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="G$1" pin="OUTB5"/>
-<wire x1="-115.74" y1="543.4" x2="-145.9" y2="543.4" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="543.4" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR58" class="0">
-<segment>
-<pinref part="LED58" gate="G$1" pin="RED"/>
-<wire x1="-271.46" y1="246.38" x2="-266.38" y2="246.38" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-271.46" y="246.38" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="G$1" pin="OUTR5"/>
-<wire x1="-115.74" y1="540.86" x2="-145.9" y2="540.86" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="540.86" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG58" class="0">
-<segment>
-<pinref part="LED58" gate="G$1" pin="GREEN"/>
-<wire x1="-271.46" y1="241.3" x2="-266.38" y2="241.3" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-271.46" y="241.3" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="G$1" pin="OUTG5"/>
-<wire x1="-115.74" y1="538.32" x2="-145.9" y2="538.32" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="538.32" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB62" class="0">
-<segment>
-<pinref part="LED62" gate="G$1" pin="BLUE"/>
-<wire x1="-218.44" y1="236.22" x2="-213.36" y2="236.22" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-218.44" y="236.22" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="G$1" pin="OUTG0"/>
-<wire x1="-115.74" y1="545.94" x2="-145.9" y2="545.94" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="545.94" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR62" class="0">
-<segment>
-<pinref part="LED62" gate="G$1" pin="RED"/>
-<wire x1="-218.44" y1="246.38" x2="-213.36" y2="246.38" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-218.44" y="246.38" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="G$1" pin="OUTR0"/>
-<wire x1="-115.74" y1="548.48" x2="-145.9" y2="548.48" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="548.48" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-265.6" y1="48.1" x2="-295.76" y2="48.1" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="48.1" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
 <net name="N$LEDG62" class="0">
 <segment>
 <pinref part="LED62" gate="G$1" pin="GREEN"/>
-<wire x1="-218.44" y1="241.3" x2="-213.36" y2="241.3" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-218.44" y="241.3" size="1.778" layer="95" grouprefs="LEDS1"/>
+<wire x1="-350.52" y1="-287.02" x2="-345.44" y2="-287.02" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-350.52" y="-287.02" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="G$1" pin="OUTG0"/>
+<wire x1="-265.6" y1="35.4" x2="-295.76" y2="35.4" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="35.4" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+</net>
+<net name="N$LEDR62" class="0">
+<segment>
+<pinref part="IC4" gate="G$1" pin="OUTR0"/>
+<wire x1="-265.6" y1="37.94" x2="-295.76" y2="37.94" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="37.94" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED62" gate="G$1" pin="RED"/>
+<wire x1="-350.52" y1="-281.94" x2="-345.44" y2="-281.94" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-350.52" y="-281.94" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB62" class="0">
+<segment>
+<pinref part="LED62" gate="G$1" pin="BLUE"/>
+<wire x1="-350.52" y1="-292.1" x2="-345.44" y2="-292.1" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-350.52" y="-292.1" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="G$1" pin="OUTB0"/>
-<wire x1="-115.74" y1="551.02" x2="-145.9" y2="551.02" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="551.02" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-265.6" y1="40.48" x2="-295.76" y2="40.48" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="40.48" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
-<net name="N$LEDB59" class="0">
+<net name="N$LEDB58" class="0">
 <segment>
-<pinref part="LED59" gate="G$1" pin="BLUE"/>
-<wire x1="-271.46" y1="218.44" x2="-266.38" y2="218.44" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-271.46" y="218.44" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC4" gate="G$1" pin="OUTB5"/>
+<wire x1="-265.6" y1="32.86" x2="-295.76" y2="32.86" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="32.86" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="OUTB13"/>
-<wire x1="-80.18" y1="535.78" x2="-50.02" y2="535.78" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="535.78" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR59" class="0">
-<segment>
-<pinref part="LED59" gate="G$1" pin="RED"/>
-<wire x1="-271.46" y1="228.6" x2="-266.38" y2="228.6" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-271.46" y="228.6" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="G$1" pin="OUTR13"/>
-<wire x1="-80.18" y1="533.24" x2="-50.02" y2="533.24" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="533.24" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED58" gate="G$1" pin="BLUE"/>
+<wire x1="-403.54" y1="-292.1" x2="-398.46" y2="-292.1" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-403.54" y="-292.1" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG59" class="0">
+<net name="N$LEDR58" class="0">
 <segment>
-<pinref part="LED59" gate="G$1" pin="GREEN"/>
-<wire x1="-271.46" y1="223.52" x2="-266.38" y2="223.52" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-271.46" y="223.52" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC4" gate="G$1" pin="OUTR5"/>
+<wire x1="-265.6" y1="30.32" x2="-295.76" y2="30.32" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="30.32" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="OUTG13"/>
-<wire x1="-80.18" y1="530.7" x2="-50.02" y2="530.7" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="530.7" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB63" class="0">
-<segment>
-<pinref part="LED63" gate="G$1" pin="BLUE"/>
-<wire x1="-218.44" y1="218.44" x2="-213.36" y2="218.44" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-218.44" y="218.44" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="G$1" pin="OUTB12"/>
-<wire x1="-80.18" y1="551.02" x2="-50.02" y2="551.02" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="551.02" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED58" gate="G$1" pin="RED"/>
+<wire x1="-403.54" y1="-281.94" x2="-398.46" y2="-281.94" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-403.54" y="-281.94" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR63" class="0">
+<net name="N$LEDG58" class="0">
 <segment>
-<pinref part="LED63" gate="G$1" pin="RED"/>
-<wire x1="-218.44" y1="228.6" x2="-213.36" y2="228.6" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-218.44" y="228.6" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC4" gate="G$1" pin="OUTG5"/>
+<wire x1="-265.6" y1="27.78" x2="-295.76" y2="27.78" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="27.78" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="OUTR12"/>
-<wire x1="-80.18" y1="548.48" x2="-50.02" y2="548.48" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="548.48" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG63" class="0">
-<segment>
-<pinref part="LED63" gate="G$1" pin="GREEN"/>
-<wire x1="-218.44" y1="223.52" x2="-213.36" y2="223.52" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-218.44" y="223.52" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="G$1" pin="OUTG12"/>
-<wire x1="-80.18" y1="545.94" x2="-50.02" y2="545.94" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="545.94" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED58" gate="G$1" pin="GREEN"/>
+<wire x1="-403.54" y1="-287.02" x2="-398.46" y2="-287.02" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-403.54" y="-287.02" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB60" class="0">
+<net name="N$LEDB57" class="0">
 <segment>
-<pinref part="LED60" gate="G$1" pin="BLUE"/>
-<wire x1="-271.46" y1="200.66" x2="-266.38" y2="200.66" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-271.46" y="200.66" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC4" gate="G$1" pin="OUTB1"/>
+<wire x1="-265.6" y1="25.24" x2="-295.76" y2="25.24" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="25.24" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="OUTB9"/>
-<wire x1="-80.18" y1="543.4" x2="-50.02" y2="543.4" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="543.4" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR60" class="0">
-<segment>
-<pinref part="LED60" gate="G$1" pin="RED"/>
-<wire x1="-271.46" y1="210.82" x2="-266.38" y2="210.82" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-271.46" y="210.82" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="G$1" pin="OUTR9"/>
-<wire x1="-80.18" y1="540.86" x2="-50.02" y2="540.86" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="540.86" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED57" gate="G$1" pin="BLUE"/>
+<wire x1="-403.54" y1="-274.32" x2="-398.46" y2="-274.32" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-403.54" y="-274.32" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG60" class="0">
+<net name="N$LEDR57" class="0">
 <segment>
-<pinref part="LED60" gate="G$1" pin="GREEN"/>
-<wire x1="-271.46" y1="205.74" x2="-266.38" y2="205.74" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-271.46" y="205.74" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC4" gate="G$1" pin="OUTR1"/>
+<wire x1="-265.6" y1="22.7" x2="-295.76" y2="22.7" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="22.7" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="OUTG9"/>
-<wire x1="-80.18" y1="538.32" x2="-50.02" y2="538.32" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="538.32" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED57" gate="G$1" pin="RED"/>
+<wire x1="-403.54" y1="-264.16" x2="-398.46" y2="-264.16" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-403.54" y="-264.16" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG57" class="0">
+<segment>
+<pinref part="IC4" gate="G$1" pin="OUTG1"/>
+<wire x1="-265.6" y1="20.16" x2="-295.76" y2="20.16" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="20.16" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED57" gate="G$1" pin="GREEN"/>
+<wire x1="-403.54" y1="-269.24" x2="-398.46" y2="-269.24" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-403.54" y="-269.24" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB54" class="0">
+<segment>
+<pinref part="IC4" gate="G$1" pin="OUTB2"/>
+<wire x1="-265.6" y1="17.62" x2="-295.76" y2="17.62" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="17.62" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED54" gate="G$1" pin="BLUE"/>
+<wire x1="-456.56" y1="-292.1" x2="-451.48" y2="-292.1" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-456.56" y="-292.1" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR54" class="0">
+<segment>
+<pinref part="IC4" gate="G$1" pin="OUTR2"/>
+<wire x1="-265.6" y1="15.08" x2="-295.76" y2="15.08" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="15.08" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED54" gate="G$1" pin="RED"/>
+<wire x1="-456.56" y1="-281.94" x2="-451.48" y2="-281.94" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-456.56" y="-281.94" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG54" class="0">
+<segment>
+<pinref part="IC4" gate="G$1" pin="OUTG2"/>
+<wire x1="-265.6" y1="12.54" x2="-295.76" y2="12.54" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="12.54" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED54" gate="G$1" pin="GREEN"/>
+<wire x1="-456.56" y1="-287.02" x2="-451.48" y2="-287.02" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-456.56" y="-287.02" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDB64" class="0">
 <segment>
-<pinref part="LED64" gate="G$1" pin="BLUE"/>
-<wire x1="-218.44" y1="200.66" x2="-213.36" y2="200.66" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-218.44" y="200.66" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC4" gate="G$1" pin="OUTB8"/>
+<wire x1="-230.04" y1="48.1" x2="-199.88" y2="48.1" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="48.1" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="OUTB8"/>
-<wire x1="-80.18" y1="558.64" x2="-50.02" y2="558.64" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="558.64" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED64" gate="G$1" pin="BLUE"/>
+<wire x1="-350.52" y1="-327.66" x2="-345.44" y2="-327.66" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-350.52" y="-327.66" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDR64" class="0">
 <segment>
-<pinref part="LED64" gate="G$1" pin="RED"/>
-<wire x1="-218.44" y1="210.82" x2="-213.36" y2="210.82" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-218.44" y="210.82" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC4" gate="G$1" pin="OUTR8"/>
+<wire x1="-230.04" y1="45.56" x2="-199.88" y2="45.56" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="45.56" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="OUTR8"/>
-<wire x1="-80.18" y1="556.1" x2="-50.02" y2="556.1" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="556.1" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED64" gate="G$1" pin="RED"/>
+<wire x1="-350.52" y1="-317.5" x2="-345.44" y2="-317.5" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-350.52" y="-317.5" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDG64" class="0">
 <segment>
-<pinref part="LED64" gate="G$1" pin="GREEN"/>
-<wire x1="-218.44" y1="205.74" x2="-213.36" y2="205.74" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-218.44" y="205.74" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
 <pinref part="IC4" gate="G$1" pin="OUTG8"/>
-<wire x1="-80.18" y1="553.56" x2="-50.02" y2="553.56" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="553.56" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<wire x1="-230.04" y1="43.02" x2="-199.88" y2="43.02" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="43.02" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED64" gate="G$1" pin="GREEN"/>
+<wire x1="-350.52" y1="-322.58" x2="-345.44" y2="-322.58" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-350.52" y="-322.58" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB55" class="0">
+<net name="N$LEDB63" class="0">
 <segment>
-<pinref part="LED55" gate="G$1" pin="BLUE"/>
-<wire x1="-324.48" y1="218.44" x2="-319.4" y2="218.44" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-324.48" y="218.44" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC4" gate="G$1" pin="OUTB12"/>
+<wire x1="-230.04" y1="40.48" x2="-199.88" y2="40.48" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="40.48" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="OUTB10"/>
-<wire x1="-80.18" y1="520.54" x2="-50.02" y2="520.54" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="520.54" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR55" class="0">
-<segment>
-<pinref part="LED55" gate="G$1" pin="RED"/>
-<wire x1="-324.48" y1="228.6" x2="-319.4" y2="228.6" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-324.48" y="228.6" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="G$1" pin="OUTR10"/>
-<wire x1="-80.18" y1="518" x2="-50.02" y2="518" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="518" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED63" gate="G$1" pin="BLUE"/>
+<wire x1="-350.52" y1="-309.88" x2="-345.44" y2="-309.88" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-350.52" y="-309.88" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG55" class="0">
+<net name="N$LEDR63" class="0">
 <segment>
-<pinref part="LED55" gate="G$1" pin="GREEN"/>
-<wire x1="-324.48" y1="223.52" x2="-319.4" y2="223.52" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-324.48" y="223.52" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC4" gate="G$1" pin="OUTR12"/>
+<wire x1="-230.04" y1="37.94" x2="-199.88" y2="37.94" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="37.94" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="OUTG10"/>
-<wire x1="-50.02" y1="515.46" x2="-80.18" y2="515.46" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="515.46" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB52" class="0">
-<segment>
-<pinref part="LED52" gate="G$1" pin="BLUE"/>
-<wire x1="-377.5" y1="200.66" x2="-372.42" y2="200.66" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-377.5" y="200.66" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="G$1" pin="OUTB15"/>
-<wire x1="-80.18" y1="512.92" x2="-50.02" y2="512.92" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="512.92" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED63" gate="G$1" pin="RED"/>
+<wire x1="-350.52" y1="-299.72" x2="-345.44" y2="-299.72" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-350.52" y="-299.72" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR52" class="0">
+<net name="N$LEDG63" class="0">
 <segment>
-<pinref part="LED52" gate="G$1" pin="RED"/>
-<wire x1="-377.5" y1="210.82" x2="-372.42" y2="210.82" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-377.5" y="210.82" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC4" gate="G$1" pin="OUTG12"/>
+<wire x1="-230.04" y1="35.4" x2="-199.88" y2="35.4" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="35.4" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="OUTR15"/>
-<wire x1="-80.18" y1="510.38" x2="-50.02" y2="510.38" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="510.38" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED63" gate="G$1" pin="GREEN"/>
+<wire x1="-350.52" y1="-304.8" x2="-345.44" y2="-304.8" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-350.52" y="-304.8" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG52" class="0">
+<net name="N$LEDB60" class="0">
 <segment>
-<pinref part="LED52" gate="G$1" pin="GREEN"/>
-<wire x1="-377.5" y1="205.74" x2="-372.42" y2="205.74" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-377.5" y="205.74" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC4" gate="G$1" pin="OUTB9"/>
+<wire x1="-230.04" y1="32.86" x2="-199.88" y2="32.86" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="32.86" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="OUTG15"/>
-<wire x1="-80.18" y1="507.84" x2="-50.02" y2="507.84" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="507.84" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED60" gate="G$1" pin="BLUE"/>
+<wire x1="-403.54" y1="-327.66" x2="-398.46" y2="-327.66" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-403.54" y="-327.66" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR60" class="0">
+<segment>
+<pinref part="IC4" gate="G$1" pin="OUTR9"/>
+<wire x1="-230.04" y1="30.32" x2="-199.88" y2="30.32" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="30.32" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED60" gate="G$1" pin="RED"/>
+<wire x1="-403.54" y1="-317.5" x2="-398.46" y2="-317.5" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-403.54" y="-317.5" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG60" class="0">
+<segment>
+<pinref part="IC4" gate="G$1" pin="OUTG9"/>
+<wire x1="-230.04" y1="27.78" x2="-199.88" y2="27.78" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="27.78" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED60" gate="G$1" pin="GREEN"/>
+<wire x1="-403.54" y1="-322.58" x2="-398.46" y2="-322.58" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-403.54" y="-322.58" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB59" class="0">
+<segment>
+<pinref part="IC4" gate="G$1" pin="OUTB13"/>
+<wire x1="-230.04" y1="25.24" x2="-199.88" y2="25.24" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="25.24" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED59" gate="G$1" pin="BLUE"/>
+<wire x1="-403.54" y1="-309.88" x2="-398.46" y2="-309.88" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-403.54" y="-309.88" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR59" class="0">
+<segment>
+<pinref part="IC4" gate="G$1" pin="OUTR13"/>
+<wire x1="-230.04" y1="22.7" x2="-199.88" y2="22.7" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="22.7" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED59" gate="G$1" pin="RED"/>
+<wire x1="-403.54" y1="-299.72" x2="-398.46" y2="-299.72" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-403.54" y="-299.72" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG59" class="0">
+<segment>
+<pinref part="IC4" gate="G$1" pin="OUTG13"/>
+<wire x1="-230.04" y1="20.16" x2="-199.88" y2="20.16" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="20.16" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED59" gate="G$1" pin="GREEN"/>
+<wire x1="-403.54" y1="-304.8" x2="-398.46" y2="-304.8" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-403.54" y="-304.8" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDB56" class="0">
 <segment>
-<pinref part="LED56" gate="G$1" pin="BLUE"/>
-<wire x1="-324.48" y1="200.66" x2="-319.4" y2="200.66" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-324.48" y="200.66" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC4" gate="G$1" pin="OUTB14"/>
+<wire x1="-230.04" y1="17.62" x2="-199.88" y2="17.62" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="17.62" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="OUTB14"/>
-<wire x1="-80.18" y1="528.16" x2="-50.02" y2="528.16" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="528.16" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED56" gate="G$1" pin="BLUE"/>
+<wire x1="-456.56" y1="-327.66" x2="-451.48" y2="-327.66" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-456.56" y="-327.66" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDR56" class="0">
 <segment>
-<pinref part="LED56" gate="G$1" pin="RED"/>
-<wire x1="-324.48" y1="210.82" x2="-319.4" y2="210.82" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-324.48" y="210.82" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC4" gate="G$1" pin="OUTR14"/>
+<wire x1="-230.04" y1="15.08" x2="-199.88" y2="15.08" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="15.08" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="OUTR14"/>
-<wire x1="-80.18" y1="525.62" x2="-50.02" y2="525.62" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="525.62" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED56" gate="G$1" pin="RED"/>
+<wire x1="-456.56" y1="-317.5" x2="-451.48" y2="-317.5" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-456.56" y="-317.5" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDG56" class="0">
 <segment>
-<pinref part="LED56" gate="G$1" pin="GREEN"/>
-<wire x1="-324.48" y1="205.74" x2="-319.4" y2="205.74" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-324.48" y="205.74" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
 <pinref part="IC4" gate="G$1" pin="OUTG14"/>
-<wire x1="-80.18" y1="523.08" x2="-50.02" y2="523.08" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="523.08" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<wire x1="-230.04" y1="12.54" x2="-199.88" y2="12.54" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="12.54" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED56" gate="G$1" pin="GREEN"/>
+<wire x1="-456.56" y1="-322.58" x2="-451.48" y2="-322.58" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-456.56" y="-322.58" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB65" class="0">
+<net name="N$LEDB55" class="0">
 <segment>
-<pinref part="LED65" gate="G$1" pin="BLUE"/>
-<wire x1="-165.42" y1="254" x2="-160.34" y2="254" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-165.42" y="254" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC4" gate="G$1" pin="OUTB10"/>
+<wire x1="-230.04" y1="10" x2="-199.88" y2="10" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="10" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="OUTB7"/>
-<wire x1="-459.26" y1="403.7" x2="-489.42" y2="403.7" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="403.7" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR65" class="0">
-<segment>
-<pinref part="LED65" gate="G$1" pin="RED"/>
-<wire x1="-165.42" y1="264.16" x2="-160.34" y2="264.16" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-165.42" y="264.16" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="G$1" pin="OUTR7"/>
-<wire x1="-459.26" y1="401.16" x2="-489.42" y2="401.16" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="401.16" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED55" gate="G$1" pin="BLUE"/>
+<wire x1="-456.56" y1="-309.88" x2="-451.48" y2="-309.88" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-456.56" y="-309.88" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG65" class="0">
+<net name="N$LEDR55" class="0">
 <segment>
-<pinref part="LED65" gate="G$1" pin="GREEN"/>
-<wire x1="-165.42" y1="259.08" x2="-160.34" y2="259.08" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-165.42" y="259.08" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC4" gate="G$1" pin="OUTR10"/>
+<wire x1="-230.04" y1="7.46" x2="-199.88" y2="7.46" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="7.46" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="OUTG7"/>
-<wire x1="-459.26" y1="398.62" x2="-489.42" y2="398.62" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="398.62" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB69" class="0">
-<segment>
-<pinref part="LED69" gate="G$1" pin="BLUE"/>
-<wire x1="-112.4" y1="254" x2="-107.32" y2="254" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-112.4" y="254" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="G$1" pin="OUTB6"/>
-<wire x1="-459.26" y1="418.94" x2="-489.42" y2="418.94" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="418.94" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED55" gate="G$1" pin="RED"/>
+<wire x1="-456.56" y1="-299.72" x2="-451.48" y2="-299.72" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-456.56" y="-299.72" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR69" class="0">
+<net name="N$LEDG55" class="0">
 <segment>
-<pinref part="LED69" gate="G$1" pin="RED"/>
-<wire x1="-112.4" y1="264.16" x2="-107.32" y2="264.16" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-112.4" y="264.16" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC4" gate="G$1" pin="OUTG10"/>
+<wire x1="-199.88" y1="4.92" x2="-230.04" y2="4.92" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="4.92" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="OUTR6"/>
-<wire x1="-459.26" y1="416.4" x2="-489.42" y2="416.4" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="416.4" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG69" class="0">
-<segment>
-<pinref part="LED69" gate="G$1" pin="GREEN"/>
-<wire x1="-112.4" y1="259.08" x2="-107.32" y2="259.08" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-112.4" y="259.08" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="G$1" pin="OUTG6"/>
-<wire x1="-459.26" y1="413.86" x2="-489.42" y2="413.86" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="413.86" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED55" gate="G$1" pin="GREEN"/>
+<wire x1="-456.56" y1="-304.8" x2="-451.48" y2="-304.8" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-456.56" y="-304.8" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB66" class="0">
+<net name="N$LEDB52" class="0">
 <segment>
-<pinref part="LED66" gate="G$1" pin="BLUE"/>
-<wire x1="-165.42" y1="236.22" x2="-160.34" y2="236.22" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-165.42" y="236.22" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC4" gate="G$1" pin="OUTB15"/>
+<wire x1="-230.04" y1="2.38" x2="-199.88" y2="2.38" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="2.38" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="OUTB3"/>
-<wire x1="-459.26" y1="411.32" x2="-489.42" y2="411.32" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="411.32" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR66" class="0">
-<segment>
-<pinref part="LED66" gate="G$1" pin="RED"/>
-<wire x1="-165.42" y1="246.38" x2="-160.34" y2="246.38" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-165.42" y="246.38" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="G$1" pin="OUTR3"/>
-<wire x1="-459.26" y1="408.78" x2="-489.42" y2="408.78" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="408.78" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED52" gate="G$1" pin="BLUE"/>
+<wire x1="-509.58" y1="-327.66" x2="-504.5" y2="-327.66" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-509.58" y="-327.66" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG66" class="0">
+<net name="N$LEDR52" class="0">
 <segment>
-<pinref part="LED66" gate="G$1" pin="GREEN"/>
-<wire x1="-165.42" y1="241.3" x2="-160.34" y2="241.3" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-165.42" y="241.3" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC4" gate="G$1" pin="OUTR15"/>
+<wire x1="-230.04" y1="-0.16" x2="-199.88" y2="-0.16" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="-0.16" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="OUTG3"/>
-<wire x1="-459.26" y1="406.24" x2="-489.42" y2="406.24" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="406.24" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB70" class="0">
-<segment>
-<pinref part="LED70" gate="G$1" pin="BLUE"/>
-<wire x1="-112.4" y1="236.22" x2="-107.32" y2="236.22" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-112.4" y="236.22" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="G$1" pin="OUTB2"/>
-<wire x1="-459.26" y1="426.56" x2="-489.42" y2="426.56" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="426.56" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED52" gate="G$1" pin="RED"/>
+<wire x1="-509.58" y1="-317.5" x2="-504.5" y2="-317.5" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-509.58" y="-317.5" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR70" class="0">
+<net name="N$LEDG52" class="0">
 <segment>
-<pinref part="LED70" gate="G$1" pin="RED"/>
-<wire x1="-112.4" y1="246.38" x2="-107.32" y2="246.38" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-112.4" y="246.38" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC4" gate="G$1" pin="OUTG15"/>
+<wire x1="-230.04" y1="-2.7" x2="-199.88" y2="-2.7" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="-2.7" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="OUTR2"/>
-<wire x1="-459.26" y1="424.02" x2="-489.42" y2="424.02" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="424.02" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG70" class="0">
-<segment>
-<pinref part="LED70" gate="G$1" pin="GREEN"/>
-<wire x1="-112.4" y1="241.3" x2="-107.32" y2="241.3" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-112.4" y="241.3" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="G$1" pin="OUTG2"/>
-<wire x1="-459.26" y1="421.48" x2="-489.42" y2="421.48" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="421.48" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED52" gate="G$1" pin="GREEN"/>
+<wire x1="-509.58" y1="-322.58" x2="-504.5" y2="-322.58" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-509.58" y="-322.58" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB67" class="0">
+<net name="N$LEDB51" class="0">
 <segment>
-<pinref part="LED67" gate="G$1" pin="BLUE"/>
-<wire x1="-165.42" y1="218.44" x2="-160.34" y2="218.44" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-165.42" y="218.44" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC4" gate="G$1" pin="OUTB11"/>
+<wire x1="-230.04" y1="-5.24" x2="-199.88" y2="-5.24" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="-5.24" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="OUTB11"/>
-<wire x1="-423.7" y1="403.7" x2="-393.54" y2="403.7" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="403.7" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR67" class="0">
-<segment>
-<pinref part="LED67" gate="G$1" pin="RED"/>
-<wire x1="-165.42" y1="228.6" x2="-160.34" y2="228.6" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-165.42" y="228.6" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="G$1" pin="OUTR11"/>
-<wire x1="-423.7" y1="401.16" x2="-393.54" y2="401.16" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="401.16" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED51" gate="G$1" pin="BLUE"/>
+<wire x1="-509.58" y1="-309.88" x2="-504.5" y2="-309.88" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-509.58" y="-309.88" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG67" class="0">
+<net name="N$LEDR51" class="0">
 <segment>
-<pinref part="LED67" gate="G$1" pin="GREEN"/>
-<wire x1="-165.42" y1="223.52" x2="-160.34" y2="223.52" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-165.42" y="223.52" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC4" gate="G$1" pin="OUTR11"/>
+<wire x1="-230.04" y1="-7.78" x2="-199.88" y2="-7.78" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="-7.78" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="OUTG11"/>
-<wire x1="-423.7" y1="398.62" x2="-393.54" y2="398.62" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="398.62" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB73" class="0">
-<segment>
-<pinref part="LED73" gate="G$1" pin="BLUE"/>
-<wire x1="-59.38" y1="254" x2="-54.3" y2="254" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-59.38" y="254" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="G$1" pin="OUTB1"/>
-<wire x1="-459.26" y1="434.18" x2="-489.42" y2="434.18" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="434.18" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED51" gate="G$1" pin="RED"/>
+<wire x1="-509.58" y1="-299.72" x2="-504.5" y2="-299.72" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-509.58" y="-299.72" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR73" class="0">
+<net name="N$LEDG51" class="0">
 <segment>
-<pinref part="LED73" gate="G$1" pin="RED"/>
-<wire x1="-59.38" y1="264.16" x2="-54.3" y2="264.16" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-59.38" y="264.16" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC4" gate="G$1" pin="OUTG11"/>
+<wire x1="-230.04" y1="-10.32" x2="-199.88" y2="-10.32" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="-10.32" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="OUTR1"/>
-<wire x1="-459.26" y1="431.64" x2="-489.42" y2="431.64" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="431.64" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG73" class="0">
-<segment>
-<pinref part="LED73" gate="G$1" pin="GREEN"/>
-<wire x1="-59.38" y1="259.08" x2="-54.3" y2="259.08" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-59.38" y="259.08" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="G$1" pin="OUTG1"/>
-<wire x1="-459.26" y1="429.1" x2="-489.42" y2="429.1" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="429.1" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED51" gate="G$1" pin="GREEN"/>
+<wire x1="-509.58" y1="-304.8" x2="-504.5" y2="-304.8" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-509.58" y="-304.8" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB77" class="0">
+<net name="N$LEDB53" class="0">
 <segment>
-<pinref part="LED77" gate="G$1" pin="BLUE"/>
-<wire x1="-6.36" y1="254" x2="-1.28" y2="254" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-6.36" y="254" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC4" gate="G$1" pin="OUTB6"/>
+<wire x1="-265.6" y1="10" x2="-295.76" y2="10" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="10" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="OUTG4"/>
-<wire x1="-459.26" y1="451.96" x2="-489.42" y2="451.96" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="451.96" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED53" gate="G$1" pin="BLUE"/>
+<wire x1="-456.56" y1="-274.32" x2="-451.48" y2="-274.32" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-456.56" y="-274.32" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR77" class="0">
+<net name="N$LEDR53" class="0">
 <segment>
-<pinref part="LED77" gate="G$1" pin="RED"/>
-<wire x1="-6.36" y1="264.16" x2="-1.28" y2="264.16" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-6.36" y="264.16" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC4" gate="G$1" pin="OUTR6"/>
+<wire x1="-265.6" y1="7.46" x2="-295.76" y2="7.46" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="7.46" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="OUTR4"/>
-<wire x1="-459.26" y1="454.5" x2="-489.42" y2="454.5" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="454.5" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED53" gate="G$1" pin="RED"/>
+<wire x1="-456.56" y1="-264.16" x2="-451.48" y2="-264.16" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-456.56" y="-264.16" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG53" class="0">
+<segment>
+<pinref part="IC4" gate="G$1" pin="OUTG6"/>
+<wire x1="-265.6" y1="4.92" x2="-295.76" y2="4.92" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="4.92" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED53" gate="G$1" pin="GREEN"/>
+<wire x1="-456.56" y1="-269.24" x2="-451.48" y2="-269.24" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-456.56" y="-269.24" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB50" class="0">
+<segment>
+<pinref part="IC4" gate="G$1" pin="OUTB3"/>
+<wire x1="-265.6" y1="2.38" x2="-295.76" y2="2.38" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="2.38" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED50" gate="G$1" pin="BLUE"/>
+<wire x1="-509.58" y1="-292.1" x2="-504.5" y2="-292.1" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-509.58" y="-292.1" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR50" class="0">
+<segment>
+<pinref part="IC4" gate="G$1" pin="OUTR3"/>
+<wire x1="-265.6" y1="-0.16" x2="-295.76" y2="-0.16" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="-0.16" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED50" gate="G$1" pin="RED"/>
+<wire x1="-509.58" y1="-281.94" x2="-504.5" y2="-281.94" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-509.58" y="-281.94" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG50" class="0">
+<segment>
+<pinref part="IC4" gate="G$1" pin="OUTG3"/>
+<wire x1="-265.6" y1="-2.7" x2="-295.76" y2="-2.7" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="-2.7" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED50" gate="G$1" pin="GREEN"/>
+<wire x1="-509.58" y1="-287.02" x2="-504.5" y2="-287.02" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-509.58" y="-287.02" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB49" class="0">
+<segment>
+<pinref part="IC4" gate="G$1" pin="OUTB7"/>
+<wire x1="-265.6" y1="-5.24" x2="-295.76" y2="-5.24" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="-5.24" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED49" gate="G$1" pin="BLUE"/>
+<wire x1="-509.58" y1="-274.32" x2="-504.5" y2="-274.32" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-509.58" y="-274.32" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR49" class="0">
+<segment>
+<pinref part="IC4" gate="G$1" pin="OUTR7"/>
+<wire x1="-265.6" y1="-7.78" x2="-295.76" y2="-7.78" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="-7.78" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED49" gate="G$1" pin="RED"/>
+<wire x1="-509.58" y1="-264.16" x2="-504.5" y2="-264.16" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-509.58" y="-264.16" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG49" class="0">
+<segment>
+<pinref part="IC4" gate="G$1" pin="OUTG7"/>
+<wire x1="-265.6" y1="-10.32" x2="-295.76" y2="-10.32" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="-10.32" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED49" gate="G$1" pin="GREEN"/>
+<wire x1="-509.58" y1="-269.24" x2="-504.5" y2="-269.24" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-509.58" y="-269.24" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDG77" class="0">
 <segment>
 <pinref part="LED77" gate="G$1" pin="GREEN"/>
-<wire x1="-6.36" y1="259.08" x2="-1.28" y2="259.08" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-6.36" y="259.08" size="1.778" layer="95" grouprefs="LEDS1"/>
+<wire x1="-138.44" y1="-269.24" x2="-133.36" y2="-269.24" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-138.44" y="-269.24" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="OUTG4"/>
+<wire x1="-609.12" y1="-58.58" x2="-639.28" y2="-58.58" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="-58.58" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+</net>
+<net name="N$LEDR77" class="0">
+<segment>
+<pinref part="IC5" gate="G$1" pin="OUTR4"/>
+<wire x1="-609.12" y1="-56.04" x2="-639.28" y2="-56.04" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="-56.04" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED77" gate="G$1" pin="RED"/>
+<wire x1="-138.44" y1="-264.16" x2="-133.36" y2="-264.16" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-138.44" y="-264.16" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB77" class="0">
+<segment>
+<pinref part="LED77" gate="G$1" pin="BLUE"/>
+<wire x1="-138.44" y1="-274.32" x2="-133.36" y2="-274.32" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-138.44" y="-274.32" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="OUTB4"/>
-<wire x1="-459.26" y1="457.04" x2="-489.42" y2="457.04" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="457.04" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB74" class="0">
-<segment>
-<pinref part="LED74" gate="G$1" pin="BLUE"/>
-<wire x1="-59.38" y1="236.22" x2="-54.3" y2="236.22" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-59.38" y="236.22" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="G$1" pin="OUTB5"/>
-<wire x1="-459.26" y1="441.8" x2="-489.42" y2="441.8" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="441.8" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR74" class="0">
-<segment>
-<pinref part="LED74" gate="G$1" pin="RED"/>
-<wire x1="-59.38" y1="246.38" x2="-54.3" y2="246.38" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-59.38" y="246.38" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="G$1" pin="OUTR5"/>
-<wire x1="-459.26" y1="439.26" x2="-489.42" y2="439.26" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="439.26" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG74" class="0">
-<segment>
-<pinref part="LED74" gate="G$1" pin="GREEN"/>
-<wire x1="-59.38" y1="241.3" x2="-54.3" y2="241.3" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-59.38" y="241.3" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="G$1" pin="OUTG5"/>
-<wire x1="-459.26" y1="436.72" x2="-489.42" y2="436.72" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="436.72" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB78" class="0">
-<segment>
-<pinref part="LED78" gate="G$1" pin="BLUE"/>
-<wire x1="-6.36" y1="236.22" x2="-1.28" y2="236.22" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-6.36" y="236.22" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="G$1" pin="OUTG0"/>
-<wire x1="-459.26" y1="444.34" x2="-489.42" y2="444.34" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="444.34" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR78" class="0">
-<segment>
-<pinref part="LED78" gate="G$1" pin="RED"/>
-<wire x1="-6.36" y1="246.38" x2="-1.28" y2="246.38" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-6.36" y="246.38" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="G$1" pin="OUTR0"/>
-<wire x1="-459.26" y1="446.88" x2="-489.42" y2="446.88" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="446.88" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-609.12" y1="-53.5" x2="-639.28" y2="-53.5" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="-53.5" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
 <net name="N$LEDG78" class="0">
 <segment>
 <pinref part="LED78" gate="G$1" pin="GREEN"/>
-<wire x1="-6.36" y1="241.3" x2="-1.28" y2="241.3" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-6.36" y="241.3" size="1.778" layer="95" grouprefs="LEDS1"/>
+<wire x1="-138.44" y1="-287.02" x2="-133.36" y2="-287.02" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-138.44" y="-287.02" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="OUTG0"/>
+<wire x1="-609.12" y1="-66.2" x2="-639.28" y2="-66.2" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="-66.2" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+</net>
+<net name="N$LEDR78" class="0">
+<segment>
+<pinref part="IC5" gate="G$1" pin="OUTR0"/>
+<wire x1="-609.12" y1="-63.66" x2="-639.28" y2="-63.66" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="-63.66" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED78" gate="G$1" pin="RED"/>
+<wire x1="-138.44" y1="-281.94" x2="-133.36" y2="-281.94" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-138.44" y="-281.94" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB78" class="0">
+<segment>
+<pinref part="LED78" gate="G$1" pin="BLUE"/>
+<wire x1="-138.44" y1="-292.1" x2="-133.36" y2="-292.1" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-138.44" y="-292.1" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="OUTB0"/>
-<wire x1="-459.26" y1="449.42" x2="-489.42" y2="449.42" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="449.42" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-609.12" y1="-61.12" x2="-639.28" y2="-61.12" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="-61.12" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
-<net name="N$LEDB75" class="0">
+<net name="N$LEDB74" class="0">
 <segment>
-<pinref part="LED75" gate="G$1" pin="BLUE"/>
-<wire x1="-59.38" y1="218.44" x2="-54.3" y2="218.44" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-59.38" y="218.44" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC5" gate="G$1" pin="OUTB5"/>
+<wire x1="-609.12" y1="-68.74" x2="-639.28" y2="-68.74" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="-68.74" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="OUTB13"/>
-<wire x1="-423.7" y1="434.18" x2="-393.54" y2="434.18" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="434.18" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR75" class="0">
-<segment>
-<pinref part="LED75" gate="G$1" pin="RED"/>
-<wire x1="-59.38" y1="228.6" x2="-54.3" y2="228.6" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-59.38" y="228.6" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="G$1" pin="OUTR13"/>
-<wire x1="-423.7" y1="431.64" x2="-393.54" y2="431.64" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="431.64" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED74" gate="G$1" pin="BLUE"/>
+<wire x1="-191.46" y1="-292.1" x2="-186.38" y2="-292.1" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-191.46" y="-292.1" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG75" class="0">
+<net name="N$LEDR74" class="0">
 <segment>
-<pinref part="LED75" gate="G$1" pin="GREEN"/>
-<wire x1="-59.38" y1="223.52" x2="-54.3" y2="223.52" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-59.38" y="223.52" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC5" gate="G$1" pin="OUTR5"/>
+<wire x1="-609.12" y1="-71.28" x2="-639.28" y2="-71.28" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="-71.28" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="OUTG13"/>
-<wire x1="-423.7" y1="429.1" x2="-393.54" y2="429.1" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="429.1" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB79" class="0">
-<segment>
-<pinref part="LED79" gate="G$1" pin="BLUE"/>
-<wire x1="-6.36" y1="218.44" x2="-1.28" y2="218.44" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-6.36" y="218.44" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="G$1" pin="OUTB12"/>
-<wire x1="-423.7" y1="449.42" x2="-393.54" y2="449.42" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="449.42" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED74" gate="G$1" pin="RED"/>
+<wire x1="-191.46" y1="-281.94" x2="-186.38" y2="-281.94" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-191.46" y="-281.94" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR79" class="0">
+<net name="N$LEDG74" class="0">
 <segment>
-<pinref part="LED79" gate="G$1" pin="RED"/>
-<wire x1="-6.36" y1="228.6" x2="-1.28" y2="228.6" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-6.36" y="228.6" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC5" gate="G$1" pin="OUTG5"/>
+<wire x1="-609.12" y1="-73.82" x2="-639.28" y2="-73.82" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="-73.82" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="OUTR12"/>
-<wire x1="-423.7" y1="446.88" x2="-393.54" y2="446.88" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="446.88" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG79" class="0">
-<segment>
-<pinref part="LED79" gate="G$1" pin="GREEN"/>
-<wire x1="-6.36" y1="223.52" x2="-1.28" y2="223.52" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-6.36" y="223.52" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="G$1" pin="OUTG12"/>
-<wire x1="-423.7" y1="444.34" x2="-393.54" y2="444.34" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="444.34" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED74" gate="G$1" pin="GREEN"/>
+<wire x1="-191.46" y1="-287.02" x2="-186.38" y2="-287.02" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-191.46" y="-287.02" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB76" class="0">
+<net name="N$LEDB73" class="0">
 <segment>
-<pinref part="LED76" gate="G$1" pin="BLUE"/>
-<wire x1="-59.38" y1="200.66" x2="-54.3" y2="200.66" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-59.38" y="200.66" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC5" gate="G$1" pin="OUTB1"/>
+<wire x1="-609.12" y1="-76.36" x2="-639.28" y2="-76.36" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="-76.36" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="OUTB9"/>
-<wire x1="-423.7" y1="441.8" x2="-393.54" y2="441.8" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="441.8" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR76" class="0">
-<segment>
-<pinref part="LED76" gate="G$1" pin="RED"/>
-<wire x1="-59.38" y1="210.82" x2="-54.3" y2="210.82" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-59.38" y="210.82" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="G$1" pin="OUTR9"/>
-<wire x1="-423.7" y1="439.26" x2="-393.54" y2="439.26" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="439.26" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED73" gate="G$1" pin="BLUE"/>
+<wire x1="-191.46" y1="-274.32" x2="-186.38" y2="-274.32" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-191.46" y="-274.32" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG76" class="0">
+<net name="N$LEDR73" class="0">
 <segment>
-<pinref part="LED76" gate="G$1" pin="GREEN"/>
-<wire x1="-59.38" y1="205.74" x2="-54.3" y2="205.74" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-59.38" y="205.74" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC5" gate="G$1" pin="OUTR1"/>
+<wire x1="-609.12" y1="-78.9" x2="-639.28" y2="-78.9" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="-78.9" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="OUTG9"/>
-<wire x1="-423.7" y1="436.72" x2="-393.54" y2="436.72" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="436.72" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED73" gate="G$1" pin="RED"/>
+<wire x1="-191.46" y1="-264.16" x2="-186.38" y2="-264.16" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-191.46" y="-264.16" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG73" class="0">
+<segment>
+<pinref part="IC5" gate="G$1" pin="OUTG1"/>
+<wire x1="-609.12" y1="-81.44" x2="-639.28" y2="-81.44" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="-81.44" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED73" gate="G$1" pin="GREEN"/>
+<wire x1="-191.46" y1="-269.24" x2="-186.38" y2="-269.24" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-191.46" y="-269.24" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB70" class="0">
+<segment>
+<pinref part="IC5" gate="G$1" pin="OUTB2"/>
+<wire x1="-609.12" y1="-83.98" x2="-639.28" y2="-83.98" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="-83.98" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED70" gate="G$1" pin="BLUE"/>
+<wire x1="-244.48" y1="-292.1" x2="-239.4" y2="-292.1" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-244.48" y="-292.1" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR70" class="0">
+<segment>
+<pinref part="IC5" gate="G$1" pin="OUTR2"/>
+<wire x1="-609.12" y1="-86.52" x2="-639.28" y2="-86.52" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="-86.52" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED70" gate="G$1" pin="RED"/>
+<wire x1="-244.48" y1="-281.94" x2="-239.4" y2="-281.94" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-244.48" y="-281.94" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG70" class="0">
+<segment>
+<pinref part="IC5" gate="G$1" pin="OUTG2"/>
+<wire x1="-609.12" y1="-89.06" x2="-639.28" y2="-89.06" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="-89.06" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED70" gate="G$1" pin="GREEN"/>
+<wire x1="-244.48" y1="-287.02" x2="-239.4" y2="-287.02" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-244.48" y="-287.02" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDB80" class="0">
 <segment>
-<pinref part="LED80" gate="G$1" pin="BLUE"/>
-<wire x1="-6.36" y1="200.66" x2="-1.28" y2="200.66" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-6.36" y="200.66" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC5" gate="G$1" pin="OUTB8"/>
+<wire x1="-573.56" y1="-53.5" x2="-543.4" y2="-53.5" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="-53.5" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="OUTB8"/>
-<wire x1="-423.7" y1="457.04" x2="-393.54" y2="457.04" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="457.04" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED80" gate="G$1" pin="BLUE"/>
+<wire x1="-138.44" y1="-327.66" x2="-133.36" y2="-327.66" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-138.44" y="-327.66" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDR80" class="0">
 <segment>
-<pinref part="LED80" gate="G$1" pin="RED"/>
-<wire x1="-6.36" y1="210.82" x2="-1.28" y2="210.82" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-6.36" y="210.82" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC5" gate="G$1" pin="OUTR8"/>
+<wire x1="-573.56" y1="-56.04" x2="-543.4" y2="-56.04" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="-56.04" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="OUTR8"/>
-<wire x1="-423.7" y1="454.5" x2="-393.54" y2="454.5" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="454.5" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED80" gate="G$1" pin="RED"/>
+<wire x1="-138.44" y1="-317.5" x2="-133.36" y2="-317.5" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-138.44" y="-317.5" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDG80" class="0">
 <segment>
-<pinref part="LED80" gate="G$1" pin="GREEN"/>
-<wire x1="-6.36" y1="205.74" x2="-1.28" y2="205.74" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-6.36" y="205.74" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
 <pinref part="IC5" gate="G$1" pin="OUTG8"/>
-<wire x1="-423.7" y1="451.96" x2="-393.54" y2="451.96" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="451.96" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<wire x1="-573.56" y1="-58.58" x2="-543.4" y2="-58.58" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="-58.58" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED80" gate="G$1" pin="GREEN"/>
+<wire x1="-138.44" y1="-322.58" x2="-133.36" y2="-322.58" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-138.44" y="-322.58" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB71" class="0">
+<net name="N$LEDB79" class="0">
 <segment>
-<pinref part="LED71" gate="G$1" pin="BLUE"/>
-<wire x1="-112.4" y1="218.44" x2="-107.32" y2="218.44" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-112.4" y="218.44" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC5" gate="G$1" pin="OUTB12"/>
+<wire x1="-573.56" y1="-61.12" x2="-543.4" y2="-61.12" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="-61.12" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="OUTB10"/>
-<wire x1="-423.7" y1="418.94" x2="-393.54" y2="418.94" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="418.94" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR71" class="0">
-<segment>
-<pinref part="LED71" gate="G$1" pin="RED"/>
-<wire x1="-112.4" y1="228.6" x2="-107.32" y2="228.6" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-112.4" y="228.6" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="G$1" pin="OUTR10"/>
-<wire x1="-423.7" y1="416.4" x2="-393.54" y2="416.4" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="416.4" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED79" gate="G$1" pin="BLUE"/>
+<wire x1="-138.44" y1="-309.88" x2="-133.36" y2="-309.88" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-138.44" y="-309.88" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG71" class="0">
+<net name="N$LEDR79" class="0">
 <segment>
-<pinref part="LED71" gate="G$1" pin="GREEN"/>
-<wire x1="-112.4" y1="223.52" x2="-107.32" y2="223.52" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-112.4" y="223.52" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC5" gate="G$1" pin="OUTR12"/>
+<wire x1="-573.56" y1="-63.66" x2="-543.4" y2="-63.66" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="-63.66" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="OUTG10"/>
-<wire x1="-393.54" y1="413.86" x2="-423.7" y2="413.86" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="413.86" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB68" class="0">
-<segment>
-<pinref part="LED68" gate="G$1" pin="BLUE"/>
-<wire x1="-165.42" y1="200.66" x2="-160.34" y2="200.66" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-165.42" y="200.66" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="G$1" pin="OUTB15"/>
-<wire x1="-423.7" y1="411.32" x2="-393.54" y2="411.32" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="411.32" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED79" gate="G$1" pin="RED"/>
+<wire x1="-138.44" y1="-299.72" x2="-133.36" y2="-299.72" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-138.44" y="-299.72" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR68" class="0">
+<net name="N$LEDG79" class="0">
 <segment>
-<pinref part="LED68" gate="G$1" pin="RED"/>
-<wire x1="-165.42" y1="210.82" x2="-160.34" y2="210.82" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-165.42" y="210.82" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC5" gate="G$1" pin="OUTG12"/>
+<wire x1="-573.56" y1="-66.2" x2="-543.4" y2="-66.2" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="-66.2" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="OUTR15"/>
-<wire x1="-423.7" y1="408.78" x2="-393.54" y2="408.78" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="408.78" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED79" gate="G$1" pin="GREEN"/>
+<wire x1="-138.44" y1="-304.8" x2="-133.36" y2="-304.8" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-138.44" y="-304.8" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG68" class="0">
+<net name="N$LEDB76" class="0">
 <segment>
-<pinref part="LED68" gate="G$1" pin="GREEN"/>
-<wire x1="-165.42" y1="205.74" x2="-160.34" y2="205.74" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-165.42" y="205.74" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC5" gate="G$1" pin="OUTB9"/>
+<wire x1="-573.56" y1="-68.74" x2="-543.4" y2="-68.74" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="-68.74" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="OUTG15"/>
-<wire x1="-423.7" y1="406.24" x2="-393.54" y2="406.24" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="406.24" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED76" gate="G$1" pin="BLUE"/>
+<wire x1="-191.46" y1="-327.66" x2="-186.38" y2="-327.66" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-191.46" y="-327.66" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR76" class="0">
+<segment>
+<pinref part="IC5" gate="G$1" pin="OUTR9"/>
+<wire x1="-573.56" y1="-71.28" x2="-543.4" y2="-71.28" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="-71.28" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED76" gate="G$1" pin="RED"/>
+<wire x1="-191.46" y1="-317.5" x2="-186.38" y2="-317.5" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-191.46" y="-317.5" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG76" class="0">
+<segment>
+<pinref part="IC5" gate="G$1" pin="OUTG9"/>
+<wire x1="-573.56" y1="-73.82" x2="-543.4" y2="-73.82" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="-73.82" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED76" gate="G$1" pin="GREEN"/>
+<wire x1="-191.46" y1="-322.58" x2="-186.38" y2="-322.58" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-191.46" y="-322.58" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB75" class="0">
+<segment>
+<pinref part="IC5" gate="G$1" pin="OUTB13"/>
+<wire x1="-573.56" y1="-76.36" x2="-543.4" y2="-76.36" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="-76.36" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED75" gate="G$1" pin="BLUE"/>
+<wire x1="-191.46" y1="-309.88" x2="-186.38" y2="-309.88" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-191.46" y="-309.88" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR75" class="0">
+<segment>
+<pinref part="IC5" gate="G$1" pin="OUTR13"/>
+<wire x1="-573.56" y1="-78.9" x2="-543.4" y2="-78.9" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="-78.9" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED75" gate="G$1" pin="RED"/>
+<wire x1="-191.46" y1="-299.72" x2="-186.38" y2="-299.72" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-191.46" y="-299.72" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG75" class="0">
+<segment>
+<pinref part="IC5" gate="G$1" pin="OUTG13"/>
+<wire x1="-573.56" y1="-81.44" x2="-543.4" y2="-81.44" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="-81.44" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED75" gate="G$1" pin="GREEN"/>
+<wire x1="-191.46" y1="-304.8" x2="-186.38" y2="-304.8" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-191.46" y="-304.8" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDB72" class="0">
 <segment>
-<pinref part="LED72" gate="G$1" pin="BLUE"/>
-<wire x1="-112.4" y1="200.66" x2="-107.32" y2="200.66" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-112.4" y="200.66" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC5" gate="G$1" pin="OUTB14"/>
+<wire x1="-573.56" y1="-83.98" x2="-543.4" y2="-83.98" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="-83.98" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="OUTB14"/>
-<wire x1="-423.7" y1="426.56" x2="-393.54" y2="426.56" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="426.56" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED72" gate="G$1" pin="BLUE"/>
+<wire x1="-244.48" y1="-327.66" x2="-239.4" y2="-327.66" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-244.48" y="-327.66" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDR72" class="0">
 <segment>
-<pinref part="LED72" gate="G$1" pin="RED"/>
-<wire x1="-112.4" y1="210.82" x2="-107.32" y2="210.82" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-112.4" y="210.82" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC5" gate="G$1" pin="OUTR14"/>
+<wire x1="-573.56" y1="-86.52" x2="-543.4" y2="-86.52" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="-86.52" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="OUTR14"/>
-<wire x1="-423.7" y1="424.02" x2="-393.54" y2="424.02" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="424.02" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED72" gate="G$1" pin="RED"/>
+<wire x1="-244.48" y1="-317.5" x2="-239.4" y2="-317.5" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-244.48" y="-317.5" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDG72" class="0">
 <segment>
-<pinref part="LED72" gate="G$1" pin="GREEN"/>
-<wire x1="-112.4" y1="205.74" x2="-107.32" y2="205.74" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-112.4" y="205.74" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
 <pinref part="IC5" gate="G$1" pin="OUTG14"/>
-<wire x1="-423.7" y1="421.48" x2="-393.54" y2="421.48" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-393.54" y="421.48" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<wire x1="-573.56" y1="-89.06" x2="-543.4" y2="-89.06" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="-89.06" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED72" gate="G$1" pin="GREEN"/>
+<wire x1="-244.48" y1="-322.58" x2="-239.4" y2="-322.58" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-244.48" y="-322.58" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB81" class="0">
+<net name="N$LEDB71" class="0">
 <segment>
-<pinref part="LED81" gate="G$1" pin="BLUE"/>
-<wire x1="-483.54" y1="175.26" x2="-478.46" y2="175.26" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-483.54" y="175.26" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC5" gate="G$1" pin="OUTB10"/>
+<wire x1="-573.56" y1="-91.6" x2="-543.4" y2="-91.6" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="-91.6" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="OUTB7"/>
-<wire x1="-345.6" y1="403.7" x2="-375.76" y2="403.7" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="403.7" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR81" class="0">
-<segment>
-<pinref part="LED81" gate="G$1" pin="RED"/>
-<wire x1="-483.54" y1="185.42" x2="-478.46" y2="185.42" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-483.54" y="185.42" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="OUTR7"/>
-<wire x1="-345.6" y1="401.16" x2="-375.76" y2="401.16" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="401.16" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED71" gate="G$1" pin="BLUE"/>
+<wire x1="-244.48" y1="-309.88" x2="-239.4" y2="-309.88" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-244.48" y="-309.88" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG81" class="0">
+<net name="N$LEDR71" class="0">
 <segment>
-<pinref part="LED81" gate="G$1" pin="GREEN"/>
-<wire x1="-483.54" y1="180.34" x2="-478.46" y2="180.34" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-483.54" y="180.34" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC5" gate="G$1" pin="OUTR10"/>
+<wire x1="-573.56" y1="-94.14" x2="-543.4" y2="-94.14" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="-94.14" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="OUTG7"/>
-<wire x1="-345.6" y1="398.62" x2="-375.76" y2="398.62" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="398.62" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB85" class="0">
-<segment>
-<pinref part="LED85" gate="G$1" pin="BLUE"/>
-<wire x1="-430.52" y1="175.26" x2="-425.44" y2="175.26" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-430.52" y="175.26" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="OUTB6"/>
-<wire x1="-345.6" y1="418.94" x2="-375.76" y2="418.94" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="418.94" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED71" gate="G$1" pin="RED"/>
+<wire x1="-244.48" y1="-299.72" x2="-239.4" y2="-299.72" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-244.48" y="-299.72" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR85" class="0">
+<net name="N$LEDG71" class="0">
 <segment>
-<pinref part="LED85" gate="G$1" pin="RED"/>
-<wire x1="-430.52" y1="185.42" x2="-425.44" y2="185.42" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-430.52" y="185.42" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC5" gate="G$1" pin="OUTG10"/>
+<wire x1="-543.4" y1="-96.68" x2="-573.56" y2="-96.68" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="-96.68" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="OUTR6"/>
-<wire x1="-345.6" y1="416.4" x2="-375.76" y2="416.4" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="416.4" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG85" class="0">
-<segment>
-<pinref part="LED85" gate="G$1" pin="GREEN"/>
-<wire x1="-430.52" y1="180.34" x2="-425.44" y2="180.34" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-430.52" y="180.34" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="OUTG6"/>
-<wire x1="-345.6" y1="413.86" x2="-375.76" y2="413.86" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="413.86" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED71" gate="G$1" pin="GREEN"/>
+<wire x1="-244.48" y1="-304.8" x2="-239.4" y2="-304.8" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-244.48" y="-304.8" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB82" class="0">
+<net name="N$LEDB68" class="0">
 <segment>
-<pinref part="LED82" gate="G$1" pin="BLUE"/>
-<wire x1="-483.54" y1="157.48" x2="-478.46" y2="157.48" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-483.54" y="157.48" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC5" gate="G$1" pin="OUTB15"/>
+<wire x1="-573.56" y1="-99.22" x2="-543.4" y2="-99.22" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="-99.22" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="OUTB3"/>
-<wire x1="-345.6" y1="411.32" x2="-375.76" y2="411.32" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="411.32" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR82" class="0">
-<segment>
-<pinref part="LED82" gate="G$1" pin="RED"/>
-<wire x1="-483.54" y1="167.64" x2="-478.46" y2="167.64" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-483.54" y="167.64" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="OUTR3"/>
-<wire x1="-345.6" y1="408.78" x2="-375.76" y2="408.78" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="408.78" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED68" gate="G$1" pin="BLUE"/>
+<wire x1="-297.5" y1="-327.66" x2="-292.42" y2="-327.66" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-297.5" y="-327.66" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG82" class="0">
+<net name="N$LEDR68" class="0">
 <segment>
-<pinref part="LED82" gate="G$1" pin="GREEN"/>
-<wire x1="-483.54" y1="162.56" x2="-478.46" y2="162.56" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-483.54" y="162.56" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC5" gate="G$1" pin="OUTR15"/>
+<wire x1="-573.56" y1="-101.76" x2="-543.4" y2="-101.76" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="-101.76" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="OUTG3"/>
-<wire x1="-345.6" y1="406.24" x2="-375.76" y2="406.24" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="406.24" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB86" class="0">
-<segment>
-<pinref part="LED86" gate="G$1" pin="BLUE"/>
-<wire x1="-430.52" y1="157.48" x2="-425.44" y2="157.48" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-430.52" y="157.48" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="OUTB2"/>
-<wire x1="-345.6" y1="426.56" x2="-375.76" y2="426.56" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="426.56" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED68" gate="G$1" pin="RED"/>
+<wire x1="-297.5" y1="-317.5" x2="-292.42" y2="-317.5" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-297.5" y="-317.5" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR86" class="0">
+<net name="N$LEDG68" class="0">
 <segment>
-<pinref part="LED86" gate="G$1" pin="RED"/>
-<wire x1="-430.52" y1="167.64" x2="-425.44" y2="167.64" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-430.52" y="167.64" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC5" gate="G$1" pin="OUTG15"/>
+<wire x1="-573.56" y1="-104.3" x2="-543.4" y2="-104.3" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="-104.3" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="OUTR2"/>
-<wire x1="-345.6" y1="424.02" x2="-375.76" y2="424.02" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="424.02" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG86" class="0">
-<segment>
-<pinref part="LED86" gate="G$1" pin="GREEN"/>
-<wire x1="-430.52" y1="162.56" x2="-425.44" y2="162.56" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-430.52" y="162.56" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="OUTG2"/>
-<wire x1="-345.6" y1="421.48" x2="-375.76" y2="421.48" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="421.48" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED68" gate="G$1" pin="GREEN"/>
+<wire x1="-297.5" y1="-322.58" x2="-292.42" y2="-322.58" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-297.5" y="-322.58" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB83" class="0">
+<net name="N$LEDB67" class="0">
 <segment>
-<pinref part="LED83" gate="G$1" pin="BLUE"/>
-<wire x1="-483.54" y1="139.7" x2="-478.46" y2="139.7" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-483.54" y="139.7" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC5" gate="G$1" pin="OUTB11"/>
+<wire x1="-573.56" y1="-106.84" x2="-543.4" y2="-106.84" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="-106.84" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="OUTB11"/>
-<wire x1="-310.04" y1="403.7" x2="-279.88" y2="403.7" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="403.7" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR83" class="0">
-<segment>
-<pinref part="LED83" gate="G$1" pin="RED"/>
-<wire x1="-483.54" y1="149.86" x2="-478.46" y2="149.86" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-483.54" y="149.86" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="OUTR11"/>
-<wire x1="-310.04" y1="401.16" x2="-279.88" y2="401.16" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="401.16" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED67" gate="G$1" pin="BLUE"/>
+<wire x1="-297.5" y1="-309.88" x2="-292.42" y2="-309.88" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-297.5" y="-309.88" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG83" class="0">
+<net name="N$LEDR67" class="0">
 <segment>
-<pinref part="LED83" gate="G$1" pin="GREEN"/>
-<wire x1="-483.54" y1="144.78" x2="-478.46" y2="144.78" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-483.54" y="144.78" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC5" gate="G$1" pin="OUTR11"/>
+<wire x1="-573.56" y1="-109.38" x2="-543.4" y2="-109.38" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="-109.38" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="OUTG11"/>
-<wire x1="-310.04" y1="398.62" x2="-279.88" y2="398.62" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="398.62" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB89" class="0">
-<segment>
-<pinref part="LED89" gate="G$1" pin="BLUE"/>
-<wire x1="-377.5" y1="175.26" x2="-372.42" y2="175.26" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-377.5" y="175.26" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="OUTB1"/>
-<wire x1="-345.6" y1="434.18" x2="-375.76" y2="434.18" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="434.18" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED67" gate="G$1" pin="RED"/>
+<wire x1="-297.5" y1="-299.72" x2="-292.42" y2="-299.72" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-297.5" y="-299.72" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR89" class="0">
+<net name="N$LEDG67" class="0">
 <segment>
-<pinref part="LED89" gate="G$1" pin="RED"/>
-<wire x1="-377.5" y1="185.42" x2="-372.42" y2="185.42" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-377.5" y="185.42" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC5" gate="G$1" pin="OUTG11"/>
+<wire x1="-573.56" y1="-111.92" x2="-543.4" y2="-111.92" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-543.4" y="-111.92" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="OUTR1"/>
-<wire x1="-345.6" y1="431.64" x2="-375.76" y2="431.64" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="431.64" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG89" class="0">
-<segment>
-<pinref part="LED89" gate="G$1" pin="GREEN"/>
-<wire x1="-377.5" y1="180.34" x2="-372.42" y2="180.34" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-377.5" y="180.34" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="OUTG1"/>
-<wire x1="-345.6" y1="429.1" x2="-375.76" y2="429.1" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="429.1" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED67" gate="G$1" pin="GREEN"/>
+<wire x1="-297.5" y1="-304.8" x2="-292.42" y2="-304.8" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-297.5" y="-304.8" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB93" class="0">
+<net name="N$LEDB69" class="0">
 <segment>
-<pinref part="LED93" gate="G$1" pin="BLUE"/>
-<wire x1="-324.48" y1="175.26" x2="-319.4" y2="175.26" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-324.48" y="175.26" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC5" gate="G$1" pin="OUTB6"/>
+<wire x1="-609.12" y1="-91.6" x2="-639.28" y2="-91.6" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="-91.6" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="OUTG4"/>
-<wire x1="-345.6" y1="451.96" x2="-375.76" y2="451.96" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="451.96" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED69" gate="G$1" pin="BLUE"/>
+<wire x1="-244.48" y1="-274.32" x2="-239.4" y2="-274.32" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-244.48" y="-274.32" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR93" class="0">
+<net name="N$LEDR69" class="0">
 <segment>
-<pinref part="LED93" gate="G$1" pin="RED"/>
-<wire x1="-324.48" y1="185.42" x2="-319.4" y2="185.42" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-324.48" y="185.42" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC5" gate="G$1" pin="OUTR6"/>
+<wire x1="-609.12" y1="-94.14" x2="-639.28" y2="-94.14" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="-94.14" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="OUTR4"/>
-<wire x1="-345.6" y1="454.5" x2="-375.76" y2="454.5" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="454.5" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED69" gate="G$1" pin="RED"/>
+<wire x1="-244.48" y1="-264.16" x2="-239.4" y2="-264.16" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-244.48" y="-264.16" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG69" class="0">
+<segment>
+<pinref part="IC5" gate="G$1" pin="OUTG6"/>
+<wire x1="-609.12" y1="-96.68" x2="-639.28" y2="-96.68" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="-96.68" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED69" gate="G$1" pin="GREEN"/>
+<wire x1="-244.48" y1="-269.24" x2="-239.4" y2="-269.24" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-244.48" y="-269.24" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB66" class="0">
+<segment>
+<pinref part="IC5" gate="G$1" pin="OUTB3"/>
+<wire x1="-609.12" y1="-99.22" x2="-639.28" y2="-99.22" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="-99.22" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED66" gate="G$1" pin="BLUE"/>
+<wire x1="-297.5" y1="-292.1" x2="-292.42" y2="-292.1" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-297.5" y="-292.1" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR66" class="0">
+<segment>
+<pinref part="IC5" gate="G$1" pin="OUTR3"/>
+<wire x1="-609.12" y1="-101.76" x2="-639.28" y2="-101.76" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="-101.76" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED66" gate="G$1" pin="RED"/>
+<wire x1="-297.5" y1="-281.94" x2="-292.42" y2="-281.94" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-297.5" y="-281.94" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG66" class="0">
+<segment>
+<pinref part="IC5" gate="G$1" pin="OUTG3"/>
+<wire x1="-609.12" y1="-104.3" x2="-639.28" y2="-104.3" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="-104.3" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED66" gate="G$1" pin="GREEN"/>
+<wire x1="-297.5" y1="-287.02" x2="-292.42" y2="-287.02" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-297.5" y="-287.02" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB65" class="0">
+<segment>
+<pinref part="IC5" gate="G$1" pin="OUTB7"/>
+<wire x1="-609.12" y1="-106.84" x2="-639.28" y2="-106.84" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="-106.84" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED65" gate="G$1" pin="BLUE"/>
+<wire x1="-297.5" y1="-274.32" x2="-292.42" y2="-274.32" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-297.5" y="-274.32" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR65" class="0">
+<segment>
+<pinref part="IC5" gate="G$1" pin="OUTR7"/>
+<wire x1="-609.12" y1="-109.38" x2="-639.28" y2="-109.38" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="-109.38" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED65" gate="G$1" pin="RED"/>
+<wire x1="-297.5" y1="-264.16" x2="-292.42" y2="-264.16" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-297.5" y="-264.16" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG65" class="0">
+<segment>
+<pinref part="IC5" gate="G$1" pin="OUTG7"/>
+<wire x1="-609.12" y1="-111.92" x2="-639.28" y2="-111.92" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="-111.92" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED65" gate="G$1" pin="GREEN"/>
+<wire x1="-297.5" y1="-269.24" x2="-292.42" y2="-269.24" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-297.5" y="-269.24" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDG93" class="0">
 <segment>
 <pinref part="LED93" gate="G$1" pin="GREEN"/>
-<wire x1="-324.48" y1="180.34" x2="-319.4" y2="180.34" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-324.48" y="180.34" size="1.778" layer="95" grouprefs="LEDS1"/>
+<wire x1="-456.56" y1="-347.98" x2="-451.48" y2="-347.98" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-456.56" y="-347.98" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="IC6" gate="G$1" pin="OUTG4"/>
+<wire x1="-495.46" y1="-58.58" x2="-525.62" y2="-58.58" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="-58.58" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+</net>
+<net name="N$LEDR93" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="OUTR4"/>
+<wire x1="-495.46" y1="-56.04" x2="-525.62" y2="-56.04" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="-56.04" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED93" gate="G$1" pin="RED"/>
+<wire x1="-456.56" y1="-342.9" x2="-451.48" y2="-342.9" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-456.56" y="-342.9" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB93" class="0">
+<segment>
+<pinref part="LED93" gate="G$1" pin="BLUE"/>
+<wire x1="-456.56" y1="-353.06" x2="-451.48" y2="-353.06" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-456.56" y="-353.06" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 <segment>
 <pinref part="IC6" gate="G$1" pin="OUTB4"/>
-<wire x1="-345.6" y1="457.04" x2="-375.76" y2="457.04" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="457.04" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB90" class="0">
-<segment>
-<pinref part="LED90" gate="G$1" pin="BLUE"/>
-<wire x1="-377.5" y1="157.48" x2="-372.42" y2="157.48" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-377.5" y="157.48" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="OUTB5"/>
-<wire x1="-345.6" y1="441.8" x2="-375.76" y2="441.8" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="441.8" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR90" class="0">
-<segment>
-<pinref part="LED90" gate="G$1" pin="RED"/>
-<wire x1="-377.5" y1="167.64" x2="-372.42" y2="167.64" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-377.5" y="167.64" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="OUTR5"/>
-<wire x1="-345.6" y1="439.26" x2="-375.76" y2="439.26" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="439.26" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG90" class="0">
-<segment>
-<pinref part="LED90" gate="G$1" pin="GREEN"/>
-<wire x1="-377.5" y1="162.56" x2="-372.42" y2="162.56" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-377.5" y="162.56" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="OUTG5"/>
-<wire x1="-345.6" y1="436.72" x2="-375.76" y2="436.72" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="436.72" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB94" class="0">
-<segment>
-<pinref part="LED94" gate="G$1" pin="BLUE"/>
-<wire x1="-324.48" y1="157.48" x2="-319.4" y2="157.48" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-324.48" y="157.48" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="OUTG0"/>
-<wire x1="-345.6" y1="444.34" x2="-375.76" y2="444.34" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="444.34" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR94" class="0">
-<segment>
-<pinref part="LED94" gate="G$1" pin="RED"/>
-<wire x1="-324.48" y1="167.64" x2="-319.4" y2="167.64" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-324.48" y="167.64" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="OUTR0"/>
-<wire x1="-345.6" y1="446.88" x2="-375.76" y2="446.88" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="446.88" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-495.46" y1="-53.5" x2="-525.62" y2="-53.5" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="-53.5" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
 <net name="N$LEDG94" class="0">
 <segment>
 <pinref part="LED94" gate="G$1" pin="GREEN"/>
-<wire x1="-324.48" y1="162.56" x2="-319.4" y2="162.56" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-324.48" y="162.56" size="1.778" layer="95" grouprefs="LEDS1"/>
+<wire x1="-456.56" y1="-365.76" x2="-451.48" y2="-365.76" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-456.56" y="-365.76" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="IC6" gate="G$1" pin="OUTG0"/>
+<wire x1="-495.46" y1="-66.2" x2="-525.62" y2="-66.2" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="-66.2" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+</net>
+<net name="N$LEDR94" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="OUTR0"/>
+<wire x1="-495.46" y1="-63.66" x2="-525.62" y2="-63.66" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="-63.66" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED94" gate="G$1" pin="RED"/>
+<wire x1="-456.56" y1="-360.68" x2="-451.48" y2="-360.68" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-456.56" y="-360.68" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB94" class="0">
+<segment>
+<pinref part="LED94" gate="G$1" pin="BLUE"/>
+<wire x1="-456.56" y1="-370.84" x2="-451.48" y2="-370.84" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-456.56" y="-370.84" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 <segment>
 <pinref part="IC6" gate="G$1" pin="OUTB0"/>
-<wire x1="-345.6" y1="449.42" x2="-375.76" y2="449.42" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="449.42" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-495.46" y1="-61.12" x2="-525.62" y2="-61.12" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="-61.12" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
-<net name="N$LEDB91" class="0">
+<net name="N$LEDB90" class="0">
 <segment>
-<pinref part="LED91" gate="G$1" pin="BLUE"/>
-<wire x1="-377.5" y1="139.7" x2="-372.42" y2="139.7" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-377.5" y="139.7" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC6" gate="G$1" pin="OUTB5"/>
+<wire x1="-495.46" y1="-68.74" x2="-525.62" y2="-68.74" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="-68.74" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="OUTB13"/>
-<wire x1="-310.04" y1="434.18" x2="-279.88" y2="434.18" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="434.18" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR91" class="0">
-<segment>
-<pinref part="LED91" gate="G$1" pin="RED"/>
-<wire x1="-377.5" y1="149.86" x2="-372.42" y2="149.86" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-377.5" y="149.86" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="OUTR13"/>
-<wire x1="-310.04" y1="431.64" x2="-279.88" y2="431.64" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="431.64" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED90" gate="G$1" pin="BLUE"/>
+<wire x1="-509.58" y1="-370.84" x2="-504.5" y2="-370.84" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-509.58" y="-370.84" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG91" class="0">
+<net name="N$LEDR90" class="0">
 <segment>
-<pinref part="LED91" gate="G$1" pin="GREEN"/>
-<wire x1="-377.5" y1="144.78" x2="-372.42" y2="144.78" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-377.5" y="144.78" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC6" gate="G$1" pin="OUTR5"/>
+<wire x1="-495.46" y1="-71.28" x2="-525.62" y2="-71.28" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="-71.28" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="OUTG13"/>
-<wire x1="-310.04" y1="429.1" x2="-279.88" y2="429.1" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="429.1" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB95" class="0">
-<segment>
-<pinref part="LED95" gate="G$1" pin="BLUE"/>
-<wire x1="-324.48" y1="139.7" x2="-319.4" y2="139.7" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-324.48" y="139.7" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="OUTB12"/>
-<wire x1="-310.04" y1="449.42" x2="-279.88" y2="449.42" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="449.42" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED90" gate="G$1" pin="RED"/>
+<wire x1="-509.58" y1="-360.68" x2="-504.5" y2="-360.68" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-509.58" y="-360.68" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR95" class="0">
+<net name="N$LEDG90" class="0">
 <segment>
-<pinref part="LED95" gate="G$1" pin="RED"/>
-<wire x1="-324.48" y1="149.86" x2="-319.4" y2="149.86" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-324.48" y="149.86" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC6" gate="G$1" pin="OUTG5"/>
+<wire x1="-495.46" y1="-73.82" x2="-525.62" y2="-73.82" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="-73.82" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="OUTR12"/>
-<wire x1="-310.04" y1="446.88" x2="-279.88" y2="446.88" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="446.88" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG95" class="0">
-<segment>
-<pinref part="LED95" gate="G$1" pin="GREEN"/>
-<wire x1="-324.48" y1="144.78" x2="-319.4" y2="144.78" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-324.48" y="144.78" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="OUTG12"/>
-<wire x1="-310.04" y1="444.34" x2="-279.88" y2="444.34" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="444.34" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED90" gate="G$1" pin="GREEN"/>
+<wire x1="-509.58" y1="-365.76" x2="-504.5" y2="-365.76" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-509.58" y="-365.76" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB92" class="0">
+<net name="N$LEDB89" class="0">
 <segment>
-<pinref part="LED92" gate="G$1" pin="BLUE"/>
-<wire x1="-377.5" y1="121.92" x2="-372.42" y2="121.92" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-377.5" y="121.92" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC6" gate="G$1" pin="OUTB1"/>
+<wire x1="-495.46" y1="-76.36" x2="-525.62" y2="-76.36" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="-76.36" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="OUTB9"/>
-<wire x1="-310.04" y1="441.8" x2="-279.88" y2="441.8" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="441.8" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR92" class="0">
-<segment>
-<pinref part="LED92" gate="G$1" pin="RED"/>
-<wire x1="-377.5" y1="132.08" x2="-372.42" y2="132.08" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-377.5" y="132.08" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="OUTR9"/>
-<wire x1="-310.04" y1="439.26" x2="-279.88" y2="439.26" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="439.26" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED89" gate="G$1" pin="BLUE"/>
+<wire x1="-509.58" y1="-353.06" x2="-504.5" y2="-353.06" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-509.58" y="-353.06" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG92" class="0">
+<net name="N$LEDR89" class="0">
 <segment>
-<pinref part="LED92" gate="G$1" pin="GREEN"/>
-<wire x1="-377.5" y1="127" x2="-372.42" y2="127" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-377.5" y="127" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC6" gate="G$1" pin="OUTR1"/>
+<wire x1="-495.46" y1="-78.9" x2="-525.62" y2="-78.9" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="-78.9" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="OUTG9"/>
-<wire x1="-310.04" y1="436.72" x2="-279.88" y2="436.72" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="436.72" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED89" gate="G$1" pin="RED"/>
+<wire x1="-509.58" y1="-342.9" x2="-504.5" y2="-342.9" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-509.58" y="-342.9" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG89" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="OUTG1"/>
+<wire x1="-495.46" y1="-81.44" x2="-525.62" y2="-81.44" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="-81.44" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED89" gate="G$1" pin="GREEN"/>
+<wire x1="-509.58" y1="-347.98" x2="-504.5" y2="-347.98" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-509.58" y="-347.98" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB86" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="OUTB2"/>
+<wire x1="-495.46" y1="-83.98" x2="-525.62" y2="-83.98" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="-83.98" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED86" gate="G$1" pin="BLUE"/>
+<wire x1="-562.6" y1="-370.84" x2="-557.52" y2="-370.84" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-562.6" y="-370.84" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR86" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="OUTR2"/>
+<wire x1="-495.46" y1="-86.52" x2="-525.62" y2="-86.52" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="-86.52" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED86" gate="G$1" pin="RED"/>
+<wire x1="-562.6" y1="-360.68" x2="-557.52" y2="-360.68" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-562.6" y="-360.68" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG86" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="OUTG2"/>
+<wire x1="-495.46" y1="-89.06" x2="-525.62" y2="-89.06" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="-89.06" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED86" gate="G$1" pin="GREEN"/>
+<wire x1="-562.6" y1="-365.76" x2="-557.52" y2="-365.76" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-562.6" y="-365.76" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDB96" class="0">
 <segment>
-<pinref part="LED96" gate="G$1" pin="BLUE"/>
-<wire x1="-324.48" y1="121.92" x2="-319.4" y2="121.92" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-324.48" y="121.92" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC6" gate="G$1" pin="OUTB8"/>
+<wire x1="-459.9" y1="-53.5" x2="-429.74" y2="-53.5" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="-53.5" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="OUTB8"/>
-<wire x1="-310.04" y1="457.04" x2="-279.88" y2="457.04" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="457.04" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED96" gate="G$1" pin="BLUE"/>
+<wire x1="-456.56" y1="-406.4" x2="-451.48" y2="-406.4" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-456.56" y="-406.4" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDR96" class="0">
 <segment>
-<pinref part="LED96" gate="G$1" pin="RED"/>
-<wire x1="-324.48" y1="132.08" x2="-319.4" y2="132.08" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-324.48" y="132.08" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC6" gate="G$1" pin="OUTR8"/>
+<wire x1="-459.9" y1="-56.04" x2="-429.74" y2="-56.04" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="-56.04" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="OUTR8"/>
-<wire x1="-310.04" y1="454.5" x2="-279.88" y2="454.5" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="454.5" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED96" gate="G$1" pin="RED"/>
+<wire x1="-456.56" y1="-396.24" x2="-451.48" y2="-396.24" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-456.56" y="-396.24" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDG96" class="0">
 <segment>
-<pinref part="LED96" gate="G$1" pin="GREEN"/>
-<wire x1="-324.48" y1="127" x2="-319.4" y2="127" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-324.48" y="127" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
 <pinref part="IC6" gate="G$1" pin="OUTG8"/>
-<wire x1="-310.04" y1="451.96" x2="-279.88" y2="451.96" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="451.96" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<wire x1="-459.9" y1="-58.58" x2="-429.74" y2="-58.58" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="-58.58" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED96" gate="G$1" pin="GREEN"/>
+<wire x1="-456.56" y1="-401.32" x2="-451.48" y2="-401.32" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-456.56" y="-401.32" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB87" class="0">
+<net name="N$LEDB95" class="0">
 <segment>
-<pinref part="LED87" gate="G$1" pin="BLUE"/>
-<wire x1="-430.52" y1="139.7" x2="-425.44" y2="139.7" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-430.52" y="139.7" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC6" gate="G$1" pin="OUTB12"/>
+<wire x1="-459.9" y1="-61.12" x2="-429.74" y2="-61.12" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="-61.12" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="OUTB10"/>
-<wire x1="-310.04" y1="418.94" x2="-279.88" y2="418.94" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="418.94" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR87" class="0">
-<segment>
-<pinref part="LED87" gate="G$1" pin="RED"/>
-<wire x1="-430.52" y1="149.86" x2="-425.44" y2="149.86" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-430.52" y="149.86" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="OUTR10"/>
-<wire x1="-310.04" y1="416.4" x2="-279.88" y2="416.4" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="416.4" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED95" gate="G$1" pin="BLUE"/>
+<wire x1="-456.56" y1="-388.62" x2="-451.48" y2="-388.62" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-456.56" y="-388.62" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG87" class="0">
+<net name="N$LEDR95" class="0">
 <segment>
-<pinref part="LED87" gate="G$1" pin="GREEN"/>
-<wire x1="-430.52" y1="144.78" x2="-425.44" y2="144.78" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-430.52" y="144.78" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC6" gate="G$1" pin="OUTR12"/>
+<wire x1="-459.9" y1="-63.66" x2="-429.74" y2="-63.66" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="-63.66" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="OUTG10"/>
-<wire x1="-279.88" y1="413.86" x2="-310.04" y2="413.86" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="413.86" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB84" class="0">
-<segment>
-<pinref part="LED84" gate="G$1" pin="BLUE"/>
-<wire x1="-483.54" y1="121.92" x2="-478.46" y2="121.92" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-483.54" y="121.92" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="OUTB15"/>
-<wire x1="-310.04" y1="411.32" x2="-279.88" y2="411.32" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="411.32" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED95" gate="G$1" pin="RED"/>
+<wire x1="-456.56" y1="-378.46" x2="-451.48" y2="-378.46" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-456.56" y="-378.46" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR84" class="0">
+<net name="N$LEDG95" class="0">
 <segment>
-<pinref part="LED84" gate="G$1" pin="RED"/>
-<wire x1="-483.54" y1="132.08" x2="-478.46" y2="132.08" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-483.54" y="132.08" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC6" gate="G$1" pin="OUTG12"/>
+<wire x1="-459.9" y1="-66.2" x2="-429.74" y2="-66.2" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="-66.2" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="OUTR15"/>
-<wire x1="-310.04" y1="408.78" x2="-279.88" y2="408.78" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="408.78" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED95" gate="G$1" pin="GREEN"/>
+<wire x1="-456.56" y1="-383.54" x2="-451.48" y2="-383.54" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-456.56" y="-383.54" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG84" class="0">
+<net name="N$LEDB92" class="0">
 <segment>
-<pinref part="LED84" gate="G$1" pin="GREEN"/>
-<wire x1="-483.54" y1="127" x2="-478.46" y2="127" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-483.54" y="127" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC6" gate="G$1" pin="OUTB9"/>
+<wire x1="-459.9" y1="-68.74" x2="-429.74" y2="-68.74" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="-68.74" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="OUTG15"/>
-<wire x1="-310.04" y1="406.24" x2="-279.88" y2="406.24" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="406.24" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED92" gate="G$1" pin="BLUE"/>
+<wire x1="-509.58" y1="-406.4" x2="-504.5" y2="-406.4" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-509.58" y="-406.4" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR92" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="OUTR9"/>
+<wire x1="-459.9" y1="-71.28" x2="-429.74" y2="-71.28" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="-71.28" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED92" gate="G$1" pin="RED"/>
+<wire x1="-509.58" y1="-396.24" x2="-504.5" y2="-396.24" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-509.58" y="-396.24" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG92" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="OUTG9"/>
+<wire x1="-459.9" y1="-73.82" x2="-429.74" y2="-73.82" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="-73.82" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED92" gate="G$1" pin="GREEN"/>
+<wire x1="-509.58" y1="-401.32" x2="-504.5" y2="-401.32" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-509.58" y="-401.32" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB91" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="OUTB13"/>
+<wire x1="-459.9" y1="-76.36" x2="-429.74" y2="-76.36" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="-76.36" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED91" gate="G$1" pin="BLUE"/>
+<wire x1="-509.58" y1="-388.62" x2="-504.5" y2="-388.62" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-509.58" y="-388.62" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR91" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="OUTR13"/>
+<wire x1="-459.9" y1="-78.9" x2="-429.74" y2="-78.9" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="-78.9" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED91" gate="G$1" pin="RED"/>
+<wire x1="-509.58" y1="-378.46" x2="-504.5" y2="-378.46" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-509.58" y="-378.46" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG91" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="OUTG13"/>
+<wire x1="-459.9" y1="-81.44" x2="-429.74" y2="-81.44" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="-81.44" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED91" gate="G$1" pin="GREEN"/>
+<wire x1="-509.58" y1="-383.54" x2="-504.5" y2="-383.54" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-509.58" y="-383.54" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDB88" class="0">
 <segment>
-<pinref part="LED88" gate="G$1" pin="BLUE"/>
-<wire x1="-430.52" y1="121.92" x2="-425.44" y2="121.92" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-430.52" y="121.92" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC6" gate="G$1" pin="OUTB14"/>
+<wire x1="-459.9" y1="-83.98" x2="-429.74" y2="-83.98" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="-83.98" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="OUTB14"/>
-<wire x1="-310.04" y1="426.56" x2="-279.88" y2="426.56" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="426.56" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED88" gate="G$1" pin="BLUE"/>
+<wire x1="-562.6" y1="-406.4" x2="-557.52" y2="-406.4" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-562.6" y="-406.4" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDR88" class="0">
 <segment>
-<pinref part="LED88" gate="G$1" pin="RED"/>
-<wire x1="-430.52" y1="132.08" x2="-425.44" y2="132.08" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-430.52" y="132.08" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC6" gate="G$1" pin="OUTR14"/>
+<wire x1="-459.9" y1="-86.52" x2="-429.74" y2="-86.52" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="-86.52" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="OUTR14"/>
-<wire x1="-310.04" y1="424.02" x2="-279.88" y2="424.02" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="424.02" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED88" gate="G$1" pin="RED"/>
+<wire x1="-562.6" y1="-396.24" x2="-557.52" y2="-396.24" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-562.6" y="-396.24" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDG88" class="0">
 <segment>
-<pinref part="LED88" gate="G$1" pin="GREEN"/>
-<wire x1="-430.52" y1="127" x2="-425.44" y2="127" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-430.52" y="127" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
 <pinref part="IC6" gate="G$1" pin="OUTG14"/>
-<wire x1="-310.04" y1="421.48" x2="-279.88" y2="421.48" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-279.88" y="421.48" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<wire x1="-459.9" y1="-89.06" x2="-429.74" y2="-89.06" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="-89.06" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED88" gate="G$1" pin="GREEN"/>
+<wire x1="-562.6" y1="-401.32" x2="-557.52" y2="-401.32" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-562.6" y="-401.32" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB97" class="0">
+<net name="N$LEDB87" class="0">
 <segment>
-<pinref part="LED97" gate="G$1" pin="BLUE"/>
-<wire x1="-271.46" y1="175.26" x2="-266.38" y2="175.26" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-271.46" y="175.26" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC6" gate="G$1" pin="OUTB10"/>
+<wire x1="-459.9" y1="-91.6" x2="-429.74" y2="-91.6" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="-91.6" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="OUTB7"/>
-<wire x1="-229.4" y1="403.7" x2="-259.56" y2="403.7" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="403.7" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR97" class="0">
-<segment>
-<pinref part="LED97" gate="G$1" pin="RED"/>
-<wire x1="-271.46" y1="185.42" x2="-266.38" y2="185.42" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-271.46" y="185.42" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC7" gate="G$1" pin="OUTR7"/>
-<wire x1="-229.4" y1="401.16" x2="-259.56" y2="401.16" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="401.16" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED87" gate="G$1" pin="BLUE"/>
+<wire x1="-562.6" y1="-388.62" x2="-557.52" y2="-388.62" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-562.6" y="-388.62" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG97" class="0">
+<net name="N$LEDR87" class="0">
 <segment>
-<pinref part="LED97" gate="G$1" pin="GREEN"/>
-<wire x1="-271.46" y1="180.34" x2="-266.38" y2="180.34" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-271.46" y="180.34" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC6" gate="G$1" pin="OUTR10"/>
+<wire x1="-459.9" y1="-94.14" x2="-429.74" y2="-94.14" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="-94.14" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="OUTG7"/>
-<wire x1="-229.4" y1="398.62" x2="-259.56" y2="398.62" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="398.62" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB101" class="0">
-<segment>
-<pinref part="LED101" gate="G$1" pin="BLUE"/>
-<wire x1="-218.44" y1="175.26" x2="-213.36" y2="175.26" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-218.44" y="175.26" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC7" gate="G$1" pin="OUTB6"/>
-<wire x1="-229.4" y1="418.94" x2="-259.56" y2="418.94" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="418.94" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED87" gate="G$1" pin="RED"/>
+<wire x1="-562.6" y1="-378.46" x2="-557.52" y2="-378.46" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-562.6" y="-378.46" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR101" class="0">
+<net name="N$LEDG87" class="0">
 <segment>
-<pinref part="LED101" gate="G$1" pin="RED"/>
-<wire x1="-218.44" y1="185.42" x2="-213.36" y2="185.42" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-218.44" y="185.42" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC6" gate="G$1" pin="OUTG10"/>
+<wire x1="-429.74" y1="-96.68" x2="-459.9" y2="-96.68" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="-96.68" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="OUTR6"/>
-<wire x1="-229.4" y1="416.4" x2="-259.56" y2="416.4" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="416.4" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG101" class="0">
-<segment>
-<pinref part="LED101" gate="G$1" pin="GREEN"/>
-<wire x1="-218.44" y1="180.34" x2="-213.36" y2="180.34" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-218.44" y="180.34" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC7" gate="G$1" pin="OUTG6"/>
-<wire x1="-229.4" y1="413.86" x2="-259.56" y2="413.86" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="413.86" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED87" gate="G$1" pin="GREEN"/>
+<wire x1="-562.6" y1="-383.54" x2="-557.52" y2="-383.54" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-562.6" y="-383.54" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB98" class="0">
+<net name="N$LEDB84" class="0">
 <segment>
-<pinref part="LED98" gate="G$1" pin="BLUE"/>
-<wire x1="-271.46" y1="157.48" x2="-266.38" y2="157.48" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-271.46" y="157.48" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC6" gate="G$1" pin="OUTB15"/>
+<wire x1="-459.9" y1="-99.22" x2="-429.74" y2="-99.22" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="-99.22" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="OUTB3"/>
-<wire x1="-229.4" y1="411.32" x2="-259.56" y2="411.32" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="411.32" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR98" class="0">
-<segment>
-<pinref part="LED98" gate="G$1" pin="RED"/>
-<wire x1="-271.46" y1="167.64" x2="-266.38" y2="167.64" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-271.46" y="167.64" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC7" gate="G$1" pin="OUTR3"/>
-<wire x1="-229.4" y1="408.78" x2="-259.56" y2="408.78" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="408.78" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED84" gate="G$1" pin="BLUE"/>
+<wire x1="-615.62" y1="-406.4" x2="-610.54" y2="-406.4" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-615.62" y="-406.4" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG98" class="0">
+<net name="N$LEDR84" class="0">
 <segment>
-<pinref part="LED98" gate="G$1" pin="GREEN"/>
-<wire x1="-271.46" y1="162.56" x2="-266.38" y2="162.56" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-271.46" y="162.56" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC6" gate="G$1" pin="OUTR15"/>
+<wire x1="-459.9" y1="-101.76" x2="-429.74" y2="-101.76" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="-101.76" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="OUTG3"/>
-<wire x1="-229.4" y1="406.24" x2="-259.56" y2="406.24" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="406.24" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB102" class="0">
-<segment>
-<pinref part="LED102" gate="G$1" pin="BLUE"/>
-<wire x1="-218.44" y1="157.48" x2="-213.36" y2="157.48" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-218.44" y="157.48" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC7" gate="G$1" pin="OUTB2"/>
-<wire x1="-229.4" y1="426.56" x2="-259.56" y2="426.56" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="426.56" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED84" gate="G$1" pin="RED"/>
+<wire x1="-615.62" y1="-396.24" x2="-610.54" y2="-396.24" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-615.62" y="-396.24" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR102" class="0">
+<net name="N$LEDG84" class="0">
 <segment>
-<pinref part="LED102" gate="G$1" pin="RED"/>
-<wire x1="-218.44" y1="167.64" x2="-213.36" y2="167.64" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-218.44" y="167.64" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC6" gate="G$1" pin="OUTG15"/>
+<wire x1="-459.9" y1="-104.3" x2="-429.74" y2="-104.3" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="-104.3" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="OUTR2"/>
-<wire x1="-229.4" y1="424.02" x2="-259.56" y2="424.02" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="424.02" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG102" class="0">
-<segment>
-<pinref part="LED102" gate="G$1" pin="GREEN"/>
-<wire x1="-218.44" y1="162.56" x2="-213.36" y2="162.56" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-218.44" y="162.56" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC7" gate="G$1" pin="OUTG2"/>
-<wire x1="-229.4" y1="421.48" x2="-259.56" y2="421.48" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="421.48" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED84" gate="G$1" pin="GREEN"/>
+<wire x1="-615.62" y1="-401.32" x2="-610.54" y2="-401.32" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-615.62" y="-401.32" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB99" class="0">
+<net name="N$LEDB83" class="0">
 <segment>
-<pinref part="LED99" gate="G$1" pin="BLUE"/>
-<wire x1="-271.46" y1="139.7" x2="-266.38" y2="139.7" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-271.46" y="139.7" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC6" gate="G$1" pin="OUTB11"/>
+<wire x1="-459.9" y1="-106.84" x2="-429.74" y2="-106.84" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="-106.84" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="OUTB11"/>
-<wire x1="-193.84" y1="403.7" x2="-163.68" y2="403.7" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="403.7" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR99" class="0">
-<segment>
-<pinref part="LED99" gate="G$1" pin="RED"/>
-<wire x1="-271.46" y1="149.86" x2="-266.38" y2="149.86" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-271.46" y="149.86" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC7" gate="G$1" pin="OUTR11"/>
-<wire x1="-193.84" y1="401.16" x2="-163.68" y2="401.16" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="401.16" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED83" gate="G$1" pin="BLUE"/>
+<wire x1="-615.62" y1="-388.62" x2="-610.54" y2="-388.62" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-615.62" y="-388.62" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG99" class="0">
+<net name="N$LEDR83" class="0">
 <segment>
-<pinref part="LED99" gate="G$1" pin="GREEN"/>
-<wire x1="-271.46" y1="144.78" x2="-266.38" y2="144.78" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-271.46" y="144.78" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC6" gate="G$1" pin="OUTR11"/>
+<wire x1="-459.9" y1="-109.38" x2="-429.74" y2="-109.38" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="-109.38" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="OUTG11"/>
-<wire x1="-193.84" y1="398.62" x2="-163.68" y2="398.62" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="398.62" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB105" class="0">
-<segment>
-<pinref part="LED105" gate="G$1" pin="BLUE"/>
-<wire x1="-165.42" y1="175.26" x2="-160.34" y2="175.26" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-165.42" y="175.26" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC7" gate="G$1" pin="OUTB1"/>
-<wire x1="-229.4" y1="434.18" x2="-259.56" y2="434.18" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="434.18" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED83" gate="G$1" pin="RED"/>
+<wire x1="-615.62" y1="-378.46" x2="-610.54" y2="-378.46" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-615.62" y="-378.46" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR105" class="0">
+<net name="N$LEDG83" class="0">
 <segment>
-<pinref part="LED105" gate="G$1" pin="RED"/>
-<wire x1="-165.42" y1="185.42" x2="-160.34" y2="185.42" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-165.42" y="185.42" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC6" gate="G$1" pin="OUTG11"/>
+<wire x1="-459.9" y1="-111.92" x2="-429.74" y2="-111.92" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-429.74" y="-111.92" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="OUTR1"/>
-<wire x1="-229.4" y1="431.64" x2="-259.56" y2="431.64" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="431.64" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG105" class="0">
-<segment>
-<pinref part="LED105" gate="G$1" pin="GREEN"/>
-<wire x1="-165.42" y1="180.34" x2="-160.34" y2="180.34" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-165.42" y="180.34" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC7" gate="G$1" pin="OUTG1"/>
-<wire x1="-229.4" y1="429.1" x2="-259.56" y2="429.1" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="429.1" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED83" gate="G$1" pin="GREEN"/>
+<wire x1="-615.62" y1="-383.54" x2="-610.54" y2="-383.54" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-615.62" y="-383.54" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB109" class="0">
+<net name="N$LEDB85" class="0">
 <segment>
-<pinref part="LED109" gate="G$1" pin="BLUE"/>
-<wire x1="-112.4" y1="175.26" x2="-107.32" y2="175.26" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-112.4" y="175.26" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC6" gate="G$1" pin="OUTB6"/>
+<wire x1="-495.46" y1="-91.6" x2="-525.62" y2="-91.6" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="-91.6" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="OUTG4"/>
-<wire x1="-229.4" y1="451.96" x2="-259.56" y2="451.96" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="451.96" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED85" gate="G$1" pin="BLUE"/>
+<wire x1="-562.6" y1="-353.06" x2="-557.52" y2="-353.06" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-562.6" y="-353.06" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR109" class="0">
+<net name="N$LEDR85" class="0">
 <segment>
-<pinref part="LED109" gate="G$1" pin="RED"/>
-<wire x1="-112.4" y1="185.42" x2="-107.32" y2="185.42" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-112.4" y="185.42" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC6" gate="G$1" pin="OUTR6"/>
+<wire x1="-495.46" y1="-94.14" x2="-525.62" y2="-94.14" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="-94.14" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="OUTR4"/>
-<wire x1="-229.4" y1="454.5" x2="-259.56" y2="454.5" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="454.5" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED85" gate="G$1" pin="RED"/>
+<wire x1="-562.6" y1="-342.9" x2="-557.52" y2="-342.9" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-562.6" y="-342.9" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG85" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="OUTG6"/>
+<wire x1="-495.46" y1="-96.68" x2="-525.62" y2="-96.68" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="-96.68" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED85" gate="G$1" pin="GREEN"/>
+<wire x1="-562.6" y1="-347.98" x2="-557.52" y2="-347.98" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-562.6" y="-347.98" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB82" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="OUTB3"/>
+<wire x1="-495.46" y1="-99.22" x2="-525.62" y2="-99.22" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="-99.22" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED82" gate="G$1" pin="BLUE"/>
+<wire x1="-615.62" y1="-370.84" x2="-610.54" y2="-370.84" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-615.62" y="-370.84" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR82" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="OUTR3"/>
+<wire x1="-495.46" y1="-101.76" x2="-525.62" y2="-101.76" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="-101.76" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED82" gate="G$1" pin="RED"/>
+<wire x1="-615.62" y1="-360.68" x2="-610.54" y2="-360.68" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-615.62" y="-360.68" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG82" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="OUTG3"/>
+<wire x1="-495.46" y1="-104.3" x2="-525.62" y2="-104.3" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="-104.3" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED82" gate="G$1" pin="GREEN"/>
+<wire x1="-615.62" y1="-365.76" x2="-610.54" y2="-365.76" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-615.62" y="-365.76" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB81" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="OUTB7"/>
+<wire x1="-495.46" y1="-106.84" x2="-525.62" y2="-106.84" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="-106.84" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED81" gate="G$1" pin="BLUE"/>
+<wire x1="-615.62" y1="-353.06" x2="-610.54" y2="-353.06" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-615.62" y="-353.06" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR81" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="OUTR7"/>
+<wire x1="-495.46" y1="-109.38" x2="-525.62" y2="-109.38" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="-109.38" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED81" gate="G$1" pin="RED"/>
+<wire x1="-615.62" y1="-342.9" x2="-610.54" y2="-342.9" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-615.62" y="-342.9" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG81" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="OUTG7"/>
+<wire x1="-495.46" y1="-111.92" x2="-525.62" y2="-111.92" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="-111.92" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED81" gate="G$1" pin="GREEN"/>
+<wire x1="-615.62" y1="-347.98" x2="-610.54" y2="-347.98" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-615.62" y="-347.98" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDG109" class="0">
 <segment>
 <pinref part="LED109" gate="G$1" pin="GREEN"/>
-<wire x1="-112.4" y1="180.34" x2="-107.32" y2="180.34" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-112.4" y="180.34" size="1.778" layer="95" grouprefs="LEDS1"/>
+<wire x1="-244.48" y1="-347.98" x2="-239.4" y2="-347.98" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-244.48" y="-347.98" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="IC7" gate="G$1" pin="OUTG4"/>
+<wire x1="-379.26" y1="-58.58" x2="-409.42" y2="-58.58" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="-58.58" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+</net>
+<net name="N$LEDR109" class="0">
+<segment>
+<pinref part="IC7" gate="G$1" pin="OUTR4"/>
+<wire x1="-379.26" y1="-56.04" x2="-409.42" y2="-56.04" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="-56.04" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED109" gate="G$1" pin="RED"/>
+<wire x1="-244.48" y1="-342.9" x2="-239.4" y2="-342.9" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-244.48" y="-342.9" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB109" class="0">
+<segment>
+<pinref part="LED109" gate="G$1" pin="BLUE"/>
+<wire x1="-244.48" y1="-353.06" x2="-239.4" y2="-353.06" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-244.48" y="-353.06" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 <segment>
 <pinref part="IC7" gate="G$1" pin="OUTB4"/>
-<wire x1="-229.4" y1="457.04" x2="-259.56" y2="457.04" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="457.04" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB106" class="0">
-<segment>
-<pinref part="LED106" gate="G$1" pin="BLUE"/>
-<wire x1="-165.42" y1="157.48" x2="-160.34" y2="157.48" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-165.42" y="157.48" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC7" gate="G$1" pin="OUTB5"/>
-<wire x1="-229.4" y1="441.8" x2="-259.56" y2="441.8" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="441.8" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR106" class="0">
-<segment>
-<pinref part="LED106" gate="G$1" pin="RED"/>
-<wire x1="-165.42" y1="167.64" x2="-160.34" y2="167.64" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-165.42" y="167.64" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC7" gate="G$1" pin="OUTR5"/>
-<wire x1="-229.4" y1="439.26" x2="-259.56" y2="439.26" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="439.26" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG106" class="0">
-<segment>
-<pinref part="LED106" gate="G$1" pin="GREEN"/>
-<wire x1="-165.42" y1="162.56" x2="-160.34" y2="162.56" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-165.42" y="162.56" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC7" gate="G$1" pin="OUTG5"/>
-<wire x1="-229.4" y1="436.72" x2="-259.56" y2="436.72" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="436.72" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB110" class="0">
-<segment>
-<pinref part="LED110" gate="G$1" pin="BLUE"/>
-<wire x1="-112.4" y1="157.48" x2="-107.32" y2="157.48" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-112.4" y="157.48" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC7" gate="G$1" pin="OUTG0"/>
-<wire x1="-229.4" y1="444.34" x2="-259.56" y2="444.34" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="444.34" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR110" class="0">
-<segment>
-<pinref part="LED110" gate="G$1" pin="RED"/>
-<wire x1="-112.4" y1="167.64" x2="-107.32" y2="167.64" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-112.4" y="167.64" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC7" gate="G$1" pin="OUTR0"/>
-<wire x1="-229.4" y1="446.88" x2="-259.56" y2="446.88" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="446.88" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-379.26" y1="-53.5" x2="-409.42" y2="-53.5" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="-53.5" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
 <net name="N$LEDG110" class="0">
 <segment>
 <pinref part="LED110" gate="G$1" pin="GREEN"/>
-<wire x1="-112.4" y1="162.56" x2="-107.32" y2="162.56" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-112.4" y="162.56" size="1.778" layer="95" grouprefs="LEDS1"/>
+<wire x1="-244.48" y1="-365.76" x2="-239.4" y2="-365.76" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-244.48" y="-365.76" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+<segment>
+<pinref part="IC7" gate="G$1" pin="OUTG0"/>
+<wire x1="-379.26" y1="-66.2" x2="-409.42" y2="-66.2" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="-66.2" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+</net>
+<net name="N$LEDR110" class="0">
+<segment>
+<pinref part="IC7" gate="G$1" pin="OUTR0"/>
+<wire x1="-379.26" y1="-63.66" x2="-409.42" y2="-63.66" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="-63.66" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED110" gate="G$1" pin="RED"/>
+<wire x1="-244.48" y1="-360.68" x2="-239.4" y2="-360.68" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-244.48" y="-360.68" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB110" class="0">
+<segment>
+<pinref part="LED110" gate="G$1" pin="BLUE"/>
+<wire x1="-244.48" y1="-370.84" x2="-239.4" y2="-370.84" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-244.48" y="-370.84" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 <segment>
 <pinref part="IC7" gate="G$1" pin="OUTB0"/>
-<wire x1="-229.4" y1="449.42" x2="-259.56" y2="449.42" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="449.42" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-379.26" y1="-61.12" x2="-409.42" y2="-61.12" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="-61.12" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
-<net name="N$LEDB107" class="0">
+<net name="N$LEDB106" class="0">
 <segment>
-<pinref part="LED107" gate="G$1" pin="BLUE"/>
-<wire x1="-165.42" y1="139.7" x2="-160.34" y2="139.7" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-165.42" y="139.7" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC7" gate="G$1" pin="OUTB5"/>
+<wire x1="-379.26" y1="-68.74" x2="-409.42" y2="-68.74" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="-68.74" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="OUTB13"/>
-<wire x1="-193.84" y1="434.18" x2="-163.68" y2="434.18" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="434.18" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR107" class="0">
-<segment>
-<pinref part="LED107" gate="G$1" pin="RED"/>
-<wire x1="-165.42" y1="149.86" x2="-160.34" y2="149.86" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-165.42" y="149.86" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC7" gate="G$1" pin="OUTR13"/>
-<wire x1="-193.84" y1="431.64" x2="-163.68" y2="431.64" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="431.64" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED106" gate="G$1" pin="BLUE"/>
+<wire x1="-297.5" y1="-370.84" x2="-292.42" y2="-370.84" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-297.5" y="-370.84" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG107" class="0">
+<net name="N$LEDR106" class="0">
 <segment>
-<pinref part="LED107" gate="G$1" pin="GREEN"/>
-<wire x1="-165.42" y1="144.78" x2="-160.34" y2="144.78" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-165.42" y="144.78" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC7" gate="G$1" pin="OUTR5"/>
+<wire x1="-379.26" y1="-71.28" x2="-409.42" y2="-71.28" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="-71.28" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="OUTG13"/>
-<wire x1="-193.84" y1="429.1" x2="-163.68" y2="429.1" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="429.1" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB111" class="0">
-<segment>
-<pinref part="LED111" gate="G$1" pin="BLUE"/>
-<wire x1="-112.4" y1="139.7" x2="-107.32" y2="139.7" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-112.4" y="139.7" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC7" gate="G$1" pin="OUTB12"/>
-<wire x1="-193.84" y1="449.42" x2="-163.68" y2="449.42" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="449.42" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED106" gate="G$1" pin="RED"/>
+<wire x1="-297.5" y1="-360.68" x2="-292.42" y2="-360.68" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-297.5" y="-360.68" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR111" class="0">
+<net name="N$LEDG106" class="0">
 <segment>
-<pinref part="LED111" gate="G$1" pin="RED"/>
-<wire x1="-112.4" y1="149.86" x2="-107.32" y2="149.86" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-112.4" y="149.86" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC7" gate="G$1" pin="OUTG5"/>
+<wire x1="-379.26" y1="-73.82" x2="-409.42" y2="-73.82" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="-73.82" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="OUTR12"/>
-<wire x1="-193.84" y1="446.88" x2="-163.68" y2="446.88" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="446.88" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG111" class="0">
-<segment>
-<pinref part="LED111" gate="G$1" pin="GREEN"/>
-<wire x1="-112.4" y1="144.78" x2="-107.32" y2="144.78" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-112.4" y="144.78" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC7" gate="G$1" pin="OUTG12"/>
-<wire x1="-193.84" y1="444.34" x2="-163.68" y2="444.34" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="444.34" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED106" gate="G$1" pin="GREEN"/>
+<wire x1="-297.5" y1="-365.76" x2="-292.42" y2="-365.76" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-297.5" y="-365.76" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB108" class="0">
+<net name="N$LEDB105" class="0">
 <segment>
-<pinref part="LED108" gate="G$1" pin="BLUE"/>
-<wire x1="-165.42" y1="121.92" x2="-160.34" y2="121.92" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-165.42" y="121.92" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC7" gate="G$1" pin="OUTB1"/>
+<wire x1="-379.26" y1="-76.36" x2="-409.42" y2="-76.36" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="-76.36" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="OUTB9"/>
-<wire x1="-193.84" y1="441.8" x2="-163.68" y2="441.8" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="441.8" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR108" class="0">
-<segment>
-<pinref part="LED108" gate="G$1" pin="RED"/>
-<wire x1="-165.42" y1="132.08" x2="-160.34" y2="132.08" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-165.42" y="132.08" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC7" gate="G$1" pin="OUTR9"/>
-<wire x1="-193.84" y1="439.26" x2="-163.68" y2="439.26" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="439.26" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED105" gate="G$1" pin="BLUE"/>
+<wire x1="-297.5" y1="-353.06" x2="-292.42" y2="-353.06" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-297.5" y="-353.06" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG108" class="0">
+<net name="N$LEDR105" class="0">
 <segment>
-<pinref part="LED108" gate="G$1" pin="GREEN"/>
-<wire x1="-165.42" y1="127" x2="-160.34" y2="127" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-165.42" y="127" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC7" gate="G$1" pin="OUTR1"/>
+<wire x1="-379.26" y1="-78.9" x2="-409.42" y2="-78.9" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="-78.9" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="OUTG9"/>
-<wire x1="-193.84" y1="436.72" x2="-163.68" y2="436.72" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="436.72" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED105" gate="G$1" pin="RED"/>
+<wire x1="-297.5" y1="-342.9" x2="-292.42" y2="-342.9" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-297.5" y="-342.9" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG105" class="0">
+<segment>
+<pinref part="IC7" gate="G$1" pin="OUTG1"/>
+<wire x1="-379.26" y1="-81.44" x2="-409.42" y2="-81.44" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="-81.44" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED105" gate="G$1" pin="GREEN"/>
+<wire x1="-297.5" y1="-347.98" x2="-292.42" y2="-347.98" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-297.5" y="-347.98" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB102" class="0">
+<segment>
+<pinref part="IC7" gate="G$1" pin="OUTB2"/>
+<wire x1="-379.26" y1="-83.98" x2="-409.42" y2="-83.98" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="-83.98" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED102" gate="G$1" pin="BLUE"/>
+<wire x1="-350.52" y1="-370.84" x2="-345.44" y2="-370.84" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-350.52" y="-370.84" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR102" class="0">
+<segment>
+<pinref part="IC7" gate="G$1" pin="OUTR2"/>
+<wire x1="-379.26" y1="-86.52" x2="-409.42" y2="-86.52" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="-86.52" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED102" gate="G$1" pin="RED"/>
+<wire x1="-350.52" y1="-360.68" x2="-345.44" y2="-360.68" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-350.52" y="-360.68" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG102" class="0">
+<segment>
+<pinref part="IC7" gate="G$1" pin="OUTG2"/>
+<wire x1="-379.26" y1="-89.06" x2="-409.42" y2="-89.06" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="-89.06" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED102" gate="G$1" pin="GREEN"/>
+<wire x1="-350.52" y1="-365.76" x2="-345.44" y2="-365.76" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-350.52" y="-365.76" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDB112" class="0">
 <segment>
-<pinref part="LED112" gate="G$1" pin="BLUE"/>
-<wire x1="-112.4" y1="121.92" x2="-107.32" y2="121.92" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-112.4" y="121.92" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC7" gate="G$1" pin="OUTB8"/>
+<wire x1="-343.7" y1="-53.5" x2="-313.54" y2="-53.5" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="-53.5" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="OUTB8"/>
-<wire x1="-193.84" y1="457.04" x2="-163.68" y2="457.04" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="457.04" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED112" gate="G$1" pin="BLUE"/>
+<wire x1="-244.48" y1="-406.4" x2="-239.4" y2="-406.4" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-244.48" y="-406.4" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDR112" class="0">
 <segment>
-<pinref part="LED112" gate="G$1" pin="RED"/>
-<wire x1="-112.4" y1="132.08" x2="-107.32" y2="132.08" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-112.4" y="132.08" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC7" gate="G$1" pin="OUTR8"/>
+<wire x1="-343.7" y1="-56.04" x2="-313.54" y2="-56.04" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="-56.04" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="OUTR8"/>
-<wire x1="-193.84" y1="454.5" x2="-163.68" y2="454.5" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="454.5" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED112" gate="G$1" pin="RED"/>
+<wire x1="-244.48" y1="-396.24" x2="-239.4" y2="-396.24" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-244.48" y="-396.24" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDG112" class="0">
 <segment>
-<pinref part="LED112" gate="G$1" pin="GREEN"/>
-<wire x1="-112.4" y1="127" x2="-107.32" y2="127" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-112.4" y="127" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
 <pinref part="IC7" gate="G$1" pin="OUTG8"/>
-<wire x1="-193.84" y1="451.96" x2="-163.68" y2="451.96" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="451.96" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<wire x1="-343.7" y1="-58.58" x2="-313.54" y2="-58.58" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="-58.58" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED112" gate="G$1" pin="GREEN"/>
+<wire x1="-244.48" y1="-401.32" x2="-239.4" y2="-401.32" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-244.48" y="-401.32" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB103" class="0">
+<net name="N$LEDB111" class="0">
 <segment>
-<pinref part="LED103" gate="G$1" pin="BLUE"/>
-<wire x1="-218.44" y1="139.7" x2="-213.36" y2="139.7" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-218.44" y="139.7" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC7" gate="G$1" pin="OUTB12"/>
+<wire x1="-343.7" y1="-61.12" x2="-313.54" y2="-61.12" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="-61.12" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="OUTB10"/>
-<wire x1="-193.84" y1="418.94" x2="-163.68" y2="418.94" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="418.94" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR103" class="0">
-<segment>
-<pinref part="LED103" gate="G$1" pin="RED"/>
-<wire x1="-218.44" y1="149.86" x2="-213.36" y2="149.86" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-218.44" y="149.86" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC7" gate="G$1" pin="OUTR10"/>
-<wire x1="-193.84" y1="416.4" x2="-163.68" y2="416.4" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="416.4" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED111" gate="G$1" pin="BLUE"/>
+<wire x1="-244.48" y1="-388.62" x2="-239.4" y2="-388.62" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-244.48" y="-388.62" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG103" class="0">
+<net name="N$LEDR111" class="0">
 <segment>
-<pinref part="LED103" gate="G$1" pin="GREEN"/>
-<wire x1="-218.44" y1="144.78" x2="-213.36" y2="144.78" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-218.44" y="144.78" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC7" gate="G$1" pin="OUTR12"/>
+<wire x1="-343.7" y1="-63.66" x2="-313.54" y2="-63.66" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="-63.66" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="OUTG10"/>
-<wire x1="-163.68" y1="413.86" x2="-193.84" y2="413.86" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="413.86" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB100" class="0">
-<segment>
-<pinref part="LED100" gate="G$1" pin="BLUE"/>
-<wire x1="-271.46" y1="121.92" x2="-266.38" y2="121.92" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-271.46" y="121.92" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC7" gate="G$1" pin="OUTB15"/>
-<wire x1="-193.84" y1="411.32" x2="-163.68" y2="411.32" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="411.32" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED111" gate="G$1" pin="RED"/>
+<wire x1="-244.48" y1="-378.46" x2="-239.4" y2="-378.46" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-244.48" y="-378.46" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR100" class="0">
+<net name="N$LEDG111" class="0">
 <segment>
-<pinref part="LED100" gate="G$1" pin="RED"/>
-<wire x1="-271.46" y1="132.08" x2="-266.38" y2="132.08" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-271.46" y="132.08" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC7" gate="G$1" pin="OUTG12"/>
+<wire x1="-343.7" y1="-66.2" x2="-313.54" y2="-66.2" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="-66.2" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="OUTR15"/>
-<wire x1="-193.84" y1="408.78" x2="-163.68" y2="408.78" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="408.78" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED111" gate="G$1" pin="GREEN"/>
+<wire x1="-244.48" y1="-383.54" x2="-239.4" y2="-383.54" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-244.48" y="-383.54" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG100" class="0">
+<net name="N$LEDB108" class="0">
 <segment>
-<pinref part="LED100" gate="G$1" pin="GREEN"/>
-<wire x1="-271.46" y1="127" x2="-266.38" y2="127" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-271.46" y="127" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC7" gate="G$1" pin="OUTB9"/>
+<wire x1="-343.7" y1="-68.74" x2="-313.54" y2="-68.74" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="-68.74" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="OUTG15"/>
-<wire x1="-193.84" y1="406.24" x2="-163.68" y2="406.24" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="406.24" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED108" gate="G$1" pin="BLUE"/>
+<wire x1="-297.5" y1="-406.4" x2="-292.42" y2="-406.4" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-297.5" y="-406.4" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR108" class="0">
+<segment>
+<pinref part="IC7" gate="G$1" pin="OUTR9"/>
+<wire x1="-343.7" y1="-71.28" x2="-313.54" y2="-71.28" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="-71.28" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED108" gate="G$1" pin="RED"/>
+<wire x1="-297.5" y1="-396.24" x2="-292.42" y2="-396.24" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-297.5" y="-396.24" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG108" class="0">
+<segment>
+<pinref part="IC7" gate="G$1" pin="OUTG9"/>
+<wire x1="-343.7" y1="-73.82" x2="-313.54" y2="-73.82" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="-73.82" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED108" gate="G$1" pin="GREEN"/>
+<wire x1="-297.5" y1="-401.32" x2="-292.42" y2="-401.32" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-297.5" y="-401.32" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB107" class="0">
+<segment>
+<pinref part="IC7" gate="G$1" pin="OUTB13"/>
+<wire x1="-343.7" y1="-76.36" x2="-313.54" y2="-76.36" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="-76.36" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED107" gate="G$1" pin="BLUE"/>
+<wire x1="-297.5" y1="-388.62" x2="-292.42" y2="-388.62" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-297.5" y="-388.62" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR107" class="0">
+<segment>
+<pinref part="IC7" gate="G$1" pin="OUTR13"/>
+<wire x1="-343.7" y1="-78.9" x2="-313.54" y2="-78.9" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="-78.9" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED107" gate="G$1" pin="RED"/>
+<wire x1="-297.5" y1="-378.46" x2="-292.42" y2="-378.46" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-297.5" y="-378.46" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG107" class="0">
+<segment>
+<pinref part="IC7" gate="G$1" pin="OUTG13"/>
+<wire x1="-343.7" y1="-81.44" x2="-313.54" y2="-81.44" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="-81.44" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED107" gate="G$1" pin="GREEN"/>
+<wire x1="-297.5" y1="-383.54" x2="-292.42" y2="-383.54" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-297.5" y="-383.54" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDB104" class="0">
 <segment>
-<pinref part="LED104" gate="G$1" pin="BLUE"/>
-<wire x1="-218.44" y1="121.92" x2="-213.36" y2="121.92" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-218.44" y="121.92" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC7" gate="G$1" pin="OUTB14"/>
+<wire x1="-343.7" y1="-83.98" x2="-313.54" y2="-83.98" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="-83.98" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="OUTB14"/>
-<wire x1="-193.84" y1="426.56" x2="-163.68" y2="426.56" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="426.56" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED104" gate="G$1" pin="BLUE"/>
+<wire x1="-350.52" y1="-406.4" x2="-345.44" y2="-406.4" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-350.52" y="-406.4" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDR104" class="0">
 <segment>
-<pinref part="LED104" gate="G$1" pin="RED"/>
-<wire x1="-218.44" y1="132.08" x2="-213.36" y2="132.08" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-218.44" y="132.08" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC7" gate="G$1" pin="OUTR14"/>
+<wire x1="-343.7" y1="-86.52" x2="-313.54" y2="-86.52" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="-86.52" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="OUTR14"/>
-<wire x1="-193.84" y1="424.02" x2="-163.68" y2="424.02" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="424.02" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED104" gate="G$1" pin="RED"/>
+<wire x1="-350.52" y1="-396.24" x2="-345.44" y2="-396.24" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-350.52" y="-396.24" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$LEDG104" class="0">
 <segment>
-<pinref part="LED104" gate="G$1" pin="GREEN"/>
-<wire x1="-218.44" y1="127" x2="-213.36" y2="127" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-218.44" y="127" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
 <pinref part="IC7" gate="G$1" pin="OUTG14"/>
-<wire x1="-193.84" y1="421.48" x2="-163.68" y2="421.48" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-163.68" y="421.48" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<wire x1="-343.7" y1="-89.06" x2="-313.54" y2="-89.06" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="-89.06" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED104" gate="G$1" pin="GREEN"/>
+<wire x1="-350.52" y1="-401.32" x2="-345.44" y2="-401.32" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-350.52" y="-401.32" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB113" class="0">
+<net name="N$LEDB103" class="0">
 <segment>
-<pinref part="LED113" gate="G$1" pin="BLUE"/>
-<wire x1="-59.38" y1="175.26" x2="-54.3" y2="175.26" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-59.38" y="175.26" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC7" gate="G$1" pin="OUTB10"/>
+<wire x1="-343.7" y1="-91.6" x2="-313.54" y2="-91.6" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="-91.6" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="G$1" pin="OUTB7"/>
-<wire x1="-115.74" y1="403.7" x2="-145.9" y2="403.7" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="403.7" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR113" class="0">
-<segment>
-<pinref part="LED113" gate="G$1" pin="RED"/>
-<wire x1="-59.38" y1="185.42" x2="-54.3" y2="185.42" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-59.38" y="185.42" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC8" gate="G$1" pin="OUTR7"/>
-<wire x1="-115.74" y1="401.16" x2="-145.9" y2="401.16" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="401.16" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED103" gate="G$1" pin="BLUE"/>
+<wire x1="-350.52" y1="-388.62" x2="-345.44" y2="-388.62" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-350.52" y="-388.62" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG113" class="0">
+<net name="N$LEDR103" class="0">
 <segment>
-<pinref part="LED113" gate="G$1" pin="GREEN"/>
-<wire x1="-59.38" y1="180.34" x2="-54.3" y2="180.34" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-59.38" y="180.34" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC7" gate="G$1" pin="OUTR10"/>
+<wire x1="-343.7" y1="-94.14" x2="-313.54" y2="-94.14" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="-94.14" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="G$1" pin="OUTG7"/>
-<wire x1="-115.74" y1="398.62" x2="-145.9" y2="398.62" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="398.62" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB117" class="0">
-<segment>
-<pinref part="LED117" gate="G$1" pin="BLUE"/>
-<wire x1="-6.36" y1="175.26" x2="-1.28" y2="175.26" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-6.36" y="175.26" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC8" gate="G$1" pin="OUTB6"/>
-<wire x1="-115.74" y1="418.94" x2="-145.9" y2="418.94" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="418.94" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED103" gate="G$1" pin="RED"/>
+<wire x1="-350.52" y1="-378.46" x2="-345.44" y2="-378.46" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-350.52" y="-378.46" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR117" class="0">
+<net name="N$LEDG103" class="0">
 <segment>
-<pinref part="LED117" gate="G$1" pin="RED"/>
-<wire x1="-6.36" y1="185.42" x2="-1.28" y2="185.42" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-6.36" y="185.42" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC7" gate="G$1" pin="OUTG10"/>
+<wire x1="-313.54" y1="-96.68" x2="-343.7" y2="-96.68" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="-96.68" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="G$1" pin="OUTR6"/>
-<wire x1="-115.74" y1="416.4" x2="-145.9" y2="416.4" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="416.4" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG117" class="0">
-<segment>
-<pinref part="LED117" gate="G$1" pin="GREEN"/>
-<wire x1="-6.36" y1="180.34" x2="-1.28" y2="180.34" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-6.36" y="180.34" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC8" gate="G$1" pin="OUTG6"/>
-<wire x1="-115.74" y1="413.86" x2="-145.9" y2="413.86" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="413.86" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED103" gate="G$1" pin="GREEN"/>
+<wire x1="-350.52" y1="-383.54" x2="-345.44" y2="-383.54" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-350.52" y="-383.54" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB114" class="0">
+<net name="N$LEDB100" class="0">
 <segment>
-<pinref part="LED114" gate="G$1" pin="BLUE"/>
-<wire x1="-59.38" y1="157.48" x2="-54.3" y2="157.48" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-59.38" y="157.48" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC7" gate="G$1" pin="OUTB15"/>
+<wire x1="-343.7" y1="-99.22" x2="-313.54" y2="-99.22" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="-99.22" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="G$1" pin="OUTB3"/>
-<wire x1="-115.74" y1="411.32" x2="-145.9" y2="411.32" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="411.32" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDR114" class="0">
-<segment>
-<pinref part="LED114" gate="G$1" pin="RED"/>
-<wire x1="-59.38" y1="167.64" x2="-54.3" y2="167.64" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-59.38" y="167.64" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC8" gate="G$1" pin="OUTR3"/>
-<wire x1="-115.74" y1="408.78" x2="-145.9" y2="408.78" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="408.78" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED100" gate="G$1" pin="BLUE"/>
+<wire x1="-403.54" y1="-406.4" x2="-398.46" y2="-406.4" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-403.54" y="-406.4" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG114" class="0">
+<net name="N$LEDR100" class="0">
 <segment>
-<pinref part="LED114" gate="G$1" pin="GREEN"/>
-<wire x1="-59.38" y1="162.56" x2="-54.3" y2="162.56" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-59.38" y="162.56" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC7" gate="G$1" pin="OUTR15"/>
+<wire x1="-343.7" y1="-101.76" x2="-313.54" y2="-101.76" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="-101.76" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="G$1" pin="OUTG3"/>
-<wire x1="-115.74" y1="406.24" x2="-145.9" y2="406.24" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="406.24" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDB118" class="0">
-<segment>
-<pinref part="LED118" gate="G$1" pin="BLUE"/>
-<wire x1="-6.36" y1="157.48" x2="-1.28" y2="157.48" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-6.36" y="157.48" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC8" gate="G$1" pin="OUTB2"/>
-<wire x1="-115.74" y1="426.56" x2="-145.9" y2="426.56" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="426.56" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED100" gate="G$1" pin="RED"/>
+<wire x1="-403.54" y1="-396.24" x2="-398.46" y2="-396.24" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-403.54" y="-396.24" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR118" class="0">
+<net name="N$LEDG100" class="0">
 <segment>
-<pinref part="LED118" gate="G$1" pin="RED"/>
-<wire x1="-6.36" y1="167.64" x2="-1.28" y2="167.64" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-6.36" y="167.64" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC7" gate="G$1" pin="OUTG15"/>
+<wire x1="-343.7" y1="-104.3" x2="-313.54" y2="-104.3" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="-104.3" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="G$1" pin="OUTR2"/>
-<wire x1="-115.74" y1="424.02" x2="-145.9" y2="424.02" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="424.02" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-</segment>
-</net>
-<net name="N$LEDG118" class="0">
-<segment>
-<pinref part="LED118" gate="G$1" pin="GREEN"/>
-<wire x1="-6.36" y1="162.56" x2="-1.28" y2="162.56" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-6.36" y="162.56" size="1.778" layer="95" grouprefs="LEDS1"/>
-</segment>
-<segment>
-<pinref part="IC8" gate="G$1" pin="OUTG2"/>
-<wire x1="-115.74" y1="421.48" x2="-145.9" y2="421.48" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="421.48" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED100" gate="G$1" pin="GREEN"/>
+<wire x1="-403.54" y1="-401.32" x2="-398.46" y2="-401.32" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-403.54" y="-401.32" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB115" class="0">
+<net name="N$LEDB99" class="0">
 <segment>
-<pinref part="LED115" gate="G$1" pin="BLUE"/>
-<wire x1="-59.38" y1="139.7" x2="-54.3" y2="139.7" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-59.38" y="139.7" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC7" gate="G$1" pin="OUTB11"/>
+<wire x1="-343.7" y1="-106.84" x2="-313.54" y2="-106.84" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="-106.84" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED99" gate="G$1" pin="BLUE"/>
+<wire x1="-403.54" y1="-388.62" x2="-398.46" y2="-388.62" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-403.54" y="-388.62" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR115" class="0">
+<net name="N$LEDR99" class="0">
 <segment>
-<pinref part="LED115" gate="G$1" pin="RED"/>
-<wire x1="-59.38" y1="149.86" x2="-54.3" y2="149.86" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-59.38" y="149.86" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC7" gate="G$1" pin="OUTR11"/>
+<wire x1="-343.7" y1="-109.38" x2="-313.54" y2="-109.38" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="-109.38" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED99" gate="G$1" pin="RED"/>
+<wire x1="-403.54" y1="-378.46" x2="-398.46" y2="-378.46" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-403.54" y="-378.46" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG115" class="0">
+<net name="N$LEDG99" class="0">
 <segment>
-<pinref part="LED115" gate="G$1" pin="GREEN"/>
-<wire x1="-59.38" y1="144.78" x2="-54.3" y2="144.78" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-59.38" y="144.78" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC7" gate="G$1" pin="OUTG11"/>
+<wire x1="-343.7" y1="-111.92" x2="-313.54" y2="-111.92" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-313.54" y="-111.92" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED99" gate="G$1" pin="GREEN"/>
+<wire x1="-403.54" y1="-383.54" x2="-398.46" y2="-383.54" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-403.54" y="-383.54" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB119" class="0">
+<net name="N$LEDB101" class="0">
 <segment>
-<pinref part="LED119" gate="G$1" pin="BLUE"/>
-<wire x1="-6.36" y1="139.7" x2="-1.28" y2="139.7" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-6.36" y="139.7" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC7" gate="G$1" pin="OUTB6"/>
+<wire x1="-379.26" y1="-91.6" x2="-409.42" y2="-91.6" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="-91.6" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED101" gate="G$1" pin="BLUE"/>
+<wire x1="-350.52" y1="-353.06" x2="-345.44" y2="-353.06" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-350.52" y="-353.06" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR119" class="0">
+<net name="N$LEDR101" class="0">
 <segment>
-<pinref part="LED119" gate="G$1" pin="RED"/>
-<wire x1="-6.36" y1="149.86" x2="-1.28" y2="149.86" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-6.36" y="149.86" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC7" gate="G$1" pin="OUTR6"/>
+<wire x1="-379.26" y1="-94.14" x2="-409.42" y2="-94.14" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="-94.14" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED101" gate="G$1" pin="RED"/>
+<wire x1="-350.52" y1="-342.9" x2="-345.44" y2="-342.9" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-350.52" y="-342.9" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG119" class="0">
+<net name="N$LEDG101" class="0">
 <segment>
-<pinref part="LED119" gate="G$1" pin="GREEN"/>
-<wire x1="-6.36" y1="144.78" x2="-1.28" y2="144.78" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-6.36" y="144.78" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC7" gate="G$1" pin="OUTG6"/>
+<wire x1="-379.26" y1="-96.68" x2="-409.42" y2="-96.68" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="-96.68" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED101" gate="G$1" pin="GREEN"/>
+<wire x1="-350.52" y1="-347.98" x2="-345.44" y2="-347.98" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-350.52" y="-347.98" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB116" class="0">
+<net name="N$LEDB98" class="0">
 <segment>
-<pinref part="LED116" gate="G$1" pin="BLUE"/>
-<wire x1="-59.38" y1="121.92" x2="-54.3" y2="121.92" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-59.38" y="121.92" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC7" gate="G$1" pin="OUTB3"/>
+<wire x1="-379.26" y1="-99.22" x2="-409.42" y2="-99.22" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="-99.22" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED98" gate="G$1" pin="BLUE"/>
+<wire x1="-403.54" y1="-370.84" x2="-398.46" y2="-370.84" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-403.54" y="-370.84" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR116" class="0">
+<net name="N$LEDR98" class="0">
 <segment>
-<pinref part="LED116" gate="G$1" pin="RED"/>
-<wire x1="-59.38" y1="132.08" x2="-54.3" y2="132.08" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-59.38" y="132.08" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC7" gate="G$1" pin="OUTR3"/>
+<wire x1="-379.26" y1="-101.76" x2="-409.42" y2="-101.76" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="-101.76" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED98" gate="G$1" pin="RED"/>
+<wire x1="-403.54" y1="-360.68" x2="-398.46" y2="-360.68" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-403.54" y="-360.68" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG116" class="0">
+<net name="N$LEDG98" class="0">
 <segment>
-<pinref part="LED116" gate="G$1" pin="GREEN"/>
-<wire x1="-59.38" y1="127" x2="-54.3" y2="127" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-59.38" y="127" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC7" gate="G$1" pin="OUTG3"/>
+<wire x1="-379.26" y1="-104.3" x2="-409.42" y2="-104.3" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="-104.3" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED98" gate="G$1" pin="GREEN"/>
+<wire x1="-403.54" y1="-365.76" x2="-398.46" y2="-365.76" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-403.54" y="-365.76" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDB120" class="0">
+<net name="N$LEDB97" class="0">
 <segment>
-<pinref part="LED120" gate="G$1" pin="BLUE"/>
-<wire x1="-6.36" y1="121.92" x2="-1.28" y2="121.92" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-6.36" y="121.92" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC7" gate="G$1" pin="OUTB7"/>
+<wire x1="-379.26" y1="-106.84" x2="-409.42" y2="-106.84" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="-106.84" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED97" gate="G$1" pin="BLUE"/>
+<wire x1="-403.54" y1="-353.06" x2="-398.46" y2="-353.06" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-403.54" y="-353.06" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDR120" class="0">
+<net name="N$LEDR97" class="0">
 <segment>
-<pinref part="LED120" gate="G$1" pin="RED"/>
-<wire x1="-6.36" y1="132.08" x2="-1.28" y2="132.08" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-6.36" y="132.08" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC7" gate="G$1" pin="OUTR7"/>
+<wire x1="-379.26" y1="-109.38" x2="-409.42" y2="-109.38" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="-109.38" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED97" gate="G$1" pin="RED"/>
+<wire x1="-403.54" y1="-342.9" x2="-398.46" y2="-342.9" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-403.54" y="-342.9" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$LEDG120" class="0">
+<net name="N$LEDG97" class="0">
 <segment>
-<pinref part="LED120" gate="G$1" pin="GREEN"/>
-<wire x1="-6.36" y1="127" x2="-1.28" y2="127" width="0.1524" layer="91" grouprefs="LEDS1"/>
-<label x="-6.36" y="127" size="1.778" layer="95" grouprefs="LEDS1"/>
+<pinref part="IC7" gate="G$1" pin="OUTG7"/>
+<wire x1="-379.26" y1="-111.92" x2="-409.42" y2="-111.92" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="-111.92" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
-</net>
-<net name="SOUT3" class="0">
 <segment>
-<pinref part="IC3" gate="G$1" pin="SOUT"/>
-<wire x1="-229.4" y1="497.68" x2="-259.56" y2="497.68" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="497.68" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<pinref part="LED97" gate="G$1" pin="GREEN"/>
+<wire x1="-403.54" y1="-347.98" x2="-398.46" y2="-347.98" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-403.54" y="-347.98" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$IC8_PIN4" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUTB4"/>
-<wire x1="-115.74" y1="457.04" x2="-145.9" y2="457.04" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="457.04" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-265.6" y1="-53.5" x2="-295.76" y2="-53.5" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="-53.5" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
 <net name="N$IC8_PIN5" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUTR4"/>
-<wire x1="-115.74" y1="454.5" x2="-145.9" y2="454.5" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="454.5" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-265.6" y1="-56.04" x2="-295.76" y2="-56.04" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="-56.04" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
 <net name="N$IC8_PIN6" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUTG4"/>
-<wire x1="-115.74" y1="451.96" x2="-145.9" y2="451.96" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="451.96" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-265.6" y1="-58.58" x2="-295.76" y2="-58.58" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="-58.58" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
 <net name="N$IC8_PIN7" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUTB0"/>
-<wire x1="-115.74" y1="449.42" x2="-145.9" y2="449.42" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="449.42" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-265.6" y1="-61.12" x2="-295.76" y2="-61.12" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="-61.12" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
 <net name="N$IC8_PIN8" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUTR0"/>
-<wire x1="-115.74" y1="446.88" x2="-145.9" y2="446.88" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="446.88" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-265.6" y1="-63.66" x2="-295.76" y2="-63.66" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="-63.66" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
 <net name="N$IC8_PIN9" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUTG0"/>
-<wire x1="-115.74" y1="444.34" x2="-145.9" y2="444.34" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="444.34" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-265.6" y1="-66.2" x2="-295.76" y2="-66.2" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="-66.2" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
 <net name="N$IC8_PIN10" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUTB5"/>
-<wire x1="-115.74" y1="441.8" x2="-145.9" y2="441.8" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="441.8" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-265.6" y1="-68.74" x2="-295.76" y2="-68.74" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="-68.74" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
 <net name="N$IC8_PIN11" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUTR5"/>
-<wire x1="-115.74" y1="439.26" x2="-145.9" y2="439.26" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="439.26" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-265.6" y1="-71.28" x2="-295.76" y2="-71.28" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="-71.28" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
 <net name="N$IC8_PIN12" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUTG5"/>
-<wire x1="-115.74" y1="436.72" x2="-145.9" y2="436.72" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="436.72" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-265.6" y1="-73.82" x2="-295.76" y2="-73.82" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="-73.82" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
 <net name="N$IC8_PIN13" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUTB1"/>
-<wire x1="-115.74" y1="434.18" x2="-145.9" y2="434.18" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="434.18" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-265.6" y1="-76.36" x2="-295.76" y2="-76.36" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="-76.36" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
 <net name="N$IC8_PIN14" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUTR1"/>
-<wire x1="-115.74" y1="431.64" x2="-145.9" y2="431.64" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="431.64" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-265.6" y1="-78.9" x2="-295.76" y2="-78.9" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="-78.9" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
 <net name="N$IC8_PIN15" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUTG1"/>
-<wire x1="-115.74" y1="429.1" x2="-145.9" y2="429.1" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="429.1" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-265.6" y1="-81.44" x2="-295.76" y2="-81.44" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="-81.44" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+</net>
+<net name="N$LEDB118" class="0">
+<segment>
+<pinref part="IC8" gate="G$1" pin="OUTB2"/>
+<wire x1="-265.6" y1="-83.98" x2="-295.76" y2="-83.98" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="-83.98" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED118" gate="G$1" pin="BLUE"/>
+<wire x1="-138.44" y1="-370.84" x2="-133.36" y2="-370.84" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-138.44" y="-370.84" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR118" class="0">
+<segment>
+<pinref part="IC8" gate="G$1" pin="OUTR2"/>
+<wire x1="-265.6" y1="-86.52" x2="-295.76" y2="-86.52" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="-86.52" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED118" gate="G$1" pin="RED"/>
+<wire x1="-138.44" y1="-360.68" x2="-133.36" y2="-360.68" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-138.44" y="-360.68" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG118" class="0">
+<segment>
+<pinref part="IC8" gate="G$1" pin="OUTG2"/>
+<wire x1="-265.6" y1="-89.06" x2="-295.76" y2="-89.06" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="-89.06" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED118" gate="G$1" pin="GREEN"/>
+<wire x1="-138.44" y1="-365.76" x2="-133.36" y2="-365.76" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-138.44" y="-365.76" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="N$352" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUTB8"/>
-<wire x1="-80.18" y1="457.04" x2="-50.02" y2="457.04" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="457.04" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<wire x1="-230.04" y1="-53.5" x2="-199.88" y2="-53.5" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="-53.5" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
 <net name="N$353" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUTR8"/>
-<wire x1="-80.18" y1="454.5" x2="-50.02" y2="454.5" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="454.5" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<wire x1="-230.04" y1="-56.04" x2="-199.88" y2="-56.04" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="-56.04" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
 <net name="N$354" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUTG8"/>
-<wire x1="-80.18" y1="451.96" x2="-50.02" y2="451.96" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="451.96" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<wire x1="-230.04" y1="-58.58" x2="-199.88" y2="-58.58" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="-58.58" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
 <net name="N$355" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUTB12"/>
-<wire x1="-80.18" y1="449.42" x2="-50.02" y2="449.42" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="449.42" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<wire x1="-230.04" y1="-61.12" x2="-199.88" y2="-61.12" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="-61.12" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
 <net name="N$356" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUTR12"/>
-<wire x1="-80.18" y1="446.88" x2="-50.02" y2="446.88" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="446.88" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<wire x1="-230.04" y1="-63.66" x2="-199.88" y2="-63.66" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="-63.66" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
 <net name="N$357" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUTG12"/>
-<wire x1="-80.18" y1="444.34" x2="-50.02" y2="444.34" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="444.34" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<wire x1="-230.04" y1="-66.2" x2="-199.88" y2="-66.2" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="-66.2" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
 <net name="N$358" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUTB9"/>
-<wire x1="-80.18" y1="441.8" x2="-50.02" y2="441.8" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="441.8" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<wire x1="-230.04" y1="-68.74" x2="-199.88" y2="-68.74" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="-68.74" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
 <net name="N$359" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUTR9"/>
-<wire x1="-80.18" y1="439.26" x2="-50.02" y2="439.26" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="439.26" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<wire x1="-230.04" y1="-71.28" x2="-199.88" y2="-71.28" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="-71.28" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
 <net name="N$360" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUTG9"/>
-<wire x1="-80.18" y1="436.72" x2="-50.02" y2="436.72" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="436.72" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<wire x1="-230.04" y1="-73.82" x2="-199.88" y2="-73.82" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="-73.82" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
 <net name="N$361" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUTB13"/>
-<wire x1="-80.18" y1="434.18" x2="-50.02" y2="434.18" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="434.18" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<wire x1="-230.04" y1="-76.36" x2="-199.88" y2="-76.36" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="-76.36" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
 <net name="N$362" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUTR13"/>
-<wire x1="-80.18" y1="431.64" x2="-50.02" y2="431.64" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="431.64" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<wire x1="-230.04" y1="-78.9" x2="-199.88" y2="-78.9" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="-78.9" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
 <net name="N$363" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUTG13"/>
-<wire x1="-80.18" y1="429.1" x2="-50.02" y2="429.1" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="429.1" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<wire x1="-230.04" y1="-81.44" x2="-199.88" y2="-81.44" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="-81.44" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
-<net name="N$364" class="0">
+<net name="N$LEDB120" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUTB14"/>
-<wire x1="-80.18" y1="426.56" x2="-50.02" y2="426.56" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="426.56" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<wire x1="-230.04" y1="-83.98" x2="-199.88" y2="-83.98" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="-83.98" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED120" gate="G$1" pin="BLUE"/>
+<wire x1="-138.44" y1="-406.4" x2="-133.36" y2="-406.4" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-138.44" y="-406.4" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$365" class="0">
+<net name="N$LEDR120" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUTR14"/>
-<wire x1="-80.18" y1="424.02" x2="-50.02" y2="424.02" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="424.02" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<wire x1="-230.04" y1="-86.52" x2="-199.88" y2="-86.52" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="-86.52" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED120" gate="G$1" pin="RED"/>
+<wire x1="-138.44" y1="-396.24" x2="-133.36" y2="-396.24" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-138.44" y="-396.24" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$366" class="0">
+<net name="N$LEDG120" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUTG14"/>
-<wire x1="-80.18" y1="421.48" x2="-50.02" y2="421.48" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="421.48" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<wire x1="-230.04" y1="-89.06" x2="-199.88" y2="-89.06" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="-89.06" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED120" gate="G$1" pin="GREEN"/>
+<wire x1="-138.44" y1="-401.32" x2="-133.36" y2="-401.32" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-138.44" y="-401.32" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$367" class="0">
+<net name="N$LEDB119" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUTB10"/>
-<wire x1="-80.18" y1="418.94" x2="-50.02" y2="418.94" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="418.94" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<wire x1="-230.04" y1="-91.6" x2="-199.88" y2="-91.6" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="-91.6" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED119" gate="G$1" pin="BLUE"/>
+<wire x1="-138.44" y1="-388.62" x2="-133.36" y2="-388.62" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-138.44" y="-388.62" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$368" class="0">
+<net name="N$LEDR119" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUTR10"/>
-<wire x1="-80.18" y1="416.4" x2="-50.02" y2="416.4" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="416.4" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<wire x1="-230.04" y1="-94.14" x2="-199.88" y2="-94.14" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="-94.14" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED119" gate="G$1" pin="RED"/>
+<wire x1="-138.44" y1="-378.46" x2="-133.36" y2="-378.46" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-138.44" y="-378.46" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$369" class="0">
+<net name="N$LEDG119" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUTG10"/>
-<wire x1="-50.02" y1="413.86" x2="-80.18" y2="413.86" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="413.86" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<wire x1="-199.88" y1="-96.68" x2="-230.04" y2="-96.68" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="-96.68" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED119" gate="G$1" pin="GREEN"/>
+<wire x1="-138.44" y1="-383.54" x2="-133.36" y2="-383.54" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-138.44" y="-383.54" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$370" class="0">
+<net name="N$LEDB116" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUTB15"/>
-<wire x1="-80.18" y1="411.32" x2="-50.02" y2="411.32" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="411.32" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<wire x1="-230.04" y1="-99.22" x2="-199.88" y2="-99.22" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="-99.22" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED116" gate="G$1" pin="BLUE"/>
+<wire x1="-191.46" y1="-406.4" x2="-186.38" y2="-406.4" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-191.46" y="-406.4" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$371" class="0">
+<net name="N$LEDR116" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUTR15"/>
-<wire x1="-80.18" y1="408.78" x2="-50.02" y2="408.78" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="408.78" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<wire x1="-230.04" y1="-101.76" x2="-199.88" y2="-101.76" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="-101.76" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED116" gate="G$1" pin="RED"/>
+<wire x1="-191.46" y1="-396.24" x2="-186.38" y2="-396.24" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-191.46" y="-396.24" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$372" class="0">
+<net name="N$LEDG116" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUTG15"/>
-<wire x1="-80.18" y1="406.24" x2="-50.02" y2="406.24" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="406.24" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<wire x1="-230.04" y1="-104.3" x2="-199.88" y2="-104.3" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="-104.3" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED116" gate="G$1" pin="GREEN"/>
+<wire x1="-191.46" y1="-401.32" x2="-186.38" y2="-401.32" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-191.46" y="-401.32" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$373" class="0">
+<net name="N$LEDB115" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUTB11"/>
-<wire x1="-80.18" y1="403.7" x2="-50.02" y2="403.7" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="403.7" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<wire x1="-230.04" y1="-106.84" x2="-199.88" y2="-106.84" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="-106.84" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED115" gate="G$1" pin="BLUE"/>
+<wire x1="-191.46" y1="-388.62" x2="-186.38" y2="-388.62" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-191.46" y="-388.62" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$374" class="0">
+<net name="N$LEDR115" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUTR11"/>
-<wire x1="-80.18" y1="401.16" x2="-50.02" y2="401.16" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="401.16" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<wire x1="-230.04" y1="-109.38" x2="-199.88" y2="-109.38" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="-109.38" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED115" gate="G$1" pin="RED"/>
+<wire x1="-191.46" y1="-378.46" x2="-186.38" y2="-378.46" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-191.46" y="-378.46" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
-<net name="N$375" class="0">
+<net name="N$LEDG115" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUTG11"/>
-<wire x1="-80.18" y1="398.62" x2="-50.02" y2="398.62" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-50.02" y="398.62" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS1"/>
+<wire x1="-230.04" y1="-111.92" x2="-199.88" y2="-111.92" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-199.88" y="-111.92" size="1.778" layer="95" rot="MR0" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED115" gate="G$1" pin="GREEN"/>
+<wire x1="-191.46" y1="-383.54" x2="-186.38" y2="-383.54" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-191.46" y="-383.54" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB117" class="0">
+<segment>
+<pinref part="IC8" gate="G$1" pin="OUTB6"/>
+<wire x1="-265.6" y1="-91.6" x2="-295.76" y2="-91.6" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="-91.6" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED117" gate="G$1" pin="BLUE"/>
+<wire x1="-138.44" y1="-353.06" x2="-133.36" y2="-353.06" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-138.44" y="-353.06" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR117" class="0">
+<segment>
+<pinref part="IC8" gate="G$1" pin="OUTR6"/>
+<wire x1="-265.6" y1="-94.14" x2="-295.76" y2="-94.14" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="-94.14" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED117" gate="G$1" pin="RED"/>
+<wire x1="-138.44" y1="-342.9" x2="-133.36" y2="-342.9" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-138.44" y="-342.9" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG117" class="0">
+<segment>
+<pinref part="IC8" gate="G$1" pin="OUTG6"/>
+<wire x1="-265.6" y1="-96.68" x2="-295.76" y2="-96.68" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="-96.68" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED117" gate="G$1" pin="GREEN"/>
+<wire x1="-138.44" y1="-347.98" x2="-133.36" y2="-347.98" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-138.44" y="-347.98" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB114" class="0">
+<segment>
+<pinref part="IC8" gate="G$1" pin="OUTB3"/>
+<wire x1="-265.6" y1="-99.22" x2="-295.76" y2="-99.22" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="-99.22" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED114" gate="G$1" pin="BLUE"/>
+<wire x1="-191.46" y1="-370.84" x2="-186.38" y2="-370.84" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-191.46" y="-370.84" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR114" class="0">
+<segment>
+<pinref part="IC8" gate="G$1" pin="OUTR3"/>
+<wire x1="-265.6" y1="-101.76" x2="-295.76" y2="-101.76" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="-101.76" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED114" gate="G$1" pin="RED"/>
+<wire x1="-191.46" y1="-360.68" x2="-186.38" y2="-360.68" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-191.46" y="-360.68" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG114" class="0">
+<segment>
+<pinref part="IC8" gate="G$1" pin="OUTG3"/>
+<wire x1="-265.6" y1="-104.3" x2="-295.76" y2="-104.3" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="-104.3" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED114" gate="G$1" pin="GREEN"/>
+<wire x1="-191.46" y1="-365.76" x2="-186.38" y2="-365.76" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-191.46" y="-365.76" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDB113" class="0">
+<segment>
+<pinref part="IC8" gate="G$1" pin="OUTB7"/>
+<wire x1="-265.6" y1="-106.84" x2="-295.76" y2="-106.84" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="-106.84" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED113" gate="G$1" pin="BLUE"/>
+<wire x1="-191.46" y1="-353.06" x2="-186.38" y2="-353.06" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-191.46" y="-353.06" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDR113" class="0">
+<segment>
+<pinref part="IC8" gate="G$1" pin="OUTR7"/>
+<wire x1="-265.6" y1="-109.38" x2="-295.76" y2="-109.38" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="-109.38" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED113" gate="G$1" pin="RED"/>
+<wire x1="-191.46" y1="-342.9" x2="-186.38" y2="-342.9" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-191.46" y="-342.9" size="1.778" layer="95" grouprefs="LEDS1"/>
+</segment>
+</net>
+<net name="N$LEDG113" class="0">
+<segment>
+<pinref part="IC8" gate="G$1" pin="OUTG7"/>
+<wire x1="-265.6" y1="-111.92" x2="-295.76" y2="-111.92" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="-111.92" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="LED113" gate="G$1" pin="GREEN"/>
+<wire x1="-191.46" y1="-347.98" x2="-186.38" y2="-347.98" width="0.1524" layer="91" grouprefs="LEDS1"/>
+<label x="-191.46" y="-347.98" size="1.778" layer="95" grouprefs="LEDS1"/>
 </segment>
 </net>
 <net name="SOUT1" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="SOUT"/>
-<wire x1="-459.26" y1="497.68" x2="-489.42" y2="497.68" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="497.68" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-609.12" y1="-12.86" x2="-639.28" y2="-12.86" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="-12.86" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
 <net name="SOUT2" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="SOUT"/>
-<wire x1="-345.6" y1="497.68" x2="-375.76" y2="497.68" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="497.68" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-495.46" y1="-12.86" x2="-525.62" y2="-12.86" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="-12.86" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="SIN"/>
-<wire x1="-459.26" y1="566.26" x2="-489.42" y2="566.26" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="566.26" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="566.26" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-609.12" y1="55.72" x2="-639.28" y2="55.72" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="55.72" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="55.72" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
 <net name="SOUT4" class="0">
 <segment>
 <pinref part="IC4" gate="G$1" pin="SOUT"/>
-<wire x1="-115.74" y1="497.68" x2="-145.9" y2="497.68" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="497.68" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-265.6" y1="-12.86" x2="-295.76" y2="-12.86" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="-12.86" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="SIN"/>
-<wire x1="-229.4" y1="566.26" x2="-259.56" y2="566.26" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="566.26" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-379.26" y1="55.72" x2="-409.42" y2="55.72" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="55.72" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
 <net name="SOUT5" class="0">
 <segment>
 <pinref part="IC5" gate="G$1" pin="SOUT"/>
-<wire x1="-459.26" y1="396.08" x2="-489.42" y2="396.08" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="396.08" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-609.12" y1="-114.46" x2="-639.28" y2="-114.46" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="-114.46" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
 <net name="SOUT6" class="0">
 <segment>
 <pinref part="IC6" gate="G$1" pin="SOUT"/>
-<wire x1="-345.6" y1="396.08" x2="-375.76" y2="396.08" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-375.76" y="396.08" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-495.46" y1="-114.46" x2="-525.62" y2="-114.46" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="-114.46" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="SIN"/>
-<wire x1="-459.26" y1="464.66" x2="-489.42" y2="464.66" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-489.42" y="464.66" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-609.12" y1="-45.88" x2="-639.28" y2="-45.88" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-639.28" y="-45.88" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
 <net name="SOUT7" class="0">
 <segment>
 <pinref part="IC7" gate="G$1" pin="SOUT"/>
-<wire x1="-229.4" y1="396.08" x2="-259.56" y2="396.08" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="396.08" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-379.26" y1="-114.46" x2="-409.42" y2="-114.46" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="-114.46" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 </net>
 <net name="SOUT8" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="SOUT"/>
-<wire x1="-115.74" y1="396.08" x2="-145.9" y2="396.08" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-145.9" y="396.08" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-265.6" y1="-114.46" x2="-295.76" y2="-114.46" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="-114.46" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
 </segment>
 <segment>
 <pinref part="IC7" gate="G$1" pin="SIN"/>
-<wire x1="-229.4" y1="464.66" x2="-259.56" y2="464.66" width="0.1524" layer="91" grouprefs="LED_DRIVERS1"/>
-<label x="-259.56" y="464.66" size="1.778" layer="95" grouprefs="LED_DRIVERS1"/>
+<wire x1="-379.26" y1="-45.88" x2="-409.42" y2="-45.88" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-409.42" y="-45.88" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+</net>
+<net name="SIN_1,2" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="SIN"/>
+<wire x1="-495.46" y1="55.72" x2="-525.62" y2="55.72" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="55.72" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="1" pin="2"/>
+<wire x1="-708.66" y1="20.32" x2="-698.5" y2="20.32" width="0.1524" layer="91"/>
+<label x="-698.5" y="20.32" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="SIN_3,4" class="0">
+<segment>
+<pinref part="IC4" gate="G$1" pin="SIN"/>
+<wire x1="-265.6" y1="55.72" x2="-295.76" y2="55.72" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="55.72" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="1" pin="3"/>
+<wire x1="-723.9" y1="17.78" x2="-734.06" y2="17.78" width="0.1524" layer="91"/>
+<label x="-734.06" y="17.78" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SIN_5,6" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="SIN"/>
+<wire x1="-495.46" y1="-45.88" x2="-525.62" y2="-45.88" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-525.62" y="-45.88" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="1" pin="4"/>
+<wire x1="-708.66" y1="17.78" x2="-698.5" y2="17.78" width="0.1524" layer="91"/>
+<label x="-698.5" y="17.78" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="SIN_7,8" class="0">
+<segment>
+<pinref part="IC8" gate="G$1" pin="SIN"/>
+<wire x1="-265.6" y1="-45.88" x2="-295.76" y2="-45.88" width="0.1524" layer="91" grouprefs="LED_DRIVERS"/>
+<label x="-295.76" y="-45.88" size="1.778" layer="95" grouprefs="LED_DRIVERS"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="1" pin="7"/>
+<wire x1="-723.9" y1="12.7" x2="-734.06" y2="12.7" width="0.1524" layer="91"/>
+<label x="-734.06" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
