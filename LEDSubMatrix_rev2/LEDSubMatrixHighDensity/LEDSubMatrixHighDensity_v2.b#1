@@ -3134,7 +3134,7 @@ design rules under a new name.</description>
 <element name="SV1" library="VoxelEagleLib" package="MA06-2" package3d_urn="urn:adsk.eagle:package:8342/1" value="" x="8.63036875" y="-142.04515625" smashed="yes">
 <attribute name="MF" value="" x="44.19036875" y="-162.36515625" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="44.19036875" y="-162.36515625" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="1.01036875" y="-139.12415625" size="0.6" layer="25" ratio="10"/>
+<attribute name="NAME" x="1.01036875" y="-139.12415625" size="1.27" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="unknown" x="44.19036875" y="-162.36515625" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="44.19036875" y="-162.36515625" size="1.778" layer="27" display="off"/>
 <attribute name="POPULARITY" value="8" x="44.19036875" y="-162.36515625" size="1.778" layer="27" display="off"/>
@@ -3189,7 +3189,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="SN74LVC1G34DBVR" x="-1.372075" y="-142.369559375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="595-SN74LVC1G34DBVR" x="-1.372075" y="-142.369559375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC1G34DBVR?qs=dT9u2OTAaVXXjYSQb2wcdg%3D%3D" x="-1.372075" y="-142.369559375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="8.381525" y="-137.080978125" size="0.6" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="8.381525" y="-137.080978125" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="IC10" library="SN74LVC1G34DBVR" package="SOT95P280X145-5N" value="SN74LVC1G34DBVR" x="1.787909375" y="-136.977546875" smashed="yes" rot="R90">
 <attribute name="ARROW_PART_NUMBER" value="SN74LVC1G34DBVR" x="-7.965690625" y="-147.554709375" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3200,7 +3200,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="SN74LVC1G34DBVR" x="-7.965690625" y="-147.554709375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="595-SN74LVC1G34DBVR" x="-7.965690625" y="-147.554709375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC1G34DBVR?qs=dT9u2OTAaVXXjYSQb2wcdg%3D%3D" x="-7.965690625" y="-147.554709375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="1.787909375" y="-136.977546875" size="0.6" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="1.787909375" y="-136.977546875" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="IC11" library="SN74LVC1G34DBVR" package="SOT95P280X145-5N" value="SN74LVC1G34DBVR" x="14.9328" y="-137.129234375" smashed="yes" rot="R90">
 <attribute name="ARROW_PART_NUMBER" value="SN74LVC1G34DBVR" x="5.1792" y="-152.994978125" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3211,37 +3211,43 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="SN74LVC1G34DBVR" x="5.1792" y="-152.994978125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="595-SN74LVC1G34DBVR" x="5.1792" y="-152.994978125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC1G34DBVR?qs=dT9u2OTAaVXXjYSQb2wcdg%3D%3D" x="5.1792" y="-152.994978125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="14.9328" y="-137.129234375" size="0.6" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="14.9328" y="-137.129234375" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="C28" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1u" x="5.060278125" y="-135.689490625" smashed="yes">
+<attribute name="NAME" x="4.425278125" y="-135.054490625" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="18" x="-10.805465625" y="-146.489490625" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="-10.805465625" y="-146.489490625" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="3.902365625" y="-136.227" size="0.4" layer="27" rot="R90"/>
+<attribute name="VALUE" x="4.425278125" y="-137.594490625" size="1.27" layer="27"/>
 </element>
 <element name="C29" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="4.7u" x="11.650484375" y="-137.2020875" smashed="yes">
+<attribute name="NAME" x="11.015484375" y="-136.5670875" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="18" x="-9.0487625" y="-152.8788875" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="-9.0487625" y="-152.8788875" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="10.492571875" y="-137.739596875" size="0.4" layer="27" rot="R90"/>
+<attribute name="VALUE" x="11.015484375" y="-139.1070875" size="1.27" layer="27"/>
 </element>
 <element name="C30" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1u" x="11.643428125" y="-138.495290625" smashed="yes">
+<attribute name="NAME" x="11.008428125" y="-137.860290625" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="18" x="-13.889321875" y="-159.048890625" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="-13.889321875" y="-159.048890625" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="10.485515625" y="-139.0328" size="0.4" layer="27" rot="R90"/>
+<attribute name="VALUE" x="11.008428125" y="-140.400290625" size="1.27" layer="27"/>
 </element>
 <element name="C31" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="4.7u" x="5.05240625" y="-137.113140625" smashed="yes">
+<attribute name="NAME" x="4.41740625" y="-136.478140625" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="18" x="-10.8133375" y="-157.666740625" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="-10.8133375" y="-157.666740625" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="3.89449375" y="-137.65065" size="0.4" layer="27" rot="R90"/>
+<attribute name="VALUE" x="4.41740625" y="-139.018140625" size="1.27" layer="27"/>
 </element>
 <element name="C32" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1u" x="5.061775" y="-138.511646875" smashed="yes">
+<attribute name="NAME" x="4.426775" y="-137.876646875" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="18" x="-15.637471875" y="-163.942046875" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="-15.637471875" y="-163.942046875" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="3.9038625" y="-139.04915625" size="0.4" layer="27" rot="R90"/>
+<attribute name="VALUE" x="4.426775" y="-140.416646875" size="1.27" layer="27"/>
 </element>
 <element name="C33" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="4.7u" x="11.653446875" y="-135.740875" smashed="yes">
+<attribute name="NAME" x="11.018446875" y="-135.105875" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="18" x="-13.879303125" y="-166.048075" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="-13.879303125" y="-166.048075" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="10.495534375" y="-136.278384375" size="0.4" layer="27" rot="R90"/>
+<attribute name="VALUE" x="11.018446875" y="-137.645875" size="1.27" layer="27"/>
 </element>
 </elements>
 <signals>
