@@ -491,10 +491,10 @@ Source: &lt;a href="https://www.ablic.com/en/doc/datasheet/automotive_voltage_re
 <wire x1="-0.8636" y1="-26.3017" x2="8.636" y2="-26.3017" width="0.127" layer="21"/>
 <wire x1="8.636" y1="-26.3017" x2="8.636" y2="-11.2903" width="0.127" layer="21"/>
 <wire x1="8.636" y1="-11.2903" x2="-0.8636" y2="-11.2903" width="0.127" layer="21"/>
-<hole x="5.461" y="-5.207" drill="2.59994375"/>
-<hole x="5.461" y="-45.847" drill="2.59994375"/>
-<hole x="61.341" y="-5.207" drill="2.59994375"/>
-<hole x="61.341" y="-45.847" drill="2.59994375"/>
+<hole x="5.461" y="-5.207" drill="3.048"/>
+<hole x="5.461" y="-45.847" drill="3.048"/>
+<hole x="61.341" y="-5.207" drill="2.794"/>
+<hole x="61.341" y="-45.847" drill="3.048"/>
 </package>
 <package name="DE0-NANO" urn="urn:adsk.eagle:footprint:22315/1" locally_modified="yes">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
@@ -1095,6 +1095,8 @@ Source: &lt;a href="https://www.ablic.com/en/doc/datasheet/automotive_voltage_re
 <wire x1="13.97" y1="74.93" x2="13.97" y2="67.31" width="0.127" layer="21"/>
 <wire x1="13.97" y1="67.31" x2="7.62" y2="67.31" width="0.127" layer="21"/>
 <wire x1="7.62" y1="67.31" x2="7.62" y2="74.93" width="0.127" layer="21"/>
+<hole x="20.828" y="3.048" drill="2.75"/>
+<hole x="20.828" y="71.882" drill="2.75"/>
 </package>
 </packages>
 <symbols>
@@ -1447,6 +1449,8 @@ Source: &lt;a href="https://www.ablic.com/en/doc/datasheet/automotive_voltage_re
 <wire x1="-11.43" y1="7.62" x2="-11.43" y2="17.78" width="0.127" layer="21"/>
 <circle x="7.62" y="16.51" radius="3.302" width="0.127" layer="21"/>
 <circle x="1.27" y="21.59" radius="3.302" width="0.127" layer="21"/>
+<hole x="-10.541" y="2.159" drill="2.2"/>
+<hole x="10.541" y="23.241" drill="2.2"/>
 </package>
 </packages>
 <symbols>
