@@ -5123,6 +5123,7 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74lvc1g34"&gt; Datasheet &lt;/a&
 <schematic_group name="LED_DRIVERS"/>
 <schematic_group name="DECOUPLING"/>
 <schematic_group name="LEDS1"/>
+<schematic_group name="LOGIC_BUFFERS"/>
 </groups>
 <parts>
 <part name="IC1" library="TLC5955DCAR" deviceset="TLC5955DCAR" device=""/>
@@ -5321,37 +5322,37 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74lvc1g34"&gt; Datasheet &lt;/a&
 <attribute name="VALUE" x="-712.47" y="25.4" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="-712.47" y="4.318" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="C2" gate="G$1" x="-746.76" y="-25.4" smashed="yes" grouprefs="DECOUPLING">
-<attribute name="NAME" x="-745.236" y="-25.019" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-745.236" y="-30.099" size="1.778" layer="96"/>
+<instance part="C2" gate="G$1" x="-744.22" y="-15.24" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-742.696" y="-14.859" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-742.696" y="-19.939" size="1.778" layer="96"/>
 </instance>
-<instance part="C3" gate="G$1" x="-736.6" y="-25.4" smashed="yes" grouprefs="DECOUPLING">
-<attribute name="NAME" x="-735.076" y="-25.019" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-735.076" y="-30.099" size="1.778" layer="96"/>
+<instance part="C3" gate="G$1" x="-734.06" y="-15.24" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-732.536" y="-14.859" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-732.536" y="-19.939" size="1.778" layer="96"/>
 </instance>
-<instance part="C4" gate="G$1" x="-726.44" y="-25.4" smashed="yes" grouprefs="DECOUPLING">
-<attribute name="NAME" x="-724.916" y="-25.019" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-724.916" y="-30.099" size="1.778" layer="96"/>
+<instance part="C4" gate="G$1" x="-723.9" y="-15.24" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-722.376" y="-14.859" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-722.376" y="-19.939" size="1.778" layer="96"/>
 </instance>
-<instance part="C5" gate="G$1" x="-716.28" y="-25.4" smashed="yes" grouprefs="DECOUPLING">
-<attribute name="NAME" x="-714.756" y="-25.019" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-714.756" y="-30.099" size="1.778" layer="96"/>
+<instance part="C5" gate="G$1" x="-713.74" y="-15.24" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-712.216" y="-14.859" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-712.216" y="-19.939" size="1.778" layer="96"/>
 </instance>
-<instance part="C6" gate="G$1" x="-706.12" y="-25.4" smashed="yes" grouprefs="DECOUPLING">
-<attribute name="NAME" x="-704.596" y="-25.019" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-704.596" y="-30.099" size="1.778" layer="96"/>
+<instance part="C6" gate="G$1" x="-703.58" y="-15.24" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-702.056" y="-14.859" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-702.056" y="-19.939" size="1.778" layer="96"/>
 </instance>
-<instance part="C7" gate="G$1" x="-695.96" y="-25.4" smashed="yes" grouprefs="DECOUPLING">
-<attribute name="NAME" x="-694.436" y="-25.019" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-694.436" y="-30.099" size="1.778" layer="96"/>
+<instance part="C7" gate="G$1" x="-693.42" y="-15.24" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-691.896" y="-14.859" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-691.896" y="-19.939" size="1.778" layer="96"/>
 </instance>
-<instance part="C8" gate="G$1" x="-685.8" y="-25.4" smashed="yes" grouprefs="DECOUPLING">
-<attribute name="NAME" x="-684.276" y="-25.019" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-684.276" y="-30.099" size="1.778" layer="96"/>
+<instance part="C8" gate="G$1" x="-683.26" y="-15.24" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-681.736" y="-14.859" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-681.736" y="-19.939" size="1.778" layer="96"/>
 </instance>
-<instance part="C1" gate="G$1" x="-756.92" y="-25.4" smashed="yes" grouprefs="DECOUPLING">
-<attribute name="NAME" x="-755.396" y="-25.019" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-755.396" y="-30.099" size="1.778" layer="96"/>
+<instance part="C1" gate="G$1" x="-754.38" y="-15.24" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-752.856" y="-14.859" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-752.856" y="-19.939" size="1.778" layer="96"/>
 </instance>
 <instance part="LED1" gate="G$1" x="-625.78" y="-190.5" smashed="yes" grouprefs="LEDS1">
 <attribute name="NAME" x="-634.67" y="-185.42" size="1.778" layer="95" align="center-left"/>
@@ -5833,73 +5834,73 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74lvc1g34"&gt; Datasheet &lt;/a&
 <attribute name="NAME" x="-157.49" y="-396.24" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-157.49" y="-398.78" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="C2B" gate="G$1" x="-746.76" y="-38.1" smashed="yes" grouprefs="DECOUPLING">
-<attribute name="NAME" x="-745.236" y="-37.719" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-745.236" y="-42.799" size="1.778" layer="96"/>
+<instance part="C2B" gate="G$1" x="-744.22" y="-27.94" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-742.696" y="-27.559" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-742.696" y="-32.639" size="1.778" layer="96"/>
 </instance>
-<instance part="C3B" gate="G$1" x="-736.6" y="-38.1" smashed="yes" grouprefs="DECOUPLING">
-<attribute name="NAME" x="-735.076" y="-37.719" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-735.076" y="-42.799" size="1.778" layer="96"/>
+<instance part="C3B" gate="G$1" x="-734.06" y="-27.94" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-732.536" y="-27.559" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-732.536" y="-32.639" size="1.778" layer="96"/>
 </instance>
-<instance part="C4B" gate="G$1" x="-726.44" y="-38.1" smashed="yes" grouprefs="DECOUPLING">
-<attribute name="NAME" x="-724.916" y="-37.719" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-724.916" y="-42.799" size="1.778" layer="96"/>
+<instance part="C4B" gate="G$1" x="-723.9" y="-27.94" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-722.376" y="-27.559" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-722.376" y="-32.639" size="1.778" layer="96"/>
 </instance>
-<instance part="C5B" gate="G$1" x="-716.28" y="-38.1" smashed="yes" grouprefs="DECOUPLING">
-<attribute name="NAME" x="-714.756" y="-37.719" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-714.756" y="-42.799" size="1.778" layer="96"/>
+<instance part="C5B" gate="G$1" x="-713.74" y="-27.94" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-712.216" y="-27.559" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-712.216" y="-32.639" size="1.778" layer="96"/>
 </instance>
-<instance part="C6B" gate="G$1" x="-706.12" y="-38.1" smashed="yes" grouprefs="DECOUPLING">
-<attribute name="NAME" x="-704.596" y="-37.719" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-704.596" y="-42.799" size="1.778" layer="96"/>
+<instance part="C6B" gate="G$1" x="-703.58" y="-27.94" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-702.056" y="-27.559" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-702.056" y="-32.639" size="1.778" layer="96"/>
 </instance>
-<instance part="C7B" gate="G$1" x="-695.96" y="-38.1" smashed="yes" grouprefs="DECOUPLING">
-<attribute name="NAME" x="-694.436" y="-37.719" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-694.436" y="-42.799" size="1.778" layer="96"/>
+<instance part="C7B" gate="G$1" x="-693.42" y="-27.94" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-691.896" y="-27.559" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-691.896" y="-32.639" size="1.778" layer="96"/>
 </instance>
-<instance part="C8B" gate="G$1" x="-685.8" y="-38.1" smashed="yes" grouprefs="DECOUPLING">
-<attribute name="NAME" x="-684.276" y="-37.719" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-684.276" y="-42.799" size="1.778" layer="96"/>
+<instance part="C8B" gate="G$1" x="-683.26" y="-27.94" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-681.736" y="-27.559" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-681.736" y="-32.639" size="1.778" layer="96"/>
 </instance>
-<instance part="C1B" gate="G$1" x="-756.92" y="-38.1" smashed="yes" grouprefs="DECOUPLING">
-<attribute name="NAME" x="-755.396" y="-37.719" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-755.396" y="-42.799" size="1.778" layer="96"/>
+<instance part="C1B" gate="G$1" x="-754.38" y="-27.94" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-752.856" y="-27.559" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-752.856" y="-32.639" size="1.778" layer="96"/>
 </instance>
-<instance part="IC9" gate="G$1" x="-739.14" y="-73.66" smashed="yes">
+<instance part="IC9" gate="G$1" x="-739.14" y="-73.66" smashed="yes" grouprefs="LOGIC_BUFFERS">
 <attribute name="NAME" x="-715.01" y="-66.04" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-715.01" y="-68.58" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="IC10" gate="G$1" x="-739.14" y="-93.98" smashed="yes">
+<instance part="IC10" gate="G$1" x="-739.14" y="-93.98" smashed="yes" grouprefs="LOGIC_BUFFERS">
 <attribute name="NAME" x="-715.01" y="-86.36" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-715.01" y="-88.9" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="IC11" gate="G$1" x="-739.14" y="-111.76" smashed="yes">
+<instance part="IC11" gate="G$1" x="-739.14" y="-111.76" smashed="yes" grouprefs="LOGIC_BUFFERS">
 <attribute name="NAME" x="-715.01" y="-104.14" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-715.01" y="-106.68" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="C28" gate="G$1" x="-754.38" y="-137.16" smashed="yes">
-<attribute name="NAME" x="-752.856" y="-136.779" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-752.856" y="-141.859" size="1.778" layer="96"/>
+<instance part="C28" gate="G$1" x="-751.84" y="-40.64" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-750.316" y="-40.259" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-750.316" y="-45.339" size="1.778" layer="96"/>
 </instance>
-<instance part="C29" gate="G$1" x="-721.36" y="-137.16" smashed="yes">
-<attribute name="NAME" x="-719.836" y="-136.779" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-719.836" y="-141.859" size="1.778" layer="96"/>
+<instance part="C29" gate="G$1" x="-718.82" y="-40.64" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-717.296" y="-40.259" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-717.296" y="-45.339" size="1.778" layer="96"/>
 </instance>
-<instance part="C30" gate="G$1" x="-744.22" y="-137.16" smashed="yes">
-<attribute name="NAME" x="-742.696" y="-136.779" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-742.696" y="-141.859" size="1.778" layer="96"/>
+<instance part="C30" gate="G$1" x="-741.68" y="-40.64" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-740.156" y="-40.259" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-740.156" y="-45.339" size="1.778" layer="96"/>
 </instance>
-<instance part="C31" gate="G$1" x="-711.2" y="-137.16" smashed="yes">
-<attribute name="NAME" x="-709.676" y="-136.779" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-709.676" y="-141.859" size="1.778" layer="96"/>
+<instance part="C31" gate="G$1" x="-708.66" y="-40.64" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-707.136" y="-40.259" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-707.136" y="-45.339" size="1.778" layer="96"/>
 </instance>
-<instance part="C32" gate="G$1" x="-734.06" y="-137.16" smashed="yes">
-<attribute name="NAME" x="-732.536" y="-136.779" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-732.536" y="-141.859" size="1.778" layer="96"/>
+<instance part="C32" gate="G$1" x="-731.52" y="-40.64" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-729.996" y="-40.259" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-729.996" y="-45.339" size="1.778" layer="96"/>
 </instance>
-<instance part="C33" gate="G$1" x="-701.04" y="-137.16" smashed="yes">
-<attribute name="NAME" x="-699.516" y="-136.779" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-699.516" y="-141.859" size="1.778" layer="96"/>
+<instance part="C33" gate="G$1" x="-698.5" y="-40.64" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="-696.976" y="-40.259" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-696.976" y="-45.339" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -6560,8 +6561,8 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74lvc1g34"&gt; Datasheet &lt;/a&
 </segment>
 <segment>
 <pinref part="IC10" gate="G$1" pin="Y"/>
-<wire x1="-711.2" y1="-93.98" x2="-708.66" y2="-93.98" width="0.1524" layer="91"/>
-<label x="-708.66" y="-93.98" size="1.778" layer="95" xref="yes"/>
+<wire x1="-711.2" y1="-93.98" x2="-708.66" y2="-93.98" width="0.1524" layer="91" grouprefs="LOGIC_BUFFERS"/>
+<label x="-708.66" y="-93.98" size="1.778" layer="95" xref="yes" grouprefs="LOGIC_BUFFERS"/>
 </segment>
 </net>
 <net name="LAT" class="0">
@@ -6607,8 +6608,8 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74lvc1g34"&gt; Datasheet &lt;/a&
 </segment>
 <segment>
 <pinref part="IC9" gate="G$1" pin="Y"/>
-<wire x1="-711.2" y1="-73.66" x2="-708.66" y2="-73.66" width="0.1524" layer="91"/>
-<label x="-708.66" y="-73.66" size="1.778" layer="95" xref="yes"/>
+<wire x1="-711.2" y1="-73.66" x2="-708.66" y2="-73.66" width="0.1524" layer="91" grouprefs="LOGIC_BUFFERS"/>
+<label x="-708.66" y="-73.66" size="1.778" layer="95" xref="yes" grouprefs="LOGIC_BUFFERS"/>
 </segment>
 </net>
 <net name="N$LEDG13" class="0">
@@ -6922,54 +6923,54 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74lvc1g34"&gt; Datasheet &lt;/a&
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="-756.92" y1="-30.48" x2="-746.76" y2="-30.48" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<wire x1="-754.38" y1="-20.32" x2="-744.22" y2="-20.32" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
 <pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="-736.6" y1="-30.48" x2="-746.76" y2="-30.48" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-746.76" y="-30.48" grouprefs="DECOUPLING"/>
+<wire x1="-734.06" y1="-20.32" x2="-744.22" y2="-20.32" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-744.22" y="-20.32" grouprefs="DECOUPLING"/>
 <pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="-736.6" y1="-30.48" x2="-726.44" y2="-30.48" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-736.6" y="-30.48" grouprefs="DECOUPLING"/>
+<wire x1="-734.06" y1="-20.32" x2="-723.9" y2="-20.32" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-734.06" y="-20.32" grouprefs="DECOUPLING"/>
 <pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="-726.44" y1="-30.48" x2="-716.28" y2="-30.48" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-726.44" y="-30.48" grouprefs="DECOUPLING"/>
+<wire x1="-723.9" y1="-20.32" x2="-713.74" y2="-20.32" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-723.9" y="-20.32" grouprefs="DECOUPLING"/>
 <pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="-716.28" y1="-30.48" x2="-706.12" y2="-30.48" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-716.28" y="-30.48" grouprefs="DECOUPLING"/>
+<wire x1="-713.74" y1="-20.32" x2="-703.58" y2="-20.32" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-713.74" y="-20.32" grouprefs="DECOUPLING"/>
 <pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="-706.12" y1="-30.48" x2="-695.96" y2="-30.48" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-706.12" y="-30.48" grouprefs="DECOUPLING"/>
+<wire x1="-703.58" y1="-20.32" x2="-693.42" y2="-20.32" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-703.58" y="-20.32" grouprefs="DECOUPLING"/>
 <pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="-695.96" y1="-30.48" x2="-685.8" y2="-30.48" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-695.96" y="-30.48" grouprefs="DECOUPLING"/>
-<wire x1="-756.92" y1="-30.48" x2="-764.54" y2="-30.48" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-756.92" y="-30.48" grouprefs="DECOUPLING"/>
-<label x="-764.54" y="-30.48" size="1.778" layer="95" grouprefs="DECOUPLING"/>
+<wire x1="-693.42" y1="-20.32" x2="-683.26" y2="-20.32" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-693.42" y="-20.32" grouprefs="DECOUPLING"/>
+<wire x1="-754.38" y1="-20.32" x2="-762" y2="-20.32" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-754.38" y="-20.32" grouprefs="DECOUPLING"/>
+<label x="-762" y="-20.32" size="1.778" layer="95" grouprefs="DECOUPLING"/>
 </segment>
 <segment>
 <pinref part="C1B" gate="G$1" pin="2"/>
 <pinref part="C2B" gate="G$1" pin="2"/>
-<wire x1="-756.92" y1="-43.18" x2="-746.76" y2="-43.18" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<wire x1="-754.38" y1="-33.02" x2="-744.22" y2="-33.02" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
 <pinref part="C3B" gate="G$1" pin="2"/>
-<wire x1="-736.6" y1="-43.18" x2="-746.76" y2="-43.18" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-746.76" y="-43.18" grouprefs="DECOUPLING"/>
+<wire x1="-734.06" y1="-33.02" x2="-744.22" y2="-33.02" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-744.22" y="-33.02" grouprefs="DECOUPLING"/>
 <pinref part="C4B" gate="G$1" pin="2"/>
-<wire x1="-736.6" y1="-43.18" x2="-726.44" y2="-43.18" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-736.6" y="-43.18" grouprefs="DECOUPLING"/>
+<wire x1="-734.06" y1="-33.02" x2="-723.9" y2="-33.02" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-734.06" y="-33.02" grouprefs="DECOUPLING"/>
 <pinref part="C5B" gate="G$1" pin="2"/>
-<wire x1="-726.44" y1="-43.18" x2="-716.28" y2="-43.18" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-726.44" y="-43.18" grouprefs="DECOUPLING"/>
+<wire x1="-723.9" y1="-33.02" x2="-713.74" y2="-33.02" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-723.9" y="-33.02" grouprefs="DECOUPLING"/>
 <pinref part="C6B" gate="G$1" pin="2"/>
-<wire x1="-716.28" y1="-43.18" x2="-706.12" y2="-43.18" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-716.28" y="-43.18" grouprefs="DECOUPLING"/>
+<wire x1="-713.74" y1="-33.02" x2="-703.58" y2="-33.02" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-713.74" y="-33.02" grouprefs="DECOUPLING"/>
 <pinref part="C7B" gate="G$1" pin="2"/>
-<wire x1="-706.12" y1="-43.18" x2="-695.96" y2="-43.18" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-706.12" y="-43.18" grouprefs="DECOUPLING"/>
+<wire x1="-703.58" y1="-33.02" x2="-693.42" y2="-33.02" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-703.58" y="-33.02" grouprefs="DECOUPLING"/>
 <pinref part="C8B" gate="G$1" pin="2"/>
-<wire x1="-695.96" y1="-43.18" x2="-685.8" y2="-43.18" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-695.96" y="-43.18" grouprefs="DECOUPLING"/>
-<wire x1="-756.92" y1="-43.18" x2="-764.54" y2="-43.18" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-756.92" y="-43.18" grouprefs="DECOUPLING"/>
-<label x="-764.54" y="-43.18" size="1.778" layer="95" grouprefs="DECOUPLING"/>
+<wire x1="-693.42" y1="-33.02" x2="-683.26" y2="-33.02" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-693.42" y="-33.02" grouprefs="DECOUPLING"/>
+<wire x1="-754.38" y1="-33.02" x2="-762" y2="-33.02" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-754.38" y="-33.02" grouprefs="DECOUPLING"/>
+<label x="-762" y="-33.02" size="1.778" layer="95" grouprefs="DECOUPLING"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="1" pin="2"/>
@@ -6983,38 +6984,38 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74lvc1g34"&gt; Datasheet &lt;/a&
 </segment>
 <segment>
 <pinref part="IC9" gate="G$1" pin="GND"/>
-<wire x1="-739.14" y1="-78.74" x2="-762" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="-739.14" y1="-78.74" x2="-762" y2="-78.74" width="0.1524" layer="91" grouprefs="LOGIC_BUFFERS"/>
 <pinref part="IC11" gate="G$1" pin="GND"/>
-<wire x1="-762" y1="-78.74" x2="-762" y2="-99.06" width="0.1524" layer="91"/>
-<wire x1="-762" y1="-99.06" x2="-762" y2="-116.84" width="0.1524" layer="91"/>
-<wire x1="-762" y1="-116.84" x2="-739.14" y2="-116.84" width="0.1524" layer="91"/>
+<wire x1="-762" y1="-78.74" x2="-762" y2="-99.06" width="0.1524" layer="91" grouprefs="LOGIC_BUFFERS"/>
+<wire x1="-762" y1="-99.06" x2="-762" y2="-116.84" width="0.1524" layer="91" grouprefs="LOGIC_BUFFERS"/>
+<wire x1="-762" y1="-116.84" x2="-739.14" y2="-116.84" width="0.1524" layer="91" grouprefs="LOGIC_BUFFERS"/>
 <pinref part="IC10" gate="G$1" pin="GND"/>
-<wire x1="-739.14" y1="-99.06" x2="-762" y2="-99.06" width="0.1524" layer="91"/>
-<junction x="-762" y="-99.06"/>
-<junction x="-762" y="-116.84"/>
-<wire x1="-762" y1="-116.84" x2="-762" y2="-124.46" width="0.1524" layer="91"/>
-<wire x1="-762" y1="-124.46" x2="-751.84" y2="-124.46" width="0.1524" layer="91"/>
-<label x="-756.92" y="-124.46" size="1.778" layer="95"/>
+<wire x1="-739.14" y1="-99.06" x2="-762" y2="-99.06" width="0.1524" layer="91" grouprefs="LOGIC_BUFFERS"/>
+<junction x="-762" y="-99.06" grouprefs="LOGIC_BUFFERS"/>
+<junction x="-762" y="-116.84" grouprefs="LOGIC_BUFFERS"/>
+<wire x1="-762" y1="-116.84" x2="-762" y2="-124.46" width="0.1524" layer="91" grouprefs="LOGIC_BUFFERS"/>
+<wire x1="-762" y1="-124.46" x2="-751.84" y2="-124.46" width="0.1524" layer="91" grouprefs="LOGIC_BUFFERS"/>
+<label x="-756.92" y="-124.46" size="1.778" layer="95" grouprefs="LOGIC_BUFFERS"/>
 </segment>
 <segment>
 <pinref part="C28" gate="G$1" pin="2"/>
 <pinref part="C30" gate="G$1" pin="2"/>
-<wire x1="-744.22" y1="-142.24" x2="-734.06" y2="-142.24" width="0.1524" layer="91"/>
-<wire x1="-734.06" y1="-142.24" x2="-721.36" y2="-142.24" width="0.1524" layer="91"/>
-<wire x1="-721.36" y1="-142.24" x2="-711.2" y2="-142.24" width="0.1524" layer="91"/>
-<wire x1="-711.2" y1="-142.24" x2="-701.04" y2="-142.24" width="0.1524" layer="91"/>
-<wire x1="-701.04" y1="-142.24" x2="-688.34" y2="-142.24" width="0.1524" layer="91"/>
-<wire x1="-754.38" y1="-142.24" x2="-744.22" y2="-142.24" width="0.1524" layer="91"/>
-<junction x="-744.22" y="-142.24"/>
+<wire x1="-741.68" y1="-45.72" x2="-731.52" y2="-45.72" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<wire x1="-731.52" y1="-45.72" x2="-718.82" y2="-45.72" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<wire x1="-718.82" y1="-45.72" x2="-708.66" y2="-45.72" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<wire x1="-708.66" y1="-45.72" x2="-698.5" y2="-45.72" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<wire x1="-698.5" y1="-45.72" x2="-685.8" y2="-45.72" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<wire x1="-751.84" y1="-45.72" x2="-741.68" y2="-45.72" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-741.68" y="-45.72" grouprefs="DECOUPLING"/>
 <pinref part="C29" gate="G$1" pin="2"/>
-<junction x="-721.36" y="-142.24"/>
+<junction x="-718.82" y="-45.72" grouprefs="DECOUPLING"/>
 <pinref part="C31" gate="G$1" pin="2"/>
-<junction x="-711.2" y="-142.24"/>
+<junction x="-708.66" y="-45.72" grouprefs="DECOUPLING"/>
 <pinref part="C32" gate="G$1" pin="2"/>
-<junction x="-734.06" y="-142.24"/>
+<junction x="-731.52" y="-45.72" grouprefs="DECOUPLING"/>
 <pinref part="C33" gate="G$1" pin="2"/>
-<junction x="-701.04" y="-142.24"/>
-<label x="-693.42" y="-142.24" size="1.778" layer="95"/>
+<junction x="-698.5" y="-45.72" grouprefs="DECOUPLING"/>
+<label x="-690.88" y="-45.72" size="1.778" layer="95" grouprefs="DECOUPLING"/>
 </segment>
 </net>
 <net name="GSCLK" class="0">
@@ -7060,8 +7061,8 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74lvc1g34"&gt; Datasheet &lt;/a&
 </segment>
 <segment>
 <pinref part="IC11" gate="G$1" pin="Y"/>
-<wire x1="-711.2" y1="-111.76" x2="-708.66" y2="-111.76" width="0.1524" layer="91"/>
-<label x="-708.66" y="-111.76" size="1.778" layer="95" xref="yes"/>
+<wire x1="-711.2" y1="-111.76" x2="-708.66" y2="-111.76" width="0.1524" layer="91" grouprefs="LOGIC_BUFFERS"/>
+<label x="-708.66" y="-111.76" size="1.778" layer="95" xref="yes" grouprefs="LOGIC_BUFFERS"/>
 </segment>
 </net>
 <net name="N$LEDB16" class="0">
@@ -11534,54 +11535,54 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74lvc1g34"&gt; Datasheet &lt;/a&
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="-756.92" y1="-22.86" x2="-746.76" y2="-22.86" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<wire x1="-754.38" y1="-12.7" x2="-744.22" y2="-12.7" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="-746.76" y1="-22.86" x2="-736.6" y2="-22.86" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-746.76" y="-22.86" grouprefs="DECOUPLING"/>
+<wire x1="-744.22" y1="-12.7" x2="-734.06" y2="-12.7" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-744.22" y="-12.7" grouprefs="DECOUPLING"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="-736.6" y1="-22.86" x2="-726.44" y2="-22.86" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-736.6" y="-22.86" grouprefs="DECOUPLING"/>
+<wire x1="-734.06" y1="-12.7" x2="-723.9" y2="-12.7" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-734.06" y="-12.7" grouprefs="DECOUPLING"/>
 <pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="-726.44" y1="-22.86" x2="-716.28" y2="-22.86" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-726.44" y="-22.86" grouprefs="DECOUPLING"/>
+<wire x1="-723.9" y1="-12.7" x2="-713.74" y2="-12.7" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-723.9" y="-12.7" grouprefs="DECOUPLING"/>
 <pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="-716.28" y1="-22.86" x2="-706.12" y2="-22.86" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-716.28" y="-22.86" grouprefs="DECOUPLING"/>
+<wire x1="-713.74" y1="-12.7" x2="-703.58" y2="-12.7" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-713.74" y="-12.7" grouprefs="DECOUPLING"/>
 <pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="-706.12" y1="-22.86" x2="-695.96" y2="-22.86" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-706.12" y="-22.86" grouprefs="DECOUPLING"/>
+<wire x1="-703.58" y1="-12.7" x2="-693.42" y2="-12.7" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-703.58" y="-12.7" grouprefs="DECOUPLING"/>
 <pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="-695.96" y1="-22.86" x2="-685.8" y2="-22.86" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-695.96" y="-22.86" grouprefs="DECOUPLING"/>
-<wire x1="-756.92" y1="-22.86" x2="-764.54" y2="-22.86" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-756.92" y="-22.86" grouprefs="DECOUPLING"/>
-<label x="-764.54" y="-22.86" size="1.778" layer="95" grouprefs="DECOUPLING"/>
+<wire x1="-693.42" y1="-12.7" x2="-683.26" y2="-12.7" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-693.42" y="-12.7" grouprefs="DECOUPLING"/>
+<wire x1="-754.38" y1="-12.7" x2="-762" y2="-12.7" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-754.38" y="-12.7" grouprefs="DECOUPLING"/>
+<label x="-762" y="-12.7" size="1.778" layer="95" grouprefs="DECOUPLING"/>
 </segment>
 <segment>
 <pinref part="C1B" gate="G$1" pin="1"/>
 <pinref part="C2B" gate="G$1" pin="1"/>
-<wire x1="-756.92" y1="-35.56" x2="-746.76" y2="-35.56" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<wire x1="-754.38" y1="-25.4" x2="-744.22" y2="-25.4" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
 <pinref part="C3B" gate="G$1" pin="1"/>
-<wire x1="-746.76" y1="-35.56" x2="-736.6" y2="-35.56" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-746.76" y="-35.56" grouprefs="DECOUPLING"/>
+<wire x1="-744.22" y1="-25.4" x2="-734.06" y2="-25.4" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-744.22" y="-25.4" grouprefs="DECOUPLING"/>
 <pinref part="C4B" gate="G$1" pin="1"/>
-<wire x1="-736.6" y1="-35.56" x2="-726.44" y2="-35.56" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-736.6" y="-35.56" grouprefs="DECOUPLING"/>
+<wire x1="-734.06" y1="-25.4" x2="-723.9" y2="-25.4" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-734.06" y="-25.4" grouprefs="DECOUPLING"/>
 <pinref part="C5B" gate="G$1" pin="1"/>
-<wire x1="-726.44" y1="-35.56" x2="-716.28" y2="-35.56" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-726.44" y="-35.56" grouprefs="DECOUPLING"/>
+<wire x1="-723.9" y1="-25.4" x2="-713.74" y2="-25.4" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-723.9" y="-25.4" grouprefs="DECOUPLING"/>
 <pinref part="C6B" gate="G$1" pin="1"/>
-<wire x1="-716.28" y1="-35.56" x2="-706.12" y2="-35.56" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-716.28" y="-35.56" grouprefs="DECOUPLING"/>
+<wire x1="-713.74" y1="-25.4" x2="-703.58" y2="-25.4" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-713.74" y="-25.4" grouprefs="DECOUPLING"/>
 <pinref part="C7B" gate="G$1" pin="1"/>
-<wire x1="-706.12" y1="-35.56" x2="-695.96" y2="-35.56" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-706.12" y="-35.56" grouprefs="DECOUPLING"/>
+<wire x1="-703.58" y1="-25.4" x2="-693.42" y2="-25.4" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-703.58" y="-25.4" grouprefs="DECOUPLING"/>
 <pinref part="C8B" gate="G$1" pin="1"/>
-<wire x1="-695.96" y1="-35.56" x2="-685.8" y2="-35.56" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-695.96" y="-35.56" grouprefs="DECOUPLING"/>
-<wire x1="-756.92" y1="-35.56" x2="-764.54" y2="-35.56" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
-<junction x="-756.92" y="-35.56" grouprefs="DECOUPLING"/>
-<label x="-764.54" y="-35.56" size="1.778" layer="95" grouprefs="DECOUPLING"/>
+<wire x1="-693.42" y1="-25.4" x2="-683.26" y2="-25.4" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-693.42" y="-25.4" grouprefs="DECOUPLING"/>
+<wire x1="-754.38" y1="-25.4" x2="-762" y2="-25.4" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-754.38" y="-25.4" grouprefs="DECOUPLING"/>
+<label x="-762" y="-25.4" size="1.778" layer="95" grouprefs="DECOUPLING"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="1" pin="1"/>
@@ -11590,44 +11591,44 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74lvc1g34"&gt; Datasheet &lt;/a&
 </segment>
 <segment>
 <pinref part="IC9" gate="G$1" pin="VCC"/>
-<wire x1="-711.2" y1="-76.2" x2="-690.88" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="-711.2" y1="-76.2" x2="-690.88" y2="-76.2" width="0.1524" layer="91" grouprefs="LOGIC_BUFFERS"/>
 <pinref part="IC11" gate="G$1" pin="VCC"/>
-<wire x1="-690.88" y1="-76.2" x2="-690.88" y2="-96.52" width="0.1524" layer="91"/>
-<wire x1="-690.88" y1="-96.52" x2="-690.88" y2="-114.3" width="0.1524" layer="91"/>
-<wire x1="-690.88" y1="-114.3" x2="-711.2" y2="-114.3" width="0.1524" layer="91"/>
+<wire x1="-690.88" y1="-76.2" x2="-690.88" y2="-96.52" width="0.1524" layer="91" grouprefs="LOGIC_BUFFERS"/>
+<wire x1="-690.88" y1="-96.52" x2="-690.88" y2="-114.3" width="0.1524" layer="91" grouprefs="LOGIC_BUFFERS"/>
+<wire x1="-690.88" y1="-114.3" x2="-711.2" y2="-114.3" width="0.1524" layer="91" grouprefs="LOGIC_BUFFERS"/>
 <pinref part="IC10" gate="G$1" pin="VCC"/>
-<wire x1="-711.2" y1="-96.52" x2="-690.88" y2="-96.52" width="0.1524" layer="91"/>
-<junction x="-690.88" y="-96.52"/>
-<wire x1="-690.88" y1="-76.2" x2="-688.34" y2="-76.2" width="0.1524" layer="91"/>
-<junction x="-690.88" y="-76.2"/>
-<label x="-688.34" y="-76.2" size="1.778" layer="95" xref="yes"/>
+<wire x1="-711.2" y1="-96.52" x2="-690.88" y2="-96.52" width="0.1524" layer="91" grouprefs="LOGIC_BUFFERS"/>
+<junction x="-690.88" y="-96.52" grouprefs="LOGIC_BUFFERS"/>
+<wire x1="-690.88" y1="-76.2" x2="-688.34" y2="-76.2" width="0.1524" layer="91" grouprefs="LOGIC_BUFFERS"/>
+<junction x="-690.88" y="-76.2" grouprefs="LOGIC_BUFFERS"/>
+<label x="-688.34" y="-76.2" size="1.778" layer="95" xref="yes" grouprefs="LOGIC_BUFFERS"/>
 </segment>
 <segment>
 <pinref part="C28" gate="G$1" pin="1"/>
 <pinref part="C30" gate="G$1" pin="1"/>
-<wire x1="-744.22" y1="-134.62" x2="-734.06" y2="-134.62" width="0.1524" layer="91"/>
-<wire x1="-734.06" y1="-134.62" x2="-721.36" y2="-134.62" width="0.1524" layer="91"/>
-<wire x1="-721.36" y1="-134.62" x2="-711.2" y2="-134.62" width="0.1524" layer="91"/>
-<wire x1="-711.2" y1="-134.62" x2="-701.04" y2="-134.62" width="0.1524" layer="91"/>
-<wire x1="-701.04" y1="-134.62" x2="-688.34" y2="-134.62" width="0.1524" layer="91"/>
-<wire x1="-754.38" y1="-134.62" x2="-744.22" y2="-134.62" width="0.1524" layer="91"/>
-<junction x="-744.22" y="-134.62"/>
+<wire x1="-741.68" y1="-38.1" x2="-731.52" y2="-38.1" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<wire x1="-731.52" y1="-38.1" x2="-718.82" y2="-38.1" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<wire x1="-718.82" y1="-38.1" x2="-708.66" y2="-38.1" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<wire x1="-708.66" y1="-38.1" x2="-698.5" y2="-38.1" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<wire x1="-698.5" y1="-38.1" x2="-685.8" y2="-38.1" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<wire x1="-751.84" y1="-38.1" x2="-741.68" y2="-38.1" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<junction x="-741.68" y="-38.1" grouprefs="DECOUPLING"/>
 <pinref part="C29" gate="G$1" pin="1"/>
-<junction x="-721.36" y="-134.62"/>
+<junction x="-718.82" y="-38.1" grouprefs="DECOUPLING"/>
 <pinref part="C31" gate="G$1" pin="1"/>
-<junction x="-711.2" y="-134.62"/>
+<junction x="-708.66" y="-38.1" grouprefs="DECOUPLING"/>
 <pinref part="C32" gate="G$1" pin="1"/>
-<junction x="-734.06" y="-134.62"/>
+<junction x="-731.52" y="-38.1" grouprefs="DECOUPLING"/>
 <pinref part="C33" gate="G$1" pin="1"/>
-<junction x="-701.04" y="-134.62"/>
-<label x="-701.04" y="-134.62" size="1.778" layer="95"/>
+<junction x="-698.5" y="-38.1" grouprefs="DECOUPLING"/>
+<label x="-698.5" y="-38.1" size="1.778" layer="95" grouprefs="DECOUPLING"/>
 </segment>
 </net>
 <net name="SCLK_FPGA" class="0">
 <segment>
 <pinref part="IC10" gate="G$1" pin="A"/>
-<wire x1="-739.14" y1="-96.52" x2="-741.68" y2="-96.52" width="0.1524" layer="91"/>
-<label x="-741.68" y="-96.52" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-739.14" y1="-96.52" x2="-741.68" y2="-96.52" width="0.1524" layer="91" grouprefs="LOGIC_BUFFERS"/>
+<label x="-741.68" y="-96.52" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="LOGIC_BUFFERS"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="1" pin="7"/>
@@ -11638,8 +11639,8 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74lvc1g34"&gt; Datasheet &lt;/a&
 <net name="GSCLK_FPGA" class="0">
 <segment>
 <pinref part="IC11" gate="G$1" pin="A"/>
-<wire x1="-739.14" y1="-114.3" x2="-741.68" y2="-114.3" width="0.1524" layer="91"/>
-<label x="-741.68" y="-114.3" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-739.14" y1="-114.3" x2="-741.68" y2="-114.3" width="0.1524" layer="91" grouprefs="LOGIC_BUFFERS"/>
+<label x="-741.68" y="-114.3" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="LOGIC_BUFFERS"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="1" pin="3"/>
@@ -11650,8 +11651,8 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74lvc1g34"&gt; Datasheet &lt;/a&
 <net name="LAT_FPGA" class="0">
 <segment>
 <pinref part="IC9" gate="G$1" pin="A"/>
-<wire x1="-739.14" y1="-76.2" x2="-741.68" y2="-76.2" width="0.1524" layer="91"/>
-<label x="-741.68" y="-76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-739.14" y1="-76.2" x2="-741.68" y2="-76.2" width="0.1524" layer="91" grouprefs="LOGIC_BUFFERS"/>
+<label x="-741.68" y="-76.2" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="LOGIC_BUFFERS"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="1" pin="5"/>
