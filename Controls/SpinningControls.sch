@@ -19253,7 +19253,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/txs0104e"&gt; Datasheet &lt;/a&gt;
 <part name="R34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
 <part name="R35" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
 <part name="R36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
-<part name="R37" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
 <part name="R38" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
 <part name="R44" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
 <part name="R45" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
@@ -19264,7 +19263,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/txs0104e"&gt; Datasheet &lt;/a&gt;
 <part name="R52" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
 <part name="R53" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
 <part name="R54" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
-<part name="R55" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
 <part name="R56" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
 <part name="R43" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
 <part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
@@ -19272,12 +19270,14 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/txs0104e"&gt; Datasheet &lt;/a&gt;
 <part name="R41" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
 <part name="R39" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
 <part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
-<part name="R51" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
-<part name="R33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
-<part name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
-<part name="R50" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
 <part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
 <part name="R42" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
+<part name="R37" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
+<part name="R55" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
+<part name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
+<part name="R50" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
+<part name="R51" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
+<part name="R33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
 </parts>
 <sheets>
 <sheet>
@@ -19547,10 +19547,6 @@ RED</text>
 <attribute name="NAME" x="211.328" y="63.9826" size="1.778" layer="95"/>
 <attribute name="VALUE" x="204.47" y="60.198" size="1.778" layer="96"/>
 </instance>
-<instance part="R37" gate="G$1" x="208.28" y="60.96" smashed="yes">
-<attribute name="NAME" x="211.328" y="61.4426" size="1.778" layer="95"/>
-<attribute name="VALUE" x="204.47" y="57.658" size="1.778" layer="96"/>
-</instance>
 <instance part="R38" gate="G$1" x="208.28" y="58.42" smashed="yes">
 <attribute name="NAME" x="211.328" y="58.9026" size="1.778" layer="95"/>
 <attribute name="VALUE" x="204.47" y="55.118" size="1.778" layer="96"/>
@@ -19591,10 +19587,6 @@ RED</text>
 <attribute name="NAME" x="254.508" y="63.9826" size="1.778" layer="95"/>
 <attribute name="VALUE" x="257.81" y="60.198" size="1.778" layer="96"/>
 </instance>
-<instance part="R55" gate="G$1" x="261.62" y="60.96" smashed="yes">
-<attribute name="NAME" x="254.508" y="61.4426" size="1.778" layer="95"/>
-<attribute name="VALUE" x="257.81" y="57.658" size="1.778" layer="96"/>
-</instance>
 <instance part="R56" gate="G$1" x="261.62" y="58.42" smashed="yes">
 <attribute name="NAME" x="254.508" y="58.9026" size="1.778" layer="95"/>
 <attribute name="VALUE" x="257.81" y="55.118" size="1.778" layer="96"/>
@@ -19623,22 +19615,6 @@ RED</text>
 <attribute name="NAME" x="254.508" y="99.5426" size="1.778" layer="95"/>
 <attribute name="VALUE" x="265.43" y="102.362" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R51" gate="G$1" x="208.28" y="73.66" smashed="yes" rot="R180">
-<attribute name="NAME" x="211.328" y="74.1426" size="1.778" layer="95"/>
-<attribute name="VALUE" x="212.09" y="76.962" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="R33" gate="G$1" x="261.62" y="73.66" smashed="yes" rot="R180">
-<attribute name="NAME" x="254.508" y="74.1426" size="1.778" layer="95"/>
-<attribute name="VALUE" x="265.43" y="76.962" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="R32" gate="G$1" x="261.62" y="76.2" smashed="yes" rot="R180">
-<attribute name="NAME" x="254.508" y="76.6826" size="1.778" layer="95"/>
-<attribute name="VALUE" x="265.43" y="79.502" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="R50" gate="G$1" x="208.28" y="76.2" smashed="yes" rot="R180">
-<attribute name="NAME" x="211.328" y="76.6826" size="1.778" layer="95"/>
-<attribute name="VALUE" x="212.09" y="79.502" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="R24" gate="G$1" x="208.28" y="101.6" smashed="yes">
 <attribute name="NAME" x="211.328" y="102.0826" size="1.778" layer="95"/>
 <attribute name="VALUE" x="204.47" y="98.298" size="1.778" layer="96"/>
@@ -19646,6 +19622,30 @@ RED</text>
 <instance part="R42" gate="G$1" x="261.62" y="101.6" smashed="yes">
 <attribute name="NAME" x="254.508" y="102.0826" size="1.778" layer="95"/>
 <attribute name="VALUE" x="257.81" y="98.298" size="1.778" layer="96"/>
+</instance>
+<instance part="R37" gate="G$1" x="261.62" y="60.96" smashed="yes" rot="R180">
+<attribute name="NAME" x="254.508" y="61.4426" size="1.778" layer="95"/>
+<attribute name="VALUE" x="265.43" y="64.262" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R55" gate="G$1" x="208.28" y="60.96" smashed="yes" rot="R180">
+<attribute name="NAME" x="211.328" y="61.4426" size="1.778" layer="95"/>
+<attribute name="VALUE" x="212.09" y="64.262" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R32" gate="G$1" x="208.28" y="76.2" smashed="yes">
+<attribute name="NAME" x="211.328" y="76.6826" size="1.778" layer="95"/>
+<attribute name="VALUE" x="204.47" y="72.898" size="1.778" layer="96"/>
+</instance>
+<instance part="R50" gate="G$1" x="261.62" y="76.2" smashed="yes">
+<attribute name="NAME" x="254.508" y="76.6826" size="1.778" layer="95"/>
+<attribute name="VALUE" x="257.81" y="72.898" size="1.778" layer="96"/>
+</instance>
+<instance part="R51" gate="G$1" x="261.62" y="73.66" smashed="yes">
+<attribute name="NAME" x="254.508" y="74.1426" size="1.778" layer="95"/>
+<attribute name="VALUE" x="257.81" y="70.358" size="1.778" layer="96"/>
+</instance>
+<instance part="R33" gate="G$1" x="208.28" y="73.66" smashed="yes">
+<attribute name="NAME" x="211.328" y="74.1426" size="1.778" layer="95"/>
+<attribute name="VALUE" x="204.47" y="70.358" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -20745,13 +20745,6 @@ RED</text>
 <pinref part="R22" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="SIN56_J7" class="0">
-<segment>
-<wire x1="203.2" y1="60.96" x2="200.66" y2="60.96" width="0.1524" layer="91"/>
-<label x="200.66" y="60.96" size="1.778" layer="95" rot="R180"/>
-<pinref part="R37" gate="G$1" pin="1"/>
-</segment>
-</net>
 <net name="SIN12_J7" class="0">
 <segment>
 <wire x1="203.2" y1="63.5" x2="200.66" y2="63.5" width="0.1524" layer="91"/>
@@ -20885,25 +20878,11 @@ RED</text>
 <pinref part="R36" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$39" class="0">
-<segment>
-<wire x1="213.36" y1="60.96" x2="215.9" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="FPGA" gate="G$1" pin="GPIO_130"/>
-<pinref part="R37" gate="G$1" pin="2"/>
-</segment>
-</net>
 <net name="N$40" class="0">
 <segment>
 <pinref part="R38" gate="G$1" pin="2"/>
 <pinref part="FPGA" gate="G$1" pin="GPIO_132"/>
 <wire x1="213.36" y1="58.42" x2="215.9" y2="58.42" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="SIN78_J7" class="0">
-<segment>
-<wire x1="269.24" y1="60.96" x2="266.7" y2="60.96" width="0.1524" layer="91"/>
-<label x="269.24" y="60.96" size="1.778" layer="95"/>
-<pinref part="R55" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="SIN34_J7" class="0">
@@ -21032,13 +21011,6 @@ RED</text>
 <pinref part="FPGA" gate="G$1" pin="GPIO_129"/>
 </segment>
 </net>
-<net name="N$52" class="0">
-<segment>
-<wire x1="254" y1="60.96" x2="256.54" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="R55" gate="G$1" pin="1"/>
-<pinref part="FPGA" gate="G$1" pin="GPIO_131"/>
-</segment>
-</net>
 <net name="N$53" class="0">
 <segment>
 <wire x1="254" y1="58.42" x2="256.54" y2="58.42" width="0.1524" layer="91"/>
@@ -21130,62 +21102,6 @@ RED</text>
 <pinref part="FPGA" gate="G$1" pin="GPIO_15"/>
 </segment>
 </net>
-<net name="SIN78_J9" class="0">
-<segment>
-<wire x1="200.66" y1="73.66" x2="203.2" y2="73.66" width="0.1524" layer="91"/>
-<label x="200.66" y="73.66" size="1.778" layer="95" rot="R180"/>
-<pinref part="R51" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$48" class="0">
-<segment>
-<wire x1="215.9" y1="73.66" x2="213.36" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="R51" gate="G$1" pin="1"/>
-<pinref part="FPGA" gate="G$1" pin="GPIO_122"/>
-</segment>
-</net>
-<net name="SIN56_J9" class="0">
-<segment>
-<wire x1="266.7" y1="73.66" x2="269.24" y2="73.66" width="0.1524" layer="91"/>
-<label x="269.24" y="73.66" size="1.778" layer="95"/>
-<pinref part="R33" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$35" class="0">
-<segment>
-<wire x1="256.54" y1="73.66" x2="254" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="R33" gate="G$1" pin="2"/>
-<pinref part="FPGA" gate="G$1" pin="GPIO_123"/>
-</segment>
-</net>
-<net name="SIN12_J9" class="0">
-<segment>
-<wire x1="266.7" y1="76.2" x2="269.24" y2="76.2" width="0.1524" layer="91"/>
-<label x="269.24" y="76.2" size="1.778" layer="95"/>
-<pinref part="R32" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$34" class="0">
-<segment>
-<wire x1="254" y1="76.2" x2="256.54" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="R32" gate="G$1" pin="2"/>
-<pinref part="FPGA" gate="G$1" pin="GPIO_121"/>
-</segment>
-</net>
-<net name="SIN34_J9" class="0">
-<segment>
-<wire x1="200.66" y1="76.2" x2="203.2" y2="76.2" width="0.1524" layer="91"/>
-<label x="200.66" y="76.2" size="1.778" layer="95" rot="R180"/>
-<pinref part="R50" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$47" class="0">
-<segment>
-<wire x1="213.36" y1="76.2" x2="215.9" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="R50" gate="G$1" pin="1"/>
-<pinref part="FPGA" gate="G$1" pin="GPIO_120"/>
-</segment>
-</net>
 <net name="SIN12_J13" class="0">
 <segment>
 <wire x1="203.2" y1="101.6" x2="200.66" y2="101.6" width="0.1524" layer="91"/>
@@ -21212,6 +21128,90 @@ RED</text>
 <wire x1="256.54" y1="101.6" x2="254" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="R42" gate="G$1" pin="1"/>
 <pinref part="FPGA" gate="G$1" pin="GPIO_13"/>
+</segment>
+</net>
+<net name="SIN56_J7" class="0">
+<segment>
+<wire x1="266.7" y1="60.96" x2="269.24" y2="60.96" width="0.1524" layer="91"/>
+<label x="269.24" y="60.96" size="1.778" layer="95"/>
+<pinref part="R37" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$39" class="0">
+<segment>
+<wire x1="256.54" y1="60.96" x2="254" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="R37" gate="G$1" pin="2"/>
+<pinref part="FPGA" gate="G$1" pin="GPIO_131"/>
+</segment>
+</net>
+<net name="SIN78_J7" class="0">
+<segment>
+<wire x1="200.66" y1="60.96" x2="203.2" y2="60.96" width="0.1524" layer="91"/>
+<label x="200.66" y="60.96" size="1.778" layer="95" rot="R180"/>
+<pinref part="R55" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$52" class="0">
+<segment>
+<wire x1="215.9" y1="60.96" x2="213.36" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="R55" gate="G$1" pin="1"/>
+<pinref part="FPGA" gate="G$1" pin="GPIO_130"/>
+</segment>
+</net>
+<net name="SIN12_J9" class="0">
+<segment>
+<wire x1="203.2" y1="76.2" x2="200.66" y2="76.2" width="0.1524" layer="91"/>
+<label x="200.66" y="76.2" size="1.778" layer="95" rot="R180"/>
+<pinref part="R32" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$34" class="0">
+<segment>
+<wire x1="215.9" y1="76.2" x2="213.36" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="R32" gate="G$1" pin="2"/>
+<pinref part="FPGA" gate="G$1" pin="GPIO_120"/>
+</segment>
+</net>
+<net name="SIN34_J9" class="0">
+<segment>
+<wire x1="269.24" y1="76.2" x2="266.7" y2="76.2" width="0.1524" layer="91"/>
+<label x="269.24" y="76.2" size="1.778" layer="95"/>
+<pinref part="R50" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$47" class="0">
+<segment>
+<wire x1="256.54" y1="76.2" x2="254" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="R50" gate="G$1" pin="1"/>
+<pinref part="FPGA" gate="G$1" pin="GPIO_121"/>
+</segment>
+</net>
+<net name="SIN78_J9" class="0">
+<segment>
+<wire x1="269.24" y1="73.66" x2="266.7" y2="73.66" width="0.1524" layer="91"/>
+<label x="269.24" y="73.66" size="1.778" layer="95"/>
+<pinref part="R51" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$48" class="0">
+<segment>
+<wire x1="254" y1="73.66" x2="256.54" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="R51" gate="G$1" pin="1"/>
+<pinref part="FPGA" gate="G$1" pin="GPIO_123"/>
+</segment>
+</net>
+<net name="SIN56_J9" class="0">
+<segment>
+<wire x1="203.2" y1="73.66" x2="200.66" y2="73.66" width="0.1524" layer="91"/>
+<label x="200.66" y="73.66" size="1.778" layer="95" rot="R180"/>
+<pinref part="R33" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$35" class="0">
+<segment>
+<wire x1="213.36" y1="73.66" x2="215.9" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="R33" gate="G$1" pin="2"/>
+<pinref part="FPGA" gate="G$1" pin="GPIO_122"/>
 </segment>
 </net>
 </nets>
