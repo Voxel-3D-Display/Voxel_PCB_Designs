@@ -1062,86 +1062,86 @@
 <text x="-7.366" y="11.43" size="1.778" layer="94">HDMI Decoder</text>
 </symbol>
 <symbol name="FPGA">
-<pin name="GPIO_0_IN0" x="-68.58" y="25.4" length="middle"/>
-<pin name="GPIO_00" x="-30.48" y="25.4" length="middle" rot="R180"/>
-<pin name="GPIO_0_IN1" x="-68.58" y="22.86" length="middle"/>
-<pin name="GPIO_01" x="-30.48" y="22.86" length="middle" rot="R180"/>
-<pin name="GPIO_02" x="-68.58" y="20.32" length="middle"/>
-<pin name="GPIO_03" x="-30.48" y="20.32" length="middle" rot="R180"/>
-<pin name="GPIO_04" x="-68.58" y="17.78" length="middle"/>
-<pin name="GPIO_05" x="-30.48" y="17.78" length="middle" rot="R180"/>
-<pin name="GPIO_06" x="-68.58" y="15.24" length="middle"/>
-<pin name="GPIO_07" x="-30.48" y="15.24" length="middle" rot="R180"/>
-<pin name="VCC_SYS_1" x="-68.58" y="12.7" length="middle"/>
-<pin name="GND1" x="-30.48" y="12.7" length="middle" rot="R180"/>
-<pin name="GPIO_08" x="-68.58" y="10.16" length="middle"/>
-<pin name="GPIO_09" x="-30.48" y="10.16" length="middle" rot="R180"/>
-<pin name="GPIO_010" x="-68.58" y="7.62" length="middle"/>
-<pin name="GPIO_011" x="-30.48" y="7.62" length="middle" rot="R180"/>
-<pin name="GPIO_012" x="-68.58" y="5.08" length="middle"/>
-<pin name="GPIO_013" x="-30.48" y="5.08" length="middle" rot="R180"/>
-<pin name="GPIO_014" x="-68.58" y="2.54" length="middle"/>
-<pin name="GPIO_015" x="-30.48" y="2.54" length="middle" rot="R180"/>
-<pin name="GPIO_016" x="-68.58" y="0" length="middle"/>
-<pin name="GPIO_017" x="-30.48" y="0" length="middle" rot="R180"/>
-<pin name="GPIO_018" x="-68.58" y="-2.54" length="middle"/>
-<pin name="GPIO_019" x="-30.48" y="-2.54" length="middle" rot="R180"/>
-<pin name="GPIO_020" x="-68.58" y="-5.08" length="middle"/>
-<pin name="GPIO_021" x="-30.48" y="-5.08" length="middle" rot="R180"/>
-<pin name="GPIO_022" x="-68.58" y="-7.62" length="middle"/>
-<pin name="GPIO_023" x="-30.48" y="-7.62" length="middle" rot="R180"/>
-<pin name="VCC3P3_1" x="-68.58" y="-10.16" length="middle"/>
-<pin name="GND2" x="-30.48" y="-10.16" length="middle" rot="R180"/>
-<pin name="GPIO_024" x="-68.58" y="-12.7" length="middle"/>
-<pin name="GPIO_025" x="-30.48" y="-12.7" length="middle" rot="R180"/>
-<pin name="GPIO_026" x="-68.58" y="-15.24" length="middle"/>
-<pin name="GPIO_027" x="-30.48" y="-15.24" length="middle" rot="R180"/>
-<pin name="GPIO_028" x="-68.58" y="-17.78" length="middle"/>
-<pin name="GPIO_029" x="-30.48" y="-17.78" length="middle" rot="R180"/>
-<pin name="GPIO_030" x="-68.58" y="-20.32" length="middle"/>
-<pin name="GPIO_031" x="-30.48" y="-20.32" length="middle" rot="R180"/>
-<pin name="GPIO_032" x="-68.58" y="-22.86" length="middle"/>
-<pin name="GPIO_033" x="-30.48" y="-22.86" length="middle" rot="R180"/>
-<pin name="GPIO_1_IN0" x="30.48" y="25.4" length="middle"/>
-<pin name="GPIO_10" x="68.58" y="25.4" length="middle" rot="R180"/>
-<pin name="GPIO_1_IN1" x="30.48" y="22.86" length="middle"/>
-<pin name="GPIO_11" x="68.58" y="22.86" length="middle" rot="R180"/>
-<pin name="GPIO_12" x="30.48" y="20.32" length="middle"/>
-<pin name="GPIO_13" x="68.58" y="20.32" length="middle" rot="R180"/>
-<pin name="GPIO_14" x="30.48" y="17.78" length="middle"/>
-<pin name="GPIO_15" x="68.58" y="17.78" length="middle" rot="R180"/>
-<pin name="GPIO_16" x="30.48" y="15.24" length="middle"/>
-<pin name="GPIO_17" x="68.58" y="15.24" length="middle" rot="R180"/>
-<pin name="VCC_SYS_2" x="30.48" y="12.7" length="middle"/>
-<pin name="GND3" x="68.58" y="12.7" length="middle" rot="R180"/>
-<pin name="GPIO_18" x="30.48" y="10.16" length="middle"/>
-<pin name="GPIO_19" x="68.58" y="10.16" length="middle" rot="R180"/>
-<pin name="GPIO_110" x="30.48" y="7.62" length="middle"/>
-<pin name="GPIO_111" x="68.58" y="7.62" length="middle" rot="R180"/>
-<pin name="GPIO_112" x="30.48" y="5.08" length="middle"/>
-<pin name="GPIO_113" x="68.58" y="5.08" length="middle" rot="R180"/>
-<pin name="GPIO_114" x="30.48" y="2.54" length="middle"/>
-<pin name="GPIO_115" x="68.58" y="2.54" length="middle" rot="R180"/>
-<pin name="GPIO_116" x="30.48" y="0" length="middle"/>
-<pin name="GPIO_117" x="68.58" y="0" length="middle" rot="R180"/>
-<pin name="GPIO_118" x="30.48" y="-2.54" length="middle"/>
-<pin name="GPIO_119" x="68.58" y="-2.54" length="middle" rot="R180"/>
-<pin name="GPIO_120" x="30.48" y="-5.08" length="middle"/>
-<pin name="GPIO_121" x="68.58" y="-5.08" length="middle" rot="R180"/>
-<pin name="GPIO_122" x="30.48" y="-7.62" length="middle"/>
-<pin name="GPIO_123" x="68.58" y="-7.62" length="middle" rot="R180"/>
-<pin name="VCC3P3_2" x="30.48" y="-10.16" length="middle"/>
-<pin name="GND4" x="68.58" y="-10.16" length="middle" rot="R180"/>
-<pin name="GPIO_124" x="30.48" y="-12.7" length="middle"/>
-<pin name="GPIO_125" x="68.58" y="-12.7" length="middle" rot="R180"/>
-<pin name="GPIO_126" x="30.48" y="-15.24" length="middle"/>
-<pin name="GPIO_127" x="68.58" y="-15.24" length="middle" rot="R180"/>
-<pin name="GPIO_128" x="30.48" y="-17.78" length="middle"/>
-<pin name="GPIO_129" x="68.58" y="-17.78" length="middle" rot="R180"/>
-<pin name="GPIO_130" x="30.48" y="-20.32" length="middle"/>
-<pin name="GPIO_131" x="68.58" y="-20.32" length="middle" rot="R180"/>
-<pin name="GPIO_132" x="30.48" y="-22.86" length="middle"/>
-<pin name="GPIO_133" x="68.58" y="-22.86" length="middle" rot="R180"/>
+<pin name="GPIO_0_IN0" x="-53.34" y="25.4" length="middle"/>
+<pin name="GPIO_00" x="-15.24" y="25.4" length="middle" rot="R180"/>
+<pin name="GPIO_0_IN1" x="-53.34" y="22.86" length="middle"/>
+<pin name="GPIO_01" x="-15.24" y="22.86" length="middle" rot="R180"/>
+<pin name="GPIO_02" x="-53.34" y="20.32" length="middle"/>
+<pin name="GPIO_03" x="-15.24" y="20.32" length="middle" rot="R180"/>
+<pin name="GPIO_04" x="-53.34" y="17.78" length="middle"/>
+<pin name="GPIO_05" x="-15.24" y="17.78" length="middle" rot="R180"/>
+<pin name="GPIO_06" x="-53.34" y="15.24" length="middle"/>
+<pin name="GPIO_07" x="-15.24" y="15.24" length="middle" rot="R180"/>
+<pin name="VCC_SYS_1" x="-53.34" y="12.7" length="middle"/>
+<pin name="GND1" x="-15.24" y="12.7" length="middle" rot="R180"/>
+<pin name="GPIO_08" x="-53.34" y="10.16" length="middle"/>
+<pin name="GPIO_09" x="-15.24" y="10.16" length="middle" rot="R180"/>
+<pin name="GPIO_010" x="-53.34" y="7.62" length="middle"/>
+<pin name="GPIO_011" x="-15.24" y="7.62" length="middle" rot="R180"/>
+<pin name="GPIO_012" x="-53.34" y="5.08" length="middle"/>
+<pin name="GPIO_013" x="-15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="GPIO_014" x="-53.34" y="2.54" length="middle"/>
+<pin name="GPIO_015" x="-15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="GPIO_016" x="-53.34" y="0" length="middle"/>
+<pin name="GPIO_017" x="-15.24" y="0" length="middle" rot="R180"/>
+<pin name="GPIO_018" x="-53.34" y="-2.54" length="middle"/>
+<pin name="GPIO_019" x="-15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="GPIO_020" x="-53.34" y="-5.08" length="middle"/>
+<pin name="GPIO_021" x="-15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="GPIO_022" x="-53.34" y="-7.62" length="middle"/>
+<pin name="GPIO_023" x="-15.24" y="-7.62" length="middle" rot="R180"/>
+<pin name="VCC3P3_1" x="-53.34" y="-10.16" length="middle"/>
+<pin name="GND2" x="-15.24" y="-10.16" length="middle" rot="R180"/>
+<pin name="GPIO_024" x="-53.34" y="-12.7" length="middle"/>
+<pin name="GPIO_025" x="-15.24" y="-12.7" length="middle" rot="R180"/>
+<pin name="GPIO_026" x="-53.34" y="-15.24" length="middle"/>
+<pin name="GPIO_027" x="-15.24" y="-15.24" length="middle" rot="R180"/>
+<pin name="GPIO_028" x="-53.34" y="-17.78" length="middle"/>
+<pin name="GPIO_029" x="-15.24" y="-17.78" length="middle" rot="R180"/>
+<pin name="GPIO_030" x="-53.34" y="-20.32" length="middle"/>
+<pin name="GPIO_031" x="-15.24" y="-20.32" length="middle" rot="R180"/>
+<pin name="GPIO_032" x="-53.34" y="-22.86" length="middle"/>
+<pin name="GPIO_033" x="-15.24" y="-22.86" length="middle" rot="R180"/>
+<pin name="GPIO_1_IN0" x="15.24" y="25.4" length="middle"/>
+<pin name="GPIO_10" x="53.34" y="25.4" length="middle" rot="R180"/>
+<pin name="GPIO_1_IN1" x="15.24" y="22.86" length="middle"/>
+<pin name="GPIO_11" x="53.34" y="22.86" length="middle" rot="R180"/>
+<pin name="GPIO_12" x="15.24" y="20.32" length="middle"/>
+<pin name="GPIO_13" x="53.34" y="20.32" length="middle" rot="R180"/>
+<pin name="GPIO_14" x="15.24" y="17.78" length="middle"/>
+<pin name="GPIO_15" x="53.34" y="17.78" length="middle" rot="R180"/>
+<pin name="GPIO_16" x="15.24" y="15.24" length="middle"/>
+<pin name="GPIO_17" x="53.34" y="15.24" length="middle" rot="R180"/>
+<pin name="VCC_SYS_2" x="15.24" y="12.7" length="middle"/>
+<pin name="GND3" x="53.34" y="12.7" length="middle" rot="R180"/>
+<pin name="GPIO_18" x="15.24" y="10.16" length="middle"/>
+<pin name="GPIO_19" x="53.34" y="10.16" length="middle" rot="R180"/>
+<pin name="GPIO_110" x="15.24" y="7.62" length="middle"/>
+<pin name="GPIO_111" x="53.34" y="7.62" length="middle" rot="R180"/>
+<pin name="GPIO_112" x="15.24" y="5.08" length="middle"/>
+<pin name="GPIO_113" x="53.34" y="5.08" length="middle" rot="R180"/>
+<pin name="GPIO_114" x="15.24" y="2.54" length="middle"/>
+<pin name="GPIO_115" x="53.34" y="2.54" length="middle" rot="R180"/>
+<pin name="GPIO_116" x="15.24" y="0" length="middle"/>
+<pin name="GPIO_117" x="53.34" y="0" length="middle" rot="R180"/>
+<pin name="GPIO_118" x="15.24" y="-2.54" length="middle"/>
+<pin name="GPIO_119" x="53.34" y="-2.54" length="middle" rot="R180"/>
+<pin name="GPIO_120" x="15.24" y="-5.08" length="middle"/>
+<pin name="GPIO_121" x="53.34" y="-5.08" length="middle" rot="R180"/>
+<pin name="GPIO_122" x="15.24" y="-7.62" length="middle"/>
+<pin name="GPIO_123" x="53.34" y="-7.62" length="middle" rot="R180"/>
+<pin name="VCC3P3_2" x="15.24" y="-10.16" length="middle"/>
+<pin name="GND4" x="53.34" y="-10.16" length="middle" rot="R180"/>
+<pin name="GPIO_124" x="15.24" y="-12.7" length="middle"/>
+<pin name="GPIO_125" x="53.34" y="-12.7" length="middle" rot="R180"/>
+<pin name="GPIO_126" x="15.24" y="-15.24" length="middle"/>
+<pin name="GPIO_127" x="53.34" y="-15.24" length="middle" rot="R180"/>
+<pin name="GPIO_128" x="15.24" y="-17.78" length="middle"/>
+<pin name="GPIO_129" x="53.34" y="-17.78" length="middle" rot="R180"/>
+<pin name="GPIO_130" x="15.24" y="-20.32" length="middle"/>
+<pin name="GPIO_131" x="53.34" y="-20.32" length="middle" rot="R180"/>
+<pin name="GPIO_132" x="15.24" y="-22.86" length="middle"/>
+<pin name="GPIO_133" x="53.34" y="-22.86" length="middle" rot="R180"/>
 <pin name="GPIO_2_IN0" x="-20.32" y="-40.64" length="middle"/>
 <pin name="VCC3P3_3" x="22.86" y="-40.64" length="middle" rot="R180"/>
 <pin name="GPIO_3_IN2" x="-20.32" y="-43.18" length="middle"/>
@@ -1168,14 +1168,14 @@
 <pin name="ANALOG_IN4" x="22.86" y="-68.58" length="middle" rot="R180"/>
 <pin name="GND5" x="-20.32" y="-71.12" length="middle"/>
 <pin name="ANALOG_IN1" x="22.86" y="-71.12" length="middle" rot="R180"/>
-<wire x1="-63.5" y1="27.94" x2="-63.5" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="-63.5" y1="-25.4" x2="-35.56" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="-35.56" y1="-25.4" x2="-35.56" y2="27.94" width="0.254" layer="94"/>
-<wire x1="-35.56" y1="27.94" x2="-63.5" y2="27.94" width="0.254" layer="94"/>
-<wire x1="35.56" y1="27.94" x2="35.56" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="35.56" y1="-25.4" x2="63.5" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="63.5" y1="-25.4" x2="63.5" y2="27.94" width="0.254" layer="94"/>
-<wire x1="63.5" y1="27.94" x2="35.56" y2="27.94" width="0.254" layer="94"/>
+<wire x1="-48.26" y1="27.94" x2="-48.26" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-48.26" y1="-25.4" x2="-20.32" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-25.4" x2="-20.32" y2="27.94" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="27.94" x2="-48.26" y2="27.94" width="0.254" layer="94"/>
+<wire x1="20.32" y1="27.94" x2="20.32" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-25.4" x2="48.26" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="48.26" y1="-25.4" x2="48.26" y2="27.94" width="0.254" layer="94"/>
+<wire x1="48.26" y1="27.94" x2="20.32" y2="27.94" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="-38.1" x2="-15.24" y2="-73.66" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="-73.66" x2="17.78" y2="-73.66" width="0.254" layer="94"/>
 <wire x1="17.78" y1="-73.66" x2="17.78" y2="-38.1" width="0.254" layer="94"/>
