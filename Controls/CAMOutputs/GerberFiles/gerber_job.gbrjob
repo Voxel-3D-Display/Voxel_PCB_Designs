@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2022-03-18T19:48:05Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.5.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "SpinningControls"
+        },
+        "Owner": "Marcus Chan <mchan79@gatech.edu>",
+        "Size": {
+            "X": 209.55,
+            "Y": 107.95
+        }
+    }
+}
