@@ -28,7 +28,7 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
@@ -57,7 +57,7 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
@@ -130,13 +130,13 @@
 <pad name="6" x="-5.9944" y="2.9972" drill="1.016" diameter="1.524"/>
 <pad name="M1" x="2.9972" y="3.937" drill="1.016" diameter="1.016"/>
 <pad name="M2" x="-8.9916" y="3.937" drill="1.016" diameter="1.016"/>
-<wire x1="3.8354" y1="0" x2="5.3594" y2="0.635" width="0.1524" layer="52"/>
-<wire x1="5.3594" y1="0.635" x2="5.3594" y2="-0.635" width="0.1524" layer="52"/>
-<wire x1="5.3594" y1="-0.635" x2="3.8354" y2="0" width="0.1524" layer="52"/>
-<wire x1="-9.5758" y1="-2.4638" x2="3.5814" y2="-2.4638" width="0.1524" layer="52"/>
-<wire x1="3.5814" y1="-2.4638" x2="3.5814" y2="6.2992" width="0.1524" layer="52"/>
-<wire x1="3.5814" y1="6.2992" x2="-9.5758" y2="6.2992" width="0.1524" layer="52"/>
-<wire x1="-9.5758" y1="6.2992" x2="-9.5758" y2="-2.4638" width="0.1524" layer="52"/>
+<wire x1="3.8354" y1="0" x2="5.3594" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="5.3594" y1="0.635" x2="5.3594" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="5.3594" y1="-0.635" x2="3.8354" y2="0" width="0.1524" layer="51"/>
+<wire x1="-9.5758" y1="-2.4638" x2="3.5814" y2="-2.4638" width="0.1524" layer="51"/>
+<wire x1="3.5814" y1="-2.4638" x2="3.5814" y2="6.2992" width="0.1524" layer="51"/>
+<wire x1="3.5814" y1="6.2992" x2="-9.5758" y2="6.2992" width="0.1524" layer="51"/>
+<wire x1="-9.5758" y1="6.2992" x2="-9.5758" y2="-2.4638" width="0.1524" layer="51"/>
 <wire x1="3.8354" y1="0" x2="5.3594" y2="0.635" width="0.1524" layer="22"/>
 <wire x1="5.3594" y1="0.635" x2="5.3594" y2="-0.635" width="0.1524" layer="22"/>
 <wire x1="5.3594" y1="-0.635" x2="3.8354" y2="0" width="0.1524" layer="22"/>

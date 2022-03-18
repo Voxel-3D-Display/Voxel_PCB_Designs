@@ -199,7 +199,7 @@
 <hole x="133.35" y="2.54" drill="7.62"/>
 <text x="167.64" y="0" size="2.54" layer="51">Voxel
 Control Board
-v1</text>
+v2</text>
 <text x="59.309" y="46.99" size="0.889" layer="21">R22-R56 (50Ω)</text>
 <text x="92.964" y="6.731" size="0.889" layer="21" rot="R180">R6-R21 (50Ω)</text>
 <text x="1.397" y="50.8" size="1.27" layer="21">SIN</text>
@@ -230,13 +230,13 @@ v1</text>
 <text x="194.437" y="90.551" size="1.27" layer="22" rot="R270">ENCODER</text>
 <text x="194.437" y="75.311" size="1.27" layer="22" rot="R270">ENCODER0</text>
 <text x="198.12" y="12.7" size="1.27" layer="22" rot="R90">5V (FPGA)</text>
-<text x="112.903" y="3.937" size="1.27" layer="21" rot="R270">JP1
+<text x="112.903" y="3.937" size="1.27" layer="22" rot="R270">JP1
 GPIO0</text>
-<circle x="111.125" y="3.81" radius="0.179603125" width="0.1524" layer="21"/>
-<text x="52.959" y="39.243" size="1.27" layer="21">JP0</text>
-<circle x="58.039" y="6.985" radius="0.179603125" width="0.1524" layer="21"/>
-<circle x="61.214" y="46.101" radius="0.179603125" width="0.1524" layer="21"/>
-<text x="101.981" y="39.751" size="1.27" layer="21">JP2    GPIO1</text>
+<circle x="111.125" y="3.81" radius="0.179603125" width="0.1524" layer="22"/>
+<text x="52.959" y="39.243" size="1.27" layer="22">JP0</text>
+<circle x="58.039" y="6.985" radius="0.179603125" width="0.1524" layer="22"/>
+<circle x="61.214" y="46.101" radius="0.179603125" width="0.1524" layer="22"/>
+<text x="101.981" y="39.751" size="1.27" layer="22">JP2    GPIO1</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">

@@ -226,7 +226,7 @@ v1</text>
 <wire x1="184.658" y1="52.451" x2="171.958" y2="52.451" width="0.1524" layer="21"/>
 <text x="189.103" y="50.8" size="1.27" layer="21">SIN</text>
 <wire x1="201.676" y1="52.451" x2="188.976" y2="52.451" width="0.1524" layer="21"/>
-<text x="93.98" y="91.44" size="1.27" layer="21" rot="R90">24V</text>
+<text x="93.98" y="91.44" size="1.27" layer="22" rot="R90">24V</text>
 <text x="194.437" y="90.551" size="1.27" layer="22" rot="R270">ENCODER</text>
 <text x="194.437" y="75.311" size="1.27" layer="22" rot="R270">ENCODER0</text>
 <text x="198.12" y="12.7" size="1.27" layer="22" rot="R90">5V (FPGA)</text>

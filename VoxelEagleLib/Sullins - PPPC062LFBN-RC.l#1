@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9,24 +9,24 @@
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="4" name="tKeepout" color="0" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="4" name="tKeepout" color="0" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="1" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="1" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="1" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="1" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="0" fill="1" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="1" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="4" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="0" fill="1" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
@@ -43,16 +43,16 @@ Created by Upverter.com</description>
 <packages>
 <package name="SULLINS_PPPC062LFBN-RC_0">
 <description>12 Position Header Connector 0.100" (2.54mm) Through Hole Gold</description>
-<wire x1="-8.045" y1="-2.615" x2="-8.045" y2="2.615" width="0.15" layer="52"/>
-<wire x1="-8.045" y1="2.615" x2="8.045" y2="2.615" width="0.15" layer="52"/>
-<wire x1="8.045" y1="2.615" x2="8.045" y2="-2.615" width="0.15" layer="52"/>
-<wire x1="8.045" y1="-2.615" x2="-8.045" y2="-2.615" width="0.15" layer="52"/>
-<wire x1="-8.045" y1="2.615" x2="8.045" y2="2.615" width="0.15" layer="22"/>
-<wire x1="8.045" y1="-2.615" x2="8.045" y2="2.615" width="0.15" layer="22"/>
-<wire x1="-8.045" y1="-2.615" x2="8.045" y2="-2.615" width="0.15" layer="22"/>
-<wire x1="-8.045" y1="-2.615" x2="-8.045" y2="2.615" width="0.15" layer="22"/>
-<text x="7.93" y="2.94" size="1" layer="26" rot="MR0">&gt;NAME</text>
-<circle x="-6.894" y="-3.048" radius="0.25" width="0" layer="22"/>
+<wire x1="-8.045" y1="-2.615" x2="-8.045" y2="2.615" width="0.15" layer="51"/>
+<wire x1="-8.045" y1="2.615" x2="8.045" y2="2.615" width="0.15" layer="51"/>
+<wire x1="8.045" y1="2.615" x2="8.045" y2="-2.615" width="0.15" layer="51"/>
+<wire x1="8.045" y1="-2.615" x2="-8.045" y2="-2.615" width="0.15" layer="51"/>
+<wire x1="-8.045" y1="2.615" x2="8.045" y2="2.615" width="0.15" layer="21"/>
+<wire x1="8.045" y1="-2.615" x2="8.045" y2="2.615" width="0.15" layer="21"/>
+<wire x1="-8.045" y1="-2.615" x2="8.045" y2="-2.615" width="0.15" layer="21"/>
+<wire x1="-8.045" y1="-2.615" x2="-8.045" y2="2.615" width="0.15" layer="21"/>
+<text x="-7.945" y="2.94" size="1" layer="25">&gt;NAME</text>
+<circle x="-6.894" y="-3.048" radius="0.25" width="0" layer="21"/>
 <pad name="1" x="-6.35" y="-1.27" drill="1.02" diameter="1.57" shape="square"/>
 <pad name="3" x="-3.81" y="-1.27" drill="1.02" diameter="1.57"/>
 <pad name="5" x="-1.27" y="-1.27" drill="1.02" diameter="1.57"/>
