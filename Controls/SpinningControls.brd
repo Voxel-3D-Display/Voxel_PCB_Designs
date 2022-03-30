@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -233,7 +233,7 @@ v2</text>
 <text x="112.903" y="3.937" size="1.27" layer="22" rot="R270">JP1
 GPIO0</text>
 <circle x="111.125" y="3.81" radius="0.179603125" width="0.1524" layer="22"/>
-<text x="52.959" y="39.243" size="1.27" layer="22">JP0</text>
+<text x="52.959" y="39.243" size="1.27" layer="22">JP3</text>
 <circle x="58.039" y="6.985" radius="0.179603125" width="0.1524" layer="22"/>
 <circle x="61.214" y="46.101" radius="0.179603125" width="0.1524" layer="22"/>
 <text x="101.981" y="39.751" size="1.27" layer="22">JP2    GPIO1</text>

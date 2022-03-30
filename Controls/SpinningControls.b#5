@@ -236,6 +236,7 @@ GPIO0</text>
 <text x="52.959" y="39.243" size="1.27" layer="21">JP0</text>
 <circle x="58.039" y="6.985" radius="0.179603125" width="0.1524" layer="21"/>
 <circle x="61.214" y="46.101" radius="0.179603125" width="0.1524" layer="21"/>
+<text x="101.981" y="39.751" size="1.27" layer="21">JP2    GPIO1</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
