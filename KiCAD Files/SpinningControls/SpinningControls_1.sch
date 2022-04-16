@@ -1,0 +1,2133 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 16351 9751
+encoding utf-8
+Sheet 1 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2000 1400 1800 1400
+Text Label 1800 1400 2    70   ~ 0
+24V
+Wire Wire Line
+	2000 2100 1800 2100
+Text Label 1800 2100 2    70   ~ 0
+24V
+Wire Wire Line
+	7170 3190 7370 3190
+Text Label 7270 3190 0    70   ~ 0
+24V
+Wire Wire Line
+	1600 3300 1600 3500
+Wire Wire Line
+	1600 3500 1900 3500
+Wire Wire Line
+	1900 3500 1900 3400
+Wire Wire Line
+	1900 3500 2000 3500
+Connection ~ 1900 3500
+Text GLabel 2000 3500 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	13300 5400 12400 5400
+Wire Wire Line
+	12400 5400 12400 6200
+Wire Wire Line
+	12400 6200 12400 6900
+Wire Wire Line
+	12400 6900 13300 6900
+Wire Wire Line
+	13300 6200 12400 6200
+Wire Wire Line
+	12400 6900 12400 7200
+Wire Wire Line
+	12400 7200 12800 7200
+Connection ~ 12400 6200
+Connection ~ 12400 6900
+Text GLabel 12600 7200 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	2000 1500 1900 1500
+Wire Wire Line
+	1900 1500 1900 1600
+Wire Wire Line
+	1900 1600 1800 1600
+Text GLabel 1800 1600 0    70   BiDi ~ 0
+GND
+Wire Wire Line
+	2000 2200 1900 2200
+Wire Wire Line
+	1900 2200 1900 2300
+Wire Wire Line
+	1900 2300 1800 2300
+Text GLabel 1800 2300 0    70   BiDi ~ 0
+GND
+Wire Wire Line
+	3290 3100 3600 3100
+Wire Wire Line
+	3700 3200 3600 3200
+Wire Wire Line
+	3600 3200 3600 3100
+Connection ~ 3600 3100
+Text GLabel 3700 3200 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	10500 1500 10800 1500
+Wire Wire Line
+	10800 1500 10800 1400
+Wire Wire Line
+	10800 1400 10900 1400
+Text GLabel 10900 1400 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	7170 3290 7370 3290
+Text GLabel 7270 3290 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	1600 7300 1700 7300
+Text GLabel 1700 7300 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	10600 7900 10700 7900
+Text GLabel 10700 7900 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	13600 3100 14300 3100
+Text GLabel 14100 3100 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	13600 2800 13700 2800
+Wire Wire Line
+	13700 2800 13700 2500
+Wire Wire Line
+	13700 2500 13900 2500
+Wire Wire Line
+	13900 2500 14300 2500
+Connection ~ 13900 2500
+Text GLabel 14100 2500 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	13600 2000 14300 2000
+Text GLabel 14100 2000 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	13600 1700 13700 1700
+Wire Wire Line
+	13700 1700 13700 1400
+Wire Wire Line
+	13700 1400 13900 1400
+Wire Wire Line
+	13900 1400 14300 1400
+Connection ~ 13900 1400
+Text GLabel 14100 1400 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	7170 3090 7370 3090
+Text GLabel 7270 3090 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	8600 1700 8400 1700
+Text GLabel 8400 1700 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	8600 2500 8400 2500
+Text GLabel 8400 2500 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	8600 3200 8400 3200
+Text GLabel 8400 3200 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	10500 2900 10700 2900
+Text GLabel 10500 2900 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	10500 2700 10700 2700
+Text GLabel 10500 2700 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	10500 2200 10700 2200
+Text GLabel 10500 2200 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	10500 1900 10700 1900
+Text GLabel 10500 1900 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	13100 7900 13500 7900
+Wire Wire Line
+	13500 7900 14000 7900
+Wire Wire Line
+	14000 7900 14400 7900
+Wire Wire Line
+	14400 7900 14800 7900
+Wire Wire Line
+	14800 7900 15300 7900
+Wire Wire Line
+	12700 7900 13100 7900
+Connection ~ 13100 7900
+Connection ~ 14000 7900
+Connection ~ 14400 7900
+Connection ~ 13500 7900
+Connection ~ 14800 7900
+Text GLabel 15100 7900 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	5770 1990 5870 1990
+Wire Wire Line
+	5870 1990 5970 1990
+Wire Wire Line
+	5870 1990 5870 2180
+Wire Wire Line
+	5870 2180 6280 2180
+Text GLabel 5770 1990 2    70   BiDi ~ 0
+GND
+Connection ~ 5870 1990
+Wire Wire Line
+	5570 2890 6070 2890
+Text GLabel 5740 2890 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	5670 3490 5970 3490
+Text GLabel 5770 3490 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	3000 1300 3200 1300
+Text GLabel 3200 1300 2    70   BiDi ~ 0
+3V3_LED
+Wire Wire Line
+	3000 2000 3200 2000
+Text Label 3200 2000 0    70   ~ 0
+5V
+Wire Wire Line
+	1990 2900 1900 2900
+Wire Wire Line
+	1900 2900 1900 2800
+Wire Wire Line
+	1900 2800 1990 2800
+Wire Wire Line
+	1900 2900 1600 2900
+Wire Wire Line
+	1600 2900 1600 3000
+Wire Wire Line
+	1600 2900 1500 2900
+Connection ~ 1900 2900
+Connection ~ 1600 2900
+Text Label 1500 2900 2    70   ~ 0
+5V
+Wire Wire Line
+	10500 1300 10700 1300
+Wire Wire Line
+	10500 1400 10700 1400
+Wire Wire Line
+	10700 1300 10700 1400
+Wire Wire Line
+	10700 1300 10700 1200
+Wire Wire Line
+	10700 1200 10900 1200
+Connection ~ 10700 1300
+Text Label 10900 1200 0    70   ~ 0
+5V
+Wire Wire Line
+	1600 7200 1700 7200
+Text Label 1700 7200 0    70   ~ 0
+5V
+Wire Wire Line
+	10600 7800 10700 7800
+Text Label 10700 7800 0    70   ~ 0
+5V
+Wire Wire Line
+	14100 3200 14300 3200
+Text Label 14100 3200 0    70   ~ 0
+5V
+Wire Wire Line
+	13600 3000 14300 3000
+Text Label 14100 3000 0    70   ~ 0
+5V
+Wire Wire Line
+	14100 2100 14300 2100
+Text Label 14100 2100 0    70   ~ 0
+5V
+Wire Wire Line
+	13600 1900 14300 1900
+Text Label 14100 1900 0    70   ~ 0
+5V
+Wire Wire Line
+	7070 1390 7270 1390
+Text Label 7270 1390 0    70   ~ 0
+5V
+Wire Wire Line
+	6070 2590 6370 2590
+Text Label 6170 2590 0    70   ~ 0
+5V
+Wire Wire Line
+	1900 3100 1990 3100
+Wire Wire Line
+	3290 2800 3600 2800
+Wire Wire Line
+	3600 2800 3600 2700
+Wire Wire Line
+	3600 2700 3700 2700
+Connection ~ 3600 2800
+Text GLabel 3700 2700 2    70   BiDi ~ 0
+3V3_LOGIC
+Wire Wire Line
+	14400 5300 15200 5300
+Wire Wire Line
+	15200 5300 15200 6100
+Wire Wire Line
+	15200 6100 15200 6800
+Wire Wire Line
+	15200 6800 14400 6800
+Wire Wire Line
+	14400 6100 15200 6100
+Connection ~ 15200 6100
+Text GLabel 14500 5300 2    70   BiDi ~ 0
+3V3_LOGIC
+Wire Wire Line
+	13100 7600 13500 7600
+Wire Wire Line
+	13500 7600 14000 7600
+Wire Wire Line
+	14000 7600 14400 7600
+Wire Wire Line
+	14400 7600 14800 7600
+Wire Wire Line
+	14800 7600 15300 7600
+Wire Wire Line
+	12700 7600 13100 7600
+Connection ~ 13100 7600
+Connection ~ 14000 7600
+Connection ~ 14400 7600
+Connection ~ 13500 7600
+Connection ~ 14800 7600
+Text GLabel 14800 7600 2    70   BiDi ~ 0
+3V3_LOGIC
+Wire Wire Line
+	5970 1390 5770 1390
+Text GLabel 5770 1390 2    70   BiDi ~ 0
+3V3_LOGIC
+Wire Wire Line
+	7070 1990 7170 1990
+Wire Wire Line
+	7170 1990 7270 1990
+Wire Wire Line
+	6680 2180 7170 2180
+Wire Wire Line
+	7170 2180 7170 1990
+Text GLabel 7170 1990 2    70   BiDi ~ 0
+3V3_LOGIC
+Connection ~ 7170 1990
+Wire Wire Line
+	5570 2590 5870 2590
+Text GLabel 5570 2590 2    70   BiDi ~ 0
+3V3_LOGIC
+Wire Wire Line
+	10500 1600 10900 1600
+Text Label 10900 1600 0    70   ~ 0
+PI_TX
+Wire Wire Line
+	5770 1590 5970 1590
+Text Label 5770 1590 0    70   ~ 0
+PI_TX
+Wire Wire Line
+	10500 1700 10700 1700
+Wire Wire Line
+	10700 1700 10700 1800
+Wire Wire Line
+	10700 1800 10900 1800
+Text Label 10900 1800 0    70   ~ 0
+PI_RX
+Wire Wire Line
+	5770 1690 5970 1690
+Text Label 5770 1690 0    70   ~ 0
+PI_RX
+Wire Wire Line
+	14400 5200 14500 5200
+Text GLabel 14500 5200 2    70   BiDi ~ 0
+LAT
+Wire Wire Line
+	13300 6100 13200 6100
+Text Label 13200 6100 2    70   ~ 0
+SCLK_FPGA
+Wire Wire Line
+	11200 6600 11300 6600
+Text Label 11300 6600 0    70   ~ 0
+SCLK_FPGA
+Wire Wire Line
+	13300 6800 13200 6800
+Text Label 13200 6800 2    70   ~ 0
+GSCLK_FPGA
+Wire Wire Line
+	4800 6600 4700 6600
+Text Label 4700 6600 2    70   ~ 0
+GSCLK_FPGA
+Wire Wire Line
+	14400 6000 14500 6000
+Text GLabel 14500 6000 2    70   BiDi ~ 0
+SCLK
+Wire Wire Line
+	14400 6700 14500 6700
+Text GLabel 14500 6700 2    70   BiDi ~ 0
+GSCLK
+Wire Wire Line
+	13300 5300 13200 5300
+Text Label 13200 5300 2    70   ~ 0
+LAT_FPGA
+Wire Wire Line
+	8700 6600 8600 6600
+Text Label 8600 6600 2    70   ~ 0
+LAT_FPGA
+Wire Wire Line
+	13600 2900 13900 2900
+Wire Wire Line
+	13900 2900 14300 2900
+Text Label 14100 2900 0    70   ~ 0
+ENC_POS
+Connection ~ 13900 2900
+Wire Wire Line
+	5770 1790 5970 1790
+Text Label 5770 1790 0    70   ~ 0
+ENC_POS
+Wire Wire Line
+	5300 4800 4700 4800
+Text Label 4700 4800 2    70   ~ 0
+ENC_POS
+Wire Wire Line
+	2960 5100 2900 5100
+Text Label 2960 5100 0    70   ~ 0
+R1
+Wire Wire Line
+	7360 6600 6800 6600
+Text Label 7360 6600 0    70   ~ 0
+R1
+Wire Wire Line
+	2960 5300 2900 5300
+Text Label 2960 5300 0    70   ~ 0
+R3
+Wire Wire Line
+	7360 6400 6800 6400
+Text Label 7360 6400 0    70   ~ 0
+R3
+Wire Wire Line
+	2960 5500 2900 5500
+Text Label 2960 5500 0    70   ~ 0
+R5
+Wire Wire Line
+	7360 6200 6800 6200
+Text Label 7360 6200 0    70   ~ 0
+R5
+Wire Wire Line
+	2960 5700 2900 5700
+Text Label 2960 5700 0    70   ~ 0
+R7
+Wire Wire Line
+	7360 5900 6800 5900
+Text Label 7360 5900 0    70   ~ 0
+R7
+Wire Wire Line
+	2960 5200 2900 5200
+Text Label 2960 5200 0    70   ~ 0
+R2
+Wire Wire Line
+	7360 6500 6800 6500
+Text Label 7360 6500 0    70   ~ 0
+R2
+Wire Wire Line
+	2960 5400 2900 5400
+Text Label 2960 5400 0    70   ~ 0
+R4
+Wire Wire Line
+	7360 6300 6800 6300
+Text Label 7360 6300 0    70   ~ 0
+R4
+Wire Wire Line
+	2960 5600 2900 5600
+Text Label 2960 5600 0    70   ~ 0
+R6
+Wire Wire Line
+	7360 6000 6800 6000
+Text Label 7360 6000 0    70   ~ 0
+R6
+Wire Wire Line
+	2960 5800 2900 5800
+Text Label 2960 5800 0    70   ~ 0
+R8
+Wire Wire Line
+	7360 5800 6800 5800
+Text Label 7360 5800 0    70   ~ 0
+R8
+Wire Wire Line
+	2960 5900 2900 5900
+Text Label 2960 5900 0    70   ~ 0
+G1
+Wire Wire Line
+	7360 5700 6800 5700
+Text Label 7360 5700 0    70   ~ 0
+G1
+Wire Wire Line
+	2960 6100 2900 6100
+Text Label 2960 6100 0    70   ~ 0
+G3
+Wire Wire Line
+	7360 5500 6800 5500
+Text Label 7360 5500 0    70   ~ 0
+G3
+Wire Wire Line
+	2960 6300 2900 6300
+Text Label 2960 6300 0    70   ~ 0
+G5
+Wire Wire Line
+	7360 5300 6800 5300
+Text Label 7360 5300 0    70   ~ 0
+G5
+Wire Wire Line
+	2960 6500 2900 6500
+Text Label 2960 6500 0    70   ~ 0
+G7
+Wire Wire Line
+	8900 7400 8960 7400
+Text Label 8960 7400 2    70   ~ 0
+G7
+Wire Wire Line
+	2960 6700 2900 6700
+Text Label 2960 6700 0    70   ~ 0
+B1
+Wire Wire Line
+	8900 7500 8960 7500
+Text Label 8960 7500 2    70   ~ 0
+B1
+Wire Wire Line
+	2960 6900 2900 6900
+Text Label 2960 6900 0    70   ~ 0
+B3
+Wire Wire Line
+	8900 7600 8960 7600
+Text Label 8960 7600 2    70   ~ 0
+B3
+Wire Wire Line
+	2960 7100 2900 7100
+Text Label 2960 7100 0    70   ~ 0
+B5
+Wire Wire Line
+	8900 7700 8960 7700
+Text Label 8960 7700 2    70   ~ 0
+B5
+Wire Wire Line
+	2960 7300 2900 7300
+Text Label 2960 7300 0    70   ~ 0
+B7
+Wire Wire Line
+	8900 7800 8960 7800
+Text Label 8960 7800 2    70   ~ 0
+B7
+Wire Wire Line
+	2960 6000 2900 6000
+Text Label 2960 6000 0    70   ~ 0
+G2
+Wire Wire Line
+	7360 5600 6800 5600
+Text Label 7360 5600 0    70   ~ 0
+G2
+Wire Wire Line
+	2960 6200 2900 6200
+Text Label 2960 6200 0    70   ~ 0
+G4
+Wire Wire Line
+	7360 5400 6800 5400
+Text Label 7360 5400 0    70   ~ 0
+G4
+Wire Wire Line
+	2960 6400 2900 6400
+Text Label 2960 6400 0    70   ~ 0
+G6
+Wire Wire Line
+	7200 7300 7160 7300
+Text Label 7160 7300 2    70   ~ 0
+G6
+Wire Wire Line
+	2960 6600 2900 6600
+Text Label 2960 6600 0    70   ~ 0
+G8
+Wire Wire Line
+	7200 7400 7160 7400
+Text Label 7160 7400 2    70   ~ 0
+G8
+Wire Wire Line
+	2960 6800 2900 6800
+Text Label 2960 6800 0    70   ~ 0
+B2
+Wire Wire Line
+	7200 7500 7160 7500
+Text Label 7160 7500 2    70   ~ 0
+B2
+Wire Wire Line
+	2960 7000 2900 7000
+Text Label 2960 7000 0    70   ~ 0
+B4
+Wire Wire Line
+	7200 7600 7160 7600
+Text Label 7160 7600 2    70   ~ 0
+B4
+Wire Wire Line
+	2960 7200 2900 7200
+Text Label 2960 7200 0    70   ~ 0
+B6
+Wire Wire Line
+	7200 7700 7160 7700
+Text Label 7160 7700 2    70   ~ 0
+B6
+Wire Wire Line
+	2960 7400 2900 7400
+Text Label 2960 7400 0    70   ~ 0
+B8
+Wire Wire Line
+	7200 7800 7160 7800
+Text Label 7160 7800 2    70   ~ 0
+B8
+Wire Wire Line
+	2960 7600 2900 7600
+Text Label 2960 7600 0    70   ~ 0
+PIXCLK
+Wire Wire Line
+	8900 7900 8940 7900
+Text Label 8940 7900 0    70   ~ 0
+PIXCLK
+Wire Wire Line
+	2960 7700 2900 7700
+Text Label 2960 7700 0    70   ~ 0
+ACTIVE
+Wire Wire Line
+	7200 7900 7140 7900
+Text Label 7140 7900 0    70   ~ 0
+ACTIVE
+Wire Wire Line
+	2960 7900 2900 7900
+Text Label 2960 7900 0    70   ~ 0
+VSYNC
+Wire Wire Line
+	7200 8000 7140 8000
+Text Label 7140 8000 0    70   ~ 0
+VSYNC
+Wire Wire Line
+	2960 7800 2900 7800
+Text Label 2960 7800 0    70   ~ 0
+HSYNC
+Wire Wire Line
+	8900 8000 8940 8000
+Text Label 8940 8000 0    70   ~ 0
+HSYNC
+Wire Wire Line
+	2960 8000 2900 8000
+Text Label 2960 8000 0    70   ~ 0
+DISPEN
+Wire Wire Line
+	8960 8100 8900 8100
+Text Label 8960 8100 0    70   ~ 0
+DISPEN
+Wire Wire Line
+	13600 3200 13700 3200
+Wire Wire Line
+	13600 2100 13700 2100
+Wire Wire Line
+	13600 1800 13900 1800
+Wire Wire Line
+	13900 1800 14300 1800
+Text Label 14100 1800 0    70   ~ 0
+ENC_POS0
+Connection ~ 13900 1800
+Wire Wire Line
+	5300 4700 4700 4700
+Text Label 4700 4700 2    70   ~ 0
+ENC_POS0
+Wire Wire Line
+	4700 4900 4800 4900
+Text GLabel 4700 4900 0    70   BiDi ~ 0
+SIN78_J3
+Wire Wire Line
+	4800 5100 4700 5100
+Text GLabel 4700 5100 0    70   BiDi ~ 0
+SIN34_J3
+Wire Wire Line
+	4700 5000 4800 5000
+Text GLabel 4700 5000 0    70   BiDi ~ 0
+SIN56_J3
+Wire Wire Line
+	4800 5300 4700 5300
+Text GLabel 4700 5300 0    70   BiDi ~ 0
+SIN78_J4
+Wire Wire Line
+	4800 5500 4700 5500
+Text GLabel 4700 5500 0    70   BiDi ~ 0
+SIN34_J4
+Wire Wire Line
+	4800 5400 4700 5400
+Text GLabel 4700 5400 0    70   BiDi ~ 0
+SIN56_J4
+Wire Wire Line
+	4800 5600 4700 5600
+Text GLabel 4700 5600 0    70   BiDi ~ 0
+SIN12_J4
+Wire Wire Line
+	4800 5700 4700 5700
+Text GLabel 4700 5700 0    70   BiDi ~ 0
+SIN78_J5
+Wire Wire Line
+	4800 5900 4700 5900
+Text GLabel 4700 5900 0    70   BiDi ~ 0
+SIN34_J5
+Wire Wire Line
+	4800 5800 4700 5800
+Text GLabel 4700 5800 0    70   BiDi ~ 0
+SIN56_J5
+Wire Wire Line
+	4800 6000 4700 6000
+Text GLabel 4700 6000 0    70   BiDi ~ 0
+SIN12_J5
+Wire Wire Line
+	4800 6200 4700 6200
+Text GLabel 4700 6200 0    70   BiDi ~ 0
+SIN78_J6
+Wire Wire Line
+	4800 6400 4700 6400
+Text GLabel 4700 6400 0    70   BiDi ~ 0
+SIN34_J6
+Wire Wire Line
+	4800 6300 4700 6300
+Text GLabel 4700 6300 0    70   BiDi ~ 0
+SIN56_J6
+Wire Wire Line
+	4800 6500 4700 6500
+Text GLabel 4700 6500 0    70   BiDi ~ 0
+SIN12_J6
+Wire Wire Line
+	5200 4900 5300 4900
+Wire Wire Line
+	5200 5000 5300 5000
+Wire Wire Line
+	5200 5100 5300 5100
+Wire Wire Line
+	5200 5300 5300 5300
+Wire Wire Line
+	5200 5400 5300 5400
+Wire Wire Line
+	5200 5500 5300 5500
+Wire Wire Line
+	5200 5600 5300 5600
+Wire Wire Line
+	5200 5700 5300 5700
+Wire Wire Line
+	5200 5800 5300 5800
+Wire Wire Line
+	5200 5900 5300 5900
+Wire Wire Line
+	5200 6000 5300 6000
+Wire Wire Line
+	5200 6200 5300 6200
+Wire Wire Line
+	5200 6300 5300 6300
+Wire Wire Line
+	5200 6400 5300 6400
+Wire Wire Line
+	5200 6500 5300 6500
+Wire Wire Line
+	7070 1590 7270 1590
+Text Label 7170 1590 0    70   ~ 0
+PI_TX_SR
+Wire Wire Line
+	7170 2790 7370 2790
+Text Label 7270 2790 0    70   ~ 0
+PI_TX_SR
+Wire Wire Line
+	7070 1690 7270 1690
+Text Label 7170 1690 0    70   ~ 0
+PI_RX_SR
+Wire Wire Line
+	7170 2890 7370 2890
+Text Label 7270 2890 0    70   ~ 0
+PI_RX_SR
+Wire Wire Line
+	5670 3190 5970 3190
+Text Label 5770 3190 0    70   ~ 0
+PI_RX_SR
+Wire Wire Line
+	7070 1790 7270 1790
+Text Label 7170 1790 0    70   ~ 0
+ENC_POS_SR
+Wire Wire Line
+	7170 2990 7370 2990
+Text Label 7270 2990 0    70   ~ 0
+ENC_POS_SR
+Wire Wire Line
+	7400 5100 7300 5100
+Text GLabel 7300 5100 2    70   BiDi ~ 0
+SIN12_J3
+Wire Wire Line
+	6900 5100 6800 5100
+Wire Wire Line
+	8700 6400 8600 6400
+Text GLabel 8600 6400 0    70   BiDi ~ 0
+SIN12_J7
+Wire Wire Line
+	8700 6300 8600 6300
+Text GLabel 8600 6300 0    70   BiDi ~ 0
+SIN56_J8
+Wire Wire Line
+	8700 6200 8600 6200
+Text GLabel 8600 6200 0    70   BiDi ~ 0
+SIN12_J8
+Wire Wire Line
+	8700 5800 8600 5800
+Text GLabel 8600 5800 0    70   BiDi ~ 0
+SIN56_J10
+Wire Wire Line
+	8700 5700 8600 5700
+Text GLabel 8600 5700 0    70   BiDi ~ 0
+SIN12_J10
+Wire Wire Line
+	8700 5600 8600 5600
+Text GLabel 8600 5600 0    70   BiDi ~ 0
+SIN56_J11
+Wire Wire Line
+	8700 5500 8600 5500
+Text GLabel 8600 5500 0    70   BiDi ~ 0
+SIN12_J11
+Wire Wire Line
+	8700 5400 8600 5400
+Text GLabel 8600 5400 0    70   BiDi ~ 0
+SIN56_J12
+Wire Wire Line
+	8700 5300 8600 5300
+Text GLabel 8600 5300 0    70   BiDi ~ 0
+SIN12_J12
+Wire Wire Line
+	5200 6600 5300 6600
+Wire Wire Line
+	9100 5300 9200 5300
+Wire Wire Line
+	9100 5400 9200 5400
+Wire Wire Line
+	9200 5500 9100 5500
+Wire Wire Line
+	9100 5600 9200 5600
+Wire Wire Line
+	9100 5700 9200 5700
+Wire Wire Line
+	9100 5800 9200 5800
+Wire Wire Line
+	9100 6200 9200 6200
+Wire Wire Line
+	9100 6300 9200 6300
+Wire Wire Line
+	9200 6400 9100 6400
+Wire Wire Line
+	9100 6600 9200 6600
+Wire Wire Line
+	11300 6400 11200 6400
+Text GLabel 11300 6400 2    70   BiDi ~ 0
+SIN34_J7
+Wire Wire Line
+	11300 6300 11200 6300
+Text GLabel 11300 6300 2    70   BiDi ~ 0
+SIN78_J8
+Wire Wire Line
+	11300 6200 11200 6200
+Text GLabel 11300 6200 2    70   BiDi ~ 0
+SIN34_J8
+Wire Wire Line
+	11300 5800 11200 5800
+Text GLabel 11300 5800 2    70   BiDi ~ 0
+SIN78_J10
+Wire Wire Line
+	11300 5700 11200 5700
+Text GLabel 11300 5700 2    70   BiDi ~ 0
+SIN34_J10
+Wire Wire Line
+	11300 5600 11200 5600
+Text GLabel 11300 5600 2    70   BiDi ~ 0
+SIN78_J11
+Wire Wire Line
+	11300 5500 11200 5500
+Text GLabel 11300 5500 2    70   BiDi ~ 0
+SIN34_J11
+Wire Wire Line
+	11300 5400 11200 5400
+Text GLabel 11300 5400 2    70   BiDi ~ 0
+SIN78_J12
+Wire Wire Line
+	11300 5300 11200 5300
+Text GLabel 11300 5300 2    70   BiDi ~ 0
+SIN34_J12
+Wire Wire Line
+	10800 5300 10700 5300
+Wire Wire Line
+	10700 5400 10800 5400
+Wire Wire Line
+	10800 5500 10700 5500
+Wire Wire Line
+	10700 5600 10800 5600
+Wire Wire Line
+	10800 5700 10700 5700
+Wire Wire Line
+	10700 5800 10800 5800
+Wire Wire Line
+	10800 6200 10700 6200
+Wire Wire Line
+	10700 6300 10800 6300
+Wire Wire Line
+	10800 6400 10700 6400
+Wire Wire Line
+	10700 6600 10800 6600
+Wire Wire Line
+	11300 4700 11200 4700
+Text GLabel 11300 4700 2    70   BiDi ~ 0
+SIN78_J13
+Wire Wire Line
+	10700 4700 10800 4700
+Wire Wire Line
+	11200 4800 11300 4800
+Text GLabel 11300 4800 2    70   BiDi ~ 0
+SIN56_J13
+Wire Wire Line
+	10800 4800 10700 4800
+Wire Wire Line
+	8600 5000 8700 5000
+Text GLabel 8600 5000 0    70   BiDi ~ 0
+SIN78_J14
+Wire Wire Line
+	8600 5100 8700 5100
+Text GLabel 8600 5100 0    70   BiDi ~ 0
+SIN34_J14
+Wire Wire Line
+	9100 5100 9200 5100
+Wire Wire Line
+	9200 5000 9100 5000
+Wire Wire Line
+	11200 5100 11300 5100
+Text GLabel 11300 5100 2    70   BiDi ~ 0
+SIN12_J14
+Wire Wire Line
+	10700 5100 10800 5100
+Wire Wire Line
+	11200 5000 11300 5000
+Text GLabel 11300 5000 2    70   BiDi ~ 0
+SIN56_J14
+Wire Wire Line
+	10800 5000 10700 5000
+Wire Wire Line
+	8700 4900 8600 4900
+Text GLabel 8600 4900 0    70   BiDi ~ 0
+SIN12_J13
+Wire Wire Line
+	9100 4900 9200 4900
+Wire Wire Line
+	11300 4900 11200 4900
+Text GLabel 11300 4900 2    70   BiDi ~ 0
+SIN34_J13
+Wire Wire Line
+	10800 4900 10700 4900
+Wire Wire Line
+	11200 6500 11300 6500
+Text GLabel 11300 6500 2    70   BiDi ~ 0
+SIN56_J7
+Wire Wire Line
+	10800 6500 10700 6500
+Wire Wire Line
+	8600 6500 8700 6500
+Text GLabel 8600 6500 0    70   BiDi ~ 0
+SIN78_J7
+Wire Wire Line
+	9200 6500 9100 6500
+Wire Wire Line
+	8700 5900 8600 5900
+Text GLabel 8600 5900 0    70   BiDi ~ 0
+SIN12_J9
+Wire Wire Line
+	9200 5900 9100 5900
+Wire Wire Line
+	11300 5900 11200 5900
+Text GLabel 11300 5900 2    70   BiDi ~ 0
+SIN34_J9
+Wire Wire Line
+	10800 5900 10700 5900
+Wire Wire Line
+	11300 6000 11200 6000
+Text GLabel 11300 6000 2    70   BiDi ~ 0
+SIN78_J9
+Wire Wire Line
+	10700 6000 10800 6000
+Wire Wire Line
+	8700 6000 8600 6000
+Text GLabel 8600 6000 0    70   BiDi ~ 0
+SIN56_J9
+Wire Wire Line
+	9100 6000 9200 6000
+$Comp
+L SpinningControls-eagle-import:RPI-ZERO U$1
+U 1 1 89E33A62
+P 9500 2500
+AR Path="/89E33A62" Ref="U$1"  Part="1" 
+AR Path="/627BD0B6/89E33A62" Ref="U$1"  Part="1" 
+F 0 "U$1" H 8700 3900 50  0000 L BNN
+F 1 "RPI-ZERO" H 8700 3825 50  0000 L BNN
+F 2 "SpinningControls:RASPBERRYPI_BASTELSTUBE_V13_RASPI_BOARD_B+_FULL" H 9500 2500 50  0001 C CNN
+F 3 "" H 9500 2500 50  0001 C CNN
+	1    9500 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:TFP401 U$2
+U 1 1 87B7DF34
+P 1400 6100
+AR Path="/87B7DF34" Ref="U$2"  Part="1" 
+AR Path="/627BD0B6/87B7DF34" Ref="U$2"  Part="1" 
+F 0 "U$2" H 1400 6100 50  0001 C CNN
+F 1 "TFP401" H 1400 6100 50  0001 C CNN
+F 2 "SpinningControls:TFP401" H 1400 6100 50  0001 C CNN
+F 3 "" H 1400 6100 50  0001 C CNN
+	1    1400 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:3V3_BUCK_REGULATOR U$3
+U 1 1 6E1B97F5
+P 2500 1500
+AR Path="/6E1B97F5" Ref="U$3"  Part="1" 
+AR Path="/627BD0B6/6E1B97F5" Ref="U$3"  Part="1" 
+F 0 "U$3" H 2210 1830 59  0000 L BNN
+F 1 "3V3_BUCK_REGULATOR" H 2500 1500 50  0001 C CNN
+F 2 "SpinningControls:2X06" H 2500 1500 50  0001 C CNN
+F 3 "" H 2500 1500 50  0001 C CNN
+	1    2500 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:5V_BUCK_REGULATOR U$6
+U 1 1 CE08125E
+P 2500 2200
+AR Path="/CE08125E" Ref="U$6"  Part="1" 
+AR Path="/627BD0B6/CE08125E" Ref="U$6"  Part="1" 
+F 0 "U$6" H 2210 2530 59  0000 L BNN
+F 1 "5V_BUCK_REGULATOR" H 2500 2200 50  0001 C CNN
+F 2 "SpinningControls:2X06" H 2500 2200 50  0001 C CNN
+F 3 "" H 2500 2200 50  0001 C CNN
+	1    2500 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:S-19246E33H-V5T2U IC1
+U 1 1 22F7723E
+P 2640 3000
+AR Path="/22F7723E" Ref="IC1"  Part="1" 
+AR Path="/627BD0B6/22F7723E" Ref="IC1"  Part="1" 
+F 0 "IC1" H 2200 3460 59  0000 L CNN
+F 1 "S-19246E33H-V5T2U" H 2200 3370 59  0000 L CNN
+F 2 "SpinningControls:S19246E33HV5T2U" H 2640 3000 50  0001 C CNN
+F 3 "" H 2640 3000 50  0001 C CNN
+	1    2640 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:C-EUC0603 C1
+U 1 1 5D5D4D2F
+P 1600 3100
+AR Path="/5D5D4D2F" Ref="C1"  Part="1" 
+AR Path="/627BD0B6/5D5D4D2F" Ref="C1"  Part="1" 
+F 0 "C1" H 1660 3115 59  0000 L BNN
+F 1 "4.7uF" H 1330 2915 59  0000 L BNN
+F 2 "SpinningControls:C0603" H 1600 3100 50  0001 C CNN
+F 3 "" H 1600 3100 50  0001 C CNN
+	1    1600 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:C-EUC0603 C2
+U 1 1 2DB567F5
+P 1900 3200
+AR Path="/2DB567F5" Ref="C2"  Part="1" 
+AR Path="/627BD0B6/2DB567F5" Ref="C2"  Part="1" 
+F 0 "C2" H 1960 3215 59  0000 L BNN
+F 1 "10nF" H 1960 3015 59  0000 L BNN
+F 2 "SpinningControls:C0603" H 1900 3200 50  0001 C CNN
+F 3 "" H 1900 3200 50  0001 C CNN
+	1    1900 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:C-EUC0603 C3
+U 1 1 79637687
+P 3600 2900
+AR Path="/79637687" Ref="C3"  Part="1" 
+AR Path="/627BD0B6/79637687" Ref="C3"  Part="1" 
+F 0 "C3" H 3660 2915 59  0000 L BNN
+F 1 "4.7uF" H 3660 2715 59  0000 L BNN
+F 2 "SpinningControls:C0603" H 3600 2900 50  0001 C CNN
+F 3 "" H 3600 2900 50  0001 C CNN
+	1    3600 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:DE0-NANO FPGA
+U 1 1 1846EEFD
+P 8000 5700
+AR Path="/1846EEFD" Ref="FPGA"  Part="1" 
+AR Path="/627BD0B6/1846EEFD" Ref="FPGA1"  Part="1" 
+F 0 "FPGA1" H 8000 5700 50  0001 C CNN
+F 1 "DE0-NANO" H 8000 5700 50  0001 C CNN
+F 2 "SpinningControls:DE0-NANO" H 8000 5700 50  0001 C CNN
+F 3 "" H 8000 5700 50  0001 C CNN
+	1    8000 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:F32R-1A7H1-11040 J2
+U 1 1 C3E76336
+P 2400 5000
+AR Path="/C3E76336" Ref="J2"  Part="1" 
+AR Path="/627BD0B6/C3E76336" Ref="J2"  Part="1" 
+F 0 "J2" H 2750 5600 59  0000 L CNN
+F 1 "F32R-1A7H1-11040" H 2750 5500 59  0000 L CNN
+F 2 "SpinningControls:F32R1A7H111040" H 2400 5000 50  0001 C CNN
+F 3 "" H 2400 5000 50  0001 C CNN
+	1    2400 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:SN74LVC1G34DBVR IC2
+U 1 1 BC34DC86
+P 13300 5200
+AR Path="/BC34DC86" Ref="IC2"  Part="1" 
+AR Path="/627BD0B6/BC34DC86" Ref="IC2"  Part="1" 
+F 0 "IC2" H 14250 5500 59  0000 L CNN
+F 1 "SN74LVC1G34DBVR" H 14250 5400 59  0000 L CNN
+F 2 "SpinningControls:SOT95P280X145-5N" H 13300 5200 50  0001 C CNN
+F 3 "" H 13300 5200 50  0001 C CNN
+	1    13300 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:SN74LVC1G34DBVR IC3
+U 1 1 B686635D
+P 13300 6000
+AR Path="/B686635D" Ref="IC3"  Part="1" 
+AR Path="/627BD0B6/B686635D" Ref="IC3"  Part="1" 
+F 0 "IC3" H 14250 6300 59  0000 L CNN
+F 1 "SN74LVC1G34DBVR" H 14250 6200 59  0000 L CNN
+F 2 "SpinningControls:SOT95P280X145-5N" H 13300 6000 50  0001 C CNN
+F 3 "" H 13300 6000 50  0001 C CNN
+	1    13300 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:SN74LVC1G34DBVR IC4
+U 1 1 FA55F29D
+P 13300 6700
+AR Path="/FA55F29D" Ref="IC4"  Part="1" 
+AR Path="/627BD0B6/FA55F29D" Ref="IC4"  Part="1" 
+F 0 "IC4" H 14250 7000 59  0000 L CNN
+F 1 "SN74LVC1G34DBVR" H 14250 6900 59  0000 L CNN
+F 2 "SpinningControls:SOT95P280X145-5N" H 13300 6700 50  0001 C CNN
+F 3 "" H 13300 6700 50  0001 C CNN
+	1    13300 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:436500215 J19
+U 1 1 69705732
+P 10600 7900
+AR Path="/69705732" Ref="J19"  Part="1" 
+AR Path="/627BD0B6/69705732" Ref="J19"  Part="1" 
+F 0 "J19" H 10964 7609 69  0000 L BNN
+F 1 "436500215" H 10600 7900 50  0001 C CNN
+F 2 "SpinningControls:CON_436500215_MOL" H 10600 7900 50  0001 C CNN
+F 3 "" H 10600 7900 50  0001 C CNN
+	1    10600 7900
+	-1   0    0    1   
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0603 R2
+U 1 1 05ABC8F5
+P 13900 3200
+AR Path="/05ABC8F5" Ref="R2"  Part="1" 
+AR Path="/627BD0B6/05ABC8F5" Ref="R2"  Part="1" 
+F 0 "R2" H 13750 3059 59  0000 L BNN
+F 1 "165 Ω" H 13950 3070 59  0000 L BNN
+F 2 "SpinningControls:R0603" H 13900 3200 50  0001 C CNN
+F 3 "" H 13900 3200 50  0001 C CNN
+	1    13900 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0603 R3
+U 1 1 5FA2B4B2
+P 13900 2700
+AR Path="/5FA2B4B2" Ref="R3"  Part="1" 
+AR Path="/627BD0B6/5FA2B4B2" Ref="R3"  Part="1" 
+F 0 "R3" H 13850 2759 59  0000 L BNN
+F 1 "19.1k Ω" H 13750 2570 59  0000 L BNN
+F 2 "SpinningControls:R0603" H 13900 2700 50  0001 C CNN
+F 3 "" H 13900 2700 50  0001 C CNN
+	1    13900 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SpinningControls-eagle-import:430450612 J15
+U 1 1 3E4385C8
+P 7170 3290
+AR Path="/3E4385C8" Ref="J15"  Part="1" 
+AR Path="/627BD0B6/3E4385C8" Ref="J15"  Part="1" 
+F 0 "J15" H 7534 2599 69  0000 L BNN
+F 1 "430450612" H 7170 3290 50  0001 C CNN
+F 2 "SpinningControls:CON_430450612_MOL" H 7170 3290 50  0001 C CNN
+F 3 "" H 7170 3290 50  0001 C CNN
+	1    7170 3290
+	-1   0    0    1   
+$EndComp
+$Comp
+L SpinningControls-eagle-import:436500215 J18
+U 1 1 CDC055CB
+P 1600 7300
+AR Path="/CDC055CB" Ref="J18"  Part="1" 
+AR Path="/627BD0B6/CDC055CB" Ref="J18"  Part="1" 
+F 0 "J18" H 1964 7009 69  0000 L BNN
+F 1 "436500215" H 1600 7300 50  0001 C CNN
+F 2 "SpinningControls:CON_436500215_MOL" H 1600 7300 50  0001 C CNN
+F 3 "" H 1600 7300 50  0001 C CNN
+	1    1600 7300
+	-1   0    0    1   
+$EndComp
+$Comp
+L SpinningControls-eagle-import:430450612 J17
+U 1 1 E8FF25C4
+P 13600 3200
+AR Path="/E8FF25C4" Ref="J17"  Part="1" 
+AR Path="/627BD0B6/E8FF25C4" Ref="J17"  Part="1" 
+F 0 "J17" H 13964 2509 69  0000 L BNN
+F 1 "430450612" H 13600 3200 50  0001 C CNN
+F 2 "SpinningControls:CON_430450612_MOL" H 13600 3200 50  0001 C CNN
+F 3 "" H 13600 3200 50  0001 C CNN
+	1    13600 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0603 R1
+U 1 1 D4932F48
+P 13900 2100
+AR Path="/D4932F48" Ref="R1"  Part="1" 
+AR Path="/627BD0B6/D4932F48" Ref="R1"  Part="1" 
+F 0 "R1" H 13750 1959 59  0000 L BNN
+F 1 "165 Ω" H 13950 1970 59  0000 L BNN
+F 2 "SpinningControls:R0603" H 13900 2100 50  0001 C CNN
+F 3 "" H 13900 2100 50  0001 C CNN
+	1    13900 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0603 R4
+U 1 1 45363F6E
+P 13900 1600
+AR Path="/45363F6E" Ref="R4"  Part="1" 
+AR Path="/627BD0B6/45363F6E" Ref="R4"  Part="1" 
+F 0 "R4" H 13850 1659 59  0000 L BNN
+F 1 "19.1k Ω" H 13750 1470 59  0000 L BNN
+F 2 "SpinningControls:R0603" H 13900 1600 50  0001 C CNN
+F 3 "" H 13900 1600 50  0001 C CNN
+	1    13900 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SpinningControls-eagle-import:430450612 J16
+U 1 1 DD3708F9
+P 13600 2100
+AR Path="/DD3708F9" Ref="J16"  Part="1" 
+AR Path="/627BD0B6/DD3708F9" Ref="J16"  Part="1" 
+F 0 "J16" H 13964 1409 69  0000 L BNN
+F 1 "430450612" H 13600 2100 50  0001 C CNN
+F 2 "SpinningControls:CON_430450612_MOL" H 13600 2100 50  0001 C CNN
+F 3 "" H 13600 2100 50  0001 C CNN
+	1    13600 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L SpinningControls-eagle-import:CAP_SMDC0603 C28
+U 1 1 281532CD
+P 12700 7700
+AR Path="/281532CD" Ref="C28"  Part="1" 
+AR Path="/627BD0B6/281532CD" Ref="C28"  Part="1" 
+F 0 "C28" H 12760 7715 59  0000 L BNN
+F 1 "0.1u" H 12760 7515 59  0000 L BNN
+F 2 "SpinningControls:C0603" H 12700 7700 50  0001 C CNN
+F 3 "" H 12700 7700 50  0001 C CNN
+	1    12700 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:CAP_SMDC0603 C29
+U 1 1 C19E3066
+P 14000 7700
+AR Path="/C19E3066" Ref="C29"  Part="1" 
+AR Path="/627BD0B6/C19E3066" Ref="C29"  Part="1" 
+F 0 "C29" H 14060 7715 59  0000 L BNN
+F 1 "4.7u" H 14060 7515 59  0000 L BNN
+F 2 "SpinningControls:C0603" H 14000 7700 50  0001 C CNN
+F 3 "" H 14000 7700 50  0001 C CNN
+	1    14000 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:CAP_SMDC0603 C30
+U 1 1 93F6A104
+P 13100 7700
+AR Path="/93F6A104" Ref="C30"  Part="1" 
+AR Path="/627BD0B6/93F6A104" Ref="C30"  Part="1" 
+F 0 "C30" H 13160 7715 59  0000 L BNN
+F 1 "0.1u" H 13160 7515 59  0000 L BNN
+F 2 "SpinningControls:C0603" H 13100 7700 50  0001 C CNN
+F 3 "" H 13100 7700 50  0001 C CNN
+	1    13100 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:CAP_SMDC0603 C31
+U 1 1 7A9D26A7
+P 14400 7700
+AR Path="/7A9D26A7" Ref="C31"  Part="1" 
+AR Path="/627BD0B6/7A9D26A7" Ref="C31"  Part="1" 
+F 0 "C31" H 14460 7715 59  0000 L BNN
+F 1 "4.7u" H 14460 7515 59  0000 L BNN
+F 2 "SpinningControls:C0603" H 14400 7700 50  0001 C CNN
+F 3 "" H 14400 7700 50  0001 C CNN
+	1    14400 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:CAP_SMDC0603 C32
+U 1 1 753865DD
+P 13500 7700
+AR Path="/753865DD" Ref="C32"  Part="1" 
+AR Path="/627BD0B6/753865DD" Ref="C32"  Part="1" 
+F 0 "C32" H 13560 7715 59  0000 L BNN
+F 1 "0.1u" H 13560 7515 59  0000 L BNN
+F 2 "SpinningControls:C0603" H 13500 7700 50  0001 C CNN
+F 3 "" H 13500 7700 50  0001 C CNN
+	1    13500 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:CAP_SMDC0603 C33
+U 1 1 B641C936
+P 14800 7700
+AR Path="/B641C936" Ref="C33"  Part="1" 
+AR Path="/627BD0B6/B641C936" Ref="C33"  Part="1" 
+F 0 "C33" H 14860 7715 59  0000 L BNN
+F 1 "4.7u" H 14860 7515 59  0000 L BNN
+F 2 "SpinningControls:C0603" H 14800 7700 50  0001 C CNN
+F 3 "" H 14800 7700 50  0001 C CNN
+	1    14800 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R6
+U 1 1 1BE7E303
+P 5000 4900
+AR Path="/1BE7E303" Ref="R6"  Part="1" 
+AR Path="/627BD0B6/1BE7E303" Ref="R6"  Part="1" 
+F 0 "R6" H 5120 4919 59  0000 L BNN
+F 1 "R-US_R0402" H 4850 4770 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 5000 4900 50  0001 C CNN
+F 3 "" H 5000 4900 50  0001 C CNN
+	1    5000 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R7
+U 1 1 E67A151D
+P 5000 5000
+AR Path="/E67A151D" Ref="R7"  Part="1" 
+AR Path="/627BD0B6/E67A151D" Ref="R7"  Part="1" 
+F 0 "R7" H 5120 5019 59  0000 L BNN
+F 1 "R-US_R0402" H 4850 4870 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 5000 5000 50  0001 C CNN
+F 3 "" H 5000 5000 50  0001 C CNN
+	1    5000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R8
+U 1 1 3B37D644
+P 5000 5100
+AR Path="/3B37D644" Ref="R8"  Part="1" 
+AR Path="/627BD0B6/3B37D644" Ref="R8"  Part="1" 
+F 0 "R8" H 5120 5119 59  0000 L BNN
+F 1 "R-US_R0402" H 4850 4970 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 5000 5100 50  0001 C CNN
+F 3 "" H 5000 5100 50  0001 C CNN
+	1    5000 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R9
+U 1 1 295F0D93
+P 5000 5300
+AR Path="/295F0D93" Ref="R9"  Part="1" 
+AR Path="/627BD0B6/295F0D93" Ref="R9"  Part="1" 
+F 0 "R9" H 5120 5319 59  0000 L BNN
+F 1 "R-US_R0402" H 4850 5170 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 5000 5300 50  0001 C CNN
+F 3 "" H 5000 5300 50  0001 C CNN
+	1    5000 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R10
+U 1 1 CB121278
+P 5000 5400
+AR Path="/CB121278" Ref="R10"  Part="1" 
+AR Path="/627BD0B6/CB121278" Ref="R10"  Part="1" 
+F 0 "R10" H 5120 5419 59  0000 L BNN
+F 1 "R-US_R0402" H 4850 5270 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 5000 5400 50  0001 C CNN
+F 3 "" H 5000 5400 50  0001 C CNN
+	1    5000 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R11
+U 1 1 3D3C6285
+P 5000 5500
+AR Path="/3D3C6285" Ref="R11"  Part="1" 
+AR Path="/627BD0B6/3D3C6285" Ref="R11"  Part="1" 
+F 0 "R11" H 5120 5519 59  0000 L BNN
+F 1 "R-US_R0402" H 4850 5370 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 5000 5500 50  0001 C CNN
+F 3 "" H 5000 5500 50  0001 C CNN
+	1    5000 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R12
+U 1 1 F26279CE
+P 5000 5600
+AR Path="/F26279CE" Ref="R12"  Part="1" 
+AR Path="/627BD0B6/F26279CE" Ref="R12"  Part="1" 
+F 0 "R12" H 5120 5619 59  0000 L BNN
+F 1 "R-US_R0402" H 4850 5470 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 5000 5600 50  0001 C CNN
+F 3 "" H 5000 5600 50  0001 C CNN
+	1    5000 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R13
+U 1 1 5D2526FC
+P 5000 5700
+AR Path="/5D2526FC" Ref="R13"  Part="1" 
+AR Path="/627BD0B6/5D2526FC" Ref="R13"  Part="1" 
+F 0 "R13" H 5120 5719 59  0000 L BNN
+F 1 "R-US_R0402" H 4850 5570 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 5000 5700 50  0001 C CNN
+F 3 "" H 5000 5700 50  0001 C CNN
+	1    5000 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R14
+U 1 1 52B5C5D8
+P 5000 5800
+AR Path="/52B5C5D8" Ref="R14"  Part="1" 
+AR Path="/627BD0B6/52B5C5D8" Ref="R14"  Part="1" 
+F 0 "R14" H 5120 5819 59  0000 L BNN
+F 1 "R-US_R0402" H 4850 5670 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 5000 5800 50  0001 C CNN
+F 3 "" H 5000 5800 50  0001 C CNN
+	1    5000 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R15
+U 1 1 E6A0BE1A
+P 5000 5900
+AR Path="/E6A0BE1A" Ref="R15"  Part="1" 
+AR Path="/627BD0B6/E6A0BE1A" Ref="R15"  Part="1" 
+F 0 "R15" H 5120 5919 59  0000 L BNN
+F 1 "R-US_R0402" H 4850 5770 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 5000 5900 50  0001 C CNN
+F 3 "" H 5000 5900 50  0001 C CNN
+	1    5000 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R16
+U 1 1 9DD04142
+P 5000 6000
+AR Path="/9DD04142" Ref="R16"  Part="1" 
+AR Path="/627BD0B6/9DD04142" Ref="R16"  Part="1" 
+F 0 "R16" H 5120 6019 59  0000 L BNN
+F 1 "R-US_R0402" H 4850 5870 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 5000 6000 50  0001 C CNN
+F 3 "" H 5000 6000 50  0001 C CNN
+	1    5000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R17
+U 1 1 A79F8441
+P 5000 6200
+AR Path="/A79F8441" Ref="R17"  Part="1" 
+AR Path="/627BD0B6/A79F8441" Ref="R17"  Part="1" 
+F 0 "R17" H 5120 6219 59  0000 L BNN
+F 1 "R-US_R0402" H 4850 6070 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 5000 6200 50  0001 C CNN
+F 3 "" H 5000 6200 50  0001 C CNN
+	1    5000 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R18
+U 1 1 368E8EAA
+P 5000 6300
+AR Path="/368E8EAA" Ref="R18"  Part="1" 
+AR Path="/627BD0B6/368E8EAA" Ref="R18"  Part="1" 
+F 0 "R18" H 5120 6319 59  0000 L BNN
+F 1 "R-US_R0402" H 4850 6170 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 5000 6300 50  0001 C CNN
+F 3 "" H 5000 6300 50  0001 C CNN
+	1    5000 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R19
+U 1 1 7FE27201
+P 5000 6400
+AR Path="/7FE27201" Ref="R19"  Part="1" 
+AR Path="/627BD0B6/7FE27201" Ref="R19"  Part="1" 
+F 0 "R19" H 5120 6419 59  0000 L BNN
+F 1 "R-US_R0402" H 4850 6270 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 5000 6400 50  0001 C CNN
+F 3 "" H 5000 6400 50  0001 C CNN
+	1    5000 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R20
+U 1 1 61DA09E4
+P 5000 6500
+AR Path="/61DA09E4" Ref="R20"  Part="1" 
+AR Path="/627BD0B6/61DA09E4" Ref="R20"  Part="1" 
+F 0 "R20" H 5120 6519 59  0000 L BNN
+F 1 "R-US_R0402" H 4850 6370 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 5000 6500 50  0001 C CNN
+F 3 "" H 5000 6500 50  0001 C CNN
+	1    5000 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:TXS0104EDR IC5
+U 1 1 ECA671C6
+P 5970 1390
+AR Path="/ECA671C6" Ref="IC5"  Part="1" 
+AR Path="/627BD0B6/ECA671C6" Ref="IC5"  Part="1" 
+F 0 "IC5" H 6220 1650 59  0000 L CNN
+F 1 "TXS0104EDR" H 6220 1550 59  0000 L CNN
+F 2 "SpinningControls:SOIC127P600X175-14N" H 5970 1390 50  0001 C CNN
+F 3 "" H 5970 1390 50  0001 C CNN
+	1    5970 1390
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0603 R5
+U 1 1 C1449B59
+P 6480 2180
+AR Path="/C1449B59" Ref="R5"  Part="1" 
+AR Path="/627BD0B6/C1449B59" Ref="R5"  Part="1" 
+F 0 "R5" H 6270 2099 59  0000 L BNN
+F 1 "10k" H 6590 2090 59  0000 L BNN
+F 2 "SpinningControls:R0603" H 6480 2180 50  0001 C CNN
+F 3 "" H 6480 2180 50  0001 C CNN
+	1    6480 2180
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:CAP_SMDC0603 C34
+U 1 1 DD307CA3
+P 5570 2690
+AR Path="/DD307CA3" Ref="C34"  Part="1" 
+AR Path="/627BD0B6/DD307CA3" Ref="C34"  Part="1" 
+F 0 "C34" H 5370 2515 59  0000 L BNN
+F 1 "0.1u" H 5370 2415 59  0000 L BNN
+F 2 "SpinningControls:C0603" H 5570 2690 50  0001 C CNN
+F 3 "" H 5570 2690 50  0001 C CNN
+	1    5570 2690
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:CAP_SMDC0603 C35
+U 1 1 B20BF2D5
+P 6070 2690
+AR Path="/B20BF2D5" Ref="C35"  Part="1" 
+AR Path="/627BD0B6/B20BF2D5" Ref="C35"  Part="1" 
+F 0 "C35" H 6090 2515 59  0000 L BNN
+F 1 "0.1u" H 6090 2415 59  0000 L BNN
+F 2 "SpinningControls:C0603" H 6070 2690 50  0001 C CNN
+F 3 "" H 6070 2690 50  0001 C CNN
+	1    6070 2690
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:C-EUC0603 C36
+U 1 1 C04AD039
+P 5670 3290
+AR Path="/C04AD039" Ref="C36"  Part="1" 
+AR Path="/627BD0B6/C04AD039" Ref="C36"  Part="1" 
+F 0 "C36" H 5480 3125 59  0000 L BNN
+F 1 "10p" H 5480 3025 59  0000 L BNN
+F 2 "SpinningControls:C0603" H 5670 3290 50  0001 C CNN
+F 3 "" H 5670 3290 50  0001 C CNN
+	1    5670 3290
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R21
+U 1 1 067F0F3D
+P 5000 6600
+AR Path="/067F0F3D" Ref="R21"  Part="1" 
+AR Path="/627BD0B6/067F0F3D" Ref="R21"  Part="1" 
+F 0 "R21" H 5120 6619 59  0000 L BNN
+F 1 "R-US_R0402" H 4850 6470 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 5000 6600 50  0001 C CNN
+F 3 "" H 5000 6600 50  0001 C CNN
+	1    5000 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R22
+U 1 1 ACF76585
+P 7100 5100
+AR Path="/ACF76585" Ref="R22"  Part="1" 
+AR Path="/627BD0B6/ACF76585" Ref="R22"  Part="1" 
+F 0 "R22" H 6820 5119 59  0000 L BNN
+F 1 "R-US_R0402" H 6950 4970 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 7100 5100 50  0001 C CNN
+F 3 "" H 7100 5100 50  0001 C CNN
+	1    7100 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R26
+U 1 1 53166C08
+P 8900 5300
+AR Path="/53166C08" Ref="R26"  Part="1" 
+AR Path="/627BD0B6/53166C08" Ref="R26"  Part="1" 
+F 0 "R26" H 9020 5319 59  0000 L BNN
+F 1 "R-US_R0402" H 8750 5170 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 8900 5300 50  0001 C CNN
+F 3 "" H 8900 5300 50  0001 C CNN
+	1    8900 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R27
+U 1 1 5F2C84B3
+P 8900 5400
+AR Path="/5F2C84B3" Ref="R27"  Part="1" 
+AR Path="/627BD0B6/5F2C84B3" Ref="R27"  Part="1" 
+F 0 "R27" H 9020 5419 59  0000 L BNN
+F 1 "R-US_R0402" H 8750 5270 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 8900 5400 50  0001 C CNN
+F 3 "" H 8900 5400 50  0001 C CNN
+	1    8900 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R28
+U 1 1 A39A2B98
+P 8900 5500
+AR Path="/A39A2B98" Ref="R28"  Part="1" 
+AR Path="/627BD0B6/A39A2B98" Ref="R28"  Part="1" 
+F 0 "R28" H 9020 5519 59  0000 L BNN
+F 1 "R-US_R0402" H 8750 5370 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 8900 5500 50  0001 C CNN
+F 3 "" H 8900 5500 50  0001 C CNN
+	1    8900 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R29
+U 1 1 C91F6436
+P 8900 5600
+AR Path="/C91F6436" Ref="R29"  Part="1" 
+AR Path="/627BD0B6/C91F6436" Ref="R29"  Part="1" 
+F 0 "R29" H 9020 5619 59  0000 L BNN
+F 1 "R-US_R0402" H 8750 5470 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 8900 5600 50  0001 C CNN
+F 3 "" H 8900 5600 50  0001 C CNN
+	1    8900 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R30
+U 1 1 A4326512
+P 8900 5700
+AR Path="/A4326512" Ref="R30"  Part="1" 
+AR Path="/627BD0B6/A4326512" Ref="R30"  Part="1" 
+F 0 "R30" H 9020 5719 59  0000 L BNN
+F 1 "R-US_R0402" H 8750 5570 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 8900 5700 50  0001 C CNN
+F 3 "" H 8900 5700 50  0001 C CNN
+	1    8900 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R31
+U 1 1 9FBD1DDE
+P 8900 5800
+AR Path="/9FBD1DDE" Ref="R31"  Part="1" 
+AR Path="/627BD0B6/9FBD1DDE" Ref="R31"  Part="1" 
+F 0 "R31" H 9020 5819 59  0000 L BNN
+F 1 "R-US_R0402" H 8750 5670 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 8900 5800 50  0001 C CNN
+F 3 "" H 8900 5800 50  0001 C CNN
+	1    8900 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R34
+U 1 1 B2C6FD0F
+P 8900 6200
+AR Path="/B2C6FD0F" Ref="R34"  Part="1" 
+AR Path="/627BD0B6/B2C6FD0F" Ref="R34"  Part="1" 
+F 0 "R34" H 9020 6219 59  0000 L BNN
+F 1 "R-US_R0402" H 8750 6070 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 8900 6200 50  0001 C CNN
+F 3 "" H 8900 6200 50  0001 C CNN
+	1    8900 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R35
+U 1 1 576A4706
+P 8900 6300
+AR Path="/576A4706" Ref="R35"  Part="1" 
+AR Path="/627BD0B6/576A4706" Ref="R35"  Part="1" 
+F 0 "R35" H 9020 6319 59  0000 L BNN
+F 1 "R-US_R0402" H 8750 6170 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 8900 6300 50  0001 C CNN
+F 3 "" H 8900 6300 50  0001 C CNN
+	1    8900 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R36
+U 1 1 5910E679
+P 8900 6400
+AR Path="/5910E679" Ref="R36"  Part="1" 
+AR Path="/627BD0B6/5910E679" Ref="R36"  Part="1" 
+F 0 "R36" H 9020 6419 59  0000 L BNN
+F 1 "R-US_R0402" H 8750 6270 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 8900 6400 50  0001 C CNN
+F 3 "" H 8900 6400 50  0001 C CNN
+	1    8900 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R38
+U 1 1 31745649
+P 8900 6600
+AR Path="/31745649" Ref="R38"  Part="1" 
+AR Path="/627BD0B6/31745649" Ref="R38"  Part="1" 
+F 0 "R38" H 9020 6619 59  0000 L BNN
+F 1 "R-US_R0402" H 8750 6470 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 8900 6600 50  0001 C CNN
+F 3 "" H 8900 6600 50  0001 C CNN
+	1    8900 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R44
+U 1 1 78719323
+P 11000 5300
+AR Path="/78719323" Ref="R44"  Part="1" 
+AR Path="/627BD0B6/78719323" Ref="R44"  Part="1" 
+F 0 "R44" H 10720 5319 59  0000 L BNN
+F 1 "R-US_R0402" H 10850 5170 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 11000 5300 50  0001 C CNN
+F 3 "" H 11000 5300 50  0001 C CNN
+	1    11000 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R45
+U 1 1 C75CB798
+P 11000 5400
+AR Path="/C75CB798" Ref="R45"  Part="1" 
+AR Path="/627BD0B6/C75CB798" Ref="R45"  Part="1" 
+F 0 "R45" H 10720 5419 59  0000 L BNN
+F 1 "R-US_R0402" H 10850 5270 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 11000 5400 50  0001 C CNN
+F 3 "" H 11000 5400 50  0001 C CNN
+	1    11000 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R46
+U 1 1 20C377A5
+P 11000 5500
+AR Path="/20C377A5" Ref="R46"  Part="1" 
+AR Path="/627BD0B6/20C377A5" Ref="R46"  Part="1" 
+F 0 "R46" H 10720 5519 59  0000 L BNN
+F 1 "R-US_R0402" H 10850 5370 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 11000 5500 50  0001 C CNN
+F 3 "" H 11000 5500 50  0001 C CNN
+	1    11000 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R47
+U 1 1 EFAE184B
+P 11000 5600
+AR Path="/EFAE184B" Ref="R47"  Part="1" 
+AR Path="/627BD0B6/EFAE184B" Ref="R47"  Part="1" 
+F 0 "R47" H 10720 5619 59  0000 L BNN
+F 1 "R-US_R0402" H 10850 5470 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 11000 5600 50  0001 C CNN
+F 3 "" H 11000 5600 50  0001 C CNN
+	1    11000 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R48
+U 1 1 E79BB5F2
+P 11000 5700
+AR Path="/E79BB5F2" Ref="R48"  Part="1" 
+AR Path="/627BD0B6/E79BB5F2" Ref="R48"  Part="1" 
+F 0 "R48" H 10720 5719 59  0000 L BNN
+F 1 "R-US_R0402" H 10850 5570 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 11000 5700 50  0001 C CNN
+F 3 "" H 11000 5700 50  0001 C CNN
+	1    11000 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R49
+U 1 1 47F28147
+P 11000 5800
+AR Path="/47F28147" Ref="R49"  Part="1" 
+AR Path="/627BD0B6/47F28147" Ref="R49"  Part="1" 
+F 0 "R49" H 10720 5819 59  0000 L BNN
+F 1 "R-US_R0402" H 10850 5670 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 11000 5800 50  0001 C CNN
+F 3 "" H 11000 5800 50  0001 C CNN
+	1    11000 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R52
+U 1 1 E46A1888
+P 11000 6200
+AR Path="/E46A1888" Ref="R52"  Part="1" 
+AR Path="/627BD0B6/E46A1888" Ref="R52"  Part="1" 
+F 0 "R52" H 10720 6219 59  0000 L BNN
+F 1 "R-US_R0402" H 10850 6070 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 11000 6200 50  0001 C CNN
+F 3 "" H 11000 6200 50  0001 C CNN
+	1    11000 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R53
+U 1 1 45DD02CD
+P 11000 6300
+AR Path="/45DD02CD" Ref="R53"  Part="1" 
+AR Path="/627BD0B6/45DD02CD" Ref="R53"  Part="1" 
+F 0 "R53" H 10720 6319 59  0000 L BNN
+F 1 "R-US_R0402" H 10850 6170 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 11000 6300 50  0001 C CNN
+F 3 "" H 11000 6300 50  0001 C CNN
+	1    11000 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R54
+U 1 1 6DE49185
+P 11000 6400
+AR Path="/6DE49185" Ref="R54"  Part="1" 
+AR Path="/627BD0B6/6DE49185" Ref="R54"  Part="1" 
+F 0 "R54" H 10720 6419 59  0000 L BNN
+F 1 "R-US_R0402" H 10850 6270 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 11000 6400 50  0001 C CNN
+F 3 "" H 11000 6400 50  0001 C CNN
+	1    11000 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R56
+U 1 1 2F55F2AE
+P 11000 6600
+AR Path="/2F55F2AE" Ref="R56"  Part="1" 
+AR Path="/627BD0B6/2F55F2AE" Ref="R56"  Part="1" 
+F 0 "R56" H 10720 6619 59  0000 L BNN
+F 1 "R-US_R0402" H 10850 6470 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 11000 6600 50  0001 C CNN
+F 3 "" H 11000 6600 50  0001 C CNN
+	1    11000 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R43
+U 1 1 50688FDF
+P 11000 4700
+AR Path="/50688FDF" Ref="R43"  Part="1" 
+AR Path="/627BD0B6/50688FDF" Ref="R43"  Part="1" 
+F 0 "R43" H 10720 4719 59  0000 L BNN
+F 1 "R-US_R0402" H 10850 4570 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 11000 4700 50  0001 C CNN
+F 3 "" H 11000 4700 50  0001 C CNN
+	1    11000 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R25
+U 1 1 C18E2B58
+P 11000 4800
+AR Path="/C18E2B58" Ref="R25"  Part="1" 
+AR Path="/627BD0B6/C18E2B58" Ref="R25"  Part="1" 
+F 0 "R25" H 11280 4781 59  0000 R TNN
+F 1 "R-US_R0402" H 10850 4670 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 11000 4800 50  0001 C CNN
+F 3 "" H 11000 4800 50  0001 C CNN
+	1    11000 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R40
+U 1 1 73FD3344
+P 8900 5100
+AR Path="/73FD3344" Ref="R40"  Part="1" 
+AR Path="/627BD0B6/73FD3344" Ref="R40"  Part="1" 
+F 0 "R40" H 8780 5081 59  0000 R TNN
+F 1 "R-US_R0402" H 8750 4970 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 8900 5100 50  0001 C CNN
+F 3 "" H 8900 5100 50  0001 C CNN
+	1    8900 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R41
+U 1 1 A91F382D
+P 8900 5000
+AR Path="/A91F382D" Ref="R41"  Part="1" 
+AR Path="/627BD0B6/A91F382D" Ref="R41"  Part="1" 
+F 0 "R41" H 8780 4981 59  0000 R TNN
+F 1 "R-US_R0402" H 8750 4870 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 8900 5000 50  0001 C CNN
+F 3 "" H 8900 5000 50  0001 C CNN
+	1    8900 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R39
+U 1 1 3E8D2996
+P 11000 5100
+AR Path="/3E8D2996" Ref="R39"  Part="1" 
+AR Path="/627BD0B6/3E8D2996" Ref="R39"  Part="1" 
+F 0 "R39" H 10720 5119 59  0000 L BNN
+F 1 "R-US_R0402" H 10850 4970 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 11000 5100 50  0001 C CNN
+F 3 "" H 11000 5100 50  0001 C CNN
+	1    11000 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R23
+U 1 1 529AE39C
+P 11000 5000
+AR Path="/529AE39C" Ref="R23"  Part="1" 
+AR Path="/627BD0B6/529AE39C" Ref="R23"  Part="1" 
+F 0 "R23" H 11280 4981 59  0000 R TNN
+F 1 "R-US_R0402" H 10850 4870 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 11000 5000 50  0001 C CNN
+F 3 "" H 11000 5000 50  0001 C CNN
+	1    11000 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R24
+U 1 1 7AA300D2
+P 8900 4900
+AR Path="/7AA300D2" Ref="R24"  Part="1" 
+AR Path="/627BD0B6/7AA300D2" Ref="R24"  Part="1" 
+F 0 "R24" H 9020 4919 59  0000 L BNN
+F 1 "R-US_R0402" H 8750 4770 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 8900 4900 50  0001 C CNN
+F 3 "" H 8900 4900 50  0001 C CNN
+	1    8900 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R42
+U 1 1 DE68CA9A
+P 11000 4900
+AR Path="/DE68CA9A" Ref="R42"  Part="1" 
+AR Path="/627BD0B6/DE68CA9A" Ref="R42"  Part="1" 
+F 0 "R42" H 10720 4919 59  0000 L BNN
+F 1 "R-US_R0402" H 10850 4770 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 11000 4900 50  0001 C CNN
+F 3 "" H 11000 4900 50  0001 C CNN
+	1    11000 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R37
+U 1 1 4C83014D
+P 11000 6500
+AR Path="/4C83014D" Ref="R37"  Part="1" 
+AR Path="/627BD0B6/4C83014D" Ref="R37"  Part="1" 
+F 0 "R37" H 11280 6481 59  0000 R TNN
+F 1 "R-US_R0402" H 10850 6370 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 11000 6500 50  0001 C CNN
+F 3 "" H 11000 6500 50  0001 C CNN
+	1    11000 6500
+	-1   0    0    1   
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R55
+U 1 1 E7E42ECE
+P 8900 6500
+AR Path="/E7E42ECE" Ref="R55"  Part="1" 
+AR Path="/627BD0B6/E7E42ECE" Ref="R55"  Part="1" 
+F 0 "R55" H 8780 6481 59  0000 R TNN
+F 1 "R-US_R0402" H 8750 6370 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 8900 6500 50  0001 C CNN
+F 3 "" H 8900 6500 50  0001 C CNN
+	1    8900 6500
+	-1   0    0    1   
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R32
+U 1 1 A06AB8E7
+P 8900 5900
+AR Path="/A06AB8E7" Ref="R32"  Part="1" 
+AR Path="/627BD0B6/A06AB8E7" Ref="R32"  Part="1" 
+F 0 "R32" H 9020 5919 59  0000 L BNN
+F 1 "R-US_R0402" H 8750 5770 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 8900 5900 50  0001 C CNN
+F 3 "" H 8900 5900 50  0001 C CNN
+	1    8900 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R50
+U 1 1 E84CCCC7
+P 11000 5900
+AR Path="/E84CCCC7" Ref="R50"  Part="1" 
+AR Path="/627BD0B6/E84CCCC7" Ref="R50"  Part="1" 
+F 0 "R50" H 10720 5919 59  0000 L BNN
+F 1 "R-US_R0402" H 10850 5770 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 11000 5900 50  0001 C CNN
+F 3 "" H 11000 5900 50  0001 C CNN
+	1    11000 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R51
+U 1 1 9D737D9F
+P 11000 6000
+AR Path="/9D737D9F" Ref="R51"  Part="1" 
+AR Path="/627BD0B6/9D737D9F" Ref="R51"  Part="1" 
+F 0 "R51" H 10720 6019 59  0000 L BNN
+F 1 "R-US_R0402" H 10850 5870 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 11000 6000 50  0001 C CNN
+F 3 "" H 11000 6000 50  0001 C CNN
+	1    11000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SpinningControls-eagle-import:R-US_R0402 R33
+U 1 1 589B4207
+P 8900 6000
+AR Path="/589B4207" Ref="R33"  Part="1" 
+AR Path="/627BD0B6/589B4207" Ref="R33"  Part="1" 
+F 0 "R33" H 9020 6019 59  0000 L BNN
+F 1 "R-US_R0402" H 8750 5870 59  0000 L BNN
+F 2 "SpinningControls:R0402" H 8900 6000 50  0001 C CNN
+F 3 "" H 8900 6000 50  0001 C CNN
+	1    8900 6000
+	1    0    0    -1  
+$EndComp
+Text Notes 10500 7600 0    59   ~ 0
+FPGA Power
+Text Notes 13080 3220 0    55   ~ 0
+GREEN\nBLUE\nWHITE\nBLACK\nRED
+Text Notes 13080 2120 0    55   ~ 0
+GREEN\nBLUE\nWHITE\nBLACK\nRED
+Wire Notes Line
+	3800 4000 3800 8900
+Wire Notes Line
+	3800 8900 12100 8900
+Wire Notes Line
+	12100 8900 12100 4000
+Wire Notes Line
+	11900 4000 8000 4000
+Wire Notes Line
+	8000 4000 5100 4000
+Wire Notes Line
+	5100 4000 3800 4000
+Wire Notes Line
+	12100 8900 15500 8900
+Wire Notes Line
+	15500 8900 15500 4000
+Wire Notes Line
+	15500 4000 12100 4000
+Wire Notes Line
+	11900 4000 12100 4000
+Wire Notes Line
+	3800 8900 700  8900
+Wire Notes Line
+	700  8900 700  4000
+Wire Notes Line
+	700  4000 3800 4000
+Wire Notes Line
+	700  4000 700  700 
+Wire Notes Line
+	700  700  5100 700 
+Wire Notes Line
+	5100 700  5100 4000
+Wire Notes Line
+	5100 700  8000 700 
+Wire Notes Line
+	8000 700  8000 4000
+Wire Notes Line
+	8000 700  11900 700 
+Wire Notes Line
+	11900 700  11900 4000
+Wire Notes Line
+	11900 700  15500 700 
+Wire Notes Line
+	15500 700  15500 4000
+Text Notes 8100 900  0    127  ~ 0
+Raspberry Pi
+Text Notes 12000 900  0    127  ~ 0
+Encoder
+Text Notes 5200 900  0    127  ~ 0
+Slip Ring
+Text Notes 800  900  0    127  ~ 0
+Power
+Text Notes 800  4300 0    127  ~ 0
+HDMI
+Text Notes 4100 4300 0    127  ~ 0
+FPGA
+Text Notes 12300 4300 0    127  ~ 0
+Logic Buffers
+Text GLabel 8600 1300 0    10   BiDi ~ 0
+3V3
+Text GLabel 8600 2100 0    10   BiDi ~ 0
+3V3
+$EndSCHEMATC

@@ -1,0 +1,5700 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 26681 20098
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	6063 10700 5863 10700
+Text Label 5963 10700 0    70   ~ 0
+3V3
+Wire Wire Line
+	6063 11400 5863 11400
+Text Label 5963 11400 0    70   ~ 0
+3V3
+Wire Wire Line
+	6063 12100 5863 12100
+Text Label 5963 12100 0    70   ~ 0
+3V3
+Wire Wire Line
+	6063 12800 5863 12800
+Text Label 5963 12800 0    70   ~ 0
+3V3
+Wire Wire Line
+	8151 10700 7951 10700
+Text Label 8051 10700 0    70   ~ 0
+3V3
+Wire Wire Line
+	8151 11400 7951 11400
+Text Label 8051 11400 0    70   ~ 0
+3V3
+Wire Wire Line
+	8151 12100 7951 12100
+Text Label 8051 12100 0    70   ~ 0
+3V3
+Wire Wire Line
+	8151 12800 7951 12800
+Text Label 8051 12800 0    70   ~ 0
+3V3
+Wire Wire Line
+	10238 10700 10038 10700
+Text Label 10138 10700 0    70   ~ 0
+3V3
+Wire Wire Line
+	10238 11400 10038 11400
+Text Label 10138 11400 0    70   ~ 0
+3V3
+Wire Wire Line
+	10238 12100 10038 12100
+Text Label 10138 12100 0    70   ~ 0
+3V3
+Wire Wire Line
+	10238 12800 10038 12800
+Text Label 10138 12800 0    70   ~ 0
+3V3
+Wire Wire Line
+	12326 10700 12126 10700
+Text Label 12226 10700 0    70   ~ 0
+3V3
+Wire Wire Line
+	12326 11400 12126 11400
+Text Label 12226 11400 0    70   ~ 0
+3V3
+Wire Wire Line
+	12326 12100 12126 12100
+Text Label 12226 12100 0    70   ~ 0
+3V3
+Wire Wire Line
+	12326 12800 12126 12800
+Text Label 12226 12800 0    70   ~ 0
+3V3
+Wire Wire Line
+	14413 10700 14213 10700
+Text Label 14313 10700 0    70   ~ 0
+3V3
+Wire Wire Line
+	14413 11400 14213 11400
+Text Label 14313 11400 0    70   ~ 0
+3V3
+Wire Wire Line
+	14413 12100 14213 12100
+Text Label 14313 12100 0    70   ~ 0
+3V3
+Wire Wire Line
+	14413 12800 14213 12800
+Text Label 14313 12800 0    70   ~ 0
+3V3
+Wire Wire Line
+	16500 10700 16300 10700
+Text Label 16400 10700 0    70   ~ 0
+3V3
+Wire Wire Line
+	16500 11400 16300 11400
+Text Label 16400 11400 0    70   ~ 0
+3V3
+Wire Wire Line
+	16500 12100 16300 12100
+Text Label 16400 12100 0    70   ~ 0
+3V3
+Wire Wire Line
+	16500 12800 16300 12800
+Text Label 16400 12800 0    70   ~ 0
+3V3
+Wire Wire Line
+	18588 10700 18388 10700
+Text Label 18488 10700 0    70   ~ 0
+3V3
+Wire Wire Line
+	18588 11400 18388 11400
+Text Label 18488 11400 0    70   ~ 0
+3V3
+Wire Wire Line
+	18588 12100 18388 12100
+Text Label 18488 12100 0    70   ~ 0
+3V3
+Wire Wire Line
+	18588 12800 18388 12800
+Text Label 18488 12800 0    70   ~ 0
+3V3
+Wire Wire Line
+	20675 10700 20475 10700
+Text Label 20575 10700 0    70   ~ 0
+3V3
+Wire Wire Line
+	20675 11400 20475 11400
+Text Label 20575 11400 0    70   ~ 0
+3V3
+Wire Wire Line
+	20675 12100 20475 12100
+Text Label 20575 12100 0    70   ~ 0
+3V3
+Wire Wire Line
+	20675 12800 20475 12800
+Text Label 20575 12800 0    70   ~ 0
+3V3
+Wire Wire Line
+	22763 10700 22563 10700
+Text Label 22663 10700 0    70   ~ 0
+3V3
+Wire Wire Line
+	22763 11400 22563 11400
+Text Label 22663 11400 0    70   ~ 0
+3V3
+Wire Wire Line
+	22763 12100 22563 12100
+Text Label 22663 12100 0    70   ~ 0
+3V3
+Wire Wire Line
+	22763 12800 22563 12800
+Text Label 22663 12800 0    70   ~ 0
+3V3
+Wire Wire Line
+	24850 10700 24650 10700
+Text Label 24750 10700 0    70   ~ 0
+3V3
+Wire Wire Line
+	24850 11400 24650 11400
+Text Label 24750 11400 0    70   ~ 0
+3V3
+Wire Wire Line
+	24850 12100 24650 12100
+Text Label 24750 12100 0    70   ~ 0
+3V3
+Wire Wire Line
+	24850 12800 24650 12800
+Text Label 24750 12800 0    70   ~ 0
+3V3
+Wire Wire Line
+	6063 13800 5863 13800
+Text Label 5963 13800 0    70   ~ 0
+3V3
+Wire Wire Line
+	6063 14500 5863 14500
+Text Label 5963 14500 0    70   ~ 0
+3V3
+Wire Wire Line
+	6063 15200 5863 15200
+Text Label 5963 15200 0    70   ~ 0
+3V3
+Wire Wire Line
+	6063 15900 5863 15900
+Text Label 5963 15900 0    70   ~ 0
+3V3
+Wire Wire Line
+	8151 13800 7951 13800
+Text Label 8051 13800 0    70   ~ 0
+3V3
+Wire Wire Line
+	8151 14500 7951 14500
+Text Label 8051 14500 0    70   ~ 0
+3V3
+Wire Wire Line
+	8151 15200 7951 15200
+Text Label 8051 15200 0    70   ~ 0
+3V3
+Wire Wire Line
+	8151 15900 7951 15900
+Text Label 8051 15900 0    70   ~ 0
+3V3
+Wire Wire Line
+	10238 13800 10038 13800
+Text Label 10138 13800 0    70   ~ 0
+3V3
+Wire Wire Line
+	10238 14500 10038 14500
+Text Label 10138 14500 0    70   ~ 0
+3V3
+Wire Wire Line
+	10238 15200 10038 15200
+Text Label 10138 15200 0    70   ~ 0
+3V3
+Wire Wire Line
+	10238 15900 10038 15900
+Text Label 10138 15900 0    70   ~ 0
+3V3
+Wire Wire Line
+	12326 13800 12126 13800
+Text Label 12226 13800 0    70   ~ 0
+3V3
+Wire Wire Line
+	12326 14500 12126 14500
+Text Label 12226 14500 0    70   ~ 0
+3V3
+Wire Wire Line
+	12326 15200 12126 15200
+Text Label 12226 15200 0    70   ~ 0
+3V3
+Wire Wire Line
+	12326 15900 12126 15900
+Text Label 12226 15900 0    70   ~ 0
+3V3
+Wire Wire Line
+	14413 13800 14213 13800
+Text Label 14313 13800 0    70   ~ 0
+3V3
+Wire Wire Line
+	14413 14500 14213 14500
+Text Label 14313 14500 0    70   ~ 0
+3V3
+Wire Wire Line
+	14413 15200 14213 15200
+Text Label 14313 15200 0    70   ~ 0
+3V3
+Wire Wire Line
+	14413 15900 14213 15900
+Text Label 14313 15900 0    70   ~ 0
+3V3
+Wire Wire Line
+	16500 13800 16300 13800
+Text Label 16400 13800 0    70   ~ 0
+3V3
+Wire Wire Line
+	16500 14500 16300 14500
+Text Label 16400 14500 0    70   ~ 0
+3V3
+Wire Wire Line
+	16500 15200 16300 15200
+Text Label 16400 15200 0    70   ~ 0
+3V3
+Wire Wire Line
+	16500 15900 16300 15900
+Text Label 16400 15900 0    70   ~ 0
+3V3
+Wire Wire Line
+	18588 13800 18388 13800
+Text Label 18488 13800 0    70   ~ 0
+3V3
+Wire Wire Line
+	18588 14500 18388 14500
+Text Label 18488 14500 0    70   ~ 0
+3V3
+Wire Wire Line
+	18588 15200 18388 15200
+Text Label 18488 15200 0    70   ~ 0
+3V3
+Wire Wire Line
+	18588 15900 18388 15900
+Text Label 18488 15900 0    70   ~ 0
+3V3
+Wire Wire Line
+	20675 13800 20475 13800
+Text Label 20575 13800 0    70   ~ 0
+3V3
+Wire Wire Line
+	20675 14500 20475 14500
+Text Label 20575 14500 0    70   ~ 0
+3V3
+Wire Wire Line
+	20675 15200 20475 15200
+Text Label 20575 15200 0    70   ~ 0
+3V3
+Wire Wire Line
+	20675 15900 20475 15900
+Text Label 20575 15900 0    70   ~ 0
+3V3
+Wire Wire Line
+	22763 13800 22563 13800
+Text Label 22663 13800 0    70   ~ 0
+3V3
+Wire Wire Line
+	22763 14500 22563 14500
+Text Label 22663 14500 0    70   ~ 0
+3V3
+Wire Wire Line
+	22763 15200 22563 15200
+Text Label 22663 15200 0    70   ~ 0
+3V3
+Wire Wire Line
+	22763 15900 22563 15900
+Text Label 22663 15900 0    70   ~ 0
+3V3
+Wire Wire Line
+	24850 13800 24650 13800
+Text Label 24750 13800 0    70   ~ 0
+3V3
+Wire Wire Line
+	24850 14500 24650 14500
+Text Label 24750 14500 0    70   ~ 0
+3V3
+Wire Wire Line
+	24850 15200 24650 15200
+Text Label 24750 15200 0    70   ~ 0
+3V3
+Wire Wire Line
+	24850 15900 24650 15900
+Text Label 24750 15900 0    70   ~ 0
+3V3
+Wire Wire Line
+	6063 16900 5863 16900
+Text Label 5963 16900 0    70   ~ 0
+3V3
+Wire Wire Line
+	6063 17600 5863 17600
+Text Label 5963 17600 0    70   ~ 0
+3V3
+Wire Wire Line
+	6063 18300 5863 18300
+Text Label 5963 18300 0    70   ~ 0
+3V3
+Wire Wire Line
+	6063 19000 5863 19000
+Text Label 5963 19000 0    70   ~ 0
+3V3
+Wire Wire Line
+	8151 16900 7951 16900
+Text Label 8051 16900 0    70   ~ 0
+3V3
+Wire Wire Line
+	8151 17600 7951 17600
+Text Label 8051 17600 0    70   ~ 0
+3V3
+Wire Wire Line
+	8151 18300 7951 18300
+Text Label 8051 18300 0    70   ~ 0
+3V3
+Wire Wire Line
+	8151 19000 7951 19000
+Text Label 8051 19000 0    70   ~ 0
+3V3
+Wire Wire Line
+	10238 16900 10038 16900
+Text Label 10138 16900 0    70   ~ 0
+3V3
+Wire Wire Line
+	10238 17600 10038 17600
+Text Label 10138 17600 0    70   ~ 0
+3V3
+Wire Wire Line
+	10238 18300 10038 18300
+Text Label 10138 18300 0    70   ~ 0
+3V3
+Wire Wire Line
+	10238 19000 10038 19000
+Text Label 10138 19000 0    70   ~ 0
+3V3
+Wire Wire Line
+	12326 16900 12126 16900
+Text Label 12226 16900 0    70   ~ 0
+3V3
+Wire Wire Line
+	12326 17600 12126 17600
+Text Label 12226 17600 0    70   ~ 0
+3V3
+Wire Wire Line
+	12326 18300 12126 18300
+Text Label 12226 18300 0    70   ~ 0
+3V3
+Wire Wire Line
+	12326 19000 12126 19000
+Text Label 12226 19000 0    70   ~ 0
+3V3
+Wire Wire Line
+	14413 16900 14213 16900
+Text Label 14313 16900 0    70   ~ 0
+3V3
+Wire Wire Line
+	14413 17600 14213 17600
+Text Label 14313 17600 0    70   ~ 0
+3V3
+Wire Wire Line
+	14413 18300 14213 18300
+Text Label 14313 18300 0    70   ~ 0
+3V3
+Wire Wire Line
+	14413 19000 14213 19000
+Text Label 14313 19000 0    70   ~ 0
+3V3
+Wire Wire Line
+	16500 16900 16300 16900
+Text Label 16400 16900 0    70   ~ 0
+3V3
+Wire Wire Line
+	16500 17600 16300 17600
+Text Label 16400 17600 0    70   ~ 0
+3V3
+Wire Wire Line
+	16500 18300 16300 18300
+Text Label 16400 18300 0    70   ~ 0
+3V3
+Wire Wire Line
+	16500 19000 16300 19000
+Text Label 16400 19000 0    70   ~ 0
+3V3
+Wire Wire Line
+	18588 16900 18388 16900
+Text Label 18488 16900 0    70   ~ 0
+3V3
+Wire Wire Line
+	18588 17600 18388 17600
+Text Label 18488 17600 0    70   ~ 0
+3V3
+Wire Wire Line
+	18588 18300 18388 18300
+Text Label 18488 18300 0    70   ~ 0
+3V3
+Wire Wire Line
+	18588 19000 18388 19000
+Text Label 18488 19000 0    70   ~ 0
+3V3
+Wire Wire Line
+	20675 16900 20475 16900
+Text Label 20575 16900 0    70   ~ 0
+3V3
+Wire Wire Line
+	20675 17600 20475 17600
+Text Label 20575 17600 0    70   ~ 0
+3V3
+Wire Wire Line
+	20675 18300 20475 18300
+Text Label 20575 18300 0    70   ~ 0
+3V3
+Wire Wire Line
+	20675 19000 20475 19000
+Text Label 20575 19000 0    70   ~ 0
+3V3
+Wire Wire Line
+	22763 16900 22563 16900
+Text Label 22663 16900 0    70   ~ 0
+3V3
+Wire Wire Line
+	22763 17600 22563 17600
+Text Label 22663 17600 0    70   ~ 0
+3V3
+Wire Wire Line
+	22763 18300 22563 18300
+Text Label 22663 18300 0    70   ~ 0
+3V3
+Wire Wire Line
+	22763 19000 22563 19000
+Text Label 22663 19000 0    70   ~ 0
+3V3
+Wire Wire Line
+	24850 16900 24650 16900
+Text Label 24750 16900 0    70   ~ 0
+3V3
+Wire Wire Line
+	24850 17600 24650 17600
+Text Label 24750 17600 0    70   ~ 0
+3V3
+Wire Wire Line
+	24850 18300 24650 18300
+Text Label 24750 18300 0    70   ~ 0
+3V3
+Wire Wire Line
+	24850 19000 24650 19000
+Text Label 24750 19000 0    70   ~ 0
+3V3
+Wire Wire Line
+	2800 2600 3200 2600
+Text Label 3200 2600 2    70   ~ 0
+3V3
+Wire Wire Line
+	2800 2700 3200 2700
+Text Label 3200 2700 2    70   ~ 0
+3V3
+Wire Wire Line
+	6719 1107 5532 1107
+Text Label 5532 1107 0    70   ~ 0
+SCLK
+Wire Wire Line
+	11194 1107 10007 1107
+Text Label 10007 1107 0    70   ~ 0
+SCLK
+Wire Wire Line
+	15769 1107 14582 1107
+Text Label 14582 1107 0    70   ~ 0
+SCLK
+Wire Wire Line
+	20244 1107 19056 1107
+Text Label 19056 1107 0    70   ~ 0
+SCLK
+Wire Wire Line
+	6719 5106 5532 5106
+Text Label 5532 5106 0    70   ~ 0
+SCLK
+Wire Wire Line
+	11194 5106 10007 5106
+Text Label 10007 5106 0    70   ~ 0
+SCLK
+Wire Wire Line
+	15769 5106 14582 5106
+Text Label 14582 5106 0    70   ~ 0
+SCLK
+Wire Wire Line
+	20244 5106 19056 5106
+Text Label 19056 5106 0    70   ~ 0
+SCLK
+Wire Wire Line
+	2700 6900 2800 6900
+Text Label 2800 6900 0    70   ~ 0
+SCLK
+Wire Wire Line
+	6719 1207 5532 1207
+Text Label 5532 1207 0    70   ~ 0
+LAT
+Wire Wire Line
+	11194 1207 10007 1207
+Text Label 10007 1207 0    70   ~ 0
+LAT
+Wire Wire Line
+	15769 1207 14582 1207
+Text Label 14582 1207 0    70   ~ 0
+LAT
+Wire Wire Line
+	20244 1207 19056 1207
+Text Label 19056 1207 0    70   ~ 0
+LAT
+Wire Wire Line
+	6719 5206 5532 5206
+Text Label 5532 5206 0    70   ~ 0
+LAT
+Wire Wire Line
+	11194 5206 10007 5206
+Text Label 10007 5206 0    70   ~ 0
+LAT
+Wire Wire Line
+	15769 5206 14582 5206
+Text Label 14582 5206 0    70   ~ 0
+LAT
+Wire Wire Line
+	20244 5206 19056 5206
+Text Label 19056 5206 0    70   ~ 0
+LAT
+Wire Wire Line
+	2700 6100 2800 6100
+Text Label 2800 6100 0    70   ~ 0
+LAT
+Wire Wire Line
+	12726 10700 12926 10700
+Text Label 12726 10700 0    70   ~ 0
+N$LEDG13
+Wire Wire Line
+	6719 1507 5532 1507
+Text Label 5532 1507 0    70   ~ 0
+N$LEDG13
+Wire Wire Line
+	6719 1407 5532 1407
+Text Label 5532 1407 0    70   ~ 0
+N$LEDR13
+Wire Wire Line
+	12726 10500 12926 10500
+Text Label 12726 10500 0    70   ~ 0
+N$LEDR13
+Wire Wire Line
+	12726 10900 12926 10900
+Text Label 12726 10900 0    70   ~ 0
+N$LEDB13
+Wire Wire Line
+	6719 1307 5532 1307
+Text Label 5532 1307 0    70   ~ 0
+N$LEDB13
+Wire Wire Line
+	12726 11400 12926 11400
+Text Label 12726 11400 0    70   ~ 0
+N$LEDG14
+Wire Wire Line
+	6719 1807 5532 1807
+Text Label 5532 1807 0    70   ~ 0
+N$LEDG14
+Wire Wire Line
+	6719 1707 5532 1707
+Text Label 5532 1707 0    70   ~ 0
+N$LEDR14
+Wire Wire Line
+	12726 11200 12926 11200
+Text Label 12726 11200 0    70   ~ 0
+N$LEDR14
+Wire Wire Line
+	12726 11600 12926 11600
+Text Label 12726 11600 0    70   ~ 0
+N$LEDB14
+Wire Wire Line
+	6719 1607 5532 1607
+Text Label 5532 1607 0    70   ~ 0
+N$LEDB14
+Wire Wire Line
+	6719 1907 5532 1907
+Text Label 5532 1907 0    70   ~ 0
+N$LEDB10
+Wire Wire Line
+	10638 11600 10838 11600
+Text Label 10638 11600 0    70   ~ 0
+N$LEDB10
+Wire Wire Line
+	6719 2007 5532 2007
+Text Label 5532 2007 0    70   ~ 0
+N$LEDR10
+Wire Wire Line
+	10638 11200 10838 11200
+Text Label 10638 11200 0    70   ~ 0
+N$LEDR10
+Wire Wire Line
+	6719 2107 5532 2107
+Text Label 5532 2107 0    70   ~ 0
+N$LEDG10
+Wire Wire Line
+	10638 11400 10838 11400
+Text Label 10638 11400 0    70   ~ 0
+N$LEDG10
+Wire Wire Line
+	6719 2207 5532 2207
+Text Label 5532 2207 0    70   ~ 0
+N$LEDB9
+Wire Wire Line
+	10638 10900 10838 10900
+Text Label 10638 10900 0    70   ~ 0
+N$LEDB9
+Wire Wire Line
+	6719 2307 5532 2307
+Text Label 5532 2307 0    70   ~ 0
+N$LEDR9
+Wire Wire Line
+	10638 10500 10838 10500
+Text Label 10638 10500 0    70   ~ 0
+N$LEDR9
+Wire Wire Line
+	6719 2407 5532 2407
+Text Label 5532 2407 0    70   ~ 0
+N$LEDG9
+Wire Wire Line
+	10638 10700 10838 10700
+Text Label 10638 10700 0    70   ~ 0
+N$LEDG9
+Wire Wire Line
+	6719 2507 5532 2507
+Text Label 5532 2507 0    70   ~ 0
+N$LEDB6
+Wire Wire Line
+	8551 11600 8751 11600
+Text Label 8551 11600 0    70   ~ 0
+N$LEDB6
+Wire Wire Line
+	6719 2607 5532 2607
+Text Label 5532 2607 0    70   ~ 0
+N$LEDR6
+Wire Wire Line
+	8551 11200 8751 11200
+Text Label 8551 11200 0    70   ~ 0
+N$LEDR6
+Wire Wire Line
+	6719 2707 5532 2707
+Text Label 5532 2707 0    70   ~ 0
+N$LEDG6
+Wire Wire Line
+	8551 11400 8751 11400
+Text Label 8551 11400 0    70   ~ 0
+N$LEDG6
+Wire Wire Line
+	15769 3706 14582 3706
+Text Label 14582 3706 0    70   ~ 0
+SOUT3
+Wire Wire Line
+	8119 1007 9307 1007
+Text Label 9007 1007 0    70   ~ 0
+GND
+Wire Wire Line
+	8119 3706 9307 3706
+Text Label 9007 3706 0    70   ~ 0
+GND
+Wire Wire Line
+	7419 4606 7619 4606
+Text Label 7419 4606 0    70   ~ 0
+GND
+Wire Wire Line
+	12594 1007 13782 1007
+Text Label 13482 1007 0    70   ~ 0
+GND
+Wire Wire Line
+	12594 3706 13782 3706
+Text Label 13482 3706 0    70   ~ 0
+GND
+Wire Wire Line
+	11894 4606 12082 4606
+Text Label 11894 4606 0    70   ~ 0
+GND
+Wire Wire Line
+	17169 1007 18356 1007
+Text Label 18056 1007 0    70   ~ 0
+GND
+Wire Wire Line
+	17169 3706 18356 3706
+Text Label 18056 3706 0    70   ~ 0
+GND
+Wire Wire Line
+	16469 4606 16669 4606
+Text Label 16469 4606 0    70   ~ 0
+GND
+Wire Wire Line
+	21644 1007 22831 1007
+Text Label 22531 1007 0    70   ~ 0
+GND
+Wire Wire Line
+	21644 3706 22831 3706
+Text Label 22531 3706 0    70   ~ 0
+GND
+Wire Wire Line
+	20944 4606 21144 4606
+Text Label 20944 4606 0    70   ~ 0
+GND
+Wire Wire Line
+	8119 5006 9307 5006
+Text Label 9007 5006 0    70   ~ 0
+GND
+Wire Wire Line
+	8119 7706 9307 7706
+Text Label 9007 7706 0    70   ~ 0
+GND
+Wire Wire Line
+	7419 8606 7619 8606
+Text Label 7419 8606 0    70   ~ 0
+GND
+Wire Wire Line
+	12594 5006 13782 5006
+Text Label 13482 5006 0    70   ~ 0
+GND
+Wire Wire Line
+	12594 7706 13782 7706
+Text Label 13482 7706 0    70   ~ 0
+GND
+Wire Wire Line
+	11894 8606 12094 8606
+Text Label 11894 8606 0    70   ~ 0
+GND
+Wire Wire Line
+	17169 5006 18356 5006
+Text Label 18056 5006 0    70   ~ 0
+GND
+Wire Wire Line
+	17169 7706 18356 7706
+Text Label 18056 7706 0    70   ~ 0
+GND
+Wire Wire Line
+	16469 8606 16669 8606
+Text Label 16469 8606 0    70   ~ 0
+GND
+Wire Wire Line
+	21644 5006 22831 5006
+Text Label 22531 5006 0    70   ~ 0
+GND
+Wire Wire Line
+	21644 7706 22831 7706
+Text Label 22531 7706 0    70   ~ 0
+GND
+Wire Wire Line
+	20944 8606 21144 8606
+Text Label 20944 8606 0    70   ~ 0
+GND
+Wire Wire Line
+	1000 4000 1400 4000
+Wire Wire Line
+	1800 4000 1400 4000
+Wire Wire Line
+	1800 4000 2200 4000
+Wire Wire Line
+	2200 4000 2600 4000
+Wire Wire Line
+	2600 4000 3000 4000
+Wire Wire Line
+	3000 4000 3400 4000
+Wire Wire Line
+	3400 4000 3800 4000
+Wire Wire Line
+	1000 4000 700  4000
+Connection ~ 1400 4000
+Connection ~ 1800 4000
+Connection ~ 2200 4000
+Connection ~ 2600 4000
+Connection ~ 3000 4000
+Connection ~ 3400 4000
+Connection ~ 1000 4000
+Text Label 700  4000 0    70   ~ 0
+GND
+Wire Wire Line
+	1000 4500 1400 4500
+Wire Wire Line
+	1800 4500 1400 4500
+Wire Wire Line
+	1800 4500 2200 4500
+Wire Wire Line
+	2200 4500 2600 4500
+Wire Wire Line
+	2600 4500 3000 4500
+Wire Wire Line
+	3000 4500 3400 4500
+Wire Wire Line
+	3400 4500 3800 4500
+Wire Wire Line
+	1000 4500 700  4500
+Connection ~ 1400 4500
+Connection ~ 1800 4500
+Connection ~ 2200 4500
+Connection ~ 2600 4500
+Connection ~ 3000 4500
+Connection ~ 3400 4500
+Connection ~ 1000 4500
+Text Label 700  4500 0    70   ~ 0
+GND
+Wire Wire Line
+	2800 2400 3200 2400
+Text Label 3200 2400 2    70   ~ 0
+GND
+Wire Wire Line
+	2800 2500 3200 2500
+Text Label 3200 2500 2    70   ~ 0
+GND
+Wire Wire Line
+	1600 6300 700  6300
+Wire Wire Line
+	700  6300 700  7100
+Wire Wire Line
+	700  7100 700  7800
+Wire Wire Line
+	700  7800 1600 7800
+Wire Wire Line
+	1600 7100 700  7100
+Wire Wire Line
+	700  7800 700  8100
+Wire Wire Line
+	700  8100 1100 8100
+Connection ~ 700  7100
+Connection ~ 700  7800
+Text Label 900  8100 0    70   ~ 0
+GND
+Wire Wire Line
+	1500 5000 1900 5000
+Wire Wire Line
+	1900 5000 2400 5000
+Wire Wire Line
+	2400 5000 2800 5000
+Wire Wire Line
+	2800 5000 3200 5000
+Wire Wire Line
+	3200 5000 3700 5000
+Wire Wire Line
+	1100 5000 1500 5000
+Connection ~ 1500 5000
+Connection ~ 2400 5000
+Connection ~ 2800 5000
+Connection ~ 1900 5000
+Connection ~ 3200 5000
+Text Label 3500 5000 0    70   ~ 0
+GND
+Wire Wire Line
+	8119 1107 9307 1107
+Text Label 9007 1107 0    70   ~ 0
+GSCLK
+Wire Wire Line
+	12594 1107 13782 1107
+Text Label 13482 1107 0    70   ~ 0
+GSCLK
+Wire Wire Line
+	17169 1107 18356 1107
+Text Label 18056 1107 0    70   ~ 0
+GSCLK
+Wire Wire Line
+	21644 1107 22831 1107
+Text Label 22531 1107 0    70   ~ 0
+GSCLK
+Wire Wire Line
+	8119 5106 9307 5106
+Text Label 9007 5106 0    70   ~ 0
+GSCLK
+Wire Wire Line
+	12594 5106 13782 5106
+Text Label 13482 5106 0    70   ~ 0
+GSCLK
+Wire Wire Line
+	17169 5106 18356 5106
+Text Label 18056 5106 0    70   ~ 0
+GSCLK
+Wire Wire Line
+	21644 5106 22831 5106
+Text Label 22531 5106 0    70   ~ 0
+GSCLK
+Wire Wire Line
+	2700 7600 2800 7600
+Text Label 2800 7600 0    70   ~ 0
+GSCLK
+Wire Wire Line
+	8119 1307 9307 1307
+Text Label 9307 1307 2    70   ~ 0
+N$LEDB16
+Wire Wire Line
+	12726 13000 12926 13000
+Text Label 12726 13000 0    70   ~ 0
+N$LEDB16
+Wire Wire Line
+	8119 1407 9307 1407
+Text Label 9307 1407 2    70   ~ 0
+N$LEDR16
+Wire Wire Line
+	12726 12600 12926 12600
+Text Label 12726 12600 0    70   ~ 0
+N$LEDR16
+Wire Wire Line
+	8119 1507 9307 1507
+Text Label 9307 1507 2    70   ~ 0
+N$LEDG16
+Wire Wire Line
+	12726 12800 12926 12800
+Text Label 12726 12800 0    70   ~ 0
+N$LEDG16
+Wire Wire Line
+	8119 1607 9307 1607
+Text Label 9307 1607 2    70   ~ 0
+N$LEDB15
+Wire Wire Line
+	12726 12300 12926 12300
+Text Label 12726 12300 0    70   ~ 0
+N$LEDB15
+Wire Wire Line
+	8119 1707 9307 1707
+Text Label 9307 1707 2    70   ~ 0
+N$LEDR15
+Wire Wire Line
+	12726 11900 12926 11900
+Text Label 12726 11900 0    70   ~ 0
+N$LEDR15
+Wire Wire Line
+	8119 1807 9307 1807
+Text Label 9307 1807 2    70   ~ 0
+N$LEDG15
+Wire Wire Line
+	12726 12100 12926 12100
+Text Label 12726 12100 0    70   ~ 0
+N$LEDG15
+Wire Wire Line
+	8119 1907 9307 1907
+Text Label 9307 1907 2    70   ~ 0
+N$LEDB12
+Wire Wire Line
+	10638 13000 10838 13000
+Text Label 10638 13000 0    70   ~ 0
+N$LEDB12
+Wire Wire Line
+	8119 2007 9307 2007
+Text Label 9307 2007 2    70   ~ 0
+N$LEDR12
+Wire Wire Line
+	10638 12600 10838 12600
+Text Label 10638 12600 0    70   ~ 0
+N$LEDR12
+Wire Wire Line
+	8119 2107 9307 2107
+Text Label 9307 2107 2    70   ~ 0
+N$LEDG12
+Wire Wire Line
+	10638 12800 10838 12800
+Text Label 10638 12800 0    70   ~ 0
+N$LEDG12
+Wire Wire Line
+	8119 2207 9307 2207
+Text Label 9307 2207 2    70   ~ 0
+N$LEDB11
+Wire Wire Line
+	10638 12300 10838 12300
+Text Label 10638 12300 0    70   ~ 0
+N$LEDB11
+Wire Wire Line
+	8119 2307 9307 2307
+Text Label 9307 2307 2    70   ~ 0
+N$LEDR11
+Wire Wire Line
+	10638 11900 10838 11900
+Text Label 10638 11900 0    70   ~ 0
+N$LEDR11
+Wire Wire Line
+	8119 2407 9307 2407
+Text Label 9307 2407 2    70   ~ 0
+N$LEDG11
+Wire Wire Line
+	10638 12100 10838 12100
+Text Label 10638 12100 0    70   ~ 0
+N$LEDG11
+Wire Wire Line
+	8119 2507 9307 2507
+Text Label 9307 2507 2    70   ~ 0
+N$LEDB8
+Wire Wire Line
+	8551 13000 8751 13000
+Text Label 8551 13000 0    70   ~ 0
+N$LEDB8
+Wire Wire Line
+	8119 2607 9307 2607
+Text Label 9307 2607 2    70   ~ 0
+N$LEDR8
+Wire Wire Line
+	8551 12600 8751 12600
+Text Label 8551 12600 0    70   ~ 0
+N$LEDR8
+Wire Wire Line
+	8119 2707 9307 2707
+Text Label 9307 2707 2    70   ~ 0
+N$LEDG8
+Wire Wire Line
+	8551 12800 8751 12800
+Text Label 8551 12800 0    70   ~ 0
+N$LEDG8
+Wire Wire Line
+	8119 2807 9307 2807
+Text Label 9307 2807 2    70   ~ 0
+N$LEDB7
+Wire Wire Line
+	8551 12300 8751 12300
+Text Label 8551 12300 0    70   ~ 0
+N$LEDB7
+Wire Wire Line
+	8119 2907 9307 2907
+Text Label 9307 2907 2    70   ~ 0
+N$LEDR7
+Wire Wire Line
+	8551 11900 8751 11900
+Text Label 8551 11900 0    70   ~ 0
+N$LEDR7
+Wire Wire Line
+	9307 3007 8119 3007
+Text Label 9307 3007 2    70   ~ 0
+N$LEDG7
+Wire Wire Line
+	8551 12100 8751 12100
+Text Label 8551 12100 0    70   ~ 0
+N$LEDG7
+Wire Wire Line
+	8119 3107 9307 3107
+Text Label 9307 3107 2    70   ~ 0
+N$LEDB4
+Wire Wire Line
+	6463 13000 6663 13000
+Text Label 6463 13000 0    70   ~ 0
+N$LEDB4
+Wire Wire Line
+	8119 3206 9307 3206
+Text Label 9307 3206 2    70   ~ 0
+N$LEDR4
+Wire Wire Line
+	6463 12600 6663 12600
+Text Label 6463 12600 0    70   ~ 0
+N$LEDR4
+Wire Wire Line
+	8119 3306 9307 3306
+Text Label 9307 3306 2    70   ~ 0
+N$LEDG4
+Wire Wire Line
+	6463 12800 6663 12800
+Text Label 6463 12800 0    70   ~ 0
+N$LEDG4
+Wire Wire Line
+	8119 3406 9307 3406
+Text Label 9307 3406 2    70   ~ 0
+N$LEDB3
+Wire Wire Line
+	6463 12300 6663 12300
+Text Label 6463 12300 0    70   ~ 0
+N$LEDB3
+Wire Wire Line
+	8119 3506 9307 3506
+Text Label 9307 3506 2    70   ~ 0
+N$LEDR3
+Wire Wire Line
+	6463 11900 6663 11900
+Text Label 6463 11900 0    70   ~ 0
+N$LEDR3
+Wire Wire Line
+	8119 3606 9307 3606
+Text Label 9307 3606 2    70   ~ 0
+N$LEDG3
+Wire Wire Line
+	6463 12100 6663 12100
+Text Label 6463 12100 0    70   ~ 0
+N$LEDG3
+Wire Wire Line
+	6719 2807 5532 2807
+Text Label 5532 2807 0    70   ~ 0
+N$LEDB5
+Wire Wire Line
+	8551 10900 8751 10900
+Text Label 8551 10900 0    70   ~ 0
+N$LEDB5
+Wire Wire Line
+	6719 2907 5532 2907
+Text Label 5532 2907 0    70   ~ 0
+N$LEDR5
+Wire Wire Line
+	8551 10500 8751 10500
+Text Label 8551 10500 0    70   ~ 0
+N$LEDR5
+Wire Wire Line
+	6719 3007 5532 3007
+Text Label 5532 3007 0    70   ~ 0
+N$LEDG5
+Wire Wire Line
+	8551 10700 8751 10700
+Text Label 8551 10700 0    70   ~ 0
+N$LEDG5
+Wire Wire Line
+	6719 3107 5532 3107
+Text Label 5532 3107 0    70   ~ 0
+N$LEDB2
+Wire Wire Line
+	6463 11600 6663 11600
+Text Label 6463 11600 0    70   ~ 0
+N$LEDB2
+Wire Wire Line
+	6719 3206 5532 3206
+Text Label 5532 3206 0    70   ~ 0
+N$LEDR2
+Wire Wire Line
+	6463 11200 6663 11200
+Text Label 6463 11200 0    70   ~ 0
+N$LEDR2
+Wire Wire Line
+	6719 3306 5532 3306
+Text Label 5532 3306 0    70   ~ 0
+N$LEDG2
+Wire Wire Line
+	6463 11400 6663 11400
+Text Label 6463 11400 0    70   ~ 0
+N$LEDG2
+Wire Wire Line
+	6463 10900 6663 10900
+Text Label 6463 10900 0    70   ~ 0
+N$LEDB1
+Wire Wire Line
+	6719 3406 5532 3406
+Text Label 5532 3406 0    70   ~ 0
+N$LEDB1
+Wire Wire Line
+	6719 3506 5532 3506
+Text Label 5532 3506 0    70   ~ 0
+N$LEDR1
+Wire Wire Line
+	6463 10500 6663 10500
+Text Label 6463 10500 0    70   ~ 0
+N$LEDR1
+Wire Wire Line
+	6719 3606 5532 3606
+Text Label 5532 3606 0    70   ~ 0
+N$LEDG1
+Wire Wire Line
+	6463 10700 6663 10700
+Text Label 6463 10700 0    70   ~ 0
+N$LEDG1
+Wire Wire Line
+	21075 10700 21275 10700
+Text Label 21075 10700 0    70   ~ 0
+N$LEDG29
+Wire Wire Line
+	11194 1507 10007 1507
+Text Label 10007 1507 0    70   ~ 0
+N$LEDG29
+Wire Wire Line
+	11194 1407 10007 1407
+Text Label 10007 1407 0    70   ~ 0
+N$LEDR29
+Wire Wire Line
+	21075 10500 21275 10500
+Text Label 21075 10500 0    70   ~ 0
+N$LEDR29
+Wire Wire Line
+	21075 10900 21275 10900
+Text Label 21075 10900 0    70   ~ 0
+N$LEDB29
+Wire Wire Line
+	11194 1307 10007 1307
+Text Label 10007 1307 0    70   ~ 0
+N$LEDB29
+Wire Wire Line
+	21075 11400 21275 11400
+Text Label 21075 11400 0    70   ~ 0
+N$LEDG30
+Wire Wire Line
+	11194 1807 10007 1807
+Text Label 10007 1807 0    70   ~ 0
+N$LEDG30
+Wire Wire Line
+	11194 1707 10007 1707
+Text Label 10007 1707 0    70   ~ 0
+N$LEDR30
+Wire Wire Line
+	21075 11200 21275 11200
+Text Label 21075 11200 0    70   ~ 0
+N$LEDR30
+Wire Wire Line
+	21075 11600 21275 11600
+Text Label 21075 11600 0    70   ~ 0
+N$LEDB30
+Wire Wire Line
+	11194 1607 10007 1607
+Text Label 10007 1607 0    70   ~ 0
+N$LEDB30
+Wire Wire Line
+	11194 1907 10007 1907
+Text Label 10007 1907 0    70   ~ 0
+N$LEDB26
+Wire Wire Line
+	18988 11600 19188 11600
+Text Label 18988 11600 0    70   ~ 0
+N$LEDB26
+Wire Wire Line
+	11194 2007 10007 2007
+Text Label 10007 2007 0    70   ~ 0
+N$LEDR26
+Wire Wire Line
+	18988 11200 19188 11200
+Text Label 18988 11200 0    70   ~ 0
+N$LEDR26
+Wire Wire Line
+	11194 2107 10007 2107
+Text Label 10007 2107 0    70   ~ 0
+N$LEDG26
+Wire Wire Line
+	18988 11400 19188 11400
+Text Label 18988 11400 0    70   ~ 0
+N$LEDG26
+Wire Wire Line
+	11194 2207 10007 2207
+Text Label 10007 2207 0    70   ~ 0
+N$LEDB25
+Wire Wire Line
+	18988 10900 19188 10900
+Text Label 18988 10900 0    70   ~ 0
+N$LEDB25
+Wire Wire Line
+	11194 2307 10007 2307
+Text Label 10007 2307 0    70   ~ 0
+N$LEDR25
+Wire Wire Line
+	18988 10500 19188 10500
+Text Label 18988 10500 0    70   ~ 0
+N$LEDR25
+Wire Wire Line
+	11194 2407 10007 2407
+Text Label 10007 2407 0    70   ~ 0
+N$LEDG25
+Wire Wire Line
+	18988 10700 19188 10700
+Text Label 18988 10700 0    70   ~ 0
+N$LEDG25
+Wire Wire Line
+	11194 2507 10007 2507
+Text Label 10007 2507 0    70   ~ 0
+N$LEDB22
+Wire Wire Line
+	16900 11600 17100 11600
+Text Label 16900 11600 0    70   ~ 0
+N$LEDB22
+Wire Wire Line
+	11194 2607 10007 2607
+Text Label 10007 2607 0    70   ~ 0
+N$LEDR22
+Wire Wire Line
+	16900 11200 17100 11200
+Text Label 16900 11200 0    70   ~ 0
+N$LEDR22
+Wire Wire Line
+	11194 2707 10007 2707
+Text Label 10007 2707 0    70   ~ 0
+N$LEDG22
+Wire Wire Line
+	16900 11400 17100 11400
+Text Label 16900 11400 0    70   ~ 0
+N$LEDG22
+Wire Wire Line
+	12594 1307 13782 1307
+Text Label 13782 1307 2    70   ~ 0
+N$LEDB32
+Wire Wire Line
+	21075 13000 21275 13000
+Text Label 21075 13000 0    70   ~ 0
+N$LEDB32
+Wire Wire Line
+	12594 1407 13782 1407
+Text Label 13782 1407 2    70   ~ 0
+N$LEDR32
+Wire Wire Line
+	21075 12600 21275 12600
+Text Label 21075 12600 0    70   ~ 0
+N$LEDR32
+Wire Wire Line
+	12594 1507 13782 1507
+Text Label 13782 1507 2    70   ~ 0
+N$LEDG32
+Wire Wire Line
+	21075 12800 21275 12800
+Text Label 21075 12800 0    70   ~ 0
+N$LEDG32
+Wire Wire Line
+	12594 1607 13782 1607
+Text Label 13782 1607 2    70   ~ 0
+N$LEDB31
+Wire Wire Line
+	21075 12300 21275 12300
+Text Label 21075 12300 0    70   ~ 0
+N$LEDB31
+Wire Wire Line
+	12594 1707 13782 1707
+Text Label 13782 1707 2    70   ~ 0
+N$LEDR31
+Wire Wire Line
+	21075 11900 21275 11900
+Text Label 21075 11900 0    70   ~ 0
+N$LEDR31
+Wire Wire Line
+	12594 1807 13782 1807
+Text Label 13782 1807 2    70   ~ 0
+N$LEDG31
+Wire Wire Line
+	21075 12100 21275 12100
+Text Label 21075 12100 0    70   ~ 0
+N$LEDG31
+Wire Wire Line
+	12594 1907 13782 1907
+Text Label 13782 1907 2    70   ~ 0
+N$LEDB28
+Wire Wire Line
+	18988 13000 19188 13000
+Text Label 18988 13000 0    70   ~ 0
+N$LEDB28
+Wire Wire Line
+	12594 2007 13782 2007
+Text Label 13782 2007 2    70   ~ 0
+N$LEDR28
+Wire Wire Line
+	18988 12600 19188 12600
+Text Label 18988 12600 0    70   ~ 0
+N$LEDR28
+Wire Wire Line
+	12594 2107 13782 2107
+Text Label 13782 2107 2    70   ~ 0
+N$LEDG28
+Wire Wire Line
+	18988 12800 19188 12800
+Text Label 18988 12800 0    70   ~ 0
+N$LEDG28
+Wire Wire Line
+	12594 2207 13782 2207
+Text Label 13782 2207 2    70   ~ 0
+N$LEDB27
+Wire Wire Line
+	18988 12300 19188 12300
+Text Label 18988 12300 0    70   ~ 0
+N$LEDB27
+Wire Wire Line
+	12594 2307 13782 2307
+Text Label 13782 2307 2    70   ~ 0
+N$LEDR27
+Wire Wire Line
+	18988 11900 19188 11900
+Text Label 18988 11900 0    70   ~ 0
+N$LEDR27
+Wire Wire Line
+	12594 2407 13782 2407
+Text Label 13782 2407 2    70   ~ 0
+N$LEDG27
+Wire Wire Line
+	18988 12100 19188 12100
+Text Label 18988 12100 0    70   ~ 0
+N$LEDG27
+Wire Wire Line
+	12594 2507 13782 2507
+Text Label 13782 2507 2    70   ~ 0
+N$LEDB24
+Wire Wire Line
+	16900 13000 17100 13000
+Text Label 16900 13000 0    70   ~ 0
+N$LEDB24
+Wire Wire Line
+	12594 2607 13782 2607
+Text Label 13782 2607 2    70   ~ 0
+N$LEDR24
+Wire Wire Line
+	16900 12600 17100 12600
+Text Label 16900 12600 0    70   ~ 0
+N$LEDR24
+Wire Wire Line
+	12594 2707 13782 2707
+Text Label 13782 2707 2    70   ~ 0
+N$LEDG24
+Wire Wire Line
+	16900 12800 17100 12800
+Text Label 16900 12800 0    70   ~ 0
+N$LEDG24
+Wire Wire Line
+	12594 2807 13782 2807
+Text Label 13782 2807 2    70   ~ 0
+N$LEDB23
+Wire Wire Line
+	16900 12300 17100 12300
+Text Label 16900 12300 0    70   ~ 0
+N$LEDB23
+Wire Wire Line
+	12594 2907 13782 2907
+Text Label 13782 2907 2    70   ~ 0
+N$LEDR23
+Wire Wire Line
+	16900 11900 17100 11900
+Text Label 16900 11900 0    70   ~ 0
+N$LEDR23
+Wire Wire Line
+	13782 3007 12594 3007
+Text Label 13782 3007 2    70   ~ 0
+N$LEDG23
+Wire Wire Line
+	16900 12100 17100 12100
+Text Label 16900 12100 0    70   ~ 0
+N$LEDG23
+Wire Wire Line
+	12594 3107 13782 3107
+Text Label 13682 3107 2    70   ~ 0
+N$LEDB20
+Wire Wire Line
+	14813 13000 15013 13000
+Text Label 14813 13000 0    70   ~ 0
+N$LEDB20
+Wire Wire Line
+	12594 3206 13782 3206
+Text Label 13682 3206 2    70   ~ 0
+N$LEDR20
+Wire Wire Line
+	14813 12600 15013 12600
+Text Label 14813 12600 0    70   ~ 0
+N$LEDR20
+Wire Wire Line
+	12594 3306 13782 3306
+Text Label 13782 3306 2    70   ~ 0
+N$LEDG20
+Wire Wire Line
+	14813 12800 15013 12800
+Text Label 14813 12800 0    70   ~ 0
+N$LEDG20
+Wire Wire Line
+	12594 3406 13782 3406
+Text Label 13682 3406 2    70   ~ 0
+N$LEDB19
+Wire Wire Line
+	14813 12300 15013 12300
+Text Label 14813 12300 0    70   ~ 0
+N$LEDB19
+Wire Wire Line
+	12594 3506 13782 3506
+Text Label 13782 3506 2    70   ~ 0
+N$LEDR19
+Wire Wire Line
+	14813 11900 15013 11900
+Text Label 14813 11900 0    70   ~ 0
+N$LEDR19
+Wire Wire Line
+	12594 3606 13782 3606
+Text Label 13782 3606 2    70   ~ 0
+N$LEDG19
+Wire Wire Line
+	14813 12100 15013 12100
+Text Label 14813 12100 0    70   ~ 0
+N$LEDG19
+Wire Wire Line
+	11194 2807 10007 2807
+Text Label 10007 2807 0    70   ~ 0
+N$LEDB21
+Wire Wire Line
+	16900 10900 17100 10900
+Text Label 16900 10900 0    70   ~ 0
+N$LEDB21
+Wire Wire Line
+	11194 2907 10007 2907
+Text Label 10007 2907 0    70   ~ 0
+N$LEDR21
+Wire Wire Line
+	16900 10500 17100 10500
+Text Label 16900 10500 0    70   ~ 0
+N$LEDR21
+Wire Wire Line
+	11194 3007 10007 3007
+Text Label 10007 3007 0    70   ~ 0
+N$LEDG21
+Wire Wire Line
+	16900 10700 17100 10700
+Text Label 16900 10700 0    70   ~ 0
+N$LEDG21
+Wire Wire Line
+	11194 3107 10007 3107
+Text Label 10007 3107 0    70   ~ 0
+N$LEDB18
+Wire Wire Line
+	14813 11600 15013 11600
+Text Label 14813 11600 0    70   ~ 0
+N$LEDB18
+Wire Wire Line
+	11194 3206 10007 3206
+Text Label 10007 3206 0    70   ~ 0
+N$LEDR18
+Wire Wire Line
+	14813 11200 15013 11200
+Text Label 14813 11200 0    70   ~ 0
+N$LEDR18
+Wire Wire Line
+	11194 3306 10007 3306
+Text Label 10007 3306 0    70   ~ 0
+N$LEDG18
+Wire Wire Line
+	14813 11400 15013 11400
+Text Label 14813 11400 0    70   ~ 0
+N$LEDG18
+Wire Wire Line
+	11194 3406 10007 3406
+Text Label 10007 3406 0    70   ~ 0
+N$LEDB17
+Wire Wire Line
+	14813 10900 15013 10900
+Text Label 14813 10900 0    70   ~ 0
+N$LEDB17
+Wire Wire Line
+	11194 3506 10007 3506
+Text Label 10007 3506 0    70   ~ 0
+N$LEDR17
+Wire Wire Line
+	14813 10500 15013 10500
+Text Label 14813 10500 0    70   ~ 0
+N$LEDR17
+Wire Wire Line
+	11194 3606 10007 3606
+Text Label 10007 3606 0    70   ~ 0
+N$LEDG17
+Wire Wire Line
+	14813 10700 15013 10700
+Text Label 14813 10700 0    70   ~ 0
+N$LEDG17
+Wire Wire Line
+	8551 13800 8751 13800
+Text Label 8551 13800 0    70   ~ 0
+N$LEDG45
+Wire Wire Line
+	15769 1507 14582 1507
+Text Label 14582 1507 0    70   ~ 0
+N$LEDG45
+Wire Wire Line
+	15769 1407 14582 1407
+Text Label 14582 1407 0    70   ~ 0
+N$LEDR45
+Wire Wire Line
+	8551 13600 8751 13600
+Text Label 8551 13600 0    70   ~ 0
+N$LEDR45
+Wire Wire Line
+	8551 14000 8751 14000
+Text Label 8551 14000 0    70   ~ 0
+N$LEDB45
+Wire Wire Line
+	15769 1307 14582 1307
+Text Label 14582 1307 0    70   ~ 0
+N$LEDB45
+Wire Wire Line
+	8551 14500 8751 14500
+Text Label 8551 14500 0    70   ~ 0
+N$LEDG46
+Wire Wire Line
+	15769 1807 14582 1807
+Text Label 14582 1807 0    70   ~ 0
+N$LEDG46
+Wire Wire Line
+	15769 1707 14582 1707
+Text Label 14582 1707 0    70   ~ 0
+N$LEDR46
+Wire Wire Line
+	8551 14300 8751 14300
+Text Label 8551 14300 0    70   ~ 0
+N$LEDR46
+Wire Wire Line
+	8551 14700 8751 14700
+Text Label 8551 14700 0    70   ~ 0
+N$LEDB46
+Wire Wire Line
+	15769 1607 14582 1607
+Text Label 14582 1607 0    70   ~ 0
+N$LEDB46
+Wire Wire Line
+	15769 1907 14582 1907
+Text Label 14582 1907 0    70   ~ 0
+N$LEDB42
+Wire Wire Line
+	6463 14700 6663 14700
+Text Label 6463 14700 0    70   ~ 0
+N$LEDB42
+Wire Wire Line
+	15769 2007 14582 2007
+Text Label 14582 2007 0    70   ~ 0
+N$LEDR42
+Wire Wire Line
+	6463 14300 6663 14300
+Text Label 6463 14300 0    70   ~ 0
+N$LEDR42
+Wire Wire Line
+	15769 2107 14582 2107
+Text Label 14682 2107 0    70   ~ 0
+N$LEDG42
+Wire Wire Line
+	6463 14500 6663 14500
+Text Label 6463 14500 0    70   ~ 0
+N$LEDG42
+Wire Wire Line
+	15769 2207 14582 2207
+Text Label 14582 2207 0    70   ~ 0
+N$LEDB41
+Wire Wire Line
+	6463 14000 6663 14000
+Text Label 6463 14000 0    70   ~ 0
+N$LEDB41
+Wire Wire Line
+	15769 2307 14582 2307
+Text Label 14582 2307 0    70   ~ 0
+N$LEDR41
+Wire Wire Line
+	6463 13600 6663 13600
+Text Label 6463 13600 0    70   ~ 0
+N$LEDR41
+Wire Wire Line
+	15769 2407 14582 2407
+Text Label 14582 2407 0    70   ~ 0
+N$LEDG41
+Wire Wire Line
+	6463 13800 6663 13800
+Text Label 6463 13800 0    70   ~ 0
+N$LEDG41
+Wire Wire Line
+	15769 2507 14582 2507
+Text Label 14582 2507 0    70   ~ 0
+N$LEDB38
+Wire Wire Line
+	25250 11600 25450 11600
+Text Label 25250 11600 0    70   ~ 0
+N$LEDB38
+Wire Wire Line
+	15769 2607 14582 2607
+Text Label 14582 2607 0    70   ~ 0
+N$LEDR38
+Wire Wire Line
+	25250 11200 25450 11200
+Text Label 25250 11200 0    70   ~ 0
+N$LEDR38
+Wire Wire Line
+	15769 2707 14582 2707
+Text Label 14582 2707 0    70   ~ 0
+N$LEDG38
+Wire Wire Line
+	25250 11400 25450 11400
+Text Label 25250 11400 0    70   ~ 0
+N$LEDG38
+Wire Wire Line
+	17169 1307 18356 1307
+Text Label 18356 1307 2    70   ~ 0
+N$LEDB48
+Wire Wire Line
+	8551 16100 8751 16100
+Text Label 8551 16100 0    70   ~ 0
+N$LEDB48
+Wire Wire Line
+	17169 1407 18356 1407
+Text Label 18356 1407 2    70   ~ 0
+N$LEDR48
+Wire Wire Line
+	8551 15700 8751 15700
+Text Label 8551 15700 0    70   ~ 0
+N$LEDR48
+Wire Wire Line
+	17169 1507 18356 1507
+Text Label 18356 1507 2    70   ~ 0
+N$LEDG48
+Wire Wire Line
+	8551 15900 8751 15900
+Text Label 8551 15900 0    70   ~ 0
+N$LEDG48
+Wire Wire Line
+	17169 1607 18356 1607
+Text Label 18356 1607 2    70   ~ 0
+N$LEDB47
+Wire Wire Line
+	8551 15400 8751 15400
+Text Label 8551 15400 0    70   ~ 0
+N$LEDB47
+Wire Wire Line
+	17169 1707 18356 1707
+Text Label 18356 1707 2    70   ~ 0
+N$LEDR47
+Wire Wire Line
+	8551 15000 8751 15000
+Text Label 8551 15000 0    70   ~ 0
+N$LEDR47
+Wire Wire Line
+	17169 1807 18356 1807
+Text Label 18356 1807 2    70   ~ 0
+N$LEDG47
+Wire Wire Line
+	8551 15200 8751 15200
+Text Label 8551 15200 0    70   ~ 0
+N$LEDG47
+Wire Wire Line
+	17169 1907 18356 1907
+Text Label 18356 1907 2    70   ~ 0
+N$LEDB44
+Wire Wire Line
+	6463 16100 6663 16100
+Text Label 6463 16100 0    70   ~ 0
+N$LEDB44
+Wire Wire Line
+	17169 2007 18356 2007
+Text Label 18356 2007 2    70   ~ 0
+N$LEDR44
+Wire Wire Line
+	6463 15700 6663 15700
+Text Label 6463 15700 0    70   ~ 0
+N$LEDR44
+Wire Wire Line
+	17169 2107 18356 2107
+Text Label 18356 2107 2    70   ~ 0
+N$LEDG44
+Wire Wire Line
+	6463 15900 6663 15900
+Text Label 6463 15900 0    70   ~ 0
+N$LEDG44
+Wire Wire Line
+	17169 2207 18356 2207
+Text Label 18356 2207 2    70   ~ 0
+N$LEDB43
+Wire Wire Line
+	6463 15400 6663 15400
+Text Label 6463 15400 0    70   ~ 0
+N$LEDB43
+Wire Wire Line
+	17169 2307 18356 2307
+Text Label 18356 2307 2    70   ~ 0
+N$LEDR43
+Wire Wire Line
+	6463 15000 6663 15000
+Text Label 6463 15000 0    70   ~ 0
+N$LEDR43
+Wire Wire Line
+	17169 2407 18356 2407
+Text Label 18356 2407 2    70   ~ 0
+N$LEDG43
+Wire Wire Line
+	6463 15200 6663 15200
+Text Label 6463 15200 0    70   ~ 0
+N$LEDG43
+Wire Wire Line
+	17169 2507 18356 2507
+Text Label 18356 2507 2    70   ~ 0
+N$LEDB40
+Wire Wire Line
+	25250 13000 25450 13000
+Text Label 25250 13000 0    70   ~ 0
+N$LEDB40
+Wire Wire Line
+	17169 2607 18356 2607
+Text Label 18356 2607 2    70   ~ 0
+N$LEDR40
+Wire Wire Line
+	25250 12600 25450 12600
+Text Label 25250 12600 0    70   ~ 0
+N$LEDR40
+Wire Wire Line
+	17169 2707 18356 2707
+Text Label 18356 2707 2    70   ~ 0
+N$LEDG40
+Wire Wire Line
+	25250 12800 25450 12800
+Text Label 25250 12800 0    70   ~ 0
+N$LEDG40
+Wire Wire Line
+	17169 2807 18356 2807
+Text Label 18356 2807 2    70   ~ 0
+N$LEDB39
+Wire Wire Line
+	25250 12300 25450 12300
+Text Label 25250 12300 0    70   ~ 0
+N$LEDB39
+Wire Wire Line
+	17169 2907 18356 2907
+Text Label 18356 2907 2    70   ~ 0
+N$LEDR39
+Wire Wire Line
+	25250 11900 25450 11900
+Text Label 25250 11900 0    70   ~ 0
+N$LEDR39
+Wire Wire Line
+	18356 3007 17169 3007
+Text Label 18356 3007 2    70   ~ 0
+N$LEDG39
+Wire Wire Line
+	25250 12100 25450 12100
+Text Label 25250 12100 0    70   ~ 0
+N$LEDG39
+Wire Wire Line
+	17169 3107 18356 3107
+Text Label 18356 3107 2    70   ~ 0
+N$LEDB36
+Wire Wire Line
+	23163 13000 23363 13000
+Text Label 23163 13000 0    70   ~ 0
+N$LEDB36
+Wire Wire Line
+	17169 3206 18356 3206
+Text Label 18356 3206 2    70   ~ 0
+N$LEDR36
+Wire Wire Line
+	23163 12600 23363 12600
+Text Label 23163 12600 0    70   ~ 0
+N$LEDR36
+Wire Wire Line
+	17169 3306 18356 3306
+Text Label 18356 3306 2    70   ~ 0
+N$LEDG36
+Wire Wire Line
+	23163 12800 23363 12800
+Text Label 23163 12800 0    70   ~ 0
+N$LEDG36
+Wire Wire Line
+	17169 3406 18356 3406
+Text Label 18356 3406 2    70   ~ 0
+N$LEDB35
+Wire Wire Line
+	23163 12300 23363 12300
+Text Label 23163 12300 0    70   ~ 0
+N$LEDB35
+Wire Wire Line
+	17169 3506 18356 3506
+Text Label 18356 3506 2    70   ~ 0
+N$LEDR35
+Wire Wire Line
+	23163 11900 23363 11900
+Text Label 23163 11900 0    70   ~ 0
+N$LEDR35
+Wire Wire Line
+	17169 3606 18356 3606
+Text Label 18356 3606 2    70   ~ 0
+N$LEDG35
+Wire Wire Line
+	23163 12100 23363 12100
+Text Label 23163 12100 0    70   ~ 0
+N$LEDG35
+Wire Wire Line
+	15769 2807 14582 2807
+Text Label 14582 2807 0    70   ~ 0
+N$LEDB37
+Wire Wire Line
+	25250 10900 25450 10900
+Text Label 25250 10900 0    70   ~ 0
+N$LEDB37
+Wire Wire Line
+	15769 2907 14582 2907
+Text Label 14582 2907 0    70   ~ 0
+N$LEDR37
+Wire Wire Line
+	25250 10500 25450 10500
+Text Label 25250 10500 0    70   ~ 0
+N$LEDR37
+Wire Wire Line
+	15769 3007 14582 3007
+Text Label 14582 3007 0    70   ~ 0
+N$LEDG37
+Wire Wire Line
+	25250 10700 25450 10700
+Text Label 25250 10700 0    70   ~ 0
+N$LEDG37
+Wire Wire Line
+	15769 3107 14582 3107
+Text Label 14582 3107 0    70   ~ 0
+N$LEDB34
+Wire Wire Line
+	23163 11600 23363 11600
+Text Label 23163 11600 0    70   ~ 0
+N$LEDB34
+Wire Wire Line
+	15769 3206 14582 3206
+Text Label 14582 3206 0    70   ~ 0
+N$LEDR34
+Wire Wire Line
+	23163 11200 23363 11200
+Text Label 23163 11200 0    70   ~ 0
+N$LEDR34
+Wire Wire Line
+	15769 3306 14582 3306
+Text Label 14582 3306 0    70   ~ 0
+N$LEDG34
+Wire Wire Line
+	23163 11400 23363 11400
+Text Label 23163 11400 0    70   ~ 0
+N$LEDG34
+Wire Wire Line
+	15769 3406 14582 3406
+Text Label 14582 3406 0    70   ~ 0
+N$LEDB33
+Wire Wire Line
+	23163 10900 23363 10900
+Text Label 23163 10900 0    70   ~ 0
+N$LEDB33
+Wire Wire Line
+	15769 3506 14582 3506
+Text Label 14582 3506 0    70   ~ 0
+N$LEDR33
+Wire Wire Line
+	23163 10500 23363 10500
+Text Label 23163 10500 0    70   ~ 0
+N$LEDR33
+Wire Wire Line
+	15769 3606 14582 3606
+Text Label 14582 3606 0    70   ~ 0
+N$LEDG33
+Wire Wire Line
+	23163 10700 23363 10700
+Text Label 23163 10700 0    70   ~ 0
+N$LEDG33
+Wire Wire Line
+	16900 13800 17100 13800
+Text Label 16900 13800 0    70   ~ 0
+N$LEDG61
+Wire Wire Line
+	20244 1507 19056 1507
+Text Label 19056 1507 0    70   ~ 0
+N$LEDG61
+Wire Wire Line
+	20244 1407 19056 1407
+Text Label 19056 1407 0    70   ~ 0
+N$LEDR61
+Wire Wire Line
+	16900 13600 17100 13600
+Text Label 16900 13600 0    70   ~ 0
+N$LEDR61
+Wire Wire Line
+	16900 14000 17100 14000
+Text Label 16900 14000 0    70   ~ 0
+N$LEDB61
+Wire Wire Line
+	20244 1307 19056 1307
+Text Label 19056 1307 0    70   ~ 0
+N$LEDB61
+Wire Wire Line
+	16900 14500 17100 14500
+Text Label 16900 14500 0    70   ~ 0
+N$LEDG62
+Wire Wire Line
+	20244 1807 19056 1807
+Text Label 19056 1807 0    70   ~ 0
+N$LEDG62
+Wire Wire Line
+	20244 1707 19056 1707
+Text Label 19056 1707 0    70   ~ 0
+N$LEDR62
+Wire Wire Line
+	16900 14300 17100 14300
+Text Label 16900 14300 0    70   ~ 0
+N$LEDR62
+Wire Wire Line
+	16900 14700 17100 14700
+Text Label 16900 14700 0    70   ~ 0
+N$LEDB62
+Wire Wire Line
+	20244 1607 19056 1607
+Text Label 19056 1607 0    70   ~ 0
+N$LEDB62
+Wire Wire Line
+	20244 1907 19056 1907
+Text Label 19056 1907 0    70   ~ 0
+N$LEDB58
+Wire Wire Line
+	14813 14700 15013 14700
+Text Label 14813 14700 0    70   ~ 0
+N$LEDB58
+Wire Wire Line
+	20244 2007 19056 2007
+Text Label 19056 2007 0    70   ~ 0
+N$LEDR58
+Wire Wire Line
+	14813 14300 15013 14300
+Text Label 14813 14300 0    70   ~ 0
+N$LEDR58
+Wire Wire Line
+	20244 2107 19056 2107
+Text Label 19056 2107 0    70   ~ 0
+N$LEDG58
+Wire Wire Line
+	14813 14500 15013 14500
+Text Label 14813 14500 0    70   ~ 0
+N$LEDG58
+Wire Wire Line
+	20244 2207 19056 2207
+Text Label 19056 2207 0    70   ~ 0
+N$LEDB57
+Wire Wire Line
+	14813 14000 15013 14000
+Text Label 14813 14000 0    70   ~ 0
+N$LEDB57
+Wire Wire Line
+	20244 2307 19056 2307
+Text Label 19056 2307 0    70   ~ 0
+N$LEDR57
+Wire Wire Line
+	14813 13600 15013 13600
+Text Label 14813 13600 0    70   ~ 0
+N$LEDR57
+Wire Wire Line
+	20244 2407 19056 2407
+Text Label 19056 2407 0    70   ~ 0
+N$LEDG57
+Wire Wire Line
+	14813 13800 15013 13800
+Text Label 14813 13800 0    70   ~ 0
+N$LEDG57
+Wire Wire Line
+	20244 2507 19056 2507
+Text Label 19056 2507 0    70   ~ 0
+N$LEDB54
+Wire Wire Line
+	12726 14700 12926 14700
+Text Label 12726 14700 0    70   ~ 0
+N$LEDB54
+Wire Wire Line
+	20244 2607 19056 2607
+Text Label 19056 2607 0    70   ~ 0
+N$LEDR54
+Wire Wire Line
+	12726 14300 12926 14300
+Text Label 12726 14300 0    70   ~ 0
+N$LEDR54
+Wire Wire Line
+	20244 2707 19056 2707
+Text Label 19056 2707 0    70   ~ 0
+N$LEDG54
+Wire Wire Line
+	12726 14500 12926 14500
+Text Label 12726 14500 0    70   ~ 0
+N$LEDG54
+Wire Wire Line
+	21644 1307 22831 1307
+Text Label 22831 1307 2    70   ~ 0
+N$LEDB64
+Wire Wire Line
+	16900 16100 17100 16100
+Text Label 16900 16100 0    70   ~ 0
+N$LEDB64
+Wire Wire Line
+	21644 1407 22831 1407
+Text Label 22831 1407 2    70   ~ 0
+N$LEDR64
+Wire Wire Line
+	16900 15700 17100 15700
+Text Label 16900 15700 0    70   ~ 0
+N$LEDR64
+Wire Wire Line
+	21644 1507 22831 1507
+Text Label 22831 1507 2    70   ~ 0
+N$LEDG64
+Wire Wire Line
+	16900 15900 17100 15900
+Text Label 16900 15900 0    70   ~ 0
+N$LEDG64
+Wire Wire Line
+	21644 1607 22831 1607
+Text Label 22831 1607 2    70   ~ 0
+N$LEDB63
+Wire Wire Line
+	16900 15400 17100 15400
+Text Label 16900 15400 0    70   ~ 0
+N$LEDB63
+Wire Wire Line
+	21644 1707 22831 1707
+Text Label 22831 1707 2    70   ~ 0
+N$LEDR63
+Wire Wire Line
+	16900 15000 17100 15000
+Text Label 16900 15000 0    70   ~ 0
+N$LEDR63
+Wire Wire Line
+	21644 1807 22831 1807
+Text Label 22831 1807 2    70   ~ 0
+N$LEDG63
+Wire Wire Line
+	16900 15200 17100 15200
+Text Label 16900 15200 0    70   ~ 0
+N$LEDG63
+Wire Wire Line
+	21644 1907 22831 1907
+Text Label 22831 1907 2    70   ~ 0
+N$LEDB60
+Wire Wire Line
+	14813 16100 15013 16100
+Text Label 14813 16100 0    70   ~ 0
+N$LEDB60
+Wire Wire Line
+	21644 2007 22831 2007
+Text Label 22831 2007 2    70   ~ 0
+N$LEDR60
+Wire Wire Line
+	14813 15700 15013 15700
+Text Label 14813 15700 0    70   ~ 0
+N$LEDR60
+Wire Wire Line
+	21644 2107 22831 2107
+Text Label 22831 2107 2    70   ~ 0
+N$LEDG60
+Wire Wire Line
+	14813 15900 15013 15900
+Text Label 14813 15900 0    70   ~ 0
+N$LEDG60
+Wire Wire Line
+	21644 2207 22831 2207
+Text Label 22831 2207 2    70   ~ 0
+N$LEDB59
+Wire Wire Line
+	14813 15400 15013 15400
+Text Label 14813 15400 0    70   ~ 0
+N$LEDB59
+Wire Wire Line
+	21644 2307 22831 2307
+Text Label 22831 2307 2    70   ~ 0
+N$LEDR59
+Wire Wire Line
+	14813 15000 15013 15000
+Text Label 14813 15000 0    70   ~ 0
+N$LEDR59
+Wire Wire Line
+	21644 2407 22831 2407
+Text Label 22831 2407 2    70   ~ 0
+N$LEDG59
+Wire Wire Line
+	14813 15200 15013 15200
+Text Label 14813 15200 0    70   ~ 0
+N$LEDG59
+Wire Wire Line
+	21644 2507 22831 2507
+Text Label 22831 2507 2    70   ~ 0
+N$LEDB56
+Wire Wire Line
+	12726 16100 12926 16100
+Text Label 12726 16100 0    70   ~ 0
+N$LEDB56
+Wire Wire Line
+	21644 2607 22831 2607
+Text Label 22831 2607 2    70   ~ 0
+N$LEDR56
+Wire Wire Line
+	12726 15700 12926 15700
+Text Label 12726 15700 0    70   ~ 0
+N$LEDR56
+Wire Wire Line
+	21644 2707 22831 2707
+Text Label 22831 2707 2    70   ~ 0
+N$LEDG56
+Wire Wire Line
+	12726 15900 12926 15900
+Text Label 12726 15900 0    70   ~ 0
+N$LEDG56
+Wire Wire Line
+	21644 2807 22831 2807
+Text Label 22831 2807 2    70   ~ 0
+N$LEDB55
+Wire Wire Line
+	12726 15400 12926 15400
+Text Label 12726 15400 0    70   ~ 0
+N$LEDB55
+Wire Wire Line
+	21644 2907 22831 2907
+Text Label 22831 2907 2    70   ~ 0
+N$LEDR55
+Wire Wire Line
+	12726 15000 12926 15000
+Text Label 12726 15000 0    70   ~ 0
+N$LEDR55
+Wire Wire Line
+	22831 3007 21644 3007
+Text Label 22831 3007 2    70   ~ 0
+N$LEDG55
+Wire Wire Line
+	12726 15200 12926 15200
+Text Label 12726 15200 0    70   ~ 0
+N$LEDG55
+Wire Wire Line
+	21644 3107 22831 3107
+Text Label 22831 3107 2    70   ~ 0
+N$LEDB52
+Wire Wire Line
+	10638 16100 10838 16100
+Text Label 10638 16100 0    70   ~ 0
+N$LEDB52
+Wire Wire Line
+	21644 3206 22831 3206
+Text Label 22831 3206 2    70   ~ 0
+N$LEDR52
+Wire Wire Line
+	10638 15700 10838 15700
+Text Label 10638 15700 0    70   ~ 0
+N$LEDR52
+Wire Wire Line
+	21644 3306 22831 3306
+Text Label 22831 3306 2    70   ~ 0
+N$LEDG52
+Wire Wire Line
+	10638 15900 10838 15900
+Text Label 10638 15900 0    70   ~ 0
+N$LEDG52
+Wire Wire Line
+	21644 3406 22831 3406
+Text Label 22831 3406 2    70   ~ 0
+N$LEDB51
+Wire Wire Line
+	10638 15400 10838 15400
+Text Label 10638 15400 0    70   ~ 0
+N$LEDB51
+Wire Wire Line
+	21644 3506 22831 3506
+Text Label 22831 3506 2    70   ~ 0
+N$LEDR51
+Wire Wire Line
+	10638 15000 10838 15000
+Text Label 10638 15000 0    70   ~ 0
+N$LEDR51
+Wire Wire Line
+	21644 3606 22831 3606
+Text Label 22831 3606 2    70   ~ 0
+N$LEDG51
+Wire Wire Line
+	10638 15200 10838 15200
+Text Label 10638 15200 0    70   ~ 0
+N$LEDG51
+Wire Wire Line
+	20244 2807 19056 2807
+Text Label 19056 2807 0    70   ~ 0
+N$LEDB53
+Wire Wire Line
+	12726 14000 12926 14000
+Text Label 12726 14000 0    70   ~ 0
+N$LEDB53
+Wire Wire Line
+	20244 2907 19056 2907
+Text Label 19056 2907 0    70   ~ 0
+N$LEDR53
+Wire Wire Line
+	12726 13600 12926 13600
+Text Label 12726 13600 0    70   ~ 0
+N$LEDR53
+Wire Wire Line
+	20244 3007 19056 3007
+Text Label 19056 3007 0    70   ~ 0
+N$LEDG53
+Wire Wire Line
+	12726 13800 12926 13800
+Text Label 12726 13800 0    70   ~ 0
+N$LEDG53
+Wire Wire Line
+	20244 3107 19056 3107
+Text Label 19056 3107 0    70   ~ 0
+N$LEDB50
+Wire Wire Line
+	10638 14700 10838 14700
+Text Label 10638 14700 0    70   ~ 0
+N$LEDB50
+Wire Wire Line
+	20244 3206 19056 3206
+Text Label 19056 3206 0    70   ~ 0
+N$LEDR50
+Wire Wire Line
+	10638 14300 10838 14300
+Text Label 10638 14300 0    70   ~ 0
+N$LEDR50
+Wire Wire Line
+	20244 3306 19056 3306
+Text Label 19056 3306 0    70   ~ 0
+N$LEDG50
+Wire Wire Line
+	10638 14500 10838 14500
+Text Label 10638 14500 0    70   ~ 0
+N$LEDG50
+Wire Wire Line
+	20244 3406 19056 3406
+Text Label 19056 3406 0    70   ~ 0
+N$LEDB49
+Wire Wire Line
+	10638 14000 10838 14000
+Text Label 10638 14000 0    70   ~ 0
+N$LEDB49
+Wire Wire Line
+	20244 3506 19056 3506
+Text Label 19056 3506 0    70   ~ 0
+N$LEDR49
+Wire Wire Line
+	10638 13600 10838 13600
+Text Label 10638 13600 0    70   ~ 0
+N$LEDR49
+Wire Wire Line
+	20244 3606 19056 3606
+Text Label 19056 3606 0    70   ~ 0
+N$LEDG49
+Wire Wire Line
+	10638 13800 10838 13800
+Text Label 10638 13800 0    70   ~ 0
+N$LEDG49
+Wire Wire Line
+	25250 13800 25450 13800
+Text Label 25250 13800 0    70   ~ 0
+N$LEDG77
+Wire Wire Line
+	6719 5506 5532 5506
+Text Label 5532 5506 0    70   ~ 0
+N$LEDG77
+Wire Wire Line
+	6719 5406 5532 5406
+Text Label 5532 5406 0    70   ~ 0
+N$LEDR77
+Wire Wire Line
+	25250 13600 25450 13600
+Text Label 25250 13600 0    70   ~ 0
+N$LEDR77
+Wire Wire Line
+	25250 14000 25450 14000
+Text Label 25250 14000 0    70   ~ 0
+N$LEDB77
+Wire Wire Line
+	6719 5306 5532 5306
+Text Label 5532 5306 0    70   ~ 0
+N$LEDB77
+Wire Wire Line
+	25250 14500 25450 14500
+Text Label 25250 14500 0    70   ~ 0
+N$LEDG78
+Wire Wire Line
+	6719 5806 5532 5806
+Text Label 5532 5806 0    70   ~ 0
+N$LEDG78
+Wire Wire Line
+	6719 5706 5532 5706
+Text Label 5532 5706 0    70   ~ 0
+N$LEDR78
+Wire Wire Line
+	25250 14300 25450 14300
+Text Label 25250 14300 0    70   ~ 0
+N$LEDR78
+Wire Wire Line
+	25250 14700 25450 14700
+Text Label 25250 14700 0    70   ~ 0
+N$LEDB78
+Wire Wire Line
+	6719 5606 5532 5606
+Text Label 5532 5606 0    70   ~ 0
+N$LEDB78
+Wire Wire Line
+	6719 5906 5532 5906
+Text Label 5532 5906 0    70   ~ 0
+N$LEDB74
+Wire Wire Line
+	23163 14700 23363 14700
+Text Label 23163 14700 0    70   ~ 0
+N$LEDB74
+Wire Wire Line
+	6719 6006 5532 6006
+Text Label 5532 6006 0    70   ~ 0
+N$LEDR74
+Wire Wire Line
+	23163 14300 23363 14300
+Text Label 23163 14300 0    70   ~ 0
+N$LEDR74
+Wire Wire Line
+	6719 6106 5532 6106
+Text Label 5532 6106 0    70   ~ 0
+N$LEDG74
+Wire Wire Line
+	23163 14500 23363 14500
+Text Label 23163 14500 0    70   ~ 0
+N$LEDG74
+Wire Wire Line
+	6719 6206 5532 6206
+Text Label 5532 6206 0    70   ~ 0
+N$LEDB73
+Wire Wire Line
+	23163 14000 23363 14000
+Text Label 23163 14000 0    70   ~ 0
+N$LEDB73
+Wire Wire Line
+	6719 6306 5532 6306
+Text Label 5532 6306 0    70   ~ 0
+N$LEDR73
+Wire Wire Line
+	23163 13600 23363 13600
+Text Label 23163 13600 0    70   ~ 0
+N$LEDR73
+Wire Wire Line
+	6719 6406 5532 6406
+Text Label 5532 6406 0    70   ~ 0
+N$LEDG73
+Wire Wire Line
+	23163 13800 23363 13800
+Text Label 23163 13800 0    70   ~ 0
+N$LEDG73
+Wire Wire Line
+	6719 6506 5532 6506
+Text Label 5532 6506 0    70   ~ 0
+N$LEDB70
+Wire Wire Line
+	21075 14700 21275 14700
+Text Label 21075 14700 0    70   ~ 0
+N$LEDB70
+Wire Wire Line
+	6719 6606 5532 6606
+Text Label 5532 6606 0    70   ~ 0
+N$LEDR70
+Wire Wire Line
+	21075 14300 21275 14300
+Text Label 21075 14300 0    70   ~ 0
+N$LEDR70
+Wire Wire Line
+	6719 6706 5532 6706
+Text Label 5532 6706 0    70   ~ 0
+N$LEDG70
+Wire Wire Line
+	21075 14500 21275 14500
+Text Label 21075 14500 0    70   ~ 0
+N$LEDG70
+Wire Wire Line
+	8119 5306 9307 5306
+Text Label 9307 5306 2    70   ~ 0
+N$LEDB80
+Wire Wire Line
+	25250 16100 25450 16100
+Text Label 25250 16100 0    70   ~ 0
+N$LEDB80
+Wire Wire Line
+	8119 5406 9307 5406
+Text Label 9307 5406 2    70   ~ 0
+N$LEDR80
+Wire Wire Line
+	25250 15700 25450 15700
+Text Label 25250 15700 0    70   ~ 0
+N$LEDR80
+Wire Wire Line
+	8119 5506 9307 5506
+Text Label 9307 5506 2    70   ~ 0
+N$LEDG80
+Wire Wire Line
+	25250 15900 25450 15900
+Text Label 25250 15900 0    70   ~ 0
+N$LEDG80
+Wire Wire Line
+	8119 5606 9307 5606
+Text Label 9307 5606 2    70   ~ 0
+N$LEDB79
+Wire Wire Line
+	25250 15400 25450 15400
+Text Label 25250 15400 0    70   ~ 0
+N$LEDB79
+Wire Wire Line
+	8119 5706 9307 5706
+Text Label 9307 5706 2    70   ~ 0
+N$LEDR79
+Wire Wire Line
+	25250 15000 25450 15000
+Text Label 25250 15000 0    70   ~ 0
+N$LEDR79
+Wire Wire Line
+	8119 5806 9307 5806
+Text Label 9307 5806 2    70   ~ 0
+N$LEDG79
+Wire Wire Line
+	25250 15200 25450 15200
+Text Label 25250 15200 0    70   ~ 0
+N$LEDG79
+Wire Wire Line
+	8119 5906 9307 5906
+Text Label 9307 5906 2    70   ~ 0
+N$LEDB76
+Wire Wire Line
+	23163 16100 23363 16100
+Text Label 23163 16100 0    70   ~ 0
+N$LEDB76
+Wire Wire Line
+	8119 6006 9307 6006
+Text Label 9307 6006 2    70   ~ 0
+N$LEDR76
+Wire Wire Line
+	23163 15700 23363 15700
+Text Label 23163 15700 0    70   ~ 0
+N$LEDR76
+Wire Wire Line
+	8119 6106 9307 6106
+Text Label 9307 6106 2    70   ~ 0
+N$LEDG76
+Wire Wire Line
+	23163 15900 23363 15900
+Text Label 23163 15900 0    70   ~ 0
+N$LEDG76
+Wire Wire Line
+	8119 6206 9307 6206
+Text Label 9307 6206 2    70   ~ 0
+N$LEDB75
+Wire Wire Line
+	23163 15400 23363 15400
+Text Label 23163 15400 0    70   ~ 0
+N$LEDB75
+Wire Wire Line
+	8119 6306 9307 6306
+Text Label 9307 6306 2    70   ~ 0
+N$LEDR75
+Wire Wire Line
+	23163 15000 23363 15000
+Text Label 23163 15000 0    70   ~ 0
+N$LEDR75
+Wire Wire Line
+	8119 6406 9307 6406
+Text Label 9307 6406 2    70   ~ 0
+N$LEDG75
+Wire Wire Line
+	23163 15200 23363 15200
+Text Label 23163 15200 0    70   ~ 0
+N$LEDG75
+Wire Wire Line
+	8119 6506 9307 6506
+Text Label 9307 6506 2    70   ~ 0
+N$LEDB72
+Wire Wire Line
+	21075 16100 21275 16100
+Text Label 21075 16100 0    70   ~ 0
+N$LEDB72
+Wire Wire Line
+	8119 6606 9307 6606
+Text Label 9307 6606 2    70   ~ 0
+N$LEDR72
+Wire Wire Line
+	21075 15700 21275 15700
+Text Label 21075 15700 0    70   ~ 0
+N$LEDR72
+Wire Wire Line
+	8119 6706 9307 6706
+Text Label 9307 6706 2    70   ~ 0
+N$LEDG72
+Wire Wire Line
+	21075 15900 21275 15900
+Text Label 21075 15900 0    70   ~ 0
+N$LEDG72
+Wire Wire Line
+	8119 6806 9307 6806
+Text Label 9307 6806 2    70   ~ 0
+N$LEDB71
+Wire Wire Line
+	21075 15400 21275 15400
+Text Label 21075 15400 0    70   ~ 0
+N$LEDB71
+Wire Wire Line
+	8119 6906 9307 6906
+Text Label 9307 6906 2    70   ~ 0
+N$LEDR71
+Wire Wire Line
+	21075 15000 21275 15000
+Text Label 21075 15000 0    70   ~ 0
+N$LEDR71
+Wire Wire Line
+	9307 7006 8119 7006
+Text Label 9307 7006 2    70   ~ 0
+N$LEDG71
+Wire Wire Line
+	21075 15200 21275 15200
+Text Label 21075 15200 0    70   ~ 0
+N$LEDG71
+Wire Wire Line
+	8119 7106 9307 7106
+Text Label 9307 7106 2    70   ~ 0
+N$LEDB68
+Wire Wire Line
+	18988 16100 19188 16100
+Text Label 18988 16100 0    70   ~ 0
+N$LEDB68
+Wire Wire Line
+	8119 7206 9307 7206
+Text Label 9307 7206 2    70   ~ 0
+N$LEDR68
+Wire Wire Line
+	18988 15700 19188 15700
+Text Label 18988 15700 0    70   ~ 0
+N$LEDR68
+Wire Wire Line
+	8119 7306 9307 7306
+Text Label 9307 7306 2    70   ~ 0
+N$LEDG68
+Wire Wire Line
+	18988 15900 19188 15900
+Text Label 18988 15900 0    70   ~ 0
+N$LEDG68
+Wire Wire Line
+	8119 7406 9307 7406
+Text Label 9307 7406 2    70   ~ 0
+N$LEDB67
+Wire Wire Line
+	18988 15400 19188 15400
+Text Label 18988 15400 0    70   ~ 0
+N$LEDB67
+Wire Wire Line
+	8119 7506 9307 7506
+Text Label 9307 7506 2    70   ~ 0
+N$LEDR67
+Wire Wire Line
+	18988 15000 19188 15000
+Text Label 18988 15000 0    70   ~ 0
+N$LEDR67
+Wire Wire Line
+	8119 7606 9307 7606
+Text Label 9307 7606 2    70   ~ 0
+N$LEDG67
+Wire Wire Line
+	18988 15200 19188 15200
+Text Label 18988 15200 0    70   ~ 0
+N$LEDG67
+Wire Wire Line
+	6719 6806 5532 6806
+Text Label 5532 6806 0    70   ~ 0
+N$LEDB69
+Wire Wire Line
+	21075 14000 21275 14000
+Text Label 21075 14000 0    70   ~ 0
+N$LEDB69
+Wire Wire Line
+	6719 6906 5532 6906
+Text Label 5532 6906 0    70   ~ 0
+N$LEDR69
+Wire Wire Line
+	21075 13600 21275 13600
+Text Label 21075 13600 0    70   ~ 0
+N$LEDR69
+Wire Wire Line
+	6719 7006 5532 7006
+Text Label 5532 7006 0    70   ~ 0
+N$LEDG69
+Wire Wire Line
+	21075 13800 21275 13800
+Text Label 21075 13800 0    70   ~ 0
+N$LEDG69
+Wire Wire Line
+	6719 7106 5532 7106
+Text Label 5532 7106 0    70   ~ 0
+N$LEDB66
+Wire Wire Line
+	18988 14700 19188 14700
+Text Label 18988 14700 0    70   ~ 0
+N$LEDB66
+Wire Wire Line
+	6719 7206 5532 7206
+Text Label 5532 7206 0    70   ~ 0
+N$LEDR66
+Wire Wire Line
+	18988 14300 19188 14300
+Text Label 18988 14300 0    70   ~ 0
+N$LEDR66
+Wire Wire Line
+	6719 7306 5532 7306
+Text Label 5532 7306 0    70   ~ 0
+N$LEDG66
+Wire Wire Line
+	18988 14500 19188 14500
+Text Label 18988 14500 0    70   ~ 0
+N$LEDG66
+Wire Wire Line
+	6719 7406 5532 7406
+Text Label 5532 7406 0    70   ~ 0
+N$LEDB65
+Wire Wire Line
+	18988 14000 19188 14000
+Text Label 18988 14000 0    70   ~ 0
+N$LEDB65
+Wire Wire Line
+	6719 7506 5532 7506
+Text Label 5532 7506 0    70   ~ 0
+N$LEDR65
+Wire Wire Line
+	18988 13600 19188 13600
+Text Label 18988 13600 0    70   ~ 0
+N$LEDR65
+Wire Wire Line
+	6719 7606 5532 7606
+Text Label 5532 7606 0    70   ~ 0
+N$LEDG65
+Wire Wire Line
+	18988 13800 19188 13800
+Text Label 18988 13800 0    70   ~ 0
+N$LEDG65
+Wire Wire Line
+	12726 16900 12926 16900
+Text Label 12726 16900 0    70   ~ 0
+N$LEDG93
+Wire Wire Line
+	11194 5506 10007 5506
+Text Label 10007 5506 0    70   ~ 0
+N$LEDG93
+Wire Wire Line
+	11194 5406 10007 5406
+Text Label 10007 5406 0    70   ~ 0
+N$LEDR93
+Wire Wire Line
+	12726 16700 12926 16700
+Text Label 12726 16700 0    70   ~ 0
+N$LEDR93
+Wire Wire Line
+	12726 17100 12926 17100
+Text Label 12726 17100 0    70   ~ 0
+N$LEDB93
+Wire Wire Line
+	11194 5306 10007 5306
+Text Label 10007 5306 0    70   ~ 0
+N$LEDB93
+Wire Wire Line
+	12726 17600 12926 17600
+Text Label 12726 17600 0    70   ~ 0
+N$LEDG94
+Wire Wire Line
+	11194 5806 10007 5806
+Text Label 10007 5806 0    70   ~ 0
+N$LEDG94
+Wire Wire Line
+	11194 5706 10007 5706
+Text Label 10007 5706 0    70   ~ 0
+N$LEDR94
+Wire Wire Line
+	12726 17400 12926 17400
+Text Label 12726 17400 0    70   ~ 0
+N$LEDR94
+Wire Wire Line
+	12726 17800 12926 17800
+Text Label 12726 17800 0    70   ~ 0
+N$LEDB94
+Wire Wire Line
+	11194 5606 10007 5606
+Text Label 10007 5606 0    70   ~ 0
+N$LEDB94
+Wire Wire Line
+	11194 5906 10007 5906
+Text Label 10007 5906 0    70   ~ 0
+N$LEDB90
+Wire Wire Line
+	10638 17800 10838 17800
+Text Label 10638 17800 0    70   ~ 0
+N$LEDB90
+Wire Wire Line
+	11194 6006 10007 6006
+Text Label 10007 6006 0    70   ~ 0
+N$LEDR90
+Wire Wire Line
+	10638 17400 10838 17400
+Text Label 10638 17400 0    70   ~ 0
+N$LEDR90
+Wire Wire Line
+	11194 6106 10007 6106
+Text Label 10007 6106 0    70   ~ 0
+N$LEDG90
+Wire Wire Line
+	10638 17600 10838 17600
+Text Label 10638 17600 0    70   ~ 0
+N$LEDG90
+Wire Wire Line
+	11194 6206 10007 6206
+Text Label 10007 6206 0    70   ~ 0
+N$LEDB89
+Wire Wire Line
+	10638 17100 10838 17100
+Text Label 10638 17100 0    70   ~ 0
+N$LEDB89
+Wire Wire Line
+	11194 6306 10007 6306
+Text Label 10007 6306 0    70   ~ 0
+N$LEDR89
+Wire Wire Line
+	10638 16700 10838 16700
+Text Label 10638 16700 0    70   ~ 0
+N$LEDR89
+Wire Wire Line
+	11194 6406 10007 6406
+Text Label 10007 6406 0    70   ~ 0
+N$LEDG89
+Wire Wire Line
+	10638 16900 10838 16900
+Text Label 10638 16900 0    70   ~ 0
+N$LEDG89
+Wire Wire Line
+	11194 6506 10007 6506
+Text Label 10007 6506 0    70   ~ 0
+N$LEDB86
+Wire Wire Line
+	8551 17800 8751 17800
+Text Label 8551 17800 0    70   ~ 0
+N$LEDB86
+Wire Wire Line
+	11194 6606 10007 6606
+Text Label 10007 6606 0    70   ~ 0
+N$LEDR86
+Wire Wire Line
+	8551 17400 8751 17400
+Text Label 8551 17400 0    70   ~ 0
+N$LEDR86
+Wire Wire Line
+	11194 6706 10007 6706
+Text Label 10007 6706 0    70   ~ 0
+N$LEDG86
+Wire Wire Line
+	8551 17600 8751 17600
+Text Label 8551 17600 0    70   ~ 0
+N$LEDG86
+Wire Wire Line
+	12594 5306 13782 5306
+Text Label 13782 5306 2    70   ~ 0
+N$LEDB96
+Wire Wire Line
+	12726 19200 12926 19200
+Text Label 12726 19200 0    70   ~ 0
+N$LEDB96
+Wire Wire Line
+	12594 5406 13782 5406
+Text Label 13782 5406 2    70   ~ 0
+N$LEDR96
+Wire Wire Line
+	12726 18800 12926 18800
+Text Label 12726 18800 0    70   ~ 0
+N$LEDR96
+Wire Wire Line
+	12594 5506 13782 5506
+Text Label 13782 5506 2    70   ~ 0
+N$LEDG96
+Wire Wire Line
+	12726 19000 12926 19000
+Text Label 12726 19000 0    70   ~ 0
+N$LEDG96
+Wire Wire Line
+	12594 5606 13782 5606
+Text Label 13782 5606 2    70   ~ 0
+N$LEDB95
+Wire Wire Line
+	12726 18500 12926 18500
+Text Label 12726 18500 0    70   ~ 0
+N$LEDB95
+Wire Wire Line
+	12594 5706 13782 5706
+Text Label 13782 5706 2    70   ~ 0
+N$LEDR95
+Wire Wire Line
+	12726 18100 12926 18100
+Text Label 12726 18100 0    70   ~ 0
+N$LEDR95
+Wire Wire Line
+	12594 5806 13782 5806
+Text Label 13782 5806 2    70   ~ 0
+N$LEDG95
+Wire Wire Line
+	12726 18300 12926 18300
+Text Label 12726 18300 0    70   ~ 0
+N$LEDG95
+Wire Wire Line
+	12594 5906 13782 5906
+Text Label 13782 5906 2    70   ~ 0
+N$LEDB92
+Wire Wire Line
+	10638 19200 10838 19200
+Text Label 10638 19200 0    70   ~ 0
+N$LEDB92
+Wire Wire Line
+	12594 6006 13782 6006
+Text Label 13782 6006 2    70   ~ 0
+N$LEDR92
+Wire Wire Line
+	10638 18800 10838 18800
+Text Label 10638 18800 0    70   ~ 0
+N$LEDR92
+Wire Wire Line
+	12594 6106 13782 6106
+Text Label 13782 6106 2    70   ~ 0
+N$LEDG92
+Wire Wire Line
+	10638 19000 10838 19000
+Text Label 10638 19000 0    70   ~ 0
+N$LEDG92
+Wire Wire Line
+	12594 6206 13782 6206
+Text Label 13782 6206 2    70   ~ 0
+N$LEDB91
+Wire Wire Line
+	10638 18500 10838 18500
+Text Label 10638 18500 0    70   ~ 0
+N$LEDB91
+Wire Wire Line
+	12594 6306 13782 6306
+Text Label 13782 6306 2    70   ~ 0
+N$LEDR91
+Wire Wire Line
+	10638 18100 10838 18100
+Text Label 10638 18100 0    70   ~ 0
+N$LEDR91
+Wire Wire Line
+	12594 6406 13782 6406
+Text Label 13782 6406 2    70   ~ 0
+N$LEDG91
+Wire Wire Line
+	10638 18300 10838 18300
+Text Label 10638 18300 0    70   ~ 0
+N$LEDG91
+Wire Wire Line
+	12594 6506 13782 6506
+Text Label 13782 6506 2    70   ~ 0
+N$LEDB88
+Wire Wire Line
+	8551 19200 8751 19200
+Text Label 8551 19200 0    70   ~ 0
+N$LEDB88
+Wire Wire Line
+	12594 6606 13782 6606
+Text Label 13782 6606 2    70   ~ 0
+N$LEDR88
+Wire Wire Line
+	8551 18800 8751 18800
+Text Label 8551 18800 0    70   ~ 0
+N$LEDR88
+Wire Wire Line
+	12594 6706 13782 6706
+Text Label 13782 6706 2    70   ~ 0
+N$LEDG88
+Wire Wire Line
+	8551 19000 8751 19000
+Text Label 8551 19000 0    70   ~ 0
+N$LEDG88
+Wire Wire Line
+	12594 6806 13782 6806
+Text Label 13782 6806 2    70   ~ 0
+N$LEDB87
+Wire Wire Line
+	8551 18500 8751 18500
+Text Label 8551 18500 0    70   ~ 0
+N$LEDB87
+Wire Wire Line
+	12594 6906 13782 6906
+Text Label 13782 6906 2    70   ~ 0
+N$LEDR87
+Wire Wire Line
+	8551 18100 8751 18100
+Text Label 8551 18100 0    70   ~ 0
+N$LEDR87
+Wire Wire Line
+	13782 7006 12594 7006
+Text Label 13782 7006 2    70   ~ 0
+N$LEDG87
+Wire Wire Line
+	8551 18300 8751 18300
+Text Label 8551 18300 0    70   ~ 0
+N$LEDG87
+Wire Wire Line
+	12594 7106 13782 7106
+Text Label 13782 7106 2    70   ~ 0
+N$LEDB84
+Wire Wire Line
+	6463 19200 6663 19200
+Text Label 6463 19200 0    70   ~ 0
+N$LEDB84
+Wire Wire Line
+	12594 7206 13782 7206
+Text Label 13782 7206 2    70   ~ 0
+N$LEDR84
+Wire Wire Line
+	6463 18800 6663 18800
+Text Label 6463 18800 0    70   ~ 0
+N$LEDR84
+Wire Wire Line
+	12594 7306 13782 7306
+Text Label 13782 7306 2    70   ~ 0
+N$LEDG84
+Wire Wire Line
+	6463 19000 6663 19000
+Text Label 6463 19000 0    70   ~ 0
+N$LEDG84
+Wire Wire Line
+	12594 7406 13782 7406
+Text Label 13782 7406 2    70   ~ 0
+N$LEDB83
+Wire Wire Line
+	6463 18500 6663 18500
+Text Label 6463 18500 0    70   ~ 0
+N$LEDB83
+Wire Wire Line
+	12594 7506 13782 7506
+Text Label 13782 7506 2    70   ~ 0
+N$LEDR83
+Wire Wire Line
+	6463 18100 6663 18100
+Text Label 6463 18100 0    70   ~ 0
+N$LEDR83
+Wire Wire Line
+	12594 7606 13782 7606
+Text Label 13782 7606 2    70   ~ 0
+N$LEDG83
+Wire Wire Line
+	6463 18300 6663 18300
+Text Label 6463 18300 0    70   ~ 0
+N$LEDG83
+Wire Wire Line
+	11194 6806 10007 6806
+Text Label 10007 6806 0    70   ~ 0
+N$LEDB85
+Wire Wire Line
+	8551 17100 8751 17100
+Text Label 8551 17100 0    70   ~ 0
+N$LEDB85
+Wire Wire Line
+	11194 6906 10007 6906
+Text Label 10007 6906 0    70   ~ 0
+N$LEDR85
+Wire Wire Line
+	8551 16700 8751 16700
+Text Label 8551 16700 0    70   ~ 0
+N$LEDR85
+Wire Wire Line
+	11194 7006 10007 7006
+Text Label 10007 7006 0    70   ~ 0
+N$LEDG85
+Wire Wire Line
+	8551 16900 8751 16900
+Text Label 8551 16900 0    70   ~ 0
+N$LEDG85
+Wire Wire Line
+	11194 7106 10007 7106
+Text Label 10007 7106 0    70   ~ 0
+N$LEDB82
+Wire Wire Line
+	6463 17800 6663 17800
+Text Label 6463 17800 0    70   ~ 0
+N$LEDB82
+Wire Wire Line
+	11194 7206 10007 7206
+Text Label 10007 7206 0    70   ~ 0
+N$LEDR82
+Wire Wire Line
+	6463 17400 6663 17400
+Text Label 6463 17400 0    70   ~ 0
+N$LEDR82
+Wire Wire Line
+	11194 7306 10007 7306
+Text Label 10007 7306 0    70   ~ 0
+N$LEDG82
+Wire Wire Line
+	6463 17600 6663 17600
+Text Label 6463 17600 0    70   ~ 0
+N$LEDG82
+Wire Wire Line
+	11194 7406 10007 7406
+Text Label 10007 7406 0    70   ~ 0
+N$LEDB81
+Wire Wire Line
+	6463 17100 6663 17100
+Text Label 6463 17100 0    70   ~ 0
+N$LEDB81
+Wire Wire Line
+	11194 7506 10007 7506
+Text Label 10007 7506 0    70   ~ 0
+N$LEDR81
+Wire Wire Line
+	6463 16700 6663 16700
+Text Label 6463 16700 0    70   ~ 0
+N$LEDR81
+Wire Wire Line
+	11194 7606 10007 7606
+Text Label 10007 7606 0    70   ~ 0
+N$LEDG81
+Wire Wire Line
+	6463 16900 6663 16900
+Text Label 6463 16900 0    70   ~ 0
+N$LEDG81
+Wire Wire Line
+	21075 16900 21275 16900
+Text Label 21075 16900 0    70   ~ 0
+N$LEDG109
+Wire Wire Line
+	15769 5506 14582 5506
+Text Label 14582 5506 0    70   ~ 0
+N$LEDG109
+Wire Wire Line
+	15769 5406 14582 5406
+Text Label 14582 5406 0    70   ~ 0
+N$LEDR109
+Wire Wire Line
+	21075 16700 21275 16700
+Text Label 21075 16700 0    70   ~ 0
+N$LEDR109
+Wire Wire Line
+	21075 17100 21275 17100
+Text Label 21075 17100 0    70   ~ 0
+N$LEDB109
+Wire Wire Line
+	15769 5306 14582 5306
+Text Label 14582 5306 0    70   ~ 0
+N$LEDB109
+Wire Wire Line
+	21075 17600 21275 17600
+Text Label 21075 17600 0    70   ~ 0
+N$LEDG110
+Wire Wire Line
+	15769 5806 14582 5806
+Text Label 14582 5806 0    70   ~ 0
+N$LEDG110
+Wire Wire Line
+	15769 5706 14582 5706
+Text Label 14582 5706 0    70   ~ 0
+N$LEDR110
+Wire Wire Line
+	21075 17400 21275 17400
+Text Label 21075 17400 0    70   ~ 0
+N$LEDR110
+Wire Wire Line
+	21075 17800 21275 17800
+Text Label 21075 17800 0    70   ~ 0
+N$LEDB110
+Wire Wire Line
+	15769 5606 14582 5606
+Text Label 14582 5606 0    70   ~ 0
+N$LEDB110
+Wire Wire Line
+	15769 5906 14582 5906
+Text Label 14582 5906 0    70   ~ 0
+N$LEDB106
+Wire Wire Line
+	18988 17800 19188 17800
+Text Label 18988 17800 0    70   ~ 0
+N$LEDB106
+Wire Wire Line
+	15769 6006 14582 6006
+Text Label 14582 6006 0    70   ~ 0
+N$LEDR106
+Wire Wire Line
+	18988 17400 19188 17400
+Text Label 18988 17400 0    70   ~ 0
+N$LEDR106
+Wire Wire Line
+	15769 6106 14582 6106
+Text Label 14582 6106 0    70   ~ 0
+N$LEDG106
+Wire Wire Line
+	18988 17600 19188 17600
+Text Label 18988 17600 0    70   ~ 0
+N$LEDG106
+Wire Wire Line
+	15769 6206 14582 6206
+Text Label 14582 6206 0    70   ~ 0
+N$LEDB105
+Wire Wire Line
+	18988 17100 19188 17100
+Text Label 18988 17100 0    70   ~ 0
+N$LEDB105
+Wire Wire Line
+	15769 6306 14582 6306
+Text Label 14582 6306 0    70   ~ 0
+N$LEDR105
+Wire Wire Line
+	18988 16700 19188 16700
+Text Label 18988 16700 0    70   ~ 0
+N$LEDR105
+Wire Wire Line
+	15769 6406 14582 6406
+Text Label 14582 6406 0    70   ~ 0
+N$LEDG105
+Wire Wire Line
+	18988 16900 19188 16900
+Text Label 18988 16900 0    70   ~ 0
+N$LEDG105
+Wire Wire Line
+	15769 6506 14582 6506
+Text Label 14582 6506 0    70   ~ 0
+N$LEDB102
+Wire Wire Line
+	16900 17800 17100 17800
+Text Label 16900 17800 0    70   ~ 0
+N$LEDB102
+Wire Wire Line
+	15769 6606 14582 6606
+Text Label 14582 6606 0    70   ~ 0
+N$LEDR102
+Wire Wire Line
+	16900 17400 17100 17400
+Text Label 16900 17400 0    70   ~ 0
+N$LEDR102
+Wire Wire Line
+	15769 6706 14582 6706
+Text Label 14582 6706 0    70   ~ 0
+N$LEDG102
+Wire Wire Line
+	16900 17600 17100 17600
+Text Label 16900 17600 0    70   ~ 0
+N$LEDG102
+Wire Wire Line
+	17169 5306 18356 5306
+Text Label 18356 5306 2    70   ~ 0
+N$LEDB112
+Wire Wire Line
+	21075 19200 21275 19200
+Text Label 21075 19200 0    70   ~ 0
+N$LEDB112
+Wire Wire Line
+	17169 5406 18356 5406
+Text Label 18356 5406 2    70   ~ 0
+N$LEDR112
+Wire Wire Line
+	21075 18800 21275 18800
+Text Label 21075 18800 0    70   ~ 0
+N$LEDR112
+Wire Wire Line
+	17169 5506 18356 5506
+Text Label 18356 5506 2    70   ~ 0
+N$LEDG112
+Wire Wire Line
+	21075 19000 21275 19000
+Text Label 21075 19000 0    70   ~ 0
+N$LEDG112
+Wire Wire Line
+	17169 5606 18356 5606
+Text Label 18356 5606 2    70   ~ 0
+N$LEDB111
+Wire Wire Line
+	21075 18500 21275 18500
+Text Label 21075 18500 0    70   ~ 0
+N$LEDB111
+Wire Wire Line
+	17169 5706 18356 5706
+Text Label 18356 5706 2    70   ~ 0
+N$LEDR111
+Wire Wire Line
+	21075 18100 21275 18100
+Text Label 21075 18100 0    70   ~ 0
+N$LEDR111
+Wire Wire Line
+	17169 5806 18356 5806
+Text Label 18356 5806 2    70   ~ 0
+N$LEDG111
+Wire Wire Line
+	21075 18300 21275 18300
+Text Label 21075 18300 0    70   ~ 0
+N$LEDG111
+Wire Wire Line
+	17169 5906 18356 5906
+Text Label 18356 5906 2    70   ~ 0
+N$LEDB108
+Wire Wire Line
+	18988 19200 19188 19200
+Text Label 18988 19200 0    70   ~ 0
+N$LEDB108
+Wire Wire Line
+	17169 6006 18356 6006
+Text Label 18356 6006 2    70   ~ 0
+N$LEDR108
+Wire Wire Line
+	18988 18800 19188 18800
+Text Label 18988 18800 0    70   ~ 0
+N$LEDR108
+Wire Wire Line
+	17169 6106 18356 6106
+Text Label 18356 6106 2    70   ~ 0
+N$LEDG108
+Wire Wire Line
+	18988 19000 19188 19000
+Text Label 18988 19000 0    70   ~ 0
+N$LEDG108
+Wire Wire Line
+	17169 6206 18356 6206
+Text Label 18356 6206 2    70   ~ 0
+N$LEDB107
+Wire Wire Line
+	18988 18500 19188 18500
+Text Label 18988 18500 0    70   ~ 0
+N$LEDB107
+Wire Wire Line
+	17169 6306 18356 6306
+Text Label 18356 6306 2    70   ~ 0
+N$LEDR107
+Wire Wire Line
+	18988 18100 19188 18100
+Text Label 18988 18100 0    70   ~ 0
+N$LEDR107
+Wire Wire Line
+	17169 6406 18356 6406
+Text Label 18356 6406 2    70   ~ 0
+N$LEDG107
+Wire Wire Line
+	18988 18300 19188 18300
+Text Label 18988 18300 0    70   ~ 0
+N$LEDG107
+Wire Wire Line
+	17169 6506 18356 6506
+Text Label 18356 6506 2    70   ~ 0
+N$LEDB104
+Wire Wire Line
+	16900 19200 17100 19200
+Text Label 16900 19200 0    70   ~ 0
+N$LEDB104
+Wire Wire Line
+	17169 6606 18356 6606
+Text Label 18356 6606 2    70   ~ 0
+N$LEDR104
+Wire Wire Line
+	16900 18800 17100 18800
+Text Label 16900 18800 0    70   ~ 0
+N$LEDR104
+Wire Wire Line
+	17169 6706 18356 6706
+Text Label 18356 6706 2    70   ~ 0
+N$LEDG104
+Wire Wire Line
+	16900 19000 17100 19000
+Text Label 16900 19000 0    70   ~ 0
+N$LEDG104
+Wire Wire Line
+	17169 6806 18356 6806
+Text Label 18356 6806 2    70   ~ 0
+N$LEDB103
+Wire Wire Line
+	16900 18500 17100 18500
+Text Label 16900 18500 0    70   ~ 0
+N$LEDB103
+Wire Wire Line
+	17169 6906 18356 6906
+Text Label 18356 6906 2    70   ~ 0
+N$LEDR103
+Wire Wire Line
+	16900 18100 17100 18100
+Text Label 16900 18100 0    70   ~ 0
+N$LEDR103
+Wire Wire Line
+	18356 7006 17169 7006
+Text Label 18356 7006 2    70   ~ 0
+N$LEDG103
+Wire Wire Line
+	16900 18300 17100 18300
+Text Label 16900 18300 0    70   ~ 0
+N$LEDG103
+Wire Wire Line
+	17169 7106 18356 7106
+Text Label 18356 7106 2    70   ~ 0
+N$LEDB100
+Wire Wire Line
+	14813 19200 15013 19200
+Text Label 14813 19200 0    70   ~ 0
+N$LEDB100
+Wire Wire Line
+	17169 7206 18356 7206
+Text Label 18356 7206 2    70   ~ 0
+N$LEDR100
+Wire Wire Line
+	14813 18800 15013 18800
+Text Label 14813 18800 0    70   ~ 0
+N$LEDR100
+Wire Wire Line
+	17169 7306 18356 7306
+Text Label 18356 7306 2    70   ~ 0
+N$LEDG100
+Wire Wire Line
+	14813 19000 15013 19000
+Text Label 14813 19000 0    70   ~ 0
+N$LEDG100
+Wire Wire Line
+	17169 7406 18356 7406
+Text Label 18356 7406 2    70   ~ 0
+N$LEDB99
+Wire Wire Line
+	14813 18500 15013 18500
+Text Label 14813 18500 0    70   ~ 0
+N$LEDB99
+Wire Wire Line
+	17169 7506 18356 7506
+Text Label 18356 7506 2    70   ~ 0
+N$LEDR99
+Wire Wire Line
+	14813 18100 15013 18100
+Text Label 14813 18100 0    70   ~ 0
+N$LEDR99
+Wire Wire Line
+	17169 7606 18356 7606
+Text Label 18356 7606 2    70   ~ 0
+N$LEDG99
+Wire Wire Line
+	14813 18300 15013 18300
+Text Label 14813 18300 0    70   ~ 0
+N$LEDG99
+Wire Wire Line
+	15769 6806 14582 6806
+Text Label 14582 6806 0    70   ~ 0
+N$LEDB101
+Wire Wire Line
+	16900 17100 17100 17100
+Text Label 16900 17100 0    70   ~ 0
+N$LEDB101
+Wire Wire Line
+	15769 6906 14582 6906
+Text Label 14582 6906 0    70   ~ 0
+N$LEDR101
+Wire Wire Line
+	16900 16700 17100 16700
+Text Label 16900 16700 0    70   ~ 0
+N$LEDR101
+Wire Wire Line
+	15769 7006 14582 7006
+Text Label 14582 7006 0    70   ~ 0
+N$LEDG101
+Wire Wire Line
+	16900 16900 17100 16900
+Text Label 16900 16900 0    70   ~ 0
+N$LEDG101
+Wire Wire Line
+	15769 7106 14582 7106
+Text Label 14582 7106 0    70   ~ 0
+N$LEDB98
+Wire Wire Line
+	14813 17800 15013 17800
+Text Label 14813 17800 0    70   ~ 0
+N$LEDB98
+Wire Wire Line
+	15769 7206 14582 7206
+Text Label 14582 7206 0    70   ~ 0
+N$LEDR98
+Wire Wire Line
+	14813 17400 15013 17400
+Text Label 14813 17400 0    70   ~ 0
+N$LEDR98
+Wire Wire Line
+	15769 7306 14582 7306
+Text Label 14582 7306 0    70   ~ 0
+N$LEDG98
+Wire Wire Line
+	14813 17600 15013 17600
+Text Label 14813 17600 0    70   ~ 0
+N$LEDG98
+Wire Wire Line
+	15769 7406 14582 7406
+Text Label 14582 7406 0    70   ~ 0
+N$LEDB97
+Wire Wire Line
+	14813 17100 15013 17100
+Text Label 14813 17100 0    70   ~ 0
+N$LEDB97
+Wire Wire Line
+	15769 7506 14582 7506
+Text Label 14582 7506 0    70   ~ 0
+N$LEDR97
+Wire Wire Line
+	14813 16700 15013 16700
+Text Label 14813 16700 0    70   ~ 0
+N$LEDR97
+Wire Wire Line
+	15769 7606 14582 7606
+Text Label 14582 7606 0    70   ~ 0
+N$LEDG97
+Wire Wire Line
+	14813 16900 15013 16900
+Text Label 14813 16900 0    70   ~ 0
+N$LEDG97
+Wire Wire Line
+	20244 5306 19056 5306
+Text Label 19056 5306 0    70   ~ 0
+N$IC8_PIN4
+Wire Wire Line
+	20244 5406 19056 5406
+Text Label 19056 5406 0    70   ~ 0
+N$IC8_PIN5
+Wire Wire Line
+	20244 5506 19056 5506
+Text Label 19056 5506 0    70   ~ 0
+N$IC8_PIN6
+Wire Wire Line
+	20244 5606 19056 5606
+Text Label 19056 5606 0    70   ~ 0
+N$IC8_PIN7
+Wire Wire Line
+	20244 5706 19056 5706
+Text Label 19056 5706 0    70   ~ 0
+N$IC8_PIN8
+Wire Wire Line
+	20244 5806 19056 5806
+Text Label 19056 5806 0    70   ~ 0
+N$IC8_PIN9
+Wire Wire Line
+	20244 5906 19056 5906
+Text Label 19056 5906 0    70   ~ 0
+N$IC8_PIN10
+Wire Wire Line
+	20244 6006 19056 6006
+Text Label 19056 6006 0    70   ~ 0
+N$IC8_PIN11
+Wire Wire Line
+	20244 6106 19056 6106
+Text Label 19056 6106 0    70   ~ 0
+N$IC8_PIN12
+Wire Wire Line
+	20244 6206 19056 6206
+Text Label 19056 6206 0    70   ~ 0
+N$IC8_PIN13
+Wire Wire Line
+	20244 6306 19056 6306
+Text Label 19056 6306 0    70   ~ 0
+N$IC8_PIN14
+Wire Wire Line
+	20244 6406 19056 6406
+Text Label 19056 6406 0    70   ~ 0
+N$IC8_PIN15
+Wire Wire Line
+	20244 6506 19056 6506
+Text Label 19056 6506 0    70   ~ 0
+N$LEDB118
+Wire Wire Line
+	25250 17800 25450 17800
+Text Label 25250 17800 0    70   ~ 0
+N$LEDB118
+Wire Wire Line
+	20244 6606 19056 6606
+Text Label 19056 6606 0    70   ~ 0
+N$LEDR118
+Wire Wire Line
+	25250 17400 25450 17400
+Text Label 25250 17400 0    70   ~ 0
+N$LEDR118
+Wire Wire Line
+	20244 6706 19056 6706
+Text Label 19056 6706 0    70   ~ 0
+N$LEDG118
+Wire Wire Line
+	25250 17600 25450 17600
+Text Label 25250 17600 0    70   ~ 0
+N$LEDG118
+Wire Wire Line
+	21644 5306 22831 5306
+Text Label 22831 5306 2    70   ~ 0
+N$352
+Wire Wire Line
+	21644 5406 22831 5406
+Text Label 22831 5406 2    70   ~ 0
+N$353
+Wire Wire Line
+	21644 5506 22831 5506
+Text Label 22831 5506 2    70   ~ 0
+N$354
+Wire Wire Line
+	21644 5606 22831 5606
+Text Label 22831 5606 2    70   ~ 0
+N$355
+Wire Wire Line
+	21644 5706 22831 5706
+Text Label 22831 5706 2    70   ~ 0
+N$356
+Wire Wire Line
+	21644 5806 22831 5806
+Text Label 22831 5806 2    70   ~ 0
+N$357
+Wire Wire Line
+	21644 5906 22831 5906
+Text Label 22831 5906 2    70   ~ 0
+N$358
+Wire Wire Line
+	21644 6006 22831 6006
+Text Label 22831 6006 2    70   ~ 0
+N$359
+Wire Wire Line
+	21644 6106 22831 6106
+Text Label 22831 6106 2    70   ~ 0
+N$360
+Wire Wire Line
+	21644 6206 22831 6206
+Text Label 22831 6206 2    70   ~ 0
+N$361
+Wire Wire Line
+	21644 6306 22831 6306
+Text Label 22831 6306 2    70   ~ 0
+N$362
+Wire Wire Line
+	21644 6406 22831 6406
+Text Label 22831 6406 2    70   ~ 0
+N$363
+Wire Wire Line
+	21644 6506 22831 6506
+Text Label 22831 6506 2    70   ~ 0
+N$LEDB120
+Wire Wire Line
+	25250 19200 25450 19200
+Text Label 25250 19200 0    70   ~ 0
+N$LEDB120
+Wire Wire Line
+	21644 6606 22831 6606
+Text Label 22831 6606 2    70   ~ 0
+N$LEDR120
+Wire Wire Line
+	25250 18800 25450 18800
+Text Label 25250 18800 0    70   ~ 0
+N$LEDR120
+Wire Wire Line
+	21644 6706 22831 6706
+Text Label 22831 6706 2    70   ~ 0
+N$LEDG120
+Wire Wire Line
+	25250 19000 25450 19000
+Text Label 25250 19000 0    70   ~ 0
+N$LEDG120
+Wire Wire Line
+	21644 6806 22831 6806
+Text Label 22831 6806 2    70   ~ 0
+N$LEDB119
+Wire Wire Line
+	25250 18500 25450 18500
+Text Label 25250 18500 0    70   ~ 0
+N$LEDB119
+Wire Wire Line
+	21644 6906 22831 6906
+Text Label 22831 6906 2    70   ~ 0
+N$LEDR119
+Wire Wire Line
+	25250 18100 25450 18100
+Text Label 25250 18100 0    70   ~ 0
+N$LEDR119
+Wire Wire Line
+	22831 7006 21644 7006
+Text Label 22831 7006 2    70   ~ 0
+N$LEDG119
+Wire Wire Line
+	25250 18300 25450 18300
+Text Label 25250 18300 0    70   ~ 0
+N$LEDG119
+Wire Wire Line
+	21644 7106 22831 7106
+Text Label 22831 7106 2    70   ~ 0
+N$LEDB116
+Wire Wire Line
+	23163 19200 23363 19200
+Text Label 23163 19200 0    70   ~ 0
+N$LEDB116
+Wire Wire Line
+	21644 7206 22831 7206
+Text Label 22831 7206 2    70   ~ 0
+N$LEDR116
+Wire Wire Line
+	23163 18800 23363 18800
+Text Label 23163 18800 0    70   ~ 0
+N$LEDR116
+Wire Wire Line
+	21644 7306 22831 7306
+Text Label 22831 7306 2    70   ~ 0
+N$LEDG116
+Wire Wire Line
+	23163 19000 23363 19000
+Text Label 23163 19000 0    70   ~ 0
+N$LEDG116
+Wire Wire Line
+	21644 7406 22831 7406
+Text Label 22831 7406 2    70   ~ 0
+N$LEDB115
+Wire Wire Line
+	23163 18500 23363 18500
+Text Label 23163 18500 0    70   ~ 0
+N$LEDB115
+Wire Wire Line
+	21644 7506 22831 7506
+Text Label 22831 7506 2    70   ~ 0
+N$LEDR115
+Wire Wire Line
+	23163 18100 23363 18100
+Text Label 23163 18100 0    70   ~ 0
+N$LEDR115
+Wire Wire Line
+	21644 7606 22831 7606
+Text Label 22831 7606 2    70   ~ 0
+N$LEDG115
+Wire Wire Line
+	23163 18300 23363 18300
+Text Label 23163 18300 0    70   ~ 0
+N$LEDG115
+Wire Wire Line
+	20244 6806 19056 6806
+Text Label 19056 6806 0    70   ~ 0
+N$LEDB117
+Wire Wire Line
+	25250 17100 25450 17100
+Text Label 25250 17100 0    70   ~ 0
+N$LEDB117
+Wire Wire Line
+	20244 6906 19056 6906
+Text Label 19056 6906 0    70   ~ 0
+N$LEDR117
+Wire Wire Line
+	25250 16700 25450 16700
+Text Label 25250 16700 0    70   ~ 0
+N$LEDR117
+Wire Wire Line
+	20244 7006 19056 7006
+Text Label 19056 7006 0    70   ~ 0
+N$LEDG117
+Wire Wire Line
+	25250 16900 25450 16900
+Text Label 25250 16900 0    70   ~ 0
+N$LEDG117
+Wire Wire Line
+	20244 7106 19056 7106
+Text Label 19056 7106 0    70   ~ 0
+N$LEDB114
+Wire Wire Line
+	23163 17800 23363 17800
+Text Label 23163 17800 0    70   ~ 0
+N$LEDB114
+Wire Wire Line
+	20244 7206 19056 7206
+Text Label 19056 7206 0    70   ~ 0
+N$LEDR114
+Wire Wire Line
+	23163 17400 23363 17400
+Text Label 23163 17400 0    70   ~ 0
+N$LEDR114
+Wire Wire Line
+	20244 7306 19056 7306
+Text Label 19056 7306 0    70   ~ 0
+N$LEDG114
+Wire Wire Line
+	23163 17600 23363 17600
+Text Label 23163 17600 0    70   ~ 0
+N$LEDG114
+Wire Wire Line
+	20244 7406 19056 7406
+Text Label 19056 7406 0    70   ~ 0
+N$LEDB113
+Wire Wire Line
+	23163 17100 23363 17100
+Text Label 23163 17100 0    70   ~ 0
+N$LEDB113
+Wire Wire Line
+	20244 7506 19056 7506
+Text Label 19056 7506 0    70   ~ 0
+N$LEDR113
+Wire Wire Line
+	23163 16700 23363 16700
+Text Label 23163 16700 0    70   ~ 0
+N$LEDR113
+Wire Wire Line
+	20244 7606 19056 7606
+Text Label 19056 7606 0    70   ~ 0
+N$LEDG113
+Wire Wire Line
+	23163 16900 23363 16900
+Text Label 23163 16900 0    70   ~ 0
+N$LEDG113
+Wire Wire Line
+	6719 3706 5532 3706
+Text Label 5532 3706 0    70   ~ 0
+SOUT1
+Wire Wire Line
+	11194 3706 10007 3706
+Text Label 10007 3706 0    70   ~ 0
+SOUT2
+Wire Wire Line
+	6719 1007 5532 1007
+Text Label 5532 1007 0    70   ~ 0
+SOUT2
+Text Label 5532 1007 0    70   ~ 0
+SOUT2
+Wire Wire Line
+	20244 3706 19056 3706
+Text Label 19056 3706 0    70   ~ 0
+SOUT4
+Wire Wire Line
+	15769 1007 14582 1007
+Text Label 14582 1007 0    70   ~ 0
+SOUT4
+Wire Wire Line
+	6719 7706 5532 7706
+Text Label 5532 7706 0    70   ~ 0
+SOUT5
+Wire Wire Line
+	11194 7706 10007 7706
+Text Label 10007 7706 0    70   ~ 0
+SOUT6
+Wire Wire Line
+	6719 5006 5532 5006
+Text Label 5532 5006 0    70   ~ 0
+SOUT6
+Wire Wire Line
+	15769 7706 14582 7706
+Text Label 14582 7706 0    70   ~ 0
+SOUT7
+Wire Wire Line
+	20244 7706 19056 7706
+Text Label 19056 7706 0    70   ~ 0
+SOUT8
+Wire Wire Line
+	15769 5006 14582 5006
+Text Label 14582 5006 0    70   ~ 0
+SOUT8
+Wire Wire Line
+	11194 1007 10007 1007
+Text Label 10007 1007 0    70   ~ 0
+SIN_1,2
+Wire Wire Line
+	2800 2900 3200 2900
+Text Label 3200 2900 2    70   ~ 0
+SIN_1,2
+Wire Wire Line
+	20244 1007 19056 1007
+Text Label 19056 1007 0    70   ~ 0
+SIN_3,4
+Wire Wire Line
+	2200 2900 1600 2900
+Text Label 1600 2900 0    70   ~ 0
+SIN_3,4
+Wire Wire Line
+	11194 5006 10007 5006
+Text Label 10007 5006 0    70   ~ 0
+SIN_5,6
+Wire Wire Line
+	2800 2800 3200 2800
+Text Label 3200 2800 2    70   ~ 0
+SIN_5,6
+Wire Wire Line
+	20244 5006 19056 5006
+Text Label 19056 5006 0    70   ~ 0
+SIN_7,8
+Wire Wire Line
+	2200 2800 1600 2800
+Text Label 1600 2800 0    70   ~ 0
+SIN_7,8
+Wire Wire Line
+	8119 1207 9307 1207
+Text Label 9007 1207 0    70   ~ 0
+3V3_LOGIC
+Wire Wire Line
+	12594 1207 13782 1207
+Text Label 13482 1207 0    70   ~ 0
+3V3_LOGIC
+Wire Wire Line
+	17169 1207 18356 1207
+Text Label 18056 1207 0    70   ~ 0
+3V3_LOGIC
+Wire Wire Line
+	21644 1207 22831 1207
+Text Label 22531 1207 0    70   ~ 0
+3V3_LOGIC
+Wire Wire Line
+	21644 5206 22831 5206
+Text Label 22531 5206 0    70   ~ 0
+3V3_LOGIC
+Wire Wire Line
+	17169 5206 18356 5206
+Text Label 18056 5206 0    70   ~ 0
+3V3_LOGIC
+Wire Wire Line
+	12594 5206 13782 5206
+Text Label 13482 5206 0    70   ~ 0
+3V3_LOGIC
+Wire Wire Line
+	8119 5206 9307 5206
+Text Label 9007 5206 0    70   ~ 0
+3V3_LOGIC
+Wire Wire Line
+	1000 3700 1400 3700
+Wire Wire Line
+	1400 3700 1800 3700
+Wire Wire Line
+	1800 3700 2200 3700
+Wire Wire Line
+	2200 3700 2600 3700
+Wire Wire Line
+	2600 3700 3000 3700
+Wire Wire Line
+	3000 3700 3400 3700
+Wire Wire Line
+	3400 3700 3800 3700
+Wire Wire Line
+	1000 3700 700  3700
+Connection ~ 1400 3700
+Connection ~ 1800 3700
+Connection ~ 2200 3700
+Connection ~ 2600 3700
+Connection ~ 3000 3700
+Connection ~ 3400 3700
+Connection ~ 1000 3700
+Text Label 700  3700 0    70   ~ 0
+3V3_LOGIC
+Wire Wire Line
+	1000 4200 1400 4200
+Wire Wire Line
+	1400 4200 1800 4200
+Wire Wire Line
+	1800 4200 2200 4200
+Wire Wire Line
+	2200 4200 2600 4200
+Wire Wire Line
+	2600 4200 3000 4200
+Wire Wire Line
+	3000 4200 3400 4200
+Wire Wire Line
+	3400 4200 3800 4200
+Wire Wire Line
+	1000 4200 700  4200
+Connection ~ 1400 4200
+Connection ~ 1800 4200
+Connection ~ 2200 4200
+Connection ~ 2600 4200
+Connection ~ 3000 4200
+Connection ~ 3400 4200
+Connection ~ 1000 4200
+Text Label 700  4200 0    70   ~ 0
+3V3_LOGIC
+Wire Wire Line
+	2200 2400 1600 2400
+Text Label 1600 2400 0    70   ~ 0
+3V3_LOGIC
+Wire Wire Line
+	2700 6200 3500 6200
+Wire Wire Line
+	3500 6200 3500 7000
+Wire Wire Line
+	3500 7000 3500 7700
+Wire Wire Line
+	3500 7700 2700 7700
+Wire Wire Line
+	2700 7000 3500 7000
+Wire Wire Line
+	3500 6200 3600 6200
+Connection ~ 3500 7000
+Connection ~ 3500 6200
+Text Label 3600 6200 0    70   ~ 0
+3V3_LOGIC
+Wire Wire Line
+	1500 4700 1900 4700
+Wire Wire Line
+	1900 4700 2400 4700
+Wire Wire Line
+	2400 4700 2800 4700
+Wire Wire Line
+	2800 4700 3200 4700
+Wire Wire Line
+	3200 4700 3700 4700
+Wire Wire Line
+	1100 4700 1500 4700
+Connection ~ 1500 4700
+Connection ~ 2400 4700
+Connection ~ 2800 4700
+Connection ~ 1900 4700
+Connection ~ 3200 4700
+Text Label 3200 4700 0    70   ~ 0
+3V3_LOGIC
+Wire Wire Line
+	1600 7000 1500 7000
+Text Label 1500 7000 2    70   ~ 0
+SCLK_FPGA
+Wire Wire Line
+	1600 2700 2200 2700
+Text Label 1600 2700 0    70   ~ 0
+SCLK_FPGA
+Wire Wire Line
+	1600 7700 1500 7700
+Text Label 1500 7700 2    70   ~ 0
+GSCLK_FPGA
+Wire Wire Line
+	2200 2500 1600 2500
+Text Label 1600 2500 0    70   ~ 0
+GSCLK_FPGA
+Wire Wire Line
+	1600 6200 1500 6200
+Text Label 1500 6200 2    70   ~ 0
+LAT_FPGA
+Wire Wire Line
+	2200 2600 1600 2600
+Text Label 1600 2600 0    70   ~ 0
+LAT_FPGA
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:TLC5955DCAR IC1
+U 1 1 22F7723E
+P 6719 1007
+F 0 "IC1" H 7969 1307 59  0000 L CNN
+F 1 "TLC5955DCAR" H 7969 1207 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:SOP50P810X120-57N" H 6719 1007 50  0001 C CNN
+F 3 "" H 6719 1007 50  0001 C CNN
+	1    6719 1007
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:TLC5955DCAR IC2
+U 1 1 BC34DC86
+P 11194 1007
+F 0 "IC2" H 12444 1307 59  0000 L CNN
+F 1 "TLC5955DCAR" H 12444 1207 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:SOP50P810X120-57N" H 11194 1007 50  0001 C CNN
+F 3 "" H 11194 1007 50  0001 C CNN
+	1    11194 1007
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:TLC5955DCAR IC3
+U 1 1 B686635D
+P 15769 1007
+F 0 "IC3" H 17019 1307 59  0000 L CNN
+F 1 "TLC5955DCAR" H 17019 1207 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:SOP50P810X120-57N" H 15769 1007 50  0001 C CNN
+F 3 "" H 15769 1007 50  0001 C CNN
+	1    15769 1007
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:TLC5955DCAR IC4
+U 1 1 FA55F29D
+P 20244 1007
+F 0 "IC4" H 21494 1307 59  0000 L CNN
+F 1 "TLC5955DCAR" H 21494 1207 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:SOP50P810X120-57N" H 20244 1007 50  0001 C CNN
+F 3 "" H 20244 1007 50  0001 C CNN
+	1    20244 1007
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:TLC5955DCAR IC5
+U 1 1 ECA671C6
+P 6719 5006
+F 0 "IC5" H 7969 5306 59  0000 L CNN
+F 1 "TLC5955DCAR" H 7969 5206 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:SOP50P810X120-57N" H 6719 5006 50  0001 C CNN
+F 3 "" H 6719 5006 50  0001 C CNN
+	1    6719 5006
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:TLC5955DCAR IC6
+U 1 1 0EE5647E
+P 11194 5006
+F 0 "IC6" H 12444 5306 59  0000 L CNN
+F 1 "TLC5955DCAR" H 12444 5206 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:SOP50P810X120-57N" H 11194 5006 50  0001 C CNN
+F 3 "" H 11194 5006 50  0001 C CNN
+	1    11194 5006
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:TLC5955DCAR IC7
+U 1 1 3268441D
+P 15769 5006
+F 0 "IC7" H 17019 5306 59  0000 L CNN
+F 1 "TLC5955DCAR" H 17019 5206 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:SOP50P810X120-57N" H 15769 5006 50  0001 C CNN
+F 3 "" H 15769 5006 50  0001 C CNN
+	1    15769 5006
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:TLC5955DCAR IC8
+U 1 1 F533E679
+P 20244 5006
+F 0 "IC8" H 21494 5306 59  0000 L CNN
+F 1 "TLC5955DCAR" H 21494 5206 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:SOP50P810X120-57N" H 20244 5006 50  0001 C CNN
+F 3 "" H 20244 5006 50  0001 C CNN
+	1    20244 5006
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:MA06-2 SV1
+U 1 1 1FCB83CC
+P 2500 2700
+F 0 "SV1" H 2350 3030 59  0000 L BNN
+F 1 "MA06-2" H 2350 2200 59  0000 L BNN
+F 2 "LEDSubMatrixHighDensity_v3:MA06-2" H 2500 2700 50  0001 C CNN
+F 3 "" H 2500 2700 50  0001 C CNN
+	1    2500 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:C-EUC0402 C2
+U 1 1 1B34BBCF
+P 1400 3800
+F 0 "C2" H 1460 3815 59  0000 L BNN
+F 1 ".1uF" H 1460 3615 59  0000 L BNN
+F 2 "LEDSubMatrixHighDensity_v3:C0402" H 1400 3800 50  0001 C CNN
+F 3 "" H 1400 3800 50  0001 C CNN
+	1    1400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:C-EUC0402 C3
+U 1 1 5B8E32D7
+P 1800 3800
+F 0 "C3" H 1860 3815 59  0000 L BNN
+F 1 ".1uF" H 1860 3615 59  0000 L BNN
+F 2 "LEDSubMatrixHighDensity_v3:C0402" H 1800 3800 50  0001 C CNN
+F 3 "" H 1800 3800 50  0001 C CNN
+	1    1800 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:C-EUC0402 C4
+U 1 1 D01FBD6C
+P 2200 3800
+F 0 "C4" H 2260 3815 59  0000 L BNN
+F 1 ".1uF" H 2260 3615 59  0000 L BNN
+F 2 "LEDSubMatrixHighDensity_v3:C0402" H 2200 3800 50  0001 C CNN
+F 3 "" H 2200 3800 50  0001 C CNN
+	1    2200 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:C-EUC0402 C5
+U 1 1 F819338A
+P 2600 3800
+F 0 "C5" H 2660 3815 59  0000 L BNN
+F 1 ".1uF" H 2660 3615 59  0000 L BNN
+F 2 "LEDSubMatrixHighDensity_v3:C0402" H 2600 3800 50  0001 C CNN
+F 3 "" H 2600 3800 50  0001 C CNN
+	1    2600 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:C-EUC0402 C6
+U 1 1 57B86B78
+P 3000 3800
+F 0 "C6" H 3060 3815 59  0000 L BNN
+F 1 ".1uF" H 3060 3615 59  0000 L BNN
+F 2 "LEDSubMatrixHighDensity_v3:C0402" H 3000 3800 50  0001 C CNN
+F 3 "" H 3000 3800 50  0001 C CNN
+	1    3000 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:C-EUC0402 C7
+U 1 1 12B462CC
+P 3400 3800
+F 0 "C7" H 3460 3815 59  0000 L BNN
+F 1 ".1uF" H 3460 3615 59  0000 L BNN
+F 2 "LEDSubMatrixHighDensity_v3:C0402" H 3400 3800 50  0001 C CNN
+F 3 "" H 3400 3800 50  0001 C CNN
+	1    3400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:C-EUC0402 C8
+U 1 1 740E3A5B
+P 3800 3800
+F 0 "C8" H 3860 3815 59  0000 L BNN
+F 1 ".1uF" H 3860 3615 59  0000 L BNN
+F 2 "LEDSubMatrixHighDensity_v3:C0402" H 3800 3800 50  0001 C CNN
+F 3 "" H 3800 3800 50  0001 C CNN
+	1    3800 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:C-EUC0402 C1
+U 1 1 7FB0097F
+P 1000 3800
+F 0 "C1" H 1060 3815 59  0000 L BNN
+F 1 ".1uF" H 1060 3615 59  0000 L BNN
+F 2 "LEDSubMatrixHighDensity_v3:C0402" H 1000 3800 50  0001 C CNN
+F 3 "" H 1000 3800 50  0001 C CNN
+	1    1000 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK1
+U 1 1 89203F2C
+P 6063 10700
+F 0 "UNK1" H 5713 10900 59  0000 L CNN
+F 1 "B38G3RGB" H 5713 10800 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 6063 10700 50  0001 C CNN
+F 3 "" H 6063 10700 50  0001 C CNN
+	1    6063 10700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK2
+U 1 1 EE71016C
+P 6063 11400
+F 0 "UNK2" H 5713 11600 59  0000 L CNN
+F 1 "B38G3RGB" H 5713 11500 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 6063 11400 50  0001 C CNN
+F 3 "" H 6063 11400 50  0001 C CNN
+	1    6063 11400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK3
+U 1 1 DA062505
+P 6063 12100
+F 0 "UNK3" H 5713 12300 59  0000 L CNN
+F 1 "B38G3RGB" H 5713 12200 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 6063 12100 50  0001 C CNN
+F 3 "" H 6063 12100 50  0001 C CNN
+	1    6063 12100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK4
+U 1 1 96C34CA7
+P 6063 12800
+F 0 "UNK4" H 5713 13000 59  0000 L CNN
+F 1 "B38G3RGB" H 5713 12900 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 6063 12800 50  0001 C CNN
+F 3 "" H 6063 12800 50  0001 C CNN
+	1    6063 12800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK5
+U 1 1 DE036069
+P 8151 10700
+F 0 "UNK5" H 7801 10900 59  0000 L CNN
+F 1 "B38G3RGB" H 7801 10800 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 8151 10700 50  0001 C CNN
+F 3 "" H 8151 10700 50  0001 C CNN
+	1    8151 10700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK6
+U 1 1 2DE9B480
+P 8151 11400
+F 0 "UNK6" H 7801 11600 59  0000 L CNN
+F 1 "B38G3RGB" H 7801 11500 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 8151 11400 50  0001 C CNN
+F 3 "" H 8151 11400 50  0001 C CNN
+	1    8151 11400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK7
+U 1 1 8E27E122
+P 8151 12100
+F 0 "UNK7" H 7801 12300 59  0000 L CNN
+F 1 "B38G3RGB" H 7801 12200 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 8151 12100 50  0001 C CNN
+F 3 "" H 8151 12100 50  0001 C CNN
+	1    8151 12100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK8
+U 1 1 6F7095A3
+P 8151 12800
+F 0 "UNK8" H 7801 13000 59  0000 L CNN
+F 1 "B38G3RGB" H 7801 12900 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 8151 12800 50  0001 C CNN
+F 3 "" H 8151 12800 50  0001 C CNN
+	1    8151 12800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK9
+U 1 1 EC1449BE
+P 10238 10700
+F 0 "UNK9" H 9888 10900 59  0000 L CNN
+F 1 "B38G3RGB" H 9888 10800 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 10238 10700 50  0001 C CNN
+F 3 "" H 10238 10700 50  0001 C CNN
+	1    10238 10700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK10
+U 1 1 1DAD54CC
+P 10238 11400
+F 0 "UNK10" H 9888 11600 59  0000 L CNN
+F 1 "B38G3RGB" H 9888 11500 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 10238 11400 50  0001 C CNN
+F 3 "" H 10238 11400 50  0001 C CNN
+	1    10238 11400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK11
+U 1 1 536AD41F
+P 10238 12100
+F 0 "UNK11" H 9888 12300 59  0000 L CNN
+F 1 "B38G3RGB" H 9888 12200 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 10238 12100 50  0001 C CNN
+F 3 "" H 10238 12100 50  0001 C CNN
+	1    10238 12100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK12
+U 1 1 C0B9D68B
+P 10238 12800
+F 0 "UNK12" H 9888 13000 59  0000 L CNN
+F 1 "B38G3RGB" H 9888 12900 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 10238 12800 50  0001 C CNN
+F 3 "" H 10238 12800 50  0001 C CNN
+	1    10238 12800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK13
+U 1 1 CE8C4F9E
+P 12326 10700
+F 0 "UNK13" H 11976 10900 59  0000 L CNN
+F 1 "B38G3RGB" H 11976 10800 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 12326 10700 50  0001 C CNN
+F 3 "" H 12326 10700 50  0001 C CNN
+	1    12326 10700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK14
+U 1 1 DEBC6924
+P 12326 11400
+F 0 "UNK14" H 11976 11600 59  0000 L CNN
+F 1 "B38G3RGB" H 11976 11500 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 12326 11400 50  0001 C CNN
+F 3 "" H 12326 11400 50  0001 C CNN
+	1    12326 11400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK15
+U 1 1 A7F65A9D
+P 12326 12100
+F 0 "UNK15" H 11976 12300 59  0000 L CNN
+F 1 "B38G3RGB" H 11976 12200 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 12326 12100 50  0001 C CNN
+F 3 "" H 12326 12100 50  0001 C CNN
+	1    12326 12100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK16
+U 1 1 BE6E09F4
+P 12326 12800
+F 0 "UNK16" H 11976 13000 59  0000 L CNN
+F 1 "B38G3RGB" H 11976 12900 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 12326 12800 50  0001 C CNN
+F 3 "" H 12326 12800 50  0001 C CNN
+	1    12326 12800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK17
+U 1 1 B688D1B8
+P 14413 10700
+F 0 "UNK17" H 14063 10900 59  0000 L CNN
+F 1 "B38G3RGB" H 14063 10800 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 14413 10700 50  0001 C CNN
+F 3 "" H 14413 10700 50  0001 C CNN
+	1    14413 10700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK18
+U 1 1 B83643BF
+P 14413 11400
+F 0 "UNK18" H 14063 11600 59  0000 L CNN
+F 1 "B38G3RGB" H 14063 11500 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 14413 11400 50  0001 C CNN
+F 3 "" H 14413 11400 50  0001 C CNN
+	1    14413 11400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK19
+U 1 1 0E64CBA9
+P 14413 12100
+F 0 "UNK19" H 14063 12300 59  0000 L CNN
+F 1 "B38G3RGB" H 14063 12200 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 14413 12100 50  0001 C CNN
+F 3 "" H 14413 12100 50  0001 C CNN
+	1    14413 12100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK20
+U 1 1 EEE8637E
+P 14413 12800
+F 0 "UNK20" H 14063 13000 59  0000 L CNN
+F 1 "B38G3RGB" H 14063 12900 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 14413 12800 50  0001 C CNN
+F 3 "" H 14413 12800 50  0001 C CNN
+	1    14413 12800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK21
+U 1 1 1AFDD67C
+P 16500 10700
+F 0 "UNK21" H 16150 10900 59  0000 L CNN
+F 1 "B38G3RGB" H 16150 10800 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 16500 10700 50  0001 C CNN
+F 3 "" H 16500 10700 50  0001 C CNN
+	1    16500 10700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK22
+U 1 1 4D5EB75D
+P 16500 11400
+F 0 "UNK22" H 16150 11600 59  0000 L CNN
+F 1 "B38G3RGB" H 16150 11500 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 16500 11400 50  0001 C CNN
+F 3 "" H 16500 11400 50  0001 C CNN
+	1    16500 11400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK23
+U 1 1 0AEA3F65
+P 16500 12100
+F 0 "UNK23" H 16150 12300 59  0000 L CNN
+F 1 "B38G3RGB" H 16150 12200 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 16500 12100 50  0001 C CNN
+F 3 "" H 16500 12100 50  0001 C CNN
+	1    16500 12100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK24
+U 1 1 EB546FF1
+P 16500 12800
+F 0 "UNK24" H 16150 13000 59  0000 L CNN
+F 1 "B38G3RGB" H 16150 12900 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 16500 12800 50  0001 C CNN
+F 3 "" H 16500 12800 50  0001 C CNN
+	1    16500 12800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK25
+U 1 1 7A0BE47F
+P 18588 10700
+F 0 "UNK25" H 18238 10900 59  0000 L CNN
+F 1 "B38G3RGB" H 18238 10800 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 18588 10700 50  0001 C CNN
+F 3 "" H 18588 10700 50  0001 C CNN
+	1    18588 10700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK26
+U 1 1 6B0BB90A
+P 18588 11400
+F 0 "UNK26" H 18238 11600 59  0000 L CNN
+F 1 "B38G3RGB" H 18238 11500 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 18588 11400 50  0001 C CNN
+F 3 "" H 18588 11400 50  0001 C CNN
+	1    18588 11400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK27
+U 1 1 19436006
+P 18588 12100
+F 0 "UNK27" H 18238 12300 59  0000 L CNN
+F 1 "B38G3RGB" H 18238 12200 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 18588 12100 50  0001 C CNN
+F 3 "" H 18588 12100 50  0001 C CNN
+	1    18588 12100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK28
+U 1 1 62F0FF03
+P 18588 12800
+F 0 "UNK28" H 18238 13000 59  0000 L CNN
+F 1 "B38G3RGB" H 18238 12900 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 18588 12800 50  0001 C CNN
+F 3 "" H 18588 12800 50  0001 C CNN
+	1    18588 12800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK29
+U 1 1 DC2D96EE
+P 20675 10700
+F 0 "UNK29" H 20325 10900 59  0000 L CNN
+F 1 "B38G3RGB" H 20325 10800 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 20675 10700 50  0001 C CNN
+F 3 "" H 20675 10700 50  0001 C CNN
+	1    20675 10700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK30
+U 1 1 BA48C198
+P 20675 11400
+F 0 "UNK30" H 20325 11600 59  0000 L CNN
+F 1 "B38G3RGB" H 20325 11500 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 20675 11400 50  0001 C CNN
+F 3 "" H 20675 11400 50  0001 C CNN
+	1    20675 11400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK31
+U 1 1 58F499EC
+P 20675 12100
+F 0 "UNK31" H 20325 12300 59  0000 L CNN
+F 1 "B38G3RGB" H 20325 12200 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 20675 12100 50  0001 C CNN
+F 3 "" H 20675 12100 50  0001 C CNN
+	1    20675 12100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK32
+U 1 1 FB329B78
+P 20675 12800
+F 0 "UNK32" H 20325 13000 59  0000 L CNN
+F 1 "B38G3RGB" H 20325 12900 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 20675 12800 50  0001 C CNN
+F 3 "" H 20675 12800 50  0001 C CNN
+	1    20675 12800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK33
+U 1 1 2098BF56
+P 22763 10700
+F 0 "UNK33" H 22413 10900 59  0000 L CNN
+F 1 "B38G3RGB" H 22413 10800 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 22763 10700 50  0001 C CNN
+F 3 "" H 22763 10700 50  0001 C CNN
+	1    22763 10700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK34
+U 1 1 48A358C7
+P 22763 11400
+F 0 "UNK34" H 22413 11600 59  0000 L CNN
+F 1 "B38G3RGB" H 22413 11500 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 22763 11400 50  0001 C CNN
+F 3 "" H 22763 11400 50  0001 C CNN
+	1    22763 11400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK35
+U 1 1 05B5E568
+P 22763 12100
+F 0 "UNK35" H 22413 12300 59  0000 L CNN
+F 1 "B38G3RGB" H 22413 12200 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 22763 12100 50  0001 C CNN
+F 3 "" H 22763 12100 50  0001 C CNN
+	1    22763 12100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK36
+U 1 1 D1A9E57E
+P 22763 12800
+F 0 "UNK36" H 22413 13000 59  0000 L CNN
+F 1 "B38G3RGB" H 22413 12900 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 22763 12800 50  0001 C CNN
+F 3 "" H 22763 12800 50  0001 C CNN
+	1    22763 12800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK37
+U 1 1 718D75A8
+P 24850 10700
+F 0 "UNK37" H 24500 10900 59  0000 L CNN
+F 1 "B38G3RGB" H 24500 10800 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 24850 10700 50  0001 C CNN
+F 3 "" H 24850 10700 50  0001 C CNN
+	1    24850 10700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK38
+U 1 1 1E1B3332
+P 24850 11400
+F 0 "UNK38" H 24500 11600 59  0000 L CNN
+F 1 "B38G3RGB" H 24500 11500 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 24850 11400 50  0001 C CNN
+F 3 "" H 24850 11400 50  0001 C CNN
+	1    24850 11400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK39
+U 1 1 A90D7B8E
+P 24850 12100
+F 0 "UNK39" H 24500 12300 59  0000 L CNN
+F 1 "B38G3RGB" H 24500 12200 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 24850 12100 50  0001 C CNN
+F 3 "" H 24850 12100 50  0001 C CNN
+	1    24850 12100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK40
+U 1 1 EC7FEC06
+P 24850 12800
+F 0 "UNK40" H 24500 13000 59  0000 L CNN
+F 1 "B38G3RGB" H 24500 12900 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 24850 12800 50  0001 C CNN
+F 3 "" H 24850 12800 50  0001 C CNN
+	1    24850 12800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK41
+U 1 1 2810DB5E
+P 6063 13800
+F 0 "UNK41" H 5713 14000 59  0000 L CNN
+F 1 "B38G3RGB" H 5713 13900 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 6063 13800 50  0001 C CNN
+F 3 "" H 6063 13800 50  0001 C CNN
+	1    6063 13800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK42
+U 1 1 18A515B6
+P 6063 14500
+F 0 "UNK42" H 5713 14700 59  0000 L CNN
+F 1 "B38G3RGB" H 5713 14600 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 6063 14500 50  0001 C CNN
+F 3 "" H 6063 14500 50  0001 C CNN
+	1    6063 14500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK43
+U 1 1 F3EDFC9A
+P 6063 15200
+F 0 "UNK43" H 5713 15400 59  0000 L CNN
+F 1 "B38G3RGB" H 5713 15300 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 6063 15200 50  0001 C CNN
+F 3 "" H 6063 15200 50  0001 C CNN
+	1    6063 15200
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK44
+U 1 1 BC56013F
+P 6063 15900
+F 0 "UNK44" H 5713 16100 59  0000 L CNN
+F 1 "B38G3RGB" H 5713 16000 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 6063 15900 50  0001 C CNN
+F 3 "" H 6063 15900 50  0001 C CNN
+	1    6063 15900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK45
+U 1 1 5AF8B20D
+P 8151 13800
+F 0 "UNK45" H 7801 14000 59  0000 L CNN
+F 1 "B38G3RGB" H 7801 13900 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 8151 13800 50  0001 C CNN
+F 3 "" H 8151 13800 50  0001 C CNN
+	1    8151 13800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK46
+U 1 1 3168E413
+P 8151 14500
+F 0 "UNK46" H 7801 14700 59  0000 L CNN
+F 1 "B38G3RGB" H 7801 14600 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 8151 14500 50  0001 C CNN
+F 3 "" H 8151 14500 50  0001 C CNN
+	1    8151 14500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK47
+U 1 1 0F57C75C
+P 8151 15200
+F 0 "UNK47" H 7801 15400 59  0000 L CNN
+F 1 "B38G3RGB" H 7801 15300 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 8151 15200 50  0001 C CNN
+F 3 "" H 8151 15200 50  0001 C CNN
+	1    8151 15200
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK48
+U 1 1 7D4CA0B2
+P 8151 15900
+F 0 "UNK48" H 7801 16100 59  0000 L CNN
+F 1 "B38G3RGB" H 7801 16000 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 8151 15900 50  0001 C CNN
+F 3 "" H 8151 15900 50  0001 C CNN
+	1    8151 15900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK49
+U 1 1 F7049DE8
+P 10238 13800
+F 0 "UNK49" H 9888 14000 59  0000 L CNN
+F 1 "B38G3RGB" H 9888 13900 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 10238 13800 50  0001 C CNN
+F 3 "" H 10238 13800 50  0001 C CNN
+	1    10238 13800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK50
+U 1 1 E9D91EAC
+P 10238 14500
+F 0 "UNK50" H 9888 14700 59  0000 L CNN
+F 1 "B38G3RGB" H 9888 14600 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 10238 14500 50  0001 C CNN
+F 3 "" H 10238 14500 50  0001 C CNN
+	1    10238 14500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK51
+U 1 1 50D0AFB0
+P 10238 15200
+F 0 "UNK51" H 9888 15400 59  0000 L CNN
+F 1 "B38G3RGB" H 9888 15300 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 10238 15200 50  0001 C CNN
+F 3 "" H 10238 15200 50  0001 C CNN
+	1    10238 15200
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK52
+U 1 1 4FC2E42D
+P 10238 15900
+F 0 "UNK52" H 9888 16100 59  0000 L CNN
+F 1 "B38G3RGB" H 9888 16000 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 10238 15900 50  0001 C CNN
+F 3 "" H 10238 15900 50  0001 C CNN
+	1    10238 15900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK53
+U 1 1 2AF3B8B2
+P 12326 13800
+F 0 "UNK53" H 11976 14000 59  0000 L CNN
+F 1 "B38G3RGB" H 11976 13900 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 12326 13800 50  0001 C CNN
+F 3 "" H 12326 13800 50  0001 C CNN
+	1    12326 13800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK54
+U 1 1 A8A52C9B
+P 12326 14500
+F 0 "UNK54" H 11976 14700 59  0000 L CNN
+F 1 "B38G3RGB" H 11976 14600 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 12326 14500 50  0001 C CNN
+F 3 "" H 12326 14500 50  0001 C CNN
+	1    12326 14500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK55
+U 1 1 6BB0D821
+P 12326 15200
+F 0 "UNK55" H 11976 15400 59  0000 L CNN
+F 1 "B38G3RGB" H 11976 15300 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 12326 15200 50  0001 C CNN
+F 3 "" H 12326 15200 50  0001 C CNN
+	1    12326 15200
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK56
+U 1 1 D30BF528
+P 12326 15900
+F 0 "UNK56" H 11976 16100 59  0000 L CNN
+F 1 "B38G3RGB" H 11976 16000 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 12326 15900 50  0001 C CNN
+F 3 "" H 12326 15900 50  0001 C CNN
+	1    12326 15900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK57
+U 1 1 FBF12E96
+P 14413 13800
+F 0 "UNK57" H 14063 14000 59  0000 L CNN
+F 1 "B38G3RGB" H 14063 13900 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 14413 13800 50  0001 C CNN
+F 3 "" H 14413 13800 50  0001 C CNN
+	1    14413 13800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK58
+U 1 1 57A91BD5
+P 14413 14500
+F 0 "UNK58" H 14063 14700 59  0000 L CNN
+F 1 "B38G3RGB" H 14063 14600 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 14413 14500 50  0001 C CNN
+F 3 "" H 14413 14500 50  0001 C CNN
+	1    14413 14500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK59
+U 1 1 7F36D627
+P 14413 15200
+F 0 "UNK59" H 14063 15400 59  0000 L CNN
+F 1 "B38G3RGB" H 14063 15300 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 14413 15200 50  0001 C CNN
+F 3 "" H 14413 15200 50  0001 C CNN
+	1    14413 15200
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK60
+U 1 1 F7C49F97
+P 14413 15900
+F 0 "UNK60" H 14063 16100 59  0000 L CNN
+F 1 "B38G3RGB" H 14063 16000 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 14413 15900 50  0001 C CNN
+F 3 "" H 14413 15900 50  0001 C CNN
+	1    14413 15900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK61
+U 1 1 9A8AD01C
+P 16500 13800
+F 0 "UNK61" H 16150 14000 59  0000 L CNN
+F 1 "B38G3RGB" H 16150 13900 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 16500 13800 50  0001 C CNN
+F 3 "" H 16500 13800 50  0001 C CNN
+	1    16500 13800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK62
+U 1 1 13C8CBF9
+P 16500 14500
+F 0 "UNK62" H 16150 14700 59  0000 L CNN
+F 1 "B38G3RGB" H 16150 14600 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 16500 14500 50  0001 C CNN
+F 3 "" H 16500 14500 50  0001 C CNN
+	1    16500 14500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK63
+U 1 1 58EE6EA3
+P 16500 15200
+F 0 "UNK63" H 16150 15400 59  0000 L CNN
+F 1 "B38G3RGB" H 16150 15300 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 16500 15200 50  0001 C CNN
+F 3 "" H 16500 15200 50  0001 C CNN
+	1    16500 15200
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK64
+U 1 1 4761E2BE
+P 16500 15900
+F 0 "UNK64" H 16150 16100 59  0000 L CNN
+F 1 "B38G3RGB" H 16150 16000 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 16500 15900 50  0001 C CNN
+F 3 "" H 16500 15900 50  0001 C CNN
+	1    16500 15900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK65
+U 1 1 ED8D1FEA
+P 18588 13800
+F 0 "UNK65" H 18238 14000 59  0000 L CNN
+F 1 "B38G3RGB" H 18238 13900 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 18588 13800 50  0001 C CNN
+F 3 "" H 18588 13800 50  0001 C CNN
+	1    18588 13800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK66
+U 1 1 0A6B7C60
+P 18588 14500
+F 0 "UNK66" H 18238 14700 59  0000 L CNN
+F 1 "B38G3RGB" H 18238 14600 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 18588 14500 50  0001 C CNN
+F 3 "" H 18588 14500 50  0001 C CNN
+	1    18588 14500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK67
+U 1 1 8172B4A2
+P 18588 15200
+F 0 "UNK67" H 18238 15400 59  0000 L CNN
+F 1 "B38G3RGB" H 18238 15300 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 18588 15200 50  0001 C CNN
+F 3 "" H 18588 15200 50  0001 C CNN
+	1    18588 15200
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK68
+U 1 1 559DAD8F
+P 18588 15900
+F 0 "UNK68" H 18238 16100 59  0000 L CNN
+F 1 "B38G3RGB" H 18238 16000 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 18588 15900 50  0001 C CNN
+F 3 "" H 18588 15900 50  0001 C CNN
+	1    18588 15900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK69
+U 1 1 26B462CB
+P 20675 13800
+F 0 "UNK69" H 20325 14000 59  0000 L CNN
+F 1 "B38G3RGB" H 20325 13900 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 20675 13800 50  0001 C CNN
+F 3 "" H 20675 13800 50  0001 C CNN
+	1    20675 13800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK70
+U 1 1 4A63AD8F
+P 20675 14500
+F 0 "UNK70" H 20325 14700 59  0000 L CNN
+F 1 "B38G3RGB" H 20325 14600 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 20675 14500 50  0001 C CNN
+F 3 "" H 20675 14500 50  0001 C CNN
+	1    20675 14500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK71
+U 1 1 FFD6C952
+P 20675 15200
+F 0 "UNK71" H 20325 15400 59  0000 L CNN
+F 1 "B38G3RGB" H 20325 15300 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 20675 15200 50  0001 C CNN
+F 3 "" H 20675 15200 50  0001 C CNN
+	1    20675 15200
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK72
+U 1 1 7E2FFC3A
+P 20675 15900
+F 0 "UNK72" H 20325 16100 59  0000 L CNN
+F 1 "B38G3RGB" H 20325 16000 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 20675 15900 50  0001 C CNN
+F 3 "" H 20675 15900 50  0001 C CNN
+	1    20675 15900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK73
+U 1 1 16EEF932
+P 22763 13800
+F 0 "UNK73" H 22413 14000 59  0000 L CNN
+F 1 "B38G3RGB" H 22413 13900 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 22763 13800 50  0001 C CNN
+F 3 "" H 22763 13800 50  0001 C CNN
+	1    22763 13800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK74
+U 1 1 18B544F0
+P 22763 14500
+F 0 "UNK74" H 22413 14700 59  0000 L CNN
+F 1 "B38G3RGB" H 22413 14600 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 22763 14500 50  0001 C CNN
+F 3 "" H 22763 14500 50  0001 C CNN
+	1    22763 14500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK75
+U 1 1 99AD21FA
+P 22763 15200
+F 0 "UNK75" H 22413 15400 59  0000 L CNN
+F 1 "B38G3RGB" H 22413 15300 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 22763 15200 50  0001 C CNN
+F 3 "" H 22763 15200 50  0001 C CNN
+	1    22763 15200
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK76
+U 1 1 45513B3C
+P 22763 15900
+F 0 "UNK76" H 22413 16100 59  0000 L CNN
+F 1 "B38G3RGB" H 22413 16000 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 22763 15900 50  0001 C CNN
+F 3 "" H 22763 15900 50  0001 C CNN
+	1    22763 15900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK77
+U 1 1 7C400B51
+P 24850 13800
+F 0 "UNK77" H 24500 14000 59  0000 L CNN
+F 1 "B38G3RGB" H 24500 13900 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 24850 13800 50  0001 C CNN
+F 3 "" H 24850 13800 50  0001 C CNN
+	1    24850 13800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK78
+U 1 1 6A27C4D0
+P 24850 14500
+F 0 "UNK78" H 24500 14700 59  0000 L CNN
+F 1 "B38G3RGB" H 24500 14600 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 24850 14500 50  0001 C CNN
+F 3 "" H 24850 14500 50  0001 C CNN
+	1    24850 14500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK79
+U 1 1 20741406
+P 24850 15200
+F 0 "UNK79" H 24500 15400 59  0000 L CNN
+F 1 "B38G3RGB" H 24500 15300 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 24850 15200 50  0001 C CNN
+F 3 "" H 24850 15200 50  0001 C CNN
+	1    24850 15200
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK80
+U 1 1 EB85B088
+P 24850 15900
+F 0 "UNK80" H 24500 16100 59  0000 L CNN
+F 1 "B38G3RGB" H 24500 16000 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 24850 15900 50  0001 C CNN
+F 3 "" H 24850 15900 50  0001 C CNN
+	1    24850 15900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK81
+U 1 1 EEF55E36
+P 6063 16900
+F 0 "UNK81" H 5713 17100 59  0000 L CNN
+F 1 "B38G3RGB" H 5713 17000 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 6063 16900 50  0001 C CNN
+F 3 "" H 6063 16900 50  0001 C CNN
+	1    6063 16900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK82
+U 1 1 5DF3E54A
+P 6063 17600
+F 0 "UNK82" H 5713 17800 59  0000 L CNN
+F 1 "B38G3RGB" H 5713 17700 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 6063 17600 50  0001 C CNN
+F 3 "" H 6063 17600 50  0001 C CNN
+	1    6063 17600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK83
+U 1 1 D1F7B8A4
+P 6063 18300
+F 0 "UNK83" H 5713 18500 59  0000 L CNN
+F 1 "B38G3RGB" H 5713 18400 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 6063 18300 50  0001 C CNN
+F 3 "" H 6063 18300 50  0001 C CNN
+	1    6063 18300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK84
+U 1 1 D5A677B9
+P 6063 19000
+F 0 "UNK84" H 5713 19200 59  0000 L CNN
+F 1 "B38G3RGB" H 5713 19100 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 6063 19000 50  0001 C CNN
+F 3 "" H 6063 19000 50  0001 C CNN
+	1    6063 19000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK85
+U 1 1 0EA62429
+P 8151 16900
+F 0 "UNK85" H 7801 17100 59  0000 L CNN
+F 1 "B38G3RGB" H 7801 17000 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 8151 16900 50  0001 C CNN
+F 3 "" H 8151 16900 50  0001 C CNN
+	1    8151 16900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK86
+U 1 1 615AD283
+P 8151 17600
+F 0 "UNK86" H 7801 17800 59  0000 L CNN
+F 1 "B38G3RGB" H 7801 17700 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 8151 17600 50  0001 C CNN
+F 3 "" H 8151 17600 50  0001 C CNN
+	1    8151 17600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK87
+U 1 1 468F00D7
+P 8151 18300
+F 0 "UNK87" H 7801 18500 59  0000 L CNN
+F 1 "B38G3RGB" H 7801 18400 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 8151 18300 50  0001 C CNN
+F 3 "" H 8151 18300 50  0001 C CNN
+	1    8151 18300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK88
+U 1 1 2A2B2769
+P 8151 19000
+F 0 "UNK88" H 7801 19200 59  0000 L CNN
+F 1 "B38G3RGB" H 7801 19100 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 8151 19000 50  0001 C CNN
+F 3 "" H 8151 19000 50  0001 C CNN
+	1    8151 19000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK89
+U 1 1 9E2E6245
+P 10238 16900
+F 0 "UNK89" H 9888 17100 59  0000 L CNN
+F 1 "B38G3RGB" H 9888 17000 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 10238 16900 50  0001 C CNN
+F 3 "" H 10238 16900 50  0001 C CNN
+	1    10238 16900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK90
+U 1 1 FBE68C31
+P 10238 17600
+F 0 "UNK90" H 9888 17800 59  0000 L CNN
+F 1 "B38G3RGB" H 9888 17700 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 10238 17600 50  0001 C CNN
+F 3 "" H 10238 17600 50  0001 C CNN
+	1    10238 17600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK91
+U 1 1 F04DA4F1
+P 10238 18300
+F 0 "UNK91" H 9888 18500 59  0000 L CNN
+F 1 "B38G3RGB" H 9888 18400 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 10238 18300 50  0001 C CNN
+F 3 "" H 10238 18300 50  0001 C CNN
+	1    10238 18300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK92
+U 1 1 74A4758F
+P 10238 19000
+F 0 "UNK92" H 9888 19200 59  0000 L CNN
+F 1 "B38G3RGB" H 9888 19100 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 10238 19000 50  0001 C CNN
+F 3 "" H 10238 19000 50  0001 C CNN
+	1    10238 19000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK93
+U 1 1 FE9C88A5
+P 12326 16900
+F 0 "UNK93" H 11976 17100 59  0000 L CNN
+F 1 "B38G3RGB" H 11976 17000 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 12326 16900 50  0001 C CNN
+F 3 "" H 12326 16900 50  0001 C CNN
+	1    12326 16900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK94
+U 1 1 1550C80E
+P 12326 17600
+F 0 "UNK94" H 11976 17800 59  0000 L CNN
+F 1 "B38G3RGB" H 11976 17700 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 12326 17600 50  0001 C CNN
+F 3 "" H 12326 17600 50  0001 C CNN
+	1    12326 17600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK95
+U 1 1 EE97A3A8
+P 12326 18300
+F 0 "UNK95" H 11976 18500 59  0000 L CNN
+F 1 "B38G3RGB" H 11976 18400 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 12326 18300 50  0001 C CNN
+F 3 "" H 12326 18300 50  0001 C CNN
+	1    12326 18300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK96
+U 1 1 AD6A3921
+P 12326 19000
+F 0 "UNK96" H 11976 19200 59  0000 L CNN
+F 1 "B38G3RGB" H 11976 19100 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 12326 19000 50  0001 C CNN
+F 3 "" H 12326 19000 50  0001 C CNN
+	1    12326 19000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK97
+U 1 1 54B7D78D
+P 14413 16900
+F 0 "UNK97" H 14063 17100 59  0000 L CNN
+F 1 "B38G3RGB" H 14063 17000 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 14413 16900 50  0001 C CNN
+F 3 "" H 14413 16900 50  0001 C CNN
+	1    14413 16900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK98
+U 1 1 4425CA6C
+P 14413 17600
+F 0 "UNK98" H 14063 17800 59  0000 L CNN
+F 1 "B38G3RGB" H 14063 17700 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 14413 17600 50  0001 C CNN
+F 3 "" H 14413 17600 50  0001 C CNN
+	1    14413 17600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK99
+U 1 1 475ED7D5
+P 14413 18300
+F 0 "UNK99" H 14063 18500 59  0000 L CNN
+F 1 "B38G3RGB" H 14063 18400 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 14413 18300 50  0001 C CNN
+F 3 "" H 14413 18300 50  0001 C CNN
+	1    14413 18300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK100
+U 1 1 7B9A1ED9
+P 14413 19000
+F 0 "UNK100" H 14063 19200 59  0000 L CNN
+F 1 "B38G3RGB" H 14063 19100 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 14413 19000 50  0001 C CNN
+F 3 "" H 14413 19000 50  0001 C CNN
+	1    14413 19000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK101
+U 1 1 482293B4
+P 16500 16900
+F 0 "UNK101" H 16150 17100 59  0000 L CNN
+F 1 "B38G3RGB" H 16150 17000 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 16500 16900 50  0001 C CNN
+F 3 "" H 16500 16900 50  0001 C CNN
+	1    16500 16900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK102
+U 1 1 0E1F3C24
+P 16500 17600
+F 0 "UNK102" H 16150 17800 59  0000 L CNN
+F 1 "B38G3RGB" H 16150 17700 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 16500 17600 50  0001 C CNN
+F 3 "" H 16500 17600 50  0001 C CNN
+	1    16500 17600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK103
+U 1 1 85959BC3
+P 16500 18300
+F 0 "UNK103" H 16150 18500 59  0000 L CNN
+F 1 "B38G3RGB" H 16150 18400 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 16500 18300 50  0001 C CNN
+F 3 "" H 16500 18300 50  0001 C CNN
+	1    16500 18300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK104
+U 1 1 359C3581
+P 16500 19000
+F 0 "UNK104" H 16150 19200 59  0000 L CNN
+F 1 "B38G3RGB" H 16150 19100 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 16500 19000 50  0001 C CNN
+F 3 "" H 16500 19000 50  0001 C CNN
+	1    16500 19000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK105
+U 1 1 FA7ED658
+P 18588 16900
+F 0 "UNK105" H 18238 17100 59  0000 L CNN
+F 1 "B38G3RGB" H 18238 17000 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 18588 16900 50  0001 C CNN
+F 3 "" H 18588 16900 50  0001 C CNN
+	1    18588 16900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK106
+U 1 1 7D7EA1C5
+P 18588 17600
+F 0 "UNK106" H 18238 17800 59  0000 L CNN
+F 1 "B38G3RGB" H 18238 17700 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 18588 17600 50  0001 C CNN
+F 3 "" H 18588 17600 50  0001 C CNN
+	1    18588 17600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK107
+U 1 1 EC5727E5
+P 18588 18300
+F 0 "UNK107" H 18238 18500 59  0000 L CNN
+F 1 "B38G3RGB" H 18238 18400 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 18588 18300 50  0001 C CNN
+F 3 "" H 18588 18300 50  0001 C CNN
+	1    18588 18300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK108
+U 1 1 18347529
+P 18588 19000
+F 0 "UNK108" H 18238 19200 59  0000 L CNN
+F 1 "B38G3RGB" H 18238 19100 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 18588 19000 50  0001 C CNN
+F 3 "" H 18588 19000 50  0001 C CNN
+	1    18588 19000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK109
+U 1 1 19F6D38C
+P 20675 16900
+F 0 "UNK109" H 20325 17100 59  0000 L CNN
+F 1 "B38G3RGB" H 20325 17000 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 20675 16900 50  0001 C CNN
+F 3 "" H 20675 16900 50  0001 C CNN
+	1    20675 16900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK110
+U 1 1 4B20D3EE
+P 20675 17600
+F 0 "UNK110" H 20325 17800 59  0000 L CNN
+F 1 "B38G3RGB" H 20325 17700 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 20675 17600 50  0001 C CNN
+F 3 "" H 20675 17600 50  0001 C CNN
+	1    20675 17600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK111
+U 1 1 178643C2
+P 20675 18300
+F 0 "UNK111" H 20325 18500 59  0000 L CNN
+F 1 "B38G3RGB" H 20325 18400 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 20675 18300 50  0001 C CNN
+F 3 "" H 20675 18300 50  0001 C CNN
+	1    20675 18300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK112
+U 1 1 D4603BBA
+P 20675 19000
+F 0 "UNK112" H 20325 19200 59  0000 L CNN
+F 1 "B38G3RGB" H 20325 19100 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 20675 19000 50  0001 C CNN
+F 3 "" H 20675 19000 50  0001 C CNN
+	1    20675 19000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK113
+U 1 1 B152B76C
+P 22763 16900
+F 0 "UNK113" H 22413 17100 59  0000 L CNN
+F 1 "B38G3RGB" H 22413 17000 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 22763 16900 50  0001 C CNN
+F 3 "" H 22763 16900 50  0001 C CNN
+	1    22763 16900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK114
+U 1 1 CA4B7457
+P 22763 17600
+F 0 "UNK114" H 22413 17800 59  0000 L CNN
+F 1 "B38G3RGB" H 22413 17700 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 22763 17600 50  0001 C CNN
+F 3 "" H 22763 17600 50  0001 C CNN
+	1    22763 17600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK115
+U 1 1 2978F81E
+P 22763 18300
+F 0 "UNK115" H 22413 18500 59  0000 L CNN
+F 1 "B38G3RGB" H 22413 18400 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 22763 18300 50  0001 C CNN
+F 3 "" H 22763 18300 50  0001 C CNN
+	1    22763 18300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK116
+U 1 1 858A573B
+P 22763 19000
+F 0 "UNK116" H 22413 19200 59  0000 L CNN
+F 1 "B38G3RGB" H 22413 19100 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 22763 19000 50  0001 C CNN
+F 3 "" H 22763 19000 50  0001 C CNN
+	1    22763 19000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK117
+U 1 1 8546F59E
+P 24850 16900
+F 0 "UNK117" H 24500 17100 59  0000 L CNN
+F 1 "B38G3RGB" H 24500 17000 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 24850 16900 50  0001 C CNN
+F 3 "" H 24850 16900 50  0001 C CNN
+	1    24850 16900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK118
+U 1 1 69C2B214
+P 24850 17600
+F 0 "UNK118" H 24500 17800 59  0000 L CNN
+F 1 "B38G3RGB" H 24500 17700 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 24850 17600 50  0001 C CNN
+F 3 "" H 24850 17600 50  0001 C CNN
+	1    24850 17600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK119
+U 1 1 59B96C8F
+P 24850 18300
+F 0 "UNK119" H 24500 18500 59  0000 L CNN
+F 1 "B38G3RGB" H 24500 18400 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 24850 18300 50  0001 C CNN
+F 3 "" H 24850 18300 50  0001 C CNN
+	1    24850 18300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:B38G3RGB UNK120
+U 1 1 BB39410B
+P 24850 19000
+F 0 "UNK120" H 24500 19200 59  0000 L CNN
+F 1 "B38G3RGB" H 24500 19100 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:B38G3RGB" H 24850 19000 50  0001 C CNN
+F 3 "" H 24850 19000 50  0001 C CNN
+	1    24850 19000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:C-EUC0402 C2B1
+U 1 1 5D696784
+P 1400 4300
+F 0 "C2B1" H 1460 4315 59  0000 L BNN
+F 1 "10uF" H 1460 4115 59  0000 L BNN
+F 2 "LEDSubMatrixHighDensity_v3:C0402" H 1400 4300 50  0001 C CNN
+F 3 "" H 1400 4300 50  0001 C CNN
+	1    1400 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:C-EUC0402 C3B1
+U 1 1 61E45B41
+P 1800 4300
+F 0 "C3B1" H 1860 4315 59  0000 L BNN
+F 1 "10uF" H 1860 4115 59  0000 L BNN
+F 2 "LEDSubMatrixHighDensity_v3:C0402" H 1800 4300 50  0001 C CNN
+F 3 "" H 1800 4300 50  0001 C CNN
+	1    1800 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:C-EUC0402 C4B1
+U 1 1 E3FF790C
+P 2200 4300
+F 0 "C4B1" H 2260 4315 59  0000 L BNN
+F 1 "10uF" H 2260 4115 59  0000 L BNN
+F 2 "LEDSubMatrixHighDensity_v3:C0402" H 2200 4300 50  0001 C CNN
+F 3 "" H 2200 4300 50  0001 C CNN
+	1    2200 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:C-EUC0402 C5B1
+U 1 1 DA9ADA5E
+P 2600 4300
+F 0 "C5B1" H 2660 4315 59  0000 L BNN
+F 1 "10uF" H 2660 4115 59  0000 L BNN
+F 2 "LEDSubMatrixHighDensity_v3:C0402" H 2600 4300 50  0001 C CNN
+F 3 "" H 2600 4300 50  0001 C CNN
+	1    2600 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:C-EUC0402 C6B1
+U 1 1 3598BB2E
+P 3000 4300
+F 0 "C6B1" H 3060 4315 59  0000 L BNN
+F 1 "10uF" H 3060 4115 59  0000 L BNN
+F 2 "LEDSubMatrixHighDensity_v3:C0402" H 3000 4300 50  0001 C CNN
+F 3 "" H 3000 4300 50  0001 C CNN
+	1    3000 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:C-EUC0402 C7B1
+U 1 1 BC510631
+P 3400 4300
+F 0 "C7B1" H 3460 4315 59  0000 L BNN
+F 1 "10uF" H 3460 4115 59  0000 L BNN
+F 2 "LEDSubMatrixHighDensity_v3:C0402" H 3400 4300 50  0001 C CNN
+F 3 "" H 3400 4300 50  0001 C CNN
+	1    3400 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:C-EUC0402 C8B1
+U 1 1 C5DD922D
+P 3800 4300
+F 0 "C8B1" H 3860 4315 59  0000 L BNN
+F 1 "10uF" H 3860 4115 59  0000 L BNN
+F 2 "LEDSubMatrixHighDensity_v3:C0402" H 3800 4300 50  0001 C CNN
+F 3 "" H 3800 4300 50  0001 C CNN
+	1    3800 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:C-EUC0402 C1B1
+U 1 1 F96C70F0
+P 1000 4300
+F 0 "C1B1" H 1060 4315 59  0000 L BNN
+F 1 "10uF" H 1060 4115 59  0000 L BNN
+F 2 "LEDSubMatrixHighDensity_v3:C0402" H 1000 4300 50  0001 C CNN
+F 3 "" H 1000 4300 50  0001 C CNN
+	1    1000 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:SN74LVC1G34DBVR IC9
+U 1 1 EF9D2FAE
+P 1600 6100
+F 0 "IC9" H 2550 6400 59  0000 L CNN
+F 1 "SN74LVC1G34DBVR" H 2550 6300 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:SOT95P280X145-5N" H 1600 6100 50  0001 C CNN
+F 3 "" H 1600 6100 50  0001 C CNN
+	1    1600 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:SN74LVC1G34DBVR IC10
+U 1 1 948249DA
+P 1600 6900
+F 0 "IC10" H 2550 7200 59  0000 L CNN
+F 1 "SN74LVC1G34DBVR" H 2550 7100 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:SOT95P280X145-5N" H 1600 6900 50  0001 C CNN
+F 3 "" H 1600 6900 50  0001 C CNN
+	1    1600 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:SN74LVC1G34DBVR IC11
+U 1 1 BE07FEFE
+P 1600 7600
+F 0 "IC11" H 2550 7900 59  0000 L CNN
+F 1 "SN74LVC1G34DBVR" H 2550 7800 59  0000 L CNN
+F 2 "LEDSubMatrixHighDensity_v3:SOT95P280X145-5N" H 1600 7600 50  0001 C CNN
+F 3 "" H 1600 7600 50  0001 C CNN
+	1    1600 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:C-EUC0402 C28
+U 1 1 281532CD
+P 1100 4800
+F 0 "C28" H 1160 4815 59  0000 L BNN
+F 1 "0.1u" H 1160 4615 59  0000 L BNN
+F 2 "LEDSubMatrixHighDensity_v3:C0402" H 1100 4800 50  0001 C CNN
+F 3 "" H 1100 4800 50  0001 C CNN
+	1    1100 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:C-EUC0402 C29
+U 1 1 C19E3066
+P 2400 4800
+F 0 "C29" H 2460 4815 59  0000 L BNN
+F 1 "4.7u" H 2460 4615 59  0000 L BNN
+F 2 "LEDSubMatrixHighDensity_v3:C0402" H 2400 4800 50  0001 C CNN
+F 3 "" H 2400 4800 50  0001 C CNN
+	1    2400 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:C-EUC0402 C30
+U 1 1 93F6A104
+P 1500 4800
+F 0 "C30" H 1560 4815 59  0000 L BNN
+F 1 "0.1u" H 1560 4615 59  0000 L BNN
+F 2 "LEDSubMatrixHighDensity_v3:C0402" H 1500 4800 50  0001 C CNN
+F 3 "" H 1500 4800 50  0001 C CNN
+	1    1500 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:C-EUC0402 C31
+U 1 1 7A9D26A7
+P 2800 4800
+F 0 "C31" H 2860 4815 59  0000 L BNN
+F 1 "4.7u" H 2860 4615 59  0000 L BNN
+F 2 "LEDSubMatrixHighDensity_v3:C0402" H 2800 4800 50  0001 C CNN
+F 3 "" H 2800 4800 50  0001 C CNN
+	1    2800 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:C-EUC0402 C32
+U 1 1 753865DD
+P 1900 4800
+F 0 "C32" H 1960 4815 59  0000 L BNN
+F 1 "0.1u" H 1960 4615 59  0000 L BNN
+F 2 "LEDSubMatrixHighDensity_v3:C0402" H 1900 4800 50  0001 C CNN
+F 3 "" H 1900 4800 50  0001 C CNN
+	1    1900 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDSubMatrixHighDensity_v3-eagle-import:C-EUC0402 C33
+U 1 1 B641C936
+P 3200 4800
+F 0 "C33" H 3260 4815 59  0000 L BNN
+F 1 "4.7u" H 3260 4615 59  0000 L BNN
+F 2 "LEDSubMatrixHighDensity_v3:C0402" H 3200 4800 50  0001 C CNN
+F 3 "" H 3200 4800 50  0001 C CNN
+	1    3200 4800
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
